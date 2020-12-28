@@ -5,19 +5,19 @@
 <title>Carla Lyrics</title>
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Itim');
-	body {margin: 0px; font-family: 'Itim', 'Verdana', sans-serif; font-size: 16px; text-align: center; color: white; background: violet linear-gradient(45deg, transparent, #FFF8) fixed;}
+	body {margin: 0px; font-family: 'Itim', 'Verdana', sans-serif; font-size: 16px; text-align: center; color: #FFF; background: violet linear-gradient(45deg, transparent, #FFF8) fixed;}
 	h1, h2 {margin: 0px; font-size: 30px;}
 		h1 {display: none;}
 	a {color: inherit; text-decoration: none;}
 		a:hover {text-decoration: underline;}
-	a[id], p {display: block; width: 80%; margin: 10px 10px 0px 10px; padding: 10px 0px; border-radius: 30px; background-color: #000D; float: right;}
+	a[id], p {display: block; width: 80%; margin: 10px 10px 0px 10px; padding: 10px 0px; border-radius: 30px; background-color: #000; float: right;}
 		a[id]:not(:target), a[id]:not(:target)+p {display: none;}
 		a[id] {line-height: 40px; outline-style: none; transition: background-color 1s, box-shadow 1s;}
-			a[id]:hover {background-color: hotpink; box-shadow: 0px 0px 10px white; transition: initial;}
+			a[id]:hover {background-color: hotpink; box-shadow: 0px 0px 10px #FFF; transition: initial;}
 			a[id].active {background-image: linear-gradient(90deg, pink, red, pink); background-size: 200%; animation: 3s a1 linear infinite; pointer-events: none;}
 				@keyframes a1 {0% {background-position: 0%;} 100% {background-position: 200%;}}
 			.loading>a[id] {opacity: 0.5; pointer-events: none;}
-			:not(.loading)>a[id]:not(.active)>h2::before {content: '►'; margin-right: 10px; padding: 5px 10px; border-radius: 10px; color: black; background-color: white;}
+			:not(.loading)>a[id]:not(.active)>h2::before {content: '►'; margin-right: 10px; padding: 5px 10px; border-radius: 10px; color: #000; background-color: #FFF;}
 		p {height: calc(100vh - 110px); font-size: 19px; overflow-y: scroll;}
 			b, i {display: block;}
 			p.active>* {display: none; font-size: 60px; text-shadow: 0px 0px 10px yellow;}
@@ -26,13 +26,14 @@
 			b:not(:first-child):not(.active) {border-top: 1px solid #FFF6;}
 			i {margin-bottom: 5px; color: #CCC;}
 			p.active>b.active::after {content: ''; display: block; width: 75%; height: 10px; margin: 20px auto; border-radius: 10px; background-color: #FFF4;}
-	ul {display: block; height: 100vh; min-width: 200px; margin: 0px; padding: 0px; background-color: #0007; overflow-y: scroll;}
-		ul>li {display: inline-block; max-width: 300px; margin: 10px; box-shadow: 0px 0px 10px black; text-align: initial; vertical-align: top; background: slategray linear-gradient(45deg, transparent, #FFF9);}
-			.c1 {background-color: darkorange;}
-			.c2 {background-color: lightblue;}
-			.c3 {background-color: purple;}
-			.c4 {background-color: green;}
-		ul img {width: 100%;}
+	ul {display: block; height: 100vh; min-width: 200px; margin: 0px; padding: 0px; background-color: #0005; overflow-y: scroll;}
+		ul>li {display: inline-block; max-width: 300px; margin: 10px; box-shadow: 0px 0px 10px #000; background-color: #333; vertical-align: top;}
+			.c1 {background-color: #D75;}
+			.c2 {background-color: #9BD;}
+			.c3 {background-color: #737;}
+			.c4 {background-color: #482;}
+		ul img {display: block; width: 100%;}
+		ul ol {padding: 5px 5px 5px 40px; text-align: initial; background-image: linear-gradient(45deg, transparent, #FFF6);}
 	iframe {display: block; position: fixed; top: 0px; width: 100vw; height: 100vh; border-style: none; background-color: #000D;}
 		iframe:not(.active) {visibility: hidden;}
 </style>
@@ -507,10 +508,10 @@
 
 <a id="17" href="http://youtu.be/QSRnvuM0Ux0"><h2>Dans ma bulle (In my bubble)</h2></a>
 <p data-time="[0, 10.5, 20.5, 31.5, 42, 47.5, 53.5, 64, 74, 84.5, 95, 101, 118, 128.5, 138, 148.5, 154, 159.5, 165]">
-	<b>Je laisse je laisse les mots, qui blessent la sous la peau, je laisse passer sur ma joue, les larmes qui n'en valent pas le coup.</b>
-	<i>I let go of the words, that hurt under the skin, I let go by on my cheek, the tears that aren't worth it.</i>
-	<b>Je passe je passe mon temps, a regarder l'horizon, je laisse parler tous ces gens, qui se posent trop de questions.</b>
-	<i>I spend all of my time, looking at the horizon, I let talk all the people, that ask too many questions.</i>
+	<b>Je laisse, je laisse les mots, qui blessent la sous la peau, je laisse passer sur ma joue, les larmes qui n'en valent pas le coup.</b>
+	<i>I let go, I let go of the words, that hurt under the skin, I let go by on my cheek, the tears that aren't worth it.</i>
+	<b>Je passe, je passe mon temps, a regarder l'horizon, je laisse parler tous ces gens, qui se posent trop de questions.</b>
+	<i>I spend, I spend all my time, looking at the horizon, I let talk all the people, who ask themselves too many questions.</i>
 	<b>Y'a des jours comme ca, ou le monde tourne sans moi, y'a des jours comme ca, ou je ne veux pas sortir de la.</b>
 	<i>There are days like this, when the world turns without me, there are days like this, when I don't want to leave here.</i>
 	<b>Dans ma bulle ohe, dans ma bulle c'est rempli d'etoiles, dans ma bulle ohe, dans ma bulle il fait jamais froid.</b>
@@ -521,8 +522,8 @@
 	<i>Whoa, yeah-yeah, yeah-yeah, whoa.</i>
 	<b>Quand tout est gris dehors, je chante sur des accords, et la pluie sur mes fenetres, se change en milliers de paillettes.</b>
 	<i>When everything is grey outside, I sing to some chords, and the raindrops on my windows, change into thousands of sparkles.</i>
-	<b>Je traque je traque les sourires, de tous les gens qui passent, j'laisse de cote les soupirs, les regrets, les impasses.</b>
-	<i>I follow the smiles, of everyone who passes by, I set aside the sighs, the regrets, the impasses.</i>
+	<b>Je traque, je traque les sourires, de tous les gens qui passent, j'laisse de cote les soupirs, les regrets, les impasses.</b>
+	<i>I follow, I follow the smiles, of everyone who passes by, I set aside the sighs, the regrets, the impasses.</i>
 	<b>Y'a des jours comme ca, ou le monde tourne sans moi, y'a des jours comme ca, ou je ne veux pas sortir de la.</b>
 	<i>There are days like this, when the world turns without me, there are days like this, when I don't want to leave here.</i>
 	<b>Dans ma bulle ohe, dans ma bulle c'est rempli d'etoiles, dans ma bulle ohe, dans ma bulle il fait jamais froid.</b>
@@ -548,13 +549,13 @@
 </p>
 
 <a id="18" href="http://youtu.be/wJTdxlszoV8"><h2>Batterie faible (Battery low)</h2></a>
-<p data-time="[4, 16.5, 29.5, 38.5, 51.5, 64.5, 77.5, 90, 99, 111.5, 124.5, 137.5]">
+<p data-time="[4, 16.5, 29.5, 38.5, 51.5, 64.5, 77.5, 90, 99, 111.5, 124.5, 137.5, 142]">
 	<b>On rit assis sur les boulevards, on y croit, on fait comme-ci et puis on prie comme s'il n'etait jamais trop tard.</b>
 	<i>We laugh sitting on the boulevards, we believe in it, we do like this and then we pray as if it was never too late.</i>
 	<b>On s'y voit dans l'allure des phares, serrez-la contre quoi, on ne sait pas pourquoi mais la nuit on se marre.</b>
 	<i>We see it in the appearance of the headlights, squeeze it against what, we don't know why but at night we laugh.</i>
 	<b>Mais au fond de nos coeurs electriques, on cherche le bonheur, on attend le declic.</b>
-	<i>But in the back of our electric hearts, we look for happiness, we wait for the click.</i>
+	<i>But in the back of our electric hearts, we're looking for happiness, we're waiting for the click.</i>
 	<b>Batterie faible, on est de ceux qui attendent l'etincelle, mais y'a personne pour repondre a l'appel, de la generation.</b>
 	<i>Battery low, we're the ones who are waiting for the spark, but there's noone to answer the call, of the generation.</i>
 	<b>Batterie faible, on est de ceux qui attendent l'etincelle, mais y'a personne pour repondre a l'appel, de la generation.</b>
@@ -564,15 +565,17 @@
 	<b>On s'recharge les poches trouees, parfois on appelle a l'aide, puis on rebaisse le nez, vers ces ecrans qui obsedent.</b>
 	<i>We recharge our pockets with holes, sometimes we call for help, then we put our nose down, towards these screens that obsess.</i>
 	<b>Mais au fond de nos coeurs electriques, on cherche le bonheur, on attend le declic.</b>
-	<i>But in the back of our electric hearts, we look for happiness, we wait for the click.</i>
+	<i>But in the back of our electric hearts, we're looking for happiness, we're waiting for the click.</i>
 	<b>Batterie faible, on est de ceux qui attendent l'etincelle, mais y'a personne pour repondre a l'appel, de la generation.</b>
 	<i>Battery low, we're the ones who are waiting for the spark, but there's noone to answer the call, of the generation.</i>
 	<b>Batterie faible, on est de ceux qui attendent l'etincelle, mais y'a personne pour repondre a l'appel, de la generation.</b>
 	<i>Battery low, we're the ones who are waiting for the spark, but there's noone to answer the call, of the generation.</i>
 	<b>Batterie faible, on est de ceux qui attendent l'etincelle, mais y'a personne pour repondre a l'appel, de la generation.</b>
 	<i>Battery low, we're the ones who are waiting for the spark, but there's noone to answer the call, of the generation.</i>
-	<b>Batterie faible, de la generation, batterie faible, de la generation.</b>
-	<i>Battery low, of the generation, battery low, of the generation.</i>
+	<b>Batterie faible, de la generation.</b>
+	<i>Battery low, of the generation.</i>
+	<b>Batterie faible, de la generation.</b>
+	<i>Battery low, of the generation.</i>
 </p>
 
 <a id="19" href="http://youtu.be/zZ1F5r1t1ao"><h2>Mon coeur fait (My heart does)</h2></a>
@@ -882,11 +885,11 @@
 	<b>Et moi je danse, danse, danse, je danse ... tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</b>
 	<i>And I dance, dance, dance, I dance ... you see, the night, the day, I run, I do whatever.</i>
 	<b>Et puis je danse, danse, danse et ca n'en finit pas, et ... tourne, tourne, tourne ... moi.</b>
-	<i>And then I dance, dance, dance and it doesn't stop, and ...</i>
+	<i>And then I dance, dance, dance and it doesn't stop, and ... me.</i>
 	<b>Et moi je danse, danse, danse, je danse ... tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</b>
 	<i>And I dance, dance, dance, I dance ... you see, the night, the day, I run, I do whatever.</i>
 	<b>Et puis je danse, danse, danse et ca n'en finit pas, et ... tourne, tourne, tourne ... moi.</b>
-	<i>And then I dance, dance, dance and it doesn't stop, and ...</i>
+	<i>And then I dance, dance, dance and it doesn't stop, and ... me.</i>
 	<b>Mais la curite de pouce, un massage ... pas a pas, plus de poupee qui tremousse, sa plus jolie robe de soir.</b>
 	<i>But ... no more doll that trembles, her prettiest evening gown.</i>
 	<b>Mais quand revient la lumiere, j'entends dans ma tete une voix, qui me dit on quitte la terre, oublie tout on s'en va.</b>
@@ -894,11 +897,11 @@
 	<b>Et moi je danse, danse, danse, je danse ... tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</b>
 	<i>And I dance, dance, dance, I dance ... you see, the night, the day, I run, I do whatever.</i>
 	<b>Et puis je danse, danse, danse et ca n'en finit pas, et ... tourne, tourne, tourne ... moi.</b>
-	<i>And then I dance, dance, dance and it doesn't stop, and ...</i>
+	<i>And then I dance, dance, dance and it doesn't stop, and ... me.</i>
 	<b>Et moi je danse, danse, danse, je danse ... tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</b>
 	<i>And I dance, dance, dance, I dance ... you see, the night, the day, I run, I do whatever.</i>
 	<b>Et puis je danse, danse, danse et ca n'en finit pas, et ... tourne, tourne, tourne ... moi.</b>
-	<i>And then I dance, dance, dance and it doesn't stop, and ...</i>
+	<i>And then I dance, dance, dance and it doesn't stop, and ... me.</i>
 	<b>Et moi je danse, danse, danse.</b>
 	<i>And I dance, dance, dance.</i>
 	<b>Et moi je danse, danse, danse.</b>
@@ -910,11 +913,11 @@
 	<b>Et moi je danse, danse, danse, je danse ... tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</b>
 	<i>And I dance, dance, dance, I dance ... you see, the night, the day, I run, I do whatever.</i>
 	<b>Et puis je danse, danse, danse et ca n'en finit pas, et ... tourne, tourne, tourne ... moi.</b>
-	<i>And then I dance, dance, dance and it doesn't stop, and ...</i>
+	<i>And then I dance, dance, dance and it doesn't stop, and ... me.</i>
 	<b>Et moi je danse, danse, danse, je danse ... tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</b>
 	<i>And I dance, dance, dance, I dance ... you see, the night, the day, I run, I do whatever.</i>
 	<b>Et puis je danse, danse, danse et ca n'en finit pas, et ... tourne, tourne, tourne ... moi.</b>
-	<i>And then I dance, dance, dance and it doesn't stop, and ...</i>
+	<i>And then I dance, dance, dance and it doesn't stop, and ... me.</i>
 	<b>Et moi je danse.</b>
 	<i>And I dance.</i>
 </p>
@@ -977,8 +980,8 @@
 	<i>Today I stop saying yes when I'm thinking no, today I stop and I say no.</i>
 	<b>Aujourd'hui j'arrete de me chercher des raisons, aujourd'hui j'arrete et je dis non.</b>
 	<i>Today I stop looking for reasons, today I stop and I say no.</i>
-	<b>Matisse fait des cadeaux a Lea, mais son compte en banque est dans le rouge, il pense qu'elle l'aimera mieux comme ca, avec des bijoux et du velours.</b>
-	<i>Matisse gives presents to Lea, but his bank account is in the red, he thinks that she will like him more like that, with jewelry and velvet.</i>
+	<b>Mathis fait des cadeaux a Lea, mais son compte en banque est dans le rouge, il pense qu'elle l'aimera mieux comme ca, avec des bijoux et du velours.</b>
+	<i>Mathis gives presents to Lea, but his bank account is in the red, he thinks that she will like him more like that, with jewelry and velvet.</i>
 	<b>Ilona n'a pas dit a Theo, qu'elle l'aime depuis le premier jour, ils sont amis, elle le conseille, pour trouver l'amour.</b>
 	<i>Ilona didn't tell Theo, that she loves him since day one, they are friends, she advices him, how to find love.</i>
 	<b>C'est important de penser aux autres, personne ne dira le contraire, parfois je suis a cote d'mes potes, sur un autre fuseau horaire.</b>
@@ -1214,9 +1217,9 @@
 	<b>Je la vois faire des trucs, je suis pas sur, je le vois perdu, caricature, je voudrais faire bien mais je m'emmele les pinceaux, t'en fais trop.</b>
 	<i>I see her doing stuff, I'm not sure, I see him lost, caricature, I would like to do well but I get confused, you're doing too much.</i>
 	<b>Il me demande toujours comment faire, est-ce qu'on met les piles dans du vert, moi ca me fait rire et ca le rend un peu plus beau, j'en fait trop.</b>
-	<i>He always asks me how to do it, do we put the batteries in green, it makes me laugh and it makes him a little more beautiful, I do too much.</i>
+	<i>He always asks me how to do it, do we put the batteries in green, it makes me laugh and it makes him a little more beautiful, I'm doing too much.</i>
 	<b>Un amour ecolo, on trie nos sentiments nos defauts, chacun dans son credo, ecolo en duo.</b>
-	<i>An ecological love, we sort out our feelings our faults, each in their creed, ecological in duo.</i>
+	<i>An ecological love, we sort out our feelings our faults, each in their own credo, ecological in duo.</i>
 	<b>Un peu de creme et d'eau, un cote vert et un cote bio, c'est l'amour ecolo.</b>
 	<i>A little cream and water, a green side and an organic side, it's ecological love.</i>
 	<b>Elle met du parfum a l'air pur, j'ai mis des plantes ca sent la nature, y'a du vert meme jusque dans mon frigo, t'en fait trop.</b>
@@ -1224,15 +1227,15 @@
 	<b>C'est comme un retour a la terre, dans du plastique alimentaire, ca nous fait voir le monde en un peu plus beau, en plus bio.</b>
 	<i>It's like a return to Earth, in plastic for food, it makes us see the world a little more beautiful, in addition to organic.</i>
 	<b>Un amour ecolo, on trie nos sentiments nos defauts, chacun dans son credo, ecolo en duo.</b>
-	<i>An ecological love, we sort out our feelings our faults, each in their creed, ecological in duo.</i>
+	<i>An ecological love, we sort out our feelings our faults, each in their own credo, ecological in duo.</i>
 	<b>Un peu de creme et d'eau, un cote vert et un cote bio, c'est l'amour ecolo.</b>
 	<i>A little cream and water, a green side and an organic side, it's ecological love.</i>
 	<b>Un amour ecolo, on trie nos sentiments nos defauts, chacun dans son credo, ecolo en duo.</b>
-	<i>An ecological love, we sort out our feelings our faults, each in their creed, ecological in duo.</i>
+	<i>An ecological love, we sort out our feelings our faults, each in their own credo, ecological in duo.</i>
 	<b>Un peu de creme et d'eau, un cote vert et un cote bio, c'est l'amour ecolo.</b>
 	<i>A little cream and water, a green side and an organic side, it's ecological love.</i>
 	<b>Un amour ecolo, on trie nos sentiments nos defauts, chacun dans son credo, ecolo en duo.</b>
-	<i>An ecological love, we sort out our feelings our faults, each in their creed, ecological in duo.</i>
+	<i>An ecological love, we sort out our feelings our faults, each in their own credo, ecological in duo.</i>
 	<b>Un peu de creme et d'eau, un cote vert et un cote bio, c'est l'amour ecolo.</b>
 	<i>A little cream and water, a green side and an organic side, it's ecological love.</i>
 </p>
@@ -1246,9 +1249,9 @@
 	<b>C'est de rouler dans la rosee qui rend les bergeres jolies, mais quand je dis qu'avec elle je voudrais y rouler aussi, elle m'a dit.</b>
 	<i>It's rolling in the dew that makes the shepherdesses pretty, but when I say that with her I would like to roll there too, she told me.</i>
 	<b>Elle m'a dit d'aller siffler la-haut sur la colline, de l'attendre avec un petit bouquet d'eglantines.</b>
-	<i>She told me to go whistle up there on the hill, to wait for her with a little bunch of wild roses.</i>
-	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu attendu elle n'est jamais venue.</b>
-	<i>I picked the flowers and whistled as long as I could, I waited waited she never came.</i>
+	<i>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</i>
+	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu elle n'est jamais venue.</b>
+	<i>I picked the flowers and whistled as long as I could, I waited, waited she never came.</i>
 	<b>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</b>
 	<i>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</i>
 	<b>A la foire du village un jour je lui ai soupire, que je voudrais etre une pomme suspendue a a un pommier.</b>
@@ -1256,17 +1259,17 @@
 	<b>Et qu'a chaque fois que je passe je vienne te mordre dedans, mais je suis passe tout en te montrant mes jolies dents, elle m'a dit.</b>
 	<i>And that every time I pass I come to bite in you, but I walked by while showing you my pretty teeth, she told me.</i>
 	<b>Elle m'a dit d'aller siffler la-haut sur la colline, de l'attendre avec un petit bouquet d'eglantines.</b>
-	<i>She told me to go whistle up there on the hill, to wait for her with a little bunch of wild roses.</i>
+	<i>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</i>
 	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu elle n'est jamais venue.</b>
-	<i>I picked the flowers and whistled as long as I could, I waited waited she never came.</i>
+	<i>I picked the flowers and whistled as long as I could, I waited, waited she never came.</i>
 	<b>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</b>
 	<i>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</i>
 	<b>Oho, oho, oho, oho.</b>
 	<i>Oho, oho, oho, oho.</i>
 	<b>Elle m'a dit d'aller siffler la-haut sur la colline, de l'attendre avec un petit bouquet d'eglantines.</b>
-	<i>She told me to go whistle up there on the hill, to wait for her with a little bunch of wild roses.</i>
-	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu attendu elle n'est jamais venue.</b>
-	<i>I picked the flowers and whistled as long as I could, I waited waited she never came.</i>
+	<i>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</i>
+	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu elle n'est jamais venue.</b>
+	<i>I picked the flowers and whistled as long as I could, I waited, waited she never came.</i>
 	<b>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</b>
 	<i>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</i>
 	<b>Oho, oho, oho, oho.</b>
@@ -1276,7 +1279,7 @@
 <a id="39" href="http://youtu.be/jBrrb5WqjvY"><h2>C'est bientot Noel (It's almost Christmas)</h2></a>
 <p data-time="[5, 20.5, 40, 53, 66, 77.5, 90, 104.5, 117, 129, 142, 155.5, 167.5]">
 	<b>Decembre vient de commencer, le compte a rebours est lance, maintenant plus que vingt-quatre jours avant la veille de Noel.</b>
-	<i>December has just begun, the countdown is started, now more than twenty-four days before Christmas Eve.</i>
+	<i>December has just begun, the countdown has started, now only twenty-four days before Christmas Eve.</i>
 	<b>C'est bientot Noel, c'est bientot Noel, la ou le visage des enfants s'emerveille, c'est bientot Noel.</b>
 	<i>It's almost Christmas, it's almost Christmas, when the children's faces marvel, it's almost Christmas.</i>
 	<b>Les rues, les magasins sont remplis de deco, et ca fait du bien car la nuit tombe tot.</b>
@@ -1292,7 +1295,7 @@
 	<b>No-no-no-no-no-no-no-noel, No-no-no-no-no-no-no-noel, No-no-no-no-no-no-no-noel.</b>
 	<i>Christ-christ-christ-christ-christ-christ-christ-christmas, Christ-christ-christ-christ-christ-christ-christ-christmas, Christ-christ-christ-christ-christ-christ-christ-christmas.</i>
 	<b>C'est le moment ou toute la famille se reunit, on laisse de cote nos differents, nos soucis, si seulement toute l'annee pouvait etre un brin a cette magie.</b>
-	<i>This is the moment when the whole family gets together, we put aside our differences, our worries, if only the whole year could have been a bit of that magic.</i>
+	<i>This is the moment when the whole family gets together, we put aside our differences, our worries, if only the whole year could have a bit of this magic.</i>
 	<b>C'est bientot Noel, c'est bientot Noel, la ou le visage des enfants s'emerveille.</b>
 	<i>It's almost Christmas, it's almost Christmas, when the children's faces marvel.</i>
 	<b>C'est bientot Noel, c'est bientot Noel, la ou la famille se reunit la veille.</b>
@@ -1462,6 +1465,7 @@
 			<li><a href="#40">Angelina - Jamais sans toi</a></li>
 			<li><a href="#41">Valentina - J'imagine</a></li>
 		</ol>
+		<a href="#">(Home)</a>
 	</li>
 </ul>
 
