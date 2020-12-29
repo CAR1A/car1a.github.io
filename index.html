@@ -9,7 +9,7 @@
 	h1, h2 {margin: 0px; font-size: 30px;}
 		h1 {display: none;}
 	a {color: inherit; text-decoration: none;}
-		a:hover {text-decoration: underline;}
+		a:not([id]):hover {text-decoration: underline;}
 	a[id], p {display: block; width: 80%; margin: 10px 10px 0px 10px; padding: 10px 0px; border-radius: 30px; background-color: #000; float: right;}
 		a[id]:not(:target), a[id]:not(:target)+p {display: none;}
 		a[id] {line-height: 40px; outline-style: none; transition: background-color 1s, box-shadow 1s;}
@@ -17,7 +17,8 @@
 			a[id].active {background-image: linear-gradient(90deg, pink, red, pink); background-size: 200%; animation: 3s a1 linear infinite; pointer-events: none;}
 				@keyframes a1 {0% {background-position: 0%;} 100% {background-position: 200%;}}
 			.loading>a[id] {opacity: 0.5; pointer-events: none;}
-			:not(.loading)>a[id]:not(.active)>h2::before {content: '►'; margin-right: 10px; padding: 5px 10px; border-radius: 10px; color: #000; background-color: #FFF;}
+			a[id]:not(.active)>h2::before {content: '►'; margin-right: 10px; padding: 5px 10px; border-radius: 10px; color: #000; background-color: #FFF;}
+			a[id]:hover>h2::before {color: red;}
 		p {height: calc(100vh - 110px); font-size: 19px; overflow-y: scroll;}
 			b, i {display: block;}
 			p.active>* {display: none; font-size: 60px; text-shadow: 0px 0px 10px yellow;}
@@ -114,8 +115,8 @@
 	<i>Come quick, come quick, I'll wait for you, come quick, I'll wait for you.</i>
 	<b>J'attendrai, que tu me reviennes a nouveau, oui, j'attendrai, j'attendrai longtemps s'il le faut.</b>
 	<i>I'll wait, for you to come back to me again, yes I'll wait, I'll wait a long time if I have to.</i>
-	<b>Oui, et si un jour tout n'est que confusion, que ce nouvel amour n'etait qu'illusion.</b>
-	<i>Yes, and if one day everything is only confusion, that this new love was only an illusion.</i>
+	<b>Oui et si un jour tout n'est que confusion, que ce nouvel amour n'etait qu'illusion.</b>
+	<i>Yes and if one day everything is only confusion, that this new love was only an illusion.</i>
 	<b>Qu'a la derive tu te laisses aller, que tu cherches une main pour te rattraper.</b>
 	<i>That adrift you let yourself go, that you seek a hand to catch up with you.</i>
 	<b>Viens vite, viens vite, je t'attendrai, viens vite, je t'attendrai.</b>
@@ -124,8 +125,8 @@
 	<i>I'll wait, for you to come back to me again, I'll wait, I'll wait a long time if I have to.</i>
 	<b>J'attendrai, que tu me reviennes a nouveau, j'attendrai, j'attendrai longtemps s'il le faut.</b>
 	<i>I'll wait, for you to come back to me again, I'll wait, I'll wait a long time if I have to.</i>
-	<b>Oui, car si ce jour devait arriver, n'aie pas peur, j'oublierai le passe.</b>
-	<i>Yes, because if that day should come, don't be afraid, I will forget the past.</i>
+	<b>Oui car si ce jour devait arriver, n'aie pas peur, j'oublierai le passe.</b>
+	<i>Yes because if that day should come, don't be afraid, I will forget the past.</i>
 	<b>Ce jour-la surtout rappelle-toi, que tu peux toujours compter sur moi.</b>
 	<i>On this day above all remember, that you can always count on me.</i>
 	<b>Viens vite, viens vite, je t'attendrai, viens vite, je t'attendrai.</b>
@@ -142,10 +143,10 @@
 	<i>Leave the girls alone, leave the girls alone, it will play a dirty trick on you.</i>
 	<b>Laisse tomber les filles, laisse tomber les filles, un jour c'est toi qu'on laissera.</b>
 	<i>Leave the girls alone, leave the girls alone, one day it'll be you who gets dropped.</i>
-	<b>Oui, j'ai pleure mais ce jour-la, non je ne pleurerai pas, non je ne pleurerai pas.</b>
-	<i>Yes, I cried but on that day, no I will not cry, no I will not cry.</i>
+	<b>Oui j'ai pleure mais ce jour-la, non je ne pleurerai pas, non je ne pleurerai pas.</b>
+	<i>Yes I cried but on that day, no I will not cry, no I will not cry.</i>
 	<b>Je dirai c'est bien fait pour toi, je dirai ca t'apprendra, je dirai ca t'apprendra.</b>
-	<i>I will say it is well done for you, I will say it will teach you, I will say it will teach you.</i>
+	<i>I will say it serves you right, I will say it will teach you, I will say it will teach you.</i>
 	<b>Laisse tomber les filles, laisse tomber les filles, ca te jouera un mauvais tour.</b>
 	<i>Leave the girls alone, leave the girls alone, it will play a dirty trick on you.</i>
 	<b>Laisse tomber les filles, laisse tomber les filles, tu le paieras un de ces jours.</b>
@@ -173,7 +174,7 @@
 <a id="5" href="http://youtu.be/yY-cTd5oFFQ"><h2>Le telefon (The telephone)</h2></a>
 <p data-time="[17, 34.5, 52.5, 61, 68.5, 86, 104, 112.5, 121, 130, 138, 146.5]">
 	<b>Bernadette, elle est tres chouette, et sa cousine, elle est divine, mais son cousin, il est malsain, je dirais meme que c'est un bon a rien.</b>
-	<i>Bernadette, she is very nice, and her cousin, she is divine, but her male cousin, he is unhealthy, I would even say he's good for nothing.</i>
+	<i>Bernadette, she is very nice, and her cousin, she is divine, but her male cousin, he is unhealthy, I would even say he's a good-for-nothing.</i>
 	<b>Noemie est tres jolie, moins que Zoe, mais plus que Nathalie, Anatole, il est frivole, monsieur Gaston s'occupe du telefon.</b>
 	<i>Noemie is very pretty, less than Zoe, but more than Nathalie, Anatole, he is frivolous, mister Gaston takes care of the telephone.</i>
 	<b>Gaston y'a l'telefon qui son(ne) et y'a jamais person(ne) qui y repond.</b>
@@ -663,7 +664,7 @@
 	<b>D'accord, j'ai peur de me l'avouer, en vrai je me traine jusqu'a tes pieds, le coeur sourd, sans detours.</b>
 	<i>Alright, I'm afraid to admit it to myself, in reality I drag myself to your feet, the deaf heart, without detours.</i>
 	<b>D'accord, je veux bien tout delaisser, si toi t'es sur d'etre a cote, pour toujours, mais mon amour.</b>
-	<i>Alright, I want to leave everything, if you're sure you're nearby, forever, but my love.</i>
+	<i>Alright, I'm happy to leave everything behind, if you're sure of being by my side, forever, but my love.</i>
 	<b>Je ferme les yeux je te vois encore, je te cherche a l'ouest je te perds au nord, au long cours, mon amour.</b>
 	<i>I close my eyes, I see you again, I look for you in the west, I lose you in the north, long-distance, my love.</i>
 	<b>Je me prends au jeu, je t'appelle encore, je navigue a l'est, naufrage au corps, sans retours, oh mon amour.</b>
@@ -1184,7 +1185,7 @@
 	<i>This is where it hits us, the youth that drives us mad, mad, mad, mad, mad.</i>
 	<b>L'espoir on en est fait, c'est dans notre sang dans nos veines, veines, veines, veines, veines.</b>
 	<i>We're made of hope, it's in our blood in our veins, veins, veins, veins, veins.</i>
-	<b>Pourquoi ne pas nous ecouter, pour demain on a des idees, pas la peine de nous amoindrir, on est pas prets de partir.</b>
+	<b>Pourquoi ne pas nous ecouter, pour demain on a des idees, pas la peine de nous amoindrir, on n'est pas prets de partir.</b>
 	<i>Why not listen to us, for tomorrow we have ideas, no need to diminish us, we're not ready to leave.</i>
 	<b>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, nous serons la.</b>
 	<i>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, we'll be there.</i>
@@ -1250,8 +1251,8 @@
 	<i>It's rolling in the dew that makes the shepherdesses pretty, but when I say that with her I would like to roll there too, she told me.</i>
 	<b>Elle m'a dit d'aller siffler la-haut sur la colline, de l'attendre avec un petit bouquet d'eglantines.</b>
 	<i>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</i>
-	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu elle n'est jamais venue.</b>
-	<i>I picked the flowers and whistled as long as I could, I waited, waited she never came.</i>
+	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu, elle n'est jamais venue.</b>
+	<i>I picked the flowers and whistled as long as I could, I waited, waited, she never came.</i>
 	<b>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</b>
 	<i>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</i>
 	<b>A la foire du village un jour je lui ai soupire, que je voudrais etre une pomme suspendue a a un pommier.</b>
@@ -1260,16 +1261,16 @@
 	<i>And that every time I pass I come to bite in you, but I walked by while showing you my pretty teeth, she told me.</i>
 	<b>Elle m'a dit d'aller siffler la-haut sur la colline, de l'attendre avec un petit bouquet d'eglantines.</b>
 	<i>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</i>
-	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu elle n'est jamais venue.</b>
-	<i>I picked the flowers and whistled as long as I could, I waited, waited she never came.</i>
+	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu, elle n'est jamais venue.</b>
+	<i>I picked the flowers and whistled as long as I could, I waited, waited, she never came.</i>
 	<b>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</b>
 	<i>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</i>
 	<b>Oho, oho, oho, oho.</b>
 	<i>Oho, oho, oho, oho.</i>
 	<b>Elle m'a dit d'aller siffler la-haut sur la colline, de l'attendre avec un petit bouquet d'eglantines.</b>
 	<i>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</i>
-	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu elle n'est jamais venue.</b>
-	<i>I picked the flowers and whistled as long as I could, I waited, waited she never came.</i>
+	<b>J'ai cueilli les fleurs et j'ai siffle tant que j'ai pu, j'ai attendu, attendu, elle n'est jamais venue.</b>
+	<i>I picked the flowers and whistled as long as I could, I waited, waited, she never came.</i>
 	<b>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</b>
 	<i>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</i>
 	<b>Oho, oho, oho, oho.</b>
@@ -1469,13 +1470,11 @@
 	</li>
 </ul>
 
-<iframe id="iframe" src="about:blank" sandbox="allow-scripts allow-same-origin allow-presentation" allow="autoplay; fullscreen">
+<iframe id="iframe" src="about:blank" sandbox="allow-same-origin allow-scripts allow-presentation" allow="autoplay; fullscreen">
 	<!DOCTYPE html>
-	<title>X</title>
 	<meta name="referrer" content="origin"/>
-	<style>
-		#p{display:block;width:640px;height:360px;margin:20px auto;border:2px solid #FFF;background:#000;}
-	</style>
+	<title>X</title>
+	<style>#p{display:block;width:640px;height:360px;margin:20px auto;border:2px solid #FFF;background:#000;}</style>
 	<p id="p"></p>
 	<script>
 		'use strict';
