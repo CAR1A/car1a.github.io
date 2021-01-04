@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta name="robots" content="noindex, nofollow"/>
 <meta name="referrer" content="no-referrer"/>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' style='background:violet'/>"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='background:violet'/%3E"/>
 <title>Carla Lyrics</title>
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Itim');
@@ -35,8 +35,8 @@
 			.c4 {background-color: #482;}
 		ul img {display: block; width: 100%;}
 		ul ol {padding: 5px 5px 5px 40px; text-align: initial; background-image: linear-gradient(45deg, transparent, #FFF6);}
-	iframe {display: block; position: fixed; top: 0px; width: 100vw; height: 100vh; border-style: none; background-color: #000D;}
-		iframe:not(.active) {visibility: hidden;}
+	iframe {display: block; position: fixed; top: 0px; width: 100vw; height: 100vh; padding: 15vh 15vw; border-style: none; background-color: #000A; box-sizing: border-box;}
+		iframe:not(.active) {visibility: hidden; z-index: -1;}
 </style>
 
 <h1>Carla Lyrics <img src="//hitcounter.pythonanywhere.com/count/tag.svg?url=carla2.com" alt=""/><img src="//hits.seeyoufarm.com/api/count/incr/badge.svg?url=carla2.com" alt=""/></h1>
@@ -1470,11 +1470,11 @@
 	</li>
 </ul>
 
-<iframe id="iframe" src="about:blank" sandbox="allow-same-origin allow-scripts allow-presentation" allow="autoplay; fullscreen">
-	<!DOCTYPE html>
+<iframe id="iframe" src="about:blank" sandbox="allow-same-origin allow-scripts allow-presentation" allow="autoplay; fullscreen"></iframe>
+<template id="template">
 	<meta name="referrer" content="origin"/>
 	<title>X</title>
-	<style>#p{display:block;width:640px;height:360px;margin:20px auto;border:2px solid #FFF;background:#000;}</style>
+	<style>*{margin:0;}#p{display:block;width:100vw;height:100vh;}</style>
 	<p id="p"></p>
 	<script>
 		'use strict';
@@ -1494,7 +1494,7 @@
 			w.onmessage=({data:{video:v}})=>v&&p.loadVideoById(v);
 		})();
 	</script>
-</iframe>
+</template>
 
 <script type="module">
 	'use strict';
@@ -1524,13 +1524,12 @@
 		$('body').children('a').on('click', function(e){
 			$('.active').removeClass('active');
 			$(this).addClass('active');
-			let i = $('#iframe')[0];
 			if($('#iframe')[0].src == 'about:blank'){
 				$('body').addClass('loading');
-				let x = i.textContent.trim().replace(/\s\/\/.*/g, '').replace(/\s+/g, ' ');
-				i.src = 'https://urlecho.appspot.com/echo?X-XSS-Protection=0&body=' + encodeURIComponent(x);
+				let x = $('#template')[0].innerHTML.trim().replace(/\s\/\/.*/g, '').replace(/\s+/g, ' ');
+				$('#iframe')[0].src = 'https://urlecho.appspot.com/echo?X-XSS-Protection=0&body=' + encodeURIComponent('<!DOCTYPE html>' + x);
 			} else {
-				i.contentWindow.postMessage({'video': this.href.split('/').pop()}, '*');
+				$('#iframe')[0].contentWindow.postMessage({'video': this.href.split('/').pop()}, '*');
 				if($(this).next().data('time')?.length) $(this).next().addClass('active');
 			}
 			return false;
