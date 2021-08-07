@@ -109,7 +109,7 @@
 		<a href="http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr" title="Spotify"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=open.spotify.com" width="32" height="32" alt="Spotify"/></a>
 		<a href="http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA" title="YouTube"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=youtu.be" width="32" height="32" alt="YouTube"/></a>
 		<img src="//hits.seeyoufarm.com/api/count/incr/badge.svg?url=carla3.com" width="0" height="0" alt=""/>
-		<img src="//hitcounter.pythonanywhere.com/count/tag.svg?url=carla3.com" width="0" height="0" alt=""/>
+		<!--<img src="//hitcounter.pythonanywhere.com/count/tag.svg?url=carla3.com" width="0" height="0" alt=""/>-->
 	</span>
 </nav>
 <script>
@@ -121,6 +121,7 @@
 	}).catch(result=>{
 		let options = {
 			'method': 'POST',
+			'mode': 'no-cors',
 			'body': new URLSearchParams({
 				'id': window.location.hash.substring(1) || 'i',
 				'ip': result instanceof Error ? result : result.ip + ' (' + result.loc + ')',
