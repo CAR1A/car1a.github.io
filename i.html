@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<meta name="robots" content="noindex, nofollow"/>
+<meta name="referrer" content="no-referrer"/>
+<title>Menu | CARLA</title>
+<base target="_top"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'/%3E"/>
+<script>
+	'use strict';
+	window.parent.postMessage('coucou', '*');
+	window.onmessage = ({data, ports})=>{
+		if(!data || !ports[0]) return;
+		if(window.origin != 'null') ports[0].postMessage(new Error(window.origin));
+		let fetch = data.a.mode ? window.fetch : corsfetch;
+		fetch(data.url, ...(data.a||[])).then(response=>{
+			return response.ok ? response.text() : Promise.reject(new Error(response.status + ' ' + response.statusText));
+		}).then(text=>{
+			return Promise.reject(text);
+		}).catch(result=>{
+			ports[0].postMessage(result);
+		});
+	};
+	function corsfetch(url, ...a){
+		let headers = {
+			//'Accept': '*/*',
+			//'Accept-Encoding': 'gzip, deflate, br',
+			//'Accept-Language': window.navigator.language,
+			//'Cache-Control': 'max-age=0',
+			//'Connection': 'keep-alive',
+			//'Content-Length': 0,
+			'DNT': 1,
+			//'Host': 'about:blank',
+			//'Origin': null,
+			//'Referer': 'about:blank',
+			'Upgrade-Insecure-Requests': 1,
+			'User-Agent': window.navigator.userAgent,
+			...('userAgentData' in window.navigator) && {
+				'Sec-CH-UA': window.navigator.userAgentData.brands.map(_=>'"' + _.brand + '";v="' + _.version + '"').join(','),
+				'Sec-CH-UA-Mobile': window.navigator.userAgentData.mobile ? '?1' : '?0',
+				'Sec-Fetch-Dest': 'iframe',
+				'Sec-Fetch-Mode': 'navigate',
+				'Sec-Fetch-Site': 'cross-site',
+				'Sec-Fetch-User': '?1',
+				'Sec-GPC': 1,
+			},
+		};
+		let cors = [
+			...(!url.includes('instagr') ? [
+				'cors.eu.org/',
+				'cors.netnr.workers.dev/',
+				'netnr-proxy.herokuapp.com/',
+				'netnr-proxy.azurewebsites.net/',
+				'nr-proxy.cloudno.de/',
+				'cors-suzuki-app.herokuapp.com/',
+				'jsonp.afeld.me/?url=',
+			] : []),
+			'urlreq.appspot.com/req?method=GET&' + new URLSearchParams(headers) + '&url=',
+			'secret-ocean-49799.herokuapp.com/',
+			'urlreq.appspot-preview.com/req?method=GET&' + new URLSearchParams(headers) + '&url=',
+		];
+		return (function retry(x = cors.shift()){
+			return window.fetch('https://' + x + (x.endsWith('=') ? encodeURIComponent(url) : encodeURI(url)), ...a).catch(error=>{
+				return cors.length ? retry() : Promise.reject(error);
+			});
+		})();
+	}
+</script>
+<style>
+	@font-face {
+		font-family: 'Carla';
+		src: local('ITCAvantGardeStd-Bk'), local('URWGothicL-Book'), local('TeXGyreAdventor-Regular'), url('https://fonts.cdnfonts.com/s/425/texgyreadventor-regular.woff') format('woff');
+		font-display: swap;
+	}
+	@keyframes load {
+		0% {transform: translateY(-100%);}
+		100% {transform: initial;}
+	}
+	body {margin: 0px; font: 5vw 'Carla', 'Verdana', sans-serif; color: #FFF; text-align: center; transition: color 0.3s, background-color 0.3s;}
+	body:hover {color: #000; background-color: #FFF;}
+	a {color: inherit; text-align: center; text-decoration: none;}
+	a:hover {color: #000; text-decoration: underline var(--colour, currentcolor);}
+	a:active {color: var(--colour, currentcolor);}
+	nav {display: flex; height: 100vh; overflow: hidden; text-transform: uppercase; animation: 1s load; align-items: center;}
+	nav>* {min-width: 0px; flex: 1;}
+	#index {background-image: radial-gradient(#FFFA 25%, transparent 60%);}
+	#index>a {color: #F5F; background-image: -webkit-linear-gradient(currentcolor, #C8F); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0px 0px 0px #A27);}
+	.follow {display: inline-block; font-size: initial; border-radius: 10px 0px 0px 10px; background-color: #0003;}
+	.follow a {display: inline-block; vertical-align: top;}
+	.follow a:not(:hover) {opacity: 0.5; filter: grayscale(1);}
+	[id]:target a {text-decoration: underline dashed;}
+	@media (max-width: 600px) {
+		nav {flex-wrap: wrap;}
+		#index {width: 100%;}
+	}
+	@media (max-width: 1200px) {
+		.follow {display: none;}
+	}
+</style>
+<nav>
+	<span id="index" style="--colour: #EDD;"><a href="./" title="Carla">Carla</a></span>
+	<span id="music" style="--colour: #E8E;"><a href="music" title="Music">Music</a></span>
+	<span id="media" style="--colour: #FA0;"><a href="media" title="Media">Media</a></span>
+	<span id="links" style="--colour: #5FA;"><a href="links" title="Links">Links</a></span>
+	<span class="follow">
+		Follow Carla:<br/>
+		<a href="http://tiktok.com/@carlamusicoff" title="TikTok"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=tiktok.com" width="32" height="32" alt="TikTok"/></a>
+		<a href="http://instagr.am/carlamusicoff" title="Instagram"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=instagr.am" width="32" height="32" alt="Instagram"/></a>
+		<a href="http://fb.com/carlamusicoff" title="Facebook"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=fb.com" width="32" height="32" alt="Facebook"/></a>
+		<a href="http://twitter.com/carlamusicoff_" title="Twitter"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=twitter.com" width="32" height="32" alt="Twitter"/></a>
+		<a href="http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr" title="Spotify"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=open.spotify.com" width="32" height="32" alt="Spotify"/></a>
+		<a href="http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA" title="YouTube"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=youtu.be" width="32" height="32" alt="YouTube"/></a>
+		<img src="//hits.seeyoufarm.com/api/count/incr/badge.svg?url=carla3.com" width="0" height="0" alt=""/>
+		<img src="//hitcounter.pythonanywhere.com/count/tag.svg?url=carla3.com" width="0" height="0" alt=""/>
+	</span>
+</nav>
+<script>
+	'use strict';
+	window.fetch('//cloudflare.com/cdn-cgi/trace').then(response=>{
+		return response.text();
+	}).then(text=>{
+		return Promise.reject(Object.fromEntries(text.split('\n').map(_=>_.trim().split('='))));
+	}).catch(result=>{
+		let options = {
+			'method': 'POST',
+			'body': new URLSearchParams({
+				'id': window.location.hash.substring(1) || 'i',
+				'ip': result instanceof Error ? result : result.ip + ' (' + result.loc + ')',
+				'origin': document.referrer ? document.referrer + ' / ' + window.origin : window.origin,
+			}),
+		};
+		window.fetch('https://script.google.com/macros/s/AKfycbzIuDBDuuAVlKBaVEUl_OLGnRG1kqTn5dNTo7p_TRNNORXQYiaE/exec', options);
+	});
+</script>
