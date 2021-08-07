@@ -8,7 +8,7 @@
 	'use strict';
 	window.parent.postMessage('coucou', '*');
 	window.onmessage = ({data, ports})=>{
-		if(!data || !ports[0]) return;
+		if(!data || !ports.length) return;
 		if(window.origin != 'null') ports[0].postMessage(new Error(window.origin));
 		let fetch = data.a.mode ? window.fetch : corsfetch;
 		fetch(data.url, ...(data.a||[])).then(response=>{
@@ -127,6 +127,6 @@
 				'origin': document.referrer ? document.referrer + ' / ' + window.origin : window.origin,
 			}),
 		};
-		window.fetch('https://script.google.com/macros/s/AKfycbzIuDBDuuAVlKBaVEUl_OLGnRG1kqTn5dNTo7p_TRNNORXQYiaE/exec', options);
+		window.fetch('https://script.googleusercontent.com/macros/s/AKfycbzIuDBDuuAVlKBaVEUl_OLGnRG1kqTn5dNTo7p_TRNNORXQYiaE/exec', options);
 	});
 </script>
