@@ -19,11 +19,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
 <link rel="preconnect" href="https://images.weserv.nl"/>
 <link rel="dns-prefetch" href="https://fonts.cdnfonts.com"/>
-<link rel="dns-prefetch" href="https://static-maps.yandex.ru"/>
 <link rel="dns-prefetch" href="https://cors.eu.org"/>
 <link rel="dns-prefetch" href="https://urlreq.appspot.com"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&amp;display=swap" media="print" onload="this.onload=null;this.media='all';"/>
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim&amp;display=swap" media="screen"/></noscript>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
 <script>
 	'use strict';
@@ -137,7 +135,7 @@
 
 <article id="info">
 	<h2>Info</h2>
-	<img src="https://graph.facebook.com/carlamusicoff/picture?width=300&amp;height=300" width="300" height="300" alt="Carla Music Off"/>
+	<img src="https://images.weserv.nl/?url=graph.fb.me/carlamusicoff/picture?width=300%26height=300" width="300" height="300" alt="Carla Music Off"/>
 	<table>
 		<caption><h3><span lang="en">About</span> / <span lang="fr">À propos</span></h3></caption>
 		<tr><th>Name</th><td><a href="http://wikipedia.org/wiki/Carla_Lazzari">Carla Lazzari</a></td></tr>
@@ -399,7 +397,7 @@
 			let x = this.pathname.split(',');
 			this.href = 'http://maps.google.com/?z=13&ll=' + x[0] + ',' + x[1];
 			this.title = this.textContent + '\r\nLatitude: ' + x[0] + '\r\nLongitude: ' + x[1];
-			$(this).html(`<img class="map" src="https://static-maps.yandex.ru/1.x/?l=map&lang=fr&size=300,160&z=6&pt=${x[1]},${x[0]},round" width="300" height="100" alt="${this.textContent}" loading="lazy"/>`);
+			$(this).html(`<img class="map" src="https://images.weserv.nl/?url=static-maps.yandex.ru/1.x/?l=map%26lang=fr%26size=300,160%26z=6%26pt=${x[1]},${x[0]},round" width="300" height="100" alt="${this.textContent}" loading="lazy"/>`);
 		});
 		$('#twitter').find('iframe').each(function(){
 			if(!!this.contentDocument) this.src = 'data:text/html,' + encodeURIComponent('<!DOCTYPE html>' + this.nextElementSibling.innerHTML);
