@@ -1,0 +1,3586 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet"?>
+<!DOCTYPE xml [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+<xml title="CARLA Media" colour="FA0">
+<!--
+  ___        ____  _          _____       _
+ / __|  /\  |  _ \| |   /\   |     |___ _| |_ ___
+/ /    /  \ | |/ /| |  /  \  | | | | _ |   |_|   |
+\ \___/ /\ \| |\ \| |_/ /\ \ | | | | __| | | | | |
+ \_____/  \___| \______/  \_\|_|_|_|___|___|_|___|
+==================================================
+- tf1 thumbs
+- seb avec ta star fb/celia larry demifinale/lyric videos
+- europe1 embed
+- big shows timestamps
+- lyrics links
+- github.com/heiseonline/embetty for fb thumbs?
+- event categories? (tv, concert)
+- google translate null origin?
+-->
+<event title="Célia Larry Show - Spectacle du 1er Mars" date="01-03-2014">
+	<video title="Show (Part 1)" link="yt:CS7gxC5Hxho" length="1:05:50">
+		<_ title="Carla &amp; les Eleves - Attention au Depart" time="29:30"/>
+		<_ title="Carla - Le Passe" time="46:16"/>
+		<_ title="... - ..." time="55:30"/>
+	</video>
+	<video title="Show (Part 2)" link="yt:JVYAHnjONVo" length="1:19:46">
+		<_ title="Carla &amp; les Eleves - Au Bout de Mes Reves" time="9:17"/>
+		<_ title="Carla &amp; Emma - L'Air du Vent (Pocahontas)" time="21:14"/>
+		<_ title="... - Kissing You" time="41:23"/>
+		<_ title="Carla &amp; les Eleves - L'Hymne a l'Amour" time="46:27"/>
+	</video>
+	<video title="Show" link="yt:dWsNJhmVYis" length="1:57:41"/>
+</event>
+<event title="Célia Larry Show - Les Eleves Revisitent les Comedies Musicales" date="XX-06-2014">
+	<video title="Show (Part 1)" link="yt:fellBc91Rxk" length="1:18:43">
+		<_ title="Carla &amp; les Eleves - Aimer (Romeo &amp; Juliette)" time="13:37"/>
+	</video>
+	<video title="Show (Part 2)" link="yt:YgwJFqdpEyw" length="1:08:36">
+		<_ title="Celia Larry &amp; ... - A Ceux Qu'On Aime (Alive)" time="0:25"/>
+		<_ title="Celia Larry - ..." time="4:24"/>
+		<_ title="Carla &amp; Emma - Tatoue-Moi (Mozart, l'Opera Rock)" time="30:43"/>
+		<_ title="Emma - La Fleche ou la Cible (Robin des Bois)" time="40:49"/>
+		<_ title="Carla - J'Attendais (Robin des Bois)" time="45:18"/>
+		<_ title="... - J'Ai Dit Oui (Robin des Bois)" time="49:12"/>
+	</video>
+	<video title="Show (Part 1.1)" link="yt:rLlFRT8-fjQ" length="37:49"/>
+	<video title="Show (Part 1.2)" link="yt:e3gT86J4Zbk" length="37:34"/>
+	<video title="Show (Part 1.3)" link="yt:tH5opuOi-kw" length="3:21"/>
+	<video title="Show (Part 2.1)" link="yt:uNN6byiLF6w" length="37:32"/>
+	<video title="Show (Part 2.2)" link="yt:QDyRpkBPQW8" length="31:04"/>
+</event>
+<event title="Célia Larry Show - Le Pere Noel A Disparu" date="19-12-2014">
+	<video title="Show (Part 1)" link="yt:pNtzmiw09WY" length="1:10:57">
+		<_/>
+	</video>
+	<video title="Show (Part 2)" link="yt:c94ZPaAf0qo" length="1:37:10">
+		<_/>
+	</video>
+	<link>recreanice.fr/pere-noel-disparu-spectacle-chant-danse</link>
+</event>
+<event title="Célia Larry Show - Les étoiles en scène - Finale" date="05-12-2015">
+	<video title="Carla - Wrecking Ball" link="fb:480694972114194" length=""/>
+	<link>nicematin.com/a/6743</link>
+</event>
+<event title="Célia Larry Show - Les étoiles en scène - Finale" date="10-12-2016">
+
+</event>
+<event title="Drap - Soiree Fiesta" date="23-06-2017">
+	<video title="Carla - À fleur de toi" link="fb:731095097074179" length=""/>
+	<link>ville-drap.fr/soiree-fiesta-a-drap-a-tenu-toutes-promesses</link>
+</event>
+<event title="Célia Larry Show - Les étoiles en scène - Finale" date="20-01-2018">
+	<video title="Carla - Comme toi" link="yt:O_XS7mV7VwQ" length="4:05"/>
+</event>
+<!--<event title="(Carla Cover)" date="07-02-2018">
+	<video title="Carla - Skyfall" link="fb:562352097461667" length="1:49"/>
+</event>-->
+<event title="(Carla Cover)" date="11-02-2018">
+	<video title="Carla - Si t'étais là" link="yt:UladpEZjHXE" length="2:35"/>
+</event>
+<event title="Children &amp; Future - NFL Danse" date="15-04-2018">
+	<video title="Team Spotlight - Calloway Circus" link="yt:2bRxsgG505Y" length=""/>
+	<video title="Team Spotlight - Calloway Circus" link="yt:a7ohLnNz8cU" length="1:49"/>
+	<video title="Team Spotlight - Calloway Circus" link="yt:Vj3vVO8K9I4" length="3:25"/>
+	<video title="Team Spotlight - Calloway Circus" link="fb:599573520406191" length="2:58"/>
+</event>
+<event title="(Carla Cover)" date="11-06-2018">
+	<video title="Carla &amp; Ilona - Wake Me Up" link="fb:631267967236746" length="3:28"/>
+	<video title="Carla &amp; Ilona - Wake Me Up" link="fb:595795854152869" length="3:28"/>
+</event>
+<event title="(Carla Cover)" date="16-07-2018">
+	<video title="Carla - Out Here on My Own" link="yt:w3kCG_F2Jeg" length="3:24"/>
+	<video title="Carla - Out Here on My Own" link="fb:664769670553242" length="3:24"/>
+</event>
+<event title="Europetanque des Alpes-Maritimes - Finale" date="23-07-2018">
+	<video title="Carla - Out Here on My Own" link="yt:-a8f8tr6IL8" length="9:34"/>
+	<video title="Carla - Out Here on My Own" link="fb:10156696294043593" length="9:34"/>
+	<video title="Carla - Out Here on My Own" link="fb:234308873865415" length="15:55"/>
+</event>
+<event title="Peillon - ..." date="XX-XX-2018">
+	<video title="Carla - Comme Toi" link="fb:240053386858143" length=""/>
+</event>
+<event title="(Carla Cover)" date="24-09-2018">
+	<video title="Carla - Never Enough" link="fb:2143818242335133" length="1:01"/>
+</event>
+<event title="TF1 - The Voice Kids - Les Blinds Auditions" date="26-10-2018">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456239653?m=4311daebcef741877a74454463108319" length="1:47:27" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg">
+		<_ title="Carla" time="44:01"/>
+		<_ title="Carla - Take Me to Church" time="45:59"/>
+	</video>
+	<video title="Carla - Take Me to Church" link="yt:39agHt_ei2Y" length="2:38"/>
+	<video title="Carla - Take Me to Church" link="yt:DoI2u8AQENg" length="2:38"/>
+	<video title="Carla - Take Me to Church" link="dm:x7oa6f0" length="2:38"/>
+	<video title="Carla - Take Me to Church" link="" length=""/>
+	<link>tf1.fr/tf1/the-voice-kids/videos/carla-take-me-to-church-hozier-v-sofia-kalberg.html</link>
+</event>
+<event title="France Bleu Azur - ..." date="28-10-2018">
+	<video title="Interview" link="media.radiofrance-podcast.net/podcast09/15217-28.10.2018-ITEMA_21870811-1.mp3" length="7:26">
+		<Q>France Bleu Azur matin week-end ... Nice, Cannes, Monaco et partout dans les Alpes-Maritimes. Cette heur quinze France Bleu Azur Matin ... chaque jour nouveaux ... qui se passe dans le departement et ... peut-être vu à la télé, dans The Voice Kids vendredi soir sur TF1 cette niçoise de talente, douze ans Carla Lazzari.</Q>
+		<A>Take me to church ...</A>
+		<Q>... membres de jury ... Carla Lazzari a été, uh, choisi par Soprano et Patrick Fiori. Elle continuera l'aventure justement avec Patrick Fiori. Nous avons retrouver sa tout première interview, uh, Carla ...</Q>
+		<A>Bonjour!</A>
+		<Q>Bienvenue dans la studio de France Bleu Azur.</Q>
+		<A>Merci beaucoup.</A>
+		<Q>C'est ta première interview.</Q>
+		<A>Oui.</A>
+		<Q></Q>
+		<A>Oui c'est super.</A>
+		<Q>La chanson ...</Q>
+		<A>Oui, uh, d'abord ma maman qui est coach vocal, mon papa qui est musicien et mes ...</A>
+	</video>
+	<link>francebleu.fr/emissions/france-bleu-azur-matin-reportage-1/azur/carla-lazarri-voice-kids-sa-premiere-interview-c-est-sur-france-bleu-azur</link>
+</event>
+<event title="TF1 - The Voice Kids - Les Battles" date="09-11-2018">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456239677?m=fd8762a0ded0c8626cb262312b60abcf" length="1:35:29" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg"/>
+	<video title="Carla, Lena &amp; Alexandre - Un Homme Debout" link="yt:Ey5MuSdBY6s" length="3:05"/>
+	<video title="Carla, Lena &amp; Alexandre - Un Homme Debout" link="yt:xFa64AyaAxk" length="3:05"/>
+	<video title="Carla, Lena &amp; Alexandre - Un Homme Debout" link="dm:x7oghit" length="3:05"/>
+	<video title="Carla, Lena &amp; Alexandre - Un Homme Debout" link="" length=""/>
+	<link>tf1.fr/tf1/the-voice-kids/videos/carla-lena-alexandre-un-homme-debout-claudio-capeo-equipe-patrick-fiori.html</link>
+</event>
+<event title="Azur TV - La Grande Emission" date="11-11-2018">
+	<video title="..." link="yt:5qOKPr-4ueg" length="7:52"/>
+	<video title="..." link="fb:780415522294622" length="1:36"/>
+	<link>azur-tv.fr/la-grande-emission-du-11-11-2018</link>
+</event>
+<event title="Departement des Alpes-Maritimes - ..." date="XX-11-2018">
+	<video title="..." link="yt:p0mXVaErXro" length=""/>
+	<video title="..." link="fb:262509044434770" length=""/>
+	<link>ginesy.com/soutien-thevoicekids-lazzari-2018.html</link>
+</event>
+<event title="TF1 - The Voice Kids - #LaVox" date="28-11-2018">
+	<video title="Carla - Toxic" link="tf1.fr/embedplayer/13600887" length="" thumb="static-player.tf1.fr/image/83iif_.jpg"/>
+</event>
+<event title="Noel à Nice - Lancement des illuminations" date="29-11-2018">
+	<video title="..." link="fb:2176080189375483" length=""/>
+	<video title="Carla - Comme Toi" link="fb:716547928714171" length=""/>
+	<video title="France Bleu Azur - ..." link="fb:2356242497723160" length=""/>
+	<link>cimiez.com/noel-a-nice-moteur-action</link>
+</event>
+<event title="TF1 - The Voice Kids - La Demi-Finale" date="30-11-2018">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456239695?m=a61473c3a1e99b511ad453465f0da494" length="2:02:20" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg"/>
+	<video title="Carla - It's Oh So Quiet" link="yt:M2r6Q-ZAf-I" length="5:05"/>
+	<video title="Carla - It's Oh So Quiet" link="yt:A6abODQKYI8" length="5:05"/>
+	<video title="Carla - It's Oh So Quiet" link="dm:x7on1uz" length="5:05"/>
+	<video title="Carla - It's Oh So Quiet" link="tf1.fr/embedplayer/13601859" length="4:52"/>
+	<video title="Carla - It's Oh So Quiet" link="" length=""/>
+	<video title="Coaches &amp; Finalists - Oh Happy Day" link="tf1.fr/embedplayer/13601866" length=""/>
+	<link>tf1.fr/tf1/the-voice-kids/videos/carla-it-s-oh-so-quiet-bjoerk.html</link>
+	<link>tf1.fr/tf1/the-voice-kids/videos/exclu-petillante-carla-bluffe-coachs-reprise-de-bjoerk.html</link>
+	<link>lci.fr/-2106138.html</link>
+</event>
+<event title="NRJ Cote d'Azur" date="05-12-2018">
+	<video title="Interview" link="fb:570850680025220" length="1:04"/>
+</event>
+<event title="France Bleu Azur - Azur en scène" date="05-12-2018">
+	<video title="Interview" link="fb:2138461459803710" length="1:24">
+		<Q>Bonjour et bienvenue dans Azur en scène, émission live de France Bleu Azur avec un rendez-vous un peu particulier puisque ... l'immense plaisir et le fierté d'avoir ... Carla, uh, qui ... de la finale de The Voic Kids. Carla, bonjour.</Q>
+		<A>Bonjour à vous.</A>
+		<Q>Mais quel plaisir de vous ... mademoiselle.</Q>
+		<A>Bah moi aussi c'est un plaisir d'être ici.</A>
+		<Q>Alors ... comme ça ... passer toutes les étapes ... a cette finale. Qu'est-ce que on ressent au fond de son cœur?</Q>
+		<A>... vraiment, uh, très plaisir, uh, d'être à finale parce que c'est une aventure, uh, immense. C'est intense, uh, vraiment, uh, ça m'a beaucoup appris et je suis vraiment, uh, très fiere d' ... finale.</A>
+		<Q>Alors on est fier aussi pour toi, tu Côte d'Azur et ce vendredi donc sur TF1 en plus les personnes qui regardent, les téléspectateurs ...</Q>
+		<A>Bah merci pour tout votre soutien et tous vos encouragements, uh, ... et ça me fait chaud au cœur ... merci à tous.</A>
+		<Q>Votez Carla dans The Voice Kids pour cette finale. On t'écoute chanter, merci.</Q>
+		<A>I close my eyes so I can be with you, oh baby ... for me, baby belong to me ... you.</A>
+	</video>
+	<video title="Interview" link="fb:305813953597698" length="0:54">
+		<Q>Hello, nous sommes très, très, très fier d'avoir Carla, finaliste de The Voice Kids, avec nous, hello Carla.</Q>
+		<A>Bonjour!</A>
+		<Q>... alors.</Q>
+		<A>Oui ... donc c'est que de bonheur.</A>
+		<Q>Ici on, on lance un petit message à toutes les personnes qui nous écoutent ... pour toi.</Q>
+		<A>Bah je vous dis, uh, « votez Carla » et en tout cas, uh, ... déjà très contente comme je l'ai dit, uh, d'être ici ce soir et, uh, en tout cas je vais m'éclater, m'amuser ... principal.</A>
+		<Q>La Côte d'Azur ...</Q>
+		<A>Comme toi que je regarde tout bas, comme toi qui dort en rêvant à quoi, comme toi, comme toi, comme toi.</A>
+	</video>
+	<video title="Carla - À fleur de toi" link="fb:584438418636822" length="4:21"/>
+	<video title="Carla - Comme toi" link="fb:221275225451551" length="4:00"/>
+	<video title="Carla - Out Here on My Own" link="fb:291542174802501" length=""/>
+</event>
+<event title="Le Parisien" date="06-12-2018">
+	<video title="..." link="yt:_7gTLVc68Jw" length="1:32"/>
+	<video title="..." link="yt:rS_zAXUb3Es" length="1:32"/>
+	<video title="..." link="dm:x6yi7fy" length="1:32"/>
+	<link>leparisien.fr/culture-loisirs/tv/carla-finaliste-de-the-voice-kids-et-star-de-la-cote-d-azur-07-12-2018-7962786.php</link>
+</event>
+<event title="..." date="XX-12-2018">
+	<video title="Aufeminin - ..." link="yt:_Oo1OOgozAs" length="4:04"/>
+	<video title="Aufeminin - ..." link="yt:DX45fIfm0CI" length="1:52"/>
+	<video title="..." link="videos-dd.videos.prismamediadigital.com/media/v1/pmp4/static/clear/800000640001/7a568163-209b-41a4-bea8-e5c015033ffe/9df40a09-a30e-4d6d-90ee-1a473d66550b/main.mp4" length=""/>
+	<link>programme-tv.net/videos/no-filter/_226187</link>
+</event>
+<event title="TF1 - The Voice Kids - La Finale" date="07-12-2018">
+	<video title="Show (Part 1)" link="noodlemagazine.com/player/-23729576_456239700?m=39bd56dafeed2a88493c8817fbedebc2" length="2:01:34" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg"/>
+	<video title="Show (Part 2)" link="noodlemagazine.com/player/-23729576_456239701?m=71649638cf33bfa29d19901540ad1b08" length="27:44" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg"/> 
+	<video title="Carla - L'Hymne a l'Amour" link="yt:q4YFDPYdSz4" length="4:25"/>
+	<video title="Carla - L'Hymne a l'Amour" link="yt:3SfsVTLAZ_8" length="4:25"/>
+	<video title="Carla - L'Hymne a l'Amour" link="dm:x7on3e3" length="4:25"/>
+	<video title="Carla - L'Hymne a l'Amour" link="" length=""/>
+	<video title="Carla &amp; Patrick Fiori - Pour Oublier" link="yt:oTSzcKV_cEQ" length="4:20"/>
+	<video title="Carla &amp; Patrick Fiori - Pour Oublier" link="yt:X12rk0V5hJ4" length="4:20"/>
+	<video title="Carla &amp; Patrick Fiori - Pour Oublier" link="dm:x7opisl" length="4:20"/>
+	<video title="Carla &amp; Patrick Fiori - Pour Oublier" link="" length=""/>
+	<video title="Winner Announcement" link="" length=""/>
+	<link>tf1.fr/tf1/the-voice-kids/videos/carla-l-hymne-a-l-amour-edith-piaf.html</link>
+	<link>tf1.fr/tf1/the-voice-kids/videos/patrick-fiori-carla-oublier-kendji-girac.html</link>
+	<link>tf1.fr/tf1/the-voice-kids/videos/a-gagne-the-voice-kids-saison-5.html</link>
+	<link>lci.fr/-2106808.html</link>
+	<link>nicematin.com/a/283596</link>
+</event>
+<event title="Departement des Alpes-Maritimes - Arbre de Noel" date="XX-12-2018">
+	<video title="Carla - Pour Oublier" link="yt:ihGDZrYQuCc" length=""/>
+	<video title="Carla - Pour Oublier" link="fb:318190198821480" length="2:50"/>
+	<video title="..." link="fb:2219200685002457" length="1:36"/>
+</event>
+<event title="Saint-Laurent-du-Var - Voeux" date="11-01-2019">
+	<video title="Carla - Shallow" link="fb:274513803241595" length="2:26"/>
+</event>
+<event title="Eze - Voeux" date="XX-01-2019">
+	<video title="Carla - L'Hymne a l'Amour" link="yt:ItWvkOWuC1A" length=""/>
+</event>
+<event title="M6 Gulli - Gu'Live - Carla &amp; Irma" date="30-01-2019">
+	<video title="..." link="yt:4kG-cezqBFw" length="59:32">
+		<!--<Q>Salut a tous ...</Q>
+		<_ title="Carla - It's Oh So Quiet" time="0:35"/>
+		<Q>... salut, ca va bien?</Q>
+		<A>Oui ca va, et toi?</A>
+		<Q>... bah tres bien ...</Q>
+		<A>D'accord ...</A>
+		<_ title="Irma - ..." time="25:37"/>
+		<_ title="Carla &amp; Irma - Roi" time="42:12"/>
+		<_ title="..." time="54:35"/>
+		<Q>Bah oui ...</Q>-->
+	</video>
+	<video title="Carla - It's Oh So Quiet" link="yt:8KpyxKepWO8" length="5:05"/>
+	<video title="Carla - Actions ou Verites" link="yt:kpSsJ9ZYjOY" length="7:31"/>
+	<video title="Carla Danse Bum Bum Tam Tam" link="yt:hOwo-6CKHbk" length="6:17"/>
+	<video title="..." link="yt:B7jYwil0R-c" length="4:42"/>
+	<video title="..." link="yt:g7d7J2RT_aY" length="4:41"/>
+	<video title="..." link="yt:MY2GOkvceAs" length="5:26"/>
+	<video title="..." link="yt:-ussgGC1YGw" length="3:59"/>
+</event>
+<event title="(Carla Cover)" date="XX-XX-2019">
+	<video title="Carla &amp; Ilona - Bohemian Rhapsody" link="fb:241139446651665" length=""/>
+</event>
+<event title="Nice-Matin Kids-Matin - Carla &amp; Madison" date="22-02-2019">
+	<video title="Madison - Clown" link="fb:546994965812813" length="3:54"/>
+	<link>nicematin.com/a/300746</link>
+	<link>nicematin.com/a/301409</link>
+	<link>ville-drap.fr/events/les-finalistes-de-the-voice-kids-interviewees-par-kids-matin-a-drap-le-22-fevrier</link>
+</event>
+<event title="Carnaval de Nice - Bataille de Fleurs" date="23-02-2019">
+	<video title="Carla - Shallow" link="fb:302222710450493" length="2:57"/>
+	<video title="..." link="yt:DPdE4qdooE0" length="2:02"/>
+	<video title="..." link="yt:SdSadhBBB-g" length="36:38">
+		<_ time="17:03"/>
+	</video>
+	<video title="..." link="yt:rm4jBFl1KmE" length="">
+		<_ time="1:34"/>
+	</video>
+	<link>french-riviera-tendances.org/index.php?option=com_phocagallery&amp;view=category&amp;id=1485</link>
+</event>
+<event title="Carnaval de Nice - Corso Carnavalesque Illumine" date="02-03-2019">
+	<video title="..." link="fb:328460184447345" length="1:33"/>
+	<video title="..." link="fb:828964970772714" length="2:15:10">
+		<_ time="32:30"/>
+	</video>
+</event>
+<event title="Les Petites Canailles - Fais Pas Ci, Fais Pas Ca" date="15-03-2019">
+	<video title="Music Video" link="yt:RAbXpTbVeGA" length="1:47">
+		<link type="lyrics" id="1"/>
+	</video>
+</event>
+<event title="M6 Gulli - Gu'Live - Les Petites Canailles" date="19-03-2019">
+	<video title="..." link="yt:MDJsHs2CI_E" length="30:33"/>
+	<video title="..." link="yt:TXWI74dqA6s" length="3:53"/>
+</event>
+<event title="France 3 - 300 Choeurs Chantent les Plus Belles Chansons de Michel Sardou" date="29-03-2019">
+	<video title="Show" link="noodlemagazine.com/player/88444335_456239399?m=ec5d9869a179628d0a7c06718061ebed" length="2:08:20"/>
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456239883?m=a51205e777dd735b090666dc318843c4" length="2:08:20"/>
+	<video title="Les Petites Canailles - En Chantant" link="yt:uLLe1hvyKuc" length="3:46"/>
+	<video title="Les Petites Canailles - En Chantant" link="yt:dhhZY0GoVE8" length=""/>
+	<link type="francetv" id="937567"/>
+	<link type="francetv" id="1265219"/>
+</event>
+<event title="Mouratoglou Open" date="03-04-2019">
+	<video title="Carla - Shallow" link="fb:335996580596457" length="4:53"/>
+	<video title="..." link="yt:UwYNvYGNj20" length="0:35"/>
+	<video title="..." link="fb:2385336718153930" length="0:36"/>
+	<link>mouratoglou-open.com/carla-la-finaliste-de-the-voice-kids-marraine-du-kids-day</link>
+</event>
+<event title="Children &amp; Future - NFL Danse" date="21-04-2019">
+	<video title="Monaco Info - ..." link="yt:WYK-zxCIkEw" length="2:04"/>
+	<link>fb.com/media/set?set=a.2328479044054137</link>
+</event>
+<event title="Europetanque des Alpes-Maritimes - Lancement" date="23-04-2019">
+	<video title="..." link="fb:334558070538109" length="49:27"/>
+</event>
+<event title="Kids United Concert" date="19-05-2019">
+	<video title="TV Pitchoun - Interview" link="yt:blegCu85QYY" length="3:39">
+		<A>Coucou ... c'est les Petites Canailles sur TV Pitchoun.</A>
+		<Q>Comment vivez-vous à votre âge l'expérience d'être de véritable chanteur?</Q>
+		<A>... c'est un rêve qui se réalise parce que j'ai toujours rêvé, uh, ... venir chanteuse.</A>
+		<B>...</B>
+		<C>...</C>
+		<D>...</D>
+		<Q>Quel conseil donneriez-vous aux pitchouns qui souhaiterais se lancer dans la chanson?</Q>
+		<C>...</C>
+		<B>...</B>
+		<A>...</A>
+		<E>...</E>
+		<D>...</D>
+		<Q>Quel est le concept des Petites Canailles, pourqoui rependre ...</Q>
+	</video>
+	<video title="Les Petites Canailles - Laisse Tomber les Filles &amp; Les Marionnettes" link="fb:612243405943694" length="5:19">
+		<link type="lyrics" id="4"/>
+		<link type="lyrics" id="2"/>
+	</video>
+	<link>nicematin.com/a/382760</link>
+</event>
+<event title="Célia Larry Show - Spectacle" date="XX-XX-2019">
+	<video title="Carla - Comme Toi" link="fb:2332762647042920" length="3:55"/>
+	<video title="Carla - Rise Like a Phoenix" link="fb:2371094333147685" length="3:57">
+		<_ title="Carla - Rise Like a Phoenix" time="0:56"/>
+	</video>
+</event>
+<event title="Seb Avec Ta Star - Les Petites Canailles &amp; Kids United" date="08-06-2019">
+	<video title="Au Manoir de Paris" link="yt:69U4M6O8da8" length="12:44"/>
+</event>
+<event title="Les Petites Canailles - Les Marionnettes" date="14-06-2019">
+	<video title="Music Video" link="yt:-EQvIdKpVVc" length="2:31">
+		<link type="lyrics" id="2"/>
+	</video>
+	<video title="..." link="fb:2348576978694068" length=""/>
+</event>
+<event title="France 3 Provence-Alpes-Cote d'Azur - Ensemble C'est Mieux" date="10-06-2019">
+	<video title="..." link="yt:QNaXWqtA0Ro" length="8:56">
+		<_ title="Carla - Shallow" time="6:09"/>
+	</video>
+	<link type="francetv" id="1701749"/>
+</event>
+<event title="Abbeville - Concerts d'Ete" date="29-06-2019">
+	<video title="Les Petites Canailles - Laisse Tomber les Filles" link="fb:2306853502920441" length="2:35">
+		<link type="lyrics" id="4"/>
+	</video>
+	<video title="Les Petites Canailles - J'Attendrai" link="fb:2279606135479598" length="1:02">
+		<link type="lyrics" id="3"/>
+	</video>
+	<video title="Les Petites Canailles - Les Marionnettes" link="fb:408321193100493" length="2:39">
+		<link type="lyrics" id="2"/>
+	</video>
+	<video title="..." link="fb:2284822411756218" length=""/>
+	<link>courrier-picard.fr/id22192/article/2019-06-29/abbeville-debut-du-grand-concert-de-lete</link>
+</event>
+<event title="Pro Coiffure Esthetique - ..." date="30-06-2019">
+	<video title="" link="fb:364105877587714" length=""/>
+	<video title="" link="fb:364309717567330" length=""/>
+</event>
+<event title="Sainte-Maxime Soiree Gala - Patrick Fiori Concert" date="17-07-2019">
+	<video title="Carla - Shallow" link="yt:-DXLQWKgc6Q" length="5:15"/>
+	<link>nicematin.com/a/398880</link>
+</event>
+<event title="Europetanque des Alpes-Maritimes - Finale" date="22-07-2019">
+	<video title="Carla - La Grenade" link="yt:3Rd86zuiESY" length="5:20"/>
+	<video title="..." link="fb:2337047996533224" length="27:29"/>
+	<link>yesicannes.com/europetanque-des-alpes-maritimes-sport-amitie-57508</link>
+</event>
+<event title="Les Petites Canailles - J'Attendrai" date="26-07-2019">
+	<video title="Music Video" link="yt:hDDv3tGeTBQ" length="3:30">
+		<link type="lyrics" id="3"/>
+	</video>
+</event>
+<event title="TF1 LCI - LE 13H" date="09-08-2019">
+	<video title="..." link="tf1.fr/embedplayer/13654384" length="2:19"/>
+	<link>lci.fr/-2129184.html</link>
+</event>
+<event title="Eze - Fetes Patronales" date="17-08-2019">
+	<video title="Carla - La Grenade" link="yt:_j8_RQXhonc" length="3:08"/>
+	<video title="Carla - What a Feeling" link="yt:xR1g-pmk2a0" length="3:12"/>
+	<link>ville-eze.fr/evenements/fetes-patronales-4</link>
+</event>
+<event title="France 2 - Basique, l'Essentiel de la Musique" date="26-08-2019">
+	<video title="Interview" link="yt:8aFOMPRA6V0" length="2:06"/>
+	<video title="Interview" link="yt:rMv0744swkw" length="1:36"/>
+	<link type="francetv" id="1050109"/>
+	<link type="francetv" id="1061275"/>
+</event>
+<event title="..." date="XX-08-2019">
+	<video title="Carla &amp; Hindy - Comment Te Dire Adieu" link="fb:2377136559241615" length="">
+		<link type="lyrics" id="13"/>
+	</video>
+</event>
+<event title="Cafe de la Danse - Les Petites Canailles Showcase" date="11-09-2019">
+	<video title="Interview" link="yt:LS8rrrMBAhM" length="10:03"/>
+	<video title="Les Petites Canailles - Fais Pas Ci, Fais Pas Ca" link="yt:yPytiq3V__k" length="1:47">
+		<link type="lyrics" id="1"/>
+	</video>
+	<video title="Les Petites Canailles - Les Marionnettes" link="yt:YJEHbXx2Cjk" length="2:30">
+		<link type="lyrics" id="2"/>
+	</video>
+	<video title="Les Petites Canailles - J'attendrai" link="yt:NA8IW8UOQow" length="3:35">
+		<link type="lyrics" id="3"/>
+	</video>
+	<video title="Les Petites Canailles - Bang Bang" link="yt:B8vzgvVhSFU" length="2:44">
+		<link type="lyrics" id="6"/>
+	</video>
+	<video title="Les Petites Canailles - Bang Bang" link="yt:VHNZ6m2kqeQ" length="2:42">
+		<link type="lyrics" id="6"/>
+	</video>
+	<video title="Les Petites Canailles - Bang Bang" link="fb:654618518355001" length="2:42">
+		<link type="lyrics" id="6"/>
+	</video>
+	<video title="Les Petites Canailles - Pour Moi La Vie Va Commencer" link="yt:n_-Ru_vnLpk" length="2:10">
+		<link type="lyrics" id="7"/>
+	</video>
+	<video title="Les Petites Canailles - The Loco-Motion" link="yt:0aWsOzWiATc" length="2:58">
+		<link type="lyrics" id="8"/>
+	</video>
+	<video title="Les Petites Canailles - J'entends Siffler Le Train" link="yt:-VqzPuk4djo" length="4:28">
+		<link type="lyrics" id="9"/>
+	</video>
+	<video title="Les Petites Canailles - Da Dou Ron Ron" link="yt:3NKt0DspDjQ" length="2:24">
+		<link type="lyrics" id="10"/>
+	</video>
+	<video title="Les Petites Canailles - Da Dou Ron Ron" link="fb:432950597338127" length="">
+		<link type="lyrics" id="10"/>
+	</video>
+	<video title="Les Petites Canailles - Pretty Woman" link="yt:9rn9SRa_I2Q" length="2:54">
+		<link type="lyrics" id="11"/>
+	</video>
+	<video title="Les Petites Canailles - Be Bop A Lula" link="yt:6O1I1dyWPYs" length="3:08">
+		<link type="lyrics" id="12"/>
+	</video>
+	<video title="Les Petites Canailles - Comment Te Dire Adieu" link="yt:3YjljQ1iCsc" length="2:09">
+		<link type="lyrics" id="13"/>
+	</video>
+	<video title="Les Petites Canailles - Medley" link="yt:MKrM8tFpPAM" length="4:30"/>
+	<video title="Les Petites Canailles - Medley" link="fb:893010797731244" length=""/>
+	<video title="Non Stop People - ..." link="fb:2434457703307193" length=""/>
+	<link>cafedeladanse.com/petitescanailles</link>
+	<link>soonnight.com/paris/-,28,31610.html</link>
+</event>
+<event title="IDFM Radio Enghien - Casse Noisette - Les Petites Canailles" date="14-09-2019">
+	<link>idfm98.fr/les-petites-canailles</link>
+</event>
+<event title="Carla - Bim Bam Toi" date="11-10-2019">
+	<video title="Music Video" link="yt:pjJ2w1FX_Wg" length="2:52">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="Music Video" link="yt:pWT_U6mEadQ" length="3:04">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="Behind the Scenes" link="yt:4gbPXqRMImU" length="2:50"/>
+	<video title="..." link="fb:496986350904776" length=""/>
+	<link type="francetv" id="1088929"/>
+	<link>www.francetvpro.fr/contenu-de-presse/313835</link>
+</event>
+<event title="Junior Eurovision Song Contest - Presentation" date="11-10-2019">
+	<video title="..." link="fb:553348832139135" length=""/>
+	<video title="Interview" link="yt:u_yuHo6jAHg" length="1:56"/>
+	<video title="..." link="fb:704436326719004" length=""/>
+	<video title="..." link="fb:562348021009154" length=""/>
+	<video title="..." link="fb:436895673898397" length=""/>
+	<video title="..." link="fb:1335021440008794" length=""/>
+	<video title="" link="ig:B3w9becoFdl" length="1:57"/>
+	<video title="Junior Eurovision Questions - Do You Have a Lucky Charm?" link="yt:PYNKlPlgNiM" length="2:38"/>
+	<video title="Junior Eurovision Questions - Do You Have a Favourite Lyric?" link="yt:AM3_Jl3_lpU" length="3:12"/>
+	<video title="Junior Eurovision Questions - What Is Your Favourite (Junior) Eurovision Song?" link="yt:xwOZNKgIV4s" length="4:21"/>
+	<video title="Junior Eurovision Questions - What Is Your Dream Job Besides Singing?" link="yt:ZHK2jLHL0L0" length="2:19"/>
+	<video title="Junior Eurovision Questions - Which Songs Do You Play on Repeat?" link="yt:g3OOHp1no7A" length="2:23"/>
+	<link type="francetv" id="1088935"/>
+</event>
+<event title="Junior Eurovision Song Contest - Press Conference" date="23-10-2019">
+	<video title="Live" link="fb:969859040024750" length="38:05"/>
+	<video title="Behind the Scenes" link="fb:452849688685838" length="1:07"/>
+	<video title="Interview" link="yt:8kJ1jS1karo" length="1:48"/>
+	<video title="Interview" link="yt:g2j1lLhM-cw" length="0:57">
+		<Q>Chat ou chien?</Q>
+		<A>Chat!</A>
+		<Q>Beyonce ou Taylor Swift?</Q>
+		<A>Ah Beyonce, meme si c'est tres dur.</A>
+		<Q>Train ou avion?</Q>
+		<A>Avion!</A>
+		<Q>Burger ou pizza?</Q>
+		<A>Uh, pizza.</A>
+		<Q>Raiponce ou La Reine des Neiges?</Q>
+		<A>La Reine des Neiges.</A>
+		<Q>Snapchat ou Instagram?</Q>
+		<A>Instagram.</A>
+		<Q>Ski ou plage?</Q>
+		<A>Plage.</A>
+		<Q>Amir ou Bilal Hassani?</Q>
+		<A>Ah mais c'est dur ...</A>
+		<Q>Francais ou maths?</Q>
+		<A>Francais!</A>
+		<Q>Fraises Tagada ou reglisse?</Q>
+		<A>Fraises Tagada.</A>
+		<A>Bonjour je m'apelle Carla et je vais representer la France a l'Eurovision Junior le vingt-quatre novembre ... en Pologne.</A>
+	</video>
+	<video title="Carla - Bim Bam Toi" link="fb:2500054490080195" length="3:04">
+		<link type="lyrics" id="16"/>
+	</video>
+	<link>eurovision-france.fr/eurovision-junior-2019-la-france-sur-la-route-de-la-victoire/</link>
+</event>
+<event title="France 2 - Basique, l'Essentiel de la Musique" date="11-10-2019">
+	<video title="Interview" link="yt:J5Hi5E87fE4" length="2:00"/>
+	<video title="Portrait Chinois (Si Tu Etais)" link="yt:dwfD7XYaxoo" length="1:01"/>
+	<link type="francetv" id="1076511"/>
+</event>
+<event title="Departement des Alpes-Maritimes - ..." date="15-11-2019">
+	<video title="Tous avec Carla" link="yt:9VUGzTLx10w" length="0:57">
+		<A>Et ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum'. Ca fait 'bim bam boum', dans ma tete y'a tout qui tourne.</A>
+		<A>C'est vraiment ...</A>
+	</video>
+	<video title="..." link="fb:549913798916698" length="1:27"/>
+	<video title="..." link="fb:415640999390593" length=""/>
+</event>
+<event title="BFMTV - Bonsoir Bruce" date="21-10-2019">
+	<video title="..." link="fb:2827154753974739" length="8:10"/>
+	<video title="..." link="fb:2827137653976449" length="8:10"/>
+	<link>bfmtv.com/people/-201910210108.html</link>
+</event>
+<event title="France Bleu Azur" date="22-10-2019">
+	<video title="Interview" link="dm:x7mxtz4" length="1:07">
+		<A>Ca monte, ca monte, jusqu'a c'que mon petit coeur disjoncte. Et ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum'. Ca fait 'bim bam boum', dans ma tete y'a tout qui tourne. Ca fait 'shht' et puis 'blabla', ca fait comme ci, comme ca. Ca fait 'bim bam ahahah', dans mon coeur je n'comprends pas.</A>
+		<_ title="..." time="0:22"/>
+		<Q>Carla, bonjour.</Q>
+		<A>Bonjour, je sera ... sur France Bleu.</A>
+		<Q>Et ... en plus tu va representer la France au concours l'Eurovision Junior.</Q>
+		<A>Mais oui, c'est, uh, vraiment un honneur pour moi, j'espere ... , uh, representer les couleurs de la France.</A>
+		<Q>En direct de Pologne?</Q>
+		<A>Oui, a Gliwice.</A>
+		<Q>Exactement, ce sera le vingt-quatre novembre, mais le vingt-deux on peut deja voter pour toi.</Q>
+		<A>Oui, a partir de vingt-deux les votes, uh, sont ouverts sur le site « junioreurovision ... tv » et le vingt-quatre novembre apres toutes les prestations le vote ... ouvriront quinze minutes. Je compte sur vous pour voter.</A>
+		<Q>On va voter pour Carla.</Q>
+		<A>Merci.</A>
+		<Q>C'est France Bleu Azur, c'est l'Eurovision et c'est la France qu'elle represente.</Q>
+		<A>Des gros bisous.😘</A>
+	</video>
+	<video title="Interview" link="dm:x7o1cem" length="1:07"/>
+	<video title="Interview" link="fb:3009244859104447" length=""/>
+</event>
+<event title="TF1 - The Voice Kids - La Finale" date="25-10-2019">
+	<video title="Show (Part 1)" link="noodlemagazine.com/player/-23729576_456240347?m=2acabb8ad2369ee7741531991b6a2e7f" length="1:50:11" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg"/>
+	<video title="Show (Part 2)" link="noodlemagazine.com/player/-23729576_456240349?m=69a4218913ccddff2d7a87dc5a558df4" length="44:26" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg"/>
+	<video title="Les Petites Canailles - J'Attendrai" link="tf1.fr/embedplayer/13670776" length="3:24">
+		<link type="lyrics" id="3"/>
+	</video>
+	<video title="Behind the Scenes" link="yt:RkPScQrUVps" length="10:51"/>
+</event>
+<event title="Europe 1 - Ca Fait du Bien" date="29-10-2019">
+	<video title="..." link="api.europe1.fr/podcast/mp3/itunes-329164519/3932264/podcast.mp3" length="32:43"/>
+	<link>europe1.fr/emissions/anne-roumanoff-ca-fait-du-bien/anne-roumanoff-avec-thierry-lhermitte-et-les-petites-canailles-3932264</link>
+</event>
+<event title="..." date="01-11-2019">
+	<video title="France 2 - ..." link="fb:1113724665487482" length=""/>
+	<video title="France 2 - ..." link="ig:B4VSqbVof02" length=""/>
+</event>
+<event title="France 2 - Vivement Dimanche" date="10-11-2019">
+	<video title="..." link="yt:yax4Xax2Jmw" length="3:05"/>
+	<link type="francetv" id="1098395"/>
+</event>
+<event title="EFR12 - EFR League Junior" date="12-11-2019">
+	<video title="Interview" link="efr12.com/radio/wp-content/uploads/2019/12/Carla-sur-EFR12-Radio.mp3" length="4:48">
+		<A>Et ça fait « bim bam boum », ça fait « pshht » et ça fait « vroum ».</A>
+		<Q>... deux semaines maintenant ça sera la dix-septième édition du concours Eurovion Junior de la chanson, ça sera en Pologne. Une compétition que vous pouvez suivre sur France Deux à partir de seize heurs. Et c'est Carla qui defendera les couleurs tricolores. Carla, qui est avec moi ... bonsoir Carla!</Q>
+		<A>Bonsoir!</A>
+		<Q>Alors comment tu te sens, uh, comment tu vis cette nouvelle aventure ... représenter la France à l'Eurovision Junior?</Q>
+		<A>Bah pour moi c'est vraiment un rêve qui se réalise et, uh, surtout, uh, je me sens chanceuse et, uh, je suis hyper fière de pouvoir représenter mon pays et, uh, j'espère, uh, pouvoir, uh, mener mon pays le plus haut possible dans cette compétition.</A>
+		<Q>Comment ça se passé ... l'a annoncé?</Q>
+		<A>Alors, uh, ... l'a annoncé vraiment j'étais, uh, super émue et, uh, ... wow c'est mon rêve qui se réalise et j'étais, uh, super émue ...</A>
+		<Q>... tu avais déjà regarder l'Eurovision avant?</Q>
+		<A>Oui l'année dernière, uh, je regardais, je regarde l'Eurovision adult, l'Eurovision enfant. Vraiment, uh, j'adore regarder l'Eurovision parce que c'est, uh, un show à chaque fois incroyable et surtout l'année dernière comme je voyais Angélina à l'Eurovision Junior, parce que c'était ... premiere fois que la France ... dans la compétition et, uh, vraiment, uh, quand je voyais Angélina, uh, ça me ... rêver, je me disais, uh, « bah moi aussi j'aimerais être sur cette scène, vraiment, uh, j'ai envie de faire ça, uh, vraiment » et, uh, quand, uh, on m'a appris ça je me disais « wow, c'est vraiment, uh, incroyable ».</A>
+		<Q>Est-ce que tu as quatorze ans ... très jeune dans le milieu de la musique.</Q>
+		<A>Oui j'ai commencé à l'âge de cinq ans la chanson et, uh, c'était, uh, le, le, quand j'avais cinq ans je regardais ma maman qui est prof de chant ... et je me disais « mais je veux faire ça moi, je va être chanteuse ». C'est vraiment une passion pour moi et vraiment j'espère, uh, ... faire pour ... arriver.</A>
+		<Q>Il y a musique aussi parce que tu ... piano.</Q>
+		<A>Oui ... le piano aussi et c'est quelque chose qui nous aide beaucoup pour nous accompagner quand on chante et cetera. Vraiment, uh, ... un instrument que j'aime beaucoup.</A>
+		<Q>Il y aura aussi des danseuses autour de toi parce que ...</Q>
+		<A>Oui ... avec elles.</A>
+		<Q>Ça nous promet un très beau spectacle sur une chanson qui est très dynamique, très pétillant, on a hâte de voir ça. ...</Q>
+		<A>Uh, oui j'ai écouté, uh, tous mes concurrents mais vraiment, uh, je prends pas ... un beau show.</A>
+		<Q></Q>
+		<A>C'est ça, c'est ça.</A>
+		<Q>Et puis, uh, ... l'Eurovision?</Q>
+		<A>Oui je savais ...</A>
+		<Q>Oui ...</Q>
+		<A>Merci à vous, merci à vous.</A>
+	</video>
+	<video title="..." link="yt:3ZOro_h1LAg" length=""/>
+	<video title="..." link="fb:468331717373261" length=""/>
+</event>
+<event title="Seb Avec Ta Star - Carla" date="13-11-2019">
+	<video title="Tu Es Plus" link="yt:zqOLdFGyJtY" length="10:33">
+		<Q>Salut Carla, comment tu vas?</Q>
+		<A>Coucou, ca va, et toi?</A>
+		<Q>Mais ecoute ca va. ... plus de sourire que quand on s'etait vu la derniere fois au 'Manoir de Paris'.</Q>
+		<A>Ah oui, ... trop ... plus.</A>
+		<Q>... on, on va te retrouver, uh, la a l'Eurovision.</Q>
+		<A>Ouais.</A>
+		<Q>Est-ce que pour un peu se mettre dans l'ambiance tu veux nous chanter ton refrain?</Q>
+		<A>Allez, c'est parti.</A>
+		<Q>Allez, quand tu veux.</Q>
+		<A>Ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum'. Ca fait 'bim bam boum' dans ma tete y'a tout qui tourne. Ca fait 'shht' et puis 'blabla', ca fait comme ci comme ca. Ca fait 'bim bam ahahah', dans mon coeur, je n'comprends pas.</A>
+		<Q>Et ... ecoute.</Q>
+		<A>Voila.</A>
+		<Q>Faut qu'on vote pour toi.</Q>
+		<A>Ah oui, le vingt-deux novembre sur le site « junioreurovison ... tv » et le vingt-quatre novembre aussi vous pouvez ... plusieurs fois ...</A>
+		<Q>Et bah tres bien ... ecoute. Apres on va jouer au « tu es plus ».</Q>
+		<A>OK.</A>
+		<Q>Est-ce que .. prete?</Q>
+		<A>Allez, c'est parti.</A>
+		<_ title="L'Ecole" time="0:48"/>
+		<Q>On va commencer avec l'ecole. Est-ce que tu es plus a l'ecole, team demi-pension ou team externe?</Q>
+		<A>Team demi-pension.</A>
+		<Q>Ah ouais?</Q>
+		<A>Ouais, je mange le lundi et le vendredi. Non mais en fait parce que les autres jours je danse ... je mange ...</A>
+		<Q>Ah.</Q>
+		<A>...</A>
+		<Q>On comprend mieux. Tu es plus leader de classe ou suiveur?</Q>
+		<A>..., uh, ... un groupe donc, uh, ... leader, un suiveur ... On est tous ensemble en fait.</A>
+		<Q>Tu es plus team je fais mes devoirs ou team je fais jamais mes devoirs?</Q>
+		<A>Team, uh, je fais mes devoirs parce que je pas trop ... d'ecole. Ca va allez.</A>
+		<Q>Tu es plus team en retard ou team toujours a l'heure?</Q>
+		<A>Team toujours a l'heure.</A>
+		<Q>Ah ouais?</Q>
+		<A>Ouais, ... vraiment, uh, moi je me leve hyper ... cinq heures du matin et ...</A>
+		<Q>Mais non.</Q>
+		<A>Ah ouais vraiment ...</A>
+		<Q>... tu commences a quelle heure ...</Q>
+		<A>A huit heures quinze. Non mais vraiment j'ai, j'ai ... d'heure.</A>
+		<Q>... calculer les heures de sommeil que tu perds?</Q>
+		<A>Non mais c'est pas grave, comme ca chez l'heures.</A>
+		<Q>Tu es plus college ou lycee?</Q>
+		<A>Uh, college parce que je ... ecole ... lycee. ...</A>
+		<Q>... l'ecole ... lycee?</Q>
+		<A>Ouais, j'ai hate pour voir, uh, un autre environnement et ...</A>
+		<Q>Tu es plus EPS ou arts plastiques?</Q>
+		<A>EPS, uh, j'adore courir, j'adore faire du sport ... pas.</A>
+		<Q>Tu es plus en LV1 anglais ou espagnol?</Q>
+		<A>Anglais, j'adore parler anglais meme si je parle anglais comme ... espagnol ... pas grave.</A>
+		<Q>En LV2 justement. Tu es plus espagnol ou allemand?</Q>
+		<A>Espagnol, j'adore espagnol.</A>
+		<Q>Tu es plus mathematiques ou histoire?</Q>
+		<A>Histoire.</A>
+		<Q>T'aimes pas les maths, toi?</Q>
+		<A>Ah non, ... pas ... super alors.</A>
+		<Q>... moyenne?</Q>
+		<A>J'ai quatorze.</A>
+		<Q>... maths ...</Q>
+		<A>Non mais, non mais ... super possible.</A>
+		<Q>... au bac?</Q>
+		<A>... Ca rentre, ca sort.</A>
+		<Q>... quatorze.</Q>
+		<A>...</A>
+		<Q>Uh, j'ai eu quatre.</Q>
+		<A>Ah.</A>
+		<Q>Voila, ah.</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>... quand meme ton bac.</A>
+		<Q>Evidemment.</Q>
+		<A>... voila.</A>
+		<Q>... bac plus quatre.</Q>
+		<A>Ah, ... bac ...</A>
+		<Q>Exactement ... prof de maths. Uh, tu es plus maman j'ai encore eu une heure de colle ou maman j'ai eu de super bonnes notes?</Q>
+		<A>Mamam j'ai eu de super bonnes notes.</A>
+		<Q>Tu es plus premier rang ou dernier rang?</Q>
+		<A>Premier rang ... vraiment ...</A>
+		<Q>C'est vrai?</Q>
+		<A>Ouais parce que je ... mes amis alors ... je parle tout le temps ... je connais pas. ... travailler.</A>
+		<Q>Justement, tu es plutot bavard ou sage?</Q>
+		<A>Sage, quand meme.</A>
+		<Q>En controle team recopieur ou team j'ai tout appris.</Q>
+		<A>Team j'ai tout appris sinon, uh, ... papa ... me tue.</A>
+		<Q>Tu es plus SVT ou physique?</Q>
+		<A>Uh, SV ... SVT ... Je prefere SVT.</A>
+		<Q>Ouais. Tu es plus histoire-geo ou langues vivantes?</Q>
+		<A>Langues vivantes, j'aime bien decouvrir, uh, des culture et tous. C'est trop bien.</A>
+		<_ title="Les Expressions" time="4:08"/>
+		<Q>Allez maintenant on va passer, uh, aux expressions. Dans les expressions toi, tu dis plus un « pain au chocolat » ou une « chocolatine »?</Q>
+		<A>... je comprends pas ... 'chocolatine' ... moi c'est « pain au chocolat ».</A>
+		<Q>On est d'accord, merci. A Paris nous ... dit un 'sac plastique'. Mais est-ce que ... tu dis, un 'sac plastique', un 'sachet' ou une 'poche'?</Q>
+		<A>Moi je dis un 'sachet' ... je sais pas.</A>
+		<Q>Tu dis 'rose' ou 'rause'?</Q>
+		<A>... 'rause' mais enfin c'est l'accent, je croix, uh, je sais pas.</A>
+		<Q>L'accent du sud.</Q>
+		<A>C'est l'accent du sud.</A>
+		<Q>Tu dis du 'lait' ou du 'let'?</Q>
+		<A>Du 'let'.</A>
+		<Q>Tu dis 'haha' ... tu ecris 'ahah' par SMS? Tu ecris 'H', 'A', 'H', 'A' ou 'A', 'H', 'A', 'H'?</Q>
+		<A>'A', 'H', 'A', 'H', bah je sais pas 'H' H H A H A, ... c'est plus simple H A H A 'H'.</A>
+		<Q>Tu es plus 'la wifi' ou 'le wifi'?</Q>
+		<A>Uh, ... ouais 'la wifi'.</A>
+		<_ title="Les Dilemmes Impossibles" time="5:05"/>
+		<Q>Tres bien, uh on va faire les dilemmes impossibles. Tu es plus un monde sans musique ou un monde sans tele?</Q>
+		<A>Ah non c'est dur ca.</A>
+		<Q>Et bah oui c'est les dilemmes impossibles.</Q>
+		<A>..., uh, un monde sans tele parce que musique ... impossible ... pas.</A>
+		<Q>Tu es plus savoir comment tu vas mourir ou savoir quand tu vas mourir? Ah c'est dur.</Q>
+		<A>Ah ce c'est trop dur, uh ... mais, uh, ... savoir quand je vais mourir.</A>
+		<Q>Tu es plus avoir tout le temps faim ou tout le temps soif?</Q>
+		<A>Avoir tout le temps soif ...</A>
+		<Q>... aussi ...</Q>
+		<A>...</A>
+		<_ title="Caractere &amp; Personnalite" time="5:53"/>
+		<Q>Dans ... caractere et personnalite. Est-ce que tu es plus, jalouse ou impulsive?</Q>
+		<A>Jalouse, je suis tres jalouse.</A>
+		<Q>Tu es plus introverti ou extraverti?</Q>
+		<A>Introverti.</A>
+		<Q>Tu es plus têtue ou pas du tout têtue?</Q>
+		<A>Tres têtue.</A>
+		<Q>Tres têtue ... vraiment?</Q>
+		<A>Ah ouais ... tres têtue.</A>
+		<Q>Tu es plus SMS ou appel?</Q>
+		<A>Appel ... je prefere appeler.</A>
+		<Q>Tu preferes le noir ou je blanc?</Q>
+		<A>Le noir ...</A>
+		<Q>Tes vetements tu les preferes clair ou fonce?</Q>
+		<A>Fonce.</A>
+		<Q>En shopping tu prends ton temps ou au contraire tu fais le plus vite possible.</Q>
+		<A>Uh, moi je ...</A>
+		<Q>...</Q>
+		<A>Ah ouais ... j'aime bien regarder ...</A>
+		<Q>Ton telephone il est en mode vibreur ou en mode sonnerie.</Q>
+		<A>En mode vibreur.</A>
+		<Q>En general ... tu es plus mer ou montagne?</Q>
+		<A>Ca depend ... montagne, mais sinon ... mer.</A>
+		<Q>Tu es plus ete ou hiver?</Q>
+		<A>Ete.</A>
+		<Q>Tu es plus US ou Europe?</Q>
+		<A>US meme si je ... jamais aller ... vraiment.</A>
+		<Q>Ah ouais?</Q>
+		<A>C'est mon reve.</A>
+		<Q>... ou?</Q>
+		<A>... Etats-Unis.</A>
+		<Q>...</Q>
+		<A>... Miami.</A>
+		<Q>Miami?</Q>
+		<A>Ouais.</A>
+		<Q>En vacances tu es plutot team farniente ou team je visite.</Q>
+		<A>Uh, team farniente, j'adore ...</A>
+		<Q>Une casquette ... a l'endroit ou a l'envers?</Q>
+		<A>A l'endroit.</A>
+		<Q>Tu mets des chaussettes ou des socquettes?</Q>
+		<A>Des socquettes.</A>
+		<Q>Ah ouais ...</Q>
+		<A>Ah non, j'aime pas sinon ...</A>
+		<Q>Tu es plus mascara ou rouge a levres?</Q>
+		<A>Mascara ...</A>
+		<Q>Des chaussures ... avec ou sans talons?</Q>
+		<A>Ca depend, uh, ..., mais, uh, sinon, uh, ... tres bien.</A>
+		<Q>Tu preferes les ballerines ou les talons?</Q>
+		<A>Ah non, pas les ballerines, uh, ... talons, ... talons.</A>
+		<Q>Un maillot de bain c'est plus beau ... une piece ou deux pieces?</Q>
+		<A>Deux pieces.</A>
+		<Q>... garcon ... tu recommandes un short de bain ou un maillot de bain?</Q>
+		<A>Un short de bain.</A>
+		<Q>Et enfin ... garcon ... team cravate ou team ...?</Q>
+		<A>..., uh, ...</A>
+		<Q>Tu es plus ... Game of Thrones ou Narcos, ... les deux?</Q>
+		<A>Game of Thrones.</A>
+		<Q>Game of Thrones, OK. Tu es plus Riverdale ou Pretty Little Liars?</Q>
+		<A>Ah c'est dur ... Riverdale.</A>
+		<Q>Tu es plus Stranger Things ou Orange is the New Black?</Q>
+		<A>Stranger Things.</A>
+		<Q>Stranger Things.</Q>
+		<A>Stranger Things ...</A>
+		<Q>Tu es plus Desperate Housewives ou Prison Break?</Q>
+		<A>... regarde ...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Mais non.</Q>
+		<A>Ah oui vraiment.</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Exactement. Tu es plus les Simpson ou South Park?</Q>
+		<A>Les Simpson.</A>
+		<Q>Et enfin, tu es plus La Casa de Papel ou The Walking Dead?</Q>
+		<A>La Casa de Papel.</A>
+		<Q>...</Q>
+		<A>Ah, j'adore.</A>
+		<Q>...?</Q>
+		<A>Non.</A>
+		<Q>Non?</Q>
+		<A>Meme pas.</A>
+		<Q>... Tu es plus un bon Disney ou ...?</Q>
+		<A>Un bon Disney ...</A>
+		<Q>Tu es plus Aladin ou le Roi Lion?</Q>
+		<A>Ah non, ca c'est pas possible, uh, ... Disney ...</A>
+		<Q>...</Q>
+		<A>Uh, ...</A>
+		<Q>...</Q>
+		<A>Ah, merci.</A>
+		<Q>Tu es plus La Reine des Neiges ou Zootopie?</Q>
+		<A>Ah, La Reine des Neiges.</A>
+		<Q>Sans hesiter?</Q>
+		<A>Ah non ...</A>
+		<Q>...</Q>
+		<A>Ouais, ouais, ouais.</A>
+		<Q>... connais ... la chanson?</Q>
+		<A>... mais ...</A>
+		<Q>Ah.</Q>
+		<A>... plus.</A>
+		<Q>Tu es plus ...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>... petit ...</A>
+		<Q>Tu es plus Toy Story ou Nemo?</Q>
+		<A>Nemo.</A>
+		<Q>Tu es plus Ratatouille ou Shrek?</Q>
+		<A>Ratatouille.</A>
+		<Q>Et enfin, tu es plus ... ou ... mechant?</Q>
+		<A>... j'adore.</A>
+		<Q>... ecoute ... merci beaucoup Carla.</Q>
+		<A>Merci a toi.</A>
+		<Q>... a tres vite?</Q>
+		<A>Oui.</A>
+		<Q>Bye bye.</Q>
+		<A>Des gros bisous.</A>
+	</video>
+	<video title="Pour 1 Million Acceptes-Tu De" link="yt:CyZsaO-qIvQ" length="7:46">
+		<Q>Bonjour a tous ... nouvelle video aujourd'hui avec Carla. Carla qui ... a l'Eurovision Junior ... C'est ma deuxieme video avec Carla ... , uh, ma premiere video avec elle, c'etait un 'tu es plus', aujourd'hui 'pour un million d'euros acceptes-tu'. ... un petit like ... abonner ... video. Salut Carla!</Q>
+		<A>Coucou!</A>
+		<Q>Comment tu vas?</Q>
+		<A>Ca va, et toi?</A>
+		<Q>... ecoute ...</Q>
+		<A>Ah ouais mais c'est trop bien ...</A>
+		<Q>...</Q>
+		<A>... ici.</A>
+		<Q>... 'pour un million d'euros acceptes-tu de'.</Q>
+		<A>OK.</A>
+		<Q>Uh, ... internet.</Q>
+		<A>OK.</A>
+		<Q>Est-ce que tu es prete?</Q>
+		<A>Je prete.</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus avoir ton telephone a vie?</Q>
+		<A>Uh, bah pourquoi pas.</A>
+		<Q>Mais non.</Q>
+		<A>... ecoute, c'est, c'est pas grave.</A>
+		<Q>... vie. Pour un million d'euros acceptes-tu de ne plus avoir Netflix?</Q>
+		<A>Ah non, je peux pas.</A>
+		<Q>... maintenant ... Netflix ... ton telephone?</Q>
+		<A>Ah oui ... series, je peux pas.</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus avoir de reseaux sociaux?</Q>
+		<A>Non, non parce que ... je peux pas ... non.</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus jamais voyager.</Q>
+		<A>Ah non, c'est trop, trop, trop important voyager vraiment, non.</A>
+		<Q>... Miami?</Q>
+		<A>... Miami. ... en plus ...</A>
+		<Q>... Pour un million d'euros acceptes-tu de ne plus avoir d'amis?</Q>
+		<A>Ah non, je peux pas.</A>
+		<Q>... d'accord. Pour un million d'euros acceptes-tu de faire un saut en parachute?</Q>
+		<A>Mais c'est quoi cette question, uh, c'est ma phobie ... vertige ..., uh, uh, non, je peux pas.</A>
+		<Q>Tu refuses?</Q>
+		<A>Alors, je refuse.</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus du tout parler pendant un mois?</Q>
+		<A>Alors, je peux pas, je, je parle trop, je peux pas ... de parler, non, je peux pas.</A>
+		<Q>Acceptes-tu pour un million d'euros de ne manger que des pates.</Q>
+		<A>Ah non, je pas trop fan de pates en plus, uh.</A>
+		<Q>Ah ouais?</Q>
+		<A>Je prefere, uh, ... je prefere ... salade. Uh, bah pourquoi pas ... une regime pates ...</A>
+		<Q>Pour un million d'euros acceptes-tu de changer de metier et de dire adieu a la musique?</Q>
+		<A>Non, ah je peux pas.</A>
+		<Q>Pour un million d'euros acceptes-tu de vivre dans la nuit pendant un ans et donc ... soleil?</Q>
+		<A>Ah mais c'est trop dur.</A>
+		<Q>Bah oui.</Q>
+		<A>Je, je ..., uh.</A>
+		<Q>...</Q>
+		<A>Uh, uh, non je ... pas quand meme ... apres ... trop bizarre.</A>
+		<Q>Pour un million d'euros acceptes-tu d'aller faire Koh-Lanta?</Q>
+		<A>Ah oui, ... j'aimerais trop faire Koh-Lanta ...</A>
+		<Q>Mais non.</Q>
+		<A>...</A>
+		<Q>... l'enfer ...</Q>
+		<A>Non, ... peur les serpents ... j'aime pas les serpents ... l'insectes mais, uh, enfin pour une experience de vie et tous ... trop cool.</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus faire de sport pendant un ans?</Q>
+		<A>Ah non, je peux pas. C'est trop ma vie, sport.</A>
+		<Q>Pour un million d'euros acceptes-tu d'ecouter la meme musique pendant vingt-quatre heures, en boucle?</Q>
+		<A>Uh, ca depend quel genre de musique ... je peux pas ... vraiment, uh, ... quand meme ...</A>
+		<Q>Acceptes-tu de changer de prenom et de nom pour un million d'euros?</Q>
+		<A>Ah non, non c'est trop triste, uh, non.</A>
+		<Q>Acceptes-tu d'avoir ... cinq enfants ...</Q>
+		<A>Ah non, je peux pas ...</A>
+		<Q>Donc ...</Q>
+		<A>... reve.</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus avoir d'animal de compagnie?</Q>
+		<A>Ah non, j'aime trop mon chien. ...</A>
+		<Q>Il s'appelle comment, ton chien?</Q>
+		<A>Elle s'appelle Chanel.</A>
+		<Q>Chanel. Pour un million d'euros acceptes-tu d'insulter toutes les personnes que tu aimes? ...</Q>
+		<A>Ah non, c'est trop triste. Ah non, je peux pas. ... famille ...</A>
+		<Q>Pour un million d'euros acceptes-tu de faire une tele realite?</Q>
+		<A>Ah non, je peux pas, non.</A>
+		<Q>Pour un million d'euros acceptes-tu de vendre un membre de ta famille?</Q>
+		<A>Ah non, pas du tout, non. Ca c'est fou ... question.</A>
+		<Q>Pour un million d'euros acceptes-tu ...</Q>
+		<A>...</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus ecouter de musique?</Q>
+		<A>Ah non, j'adore la musique, non.</A>
+		<Q>Pour un million d'euros acceptes-tu d'adopter un reptile?</Q>
+		<A>Ah c'est ma phobie les reptiles, je peux pas. ... je peux pas.</A>
+		<Q>Non.</Q>
+		<A>Ah, je peux pas.</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus pouvoir dormir?</Q>
+		<A>Uh, bah apres, uh, ...</A>
+		<Q>...</Q>
+		<A>Non mais ...</A>
+		<Q>Voila ...</Q>
+		<A>Non.</A>
+		<Q>Uh, pour un million d'euros acceptes-tu de te ... la boule a zero?</Q>
+		<A>Ah non, non, non, s'il vous plait.</A>
+		<Q>Pour un million d'euros acceptes-tu de casser ton telephone?</Q>
+		<A>Mais non, c'est pas bien ...</A>
+		<Q>Pour un million d'euros acceptes-tu de ne plus manger de chocolat?</Q>
+		<A>J'aime pas le chocolat.</A>
+		<Q>Mais non.</Q>
+		<A>...</A>
+		<Q>Mais non.</Q>
+		<A>... Nutella ...</A>
+		<Q>Bah bravo. Pour un million d'euros acceptes-tu de ne manger que des legumes?</Q>
+		<A>... oui j'adore les legumes.</A>
+		<Q>Pour un million d'euros acceptes-tu de sortir trois mois ... avec quelqu'un que tu detestes?</Q>
+		<A>Ah non, c'est ma phobie, uh.</A>
+		<Q>J'imagine un reptile ... tu destestes.</Q>
+		<A>Ah non, non, je peux pas la. ...</A>
+		<Q>Acceptes-tu pour un million d'euros de ne pas prende ...</Q>
+		<A>Ah non, non ... Non, je peux pas.</A>
+		<Q>Acceptes-tu de te faire relooker par ta grand-mere pour un million d'euros?</Q>
+		<A>... ca va.</A>
+		<Q>Et enfin.</Q>
+		<A>...</A>
+		<Q>Et enfin ... pour un million d'euros acceptes-tu de gifler ton idole?</Q>
+		<A>Ah non, non, non, Beyonce ...</A>
+		<Q>...</Q>
+		<A>... je l'adore.</A>
+		<Q>... super.</Q>
+		<A>C'est mon reve.</A>
+		<Q>... ecoube, ecoute pardon. Merci Carla!</Q>
+		<A>Merci!</A>
+		<Q>... fait des gros bisous?</Q>
+		<A>Gros bisous.😘</A>
+	</video>
+</event>
+<event title="France 3 Provence-Alpes-Cote d'Azur - 12/13 Cote d'Azur" date="16-11-2019">
+	<video title="..." link="yt:O-C-HoI17g0" length="3:04">
+		<A>Et ça fait « bim bam boum », ça fait « pshht » et ça fait « vroum », ça fait « bim bam boum », dans ma tête y'a tout qui tourne. Ça fait « shht » et puis « blabla », ça fait comme ci, comme ça, ça fait « bim bim ahahah », dans mon cœur je n'comprends pas. Ça fait « bim bam » là, « bim bam » là, ça fait « bim bam » quoi, « I love you », je crois qu'c'est ça. Ça fait « bim bam » là, « bim bam » là, ça fait « bim bam » quoi, « I love you », je crois qu'c'est ça.</A>
+		<Q>Bonjour Carla.</Q>
+		<A>Bonjour!</A>
+		<Q>...</Q>
+	</video>
+	<video title="..." link="yt:IWqhV3CoBMw" length="0:43">
+		<A>Écoutez ça fait chaud au cœur parce que déjà nous sommes très, très fiers, hein? ... parents, uh, de son parcours ... restee tres tres simple malgre tout ce soutien, tout ce succes qui lui arrive ... et, uh, on est tres tres fiers qu'elle represente la France mais aussi le departement des Alpes-Maritimes.</A>
+		<Q>Et comment ...</Q>
+		<A>... reve pour elle ... mais elle sait aussi, uh, revenir dans son monde normal a l'ecole ... ses copains, ses copines ... voila.</A>
+		<Q>Derniere question ... fille de quatorze ans?</Q>
+		<A>Alors ca implique beaucoup d'organisation avec l'etablissement scolaire, hein? Mais Carla est brillante a l'ecole donc, uh, on se fait pas trop de soucis pour elle.</A>
+	</video>
+	<video title="..." link="yt:y_d8Ez0fPQQ" length="2:02">
+		<Q>...</Q>
+	</video>
+	<video title="..." link="fb:2616242345134970" length=""/>
+	<link>france3-regions.francetvinfo.fr/--1750795.html</link>
+</event>
+<event title="France 2 - Les Enfants de la Tele - Les Bronzes Font du Ski" date="17-11-2019">
+	<video title="Show (Part 1)" link="ok.ru/videoembed/1914908969582" length="40:28"/>
+	<video title="Show (Part 2)" link="ok.ru/videoembed/1914909035118" length="23:09"/>
+	<link type="francetv" id="1104077"/>
+	<link type="francetv" id="1104079"/>
+</event>
+<event title="France Bleu Azur - On Passe le Week-End avec une Star" date="17-11-2019">
+	<video title="..." link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-0.mp3" length="3:09">
+		<Q>... C'est aven un plaisir immense que nous ... dans le grand studio France Bleu Azur Carla, Carla Lazzari, bonjour.</Q>
+		<A>Bonjour!</A>
+		<Q>Bienvenue, bon retour, ... souvenir ... d'etre ici dans ce studio.</Q>
+		<A>Merci beaucoup, bah oui, c'est toujours un plaisir de venir dans ce studio magnifique. Je passe des moments, uh, ...</A>
+		<Q>... presque la maison aussi, hein?</Q>
+		<A>Oui.</A>
+		<Q>... aujourd'hui c'est parce que ... Bim Bam Toi ...</Q>
+		<A>Et ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum' ...</A>
+	</video>
+	<video title="..." link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-1.mp3" length="3:46"/>
+	<video title="..." link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-2.mp3" length="5:50"/>
+	<link>francebleu.fr/emissions/passe-le-week-end-avec-une-star-partie-1/azur/la-jeune-azureenne-carla-reperee-dans-voice-kids-representera-la-france-a-l-eurovision-junior</link>
+	<link>francebleu.fr/emissions/passe-le-week-end-avec-une-star-partie-2/azur/la-jeune-azureenne-carla-reperee-dans-voice-kids-representera-la-france-a-l-eurovision-junior</link>
+	<link>francebleu.fr/emissions/passe-le-week-end-avec-une-star-partie-3/azur/la-jeune-azureenne-carla-reperee-dans-voice-kids-representera-la-france-a-l-eurovision-junior</link>
+</event>
+<event title="France 3 Provence-Alpes-Cote d'Azur - Ensemble C'est Mieux" date="18-11-2019">
+	<video title="..." link="yt:oeX-zSQv4bA" length="3:38">
+		<Q>... celle qui nous representera donc a l'Eurovision Junior, uh, dans quelques jours, Carla est avec nous.</Q>
+		<Q>Carla que nous avions recu au mois de juin, bonjour Carla.</Q>
+		<A>Bonjour!</A>
+		<Q>...</Q>
+	</video>
+	<link type="francetv" id="1698147"/>
+</event>
+<event title="Virgin Radio Cote d'Azur" date="18-11-2019">
+	<link>soundcloud.com/irginadiotedzur/eurovision-junior-lazureenne-carla-lazzari-representera-la-france</link>
+</event>
+<event title="Nice-Matin Kids-Matin - L'Actu - Carla" date="XX-11-2019">
+	<video title="Interview" link="yt:e1P6PO6IEI8" length="2:45"/>
+	<video title="Interview" link="fb:1172055226518120" length="2:45"/>
+	<video title="Interview" link="fb:1172126123177697" length="2:45"/>
+	<link>nicematin.com/a/432590</link>
+</event>
+<event title="Junior Eurovision Song Contest (Day 0)" date="17-11-2019">
+	<video title="Vlog" link="ig:B4-lLd-IPuf" length="1:40"/>
+</event>
+<event title="Junior Eurovision Song Contest (Day 1)" date="18-11-2019">
+	<video title="Opening Ceremony" link="yt:gkHqH452RVA" length="1:08:28">
+		<_ title="Albania" time="1:55"/>
+		<_ title="Armenia" time="3:43"/>
+		<_ title="Australia" time="4:59"/>
+		<_ title="Belarus" time="6:24"/>
+		<_ title="France" time="8:06"/>
+		<Q>Yes Carla is coming from France. She said that she's looking forward for the moment when she enters the arena and discovers, uh, the stage. She is sure and I'm the same, uh, that it will be moment that she'll never forget. France, Carla, at Junior Eurovision Song Contest 2019 with, uh, Jacek Kurski and Jon Ola Sand. And now into our stage.</Q>
+		<Q>Bonsoir, bonsoir France, hello?</Q>
+		<A>Hi!</A>
+		<Q>Hi, how are you?</Q>
+		<A>I'm fine and you?</A>
+		<Q>Oh me too, uh, Carla please tell me something about your nice titled song 'Bim Bam Toi'.</Q>
+		<A>My song is talking about a girl who falls in love for the first time. She's confused and she has difficulty understanding her feelings.</A>
+		<Q>OK, uh, are you ready for this Sunday?</Q>
+		<A>Yes, I'm so very excited!</A>
+		<Q>I'll keep fingers crossed for you, thank you very much. Carla, France 2019, please stay here for photos ...</Q>
+		<_ title="Georgia" time="9:38"/>
+		<_ title="Ireland" time="10:43"/>
+		<_ title="Italy" time="12:12"/>
+		<_ title="Kazakhstan" time="13:45"/>
+		<_ title="Malta" time="15:18"/>
+		<_ title="North Macedonia" time="16:38"/>
+		<_ title="Poland" time="18:20"/>
+		<_ title="Portugal" time="19:55"/>
+		<_ title="Russia" time="21:20"/>
+		<_ title="Serbia" time="22:31"/>
+		<_ title="Spain" time="23:44"/>
+		<_ title="The Netherlands" time="25:14"/>
+		<_ title="Ukraine" time="26:30"/>
+		<_ title="Running Order Draw" time="47:31"/>
+		<_ title="Gifts" time="51:55"/>
+		<_ title="Roksana Wegiel - Share the Joy" time="1:04:03"/>
+	</video>
+	<video title="Radio International - Interview" link="yt:gjehcj08xdU" length="5:37">
+		<Q>Welcome to the Junior Eurovision Song Contest 2019. We are just finished the opening reception in Kato... and tomorrow we're gonna go to Gliwice where all the rehearsals kick off. And now we have a big pleasure to be chatting with the lady that is representing 'la France', it's Carla. Hi Carla!</Q>
+		<A>Hi!</A>
+		<Q>Bonjour, ça va?</Q>
+		<A>Bonjour, ça va bien et vous?</A>
+		<Q>Uh, how did you enjoy this opening reception here today?</Q>
+		<A>Ah yes it's a very amazing reception and I'm very excited to sing on the stage.</A>
+		<Q>So tell us about your song that you have in the running, it's « Bim Bam Toy ».</Q>
+		<A>Yes.</A>
+		<Q>So tell us about the name of it, why did, why this name and how it was created.</Q>
+		<A>Uh, my song is talking about a girl who falls in love for the first time and she's confused and she has difficulty understanding her feelings. It's not a real word, it the explosive feelings in my heart.</A>
+		<Q>OK, can you sing a little bit of the song?</Q>
+		<A>Yes!</A>
+		<Q>Becaus I really think it's an earworm and then it sticks to the ears of the people.</Q>
+		<A>Oh thank you. Et ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum. Ca fait 'bim bam boum', dans ma tete y'a tout qui tourne. Ca fait 'shht' et puis 'blabla', ca fait comme ci, comme ca. Ca fait 'bim bam ahahah', dans mon coeur je n'comprends pas.</A>
+		<Q>Magnifique ...</Q>
+		<A>Oh merci.</A>
+		<Q>... very nice.</Q>
+		<A>Thank you, thank you.</A>
+		<Q>Wow. Now you are, you are here with eighteen other contestants on, of the contest and you got a, a, a Christmas present, do you know what it is?</Q>
+		<A>Uh.</A>
+		<Q>Show it, yeah, show it.</Q>
+		<A>Oh, is, uh, tambour, uh, the Portugal, is a present of the Portugal. And, uh, is an instrument of music. It's, uh, this, I don't know, uh.</A>
+		<B>How to play.</B>
+		<A>How to play.</A>
+		<Q>But over the years it will come ...</Q>
+		<A>Yeah.</A>
+		<Q>... the next time you're going to the Eurovision you're gonna play it ...</Q>
+		<A>Ah yes, yes, with pleasure.</A>
+		<Q>So, uh, tell us about your musical background. When did you start singing and what was the animation to become a singer?</Q>
+		<A>I'm start singing, uh, five years old and, uh, it's a real passion for me and, uh, I love singing, I love dancing and I love, I'm so very excited to sing on the stage.</A>
+		<Q>And, uh, last year already was a very good song from, from France, it came I think top five.</Q>
+		<A>Yes.</A>
+		<Q>... top three. Did you have a chance to meet the, the lady from last year?</Q>
+		<A>I would like to win, it's my dream, and, uh, yes, uh, last year Angelina have a good place and, uh, I would like to win it's my dream.</A>
+		<Q>So now here, you're gonna be here for a week, so Sunday is the big final.</Q>
+		<A>Yes.</A>
+		<Q>You got rehearsals coming up but what is what you're looking forward most while being here in Poland?</Q>
+		<A>Uh, I love the city, is very amazing, I love the opening ceremony, it's, uh, beautiful, it, uh, it's, uh, it's very, uh, very nice and, uh, I'm so very excited, uh, to sing on the stage Sunday.</A>
+		<Q>But Poland is pretty big so is France.</Q>
+		<A>Yeah.</A>
+		<Q>In, in space. So I have only been to Paris really, so where, where should I go, what would you recommend me to see in France?</Q>
+		<B>...</B>
+		<A>Ah, OK, uh, Nice, it's a very good, uh, city because, uh, have a beach, uh, have a sun, it's a very beautiful, uh, city and, uh, Lille, Lyon, uh, very many place in France, uh, I love everything France.</A>
+		<Q>Now how do you combine singing and your school?</Q>
+		<A>Yes.</A>
+		<Q>How do you combine that?</Q>
+		<A>Uh, uh, singing is my passion and, uh, school is very important for me and, uh, I love singing, I love school and, uh, it's my, my passion and, uh, school ...</A>
+		<B>...</B>
+		<A>Oh yeah, yeah, very hard.</A>
+		<Q>OK, now, uh, how did the idea come up that you would go to the Junior Eurovision Song Contest?</Q>
+		<B>...</B>
+		<A>Ah, uh, uh, my manager, uh, my call and, uh, my ... and, uh, me 'really, it's me'.</A>
+		<Q>You were shocked.</Q>
+		<A>I was shocked and, uh, I'm ..., it's my dream ... come true.</A>
+		<Q>Well, thank you very much Carla for talking to us, all the best of luck, enjoy this whole experience.</Q>
+		<A>Oh thank you so much!</A>
+		<Q>And make many friends with the other countries because that's what Eurovision is about.</Q>
+		<A>Thank you.</A>
+		<Q>Unite Europe, thank you so much.</Q>
+		<A>Thank you so much, thank you.</A>
+		<Q>Merci beaucoup.</Q>
+		<A>Merci!</A>
+	</video>
+	<video title="Question Hat at the Opening Ceremony" link="yt:koFyLy3x2v4" length="4:53"/>
+	<video title="Sabrina Lonis - Vlog" link="fb:1129059683957527" length=""/>
+	<video title="Sabrina Lonis - Vlog" link="ig:B5BBnzgKs-3" length="2:15"/>
+	<video title="TVP - ..." link="yt:LS94W6_BoWY" length="1:50"/>
+</event>
+<event title="Junior Eurovision Song Contest (Day 2)" date="19-11-2019">
+	<video title="Carla - Bim Bam Toi (First Rehearsal)" link="yt:XEudgfZLqnI" length="1:21"/>
+	<video title="19 Questions to the Junior Eurovision Stars" link="yt:X6A0XQxA_Dc" length="4:21"/>
+	<video title="Junior Eurovision Challenges - Pass the Question" link="yt:bdrDtmY8iK0" length="2:42"/>
+	<video title="The Challenge Kites - Match the Song with the Artist" link="yt:03jT2-uXqW0" length="1:42"/>
+	<video title="Junior Eurovision Stars React to Eurovision" link="yt:jewgPclzLo8" length="2:21"/>
+	<video title="Junior Eurovision Stars React to Eurovision" link="yt:3awYyVHSDAg" length="2:17"/>
+	<video title="Sabrina Lonis - Vlog" link="fb:2588913217855964" length=""/>
+	<video title="BFMTV - Premiere Edition - ..." link="dm:x7o6bzg" length="11:15"/>
+	<link>junioreurovision.tv/gallery/france-brings-the-energy-with-bim-bam-toi</link>
+</event>
+<event title="M6 Gulli - Gu'Live - Carla &amp; Angelina" date="20-11-2019">
+	<video title="Trailer" link="fb:2301867616602393" length=""/>
+	<video title="Part 1" link="yt:SnfRIoPCLAg" length="5:39"/>
+	<video title="Part 2" link="yt:uBxfB86-b4U" length="5:19"/>
+	<video title="Part 3" link="yt:D-PFqg0Ga1w" length="6:04"/>
+	<video title="Part 4" link="yt:JgybkdCobDI" length="5:24"/>
+	<video title="Part 5" link="yt:gaGi8rGoDnM" length="5:51"/>
+	<video title="Carla - Bim Bam Toi" link="yt:CJqxKGPWan8" length="3:00">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="" link="fb:3126001697415835" length=""/>
+</event>
+<event title="Junior Eurovision Song Contest (Day 3)" date="20-11-2019">
+
+</event>
+<event title="Junior Eurovision Song Contest (Day 4)" date="21-11-2019">
+	<video title="Carla - Bim Bam Toi (Second Rehearsal)" link="yt:8L9xv8hVVts" length="1:02"/>
+	<video title="Eurovoxx - Interview" link="yt:Zju2EIZtyoM" length="2:39">
+		<Q>Hello Eurovoxxers, this is an interview from Clara to Carla.</Q>
+		<A>Hi.</A>
+		<Q>This is Carla from France and she is going to represent the country with Bim Bam Toi.</Q>
+		<A>Oui, I will represent France!</A>
+		<Q>Yes, uh, how have you felt after today's rehearsal?</Q>
+		<A>I'm so very excited to sing on the stage. The stage, it's very beautiful and I'm so very excited.</A>
+		<Q>There's so many colours, you have so much energy, you bring a party on the stage.</Q>
+		<A>Oh yeah.</A>
+		<Q>C'est comme une party on the, on le stage.</Q>
+		<A>Yeah I'm so very happy.</A>
+		<Q>And, uh, you have your dancers with you. This, did you have any, uh, opinion on the stage and the performance?</Q>
+		<A>Yes my dancers, I love the stage, I love the show and, uh, I, uh, your, my dancers so excited to dance on the stage.</A>
+		<Q>You like dancing?</Q>
+		<A>Yeah I love dancing.</A>
+		<Q>What kind of music did you like, apart from Eurovision?</Q>
+		<A>I love Halo, uh, with Beyonce, I love Taylor Swift, I love P!nk, I love the catchy song, the colourful song.</A>
+		<Q>Do you have any projects when Eurovision finishes? That you can tell.</Q>
+		<A>I would like to be an album, it's, uh, my biggest dream.</A>
+		<Q>Now we've seen that, uh, your outfit changed. Uh, which outfit do you prefer?</Q>
+		<A>What do you think?</A>
+		<Q>I like all, because they all coordinate with the background.</Q>
+		<A>Thank you, I love the two, uh, costumes.</A>
+		<Q>So now we, it's a surprise to see.</Q>
+		<A>Yeah.</A>
+		<Q>Which one you come with.</Q>
+		<A>Yeah it's a surprise.</A>
+		<Q>A surprise. So Eurovoxxers, this was everything with Carla. All the best and vote for France.</Q>
+		<A>Vote for France. Goodbye, big kiss.😘</A>
+	</video>
+	<video title="OGAE Italy - Interview" link="yt:2hA_AP1zXak" length="4:02"/>
+	<video title="Radio International - Interview" link="yt:Wo6V_3Cfuqo" length="2:53"/>
+	<video title="... - Interview" link="yt:-3pG6OMBLcE" length="6:36"/>
+	<video title="... - Interview" link="yt:hUZkniFgpGc" length="3:31"/>
+	<video title="Los Replicantes - Interview" link="yt:R1_69HWjmPI" length="3:01"/>
+	<video title="... - Interview" link="yt:jWKHZnFTV5g" length="2:04"/>
+	<video title="... - Interview" link="yt:vOvXY3tG_ac" length="2:40"/>
+	<video title="Poland In - Interview" link="yt:vzwcVNGJ06M" length="1:07"/>
+	<video title="ESCPlus - Interview" link="yt:S1PwXxaM0WM" length="2:45"/>
+	<video title="ESCPlus - Interview" link="yt:MoAoHoObq5g" length="3:42"/>
+	<video title="Poland In - Interview" link="fb:2498631303682048" length=""/>
+	<video title="..." link="fb:565546377595961" length=""/>
+	<video title="France 2 - Vlog" link="fb:1373554102799511" length=""/>
+	<video title="France 2 - Vlog" link="fb:587347421834847" length=""/>
+	<link>junioreurovision.tv/story/carla-is-back-with-bim-bam-toi</link>
+	<link>junioreurovision.tv/gallery/frances-carla-is-back</link>
+</event>
+<event title="Junior Eurovision Song Contest (Day 5)" date="22-11-2019">
+	<video title="Show the Dance" link="yt:hBnaHvXM7dU" length="1:56"/>
+	<video title="France 2 - Vlog" link="fb:2166801216962606" length=""/>
+</event>
+<event title="Junior Eurovision Song Contest (Day 6)" date="23-11-2019">
+	<video title="Jury Final" link="ok.ru/videoembed/1401312446985" length="3:08:45"/>
+	<video title="Press Conference" link="yt:Qpoy67mJtBg" length="31:56"/>
+	<video title="France 2 - Vlog" link="fb:1727374584059203" length=""/>
+	<video title="TVP - ..." link="yt:x5eRqqwaKZw" length="1:25"/>
+	<video title="Toutelatele - ..." link="dm:x7of4oc" length="1:12"/>
+	<video title="Toutelatele - ..." link="dm:x7of4rp" length="1:33"/>
+	<video title="Toutelatele - ..." link="dm:x7of4qd" length="1:04"/>
+</event>
+<event title="Junior Eurovision Song Contest (Day 7)" date="24-11-2019">
+	<video title="Final" link="yt:JLX6gos1_6k" length="2:27:55">
+		<_ title="Jordan Anthony - We Will Rise" time="12:38"/>
+		<_ title="Carla - Bim Bam Toi" time="16:59"/>
+		<_ title="Tatyana Mezhentseva &amp; Denberel Oorzhak - A Time For Us" time="21:08"/>
+		<_ title="Mila Moskov - Fire" time="25:18"/>
+		<_ title="(Interview with Carla)" time="29:34"/>
+		<Q>And I'm here with the most beautiful French girl I know. Carla bonjour, comment ca va?</Q>
+		<A>Bonjour, it's very nice.</A>
+		<Q>How do you like Poland?</Q>
+		<A>Yeah, I love Poland!</A>
+		<Q>What do you think you will remember from Poland?</Q>
+		<A>I meet many, many, many new friend and the Polish are so sweet.</A>
+		<Q>Yes because Eurovision is also about friendship. Thank you so much for your absolutely amazing performance, we love you. And now we're gonna see our next young artists from Georgia, Belarus and Malta, but first everybody give it up for Spain!</Q>
+		<_ title="Melani Garcia - Marte" time="31:06"/>
+		<_ title="Giorgi Rostiashvili - We Need Love" time="35:28"/>
+		<_ title="Liza Misnikova - Pepelny (Ashen)" time="39:34"/>
+		<_ title="Eliana Gomez Blanco - We Are More" time="43:41"/>
+		<_ title="Erin Mai - Calon Yn Curo (Heart Beating)" time="47:56"/>
+		<_ title="Yerzhan Maxim - Armanynnan Qalma" time="53:36"/>
+		<_ title="Viki Gabor - Superhero" time="57:46"/>
+		<_ title="Anna Kearney - Banshee" time="1:01:54"/>
+		<_ title="Sophia Ivanko - The Spirit of Music" time="1:06:07"/>
+		<_ title="Matheu - Dans Met Jou" time="1:10:05"/>
+		<_ title="Karina Ignatyan - Colours of Your Dream" time="1:15:53"/>
+		<_ title="Joana Almeida - Vem Comigo (Come With Me)" time="1:20:05"/>
+		<_ title="Marta Viola - La Voce Della Terra" time="1:24:12"/>
+		<_ title="Isea Cili - Mikja Ime Femijeri" time="1:28:22"/>
+		<_ title="Darija Vracevic - Podigni Glas (Raise Your Voice)" time="1:32:34"/>
+		<_ title="Roksana Wegiel - Anyone I Want to Be" time="1:42:25"/>
+		<_ title="Everybody - Share the Joy" time="1:52:22"/>
+		<_ title="Jury Vote" time="2:02:35"/>
+		<_ title="Viki Gabor - Superhero" time="2:23:05"/>
+	</video>
+	<video title="Final (Watch Party)" link="yt:_sIxh5SYP2M" length="2:27:55"/>
+	<video title="Carla - Bim Bam Toi" link="yt:BYQFqHGAdto" length="3:08">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="Backstage during the Final" link="yt:vyJn3nmuBmE" length="3:42"/>
+	<video title="In the Greenroom" link="yt:vESVQkbk-Rg" length=""/>
+	<video title="Los Replicantes - ..." link="yt:XhwJOCI9XIc" length=""/>
+	<video title="..." link="fb:783768468764256" length="0:16"/>
+	<video title="Junior Songfestival - ..." link="yt:_OMbrQC0Vxw" length="8:24">
+		<_ time="1:31"/>
+	</video>
+	<link type="francetv" id="1108413"/>
+</event>
+<event title="Canal+ C8 - Touche Pas a Mon Poste!" date="25-11-2019">
+	<video title="Carla - Bim Bam Toi" link="yt:b2hM90LzP44" length="4:01">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="Carla - Bim Bam Toi" link="dm:x7ogmq6" length="4:01">
+		<link type="lyrics" id="16"/>
+	</video>
+</event>
+<event title="France 3 - Les Heros des Fictions Fetent le Telethon" date="06-12-2019">
+	<video title="..." link="yt:ik943zRP_lg" length="0:16"/>
+	<link type="francetv" id="1115267"/>
+	<link>www.francetvpro.fr/contenu-de-presse/184770</link>
+	<link>volubilis.net/festivals/telethon-2019/festival-carla-07122019.php</link>
+</event>
+<event title="Departement des Alpes-Maritimes - Arbre de Noel" date="21-12-2019">
+	<link>ginesy.com/noel_agents_19_cd06.html</link>
+	<link>nice-premium.com/actualite,42/local,5/arbre-de-noel-du-departement-des-alpes-maritimes,26864.html</link>
+</event>
+<event title="France 2 - La Chanson Francaise Fete le 31" date="31-12-2019">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456240569?m=977ffbc2f2d373bbd23730f11d71cb56" length="3:15:25"/>
+	<video title="Show" link="noodlemagazine.com/player/88444335_456239524?m=aede938809d9ac2611c485d6702367b4" length="3:15:37"/>
+	<video title="Carla - Bim Bam Toi" link="yt:tBUA5Uis_3Y" length="2:55">
+		<link type="lyrics" id="16"/>
+	</video>
+	<link type="francetv" id="1134283"/>
+</event>
+<event title="Femme Actuelle" date="21-01-2020">
+	<video title="Interview" link="fb:608493653272257" length="3:11"/>
+	<link>video.femmeactuelle.fr/le-mag/_17231</link>
+	<link>video.femmeactuelle.fr/le-mag/_17444</link>
+</event>
+<event title="Nickelodeon - L'Actualite Fresh" date="10-02-2020">
+	<video title="Interview" link="yt:0QDox_u1eP4" length="5:10"/>
+</event>
+<event title="FLOR FM Live" date="14-02-2020">
+	<video title="Recap" link="yt:jR9QGULQv1s" length="2:51"/>
+	<video title="Recap" link="fb:250246205988263" length="2:51"/>
+	<video title="Carla - Bim Bam Toi" link="fb:125490272171590" length="3:16">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="Carla - Bim Bam Toi" link="fb:231249704573255" length="0:57">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="..." link="fb:178999553357885" length="0:13">
+		<A>...</A>
+	</video>
+	<link>florfm.com/photos/flor-fm-live-au-parc-expo-de-mulhouse-14-fevrier-2020-18</link>
+</event>
+<event title="M6 Gulli - Gu'Live - Carla, Albane &amp; Leo" date="18-02-2020">
+	<video title="Trailer" link="fb:2301883773448078" length=""/>
+	<video title="Interview" link="yt:adT3DJ0MjfQ" length="21:37">
+		<!--<Q>Attention, attention la ...</Q>
+		<A>Ca va et toi?</A>
+		<Q>Ouais super alors ... Carla ... sur Gulli ... Gu'Live ...</Q>
+		<A>... trop bien.</A>
+		<Q>...</Q>
+		<A>... trop bien.</A>
+		<Q>...</Q>
+		<A>Mais oui c'est trop bien ... avant l'Eurovision.</A>
+		<Q>Ouais.</Q>
+		<A>... et, uh.</A>
+		<Q>...</Q>
+		<A>... sais pas.</A>
+		<Q>... sais pas, hein?</Q>
+		<A>... sais pas.</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Exactement ... camera.</Q>
+		<A>Ah OK.</A>
+		<Q>... piscine a balles.</Q>
+		<A>Ouais elle est trop bien.</A>
+		<Q>Elle est bien bah?</Q>
+		<A>Franchement.</A>
+		<Q>...</Q>
+		<A>Ouais ...</A>
+		<Q>Ouais alors ...</Q>
+		<A>J'adore.</A>
+		<Q>Uh, ...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>Alors, uh, ...</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>Et ...</Q>
+		<A>Bah c'est ça.</A>
+		<Q>Et c'est toi qui ... comment?</Q>
+		<A>Uh.</A>
+		<Q>...</Q>
+		<A>Je, je, je, je ne peux pas trop ... vraiment ...</A>
+		<Q>OK, uh, est-ce que ... premiere note?</Q>
+		<A>Non.</A>
+		<Q>La note.</Q>
+		<A>Non.</A>
+		<Q>...</Q>
+		<A>Non c'est ... surprise.</A>
+		<Q>...</Q>
+		<A>... mars.</A>
+		<Q>Mais oui ...</Q>
+		<A>... mars ...</A>
+		<Q>... premiere note.</Q>
+		<A>Vous avez ... titre ...</A>
+		<Q>...</Q>
+		<A>Non.</A>
+		<Q>...</Q>
+		<A>'La', voila.</A>
+		<Q>...</Q>
+		<A>C'est pas de ...</A>
+		<Q>...</Q>
+		<A>Pop.</A>
+		<Q>C'est pop?</Q>
+		<A>Ouais.</A>
+		<Q>... en fait.</Q>
+		<A>Non.</A>
+		<Q>... Gu'Live ... Gulli.</Q>
+		<A>Ouais.</A>
+		<Q>Donc ... hein?</Q>
+		<A>Ouais.</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Alors ...</Q>
+		<A>...</A>
+		<Q>... l'Eurovision ... comment?</Q>
+		<A>C'etait vraiment, uh, ...</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>Et, uh, ...</Q>
+		<A>Cinquieme.</A>
+		<Q>Cinquieme donc, uh, ...</Q>
+		<A>Merci.</A>
+		<Q>...</Q>
+		<A>Oui.</A>
+		<Q>...</Q>
+		<A>Ah ... oui.</A>
+		<Q>Franchement ...</Q>
+		<A>Ah ... oui.</A>
+		<Q>...</Q>
+		<A>Non, ... jamais ...</A>
+		<Q>...</Q>
+		<A>... jamais ...</A>
+		<Q>...</Q>
+		<A>Merci.</A>
+		<Q>... c'est le « j'ai déjà, j'ai jamais ».</Q>
+		<A>OK.</A>
+		<Q>T'es prete ou pas?</Q>
+		<A>...</A>
+		<Q>Tu connais les regles ...</Q>
+		<A>OK.</A>
+		<Q>... tete.</Q>
+		<A>OK.</A>
+		<Q>Uh, ...</Q>
+		<A>Ah ...?</A>
+		<Q>...</Q>
+		<A>Ah trop bien.</A>
+		<Q>Alors est-ce que t'as déjà, uh, est-ce que t'as déjà ... scene?</Q>
+		<A>Oui.</A>
+		<Q>...</Q>
+		<A>... je pense que ...</A>
+		<Q>C'est vrai t'as peur?</Q>
+		<A>Ouais.</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Uh, est-ce que t'as déjà, uh, oublie des paroles sur scene ...</Q>
+		<A>Oui mais, uh, je ...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Est-ce que t'as déjà ... ta mere? Kids United Fan Officiel ...</Q>
+		<A>Uh, ...</A>
+		<Q>...</Q>
+		<A>Mais apres ...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Et, uh, comment ...</Q>
+		<A>...</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>OK ...</Q>
+		<A>Et cetera.</A>
+		<Q>Ouais.</Q>
+		<A>Et, uh, ...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>J'adore chanter apres The Voice ...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>Oui.</A>
+		<Q>Moi ... chanter.</Q>
+		<A>Mais ... tres tres bien.</A>
+		<Q>Ah merci ... franchement ...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>J'aimerais ...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Ouais franchement.</Q>
+		<A>...</A>
+		<Q>Bah ouais ... 'Bim Bam Toi' ... y'a un album qui va sortir.</Q>
+		<A>... avant l'ete.</A>
+		<Q>Avant l'ete ...</Q>
+		<A>J'aimerais ...</A>
+		<Q>Qu'est-ce ...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Allez ... Uh, est-ce que t'as déjà, uh, etait amoureuse?</Q>
+		<A>Non ... c'est l'homme de ma vie ... non.</A>
+		<Q>Mais t'as déjà ...</Q>
+		<A>Oui mais ...</A>
+		<Q>Ah et, uh, depuis, uh, plus rien?</Q>
+		<A>Non ...</A>
+		<Q>Attention ...</Q>
+		<A>Oui ... oui.</A>
+		<Q>Ah bon?</Q>
+		<A>Oui.</A>
+		<Q>Alors ...</Q>
+		<A>Ah non.</A>
+		<Q>Ah bah si ... responsabilite journalistique, hein?</Q>
+		<A>Mais ... couple.</A>
+		<Q>Mais ... comment il s'appelle?</Q>
+		<A>Mais, uh, c'est pas ...</A>
+		<Q>Si le blond.</Q>
+		<A>Ah Matheu?</A>
+		<Q>Matheu.</Q>
+		<A>... mais non.</A>
+		<Q>Vous ... jamais ...</Q>
+		<A>Non.</A>
+		<Q>...</Q>
+		<A>Ah c'etait, uh, ...</A>
+		<Q>Ouais exactement, non, non, non, non, non, ... l'Eurovision ... groupe?</Q>
+		<A>Les Petites Canailles.</A>
+		<Q>Les Petites Canailles, et dans le groupe des Petites Canailles il y avait un blond.</Q>
+		<A>Ah oui ...</A>
+		<Q>Ah mais sur?</Q>
+		<A>... pas du tout.</A>
+		<Q>Rien?</Q>
+		<A>... rien du tout ...</A>
+		<Q></Q>
+		<A>Il a dix-sept ans.</A>
+		<Q>Ouais il avait dix-sept ans ... et l'autre?</Q>
+		<A>...</A>
+		<Q>OK, uh, ...</Q>
+		<A>...</A>
+		<Q>... rien rien.</Q>
+		<A>Rien.</A>
+		<Q>... pas amoureux?</Q>
+		<A>Non ...</A>
+		<Q>... crush?</Q>
+		<A>Non j'ai personne.</A>
+		<Q>Rien?</Q>
+		<A>Rien.</A>
+		<Q>..., hein?</Q>
+		<A>... c'est ca.</A>
+		<Q>... quatorze ans.</Q>
+		<A>C'est ça.</A>
+		<Q>...</Q>
+		<A>Non.</A>
+		<Q>...</Q>
+		<A>Ça va.</A>
+		<Q>...</Q>
+		<A>Oui ça va ...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>Uh, ..., uh, l'ecole ...</A>
+		<Q>...</Q>-->
+	</video>
+	<video title="J'ai Deja, J'ai Jamais" link="yt:4XWDNAtbxWo" length="11:59"/>
+	<video title="Tu Es Plus" link="yt:unc1ds8hHrY" length="3:39"/>
+	<video title="Tu Es Plus" link="yt:HwzdG3cIinw" length="3:17"/>
+	<video title="Carla - Bim Bam Toi" link="yt:56qQVlf9EDo" length="2:50">
+		<link type="lyrics" id="16"/>
+	</video>
+</event>
+<event title="IDFM Radio Enghien - Casse Noisette - Carla, Albane &amp; Leo" date="20-02-2020">
+	<video title="Show" link="media.idfm98.fr/podcast/2020/cassenoisette/20200222-cassenoisette-pin.mp3" length="2:00:04"/>
+	<video title="..." link="fb:813375862494011" length="0:11"/>
+	<link>idfm98.fr/pin-pon-bim-bam</link>
+</event>
+<event title="France 3 - Les Enfants de la Musique Chantent les Annees Yeye" date="20-03-2020">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456240800?m=d2f028efe98b47f863746faf1aae1d31" length="2:19:44"/>
+	<video title="Carla - L'Ecole Est Finie" link="fb:518634922024880" length=""/>
+	<link type="francetv" id="1307623"/>
+	<link type="francetv" id="1356917"/>
+</event>
+<event title="Sam Zirah - Carla" date="25-03-2020">
+	<video title="Teaser" link="yt:82Zr4-hMzhY" length="1:33">
+		<Q>On va se retrouver demain en compagnie de Carla. Vous n'avez pas pu passer a cote de son titre qui a depasse les trente-cinq millions de vues sur YouTube. Pourquoi je suis comme ça Carla? Je parle je suis comme ça, je, je ... comme ça, voilà. Et j'aimerais bien que tu m'apprendes ... bah le refrain de 'Bim Bam Toi' mais avec ton intensite, ton peps, ton smile, tout.</Q>
+		<A>Allez c'est parti, j'en suis sûr ... bon chanteur.</A>
+		<Q>J'ai peur ...</Q>
+		<A>Allez, et ça fait « bim bam boum » ...</A>
+		<Q>Et ça ...</Q>
+		<A>...</A>
+		<Q>Non, et ça fait ...</Q>
+		<A>...</A>
+		<Q>Et ça fait « bim bam boum ».</Q>
+		<A>Ça fait 'pshht' et ça fait 'vroum'.</A>
+		<Q>Ça fait 'pssht' et ça fait 'vroum'.</Q>
+		<A>Ça fait « bim bam boum ».</A>
+		<Q>Ça fait « bim bam boum ».</Q>
+		<A>Dans ma tete y'a tout qui tourne.</A>
+		<Q>Dans ma tete y'a tout qui tourne.</Q>
+		<A>Ça fait 'shht'.</A>
+		<Q>Ça fait 'shht'.</Q>
+		<A>Et puis 'blabla'.</A>
+		<Q>Et puis 'blabla'.</Q>
+		<A>Ça fait comme ci, comme ça.</A>
+		<Q>Ça fait comme ci, comme ça.</Q>
+		<A>Ça fait 'bim bam ahahah'.</A>
+		<Q>Ça fait 'bim bam ahahah'.</Q>
+		<A>Dans mon cœur je n'comprends pas.</A>
+		<Q>Dans mon cœur je n'comprends pas.</Q>
+		<A>Mais voilà ... tres bon chanteur!</A>
+		<Q>On va ... rendez-vous pour ... demain en toute intimite avec la petillante Carla et vous allez ... vous allez voir votre coeur va faire 'bim bam boum'.</Q>
+	</video>
+	<video title="Interview" link="yt:Gndg27SapUY" length="31:22">
+		<!--<A>Coucou tout le monde, c'est Carla. J'ai quatorze ans, je suis actuellement en classe de troisieme, j'ai participe a The Voice Kids, j'ai eu la chance de pouvoir faire l'Eurovision Junior et j'ai participe avec mon groupe Les Petites Canailles a la realisation d'un album.</A>
+		<Q>Personne n'est passe a cote de ce titre.</Q>
+		<A>Ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum', ca fait 'bim bam boum', dans ma tete y'a tout qui tourne, ca fait 'shht' et puis 'blabla', ca fait comme ci, comme ca, ca fait 'bim bam ahahah', dans mon coeur je n'comprends pas.</A>
+		<Q>Ca te fait quoi Carla de te voir comme ca dans le clip a interprete ta chanson 'Bim Bam toi', uh, plus de trente-cinq millions de vues sur YouTube, c'est juste incroyable, ... quatorze ans, c'est ouf.</Q>
+		<A>Merci beaucoup ... lorsque j'ai enregistre ce clip vraiment c'etait un reel plaisir pour moi et surtout j'en revenais pas c'etait mon premier clip, je me suis eclatee et ca me fait bizarre de revoir les images du clip mais, uh, c'etait vraiment un souvenir, uh, magique.</A>
+		<Q>Comment ...</Q>
+		<A>... cette aventure ...</A>-->
+	</video>
+	<video title="Interview - Part 1" link="yt:FbLUBRnJx8U" length="6:26"/>
+	<video title="Interview - Part 2" link="yt:63buOhyELC8" length="8:13"/>
+	<video title="Interview - Part 3" link="yt:lYRSCE_i0Qg" length="3:55"/>
+	<video title="Interview - Part 4" link="yt:DPqVIKJq1Bo" length="5:07"/>
+</event>
+<event title="(Carla Cover)" date="28-03-2020">
+	<video title="Carla - Jealous" link="ig:B-SXcRGoLaY" length="1:31"/>
+</event>
+<event title="Departement des Alpes-Maritimes - ..." date="30-03-2020">
+	<video title="Carla - L'Effet de Masse" link="fb:219804265932156" length=""/>
+</event>
+<event title="Telepro - ..." date="30-03-2020">
+	<video title="Carla - Dance Monkey, L'Effet de Masse &amp; Bim Bam Toi" link="fb:270068463984176" length="">
+		<A>Alors, coucou toute le monde, j'espere que vous allez bien. Aujourd'hui je vais vous chanter trois chansons. Donc, uh, la premiere chanson, ca va etre Dance Monkey, en suit ca va etre L'Effet de Masse, de Maelle, et, uh, la troisieme chanson sera, uh, Bim Bam Toi, ...</A>
+		<_ title="Carla - Dance Monkey" time="0:27"/>
+		<A>Voila pour la premiere chanson. Alors ...</A>
+		<_ title="Carla - L'Effet de Masse" time="4:51"/>
+		<A>Alors voila pour, uh, cette chanson ...</A>
+		<_ title="Carla - Bim Bam Toi" time="8:52"/>
+		<A>Donc voila ...</A>
+	</video>
+</event>
+<event title="Seb Avec Ta Star - Carla, Albane &amp; Leo" date="03-04-2020">
+	<video title="..." link="yt:OSwA52gfCCU" length="43:14"/>
+</event>
+<event title="(Carla Cover)" date="05-04-2020">
+	<video title="Carla - Les Choses Simples" link="yt:UMDV4zTmVN4" length="2:41"/>
+</event>
+<event title="Carla, Albane &amp; Leo - Bim Bam Toi Dance Tutorial" date="08-04-2020">
+	<video title="..." link="yt:jk2DO2Xc3PU" length="8:13"/>
+</event>
+<event title="France 3 - La Boite a Secrets" date="10-04-2020">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456240871?m=bba1ace38dcc4b4e0f2543d0978e163f" length="2:33:36"/>
+	<video title="Show" link="noodlemagazine.com/player/88444335_456239591?m=2f8688ba2a7c179c4b6eaee43f390ef4" length="2:33:36"/>
+	<link type="francetv" id="1357133"/>
+</event>
+<event title="Oxygene Radio - ..." date="10-04-2020">
+	<video title="..." link="fb:158374275458080" length="18:19"/>
+	<video title="..." link="fb:158374998791341" length="18:19"/>
+</event>
+<event title="M6 Gulli - Gu'Live - Carla" date="13-04-2020">
+	<video title="Confine'Live" link="yt:sIEcc7Hjsak" length="1:12:25"/>
+	<video title="..." link="yt:xSAZaE-0XVk" length="3:02"/>
+	<video title="..." link="yt:6S2sctGkxvA" length="9:40"/>
+</event>
+<event title="(Carla Cover)" date="16-04-2020">
+	<video title="Carla - Ain't No Sunshine" link="yt:7S6kGvNooc0" length="2:16"/>
+	<video title="Carla - Ain't No Sunshine" link="ig:B_AWMKzIexF" length="2:14"/>
+</event>
+<event title="(Carla Cover)" date="17-04-2020">
+	<video title="Carla - Les Mots Bleus" link="fb:1528005134046940" length="3:22"/>
+	<video title="Carla - Les Mots Bleus" link="ig:B_FxzeuIB6J" length="3:21"/>
+</event>
+<event title="Sebastien Serrano - Carla" date="20-04-2020">
+	<video title="Live" link="ig:B_NoVHjo6J6" length="8:16"/>
+</event>
+<event title="France 3 - Allez Viens, Je T'Emmene dans les Annees 60" date="24-04-2020">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456240947?m=2a9a7f3ce4e864229dfc3c0c2dde0354" length="2:11:06"/>
+	<video title="Show" link="noodlemagazine.com/player/88444335_456239615?m=4d10b2b574be70c0f29ed3c629844dea" length="2:11:06"/>
+	<video title="Carla - Adieu Les Jolis Foulards" link="yt:4q-NOZ6jkCs" length="1:33"/>
+	<link type="francetv" id="1397473"/>
+</event>
+<event title="PopSztos - Domowe Granie" date="28-04-2020">
+	<video title="Carla - Bim Bam Toi, Imagine &amp; Dance Monkey" link="yt:PmTHB0B8qQc" length="11:22">
+		<A>Hi everyone! This is Carla, I hope you are good. Today I'm going to perform for the Domowe Granie with the fabulous Romain piano accompaniment. I hope you will all enjoy this performance. And let's go, big kiss, love you.😘</A>
+		<_ title="Carla - Bim Bam Toi" time="0:18"/>
+		<_ title="Carla - Imagine" time="3:19"/>
+		<_ title="Carla - Dance Monkey" time="7:12"/>
+	</video>
+	<link>media.universalmusic.pl/94317</link>
+</event>
+<event title="TheDouzePointe - Carla" date="30-05-2020">
+	<video title="Live" link="ig:CA0a-7vpDHJ" length="39:42"/>
+</event>
+<event title="ESKA TV - Koncert z Okazji Dnia Dziecka" date="01-06-2020">
+	<video title="Carla - Bim Bam Toi, Idontwannabeyouanymore &amp; L'Autre Moi" link="fb:2975253816038477" length="9:26">
+		<_ title="Carla - Bim Bam Toi" time="0:00"/>
+		<_ title="Carla - Idontwannabeyouanymore" time="3:02"/>
+		<_ title="Carla - L'Autre Moi" time="6:27"/>
+	</video>
+</event>
+<event title="TF1 LCI - LE 13H" date="10-06-2020">
+	<video title="..." link="tf1.fr/embedplayer/13717222" length="1:59"/>
+	<link>lci.fr/-2156146.html</link>
+</event>
+<event title="L'Autre Moi Webserie" date="12-06-2020">
+	<video title="Episode 1 - Mes Debuts" link="yt:k1p0WT_aXkk" length="2:55"/>
+	<video title="Episode 2 - Le Phenomene TikTok" link="yt:J5IJhqf89WI" length="1:35"/>
+	<video title="Episode 3 - Mon Album" link="yt:x6xgylrSewk" length="3:32"/>
+</event>
+<event title="L'Autre Moi Release" date="12-06-2020">
+	<video title="Seb Avec Ta Star - 2 Min Chrono" link="yt:9d-mAKrh2qA" length="5:34">
+		<Q>Bonjour les amis!</Q>
+		<A>Bonjour!</A>
+		<Q>Nouvelle video aujourd'hui. ... dit bonjour avant ... bonjour ...</Q>
+		<A>Non mais c'est parce que j'ai prepare un petite surprise a toi, attends. Alors, Seb ... tres bien jouer de la guitare ... jouer un petit solo de guitare s'il vous plait, tout suite la ...</A>
+		<Q>Alors, parce que je viens sortir mon album aujourd'hui, qui s'appelle, uh, qui s'appelle, uh.</Q>
+		<A>L'autre Sebastien.</A>
+		<Q>L'autre Sebastien voilà. C'est ça fait « bim », ça fait « bam ».</Q>
+		<A>Ça fait « boum ».</A>
+		<Q>Et ça fait, voilà. Merci ... en vente, uh, sur toutes les plateformes digitales.</Q>
+		<A>Les plateformes ...</A>
+		<Q>... evidemment ...</Q>
+		<A>... Sebastien.</A>
+		<Q>Et ... , uh, nouvelle. Je pense que va aller loin.</Q>
+		<A>... deux ...</A>
+		<Q>Exactement, c'est Ariana Grande m'a appaler ... « Sorry Ariana, I'm », je peux pas ...</Q>
+		<A>... dit non.</A>
+		<Q>Exactement ...</Q>
+		<A>... la queen.</A>
+		<Q>J'ai dit non attendez queen t'attends ... avec Carla, on va faire le 'deux minutes chrono'. ... jouer de la guitare parce que je ne sais pas ... guitare, je pense que vous l'avez devine. Mais on fera ... qui va rigoler ... qui va rigoler, je pense ... le but du jeu, ma chere Carla. Donc la c'est la version kids.</Q>
+		<A>OK.</A>
+		<Q>Uh, c'est de repondre a maximum de questions en deux minutes. ... ton telephone pour metre de chrono ... ici, hop la.</Q>
+		<A>OK. Alors, ...</A>
+		<Q>Donc c'est toi qui inaugure, uh, le « deux minutes chrono » sur les kids. Tiens ...</Q>
+		<A>...</A>
+		<Q>Voila, c'est toi qui inaugure le chrono ... poser ... questions ... quelque chose de ... OK?</Q>
+		<A>OK.</A>
+		<Q>Alors, est-ce que tu es prete?</Q>
+		<A>OK.</A>
+		<Q>Trois, ... trois, deux, un, c'est parti. Tu t'appelles comment?</Q>
+		<A>Carla.</A>
+		<Q>Tu mesures combien?</Q>
+		<A>Un metre cinquante-neuf.</A>
+		<Q>Tu es née où?</Q>
+		<A>À Nice.</A>
+		<Q>Tu as combien des freres et sœurs?</Q>
+		<A>Une sœur.</A>
+		<Q>Ton signe astrologique, c'est quoi?</Q>
+		<A>Lion.</A>
+		<Q>Ton plus beau souvenir?</Q>
+		<A>The Voi.., uh, l'Eurovision Junior.</A>
+		<Q>Ta pointure de chaussure?</Q>
+		<A>De trente-huit.</A>
+		<Q>La marque de ton telephone c'est quoi?</Q>
+		<A>Iphone.</A>
+		<Q>Donne moi trois couleurs.</Q>
+		<A>Violet, blanc, rose.</A>
+		<Q>En quelle classe ... passer le brevet?</Q>
+		<A>Troisieme.</A>
+		<Q>L'ete en France, il fait chaud ou il fait froid?</Q>
+		<A>Il fait chaud.</A>
+		<Q>Trois mots que tu ecrirais sur un t-shirt?</Q>
+		<A>« Bim », « bam », « boum ».</A>
+		<Q>Ta phobie c'est quoi?</Q>
+		<A>Uh, les serpents.</A>
+		<Q>Attends, ... bien sur « bim bam boum » ... c'est, c'est, c'est, c'est tres simple mais ...</Q>
+		<A>... parce que j'ai pas d'idee. Je ... allez « bim bam boum », uh, c'est trois mots.</A>
+		<Q>Est-ce que tu es prete?</Q>
+		<A>... ouais ... allez.</A>
+		<Q>Un, deux, trois. Deux mauvaises habitudes que tu as.</Q>
+		<A>Uh, je sais pas, je sais pas, je sais pas.</A>
+		<Q>... pas je n'avance pas.</Q>
+		<A>Non, je sais pas, je sais pas, uh, uh, parler trop, parler trop.</A>
+		<Q>Et un deuxieme, et un deuxieme?</Q>
+		<A>Je sais pas, uh.</A>
+		<Q>T'es têtue, têtue?</Q>
+		<A>Têtue, têtue.</A>
+		<Q>Voilà.</Q>
+		<A>Voilà.</A>
+		<Q>... ton pere qui m'a dit ca, uh.</Q>
+		<A>... parler ... mon pere.</A>
+		<Q>Oui, ... dit ca '... elle est têtue, ma fille, elle est têtue'.</Q>
+		<A>Ah OK, OK.</A>
+		<Q>Uh, on est a cinquante-et-un secondes et ... trois, deux, un. Ta chanteuse favorite.</Q>
+		<A>Beyonce.</A>
+		<Q>Le gros mot que tu dis le plus souvent.</Q>
+		<A>Punaise!</A>
+		<Q>Quel est le quatrieme jour de la semaine?</Q>
+		<A>Jeudi!</A>
+		<Q>Iphone ... avec un 'F' ou avec un 'P'?</Q>
+		<A>'P'.</A>
+		<Q>Terminer cette phrase. Sortir des toilettes sans se laver les mains, c'est.</Q>
+		<A>C'est pas bon.</A>
+		<Q>... redoubler?</Q>
+		<A>Non, « c'est pas bien » je ...😂</A>
+		<Q>« C'est pas bon ». Uh, attention ... Allez, trois, on a une minute sur ... cinquante secondes.</Q>
+		<A>OK, OK, allez.</A>
+		<Q>Allez, trois, deux, un, c'est parti. Tu as combien d'enfants?</Q>
+		<A>Zero.</A>
+		<Q>C'est quoi le pire, avoir la gastro ou avoir la grippe?</Q>
+		<A>Uh, la gastro parce que tu ...</A>
+		<Q>Si tu ne redoubles pas, tu ... combien d'annees au college?</Q>
+		<A>Bah, quatre? Non, six, cinq.</A>
+		<Q>Ouais c'est ça.</Q>
+		<A>Uh, trois, trois années?</A>
+		<Q>... quatre, six, cinq, quatre, trois.</Q>
+		<A>Ah oui, ... quatre.</A>
+		<Q>...</Q>
+		<A>... en plus ...</A>
+		<Q>... quatre, trois ...</Q>
+		<A>...</A>
+		<Q>... bonne reponse.</Q>
+		<A>Ouais.</A>
+		<Q>Une minute vingt-neuf et on reprend. Trois, deux, un, c'est parti. Quelle est la capitale de l'Angleterre?</Q>
+		<A>... non, non, non.</A>
+		<Q>Ca commence par 'L'.</Q>
+		<A>Londres.</A>
+		<Q>Oui ...</Q>
+		<A>... pas.</A>
+		<Q>Allez, trois, deux, un. Donne moi cinq prenoms de garçon.</Q>
+		<A>OK, alors, uh, ... Dylan, Nathan, uh, uh, uh, uh, uh, uh, Sebastien, uh, Jean-Sebastien ca c'est mon pere et, uh, Enzo, uh, Enzo ... voila.</A>
+		<Q>Cinq fois cinq, ca fait combien?</Q>
+		<A>Vingt-cinq.</A>
+		<Q>La marque de ton shampoing?</Q>
+		<A>Garnier.</A>
+		<Q>La derniere fois ...</Q>
+		<A>J'ai, j'ai ... quatre ans.</A>
+		<Q>Stop.</Q>
+		<A>...</A>
+		<Q>OK.</Q>
+		<A>...</A>
+		<Q>Ma chere Carla, tu as repondu a trente-et-un bonnes reponses.</Q>
+		<A>Ah ça va.</A>
+		<Q>C'est tres bien.</Q>
+		<A>...</A>
+		<Q>... la prochaine fois ... video, uh, avec les Kids ou avec Angelina, avec ... plein d'autres ... score de reference.</Q>
+		<A>Oh trop bien.</A>
+		<Q>Donc on verra ...</Q>
+		<A>...</A>
+		<Q>... tu as perdu un peu de temps sur Londres.</Q>
+		<A>Ouais mais ... pourqoui ... en plus.</A>
+		<Q>Et sur, et sur, qu'est-ce que ... quoi sur, uh.</Q>
+		<A>Sur, uh, allez les habitudes, les mauvaises habitudes.</A>
+		<Q>Et les mauvaises habitudes.</Q>
+		<A>Ouais ...</A>
+		<Q>Ouais ... bien ... je compte sur vous ... l'album ... de Carla ... telecharger ... acheter. Allez, on fait des gros bisous, merci a toi ... sur 'avec ta star'.</Q>
+		<A>Bisous, merci!</A>
+		<Q>A tres vite, ciao ciao!</Q>
+	</video>
+	<video title="Seb Avec Ta Star - Si Tu Etais" link="yt:hVgAHO7rcuo" length="5:54">
+		<Q>Coucou Carla, comment ca va?</Q>
+		<A>Coucou! Ca va, et toi?</A>
+		<Q>... ecoute ... plaisir de te revoir apres ce confinement.</Q>
+		<A>Apres ce confinement.</A>
+		<Q>Aujourd'hui on va jouer à « si tu etais ». Si tu etais une serie, tu seras laquelle?</Q>
+		<A>Ah ouais, ca commence bien, je ne sais pas.</A>
+		<Q>Est-ce que tu regardes beaucoup series déjà?</Q>
+		<A>Uh, pendant le confinement j'ai plus regarder des films je dirais, uh, mais un serie, uh, pourquoi pas, uh, Insatiable. J'aime bien cette serie, Insatiable.</A>
+		<Q>Si tu etais un film, tu serais lequel?</Q>
+		<A>Titanic.</A>
+		<Q>Ah ouais?</Q>
+		<A>Ah ouais, je kiffe Titanic. Je pourrais le regarder avec les pop corn pendant des heures, j'aime vraiment Titanic, c'est, c'est ...</A>
+		<Q>... tu connais la chanson par coeur?</Q>
+		<A>'You're here. La la la la la. I believe that my heart will go on.' Ouais je pense tout je monde connait, uh, la chanson ...</A>
+		<Q>Tu sais ... le premier film que j'ai vu de ma vie au, au cinema, Titanic, hein?</Q>
+		<A>Ah ouais?</A>
+		<Q>Donc c'est mon film prefere ...</Q>
+		<A>Ah ben voila.</A>
+		<Q>Je suis fan.</Q>
+		<A>C'est, c'est, c'est la base.</A>
+		<Q>Si tu etais un mois de l'annee, tu seras lequel?</Q>
+		<A>Aout, parce que c'est mois de mon anniversaire et ... c'est le meilleur.</A>
+		<Q>Si tu etais un jour de la semaine, tu seras lequel?</Q>
+		<A>Dimanche, parce que c'est la, uh, bah deja c'est la ... famille le dimanche ... ensemble ... week-end ... pas ecole.</A>
+		<Q>Si tu etais un animal, tu seras lequel?</Q>
+		<A>Uh, un dauphin.</A>
+		<Q>Ah ... comme moi!</Q>
+		<A>Je kiffe les dauphins. Mon reve ... serait d'aller , uh, a ... nager avec les dauphins.</A>
+		<Q>Et ... franchement j'ai eu la chance de le faire, nager avec deux dauphins, c'est incroyable.</Q>
+		<A>Ce serait incroyable.</A>
+		<Q>Il etait tellement gentil, tellement doux. Je te le souhaite, ... c'est franchement incroyable.</Q>
+		<A>...</A>
+		<Q>... tellement content ... tu leur, tu leur ... manger ... gentil ...</Q>
+		<A>... c'est incroyable.</A>
+		<Q>Si tu etais un pouvoir magique, tu serais lequel?</Q>
+		<A>Uh, je pense j'aimerais bien pouvoir me teleporter ... chacune des pieces ... tu vois, aller quelque part, ... dans la piece.</A>
+		<Q>Tu claques des doigts, hop la.</Q>
+		<A>Comme Josephine.</A>
+		<Q>Voila. Comme dans 'Josephine, Ange Gardien'. Si tu etais une autre personne, qui tu serais? Allez pendant vingt-quatre heures.</Q>
+		<A>Ah, Beyonce.</A>
+		<Q>C'est vrai?</Q>
+		<A>Ah, je kiffe Beyonce, c'est la queen. C'est, c'est Beyonce.</A>
+		<Q>Si tu etais une couleur, tu seras laquelle?</Q>
+		<A>Uh, je dirais le violet.</A>
+		<Q>Ah oui?</Q>
+		<A>Ou le bleu. J'aime beaucoup le bleu, le violet et le blanc, uh, c'est, c'est les coulours, uh, je sais pas. Uh, ouais le violet, le violet.</A>
+		<Q>Si tu etais une saison, tu seras laquelle? L'ete.</Q>
+		<A>L'ete.</A>
+		<Q>...</Q>
+		<A>Ah, l'ete, le soleil, la plage, la piscine.</A>
+		<Q>C'est le meilleur moment.</Q>
+		<A>C'est, c'est, c'est le meilleur moment.</A>
+		<Q>Ah, je suis d'accord. Si tu etais un pays, tu seras lequel?</Q>
+		<A>Uh, j'irais les Etats-Unis.</A>
+		<Q>... fascine ... let Etats-Unis, Miami?</Q>
+		<A>Ah ouais, Miami, Los Angeles. Ca serait, ca serait ouf.</A>
+		<Q>Si tu etais une application?</Q>
+		<A>Uh, bah je dire Instagram.</A>
+		<Q>T'es souvent sur Instagram?</Q>
+		<A>Oui quand meme mais, uh, mais je sais quand meme me regulier mais, uh, ouais ... sur Instagram quand meme.</A>
+		<Q>Si tu etais un Disney, tu seras lequel?</Q>
+		<A>Ah non, ca c'est dur, uh.</A>
+		<Q>Ah, alors je, je reconnais la grand fan de Disney?</Q>
+		<A>Ah ouais, ah c'est dur. Uh, j'aime trop Aladdin quand meme parce que la chanson 'ce reve bleu', uh, sinon y'a, y'a Raiponce que j'aime bien et, uh, je dirais Le Roi Lion.</A>
+		<Q>Ah, basique.</Q>
+		<A>Basique.</A>
+		<Q>Si tu etais un plat, tu seras lequel? C'est quoi ton plat prefere?</Q>
+		<A>Uh, j'aime bien, mais j'aime bien les tous basiques en vrai. Je suis pas quelqu'un complique, uh, je sais pas, des bonnes pates au jambon, tu sais, beurre, jambon. Je, je demande pas, je, je demande pas plus, je demande pas moins mais des bonnes pates au jambon.</A>
+		<Q>Si tu etais un sport, tu seras lequel?</Q>
+		<A>Bah la danse.😊</A>
+		<Q>Si tu etais un compte Instagram, tu seras lequel? Est-ce que t'as un compte que tu adores plus que tout?</Q>
+		<A>Uh, j'aime bien le compte de Pili Pascual. C'est, c'est, c'est un actrice espagnole et, uh, elle chante, elle danse, elle fait du theatre et en fait son, son ... vachement colore, vachement ... il lui ressemble ... la passion qu'elle a quand ... la danse, de chant et, uh, je kiffe son ...</A>
+		<Q>Si tu etais une matiere scolaire, tu seras laquelle?</Q>
+		<A>Alors pas les maths, ca c'est clair.</A>
+		<Q>Ah ... d'accord ...</Q>
+		<A>Uh, je dirais, uh, pourquoi pas, uh, le francais. J'aime bien le francais.</A>
+		<Q>T'es forte en francais?</Q>
+		<A>Ça va.</A>
+		<Q>Si tu etais une patisserie, tu seras laquelle?</Q>
+		<A>Le flan patissier. Ah, ca c'est la base. Je kiffe la, la bonne creme et ...</A>
+		<Q>... ton telephone ... sur toi ou pas?</Q>
+		<A>Oui il est là.</A>
+		<Q>Si tu etais la premiere photo de ton telephone, tu serais quoi? ... tout, tout, tout, tout, tout premier photo.</Q>
+		<A>Alors, let's go. ... videos ... photos ... c'est, uh, ... voila.</A>
+		<Q>Si tu etais le fond d'ecran dans ton telephone, tu serais quoi? ... fond d'ecan ... telephone.</Q>
+		<A>Uh, ...</A>
+		<Q>Ah, trop mignon. Uh, et enfin si tu etais un chanteur, tu serais lequel?</Q>
+		<A>Uh, un chanteur ou une chanteuse?</A>
+		<Q>Un chanteur.</Q>
+		<A>OK, un chanteur, uh, j'aime beaucoup, uh, francais ou americain?</A>
+		<Q>Comme tu veux.</Q>
+		<A>Uh, Shawn Mendes. J'aime enormement.</A>
+		<Q>... chanteuse c'est Beyonce?</Q>
+		<A>Beyonce.</A>
+		<Q>La queen.</Q>
+		<A>La queen. Beyonce ou Ariana Grande, tu vois. Les, les deux queens.</A>
+		<Q>Les deux ...</Q>
+		<A>Voilà, ce serait un, tu sais un melange des deux, parfait. ... excellent.</A>
+		<Q>... ecoute merci beaucoup.</Q>
+		<A>Merci a toi!</A>
+		<Q>... a tres vite.</Q>
+		<A>A tres vite.😘</A>
+	</video>
+	<video title="RIFFX - À la maison - Carla" link="yt:CQMNiSTumCM" length="4:00">
+		<A>...</A>
+	</video>
+	<video title="RIFFX - À la maison - Carla" link="fb:560650927953417" length="4:00"/>
+	<link>riffx.fr/a-la-maison-carla-raconte-son-confinement</link>
+</event>
+<event title="M6 Gulli - Gu'Live - Carla" date="12-06-2020">
+	<video title="Interview" link="yt:BEQ_XT-Sfi4" length="40:30">
+		<!--<Q>Salut a tous on est vendredi douze juin et on a la chance d'etre avec evidemment celle que vous connaissez tous par coeur. C'est la reine de TikTok ... dire, Carla!</Q>
+		<A>Coucou!</A>
+		<Q>Comment ca va?</Q>
+		<A>Ca va et toi?</A>
+		<Q>... il faut imaginer ... du public.</Q>
+		<A>Ouais.</A>
+		<Q>Il faut imaginer que ... 'Oauis, ouais, Carla on t'aime!' ... Carla est-ce que ta vas bien deja?</Q>
+		<A>Ca va trop bien et toi?</A>
+		<Q>Bah tres bien on va pas se mentir parce que ... sur les reseaux sociaux ...</Q>
+		<A>Ouais ...</A>
+		<Q>... ma meilleure pote ...</Q>
+		<A>C'est ca.</A>
+		<Q>Et je la kiffe comme vous ... et aujourd'hui j'ai pu voir de mes propres yeux ... toucher quelque chose mais ... mais ... tu es la premiere personne au monde ... avoir pu toucher ce genre de trophee.</Q>
+		<A>Oui.</A>
+		<Q>Tu peux nous en parler un peu?</Q>
+		<A>Uh, bah c'est, uh, avec TikTok.</A>
+		<Q>Ouais.</Q>
+		<A>Avec, uh, ma chanson 'Bim Bam Toi'. Uh, il y a plus de maintenant deux millions personnes qui ont repris, uh, la choregraphie 'Bim Bam Toi'.</A>
+		<Q>... deux millions personnes ... je sais pas.</Q>
+		<A>... attendais pas c'est, c'est enorme.</A>
+		<Q>C'est fou.</Q>
+		<A>Ouais c'est fou.</A>
+		<Q>Donc c'est vrai que ... la reine de TikTok parce que ... que 'Bim Bam Toi' mais c'est pour moi c'est tu vois TikTok ... jamais ...</Q>
+		<A>... 'Bim Bam Toi' ...</A>
+		<Q>... 'Bim Bam Toi' ... tu vois et, uh, et donc t'as plus de cinquante-sept millions de vues ... sur, uh, tes videos et y'a plus de deux millions de personnes ...</Q>
+		<A>C'est ca.</A>
+		<Q>Donc ... l'Eurovision Junior ... ton titre.</Q>
+		<A>... pas du tout enfin quand ... sur TikTok meme je crois que ... Gu'Live ...</A>
+		<Q>... oui.</Q>
+		<A>... comme ca ... arrive tellement vite.</A>
+		<Q>... ouais.</Q>
+		<A>... possible.</A>
+		<Q>Et donc aujourd'hui ... parce que ... ton nouvel album qu'est sorti.</Q>
+		<A>Oui.</A>
+		<Q>'L'Autre Moi' ... aussi 'L'Autre Moi'.</Q>
+		<A>Ouais.</A>
+		<Q>Donc ... video.</Q>
+		<A>Ouais.</A>
+		<Q>Avec ... aussi.</Q>
+		<A>C'est ca.</A>
+		<Q>Ca va t'es pas trop stressee?</Q>
+		<A>Non ca va.</A>
+		<Q>Le Gu'Live c'est la maison vraiment.</Q>
+		<A>C'est la maison.</A>
+		<Q>C'est la maison.</Q>
+		<A>... moi.</A>
+		<Q>Ouais, mais ... album est disponible depuis le cinq juin.</Q>
+		<A>Ouais.</A>
+		<Q>... vraiment.</Q>
+		<A>Ouais j'ai collabore avec des ... vraiment incroyable exceptionnel et c'etait vraiment une aventure, uh, magique.</A>
+		<Q>Alors par example ... y'a, y'a Madame Monsieur?</Q>
+		<A>Ouais.</A>
+		<Q>... Madame Monsieur ... un peu parce que c'est vrai que eux ... la France aussi a l'Eurovision donc j'imagine ...</Q>
+		<A>Ouais c'est Madame Monsieur bah alors qui ... tu sais?</A>
+		<Q>Ouais.</Q>
+		<A>Uh, tu peux chanter, danser ... vraiment c'est, c'est, c'est une chanson ... et que j'adore interpreter.</A>
+		<Q>Alors ... artistique.</Q>
+		<A>Ouais.</A>
+		<Q>...</Q>
+		<A>Alors, uh, c'est vrai ... depuis petite je danse, je chante, uh, je kiffe ... Beyonce ...</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Ah oui ...</Q>
+		<A>... tu vois?</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>Bah magnifique d'accord ... , uh, avec 'Les Petites Canailles'.</Q>
+		<A>Ouais.</A>
+		<Q>Uh, ... c'est ca?</Q>
+		<A>Ouais.</A>
+		<Q>... The Voice Kids ... Patrick Fiori.</Q>
+		<A>Ouais.</A>
+		<Q>...</Q>
+		<A>Ouais ...</A>
+		<Q>... ton album?</Q>
+		<A>...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>Mais alors ...</Q>
+		<A>Avec toi.</A>
+		<Q>Avec moi mais ...</Q>
+		<A>Ouais.</A>
+		<Q>... un peu.</Q>
+		<A>Ouais c'est vrai.</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>Ouais.</Q>
+		<A>...</A>
+		<Q>Magnifique ...</Q>
+		<A>OK alors ... me suivre sur, uh, Twitter, Facebook, Instagram, TikTok, uh, sur le meme nom c'est 'carlamusicoff', voila.</A>
+		<Q>'carlamusicoff' ... c'est super simple.</Q>
+		<A>Ouais.</A>
+		<Q>...</Q>
+		<A>Ouais ... challenge.</A>
+		<Q>...</Q>-->
+	</video>
+	<video title="Carla - L'Autre Moi" link="yt:EK3tWop_Seo" length="2:46">
+		<link type="lyrics" id="15"/>
+	</video>
+</event>
+<event title="Non Stop People - Le Debrief de Non Stop" date="12-06-2020">
+	<video title="..." link="ig:CBWIWCnpxwh" length="4:29"/>
+</event>
+<event title="TF1 - La Chanson de l'Annee" date="12-06-2020">
+	<video title="Show (Part 1)" link="ok.ru/videoembed/1768296024778" length="1:45:50"/>
+	<video title="Show (Part 2)" link="ok.ru/videoembed/1768800848586" length="1:12:14"/>
+</event>
+<event title="EHFR" date="13-06-2020">
+	<video title="Interview" link="yt:3vkez5xjvdQ" length="10:02">
+		<Q>How old were you when you start singing?</Q>
+		<A>Uh, my mother is a singing teacher and my father is ...</A>
+	</video>
+</event>
+<event title="France 2 - Fete de la Musique - Tous Ensemble pour la Musique" date="19-06-2020">
+	<video title="Show" link="ok.ru/videoembed/1779880954570" length="3:34:11"/>
+	<video title="France 2 - La Chanson de l'Ete - Carla" link="fb:279142706635963" length=""/>
+	<link type="francetv" id="1750603"/>
+	<link type="francetv" id="1804251"/>
+	<link type="francetv" id="1790839"/>
+</event>
+<event title="Radio Air Show - Que faire des mômes #199" date="20-06-2020">
+	<video title="Show" link="yt:yyXHMf26kxE" length="35:00"/>
+	<video title="Show" link="player.ausha.co?podcastId=ow0qAsvV3OKR" length="35:47"/>
+	<link>quefairedesmomes.fr/podcast-que-faire-des-momes-n199</link>
+	<link>podcast.ausha.co/quefairedesmomes/podcast-que-faire-des-momes-n0-199</link>
+</event>
+<event title="Green Team - Les Enfants du Monde" date="24-06-2020">
+	<video title="Music Video" link="yt:_aXA1jRXWnk" length="3:55">
+		<link type="lyrics" id="34"/>
+	</video>
+</event>
+<event title="Azur TV - La Grande Emission" date="24-06-2020">
+	<video title="..." link="fb:944297989350440" length="1:12"/>
+	<video title="..." link="fb:364322931215019" length="0:57"/>
+	<link>azur-tv.fr/la-grande-emission-du-24-06-2020</link>
+</event>
+<event title="Carla - L'Autre Moi" date="25-06-2020">
+	<video title="Music Video" link="yt:6MavJOVeQSo" length="2:48">
+		<link type="lyrics" id="15"/>
+	</video>
+	<video title="Behind the Scenes" link="yt:FoYSvFTztRc" length="2:11"/>
+	<link>journaldemickey.com/actus/carla-lautre-moi</link>
+</event>
+<event title="BFMTV - Premiere Edition" date="25-06-2020">
+	<video title="..." link="dm:x7unfh6" length="1:30"/>
+</event>
+<event title="France 2 - 100 Ans des Comedies Musicales - Les Stars Chantent pour le Sidaction" date="25-06-2020">
+	<video title="Show" link="ok.ru/videoembed/1790034578122" length="2:26:04"/>
+	<video title="Carla - Fame" link="yt:WYeCa1VGLdc" length="4:56"/>
+	<link type="francetv" id="1764865"/>
+</event>
+<event title="..." date="01-07-2020">
+	<video title="Interview" link="yt:C4qqForUCPA" length="17:13"/>
+</event>
+<event title="Aficia - 10 Moi Carla" date="02-07-2020">
+	<video title="Interview" link="yt:DPUSZfWQCmU" length="2:37">
+		<A>Hello Aficia c'est Carla pour repondre a vos questions.</A>
+		<Q>Ton parcours musical en quelques mots?</Q>
+		<A>Alors je dirais reve et surprise.</A>
+		<Q>L'artiste qui t'inspire au quotidien?</Q>
+		<A>Beyonce, elle chante, elle danse ...</A>
+		<Q>Un message ou un conseil qui t'a marque, motive, pour te lancer?</Q>
+		<A>Je pense que ...</A>
+		<Q>La plus grosse betise que tu aies pu faire dans ta vie?</Q>
+		<A>...</A>
+		<Q>Ton cri de guerre avant de monter sur scene?</Q>
+		<A>...</A>
+		<Q>L'endroit ou le pays ou tu reverais de jouer?</Q>
+		<A>... Coachella.</A>
+		<Q>Quel est ton talent cache?</Q>
+		<A>... des gros bisous.</A>
+	</video>
+	<video title="Interview" link="ig:CCJNr6tID3t" length="2:37"/>
+</event>
+<event title="France 2 - Les Enfants de la Tele" date="05-07-2020">
+	<video title="..." link="fb:621951978438449" length=""/>
+	<link type="francetv" id="1797633"/>
+	<link type="francetv" id="1797619"/>
+</event>
+<event title="BFMTV - Premiere Edition" date="07-08-2020">
+	<video title="..." link="dm:x7vfuep" length="1:30"/>
+</event>
+<event title="Green Team - Trois Petits Pas" date="10-07-2020">
+	<video title="Music Video" link="yt:A35MFDRa8tY" length="2:42">
+		<link type="lyrics" id="33"/>
+	</video>
+	<video title="TF1 - La Minute Musique" link="fb:304802857533291" length="0:56"/>
+	<video title="TF1 LCI - LE 13H - ..." link="tf1.fr/embedplayer/13728306" length="2:12"/>
+	<link>lci.fr/-2161379.html</link>
+</event>
+<event title="Green Team - Les Tutos Ecolos" date="24-07-2020">
+	<video title="En Cuisine" link="yt:IHQMTE--M80" length="2:32"/>
+	<video title="Conference - Part 1" link="yt:uXZRFH1E5Ww" length="3:44"/>
+	<video title="Conference - Part 2" link="yt:CqxG6VovfuQ" length="3:11"/>
+	<video title="Conference - Part 3" link="yt:g8cko5KwD20" length="2:26"/>
+	<video title="En Mission" link="yt:JHDtS5Ru1b8" length="6:13"/>
+</event>
+<event title="TF1 - Les 12 Coups de Midi" date="01-09-2020">
+	<video title="..." link="fb:246559203170995" length=""/>
+</event>
+<event title="Europe 1 - Ca Fait du Bien" date="01-09-2020">
+	<video title="..." link="api.europe1.fr/podcast/mp3/itunes-329164519/3988962/podcast.mp3" length="57:11"/>
+	<link>europe1.fr/emissions/anne-roumanoff-ca-fait-du-bien/anne-roumanoff-avec-daniel-picouly-et-carla-3988962</link>
+</event>
+<event title="France 2 - Fort Boyard - S31E09" date="05-09-2020">
+	<video title="Show" link="ok.ru/videoembed/1953495321249" length="2:12:32"/>
+	<video title="Le Tres Fort Replay" link="yt:-JTF-40_3_k" length="3:20"/>
+	<video title="Carla Terrorisee" link="yt:-hLDJ8SCcBg" length="2:11"/>
+	<video title="" link="yt:wzo0tTTVtLc" length=""/>
+	<video title="" link="yt:lPq5V8Eg6fk" length=""/>
+	<video title="" link="fb:307719550506603" length=""/>
+	<video title="" link="fb:944102619423258" length=""/>
+	<link type="francetv" id="1919491"/>
+	<link type="francetv" id="1956359"/>
+	<link type="francetv" id="1956361"/>
+	<link type="francetv" id="1956365"/>
+	<link>www.francetvpro.fr/contenu-de-presse/556451</link>
+</event>
+<event title="France 3 Paris Ile-de-France - 19/20 Edition de Proximite" date="11-09-2020">
+	<video title="Avant le JT - Un Soir a Paris - Carla &amp; Dylan (Green Team)" link="fb:2435403660088985" length=""/>
+	<link type="francetv" id="1939195"/>
+</event>
+<event title="Live Actu" date="19-09-2020">
+	<video title="Intro" link="fb:346213436430199" length=""/>
+	<video title="Interview" link="yt:JRVqdhefy0U" length="8:54"/>
+	<video title="Blind Test Lyrics" link="yt:HwV3iz7aqnA" length="3:01"/>
+</event>
+<event title="Carla &amp; Jonathan Dassin - Siffler sur la Colline" date="24-09-2020">
+	<video title="Behind the Scenes" link="yt:QdlabUa55z0" length="2:31"/>
+	<video title="TF1 LCI - LE 13H - ..." link="tf1.fr/embedplayer/13748132" length="2:52"/>
+	<link>lci.fr/-2169510.html</link>
+</event>
+<event title="France Bleu Azur - Azur en Scene" date="24-09-2020">
+	<video title="Interview" link="dm:x7wfgla" length="2:52">
+		<Q>Bonjour et bienvenue dans ce rendez-vous musique en Azur en Scene un petit peu particulier.</Q>
+		<A>Allo.🤗</A>
+		<Q>Que nous fêtons un anniversaire. Les quarante ans de reseau France Bleu et donc, uh, quarante ans aussi de France Bleu Azur. Ça dir quarante ans de da fou, de rencontre, de musique evidemment, de proximite avec vous qui ... , uh, chaque jour, uh, sur le son de, de France Bleu Azur ..., uh, c'est vrai ... musique on pense aussi a Carla. Bonjour.</Q>
+		<A>Bonjour.</A>
+		<Q>Comment ça va Carla?</Q>
+		<A>Ça va super et vous?</A>
+		<Q>Bien, ... passe de chose depuis le premier passage d'ici d'Azur en Scene, hein?</Q>
+		<A>Hihi oui c'est vrai, c'est vrai.</A>
+		<Q>L'album, on dit quelques mots, il est sorti?</Q>
+		<A>Le cinq juin dernier, oui, il est toujours disponible et puis, uh, bientôt ... de la réédition l'album qui la sortir.</A>
+		<Q>Avec des inedits?</Q>
+		<A>Voilà, avec des titres inedits. J'ai hate de, de vous devoiler.</A>
+		<Q>... , uh, de fils de Joe Dassin ... passe de chose?</Q>
+		<A>C'est vrai, uh, avec Jonathan Dassin, le, le fils de Joe Dassin on participe a album hommage a Joe Dassin, uh, qui sortir a vingt-trois octobre et on interprete tous les deux en Joe's « Siffler sur la colline ».</A>
+		<Q>Ouais, alors tu es ... avec nous mais ce soir ce vendredi, uh, tu sera dans un emission, les 'Trois Cents Chœurs'?</Q>
+		<A>Justement, avec Jonathan.</A>
+		<Q>...</Q>
+		<A>On interpretera, uh, « Siffler sur la colline » dans les 'Trois Cents Chœurs'.</A>
+		<Q>Tres bien. Alors un bonne nouvelle. Tu as ... TikTok d'or, alors TikTok, pour le chaque qui sera pas branche videment sur l'actuel.</Q>
+		<A>Hihi.😁</A>
+		<Q>... dir quelques mots de ...</Q>
+		<A>... reseau, uh, social ... ce film ... faire sur un playback un choregraphie sur, uh, sur un musique et, uh, et, uh, j'attend, uh, plus de deux virgule un million videos sur ma chanson 'Bim Bam Toi'.</A>
+		<Q>... monde.</Q>
+		<A>Oui c'est vrai que ...</A>
+		<Q>... Cote d'Azur.</Q>
+		<A>J'ai, j'ai, j'ai ... super suprise m'y attendais pas du tout. C'est vrai ... TikTok c'est la folie et, uh, je realise je pense ... pas ... pas tout ca.</A>
+		<Q>D'avant Jason Derulo.</Q>
+		<A>Oui c'est ca.</A>
+		<Q>Ca presente ...</Q>
+		<A>...</A>
+		<Q>... parler ... deux millions deux-cent-mille vues et ... depuis ...</Q>
+		<A>Oui ... eu, uh, j'ai deux millions deux-cent-mille vues et, uh, j'ai ... un virgule six cent mille personnes ... repris la choregraphie donc, uh, c'est vraiment enorme ... pas du tout.</A>
+		<Q>Carla, tu ... France Bleu Azur ... maison?</Q>
+		<A>Mais oui ... mes debuts.</A>
+		<Q>Mais oui ... sur anniversaire, quarante ans.</Q>
+		<A>Et uh, et dire que cette annee c'est le quarante ans de, de cette, uh, incroyable radio. Merci pour votre ... un plaisir de venir ici.</A>
+		<Q>Merci ... ici.</Q>
+		<A>Merci.😊</A>
+		<Q>Pour l'anniversaire de France Bleu Azur, les quarante ans en reseau France Bleu. Tu vas interprete du titre aujourd'hui?</Q>
+		<A>Oui, je ... interprete « Bim Bam toi » et, uh, ma nouvelle single « Dans ma bulle ».</A>
+		<Q>Ah, ... single ...</Q>
+		<A>... garcon, oui et, uh, c'est vraiment chanson que, que j'adore et ... interprete aussi aujourd'hui.</A>
+		<Q>Le tapis bleu est à toi.</Q>
+		<A>Merci!</A>
+		<Q>Salut Carla.</Q>
+		<A>Au revoir!🤗</A>
+	</video>
+	<video title="Carla - Bim Bam Toi" link="dm:x7wfbuj" length="3:00">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="Carla - Bim Bam Toi" link="fb:2826373237593411" length="3:00">
+		<link type="lyrics" id="16"/>
+	</video>
+</event>
+<event title="(Carla FAQ)" date="25-09-2020">
+	<video title="..." link="yt:HIL5WCIZ4oc" length="3:28">
+		<A>Coucou tout le monde, c'est Carla ... pour la FAQ.</A>
+		<Q>Quelle est ta musique preferee?</Q>
+		<A>Alors ma musique preferee en ce moment j'aime beaucoup Savage Love de Jason Derulo et, uh, j'aime beaucoup aussi ...</A>
+		<Q>Quelle est ton autre passion a part le chant?</Q>
+		<A>A part le chant ma passion, c'est la danse ...</A>
+		<Q>Ton film ou ta serie preferee?</Q>
+		<A>...</A>
+		<Q>As-tu des projets a venir?</Q>
+		<A>...</A>
+		<Q>Tu chantes depuis combien de temps?</Q>
+		<A>...</A>
+		<Q>Prevois-tu de faire un meetup avec tes fans?</Q>
+		<A>...</A>
+		<Q>Avec qui reverais-tu de faire un duo?</Q>
+		<A>...</A>
+		<Q>Quelle est ta destination de reve?</Q>
+		<A>...</A>
+		<Q>Decris-nous ton aventure avec la Green Team.</Q>
+		<A>...</A>
+	</video>
+	<video title="..." link="ig:CFpXdYioiYJ" length="3:26"/>
+</event>
+<event title="France 3 - Les Enfants de la Musique Chantent les Annees Twist et Disco" date="02-10-2020">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456241435?m=cd2426ded2c6c263ee12382dd2c5c186" length="2:26:38"/>
+	<video title="Show" link="noodlemagazine.com/player/88444335_456239717?m=dd650d05c21d5cf243b8f6c90b140447" length="2:26:36"/>
+	<video title="Carla - Itsi Bitsi, Petit Bikini" link="yt:B931aOoIp2U" length="4:15"/>
+	<link type="francetv" id="1967229"/>
+</event>
+<event title="France 3 - 300 Choeurs Chantent les Plus Belles Chansons de Joe Dassin" date="16-10-2020">
+	<video title="Show" link="ok.ru/videoembed/2005462223562" length="2:14:36"/>
+	<video title="Carla &amp; Jonathan Dassin - Siffler sur la Colline" link="yt:vI7NtKIW3xU" length="3:26">
+		<link type="lyrics" id="38"/>
+	</video>
+	<link type="francetv" id="2026013"/>
+	<link type="francetv" id="2028119"/>
+	<link>purepeople.com/article/-_a405011</link>
+</event>
+<event title="Perdu Release" date="16-10-2020">
+	<video title="Behind the Scenes" link="yt:F9WLQWKw_kw" length="0:54"/>
+	<video title="Samuel - Perdu" link="yt:FYZKIsglr0Q" length="3:58"/>
+	<video title="Samuel - Stop" link="yt:Wf1RxaL_IuI" length="2:53"/>
+	<video title="Carla &amp; Samuel - Nous Serons La" link="yt:o5D1_5XhWv8" length="2:56">
+		<link type="lyrics" id="36"/>
+	</video>
+	<video title="Seb Avec Ta Star - 2 Min Chrono" link="yt:ib8COhuwgWY" length="6:55">
+		<Q>Bonjour les amis, j'espere que vous allez bien.</Q>
+		<A>Hello.</A>
+		<Q>Regarder avec qui je suis.</Q>
+		<A>Ca va?</A>
+		<Q>Ca va et toi?</Q>
+		<A>Ca va!</A>
+		<Q>On se retrouve, j'adore ... Carla.</Q>
+		<A>Ah ben moi aussi.</A>
+		<Q>...</Q>
+		<A>... je crois.</A>
+	</video>
+	<video title="..." link="fb:690496171577684" length=""/>
+	<video title="..." link="fb:284486142758145" length=""/>
+	<video title="..." link="fb:389297872118953" length=""/>
+	<video title="..." link="fb:370286377361575" length=""/>
+	<video title="..." link="ig:CHLNfz6oUn2" length=""/>
+</event>
+<event title="M6 Gulli - Gu'Live - Carla &amp; Laura" date="20-10-2020">
+	<video title="Tu Es Plus" link="yt:hkl2UEn_GU8" length="9:10">
+		<Q>Salut tout le monde ... pour cette video YouTube avec Carla, qui va arriver dans quelques secondes. Je lui ai prepare un petit « tu es plus » base sur les nouvelles cartes Panini Adrenalyn. Il s'agit de toutes les cartes de tous les joueurs du championnat France. Alors ces cartes soit un peut le collectionner, soit un peut jouer avec. Maintenant je vous propose tout simplement de recevoir Carla. ... voir?</Q>
+		<A>Oui.</A>
+		<Q>... sort bientot son nouvel album, une réédition?</Q>
+		<A>La réédition.</A>
+		<Q>Avec six nouveaux titres?</Q>
+		<A>Oui.</A>
+		<Q>Donc « Coeur sur toi »?</Q>
+		<A>Oui, qui sera disponible bientôt.</A>
+		<Q>Ah.</Q>
+		<A>La réédition sur le vingt novembre.</A>
+		<Q>Juste un petit indice, un petit la, le, le, le, le titre ... Ah, j'appelle la.</Q>
+		<A>... le titre deja on l'a annonce.</A>
+		<Q>Ouais, deja, uh, « Coeur sur toi » qui debarque, hein?</Q>
+		<A>« Coeur sur toi ».😏</A>
+		<Q>L'album qui debarque donc beaucoup, beaucoup, beaucoup choses en preperation et d'ailleurs je tiens preciser que nous aurons un album dedicace a faire gagner, hehe.</Q>
+		<A>Haha.</A>
+		<Q>Bon, ca c'est mon cote craneur. Alors, uh, nous allons faire un « tu es plus ».</Q>
+		<A>OK.</A>
+		<Q>« Tu es plus », uh, base, uh, sur le football avec nos cartes Panini Adrenalyn en ...</Q>
+		<A>OK, je ... foot.</A>
+		<Q>Y'a du football.</Q>
+		<A>Mais c'est pas grave?</A>
+		<Q>C'est pas grave. Y'a du football.</Q>
+		<A>OK.</A>
+		<Q>Mais j'ai aussi des questions, d'accord?</Q>
+		<A>OK.</A>
+		<Q>On va commencer?</Q>
+		<A>Je connais ces petites questions-là.</A>
+		<Q>Bah moi si je ... l'amour et tout ca, tu sais, uh.</Q>
+		<A>Oh la la.😅</A>
+		<Q>... deja tu es plus, uh, uh, pizza ou fast-food?</Q>
+		<A>Pizza!</A>
+		<Q>Uh, tu es plus, uh, Adidas ou Nike?</Q>
+		<A>Ah, c'est dur!</A>
+		<Q>Ouais.</Q>
+		<A>Uh, j'allais dire.</A>
+		<Q>Converse.</Q>
+		<A>Oui, j'allais dire Converse, t'as quoi?</A>
+		<Q>Moi, j'ai Adidas.</Q>
+		<A>... Adidas, bah Adidas.</A>
+		<Q>OK, uh, tu es plus, uh, uh, Dylan ou Nathan?</Q>
+		<A>Ah non, c'est pas possible.</A>
+		<Q>Non mais ... on va en parler.</Q>
+		<A>Ne commence pas.</A>
+		<Q>Non mais ... tu sais, tu sais.</Q>
+		<A>Ne commence pas.</A>
+		<Q>Dylan ou Nathan?</Q>
+		<A>Les deux.</A>
+		<Q>Aucune preference?</Q>
+		<A>Aucune preference.</A>
+		<Q>Ton cœur le ... pas?</Q>
+		<A>Je les adore, uh, tous les deux comme mes freres.</A>
+		<Q>OK, tu es plus Joan ou Gwendal?</Q>
+		<A>Mais, uh, t'es dur!</A>
+		<Q>... et aux ... avec moi ...</Q>
+		<A>T'es dur ... vous ... tous les deux!</A>
+		<Q>Gwendal il est pas la!</Q>
+		<A>Vous etez dans la Green Team en plus!</A>
+		<Q>Mais Gwendal ... alors.</Q>
+		<A>Non, c'est pas possible.</A>
+		<Q>Mais il est pas là!</Q>
+		<A>Mon fils!</A>
+		<Q>Mais ... regarde pas!</Q>
+		<A>C'est mon Gwendal et t'es mon Joan, non.</A>
+		<Q>OK, tu es plus, uh, alors, uh, tu dis que tu ... connais pas ... foot un petit peu quand meme parce que t'es de Nice?</Q>
+		<A>Oui.</A>
+		<Q>Donc forcement, uh, l'equipe de Nice tu connais. ... Nice.</Q>
+		<A>Oui.</A>
+		<Q>Tu es plus, uh, Louza du FC Nantes ou Dante de Nice.</Q>
+		<A>La Dante, Nice!😊</A>
+		<Q>C'est vrai?</Q>
+		<A>Ouais.</A>
+		<Q>Plus beau ou plus sympa, plus rapide?</Q>
+		<A>... que c'est Nice.</A>
+		<Q>... voila tout simplement ... chauvin ...</Q>
+		<A>... c'est Nice, hihi.😁</A>
+		<Q>Uh, tu es plus Andy Delort, et la franchement si tu les connais pas tu ...</Q>
+		<A>Je ne connais pas ...</A>
+		<Q>Mais c'est pas grave. Uh, ou, uh, Abdelhamid du Stade de Reims. On juge a la bogossite ou a la photo, hein?</Q>
+		<A>Uh, je dirais Andy Delort, parce qu'on voit la qui va vite sur sa photo.</A>
+		<Q>Et ouais, ... vif.</Q>
+		<A>Ouais ... vif.</A>
+		<Q>Mais c'est ca qui est fort avec ces, uh, ces photos ...</Q>
+		<A>Et puis ... voit.</A>
+		<Q>Même si ... connais pas football on, on voit les attitudes.</Q>
+		<A>Et puis ... voit soixante-quatorze et la ... soixante-douze, donc, uh, tu vois.</A>
+		<Q>Ah, tu regardes les points de jeue!</Q>
+		<A>Et la soixante-dix-neuf, la soixante ... la il a plus.</A>
+		<Q>... deux-cent-douze, deux-cent-douze ...</Q>
+		<A>Ouais, ouais, ouais, ouais, ouais, je sais pas.</A>
+		<Q>... tu preferes les attaquants quoi c'est plutot, uh.</Q>
+		<A>Bah, je le vois plus rapide, je sais pas.</A>
+		<Q>... les defenseurs. Tu es plus rouge ou bleu?</Q>
+		<A>Uh, j'irais le bleu.</A>
+		<Q>OK, tu es plus amoureuse ou amitie? Amour ou amitie?</Q>
+		<A>Uh, l'amitie ca c'est, c'est tres important, l'ametie.</A>
+		<Q>Ouais non mais voila, hein? Tu es plus, uh, Lenni-Kim, que j'adore, que j'embrace, ca fait longtemps Lenni-Kim, on t'attends, uh, dans le studio. Lenni-Kim ou Dylan? Allez hop, on gere ton ...</Q>
+		<A>... mais c'est dur!</A>
+		<Q>Mais pourqoui c'est dur?</Q>
+		<A>Bon, uh, vu que je connais pas trop Lenni-Kim je vais dire Dylan parce que je connais plus plus longtemps.</A>
+		<Q>Tu connais pas Lenni-Kim?</Q>
+		<A>J'ai jamais rencontre.</A>
+		<Q>Mais Lenni-Kim est ..., est ... trop beaux pas?</Q>
+		<A>Non mais stop!</A>
+		<Q>Qoui ...</Q>
+		<A>Arretez des questions!</A>
+		<Q>Quoi, c'est Gwendal qui m'a forme. ... pas moi.</Q>
+		<A>Bien sur!</A>
+		<Q>C'est Gwendal qui m'a dit faut poser ces questions la. Tu es plus, attention alors on va parler PSG, on va parler l'equipe nationale Bresil, uh, puis on va parler egalement, uh, uh, Paris Saint-Germain, equipe de France. Mbappe ou Neymar Junior?</Q>
+		<A>Uh.</A>
+		<Q>Deux grosses cartes.</Q>
+		<A>Ah mais oui la, uh.</A>
+		<Q>La ... deux grosses attaquants.</Q>
+		<A>Je peux va ...?</A>
+		<Q>Ah, tu peux pas, non non non, tu peux pas ... pas ... Tu peux regarder les points, ... de meme. Il soit trois cents, c'est les maxi cartes. ... pas de ...</Q>
+		<A>Uh, je veux dire Kylian Mbappe. Kylian Mbappe il est dans l'equipe de France.</A>
+		<Q>Mais merci. ... chauvin aussi ... que Neymar PSG ... quand meme, hein?</Q>
+		<A>Il est dans l'equipe de France.</A>
+		<Q>Quand meme bresilien quoi. Tu es plus, uh, pareil dans les attitudes je pense alors ... on a un guardien de but Costil, uh, ou, uh, un garde-fou Yannick Cahuzac?</Q>
+		<A>Lui.</A>
+		<Q>Cahuzac tu connais?</Q>
+		<A>Non.</A>
+		<Q>Tu connais pas?</Q>
+		<A>Mais lui par sa pose, je sais pas. Il a l'air.</A>
+		<Q>« Sa pause ».</Q>
+		<A>Il a l'air, uh, d'avoir, uh, du cran et lui aussi donc, c'est dur.</A>
+		<Q>Quand la pause il est en rose.</Q>
+		<A>... l'accent!</A>
+		<Q>... alors ...</Q>
+		<A>Uh, bon, je vais, je vais dire, c'est quoi la?</A>
+		<Q>Ca c'est, uh, le force de cent-vingt-deux avec, uh, c'est plutot un defenseur avec soixante-douze points et la.</Q>
+		<A>Il est chez quelle equipe?</A>
+		<Q>Uh, lui, il est du, uh, de Lens et lui de.</Q>
+		<A>Bordeaux.</A>
+		<Q>Bordeaux. Bordeaux c'est sympa.</Q>
+		<A>Uh, c'est quoi le plus pres Nice?</A>
+		<Q>... c'est Bordeaux.</Q>
+		<A>Bah alors Bordeaux.</A>
+		<Q>... on entendu ... 'oh la la, Cote d'Azur, bah Bordeaux'. Mais Bordeaux, c'est completement a l'ouest, Nice est au sud, donc c'est complique.</Q>
+		<A>...</A>
+		<Q>Uh, Carla tu es plus, uh, cuisine ou, uh, ou salle a manger?</Q>
+		<A>Uh, j'aime bien être dans ma salle ... pour regarder, uh, Netflix.</A>
+		<Q>Ah.</Q>
+		<A>Tu vois, par mon petit the ou mon petit chocolate chaud, tu vois, c'est pas mal ce programme-là.</A>
+		<Q>..., ... et ca c'est cool que t'aimes bien etre, t, t'aimes bien la vie en fait.</Q>
+		<A>Ouais, j'adore.</A>
+		<Q>T'aimes bien ... profitez et t'aimes bien etre, uh, juste bien.</Q>
+		<A>Ouais.</A>
+		<Q>C'est sympa.</Q>
+		<A>Trop, trop.</A>
+		<Q>... un amour ... ou pas? Allez dire verite maintenant.</Q>
+		<A>Non, j'ai personne.</A>
+		<Q>Ah, tu me ... Ah, je ... vois tes yeux!</Q>
+		<A>J'ai personne!</A>
+		<Q>Je les vu, c'est la premier fois que ... regarde. C'est la premiere fois ou ... vu on, on pourra pas ... le replay parce que c'est comme ca on a ...</Q>
+		<A>Non, j'ai personne.</A>
+		<Q>Mais ces yeux ont fair ... Y avait horreur derriere. Allez la horreur ... , haha.</Q>
+		<A>Mais j'ai personne!😆</A>
+		<Q>Dis-moi la verite ...</Q>
+		<A>J'ai personne.</A>
+		<Q>... sera dans une prochaine emission en tous les cas.</Q>
+		<A>J'ai, j'ai personne.</A>
+		<Q>... bien connecte au Gu'Live sur Gulli.</Q>
+		<A>... apres sur YouTube on va voir 'Carla Amoureuse?' ... pas.</A>
+		<Q>Non parce que ... pas non je veux pas amoureuse d'un chanteur ou amour ... qoui. Ah, et j'ai vu t'avais, uh.</Q>
+		<A>J'ai personne.</A>
+		<Q>T'avais rencontre Garou ...</Q>
+		<A>Ah vous?</A>
+		<Q>Non, uh, t'avais rencontre.</Q>
+		<A>...</A>
+		<Q>Non, non, c'est pas Garou. Uh, j'ai vu t'avais rencontres, uh, Keen'V!</Q>
+		<A>Oui.</A>
+		<Q>Qu'est-ce qui s'est passe?</Q>
+		<A>Y a ... projet en preparation.</A>
+		<Q>... se passer qoui?</Q>
+		<A>Quelque chose. On a ete en studio pour enregistrer quelque chose.</A>
+		<Q>Keen'V ...</Q>
+		<A>Un petite surprise qui sortira bientôt.</A>
+		<Q>Vous avez tellement du vous amuser.</Q>
+		<A>Ouais.</A>
+		<Q>Il y a, le Keen'V c'est quand meme le mec le plus genial au monde.</Q>
+		<A>Il est incroyable et, uh, c'etait vachement fun.</A>
+		<Q>On l'a vu, uh, dans le studio de Gu'Live il y a quelques années, c'est vrai ... passe un moment incroyable. Il est cool, il est fun, vous ... vous eclater.</Q>
+		<A>Ouais.</A>
+		<Q>Uh, Carla, uh, album aux réédition, bientôt.</Q>
+		<A>La réédition.</A>
+		<Q>C'est pas qu'une réédition, c'est une revolution.</Q>
+		<A>Haha.</A>
+		<Q>Parce qu'il y a six nouveaux titres que vous ne connaissez pas et notamment, uh, uh, alors bon dans les titres qu'on connait il y a 'Dans Ma Bulle', uh, y'a, uh, 'Roller Coaster'.</Q>
+		<A>Y'a 'Bim Bam Toi', 'L'autre Moi'.</A>
+		<Q>Y'a 'Bim Bam Toi', et, uh, dans, uh, dans les nouveaux titres y'a notamment.</Q>
+		<A>« Coeur sur toi ».</A>
+		<Q>« Coeur sur toi », une histoire d'amour!</Q>
+		<A>Alors, uh.</A>
+		<Q>Une histoire d'amour Carla!</Q>
+		<A>Mais.</A>
+		<Q>Me dis pas tu t'es pas ... quelque chose, uh, du reel.</Q>
+		<A>Arrête.</A>
+		<Q>Ont sera pas.</Q>
+		<A>... plus avec des ... et apres dans les commentaires va voir « Carla amoureuse? ».</A>
+		<Q>... franchement ... te marier ... c'est ecrit.</Q>
+		<A>... mariera, OK.</A>
+		<Q>Je te marierai avec quelqu'un. Je trouverais l'homme de ta vie.</Q>
+		<A>OK.😁</A>
+		<Q>Tu verras, tu verras, tu ... il est ... Il est beau. Il sera beau. Uh, merci beaucoup Carla et a bientot sur Gulli pour le Gu'Live?</Q>
+		<A>Ouais!</A>
+		<Q>... rendez-vous description toutes les info, ciao! Et voila les amis j'espere ... cette video avec Carla ... tout l'univers, tout le monde ... Adrenalyn Panini ... 'starter pack'. ... procurer avec toute la base, uh, des cartes forcement mais aussi, uh, ... Uh, ... mais avec ... Allez, a bientot les amis pour une nouvelle video YouTube, ciao, ciao.</Q>
+	</video>
+	<video title="Action ou Verite" link="yt:rxwBZzjGevs" length="8:54">
+		<Q>... deuxieme ...</Q>
+		<A>... sur la réédition mon album.</A>
+		<Q>Bientôt! Dans quelques ...</Q>
+		<A>Le vingt novembre.</A>
+		<Q>Le vingt novembre, Carla, album réédition, tout simplement avec, uh, bah des titres qu'on connait genre 'Bim Bam Toi', uh, genre 'Dans Ma Bulle' et six nouveaux titres.</Q>
+		<A>Six nouveaux titres donc « Coeur sur toi » qui sera mon nouveau single.</A>
+		<Q>Allez, chante un bout quoi.</Q>
+		<A>Non.</A>
+		<Q>Allez.</Q>
+		<A>Non.</A>
+		<Q>... c'est fini quoi.</Q>
+		<A>C'est, c'est une surprise déjà j'ai dit le titre.</A>
+		<Q>Dans les six nouveaux titres il y a juste des bombes et, uh, la troisieme chose est la je vais te faire un challenge de folie. On ... tu sais.</Q>
+		<A>OK, oui.</A>
+		<Q>C'est qu'on va te faire un « action ou verite ».</Q>
+		<A>OK.</A>
+		<Q>Uh, sous les couleurs de LEGO Friends. LEGO Friends qui revient sur Gulli, la meilleure serie du monde.</Q>
+		<A>Ah trop bien!</A>
+		<Q>Ah ouais mais trop bien.</Q>
+		<A>Trop bien.</A>
+		<Q>... univers, hein? Ca danse, ca chante, ca bouge, ca ...</Q>
+		<A>Ah ouais trop bien.</A>
+		<Q>Donc, uh, « action ou verite », c'est simple.</Q>
+		<A>OK.</A>
+		<Q>Je dis action ou verite, tu choisis.</Q>
+		<A>OK.</A>
+		<Q>D'accord, tu vas avoir trois actions, trois verites. Les verites, elles sont chaud patate, je dis ca, je dis rien. Alors, action ou verite?</Q>
+		<A>Verite, on va commencer en douceur.</A>
+		<Q>Ah c'est comme ça?</Q>
+		<A>Ouais.</A>
+		<Q>Uh, quel est le pire mensonge que tu as raconte a ton entourage? Le pire, le pire, on, on.</Q>
+		<A>Le pire?</A>
+		<Q>On met des, on met des ...</Q>
+		<A>Mais c'était, uh, en fait vu que ... beaucoup ... et ou, uh, pendant The Voice et ... devais pas savoir, uh, bah ce que je faisais parce que The Voice ... etait secret. Et, uh, ... etait persuade ... faire The Voice, je ne sais pas pourqoui. Et, uh, j'étais quinze ... mais non mais ... raconter tout, uh, je vais pas faire The Voice ... leur disais « je vais chez le medecin, je vais chez le medecin ».</A>
+		<Q>... medecin en fait, en fait ... va pas tres bien Carla ... disais ... quand tu mentais ... tremble un petit peu ... rictus ou ...</Q>
+		<A>Mais on, je, quand meme, uh, je pense qu'on le voit un peu ... je souris.</A>
+		<Q>... voit.</Q>
+		<A>Et c'etait dur parce que c'etait un secret de ouf et tu pouvais pas le dire quoi et j'ai ete oblige de mentir.</A>
+		<Q>Vous allez voir, vous allez voir pour savoir si elle ment, vous allez voir. Re, regardez bien ... lui poser un question, vous allez voir quand elle ment.</Q>
+		<A>Non.</A>
+		<Q>Uh, il s'appelle comment ... ton, ton cherie?</Q>
+		<A>J'ai personne.</A>
+		<Q>Arrête! Vous avez vu, vous avez vu?</Q>
+		<A>Mais j'ai personne, c'est toi qui me ...</A>
+		<Q>...</Q>
+		<A>Mais non, mais je suis pas comme ça quand je mens.</A>
+		<Q>On en a fait des aventures ensemble, on a fait des emissions.</Q>
+		<A>Ah oui.</A>
+		<Q>On a fait des trucs.</Q>
+		<A>Bientôt une emission.</A>
+		<Q>... pour une association, uh, ... vous en dirai ...</Q>
+		<A>C'etait vraiment encroyable ...</A>
+		<Q>Ouais, ouais franchement, uh, vous savez pas de quoi on parle, hein? Mais nous aussi on a des secrets.</Q>
+		<A>Mais si on ..., on l'a dit sur les reseaux.</A>
+		<Q>C'est vrai qu'on l'a dit ... pas parler de l'equipe en fait.</Q>
+		<A>Vrai.</A>
+		<Q>Uh, action ou verite?</Q>
+		<A>Bah l'action.</A>
+		<Q>Action, chante le refrain de ta chanson preferee. Franchement c'est cool, ta chanson preferee soit ton album, soit, uh, d'un autre artiste.</Q>
+		<A>Ma chanson preferee du moment? Uh, mais il y en a plein, hein?</A>
+		<Q>Non mais une, allez tout suite la.</Q>
+		<A>OK, uh, attends, uh. 'I, I feel it in my head, my shoulders, knees and toes. My rocks, my muse, you're keeping me alone.'</A>
+		<Q>J'adore.</Q>
+		<A>Merci.</A>
+		<Q>Franchement, non mais franchement c'est enorme. Vous avez vu la voix, c'est un truc de fou.</Q>
+		<A>Merci.</A>
+		<Q>Action ou verite?</Q>
+		<A>Uh, verite.</A>
+		<Q>Verite, uh, raconte ta pire honte.</Q>
+		<A>Ma pire honte.</A>
+		<Q>Pire honte.</Q>
+		<A>Uh, ma pire honte, c'est quoi, mais c'est dur.</A>
+		<Q>Ouais, pire honte.</Q>
+		<A>Pire honte.</A>
+		<Q>Ouais la pire honte ... honte quoi le, le truc ... qui ... mal a l'aise le, le, le moment quoi.</Q>
+		<A>Uh, je sais pas.</A>
+		<Q>... tres bien une, une honte. C'est vrai ... honte ... la honte, uh, quand tu etais petite, le truc, uh.</Q>
+		<A>Bah ... petite, uh, je sais pas, uh.</A>
+		<Q>... ouais?</Q>
+		<A>... quand ... petite, uh, je sais pas, uh, ... moi.</A>
+		<Q>Vas-y, vas-y tu la? OK je te pose un autre.</Q>
+		<A>Ouais.</A>
+		<Q>Uh, est-ce que tu as deja fait semblant d'etre malade pour ne pas d'aller a l'ecole, alors on a parle tout a l'heure donc oui. Uh, est-ce que tu pleures devant les films?</Q>
+		<A>Je pleure devant les films?</A>
+		<Q>Ouais.</Q>
+		<A>Uh, ouais je ... plutot ..., uh, pleurer. C'est devant telefilms ... un peu la.</A>
+		<Q>Ouais.</Q>
+		<A>Ou c'est un film de Noël la un peu.</A>
+		<Q>Ah.</Q>
+		<A>Les trop bon ...</A>
+		<Q>... pas vu ca.</Q>
+		<A>Ou sinon les films tristes, uh, par example « A deux metres de toi », je pense que tu as vu ce film?</A>
+		<Q>Non j'ai pas vu.</Q>
+		<A>Il est incroyable, c'est des personnes malades et cetera.</A>
+		<Q>Ah mais ...</Q>
+		<A>Ah ... la fin du film.</A>
+		<Q>Ouais mais la c'est triste la.</Q>
+		<A>J'ai ete.</A>
+		<Q>Ouais non mais ne me dis pas, hein?</Q>
+		<A>En pleur.</A>
+		<Q>Bon ben voila on sait elle pleure devant les films. Uh, action ou verite?</Q>
+		<A>Uh, bah verite.</A>
+		<Q>Action.</Q>
+		<A>Ah non action, j'ai dit verite.</A>
+		<Q>Action, alors, uh, regardez bien ce TikTok qui a ete realise par Elise, notre cher Elise qu'on adore. T'es prete?</Q>
+		<A>OK.</A>
+		<Q>... regardez ...</Q>
+		<A>...</A>
+		<Q>... attention.</Q>
+		<A>Ah c'est ...</A>
+		<Q>Yes.</Q>
+		<A>OK ...</A>
+		<Q>OK une derniere fois avec, uh, ... qui va filmer ... attention double ecran ...</Q>
+		<A>...</A>
+		<Q>OK t'es prete?</Q>
+		<A>OK.</A>
+		<Q>... t'es prete?</Q>
+		<A>Ah OK.</A>
+		<Q>Trois, deux, un. OK, je valide ... bien joue.</Q>
+		<A>...</A>
+		<Q>Non mais attends ... tu regarderas ... on va diffuser, uh, sur ... Instagram Gu'Live ... officiel.</Q>
+		<A>OK.</A>
+		<Q>... un ... par, uh, par Elise, hein?</Q>
+		<A>OK.</A>
+		<Q>Attention ... Carla ... fait quoi.</Q>
+		<A>OK.</A>
+		<Q>... quand meme ... c'est, uh, c'est enorme. Uh, merci beaucoup Carla.</Q>
+		<A>Merci à toi.</A>
+		<Q>C'est un grand honneur, uh, de t'avoir sur Gulli dans Gu'Live.</Q>
+		<A>... maison ...</A>
+		<Q>... description ... franchement ... rendez-vous parce que, uh, bah ... , uh, et je te souhaite tout le bonheur du monde.</Q>
+		<A>Merci.</A>
+		<Q>Coeur sur toi ... franchement cœur, cœur, cœur, belle energie ...</Q>
+		<A>Tu l'as ecoute ... en avant premiere.</A>
+		<Q>Moi je l'ai entendu, c'est une bombe atomique.</Q>
+		<A>Ah ouais, t'aimes bien?</A>
+		<Q>... sur les reseaux et tout ca ... ca va faire une trainee de poudre.</Q>
+		<A>Merci.</A>
+		<Q>Uh, « Coeur sur toi » donc, uh, les nouveaux titres. Six, uh, nouveax titres dans cette réédition « Carla - L'autre moi ». N'hesitez pas ... faire gagner, hein? D'ailleurs donc, uh, reste bien sur, uh, connecte a notre Instagram « gulive tiret du bas officiel ». Merci Carla!</Q>
+		<A>Merci à toi!</A>
+		<Q>A bientôt?</Q>
+		<A>Oui.</A>
+		<Q>Tu me manques déjà, tu reviens un jour? ... tu reviens.</Q>
+		<A>... je reviens, c'est quand meme ... maison ici.</A>
+		<Q>Tu ...</Q>
+		<A>... je peux je reviens.</A>
+		<Q>T'es ici chez toi et ... fait des gros bisous, a tres vite!</Q>
+		<A>Bisous!</A>
+		<Q>Ciao! Voilà c'est la fin ...</Q>
+	</video>
+	<video title="Carla - Coeur sur Toi" link="yt:ShbQqRTGXPc" length="3:02">
+		<link type="lyrics" id="27"/>
+	</video>
+</event>
+<event title="Nice-Matin Kids-Matin - Good News - Carla" date="28-10-2020">
+	<video title="Interview" link="yt:jMprVhDD-h0" length="4:11">
+		<A>Coucou tout le monde, c'est Carla! Aujourd'hui je vais rencontrer les quatre kids-reporters pour Kids-Matin. Allez c'est parti, venez avec moi. Coucou les filles! C'est des mini-intervieweuses. Aujourd'hui on a 'girl power' et que des filles.</A>
+		<Q>Qu'est-ce qui t'a donne envie d'etre chanteuse?</Q>
+		<A>C'est de voir aussi les emissions a la tele, de voir, uh, toutes ces personnes qui chantent. Et, uh, moi c'est vrai que j'adorais chanter, danser, faire, uh, faire le show quoi et du coup je me suis toujours dit mais, uh, mais, mais j'aimerais devenir chanteuse moi aussi et, uh, c'est vrai que ... je me rapelle ... maman ... pas dire le contraire ... deja petite ... vouloir chanter dans la salon a danser et tout.</A>
+		<Q>Peux-tu me dire comment on fait pour etre chanteuse parce que ca va etre mon metier?</Q>
+		<A>Déjà je te dirais de ne pas avoir peur, uh, du regard des autres. Tu chantes, uh, quand tu veux et cetera. Apres il faut que tu travailles un peu aussi avec, uh, soit une professeure de chant ou, uh, pour, uh, pour continuer de progresser constamment. Et, uh, sinon, uh, lance-toi, n'aie pas peur, uh. Y'a, y'a jamais personne qui va juger donc, uh, lance-toi.</A>
+		<Q>Est-ce que tu aimes etre sur scene?</Q>
+		<A>Et j'adore etre sur scene meme si je pourrais, uh, dormir sur scene je le ferais parce que c'est, c'est, c'est un endroit ou on se sent si bien et puis, uh, bah c'est, c'est, uh, ca a toujours ete ma passion donc, uh, je pourrais vivre sur scene ca, ca ne me deplairait pas quoi.</A>
+		<Q>Parmi tes chansons laquelle preferes-tu?</Q>
+		<A>Ah c'est dur ça, je sais pas, uh. Alors parmi toutes mes chansons, uh, une que je prefere, mais c'est dur, uh ... bah je dirais mon tout premier single 'Bim Bam Toi' mais apres, uh, dans l'album je dirais, je peux dire plusieurs? Uh, dans l'album, c'est dur, hein? Uh, dans l'album je dirais, uh, 'Planete a Louer' pour son histoire parce que c'est, c'est pour une cause qui me tient, uh, a coeur, l'ecologie. Et, uh, et bientot, uh, dans la reedition de l'album qui sort le vingt novembre je dirais, uh, 'Coeur Sur Toi', uh, mon prochain single qui va sortir. ... vraiment super cette rencontre ... comme des chefs et ... bravo les filles vous avez ete superbes.</A>
+		<Q>J'avais hate de rencontrer, rencontrer Carla. J'etais un peu stressee mais apres quand on a commence faire des questions je me sentais bien et surtout pendant la photo. Cette rencontre elle etait geniale. Carla elle etait tres gentille et ... un bon moment. C'était trop bien, j'ai eu les reponses a toutes mes questions. J'ai bien aime faire la petite intervieweuse. J'etais contente et j'etais tres contente.</Q>
+		<A>Retrouvez notre interview bientôt sur.</A>
+		<Q>Kids-Matin!</Q>
+		<A>Des gros bisous.</A>
+	</video>
+</event>
+<event title="Keen'V &amp; Carla - C'est bientôt Noël" date="XX-11-2020">
+	<video title="Teaser" link="yt:BgOAT4JDwY4" length="0:34"/>
+	<video title="Music Video" link="yt:EXa0zHdD4mE" length="3:09">
+		<link type="lyrics" id="39"/>
+	</video>
+	<video title="Seb Avec Ta Star - Qui Est Le Plus" link="yt:PqIL0Ms3oNY" length="5:37">
+		<Q>Bonjour mes amis!</Q>
+		<A>Coucou!</A>
+		<Q>Comment ca va?</Q>
+		<B>Bien ca va?</B>
+		<A>Ca va.</A>
+		<Q>... ensemble avec moi sur ma chaine YouTube ... qui est le plus.</Q>
+		<A>OK.</A>
+		<Q>... avec moi.</Q>
+		<B>C'est ca.</B>
+		<Q>Alors qui est le plus ponctuel?</Q>
+		<B>Moi ...</B>
+		<A>...</A>
+		<B>Bah alors tous les deux.</B>
+		<Q>...</Q>
+		<A>...</A>
+		<B>...</B>
+		<A>...</A>
+		<Q>... Qui de vous deux est le plus bavard?</Q>
+		<A>...</A>
+		<B>...</B>
+		<A>C'est moi ...</A>
+		<Q>...</Q>
+		<A>...</A>
+		<B>...</B>
+		<A>Ca va ...</A>
+		<B>...</B>
+		<Q>Qui de vous deux est le plus mauvais en blagues?</Q>
+		<A>Moi ...</A>
+		
+		<B>D'accord.</B>
+		<Q>Qui de vous deux est le plus sportif?</Q>
+		<B>Ah bah elle.</B>
+		<A>Moi.</A>
+		<B>Bah oui ...</B>
+		
+		<A>Mais non.</A>
+		<Q>Qui de vous deux ... le plus timide?</Q>
+		<A>...</A>
+		
+		<Q>Qui de vous deux est le plus anxieux?</Q>
+		<A>...</A>
+		
+		<Q>Qui de vous deux est le plus fetard?</Q>
+		<B>Bah moi.</B>
+		<A>...</A>
+		
+		<Q>Qui de vous deux est le plus ... a son telephone?</Q>
+		
+		<Q>Qui de vous deux est le plus aventurier ...</Q>
+		
+		<Q>Qui de vous deux le plus gourmand?</Q>
+		
+		<Q>Qui de vous deux le plus raleur?</Q>
+		
+		<Q>Qui de vous deux ... plus?</Q>
+		
+		<Q>Qui de vous deux est le plus moqueur, le plus taquins?</Q>
+		<B>Je sais pas.</B>
+		<A>...</A>
+		
+		<Q>Qui de vous deux s'enerve le plus vite ...</Q>
+		
+		<Q>Avant dernier, qui de vous deux est le plus genereux?</Q>
+		
+		<Q>Et enfin, qui de vous deux est le plus maladroit?</Q>
+		
+		<Q>Et ... ecoutez merci beaucoup ...</Q>
+		<A>Bisous!</A>
+		<Q>...</Q>
+	</video>
+	<link>journaldemickey.com/actus/keenv-et-carla-chantent-larrivee-de-noel</link>
+</event>
+<event title="Radio Emotion - Le Grand Reveil" date="13-11-2020">
+	<video title="..." link="radioemotion.fr/wp-content/uploads/2020/11/Podcast-Carla.mp3" length="20:13"/>
+	<video title="" link="fb:692610328356817" length=""/>
+	<video title="" link="fb:376450993796967" length=""/>
+	<link>radioemotion.fr/carla-lazzari-dans-le-grand-reveil-de-la-cote-dazur</link>
+</event>
+<event title="TV Pitchoun - Le Club des Pitchouns - Carla" date="18-11-2020">
+	<video title="Extract" link="fb:697617421132966" length="0:35">
+		<Q></Q>
+	</video>
+</event>
+<event title="Canal+ Olympia TV - Les Plus Grands Magiciens du Monde - Les Mandrakes d'Or" date="19-10-2020">
+	<video title="Show" link="noodlemagazine.com/player/44466065_456239366?m=dc6ae0eebace03b921949a3f53b82a0c" length="1:32:46"/>
+	<video title="Show" link="noodlemagazine.com/player/44466065_456239367?m=c2d23bc3ad7f2efdf5b349a3317ff650" length="1:32:47"/>
+	<link>canalplus.com/h/15155333_50262</link>
+	<link>canalplus.com/h/15198931_50120</link>
+</event>
+<event title="BravoEurovision - Carla" date="21-11-2020">
+	<video title="Live" link="ig:CH3IIQSnkkL" length="31:12"/>
+</event>
+<event title="Junior Eurovision Song Contest" date="29-11-2020">
+	<video title="Final" link="yt:XVjDr88nnrQ" length="1:58:35">
+		<_ title="Viki Gabor - Superhero" time="2:19"/>
+		<_ title="Susan - Stronger with You" time="15:02"/>
+		<_ title="Karakat Bashanova - Forever" time="19:03"/>
+		<_ title="Unity - Best Friends" time="22:40"/>
+		<_ title="Petar Anicic - Heartbeat" time="29:04"/>
+		<_ title="Arina Pehtereva - Aliens" time="33:09"/>
+		<_ title="Ala Tracz - I'll Be Standing" time="37:13"/>
+		<_ title="Sandra Gadelia - You Are Not Alone" time="43:39"/>
+		<_ title="Chanel Monseigneur - Chasing Sunsets" time="47:39"/>
+		<_ title="Sofia Feskova - My New Day" time="51:44"/>
+		<_ title="Solea - Palante" time="58:07"/>
+		<_ title="Oleksandr Balabanov - Vidkryvai (Open Up)" time="1:02:00"/>
+		<_ title="Valentina - J'Imagine" time="1:05:44"/>
+		<_ title="Duncan, Roxie &amp; Viki - Arcade" time="1:15:25"/>
+		<_ title="Alicja Szemplinska - Empires" time="1:25:51"/>
+		<_ title="Everybody - Move the World" time="1:30:56"/>
+		<_ title="(Jury Vote)" time="1:36:46"/>
+		<_ title="Valentina - J'Imagine" time="1:55:16"/>
+		<_ title="(Carla enters the screen)" time="1:56:14"/>
+		<_ title="(Carla hugs Valentina)" time="1:56:35"/>
+	</video>
+	<video title="Winner Interview" link="dm:k7rwRoFImVfhsbwu8LR" length="4:14"/>
+	<video title="Winner Interview" link="yt:0oGo3J6bWyU" length="1:37"/>
+	<video title="Winner Press Conference" link="yt:it6jnk8qzbI" length="14:46"/>
+	<link type="francetv" id="2091623"/>
+</event>
+<event title="Course Anna - Carla" date="05-12-2020">
+	<video title="Live" link="ig:CIbMYGFq3oY" length="27:13">
+		<!--<Q>... alors, alors, alors ... quand meme. Oh la la la la. Qui nous ... dans quelques secondes, oh la. J'ai ... comment ca va bien? Salut Julia. J'espere ... Carla Music fan. Attendez, attendez ... alors, Carla, je vais accepter ... On attend de Carla, on attend de Carla.</Q>
+		<A>Hello!</A>
+		<Q>La, mais comment ca va?</Q>
+		<A>Oui, ca va super, et toi?</A>
+		<Q>Est-ce que tu ...</Q>
+		<A>Oui super, super.</A>
+		<Q>...</Q>
+		<A>Merci!</A>
+		<Q></Q>
+		<A>Oui.</A>
+		<Q>Voila ...</Q>
+		<A>Merci ...</A>-->
+	</video>
+</event>
+<event title="Carla - Coeur sur Toi" date="09-12-2020">
+	<video title="Music Video" link="yt:nyAX64Rl4Gk" length="3:12">
+		<link type="lyrics" id="27"/>
+	</video>
+	<video title="Seb Avec Ta Star - Behind the Scenes" link="yt:jW_X_YDgecU" length="6:32"/>
+	<video title="M6 Gulli - Wazup - Behind the Scenes" link="fb:2790840997910059" length=""/>
+	<video title="..." link="fb:739795500016711" length=""/>
+	<video title="..." link="ig:CI3WfJiKqzG" length="1:16"/>
+</event>
+<event title="Canal+ Teletoon+ - Dans Le Studio" date="13-12-2020">
+	<video title="Carla - Bim Bam Toi" link="yt:GwGVrB_xZfQ" length="3:09">
+		<link type="lyrics" id="16"/>
+	</video>
+	<video title="Carla - Coeur sur Toi" link="yt:Rv0DQ0C5InU" length="3:05">
+		<link type="lyrics" id="27"/>
+	</video>
+	<link>canalplus.com/h/15279444_50059</link>
+	<link>canalplus.com/h/15279548_50059</link>
+</event>
+<event title="TV Pitchoun - Pitchoun Party" date="16-12-2020">
+	<video title="Trailer" link="ig:CJbwT1fKpEn" length="1:08"/>
+	<video title="Loric - Carnavalera" link="yt:r7TY8KPUlQc" length="4:49"/>
+	<video title="Lina - Les Bavards" link="yt:svl0F-SeIE4" length="5:06"/>
+	<link>nicematin.com/a/619250</link>
+</event>
+<event title="Vallee de la Roya - ..." date="17-12-2020">
+	<video title="Azur TV - ..." link="yt:IXA14bRA0Jw" length="2:01">
+		<!--<A>Et ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum'.</A>
+		<Q>
+			Ce matin apres avoir rendu visite aux enfants de l'ecole primaire de ... sur Roya, la chanteuse Carla est allee a la rencontre de ces collegiens pour apporter son soutien, plus de deux mois apres le passage de la tempete Alex.
+			Avec la chanson 'Bim Bam toi' la Nicoise de quanze ans est devenu en tres peu de temps une idole pour les jeunes de son age, pour ces collegiennes la visite de Carla est un vrai moment plaisir.
+			Vu ce qu'on a vecu ca, ca ramene, uh, vachement bonheur devant ... quand meme, uh, a ce qui s'est passe et, uh, ... plaisir.
+			Repondre aux questions, chanter a ... dernier.
+		</Q>
+		<A>...</A>
+		<Q>Apres la venue du chanteur Julien Dore celle de Carla ...</Q>
+		<B>C'etait tres important, uh, pour nous de nous sentir soutenus, de voir des personnes qui ont, uh, une certaine audience, uh, dans les medias et sur les reseaux sociaux se preoccuper de la situation de notre vallee et pouvoir, uh, informer, uh, sensibiliser le public sur, uh, la situation dans laquelle on se trouve toujours.</B>
+		<Q>Aujourd'hui la chanteuse cumulent a elles seules plus de ... vallee de la vesubie.</Q>-->
+	</video>
+	<video title="Nice-Matin - ..." link="dm:x7y5aok" length="0:22"/>
+	<link>francebleu.fr/infos/societe/la-chanteuse-carla-en-visite-aupres-des-enfants-de-la-vallee-de-la-roya-1608217562</link>
+	<link>nicematin.com/a/619812</link>
+</event>
+<event title="TF1 - Les 12 Coups de Midi" date="18-12-2020">
+
+</event>
+<event title="France 2 - Tous Ensemble Pour Noel" date="18-12-2020">
+	<video title="Show" link="noodlemagazine.com/player/88444335_456239797?m=6aab23c37472145fbb4bf74b161066a8" length="2:02:42"/>
+	<link type="francetv" id="2148045"/>
+	<link>fanmusik.com/report-live/21222-tous-ensemble-pour-noel-le-24-decembre-a-15h45-sur-france-2</link>
+</event>
+<event title="TF1 LCI - LE 20H" date="21-12-2020">
+	<video title="..." link="tf1.fr/embedplayer/13757003" length="" thumb="static-player.tf1.fr/image/86uyz_.jpg"/>
+	<link>lci.fr/-2173542.html</link>
+</event>
+<event title="Departement des Alpes-Maritimes - Nos Vallees" date="21-12-2020">
+	<video title="Music Video" link="yt:4CEAC4HPq2c" length="3:30">
+		<_ title="(End of song)" time="3:17"/>
+		<A>Ensemble pour nos vallees.😘</A>
+	</video>
+	<video title="Music Video" link="yt:oIWeXWUvtbY" length="3:30"/>
+	<video title="Press Conference" link="yt:nea64QoQJvE" length="43:22"/>
+	<video title="Azur TV - ..." link="yt:ib1EncjisTw" length="3:26">
+		<!--<Q>
+			Un morceau de musique pour aider les vallees, c'est le pari du departement des Alpes-Maritimes avec l'aide de dizaines d'artistes et de personnalites Azureenne, comme les joueurs de l'OGC Nice ou de l'AS Monaco, Didier Deschamps ou encore Guillaume ...
+			Mais pour rendre hommage a ces vallees sinistrees il a fallu trouver le ton juste objectif numero un, ne pas oublier la catastrophe.
+		</Q>
+		<A>... au plan des sommets, on va chanter pour les villages de nos vallees.</A>
+		<B>... chanson sur une catastrophe, c'est tres difficile parce que si on fait une chanson lente et, uh, et sensible et trop, uh, on va dire trop ...</B>-->
+	</video>
+	<link>departement06.fr/tempete-alex-mesures-du-departement/chanson-solidaire-nos-vallees-38037.html</link>
+	<link>france3-regions.francetvinfo.fr/--1908328.html</link>
+	<link>francebleu.fr/infos/societe/nos-vallees-sortie-nationale-du-disque-solidaire-aux-sinistres-de-la-tempete-alex-1608556775</link>
+	<link>nicematin.com/a/621472</link>
+</event>
+<event title="Europe 1 - Ca Fait du Bien" date="25-12-2020">
+	<video title="..." link="europe1.fr/videos/embed/4014596" length=""/>
+	<link>europe1.fr/emissions/anne-roumanoff-ca-fait-du-bien/anne-roumanoff-avec-pierre-perret-carla-et-stephane-bern-4014596</link>
+</event>
+<event title="TF1 LCI - LE 13H" date="31-12-2020">
+	<video title="..." link="fb:157637992777088" length=""/>
+	<video title="..." link="tf1.fr/embedplayer/13758743" length="2:09"/>
+	<link>lci.fr/-2174343.html</link>
+</event>
+<event title="France 2 - Boyard Land - S02E05" date="02-01-2021">
+	<video title="Show" link="noodlemagazine.com/player/-78353_456239870?m=1ca4406c4114b3e4e6c669b29ec93f5b" length="2:08:00"/>
+	<link type="francetv" id="2170725"/>
+</event>
+<event title="France 2 - Basique, l'Essentiel de la Musique" date="19-01-2021">
+	<video title="Interview" link="yt:aC0wBEvfK4Y" length="1:27">
+		<A>Bonjour, c'est Carla dans Basique.</A>
+		<Q>Carla a represente la France a l'Eurovision Junior l'annee derniere avec ca, souvenez-vous.</Q>
+		<A>Et ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum'.</A>
+		<Q>Elle vient sortir son premier album, ca s'appelle 'L'Autre Moi', et Carla ... toujours pas.</Q>
+		<A>Pour moi c'etait des reves inaccessibles et, uh, ... vraiment ca, ca m'a permis d'avoir un peu plus confiance en moi.</A>
+		<Q></Q>
+	</video>
+	<video title="Interview" link="fb:1666195916875123" length="1:27"/>
+	<video title="Premieres Fois" link="yt:RZMuN5ttvIs" length="4:25">
+		<Q>Le premier concert auquel tu as assiste?</Q>
+		<A>Le premier concert auquel j'ai assiste, c'est Violetta!</A>
+		<A>C'etait mon idole quand j'etais jeune, vraiment j'adorais, je regardais la serie et cetera. Et c'est vrai que c'est, c'est un concert qui m'a marque parce que c'etait un concert, uh, absolument magnifique. C'etait, uh, au palais Nikaia, a Nice, dans ma ville. C'etait, c'etait vraiment ...</A>
+		<Q>La premiere fois qui tu es montee sur scene?</Q>
+		<A></A>
+		<Q>Le premier concert que tu as donne?</Q>
+		<A></A>
+		<Q>Est-ce que tu as eu peur?</Q>
+		<A></A>
+		<Q>Ta premiere fois en studio?</Q>
+		<A></A>
+		<Q>Ta premiere interview?</Q>
+		<A></A>
+		<Q>Quelle est la premiere reaction que tu aimerais declencher chez tes auditeurs?</Q>
+		<A></A>
+		<Q>La premiere chanson que tu as apprise par coeur?</Q>
+		<A></A>
+		<Q>La premiere fois que l'on t'a reconnue dans la rue?</Q>
+		<A></A>
+		<Q>La premiere fois ou on t'a demande un autographe?</Q>
+		<A></A>
+	</video>
+	<video title="Premieres Fois" link="fb:420612756035046" length="4:25"/>
+	<link type="francetv" id="2194177"/>
+</event>
+<event title="France Bleu Azur - Tapis Rouge" date="20-01-2021">
+	<video title="Interview" link="media.radiofrance-podcast.net/podcast09/15225-20.01.2021-ITEMA_22547730-2021B20244S0020.mp3" length="3:52">
+		<C>France Bleu, France Bleu Azur, France Bleu.</C>
+		<B>... Tapis Rouge ce matin ...</B>
+		<Q></Q>
+		<A>Etre jeune ...</A>
+		<B></B>
+		<Q></Q>
+		<A></A>
+	</video>
+</event>
+<event title="France 2 - Eurovision France, C'est Vous Qui Decidez!" date="30-01-2021">
+	<video title="Show" link="yt:te3M-LNBk9Y" length="2:52:18">
+		<_ title="Marie Myriam - L'Oiseau et L'Enfant" time="0:51"/>
+		<_ title="Natasha St-Pier - Je N'Ai Que Mon Ame" time="1:58"/>
+		<_ title="Duncan Laurence - Arcade" time="2:44"/>
+		<_ title="Amir - J'Ai Cherche" time="4:05"/>
+		<_ title="Andriamad - Alleluia" time="16:23"/>
+		<_ title="Juliette Moraine - Pourvu Qu'On M'Aime" time="24:38"/>
+		<_ title="Cephaz - On A Mange le Soleil" time="33:55"/>
+		<_ title="Amui - Maeva" time="41:02"/>
+		<_ title="Philippine - Bah Non" time="48:45"/>
+		<_ title="Terence James - Je T'Emmenerai Danser" time="56:51"/>
+		<_ title="Barbara Pravi - Voila" time="1:04:40"/>
+		<_ title="Pony X - Amour Fou" time="1:12:27"/>
+		<_ title="Casanova - Tutti" time="1:20:17"/>
+		<_ title="LMK - Magique" time="1:27:25"/>
+		<_ title="Ali - Paris Me Dit (Yalla)" time="1:35:29"/>
+		<_ title="21 Juin le Duo - Peux-Tu Me Dire?" time="1:44:25"/>
+		<_ title="Amir - Medley" time="1:56:20"/>
+		<_ title="Valentina - J'Imagine &amp; Ne Partez Pas Sans Moi" time="2:19:56"/>
+	</video>
+	<link type="francetv" id="2218919"/>
+</event>
+<event title="LEGO VIDIYO ..." date="24-02-2021">
+	<video title="Show" link="yt:eCLrS399-OY" length="">
+		<!--<_ title="Carla - Dans Ma Bulle" time="3:51"/>
+		<link type="lyrics" id="17"/>
+		<_ title="Carla - L'Autre Moi" time="7:05"/>
+		<link type="lyrics" id="15"/>
+		<A>Merci. Merci. Alors, uh, ce troisieme titre, ca va etre une balade qui ... et qui s'appelle Avant.</A>
+		<_ title="Carla - Avant" time="9:59"/>
+		<link type="lyrics" id="22"/>
+		<A>Merci.</A>
+		<_ title="Carla - Coeur Sur Toi" time="13:07"/>
+		<link type="lyrics" id="27"/>
+		<A>Merci. Et pour ... Bim Bam Toi.</A>
+		<_ title="Carla - Bim Bam Toi" time="16:13"/>
+		<link type="lyrics" id="16"/>
+		<A>Merci beaucoup!</A>
+		<Q>Bravo Carla ...</Q>
+		<A>Merci!</A>
+		<Q>...</Q>
+		<A>Merci.</A>
+		
+		<_ title="Valentina - J'Imagine" time="1:12:18"/>-->
+	</video>
+	<video title="Show" link="fb:261830228712108" length=""/>
+</event>
+<event title="M6 Gulli - ..." date="15-04-2021">
+
+</event>
+<event title="Carla - Alors chut" date="06-05-2021">
+	<video title="Music Video" link="yt:ii5SgzefjHo" length="2:30"/>
+	<video title="Behind the Scenes" link="yt:USezHB7-1No" length="2:33"/>
+	<video title="France Bleu Azur - On passe le week-end avec une star - Part 1" link="media.radiofrance-podcast.net/podcast09/16761-26.06.2021-ITEMA_22712307-2021B26732S0177.mp3" length=""/>
+	<video title="France Bleu Azur - On passe le week-end avec une star - Part 2" link="media.radiofrance-podcast.net/podcast09/16761-26.06.2021-ITEMA_22712307-2021B26733S0177.mp3" length=""/>
+	<video title="France Bleu Azur - On passe le week-end avec une star - Part 3" link="media.radiofrance-podcast.net/podcast09/16761-26.06.2021-ITEMA_22712307-2021B29876S0177.mp3" length=""/>
+	<link>journaldemickey.com/actus/carla-est-de-retour-avec-la-chanson-alors-chut</link>
+</event>
+<event title="Safir - ..." date="13-05-2021">
+	<video title="..." link="yt:5nnswNwkzbg" length="12:42"/>
+</event>
+<event title="Eurovision France - ..." date="">
+	<video title="" link="yt:6ib6372c0q8" length=""/>
+	<video title="" link="fb:956438461562915" length=""/>
+	<video title="" link="ig:CO-v1EuoF2o" length="4:39"/>
+	<link type="francetv" id="2498173"/>
+</event>
+<event title="Eurovision Song Contest - Grand Final (Jury)" date="21-05-2021">
+	<x link="noodlemagazine.com/player/-151014016_456240394?m=31d7547d1ee30db950afbb9c270bb2fb"/>
+</event>
+<event title="Eurovision Song Contest - Grand Final" date="22-05-2021">
+	<video title="Show" link="yt:msfdz_aksY8" length="3:56:45">
+		<_ time="3:25:20"/>
+	</video>
+	<video title="Points from France" link="fb:344086433804298" length=""/>
+	<link type="francetv" id="2460999"/>
+</event>
+<event title="France 2 - Fort Boyard S32E03" date="XX-XX-2021">
+	<video title="Show" link="noodlemagazine.com/player/-78353_456239904?m=4925b7834c1688d8cedcbca08a56b7bb" length="2:04:11"/>
+	<video title="..." link="yt:uAiV9X-2dnk" length=""/>
+	<video title="..." link="fb:873607299893533" length=""/>
+	<video title="..." link="yt:D8Yfcd-jofA" length=""/>
+	<video title="..." link="yt:QALsljkHeo4" length=""/>
+	<video title="..." link="yt:1yTKI2WklbU" length=""/>
+	<link type="francetv" id="2561877"/>
+	<link type="francetv" id="2598515"/>
+	<link>www.francetvpro.fr/contenu-de-presse/16291829</link>
+</event>
+<event title="France 2 - Fete de la Musique - Les 40 Ans des Annees 80" date="21-06-2021">
+	<video title="Show" link="noodlemagazine.com/player/-23729576_456242988?m=959f46f172ce947f5306684f583b97ef" length="3:32:38"/>
+	<video title="..." link="fb:196977508981566" length="2:22"/>
+	<video title="..." link="ig:CQbcCqRIDED" length="2:21"/>
+	<link type="francetv" id="2532745"/>
+	<link type="francetv" id="2572465"/>
+</event>
+<event title="Carla - Summer Summer" date="">
+	<video title="Lyric Video" link="yt:Ujm0YlG66QI" length=""/>
+</event>
+<event title="(Other)">
+	<video title="Les Petites Canailles - ..." link="yt:GMrtexlbOxo" length=""/>
+	<video title="..." link="yt:CouEUWRRF6o" length=""/>
+	<video title="Les Petites Canailles - ..." link="fb:2338495176193539" length=""/>
+	<video title="Les Petites Canailles - ..." link="fb:1573283316141415" length=""/>
+	<video title="" link="fb:948149772183605" length=""/>
+	<video title="" link="yt:-3TGPpdNw64" length="20:20"/>
+	<video title="" link="yt:ObwSCaBZrQI" length="1:52"/>
+</event>
+
+<xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:_="http://exslt.org/common" extension-element-prefixes="_">
+	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
+	<xsl:variable name="icon" select="'s2.googleusercontent.com/s2/favicons?domain='"/>
+	<xsl:variable name="icon64" select="'s2.googleusercontent.com/s2/favicons?sz=64&amp;domain='"/>
+	<xsl:key name="event-year" match="event" use="substring(@date, string-length(@date)-3)"/>
+	<xsl:variable name="years" select="//event[count(.|key('event-year', substring(@date, string-length(@date)-3))[1]) = 1]/@date"/>
+	<xsl:template match="xsl:stylesheet"/>
+	<xsl:template match="text()"/>
+	<xsl:template match="xml">
+		<html>
+			<head>
+				<meta name="robots" content="noindex, nofollow"/>
+				<meta name="referrer" content="no-referrer"/>
+				<meta name="color-scheme" content="light dark"/>
+				<meta name="theme-color" content="#{@colour}"/>
+				<title><xsl:value-of select="@title"/></title>
+				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20style=%27border:30vw%20solid%20%23FFF%3Bborder-radius:50%25%3Bbackground:%23{@colour}%3B%27/%3E"/>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
+				<script>window.history.scrollRestoration = 'auto';</script>
+				<script>console.log(String.raw`<xsl:value-of select="comment()[1]"/>`);</script>
+				<style><xsl:value-of select="style"/></style>
+				<style>
+					<xsl:for-each select="$years">
+						<xsl:variable name="year" select="substring(., string-length(.)-3)"/>
+						#yearall:checked~#bar label[for='yearall'], #year<xsl:value-of select="$year"/>:checked~#bar label[for='year<xsl:value-of select="$year"/>'] {color: #000; background-color: #FFF;}
+						input[name='year'], #year<xsl:value-of select="$year"/>:checked~#menu .m-event:not(.year<xsl:value-of select="$year"/>) {display: none;}
+					</xsl:for-each>
+				</style>
+			</head>
+			<body style="--colour: #{@colour};">
+				<xsl:call-template name="header"/>
+				<ul id="menu" class="m"><xsl:apply-templates/></ul>
+				<ul id="pages" class="p">
+					<xsl:apply-templates select="event/video" mode="page"/>
+					<xsl:call-template name="search"/>
+				</ul>
+				<footer id="footer" class="f"></footer>
+				<xsl:call-template name="templates"/>
+				<script type="module"><xsl:value-of select="script"/></script>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template name="header">
+		<div id="xtest"><a href="#"><h1><xsl:value-of select="@title"/></h1><svg display="none"><use href="#triangle"/></svg></a></div>
+		<header id="header" class="h">
+			<nav><iframe src="i.html#media"></iframe></nav>
+		</header>
+		<input id="yearall" name="year" type="radio" checked="checked"/>
+		<xsl:for-each select="$years">
+			<input id="year{substring(., string-length(.)-3)}" name="year" type="radio"/>
+		</xsl:for-each>
+		<div id="bar">
+			<label for="yearall">All (<xsl:value-of select="count(event)"/>)</label>
+			<xsl:for-each select="$years">
+				<xsl:variable name="year" select="substring(., string-length(.)-3)"/>
+				<label for="year{$year}"><xsl:value-of select="$year"/> (<xsl:value-of select="count(key('event-year', $year))"/>)</label>
+			</xsl:for-each>
+			<form id="_search_" action="#search">
+				<input name="q" type="search" placeholder="Search {count(event/video)} videos" list="_list_"/>
+				<datalist id="_list_">
+					<xsl:for-each select="//video">
+						<xsl:sort select="concat(../@title, @title)"/>
+						<option value="{position()}. {../@title} • {@title} ({@length})" data-href="#{@link}"/>
+					</xsl:for-each>
+				</datalist>
+				<button title="Search text">Search</button>
+			</form>
+			<div id="_theme_" class="h-theme">
+				Theme:
+				<label><input name="r" type="radio" value="" checked="checked"/>Auto</label>
+				<label><input name="r" type="radio" value="light"/>Light</label>
+				<label><input name="r" type="radio" value="dark"/>Dark</label>
+			</div>
+		</div>
+	</xsl:template>
+	<xsl:template match="event">
+		<li class="m-event year{substring(@date, string-length(@date)-3)}{substring(' missing', 1 div not(video))}" style="--date: '{@date}'; --seed: {string-length(substring-before(concat(@title, ' -'), ' -'))};">
+			<span class="m-event-title" title="{@title}"><h2><xsl:value-of select="@title"/></h2></span>
+			<ol>
+				<xsl:apply-templates/>
+			</ol>
+		</li>
+	</xsl:template>
+	<xsl:template match="video">
+		<xsl:variable name="video"><xsl:call-template name="video"/></xsl:variable>
+		<xsl:variable name="_" select="_:node-set($video)/_"/>
+		<li class="video">
+			<a href="#{@link}" title="{@title}">
+				<span class="video-image" data-length="{@length}" style=" --i: url(https://{$icon64}{substring-before(concat($_/@url, '/'), '/')});">
+					<xsl:if test="$_/@thumb">
+						<img class="{$_/@type}" src="https://{$_/@thumb}" width="120" height="68" alt="" loading="lazy"/>
+					</xsl:if>
+				</span>
+				<span class="video-title"><xsl:value-of select="@title"/><xsl:if test="Q|A"> 📄</xsl:if><xsl:if test="_"></xsl:if><xsl:if test="link[@type='lyrics']"> 🎵</xsl:if></span>
+			</a>
+		</li>
+	</xsl:template>
+	<xsl:template match="video" mode="page">
+		<xsl:variable name="video"><xsl:call-template name="video"/></xsl:variable>
+		<xsl:variable name="_" select="_:node-set($video)/_"/>
+		<li id="{@link}" class="p-page">
+			<a class="p-page-close" href="#-" title="Close"><svg class="close" display="none"><use href="#cross"/></svg></a>
+			<xsl:for-each select="preceding-sibling::video[1]">
+				<a class="p-page-previous" href="#{@link}" title="{@title}"><svg class="close" display="none"><use href="#triangle"/></svg></a>
+			</xsl:for-each>
+			<xsl:for-each select="following-sibling::video[1]">
+				<a class="p-page-next" href="#{@link}" title="{@title}"><svg class="close" display="none"><use href="#triangle"/></svg></a>
+			</xsl:for-each>
+			<div class="p-page-content">
+				<div class="p-page-content-top" style="--i: url(https://{$_/@thumb});{substring(concat(' --i2: url(https://', $_/@thumb2, ');'), 1 div boolean($_/@thumb2))}">
+					<a href="http://{$_/@url}" data-embed="https://{$_/@embed}">
+						<h2><xsl:value-of select="../@title"/><br/><xsl:value-of select="@title"/></h2>
+						<span class="info" data-title="{$_/@title}" style=" --i: url(https://{$icon64}{substring-before(concat($_/@url, '/'), '/')});"></span>
+						<span class="length" data-length="{@length}"></span>
+						<svg class="play" display="none"><use href="#triangle"/></svg>
+					</a>
+					<xsl:if test="_">
+						<div class="seek{substring(' hidden', 1 div not(string(@length)))}">
+							<xsl:attribute name="style">--y: <xsl:call-template name="test"/>;</xsl:attribute>
+							<xsl:apply-templates select="_" mode="test"/>
+						</div>
+					</xsl:if>
+				</div>
+				<div class="p-page-content-bottom">
+					<ol class="dialog"><xsl:apply-templates/></ol>
+				</div>
+			</div>
+		</li>
+	</xsl:template>
+	<xsl:template name="video">
+		<xsl:variable name="id" select="substring-after(@link, ':')"/>
+		<xsl:choose>
+			<xsl:when test="starts-with(@link, 'yt:')">
+				<_ type="youtube" title="YouTube" url="youtu.be/{$id}" embed="youtube.com/embed/{$id}?autoplay=1&amp;enablejsapi=1&amp;modestbranding=1&amp;rel=0&amp;widget_referrer=youtu.be" thumb="i.ytimg.com/vi/{$id}/default.jpg" thumb2="images.weserv.nl/?url=i.ytimg.com/vi/{$id}/maxresdefault.jpg&amp;default=images.weserv.nl/?url%3Di.ytimg.com/vi/{$id}/hqdefault.jpg"/>
+			</xsl:when>
+			<xsl:when test="starts-with(@link, 'fb:')">
+				<!--<xsl:variable name="url" select="concat('api.microlink.io/?embed%3Dimage.url%26url%3Dhttps://d.facebook.com/video/video.php?v%253D', $id)"/>-->
+				<!--<xsl:variable name="url" select="concat('api.microlink.io/?data.x.selector%3D[name%253D', &quot;'twitter:image'&quot;, ']%26data.x.attr%3Dcontent%26embed%3Dx%26url%3Dhttps://d.facebook.com/video/video.php?v%253D', $id)"/>-->
+				<!--<xsl:variable name="url" select="concat('cdn.jaitexart.org/unsafe/120x68/filters:format(webp)/http://ddg.gg/iu%3Fu=http://api.microlink.io%3Fdata.i.selector=[name=%27twitter:image%27]%2526data.i.attr=content%2526embed=i%2526url=http://d.facebook.com/video/video.php%3Fv=', $id)"/>-->
+				<xsl:variable name="url" select="concat('res.cloudinary.com/abc/image/fetch/f_auto,q_auto,c_fill,w_120,h_68/http://api.microlink.io%3Fdata.i.selector=[name=%27twitter:image%27]%26data.i.attr=content%26embed=i%26url=http://d.facebook.com/video/video.php%3Fv=', $id)"/>
+				<_ type="facebook" title="Facebook" url="fb.com/video?v={$id}" embed="fb.com/plugins/video?autoplay=1&amp;width=1280&amp;height=720&amp;sdk=joey&amp;channel=http://x&amp;href=x.x/-/videos/{$id}" thumb="{$url}"/>
+			</xsl:when>
+			<xsl:when test="starts-with(@link, 'dm:')">
+				<_ type="dailymotion" title="Dailymotion" url="dai.ly/{$id}" embed="dailymotion.com/embed/video/{$id}?autoplay=1&amp;ui-logo=0&amp;ui-start-screen-info=0&amp;queue-enable=0&amp;sharing-enable=0&amp;api=postMessage" thumb="dailymotion.com/thumbnail/video/{$id}"/>
+			</xsl:when>
+			<xsl:when test="starts-with(@link, 'ig:')">
+				<_ type="instagram" title="IGTV" url="instagr.am/tv/{$id}" embed="instagr.am/tv/{$id}/embed" thumb="thum.io/get/noanimate/width/170/http://instagr.am/tv/{$id}/embed"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<_ title="{substring-before(concat(@link, '/'), '/')}" url="{@link}" embed="{@link}">
+					<xsl:if test="@thumb"><xsl:attribute name="thumb"><xsl:value-of select="@thumb"/></xsl:attribute></xsl:if>
+				</_>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	<xsl:template match="Q">
+		<li class="text" tabindex="0"><i><xsl:value-of select="."/></i></li>
+	</xsl:template>
+	<xsl:template match="A">
+		<li class="text" tabindex="0"><b><xsl:value-of select="."/></b></li>
+	</xsl:template>
+	<xsl:template match="B|C|D|E|F|G|H">
+		<li class="text" tabindex="0"><b style="background-color: orange;"><xsl:value-of select="."/></b></li>
+	</xsl:template>
+	<xsl:template match="_">
+		<li class="time"><label for="{generate-id()}" data-time="{@time}"><span><xsl:value-of select="@time"/></span><xsl:value-of select="concat(@title, substring('CARLA🦋', 1 div not(@title)))"/></label></li>
+	</xsl:template>
+	<xsl:template name="test">
+		<xsl:variable name="t" select="@length|@time"/>
+		<xsl:variable name="l" select="string-length($t)"/>
+		<xsl:value-of select="concat(0, substring($t, ($l)-7, 2))*3600 + substring($t, ($l)-4, 2)*60 + substring($t, ($l)-1)"/>
+	</xsl:template>
+	<xsl:template match="_" mode="test">
+		<output class="seek-time" id="{generate-id()}" title="{@title}" data-time="{@time}">
+			<xsl:attribute name="style">--x: <xsl:call-template name="test"/>;</xsl:attribute>
+		</output>
+	</xsl:template>
+	<xsl:template match="link">
+		<xsl:variable name="link">
+			<xsl:choose>
+				<xsl:when test="@type='francetv'">
+					<_ title="france.tv • {@id}" url="france.tv/{@id}--.html"/>
+				</xsl:when>
+				<xsl:when test="@type">
+					<_ title="{@type}.com • {@id}" url="{@type}.com/{@id}"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<_ title="{.}" url="{.}"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<xsl:variable name="_" select="_:node-set($link)/_"/>
+		<li class="link">
+			<a href="http://{$_/@url}" title="{$_/@title}">
+				<span><img src="https://{$icon64}{substring-before(concat($_/@url, '/'), '/')}" alt="" loading="lazy"/></span>
+				<span><xsl:value-of select="$_/@title"/></span>
+			</a>
+		</li>
+	</xsl:template>
+	<xsl:template match="link[@type='lyrics']">
+		<li class="link lyrics">
+			<input id="{generate-id()}" type="checkbox"/>
+			<label for="{generate-id()}">🎵 Lyrics / Paroles"</label>
+			<div><a href="lyrics.html#{@id}" data-embed="lyrics.html#{@id}+">Show lyrics</a></div>
+		</li>
+	</xsl:template>
+	<xsl:template name="search">
+		<li id="search" class="p-page">
+			<a class="p-page-close" href="#-" title="Close"><svg display="none"><use href="#cross"/></svg></a>
+			<div class="p-page-content">
+				<form>
+					<input name="q" type="search" placeholder="Search" required="required" minlength="2"/>
+					<input type="submit" value="Search"/>
+					<label><input name="accents" type="checkbox"/>Ignore accents</label>
+				</form>
+				<span>Results:</span>
+				<ol>
+				
+				</ol>
+			</div>
+		</li>
+	</xsl:template>
+	<xsl:template name="templates">
+		<svg display="none">
+			<symbol id="triangle" viewBox="0 0 14 14" fill="currentcolor">
+				<polygon points="2,0 14,7 2,14"/>
+			</symbol>
+			<symbol id="cross" viewBox="0 0 1 1" stroke="currentcolor" stroke-width="0.1">
+				<line x1="0" y1="1" x2="1" y2="0"/>
+				<line x1="0" y1="0" x2="1" y2="1"/>
+			</symbol>
+			<symbol id="arrow" viewBox="0 0 1 2" stroke="currentcolor" fill="none" stroke-width="0.2">
+				<polyline points="0,0 1,1 0,2"/>
+			</symbol>
+		</svg>
+		<template id="_iframe_">
+			<iframe src="about:blank" sandbox="allow-presentation allow-same-origin allow-scripts" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
+		</template>
+		<template id="_iframe2_">
+			<iframe src="about:blank" referrerpolicy="origin" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
+		</template>
+		<template id="_fbcontainer_">
+			<title>FB Container</title>
+			<style>
+				body {margin: 0px; background-color: #0008;}
+				iframe {display: block; width: 178vh; height: 100vh; max-width: 100%; margin: 0px auto; border-style: none; background-color: #000;}
+			</style>
+			<iframe id="$fb" src="about:blank" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
+			<script>
+				window.onmessage =e=> (e.source == window.top)&amp;&amp;$fb.contentWindow.postMessage(e.data, '*');
+				$fb.onload =e=> $fb.contentWindow.postMessage({'xdArbiterHandleMessage': true, 'message': {'method': 'unmute', 'params': '{}'}}, '*');
+			</script>
+		</template>
+		<template id="_igcontainer_">
+			<title>IG Container</title>
+			<style>
+				body {margin: 0px; background-image: linear-gradient(90deg, transparent, #FFF, #FFF, transparent);}
+				iframe {display: block; width: 81vh; height: calc(100vh + 54px); margin: -54px auto; border-style: none; background-color: #000;}
+			</style>
+			<iframe src="about:blank" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
+		</template>
+		<template id="_tfcontainer_">
+			<title>TF Container</title>
+			<style>
+				body {margin: 0px; background-color: rgba(39, 39, 39, 0.95);}
+				iframe {display: block; width: 178vh; height: 100vh; max-width: 100%; margin: 0px auto; border-style: none; background-color: #000;}
+			</style>
+			<iframe src="about:blank" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
+		</template>
+		<template id="_nmcontainer_">
+			<title>NM Container</title>
+			<style>
+				body {margin: 0px; font-family: 'Verdana', sans-serif; font-size: 15px; text-align: center;}
+				iframe, div {display: block; width: 100vw; height: 100vh; border-style: none;}
+				div {position: fixed; top: 0px; pointer-events: none;}
+				div:not(:focus) {background-color: #0009; backdrop-filter: blur(40px); clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 90px), calc(100% - 155px) calc(100% - 90px), calc(100% - 155px) calc(100% - 55px), 100% calc(100% - 55px), 100% 100%, 230px 100%, 230px calc(100% - 45px), 0% calc(100% - 45px));}
+				h1 {display: inline-block; margin: 10px; padding: 10px; background-color: #FFF9;}
+				[onclick] {position: absolute; bottom: 2px; right: 2px; width: 155px; padding: 5px; border: 1px solid #FFF; color: #FFF; background-color: #0009; pointer-events: initial; cursor: pointer;}
+				[onclick]:hover {background-color: wheat;}
+			</style>
+			<iframe id="$nm" src="about:blank" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
+			<div tabindex="-1">
+				<h1>Warning. This domain may contain explicit ads.</h1>
+				<i onclick="this.parentElement.remove();">End blur</i>
+			</div>
+			<script>
+				$nm.onload =e=> this.nextElementSibling.focus();
+			</script>
+		</template>
+		<template id="_player_">
+			<title>Player</title>
+			<style>
+				body {margin: 0px;}
+				video {display: block; width: 100vw; height: 100vh; outline-style: none;}
+			</style>
+			<video src="about:blank" poster="data:," autoplay="autoplay" controls="controls"></video>
+		</template>
+	</xsl:template>
+</xsl:stylesheet>
+<style><![CDATA[
+	@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
+	:root {color-scheme: light dark;}
+	:root, .light {--text: #FFF; --back: #EEE; --head: #FFFD; --high: #FFF; --low: #000;}
+	.dark {--text: #EEE; --back: #222; --head: #333D; --high: #000; --low: #FFF;}
+	@media (prefers-color-scheme: dark) {:root {--text: #EEE; --back: #222; --head: #333D; --foot: #000;}}
+	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: var(--text); background: var(--back);}
+	h1, h2 {display: inline; margin: 0px; font-size: 100%;}
+	a {color: inherit; text-decoration: none;}
+	a:hover {text-decoration: underline;}
+	img {display: block; position: relative; max-width: 100%; max-height: 100%;}
+	img::before {display: block; position: absolute; width: 100%; height: 100%; background-color: #E00;}
+	input, button, select {font: inherit; border: 1px solid #0005; background-color: transparent;}
+	::placeholder {text-align: center;}
+	ul, ol {margin: 0px; padding: 0px; list-style: none;}
+	iframe {display: block; width: 100%; height: 100%; border-style: none;}
+	.hidden {display: none !important;}
+	#xtest {position: sticky; top: 0px; z-index: 1;}
+	#xtest::before {content: ''; display: block; position: absolute; width: 100%; height: 30px; background-color: var(--colour);}
+	#xtest>a {position: absolute; left: 0px;}
+	#xtest svg {display: block; height: 25px; transform: rotate(-90deg);}
+	#header.h {position: relative; color: var(--low); background-color: var(--colour); z-index: 1; backdrop-filter: blur(10px);}
+	.h nav {height: 100px;}
+	.h h1 {display: none;}
+	.h-search input, .h-search button {line-height: 20px; padding: 5px;}
+	#bar {position: sticky; top: 0px; height: 30px; z-index: 1;}
+	#bar>* {display: inline-block;}
+	#menu.m {}
+	.m-event {display: inline-block; position: relative; width: 300px; margin: 10px; vertical-align: top;}
+	.m-event.missing:not(:hover) {opacity: 0.5;}
+	.m-event-title {display: block; font-weight: bold; padding: 10px 5px; border-radius: 15px 15px 0px 0px; background-color: hsl(calc(var(--seed) * 50), 40%, 60%); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+	.m-event>ol {height: 220px; padding: 0px; text-align: initial; background-color: hsla(calc(var(--seed) * 50), 25%, 25%, 50%); overflow-y: auto;}
+	.m-event::before {content: var(--date); position: absolute; top: -20px; left: 0px; padding: 5px 10px; border-radius: 5px; font-size: 90%; color: #000;}
+	.m-event a {display: table; width: 100%; height: 68px; background-color: #0003;}
+	.m-event a:hover {background-color: #FFF9;}
+	.m-event a:hover>span:first-child {filter: brightness(1.25);}
+	.m-event a:hover>.video-title {color: #000;}
+	.m-event a>span {display: table-cell; vertical-align: middle;}
+	.m-event .video {}
+	.m-event .video-image {position: relative; width: 120px; height: 68px; text-align: center; background: #000 var(--i) center no-repeat;}
+	.m-event .video-image img {width: 100%; height: 100%; object-fit: cover;}
+	.m-event .video-image img::before {content: 'Image not found. File may be deleted.'; color: #FFF;}
+	.m-event .video-image img.instagram {object-fit: none; object-position: 50% 78%;}
+	.m-event .video-image::after {content: attr(data-length); display: block; position: absolute; bottom: 0px; right: 0px; margin: 2px; padding: 1px 5px; font-size: 12px; font-weight: bold; background-color: #0009;}
+	.m-event .video-title {padding: 0px 5px;}
+	.m-event .link {margin: 10px; font-style: italic;}
+	.m-event .link span:first-child {width: 68px;}
+	.m-event .link img {width: 64px; height: 64px; padding: 2px;}
+	#pages.p {}
+	.p-page {display: block; position: fixed; top: 0px; width: 100vw; height: 100vh; z-index: 1;}
+	.p-page:not(:target) {display: none;}
+	:target .p-page-content-top {background: var(--i2, none) center/cover, #000 var(--i, none) center/cover;}
+	:target .p-page-content-top::after {background: linear-gradient(#FFFC, transparent), var(--i2, none) center/cover, var(--i, none) center/cover;}
+	.p-page-content-top::after {content: ''; display: block; position: absolute; width: 100%; height: 100%; opacity: 0.5; transform: scaleY(-1);}
+	.p-page-close {display: block; position: absolute; width: 100%; height: 100%; background-color: #0009; z-index: -1; backdrop-filter: blur(5px);}
+	.p-page-close>.close {display: block; position: absolute; top: 0px; left: 0px; width: 40px; height: 40px; margin: 20px; padding: 10px; border-radius: 50%; background-color: #FFF5;}
+	.p-page-close:hover>.close {color: #000; background-color: #FFF;}
+	.p-page-previous>svg, .p-page-next>svg {display: block; position: absolute; top: 50%; width: 40px; height: 40px; padding: 5px 20px; border-radius: 5px; background-color: #FFFA;}
+	.p-page-previous>svg {left: 30px; transform: rotate(180deg);}
+	.p-page-next>svg {right: 30px;}
+	.p-page-content {width: 75%; height: 100%; margin: 0px auto; background-color: var(--back); box-shadow: 0px 0px 10px var(--low);}
+	.p-page-content>div {height: 50%;}
+	.p-page-content-top {position: relative; background-color: #000;}
+	.p-page-content-top a {display: block; position: relative; height: 100%; font-size: 25px; text-shadow: 0px 0px 5px #000;}
+	.p-page-content-top a .play {display: block; position: absolute; top: 50%; left: 50%; width: 100px; height: 100px; transform: translate(-50%, -50%);}
+	.p-page-content-top a:hover {filter: brightness(1.25);}
+	.p-page-content-top a span {display: block; padding: 10px;}
+	.p-page-content-top iframe+a {display: none;}
+	.p-page-content-top .info {position: absolute; bottom: 0px; left: 0px;}
+	:target .p-page-content-top .info::before {content: var(--i); display: inline-block; width: 64px; height: 64px; vertical-align: middle;}
+	.p-page-content-top .info::after {content: attr(data-title);}
+	.p-page-content-top .length {position: absolute; bottom: 0px; right: 0px;}
+	.p-page-content-top .length::before {content: attr(data-length);}
+	.p-page-content-top .seek {position: absolute; width: 100%; height: 20px; font-size: 12px; text-align: initial; background-color: #333; overflow-x: hidden; z-index: 1;}
+	.p-page-content-top .seek:hover {top: -60px; height: 60px;}
+	.p-page-content-top .seek-time {display: inline-block; position: absolute; top: 0px; left: calc((var(--x) / var(--y)) * 100%); width: 100%; height: 100%; border-left: 1px solid #FFF; background-color: inherit;}
+	.p-page-content-top .seek-time::after {content: attr(title);}
+	.p-page-content-top .seek-time:hover {background-color: wheat;}
+	.p-page-content-top button:hover {background-color: yellow;}
+	.p-page-content-bottom {position: relative; overflow-y: auto; overscroll-behavior: contain;}
+	.p-page-content-bottom .dialog {position: relative; padding: 0px; font-size: 16px; background-color: #FFFA;}
+	.p-page-content-bottom .dialog::before {content: ''; display: block; height: 25px; background-image: linear-gradient(#0007, transparent);}
+	.p-page-content-bottom .dialog::after {content: ''; display: block; height: 200px;}
+	.p-page-content-bottom .dialog>li::before {content: counter(list-item); margin: 5px; padding: 0px 10px; color: #000; background-color: #FFFA; float: left; opacity: 0.2;}
+	.p-page-content-bottom .dialog>li:hover::before {opacity: 1;}
+	.p-page-content-bottom .lyrics>a {display: block; padding: 30px; border-radius: 20px; font-size: 30px; background-color: #0007;}
+	.p-page-content-bottom ol>li:hover {background-color: #0005;}
+	.p-page-content-bottom i:not([data-text]):hover, .page b:not([data-text]):hover {position: relative; cursor: pointer;}
+	.p-page-content-bottom i:not([data-text]):hover::after, .page b:not([data-text]):hover::after {content: 'Click to translate'; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border-radius: inherit; color: white; background-color: #0009;}
+	.p-page-content-bottom i, b {display: inline-block; max-width: 90%; padding: 5px 30px; border-radius: 20px; font-weight: normal; border: 1px solid #0005; color: #000; background-color: #FFF; box-shadow: inset 0px 0px 5px #0003;}
+	.p-page-content-bottom b {background-color: #FCF;}
+	.p-page-content-bottom .dialog:empty {display: none;}
+	.p-page-content-bottom .dialog .time label {display: block; padding: 5px; font-weight: bold; text-decoration: none; cursor: pointer;}
+	.p-page-content-bottom :hover>[data-text] {font-size: 0em;}
+	.p-page-content-bottom :hover>[data-text]::after {content: attr(data-text); font-size: 1rem;}
+	.p-page-content-bottom .time {background-color: #555;}
+	.p-page-content-bottom .links>li {height: 100%;}
+	.p-page-content-bottom .links>li>a {display: block; margin: 10px; padding: 30px; border-radius: 20px; background-color: #0005;}
+	.p-page-content-bottom .lyrics input {display: none;}
+	.p-page-content-bottom .lyrics label {display: block; padding: 10px;}
+	.p-page-content-bottom .lyrics label::after {content: ' V';}
+	.p-page-content-bottom .lyrics :checked+label::after {content: ' ^';}
+	.p-page-content-bottom .lyrics div {height: 300px; background-color: #333;}
+	.p-page-content-bottom .lyrics :not(:checked)+label+div {display: none;}
+	#footer.f {}
+	.f::after {content: '🐍'; display: block; height: 100px; margin-top: 200px; font-size: 50px; background-image: linear-gradient(transparent, var(--high));}
+	#search {color: #000;}
+	#search form {display: inline-block; width: 50%; margin: 10px; padding: 20px; border-radius: 20px; background-color: #0006;}
+	#search ol {height: 80%; background-color: #FFF;}
+]]></style>
+<script><![CDATA[
+	'use strict';
+	$(($, w = window, d = document, c = console, _ = {'title': d.title})=>{
+		$(w).on('hashchange', function(e){
+			d.title = $(':target').find('h2')[0]?.textContent || _.title;
+			w.requestAnimationFrame(_=>w.setTimeout(_=>$('#pages').find('iframe').remove()));
+		}).trigger('hashchange');
+		$('#_search_').on('submit', function(e){
+			e.preventDefault();
+			w.location.assign(this.action);
+			$(this.getAttribute('action')).find('input')[0].value = this.q.value;
+			this.q.value = '';
+		}).find('input').on('keyup', function(e){
+			if(typeof(e.code) != 'undefined') return;
+			w.location.assign($(this.list).find('option')[this.value.split('.')[0]-1].dataset.href);
+			this.value = '';
+		});
+		$('#_theme_').find('input').on('click', function(e){
+			d.body.classList = this.value;
+		});
+		if('setResourceTimingBufferSize' in w.performance){
+			w.performance.setResourceTimingBufferSize(500);
+			$('img.youtube').one('load', function(e){
+				if(w.performance.getEntriesByName(this.src)[0]?.decodedBodySize == 1097) this.src = 'data:,';
+			}).each(function(){
+				if(this.complete) $(this).trigger('load');
+			});
+		}
+		$('[data-embed]').on('click', function(e){
+			switch(true) {
+				case this.hostname == 'fb.com':
+					$('#_iframe_').contents().clone().attr('srcdoc', '<!DOCTYPE html>' + $('#_fbcontainer_')[0].innerHTML.replace('about:blank', this.dataset.embed)).insertBefore(this);
+					break;
+				case this.hostname == 'instagr.am':
+					$('#_iframe_').contents().clone().attr('srcdoc', '<!DOCTYPE html>' + $('#_igcontainer_')[0].innerHTML.replace('about:blank', this.dataset.embed)).insertBefore(this);
+					break;
+				case this.hostname == 'tf1.fr':
+					$('#_iframe_').contents().clone().attr('srcdoc', '<!DOCTYPE html>' + $('#_tfcontainer_')[0].innerHTML.replace('about:blank', this.dataset.embed)).insertBefore(this);
+					break;
+				case this.hostname == 'noodlemagazine.com':
+					$('#_iframe_').contents().clone().attr('srcdoc', '<!DOCTYPE html>' + $('#_nmcontainer_')[0].innerHTML.replace('about:blank', this.dataset.embed)).insertBefore(this);
+					break;
+				case this.pathname.endsWith('.mp3') || this.pathname.endsWith('.mp4'):
+					$('#_iframe_').contents().clone().attr('srcdoc', '<!DOCTYPE html>' + $('#_player_')[0].innerHTML.replace('about:blank', this.dataset.embed)).insertBefore(this);
+					break;
+				default:
+					$('#_iframe_').contents().clone().attr('src', this.dataset.embed).insertBefore(this);
+			}
+			return false;
+		});
+		$('#pages').find('b, i').on('click', function(e){
+			if(this.hasAttribute('data-text')) return;
+			this.dataset.text = '⌛';
+			w.fetch('https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&ie=utf-8&oe=utf-8&sl=fr&tl=en&q=' + encodeURIComponent(this.textContent)).then((response)=>{
+				return response.json();
+			}).then((json)=>{
+				this.dataset.text = json[0].map(_=>_[0]).join('');
+			}).catch((error)=>{
+				this.dataset.text = error;
+			});
+		});
+		$('[data-time]').on('click', function(e){
+			let i = $(this).parent().parent().find('iframe')[0];
+			if(!i) return;
+			let x = this.dataset.time.split(':').reduce((x,y)=>60*x+1*y);
+			switch(i.nextElementSibling.hostname) {
+				case 'youtu.be':
+					i.contentWindow.postMessage('{"event":"command","func":"seekTo","args":["' + x + '"]}', '*');
+					break;
+				case 'fb.com':
+					i.contentWindow.postMessage({'xdArbiterHandleMessage': true, 'message': {'method': 'seek', 'params': '{"target":' + x + '}'}}, '*');
+					break;
+				case 'dai.ly':
+					i.contentWindow.postMessage('{"command":"seek","parameters":[' + x + ']}', '*');
+					break;
+			}
+		});
+		$('#search').find('form').on('submit', function(e){
+			e.preventDefault();
+			if(this.q.value.length < this.q.minLength) return;
+			this.q.value = this.q.value.toLowerCase();
+			$(this).parent().find('ol').empty();
+			let xpath = '';
+			if(this.accents.checked){
+				let accents = 'çéëïàèùâêîôû';
+				let normal = accents.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+				this.q.value = this.q.value.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+				xpath = `//*[@lang="fr"][contains(translate(translate(., "${accents.toUpperCase() + accents}", "${normal + normal}"), "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
+			} else {
+				xpath = `//*[@lang="fr"][contains(translate(., "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
+			}
+			try {
+				let node = null;
+				let nodes = [];
+				let result = d.evaluate(xpath, d.body, null, XPathResult.ANY_TYPE, null);
+				while(node = result.iterateNext()){
+					nodes.push(node);
+				}
+				$(this).parent().find('span')[0].textContent = nodes.length + ' results:';
+				nodes.forEach(node=>{
+					$(this).parent().find('ol').append('<li>' + node.textContent + '</li>');
+				});
+			} catch(error) {
+				$(this).parent().find('ol').append('<li>' + error + '</li>');
+			}
+		});
+	});
+]]></script>
+</xml>
