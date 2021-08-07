@@ -1,0 +1,2123 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet"?>
+<!DOCTYPE xml [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+<xml title="CARLA Music" colour="E8E">
+<!--
+  ___        ____  _          _____
+ / __|  /\  |  _ \| |   /\   |     |_ _ ___ _ ___
+/ /    /  \ | |/ /| |  /  \  | | | | | | __|_|  _|
+\ \___/ /\ \| |\ \| |_/ /\ \ | | | | | |__ | | |_
+ \_____/  \___| \______/  \_\|_|_|_|___|___|_|___|
+==================================================
+- replace quotes with "
+- now playing bar
+- fix search shortcuts
+-->
+<album id="slc" artist="Les Petites Canailles" title="Chantent Salut les Copains" year="2019" cover="i.scdn.co/image/ab67616d00001e02ab9ff477291bd36b93fb0de1" colour="D75">
+	<song title="Fais pas ci, fais pas ça" title2="Don't do this, don't do that" link="yt:d3PaKd9kazo" time="[6, 11.5, 17, 21, 26.5, 32, 36, 41.5, 47, 51, 56.5, 62, 66, 71.5, 77, 81, 88, 95]">
+		<F>Fais pas ci, fais pas ça, viens ici, mets-toi là, attention prends pas froid, ou sinon gare à toi.</F>
+		<E>Don't do this, don't do that, come here, go there, watch out don't get cold, or else you're in trouble.</E>
+		<F>Mange ta soupe, allez, brosse toi les dents, touche pas ça, fais dodo, dis papa, dis maman.</F>
+		<E>Eat your soup, come on, brush your teeth, don't touch that, go to sleep, say dad, say mom.</E>
+		<F>Fais pas ci, fais pas ça, à dada prout prout cadet, à cheval sur mon bidet.</F>
+		<E>Don't do this, don't do that, piggyback toot toot cadet, horseback on my bidet.</E>
+		<F>Mets pas tes doigts dans le nez, tu suces encore ton pouce, qu'est-ce que t'as renverse, ferme les yeux ouvre la bouche.</F>
+		<E>Don't put your fingers in your nose, you're sucking your thumb again, what have you spilled, close your eyes open your mouth.</E>
+		<F>Mange pas tes ongles vilain, va te laver les mains, ne traverse pas la rue, sinon panpan tutu.</F>
+		<E>Don't eat your nails naughty, go wash your hands, don't cross the street, or else spank spank.</E>
+		<F>Fais pas ci, fais pas ça, à dada prout prout cadet, à cheval sur mon bidet.</F>
+		<E>Don't do this, don't do that, piggyback toot toot cadet, horseback on my bidet.</E>
+		<F>Laisse ton père travailler, viens donc faire la vaisselle, arrête de t'chamailler, réponds quand on t'appelle.</F>
+		<E>Let your father work, come and do the dishes, stop bickering, answer when we call you.</E>
+		<F>Sois poli dis merci, à la dame laisse ta place, c'est l'heure d'aller au lit, faut pas rater la classe.</F>
+		<E>Be polite say thank you, to the lady leave your place, it's time to go to bed, you mustn't miss class.</E>
+		<F>Fais pas ci, fais pas ça, à dada prout prout cadet, à cheval sur mon bidet.</F>
+		<E>Don't do this, don't do that, piggyback toot toot cadet, horseback on my bidet.</E>
+		<F>Tu me fatigues je n'en peux plus, dis bonjour dis bonsoir, ne cours pas dans le couloir, sinon panpan tutu.</F>
+		<E>You tire me I can't take it anymore, say good day say good night, don't run in the hallway, or else spank spank.</E>
+		<F>Fais pas ci, fais pas ça, viens ici, ôte-toi de là, prends la porte, sors d'ici, écoute ce qu'on te dis.</F>
+		<E>Don't do this, don't do that, come here, move aside, use the door, get out of here, listen to what you are told.</E>
+		<F>Fais pas ci, fais pas ça, à dada prout prout cadet, à cheval sur mon bidet.</F>
+		<E>Don't do this, don't do that, piggyback toot toot cadet, horseback on my bidet.</E>
+		<F>Tête de mule, tête de bois, tu vas recevoir une beigne, qu'est-ce que t'as fait de mon peigne, je ne le dirai pas deux fois.</F>
+		<E>Head of a mule, head of wood, you're going to get a donut, what have you done with my comb, I won't say it twice.</E>
+		<F>Tu n'es qu'un bon à rien, je le dis pour ton bien, si tu ne fais rien de meilleur, tu seras balayeur.</F>
+		<E>You're just a good-for-nothing, I'm saying it for your own good, if you don't do anything better, you'll be a sweeper.</E>
+		<F>Fais pas ci, fais pas ça, à dada prout prout cadet, à cheval sur mon bidet.</F>
+		<E>Don't do this, don't do that, piggyback toot toot cadet, horseback on my bidet.</E>
+		<F>Vous en faites pas les gars, vous en faites pas les gars, moi aussi on m'a dit ça, fais pas ci, fais pas ça, fais pas ci, fais pas ça.</F>
+		<E>Don't you worry guys, don't you worry guys, I was told that too, don't do this, don't do that, don't do this, don't do that.</E>
+		<F>Et j'en suis arrive là, et j'en suis arrive là, et j'en suis arrive là, la-la-la, la-la-la.</F>
+		<E>And I arrived here, and I arrived here, and I arrived here, la-la-la, la-la-la.</E>
+		<F>La-la-la-la-la, la-la-la-la-la, la-la-la, la-la-la, la-la-la oh-oh-oh-oh.</F>
+		<E>La-la-la-la-la, la-la-la-la-la, la-la-la, la-la-la, la-la-la oh-oh-oh-oh.</E>
+	</song>
+	<song title="Les marionnettes" title2="The puppets" link="yt:lLGBhiz1Tns" time="[6.5, 20, 33, 46.5, 60, 73, 86.5, 100, 113, 126.5]">
+		<F>Moi, je construis des marionnettes, avec de la ficelle et du papier.</F>
+		<E>Me, I'm making puppets, with some string and some paper.</E>
+		<F>Elles sont jolies les mignonettes, je vais, je vais vous les présenter.</F>
+		<E>They're pretty the cuties, I will, I will introduce them to you.</E>
+		<F>L'une d'entre elle est la plus belle, elle sait bien dire papa, maman.</F>
+		<E>One of them is the prettiest, she knows how to say dad, mom.</E>
+		<F>Quant à son frère, il peut prédire, pour demain la pluie ou bien le beau temps.</F>
+		<E>As for her brother, he can predict, for tomorrow the rain or nice weather.</E>
+		<F>Moi, je construis des marionnettes, avec de la ficelle et du papier.</F>
+		<E>Me, I'm making puppets, with some string and some paper.</E>
+		<F>Elles sont jolies les mignonettes, je vais, je vais vous les présenter.</F>
+		<E>They're pretty the cuties, I will, I will introduce them to you.</E>
+		<F>Chez nous, à chaque instant, c'est jour de fête, grace au petit clown qui nous fait rire.</F>
+		<E>At our home, at every moment, it's a day of celebration, thanks to the little clown who makes us laugh.</E>
+		<F>Même Alexa, cette pauvrette, oublie, oublie qu'elle a toujours pleuré.</F>
+		<E>Even Alexa, that poor thing, forgets, forgets that she always cried.</E>
+		<F>Moi, je construis des marionnettes, avec de la ficelle et du papier.</F>
+		<E>Me, I'm making puppets, with some string and some paper.</E>
+		<F>Elles sont jolies les mignonettes, elles vous diront, elles vous diront, que je suis leur ami, que je suis leur ami, que je suis leur ami, que je suis leur ami.</F>
+		<E>They are pretty the cuties, they'll tell you, they'll tell you, that I'm their friend, that I'm their friend, that I'm their friend, that I'm their friend.</E>
+	</song>
+	<song title="J'attendrai" title2="I'll wait" link="yt:I97TIcE9B7Y" time="[16, 24.5, 32.5, 48, 66, 75, 83, 99, 117.5, 133, 142, 150.5, 166, 183]">
+		<F>Mais si un jour tu te retrouves toute seule, que tu t'imagines que les gens t'en veulent.</F>
+		<E>But if one day you find yourself all alone, that you think people are mad at you.</E>
+		<F>Que le bonheur, soudain, t'abandonne, que pour te consoler, tu ne trouves personne.</F>
+		<E>That happiness, suddenly, abandons you, that to console you, you find no one.</E>
+		<F>Viens vite, viens vite, je t'attendrai, viens vite, je t'attendrai.</F>
+		<E>Come quick, come quick, I'll wait for you, come quick, I'll wait for you.</E>
+		<F>J'attendrai, que tu me reviennes à nouveau, oui, j'attendrai, j'attendrai longtemps s'il le faut.</F>
+		<E>I'll wait, for you to come back to me again, yes I'll wait, I'll wait a long time if I have to.</E>
+		<F>Oui et si un jour tout n'est que confusion, que ce nouvel amour n'était qu'illusion.</F>
+		<E>Yes and if one day everything is only confusion, that this new love was only an illusion.</E>
+		<F>Qu'a la derive tu te laisses aller, que tu cherches une main pour te rattraper.</F>
+		<E>That adrift you let yourself go, that you seek a hand to catch up with you.</E>
+		<F>Viens vite, viens vite, je t'attendrai, viens vite, je t'attendrai.</F>
+		<E>Come quick, come quick, I'll wait for you, come quick, I'll wait for you.</E>
+		<F>J'attendrai, que tu me reviennes à nouveau, j'attendrai, j'attendrai longtemps s'il le faut.</F>
+		<E>I'll wait, for you to come back to me again, I'll wait, I'll wait a long time if I have to.</E>
+		<F>J'attendrai, que tu me reviennes à nouveau, j'attendrai, j'attendrai longtemps s'il le faut.</F>
+		<E>I'll wait, for you to come back to me again, I'll wait, I'll wait a long time if I have to.</E>
+		<F>Oui car si ce jour devait arriver, n'aie pas peur, j'oublierai le passe.</F>
+		<E>Yes because if that day should come, don't be afraid, I will forget the past.</E>
+		<F>Ce jour-là surtout rappelle-toi, que tu peux toujours compter sur moi.</F>
+		<E>On this day above all remember, that you can always count on me.</E>
+		<F>Viens vite, viens vite, je t'attendrai, viens vite, je t'attendrai.</F>
+		<E>Come quick, come quick, I'll wait for you, come quick, I'll wait for you.</E>
+		<F>J'attendrai, que tu me reviennes à nouveau, j'attendrai, j'attendrai longtemps s'il le faut.</F>
+		<E>I'll wait, for you to come back to me again, I'll wait, I'll wait a long time if I have to.</E>
+		<F>J'attendrai, avec tout l'amour qu'il te faut, j'attendrai, tu peux toujours compter sur moi.</F>
+		<E>I'll wait, with all the love you need, I'll wait, you can always count on me.</E>
+	</song>
+	<song title="Laisse tomber les filles" title2="Leave the girls alone" link="yt:K5FnbcAe7JE" time="[0, 8, 15.5, 22.5, 30, 37.5, 45, 52.5, 59.5, 74.5, 81.5, 89, 96.5, 104, 111]">
+		<F>Laisse tomber les filles, laisse tomber les filles, ça te jouera un mauvais tour.</F>
+		<E>Leave the girls alone, leave the girls alone, it will play a dirty trick on you.</E>
+		<F>Laisse tomber les filles, laisse tomber les filles, un jour c'est toi qu'on laissera.</F>
+		<E>Leave the girls alone, leave the girls alone, one day it'll be you who gets dropped.</E>
+		<F>Oui j'ai pleure mais ce jour-là, non je ne pleurerai pas, non je ne pleurerai pas.</F>
+		<E>Yes I cried but on that day, no I will not cry, no I will not cry.</E>
+		<F>Je dirai c'est bien fait pour toi, je dirai ça t'apprendra, je dirai ça t'apprendra.</F>
+		<E>I will say it serves you right, I will say it will teach you, I will say it will teach you.</E>
+		<F>Laisse tomber les filles, laisse tomber les filles, ça te jouera un mauvais tour.</F>
+		<E>Leave the girls alone, leave the girls alone, it will play a dirty trick on you.</E>
+		<F>Laisse tomber les filles, laisse tomber les filles, tu le paieras un de ces jours.</F>
+		<E>Leave the girls alone, leave the girls alone, you will pay for it one of these days.</E>
+		<F>On ne joue pas impunément, avec un cœur innocent, avec un cœur innocent.</F>
+		<E>You don't play with impunity, with an innocent heart, with an innocent heart.</E>
+		<F>Tu verras ce que je ressens, avant qu'il ne soit longtemps, avant qu'il ne soit longtemps.</F>
+		<E>You'll see how I feel, before long, before long.</E>
+		<F>La chance abandonne, celui qui ne sait, que laisser les cœurs blessés, tu n'auras personne, pour te consoler, tu ne l'auras pas volé.</F>
+		<E>Luck abandons, he who doesn't know, other than to leave hurt hearts, you will have no one, to console you, you will have deserved it.</E>
+		<F>Laisse tomber les filles, laisse tomber les filles, un jour c'est toi qu'on laissera.</F>
+		<E>Leave the girls alone, leave the girls alone, one day it'll be you who gets dropped.</E>
+		<F>Laisse tomber les filles, laisse tomber les filles, un jour c'est toi qui pleureras.</F>
+		<E>Leave the girls alone, leave the girls alone, one day it'll be you who will cry.</E>
+		<F>Non pour te plaindre il n'y aura, personne d'autre que toi, personne d'autre que toi.</F>
+		<E>No to complain there will be, nobody but you, nobody but you.</E>
+		<F>Alors tu te rappelleras, tout ce que je te dis là, tout ce que je te dis là.</F>
+		<E>So you will remember, everything I tell you here, everything I tell you here.</E>
+		<F>Alors tu te rappelleras, tout ce que je te dis là, tout ce que je te dis là.</F>
+		<E>So you will remember, everything I tell you here, everything I tell you here.</E>
+		<F>Alors tu te rappelleras, tout ce que je te dis là, tout ce que je te dis là.</F>
+		<E>So you will remember, everything I tell you here, everything I tell you here.</E>
+	</song>
+	<song title="Le téléfon" title2="The telephone" link="yt:yY-cTd5oFFQ" time="[17, 34.5, 52.5, 61, 68.5, 86, 104, 112.5, 121, 130, 138, 146.5]">
+		<F>Bernadette, elle est très chouette, et sa cousine, elle est divine, mais son cousin, il est malsain, je dirais même que c'est un bon à rien.</F>
+		<E>Bernadette, she is very nice, and her cousin, she is divine, but her male cousin, he is unhealthy, I would even say he's a good-for-nothing.</E>
+		<F>Noémie est très jolie, moins que Zoé, mais plus que Nathalie, Anatole, il est frivole, monsieur Gaston s'occupe du téléfon.</F>
+		<E>Noemie is very pretty, less than Zoe, but more than Nathalie, Anatole, he is frivolous, mister Gaston takes care of the telephone.</E>
+		<F>Gaston y'a l'téléfon qui son(ne) et y'a jamais person(ne) qui y répond.</F>
+		<E>Gaston the phone is ringing and there's never anyone who answers it.</E>
+		<F>Gaston y'a l'téléfon qui son(ne) et y'a jamais person(ne) qui y répond.</F>
+		<E>Gaston the phone is ringing and there's never anyone who answers it.</E>
+		<F>Marie-Louise est exquise, Marie-Thérèse, elle est obèse, Marie-Berthe, elle est experte, par l'entremise de sa tante Artémise.</F>
+		<E>Marie-Louise is exquisite, Marie-Therese, she is obese, Marie-Berthe, she's an expert, through her aunt Artemise.</E>
+		<F>Edouard fume le cigare, et Léonard porte une barbe noire, Léontine fait la cuisine, monsieur Gaston s'occupe du téléfon.</F>
+		<E>Edouard smokes the cigar, and Leonard wears a black beard, Leontine does the cooking, mister Gaston takes care of the telephone.</E>
+		<F>Gaston y'a l'téléfon qui son(ne) et y'a jamais person(ne) qui y répond.</F>
+		<E>Gaston the phone is ringing and there's never anyone who answers it.</E>
+		<F>Gaston y'a l'téléfon qui son(ne) et y'a jamais person(ne) qui y répond.</F>
+		<E>Gaston the phone is ringing and there's never anyone who answers it.</E>
+		<F>Gaston y'a l'téléfon qui son(ne) et y'a jamais person(ne) qui y répond.</F>
+		<E>Gaston the phone is ringing and there's never anyone who answers it.</E>
+		<F>Gaston y'a l'téléfon qui son(ne) et y'a jamais person(ne) qui y répond.</F>
+		<E>Gaston the phone is ringing and there's never anyone who answers it.</E>
+		<F>Non, non, non, non, non, non, non, et y'a jamais person(ne) qui y répond.</F>
+		<E>No, no, no, no, no, no, no, and there's never anyone who answers it.</E>
+		<F>Non, non, non, non, non, non, non, non, non, non, non, non, non, non.</F>
+		<E>No, no, no, no, no, no, no, no, no, no, no, no, no, no.</E>
+	</song>
+	<song title="Bang Bang" link="yt:adC-9QpxVEs" time="[14.5, 25.5, 51.5, 62.5, 88.5, 100, 111, 137, 148]">
+		<F>Nous avions dix ans à peine, tous nos jeux étaient les mêmes, aux gendarmes et aux voleurs, tu me visais droit au cœur.</F>
+		<E>We were barely ten years old, all our games were the same, cops and robbers, you were aiming straight at my heart.</E>
+		<F>Bang bang, tu me tuais, bang bang, et je tombais, bang bang, et ce bruit-là, bang bang, je ne l'oublierai pas.</F>
+		<E>Bang bang, you killed me, bang bang, and I fell, bang bang, and that noise, bang bang, I won't forget it.</E>
+		<F>Nous avons grandi ensemble, on s'aimait bien, il me semble, mais tu n'avais de passion, que pour tes jeux de garçon.</F>
+		<E>We grew up together, we loved each other, it seems to me, but you didn't have passion, only for your boyish games.</E>
+		<F>Bang bang, tu t'amusais, bang bang, je te suivais, bang bang, et ce bruit-là, bang bang, je ne l'oublierai pas.</F>
+		<E>Bang bang, you had fun, bang bang, I followed you, bang bang, and that noise, bang bang, I won't forget it.</E>
+		<F>Un jour tu as eu vingt ans, il y avait déjà longtemps, que l'amour avait remplacé, notre amitié du passé.</F>
+		<E>One day you were twenty, it was already a long time, that love had replaced, our friendship of the past.</E>
+		<F>Et quand il en vint une autre, on ne sait à qui la faute, tu ne m'avais jamais menti, avec elle tu es parti.</F>
+		<E>And when another came, we don't know who's to blame, you never lied to me, with her you left.</E>
+		<F>Bang bang, tu m'as quitté, bang bang, je suis restée, bang bang, et ce bruit-là, bang bang, je ne l'oublierai pas.</F>
+		<E>Bang bang, you left me, bang bang, I remained, bang bang, and that noise, bang bang, I won't forget it.</E>
+		<F>Quand j'aperçois des enfants, de poursuivre en s'amusant, et faire semblant de se tuer, je me sens le cœur serré.</F>
+		<E>When I see children, chase each other while having fun, and pretend to kill each other, I feel my heart aching.</E>
+		<F>Bang bang, je me souviens, bang bang, tout me revient, bang bang, et ce bruit-là, bang bang, je ne l'oublierai pas.</F>
+		<E>Bang bang, I remember, bang bang, it all comes back to me, bang bang, and that noise, bang bang, I won't forget it.</E>
+	</song>
+	<song title="Pour moi la vie va commencer" title2="For me life is about to begin" link="yt:rSabkluJyCY" time="[0, 21.5, 64, 85, 106.5, 112, 117.5]">
+		<F>Pour moi la vie va commencer, en revenant dans ce pays, là où le soleil et le vent, là où mes amis, mes parents, avaient gardé mon cœur d'enfant.</F>
+		<E>For me life is about to begin, when returning to this land, where the sun and the wind, where my friends, my parents, had kept my children's heart.</E>
+		<F>Pour moi la vie va commencer, et mon passe sort de l'oubli, foulant les sols de ma prairie, chevauchant avec mes amis, pour moi la vie va commencer.</F>
+		<E>For me life is about to begin, and my past leaves the oblivion, stepping on the ground of my prairie, riding with my friends, for me life is about to begin.</E>
+		<F>Pour moi la vie va commencer, je peux voir descendre la nuit, sans avoir peur d'être surpris, tandis qu'au loin comme un troupeau, passent les ombres des chevaux.</F>
+		<E>For me life is about to begin, I can see the night descend, without fear of being surprised, while in the distance like a herd, the shadows of the horses pass.</E>
+		<F>Pour moi la vie va commencer, et sous le ciel de ce pays, sans jamais connaitre l'ennui, mes années passeront sans bruit, entre le ciel et mes amis.</F>
+		<E>For me life is about to begin, and beneath this country's sky, without ever being bored, my years will pass quietly, between the sky and my friends.</E>
+		<F>Pour moi la vie va commencer, pour moi la vie va commencer.</F>
+		<E>For me life is about to begin, for me life is about to begin.</E>
+		<F>Pour moi la vie va commencer, pour moi la vie va commencer.</F>
+		<E>For me life is about to begin, for me life is about to begin.</E>
+		<F>Pour moi la vie va commencer, pour moi la vie va commencer.</F>
+		<E>For me life is about to begin, for me life is about to begin.</E>
+	</song>
+	<song title="The Loco-Motion" title2="Le loco-motion" link="yt:YAbjEsoRvCk" time="[7.5, 14.5, 22, 34.5, 48.5, 55.5, 63, 87, 89.5, 96.5, 104, 116.5]">
+		<E>Everybody's doin' a brand new dance now, come on baby do the loco-motion.</E>
+		<F>Tout le monde fait une toute nouvelle danse maintenant, allez bébé fais le loco-motion.</F>
+		<E>I know you'll get to like it if you give it a chance now, come on baby do the loco-motion.</E>
+		<F>Je sais que tu vas l'aimer si tu lui donnes une chance maintenant, allez bébé fais le loco-motion.</F>
+		<E>My little baby sister can do it with me, it's easier than learning your ABC's, so come on, come on, do the loco-motion with me.</E>
+		<F>Ma petite sœur peut le faire avec moi, c'est plus facile que d'apprendre l'alphabet, alors allez, allez, fais le loco-motion avec moi.</F>
+		<E>You gotta swing your hips now, come on baby, jump up, jump back, well now I think you got the knack, oh.</E>
+		<F>Tu dois balancer tes hanches maintenant, allez bébé, saute en avant, saute en arriere, bien maintenant je pense que t'as le truc, oh.</F>
+		<E>Now that you can do it, let's make a chain now, come on baby do the loco-motion.</E>
+		<F>Maintenant que tu peux le faire, faisons une chaine maintenant, allez bébé fais le loco-motion.</F>
+		<E>Chug-a chug-a motion like a railway train now, come on baby do the loco-motion.</E>
+		<F>Un mouvement de tchou-tchou comme un train maintenant, allez bébé fais le loco-motion.</F>
+		<E>Do it nice and easy now don't lose control, a little bit of rhythm and a lot of soul, come on, come on, do the loco-motion with me.</E>
+		<F>Tu le fais bien et facilement maintenant ne perds pas le controle, un petit peu de rythme et beaucoup d'ame, allez, allez, fais le loco-motion avec moi.</F>
+		<E>Yeah, yeah, yeah, yeah.</E>
+		<F>Ouais, ouais, ouais, ouais.</F>
+		<E>Move around the floor in a loco-motion, come on baby do the loco-motion.</E>
+		<F>Fais le tour de la piste en loco-motion, allez bébé fais le loco-motion.</F>
+		<E>Do it holding hands if you get the notion, come on baby do the loco-motion.</E>
+		<F>Fais-le en tenant les mains si tu as compris le concept, allez bébé fais le loco-motion.</F>
+		<E>There's never been a dance that's so easy to do, it even makes you happy when you're feeling blue, so come on, come on, do the loco-motion with me.</E>
+		<F>Il n'y a jamais eu de danse aussi facile à faire, ça te rend heureux quand tu as le cafard, alors allez, allez, fais le loco-motion avec moi.</F>
+		<E>You gotta swing your hips now, ...</E>
+		<F>Tu dois balancer tes hanches maintenant, ...</F>
+	</song>
+	<song title="J'entends siffler le train" title2="I hear the train whistle" link="yt:i_sIBbGKsYs" time="[16.5, 34, 51.5, 69, 86.5, 104, 139, 156.5, 174]">
+		<F>J'ai pense qu'il fallait mieux, nous quitter sans un adieu, je n'aurai pas eu le cœur de te revoir.</F>
+		<E>I thought it would be better, for us to part without goodbye, I wouldn't have the heart to see you again.</E>
+		<F>Mais j'entends siffler le train, mais j'entends siffler le train, que c'est triste un train qui siffle dans le soir.</F>
+		<E>But I hear the train whistle, but I hear the train whistle, how sad a train that whistles in the night.</E>
+		<F>Je pouvais t'imaginer, toute seule abandonnée, sur le quai dans la cohue des au revoir.</F>
+		<E>I could imagine you, all by yourself, on the platform in the crowd of goodbyes.</E>
+		<F>Et j'entends siffler le train, et j'entends siffler le train, que c'est triste un train qui siffle dans le soir.</F>
+		<E>And I hear the train whistle, and I hear the train whistle, how sad a train that whistles in the night.</E>
+		<F>J'ai failli courir vers toi, j'ai failli crier vers toi, c'est à peine si j'ai pu me retenir.</F>
+		<E>I nearly ran to you, I nearly shouted at you, I almost couldn't stop myself.</E>
+		<F>Que c'est loin ou tu t'en vas, que c'est loin ou tu t'en vas, auras-tu jamais le temps de revenir?</F>
+		<E>Is it far where you're going, is it far where you're going, will you ever have time to come back?</E>
+		<F>J'ai pense qu'il fallait mieux, nous quitter sans un adieu, mais je sens que maintenant tout est fini.</F>
+		<E>I thought it would be better, for us to part without goodbye, but I feel that now all is over.</E>
+		<F>Et j'entends siffler le train, et j'entends siffler le train, j'entendrai siffler ce train toute ma vie.</F>
+		<E>And I hear the train whistle, and I hear the train whistle, I'll hear this train whistle all my life.</E>
+		<F>J'entendrai siffler ce train toute ma vie.</F>
+		<E>I'll hear this train whistle all my life.</E>
+	</song>
+	<song title="Da dou ron ron" link="yt:AOPvZPAcBAY" time="[12, 18.5, 26, 43, 50, 57, 87.5, 94.5, 102, 116, 129.5]">
+		<F>Quand l'amour s'en va et que tout est fini, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>When love goes and it's all over, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Ne pleurez pas, laissez tomber, tant pis, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>Don't cry, forget about it, too bad, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Oui mon amour est mort, oui bien sur j'ai eu tort, oui j'aimerai encore, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>Yes my love is dead, yes of course I was wrong, yes I will love again, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Et quand l'amour s'en va, il s'en va pour de bon, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>And when love goes, it goes for good, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Ne pleurez pas, on y peut rien au fond, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>Don't cry, there's nothing we can do about it, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Oui il m'a dit adieu, oui après tout tant mieux, oui l'amour est un jeux, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>Yes he said goodbye to me, yes after all all the better, yes love is a game, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Et quand l'amour revient, on dit c'est pour toujours, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>And when love comes back, we say it's forever, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Peut-être bien que ce sera vrai un jour, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>Maybe it will be true one day, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Oui peut-être demain, oui adieu mes chagrins, oui j'aimerai sans fin, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>Yes maybe tomorrow, yes goodbye my sorrows, yes I will love endlessly, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Oui peut-être demain, oui adieu mes chagrins, oui j'aimerai sans fin, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>Yes maybe tomorrow, yes goodbye my sorrows, yes I will love endlessly, da doo ron-ron-ron, da doo ron-ron.</E>
+		<F>Oui peut-être demain, oui adieu mes chagrins, oui j'aimerai sans fin, da dou ron-ron-ron, da dou ron-ron.</F>
+		<E>Yes maybe tomorrow, yes goodbye my sorrows, yes I will love endlessly, da doo ron-ron-ron, da doo ron-ron.</E>
+	</song>
+	<song title="Pretty Woman" title2="Jolie femme" link="yt:nmwr3GXnbXc" time="[14, 24, 39.5, 49.5, 65, 80.5, 94, 113, 123, 138, 152.5]">
+		<E>Pretty woman, walking down the street, pretty woman, the kind I'd like to meet, pretty woman.</E>
+		<F>Jolie femme, qui descend la rue, jolie femme, le genre que j'aimerais rencontrer, jolie femme.</F>
+		<E>I don't believe you, you're not the truth, no one could look as good as you, mercy!</E>
+		<F>Je ne te crois pas, tu ne peux pas être vraie, personne ne peut être aussi belle que toi, pitie!</F>
+		<E>Pretty woman, won't you pardon me, pretty woman, I couldn't help but see, pretty woman.</E>
+		<F>Jolie femme, ne me pardonnera-tu pas, jolie femme, je ne peux pas m'empecher de voir, jolie femme.</F>
+		<E>That you look lovely as can be, are you lonely just like me, rawr!</E>
+		<F>Que tu es belle comme tu peux l'être, es-tu seule comme moi, rouar!</F>
+		<E>Pretty woman, stop a while, pretty woman, talk a while, pretty woman, give your smile to me.</E>
+		<F>Jolie femme, arrête-toi un instant, jolie femme, parle un instant, jolie femme, fais-moi ton sourire.</F>
+		<E>Pretty woman, yeah, yeah, yeah, pretty woman, look my way, pretty woman, say you'll stay with me.</E>
+		<F>Jolie femme, ouais, ouais, ouais, jolie femme, regarde dans ma direction, jolie femme, dis que tu resteras avec moi.</F>
+		<E>'Cause I need you, I'll treat you right, come with me, baby, be mine tonight.</E>
+		<F>Car j'ai besoin de toi, je m'occuperais bien de toi, viens avec moi bébé, sois à moi cette nuit.</F>
+		<E>Pretty woman, don't walk on by, pretty woman, don't make me cry, pretty woman.</E>
+		<F>Jolie femme, ne m'evite pas, jolie femme, ne me fais pas pleurer, jolie femme.</F>
+		<E>Don't walk away, hey, okay, if that's the way it must be, okay.</E>
+		<F>Ne t'en va pas, he, d'accord, si c'est comme ça, d'accord.</F>
+		<E>I guess I'll go on home, it's late, there'll be tomorrow night, but wait, what do I see?</E>
+		<F>Je pense que je vais rentrer chez moi, il est tard, il y aura demain soir mais attends, que vois-je?</F>
+		<E>Is she walking back to me, yeah, she's walking back to me, oh, oh, pretty woman.</E>
+		<F>Revient-elle vers moi, ouais, elle revient vers moi, oh, oh, jolie femme.</F>
+	</song>
+	<song title="Be Bop A Lula" link="yt:ulHQUkp910g" time="[8, 24, 40, 55, 71.5, 79.5, 99.5, 115, 123, 131, 139, 147]">
+		<F>Be-bop-a-lula, ma baby, be-bop-a-lula, toi ma douce amie.</F>
+		<E>Be-bop-a-lula, my baby, be-bop-a-lula, you my sweet friend.</E>
+		<F>Be-bop-a-lula, ma baby, be-bop-a-lula, où donc es-tu parti?</F>
+		<E>Be-bop-a-lula, my baby, be-bop-a-lula, where did you go?</E>
+		<F>Be-bop-a-lula, si, je m'ennuie, oh yeah, je m'ennuie.</F>
+		<E>Be-bop-a-lula, yes, I'm bored, oh yeah, I'm bored.</E>
+		<F>On s'est aime une nuit, te souviens-tu nos mille folies, mais ce bonheur était trop beau, il a fini dans un sanglot.</F>
+		<E>We loved each other one night, do you remember our thousand follies, but this happiness was too good, it ended in a sob.</E>
+		<F>Be-bop-a-lula, ah ma baby, be-bop-a-lula, où donc es-tu parti?</F>
+		<E>Be-bop-a-lula, ah my baby, be-bop-a-lula, where did you go?</E>
+		<F>Be-bop-a-lula, si, je m'ennuie, je m'ennuie, je m'ennuie, oh.</F>
+		<E>Be-bop-a-lula, yes, I'm bored, I'm bored, I'm bored, oh.</E>
+		<F>Reviens-moi, je t'en supplie, car je t'espère le jour et la nuit, je suis plus tendre qu'un agneau, car j'ai compris et j't'aime trop.</F>
+		<E>Come back to me, I beg you, because I hope for you day and night, I am more tender than a lamb, because I understood and I love you too much.</E>
+		<F>Be-bop-a-lula, ma baby, be-bop-a-lula, où donc es-tu parti?</F>
+		<E>Be-bop-a-lula, my baby, be-bop-a-lula, where did you go?</E>
+		<F>Be-bop-a-lula, si, je m'ennuie, je m'ennuie, je m'ennuie.</F>
+		<E>Be-bop-a-lula, yes, I'm bored, I'm bored, I'm bored.</E>
+		<F>Be-bop-a-lula, ma baby, be-bop-a-lula, toi ma douce amie.</F>
+		<E>Be-bop-a-lula, my baby, be-bop-a-lula, you my sweet friend.</E>
+		<F>Be-bop-a-lula, tu me reviens cherie, be-bop-a-lula, et tu me souris.</F>
+		<E>Be-bop-a-lula, you come back to me honey, be-bop-a-lula, and you smile at me.</E>
+		<F>Be-bop-a-lula, si ma baby, si, ma baby, ma baby.</F>
+		<E>Be-bop-a-lula, yes my baby, yes, my baby, my baby.</E>
+	</song>
+	<song title="Comment te dire adieu" title2="How to say goodbye to you" link="yt:QQbvpzKa7bM" time="[16, 32, 48, 63, 82.5, 90.5, 106, 125.5, 133]">
+		<F>Sous aucun pretexte je ne veux, avoir de reflexes malheureux, il faut que tu m'expliques un peu mieux, comment te dire adieu.</F>
+		<E>Under no circumstances do I want, to have miserable reflexes, you have to explain to me a little better, how to say goodbye to you.</E>
+		<F>Mon cœur de silex, vite prend feu, ton cœur de Pyrex resiste au feu, je suis bien perplexe, je ne veux, me resoudre aux adieux.</F>
+		<E>My heart of flint, quickly catches fire, your Pyrex heart resists fire, I am very perplexed, I do not want to, bring myself to goodbye.</E>
+		<F>Je sais bien qu'un ex-, amour n'a pas de chance ou si peu, mais pour moi une ex-, plication vaudrait mieux.</F>
+		<E>I know well that an ex-, lover has little or no luck, but for me an ex-, planation would be better.</E>
+		<F>Sous aucun pretexte je ne veux, devant toi surexposer mes yeux, derrière un Kleenex je saurais mieux, comment te dire adieu.</F>
+		<E>Under no circumstances do I want, in front of you to overexpose my eyes, behind a Kleenex I would know better, how to say goodbye to you.</E>
+		<F>Comment te dire adieu.</F>
+		<E>How to say goodbye to you.</E>
+		<F>Tu as mis à l'index, nos nuits blanches, nos matins gris-bleu, mais pour moi une ex-, plication vaudrait mieux.</F>
+		<E>You have blacklisted, our white nights, our grey-blue mornings, but for me an ex-, planation would be better.</E>
+		<F>Sous aucun pretexte je ne veux, devant toi surexposer mes yeux, derrière un Kleenex je saurais mieux, comment te dire adieu.</F>
+		<E>Under no circumstances do I want, in front of you to overexpose my eyes, behind a Kleenex I would know better, how to say goodbye to you.</E>
+		<F>Comment te dire adieu.</F>
+		<E>How to say goodbye to you.</E>
+		<F>Comment te dire adieu.</F>
+		<E>How to say goodbye to you.</E>
+	</song>
+</album>
+<album id="lam" artist="Carla" title="L'Autre Moi" title2="The Other Me" year="2020" cover="i.scdn.co/image/ab67616d00001e024fb83efbb5201137677c7575" colour="9BD">
+	<song title="Roller Coaster" link="yt:B9KfQspQOy0" time="[8.5, 16.5, 24, 39.5, 47.5, 59.7, 67.5, 70.5, 78.5, 86, 101.5, 109, 121.5, 129, 132.5, 140.5, 147.5, 155.5]">
+		<F>Je sais pas si je suis comme tout le monde, mais moi dans ma tête, ça grimpe et ça retombe aussi sec.</F>
+		<E>I don't know if I'm like everyone else, but in my head, it climbs and falls back down right away.</E>
+		<F>Tant pis je repars dans la seconde, je veux pas que ça s'arrête, tant que j'ai pas fait ma dose d'échec.</F>
+		<E>Too bad I'm leaving in a second, I don't want it to stop, as long as I haven't had my dose of failure.</E>
+		<F>Vivre un peu, comme je veux, rire beaucoup, surtout, vivre tout, comme un jeu, ou ne pas jouer du tout.</F>
+		<E>Live a little, like I want, laugh a lot, above all, experience it all, like a game, or don't even play at all.</E>
+		<F>Je veux que ça cogne à l'intérieur, comme un roller coaster, même pas mal, même pas peur.</F>
+		<E>I want it to hit on the inside, like a roller coaster, doesn't even hurt, not even scared.</E>
+		<F>Je veux que ça tape là dans mon cœur, comme un roller coaster, même pas mal, même pas peur.</F>
+		<E>I want it to beat there in my heart, like a roller coaster, doesn't even hurt, not even scared.</E>
+		<F>Même pas mal, même pas peur.</F>
+		<E>Doesn't even hurt, not even scared.</E>
+		<F>En cas de doute, j'écoute mon cœur.</F>
+		<E>When in doubt, I listen to my heart.</E>
+		<F>De là-haut, je regarde ces gens, qui se prennent la tête, mais rêvent de faire comme moi en cachette.</F>
+		<E>From above, I look at those people, who overthink things, but secretly want to do like I do.</E>
+		<F>Les deux mains en l'air, le rire au vent, moi, tout ce que je leur souhaite, c'est de penser leur vie comme une fête.</F>
+		<E>Both hands in the air, laughter in the wind, all that I wish for them, is to think of their life as a party.</E>
+		<F>Vivre un peu, être heureux, rire beaucoup, surtout, vivre fou, jouer avec le feu, ou ne pas jouer du tout.</F>
+		<E>Live a little, be happy, laugh a lot, above all, live crazy, play with fire, or don't even play at all.</E>
+		<F>Je veux que ça cogne à l'intérieur, comme un roller coaster, même pas mal, même pas peur.</F>
+		<E>I want it to hit on the inside, like a roller coaster, doesn't even hurt, not even scared.</E>
+		<F>Je veux que ça tape là dans mon cœur, comme un roller coaster, même pas mal, même pas peur.</F>
+		<E>I want it to beat there in my heart, like a roller coaster, doesn't even hurt, not even scared.</E>
+		<F>Même pas mal, même pas peur.</F>
+		<E>Doesn't even hurt, not even scared.</E>
+		<F>En cas de doute, j'écoute mon cœur.</F>
+		<E>When in doubt, I listen to my heart.</E>
+		<F>Je veux que ça cogne à l'intérieur, comme un roller coaster, même pas mal, même pas peur.</F>
+		<E>I want it to hit on the inside, like a roller coaster, doesn't even hurt, not even scared.</E>
+		<F>Je veux que ça tape là dans mon cœur, comme un roller coaster, même pas mal, même pas peur.</F>
+		<E>I want it to beat there in my heart, like a roller coaster, doesn't even hurt, not even scared.</E>
+		<F>Comme un roller coaster, même pas mal, même pas peur.</F>
+		<E>Like a roller coaster, doesn't even hurt, not even scared.</E>
+		<F>Comme un roller coaster, en cas de doute, j'écoute mon cœur.</F>
+		<E>Like a roller coaster, when in doubt, I listen to my heart.</E>
+	</song>
+	<song title="L'autre moi" title2="The other me" link="yt:6NXvmPkd1Sw" time="[8, 16.5, 25, 33.5, 50.5, 59, 67.5, 76, 93, 101, 110, 118.5, 127, 136, 144, 152]">
+		<F>Ils me disaient « tu rêves de trop, tu sais la vie, c'est pas que beau, écoute-moi bien tu peux me croire, souvent la vie, c'est blanc, c'est noir ».</F>
+		<E>They said to me 'you dream too much, you know life, it's not that nice, listen up you can believe me, often life, it's black and white'.</E>
+		<F>« Faut pas croire à n'importe quoi, tu perds ton temps, je sais pour toi, crois-moi le monde est bien trop grand, pour courir partout tout le temps ».</F>
+		<E>'You shouldn't believe in anything, you're wasting your time, I know about you, believe me the world is far too big, to be running around all the time'.</E>
+		<F>Et ça court, court dans ma tête, comme une mélodie qui ne tourne pas rond, et ça tourne, tourne, ça m'entête, je rêve à l'autre moi qui tourne en rond.</F>
+		<E>And it runs, runs in my head, like a melody that's not quite right, and it turns, turns, it bothers me, I'm dreaming of the other me who runs around.</E>
+		<F>Et ça court, court dans ma tête, comme une mélodie qui ne tourne pas rond, et ça tourne, tourne et m'entête, je rêve à l'autre moi qui tourne en rond.</F>
+		<E>And it runs, runs in my head, like a melody that's not quite right, and it turns, turns and bothers me, I'm dreaming of the other me who runs around.</E>
+		<F>Ils me disaient « vois pas trop haut, mets sur le côté ton ego, c'est mieux de ne pas faire d'histoire, tu seras déçue de trop d'espoir ».</F>
+		<E>They said to me 'don't look too high, put your ego to the side, it's better to not make a fuss, you'll be disappointed if you hope too much'.</E>
+		<F>Mais moi, j'veux croire en quelque chose, j'veux voir la vie en bleu, en rose, j'ai pas peur de tomber souvent, j'me relève à peu près tout le temps.</F>
+		<E>But me, I want to believe in something, I want to see life in blue, in pink, I'm not afraid of falling a lot, I get back up just about all the time.</E>
+		<F>Et ça court, court dans ma tête, comme une mélodie qui ne tourne pas rond, et ça tourne, tourne, ça m'entête, je rêve à l'autre moi qui tourne en rond.</F>
+		<E>And it runs, runs in my head, like a melody that's not quite right, and it turns, turns, it bothers me, I'm dreaming of the other me who runs around.</E>
+		<F>Et ça court, court dans ma tête, comme une mélodie qui ne tourne pas rond, et ça tourne, tourne et m'entête, je rêve à l'autre moi qui tourne en rond.</F>
+		<E>And it runs, runs in my head, like a melody that's not quite right, and it turns, turns and bothers me, I'm dreaming of the other me who runs around.</E>
+		<F>Ils me disaient « tu rêves de trop », mais moi, j'veux voir la vie d'en haut, ils me disaient « tu peux me croire », laissez-moi faire je vous laisse voir.</F>
+		<E>They said to me 'you dream too much', but I want to see life from high above, they said to me 'you can believe me', let me do it I'll make you see.</E>
+		<F>Je préfère courir que de me taire, mes folies à vos inventaires, regarder toute la vie devant, pour voir si le monde est trop grand.</F>
+		<E>I prefer running to being still, my follies to your properties, look at the whole of life ahead, to see whether the world is too big.</E>
+		<F>Et ça court, court dans ma tête, comme une mélodie qui ne tourne pas rond, et ça tourne, tourne, ça m'entête, je rêve à l'autre moi qui tourne en rond.</F>
+		<E>And it runs, runs in my head, like a melody that's not quite right, and it turns, turns, it bothers me, I'm dreaming of the other me who runs around.</E>
+		<F>Et ça court, court dans ma tête, comme une mélodie qui ne tourne pas rond, et ça tourne, tourne et m'entête, je rêve à l'autre moi qui tourne en rond.</F>
+		<E>And it runs, runs in my head, like a melody that's not quite right, and it turns, turns and bothers me, I'm dreaming of the other me who runs around.</E>
+		<F>La-la-la, la-la-la, la-la-la, la-la-la.</F>
+		<E>La-la-la, la-la-la, la-la-la, la-la-la.</E>
+		<F>La-la-la, la-la-la, la-la-la, la-la-la.</F>
+		<E>La-la-la, la-la-la, la-la-la, la-la-la.</E>
+		<F>Et je cours, cours, faire la fête, je veux des mélodies qui font des bonds, que ça tourne, tourne et m'entête, je rêve à l'autre moi qui tourne en rond.</F>
+		<E>And I run, run, celebrate, I want melodies that jump around, how it turns, turns and bothers me, I'm dreaming of the other me who runs around.</E>
+		<F>Et je cours, cours, faire la fête, je veux des mélodies qui font des bonds, que ça tourne, tourne et m'entête, jusqu'à l'autre moi qui tourne en rond.</F>
+		<E>And I run, run, celebrate, I want melodies that jump around, how it turns, turns and bothers me, up until the other me who runs around.</E>
+	</song>
+	<song title="Bim Bam toi" title2="Bim bam you" link="yt:fH5X07xBNOs" time="[7, 21.5, 29, 36.5, 44.5, 52.5, 60, 69, 84, 91.5, 99.5, 107, 114.5, 124, 138, 146, 154, 161.5]">
+		<F>Les mots me manquent, pourtant j'aimerais crier, muette saltimbanque, à la gorge nouée.</F>
+		<E>I don't have the words, yet I'd like to scream, a mute acrobat, with a lump in her throat.</E>
+		<F>Et ça monte, ça monte, ça monte, jusqu'à c'que mon petit cœur disjoncte.</F>
+		<E>And it grows, it grows, it grows, until my little heart goes wild.</E>
+		<F>Et ça fait « bim bam boum », ça fait « pshht » et ça fait « vroum », ça fait « bim bam boum », dans ma tête y'a tout qui tourne.</F>
+		<E>And it goes 'bim bam boom', it goes 'pshht' and it goes 'vroom', it goes 'bim bam boom', in my head everything spins.</E>
+		<F>Ça fait « shht » et puis « blabla », ça fait comme ci, comme ça, ça fait « bim bam ahahah », dans mon cœur je n'comprends pas.</F>
+		<E>It goes 'shht' and then 'blah blah', it goes like this, like that, it goes 'bim bam ha ha ha', in my heart I don't understand.</E>
+		<F>Ça fait « bim bam » là, « bim bam » là, ça fait « bim bam » quoi, « I love you », je crois qu'c'est ça.</F>
+		<E>It goes 'bim bam' there, 'bim bam' there, it goes 'bim bam' what, 'I love you', I think that's it.</E>
+		<F>Ça fait « bim bam » là, « bim bam » là, ça fait « bim bam » quoi, « I love you », je crois qu'c'est ça.</F>
+		<E>It goes 'bim bam' there, 'bim bam' there, it goes 'bim bam' what, 'I love you', I think that's it.</E>
+		<F>Et ça fait « bim bam boum », ça fait « bim bam boum ».</F>
+		<E>And it goes 'bim bam boom', it goes 'bim bam boom'.</E>
+		<F>J'ai beau tenter rien ne perce, depuis mes lèvres closes, mais j'avoue, je confesse, à l'intérieur j'explose!</F>
+		<E>No matter how hard I try nothing breaks through, from my closed lips, but I admit, I confess, on the inside I explode!</E>
+		<F>Et ça monte, ça monte, ça monte, jusqu'à c'que mon petit cœur disjoncte.</F>
+		<E>And it grows, it grows, it grows, until my little heart goes wild.</E>
+		<F>Et ça fait « bim bam boum », ça fait « pshht » et ça fait « vroum », ça fait « bim bam boum », dans ma tête y'a tout qui tourne.</F>
+		<E>And it goes 'bim bam boom', it goes 'pshht' and it goes 'vroom', it goes 'bim bam boom', in my head everything spins.</E>
+		<F>Ça fait « shht » et puis « blabla », ça fait comme ci, comme ça, ça fait « bim bam ahahah », dans mon cœur je n'comprends pas.</F>
+		<E>It goes 'shht' and then 'blah blah', it goes like this, like that, it goes 'bim bam ha ha ha', in my heart I don't understand.</E>
+		<F>Ça fait « bim bam » là, « bim bam » là, ça fait « bim bam » quoi, « I love you », je crois qu'c'est ça.</F>
+		<E>It goes 'bim bam' there, 'bim bam' there, it goes 'bim bam' what, 'I love you', I think that's it.</E>
+		<F>Ça fait « bim bam » là, « bim bam » là, ça fait « bim bam » quoi, « I love you », je crois qu'c'est ça.</F>
+		<E>It goes 'bim bam' there, 'bim bam' there, it goes 'bim bam' what, 'I love you', I think that's it.</E>
+		<F>Il m'en faudrait du courage, pour affronter tes yeux, mais est-on jamais sage, quand on est amoureux?</F>
+		<E>I would need some courage, to confront your eyes, but are you ever wise, when you are in love?</E>
+		<F>Et ça fait « bim bam boum », ça fait « pshht » et ça fait « vroum », ça fait « bim bam boum », dans ma tête y'a tout qui tourne.</F>
+		<E>And it goes 'bim bam boom', it goes 'pshht' and it goes 'vroom', it goes 'bim bam boom', in my head everything spins.</E>
+		<F>Ça fait « shht » et puis « blabla », ça fait comme ci, comme ça, ça fait « bim bam ahahah », dans mon cœur je n'comprends pas.</F>
+		<E>It goes 'shht' and then 'blah blah', it goes like this, like that, it goes 'bim bam ha ha ha', in my heart I don't understand.</E>
+		<F>Ça fait « bim bam » là, « bim bam » là, ça fait « bim bam » quoi, « I love you », je crois qu'c'est ça.</F>
+		<E>It goes 'bim bam' there, 'bim bam' there, it goes 'bim bam' what, 'I love you', I think that's it.</E>
+		<F>Ça fait « bim bam » là, « bim bam » là, ça fait « bim bam » quoi, « I love you », je crois qu'c'est ça.</F>
+		<E>It goes 'bim bam' there, 'bim bam' there, it goes 'bim bam' what, 'I love you', I think that's it.</E>
+	</song>
+	<song title="Dans ma bulle" title2="In my bubble" link="yt:QSRnvuM0Ux0" time="[0, 10.5, 20.5, 31.5, 42, 47.5, 53.5, 64, 74, 84.5, 95, 101, 118, 128.5, 138, 148.5, 154, 159.5, 165]">
+		<F>Je laisse, je laisse les mots, qui blessent là sous la peau, je laisse passer sur ma joue, les larmes qui n'en valent pas le coup.</F>
+		<E>I let go, I let go of the words, that hurt under the skin, I let go by on my cheek, the tears that aren't worth it.</E>
+		<F>Je passe, je passe mon temps, à regarder l'horizon, je laisse parler tous ces gens, qui se posent trop de questions.</F>
+		<E>I spend, I spend all my time, looking at the horizon, I let talk all the people, who ask themselves too many questions.</E>
+		<F>Y'a des jours comme ça, où le monde tourne sans moi, y'a des jours comme ça, où je ne veux pas sortir de la.</F>
+		<E>There are days like this, when the world turns without me, there are days like this, when I don't want to leave here.</E>
+		<F>Dans ma bulle ohé, dans ma bulle c'est rempli d'étoiles, dans ma bulle ohé, dans ma bulle il fait jamais froid.</F>
+		<E>In my bubble hey, in my bubble it's full of stars, in my bubble hey, in my bubble it's never cold.</E>
+		<F>Whoa, yeah-yeah, yeah-yeah, whoa.</F>
+		<E>Whoa, yeah-yeah, yeah-yeah, whoa.</E>
+		<F>Whoa, yeah-yeah, yeah-yeah, whoa.</F>
+		<E>Whoa, yeah-yeah, yeah-yeah, whoa.</E>
+		<F>Quand tout est gris dehors, je chante sur des accords, et la pluie sur mes fenêtres, se change en milliers de paillettes.</F>
+		<E>When everything is grey outside, I sing to some chords, and the raindrops on my windows, change into thousands of sparkles.</E>
+		<F>Je traque, je traque les sourires, de tous les gens qui passent, j'laisse de côté les soupirs, les regrets, les impasses.</F>
+		<E>I follow, I follow the smiles, of everyone who passes by, I set aside the sighs, the regrets, the impasses.</E>
+		<F>Y'a des jours comme ça, où le monde tourne sans moi, y'a des jours comme ça, où je ne veux pas sortir de la.</F>
+		<E>There are days like this, when the world turns without me, there are days like this, when I don't want to leave here.</E>
+		<F>Dans ma bulle ohé, dans ma bulle c'est rempli d'étoiles, dans ma bulle ohé, dans ma bulle il fait jamais froid.</F>
+		<E>In my bubble hey, in my bubble it's full of stars, in my bubble hey, in my bubble it's never cold.</E>
+		<F>Whoa, yeah-yeah, yeah-yeah, whoa.</F>
+		<E>Whoa, yeah-yeah, yeah-yeah, whoa.</E>
+		<F>Whoa, yeah-yeah, yeah-yeah, whoa.</F>
+		<E>Whoa, yeah-yeah, yeah-yeah, whoa.</E>
+		<F>Laissez-moi rêver dans ma, ne me sortez pas de ma, je me sens si bien dans ma bulle.</F>
+		<E>Let me dream in my, don't get me out of my, I feel so good in my bubble.</E>
+		<F>Laissez-moi rêver dans ma, ne me sortez pas de ma, je vous laisse une place dans ma bulle.</F>
+		<E>Let me dream in my, don't get me out of my, I give you a place in my bubble.</E>
+		<F>Dans ma bulle ohé, dans ma bulle c'est rempli d'étoiles, dans ma bulle ohé, dans ma bulle il fait jamais froid.</F>
+		<E>In my bubble hey, in my bubble it's full of stars, in my bubble hey, in my bubble it's never cold.</E>
+		<F>Whoa, yeah-yeah, yeah-yeah, whoa.</F>
+		<E>Whoa, yeah-yeah, yeah-yeah, whoa.</E>
+		<F>Whoa, yeah-yeah, yeah-yeah, whoa.</F>
+		<E>Whoa, yeah-yeah, yeah-yeah, whoa.</E>
+		<F>Whoa, yeah-yeah, yeah-yeah, whoa.</F>
+		<E>Whoa, yeah-yeah, yeah-yeah, whoa.</E>
+		<F>Whoa, yeah-yeah, yeah-yeah, whoa.</F>
+		<E>Whoa, yeah-yeah, yeah-yeah, whoa.</E>
+	</song>
+	<song title="Batterie faible" title2="Battery low" link="yt:wJTdxlszoV8" time="[4, 16.5, 29.5, 38.5, 51.5, 64.5, 77.5, 90, 99, 111.5, 124.5, 137.5, 142]">
+		<F>On rit assis sur les boulevards, on y croit, on fait comme si et puis on prie comme s'il n'était jamais trop tard.</F>
+		<E>We laugh sitting on the boulevards, we believe in it, we act as if and then we pray as if it were never too late.</E>
+		<F>On s'y voit dans la lueur des phares, serré là contre quoi, on ne sait pas pourquoi mais la nuit on se marre.</F>
+		<E>We see ourselves there in the glow of the headlights, held there against what, we don't know why but at night we have fun.</E>
+		<F>Mais au fond de nos cœurs électriques, on cherche le bonheur, on attend le déclic.</F>
+		<E>But in the back of our electric hearts, we're looking for happiness, we're waiting for the click.</E>
+		<F>Batterie faible, on est de ceux qui attendent l'étincelle, mais y'a personne pour répondre à l'appel, de la génération.</F>
+		<E>Battery low, we are those who are waiting for the spark, but there's no one to answer the call, of the generation.</E>
+		<F>Batterie faible, on est de ceux qui attendent l'étincelle, mais y'a personne pour répondre à l'appel, de la génération.</F>
+		<E>Battery low, we are those who are waiting for the spark, but there's no one to answer the call, of the generation.</E>
+		<F>Danser, danser, nous déguiser, en autant de remèdes, qu'est qu'on n'a pas trouvé, pour tant aimer se perdre?</F>
+		<E>Dance, dance, disguise ourselves, in so many remedies, what is it that we haven't found, for us to love so much to get lost?</E>
+		<F>On s'recharge les poches trouées, parfois on appelle à l'aide, puis on rebaisse le nez, vers ces écrans qui obsèdent.</F>
+		<E>We refill our pockets with holes, sometimes we call for help, then we lower our noses again, towards these screens that obsess.</E>
+		<F>Mais au fond de nos cœurs électriques, on cherche le bonheur, on attend le déclic.</F>
+		<E>But in the back of our electric hearts, we're looking for happiness, we're waiting for the click.</E>
+		<F>Batterie faible, on est de ceux qui attendent l'étincelle, mais y'a personne pour répondre à l'appel, de la génération.</F>
+		<E>Battery low, we are those who are waiting for the spark, but there's no one to answer the call, of the generation.</E>
+		<F>Batterie faible, on est de ceux qui attendent l'étincelle, mais y'a personne pour répondre à l'appel, de la génération.</F>
+		<E>Battery low, we are those who are waiting for the spark, but there's no one to answer the call, of the generation.</E>
+		<F>Batterie faible, on est de ceux qui attendent l'étincelle, mais y'a personne pour répondre à l'appel, de la génération.</F>
+		<E>Battery low, we are those who are waiting for the spark, but there's no one to answer the call, of the generation.</E>
+		<F>Batterie faible, de la génération.</F>
+		<E>Battery low, of the generation.</E>
+		<F>Batterie faible, de la génération.</F>
+		<E>Battery low, of the generation.</E>
+	</song>
+	<song title="Mon cœur fait" title2="My heart does" link="yt:zZ1F5r1t1ao" time="[8, 16, 24, 32, 40, 48, 62, 70, 72, 80, 89, 96, 104, 118, 126, 128, 136, 150, 158]">
+		<F>Y'a des choses que j'comprends pas, des trucs qu'on peut expliquer, aucun de nos bla-bla-blas, pourra recoller ce qui est brisé.</F>
+		<E>There are things I don't understand, things which can be explained, none of our blah-blah-blahs, will be able to glue together what is broken.</E>
+		<F>Je me dis que ça ira, mais le doute devient plus fort, comment répondre à tes pourquoi, quand hier je t'aimais encore.</F>
+		<E>I tell myself it will be fine, but the doubt grows stronger, how to respond to your whys, when yesterday I still loved you.</E>
+		<F>Du jour au lendemain, tout s'est terminé, c'est pas toi c'est bien moi, qu'il faut pardonner.</F>
+		<E>From one day to the next, it all ended, it's not you it's really me, who has to be forgiven.</E>
+		<F>Le cœur ressent plus rien, à part des aïe-aïe-yeah, l'amour s'est envolé, bien trop haut pour le rattraper.</F>
+		<E>The heart feels nothing more, apart from ow-ow-yeah, the love flew away, far too high to catch up.</E>
+		<F>Mon cœur fait des aïe-aïe, je ne sais plus comment t'aimer, allo l'amour ne t'en va pas, aïe-aïe-aïe-yeah.</F>
+		<E>My heart does ow-ow, I don't know how to love you anymore, hello love don't go away, ow-ow-ow-yeah.</E>
+		<F>Mon cœur fait des aïe-aïe, je ne sais plus comment t'aimer, allo l'amour ne t'en va pas, aïe-aïe-aïe-yeah.</F>
+		<E>My heart does ow-ow, I don't know how to love you anymore, hello love don't go away, ow-ow-ow-yeah.</E>
+		<F>Aïe-aïe-aïe-yeah.</F>
+		<E>Ow-ow-ow-yeah.</E>
+		<F>Aïe-aïe-aïe-yeah.</F>
+		<E>Ow-ow-ow-yeah.</E>
+		<F>Le but n'est pas de te faire souffrir, fin de l'histoire, pas téléphoner, je n'ai plus rien à t'offrir, droit dans le mur on va aller.</F>
+		<E>The point isn't to make you suffer, end of story, no calling, I have nothing more to offer you, we'll run straight into the wall.</E>
+		<F>J'aimerais rompre ce mauvais sort, on dit que l'amour nous rend plus fort, mais le destin est joué, et les dés sont déjà jetés.</F>
+		<E>I'd like to break this curse, they say that love makes us stronger, but destiny has played out, and the dice are already cast.</E>
+		<F>Dans notre amour il pleut des cordes, aïe-aïe-yeah, je me sens comme un boxeur dans les cordes.</F>
+		<E>In our love it's pouring rain, ow-ow-yeah, I feel like a boxer on the ropes.</E>
+		<F>Mon cœur fait des aïe-aïe, je ne sais plus comment t'aimer, allo l'amour ne t'en va pas, aïe-aïe-aïe-yeah.</F>
+		<E>My heart does ow-ow, I don't know how to love you anymore, hello love don't go away, ow-ow-ow-yeah.</E>
+		<F>Mon cœur fait des aïe-aïe, je ne sais plus comment t'aimer, allo l'amour ne t'en va pas, aïe-aïe-aïe-yeah.</F>
+		<E>My heart does ow-ow, I don't know how to love you anymore, hello love don't go away, ow-ow-ow-yeah.</E>
+		<F>Aïe-aïe-aïe-yeah.</F>
+		<E>Ow-ow-ow-yeah.</E>
+		<F>Aïe-aïe-aïe-yeah.</F>
+		<E>Ow-ow-ow-yeah.</E>
+		<F>Mon cœur fait des aïe-aïe, je ne sais plus comment t'aimer, allo l'amour ne t'en va pas, aïe-aïe-aïe-yeah.</F>
+		<E>My heart does ow-ow, I don't know how to love you anymore, hello love don't go away, ow-ow-ow-yeah.</E>
+		<F>Mon cœur fait des aïe-aïe, je ne sais plus comment t'aimer, allo l'amour ne t'en va pas, aïe-aïe-aïe-yeah.</F>
+		<E>My heart does ow-ow, I don't know how to love you anymore, hello love don't go away, ow-ow-ow-yeah.</E>
+		<F>Aïe-aïe-aïe-yeah.</F>
+		<E>Ow-ow-ow-yeah.</E>
+		<F>Aïe-aïe-aïe-yeah.</F>
+		<E>Ow-ow-ow-yeah.</E>
+	</song>
+	<song title="Planète à louer" title2="Planet for rent" link="yt:RrM8h_c7E5A" time="[0, 18.5, 37, 48, 68, 86, 104.5, 115, 125, 134.5, 150, 162]">
+		<F>Adieu baleines et ours blancs, l'ozone était pas si futile, on va partir surement avant, que l'Ile-de-France ne soit une ile.</F>
+		<E>Farewell whales and polar bears, the ozone wasn't so pointless, we're surely going to leave before, the Ile-de-France will be an island.</E>
+		<F>On s'en ira, frère de misère, qu'on soit du sud ou bien du nord, d'avoir pleuré pour de l'eau claire, d'avoir compris qu'on est moins fort.</F>
+		<E>We'll leave, brother of misery, whether we are from the south or north, having cried for clear water, having understood that we are less strong.</E>
+		<F>Recherche planète à louer de l'autre côté du soleil, urgence demandée, ici c'est plus pareil.</F>
+		<E>Looking for planet for rent on the other side of the sun, urgency requested, here it's no longer the same.</E>
+		<F>Planète à louer, par huit milliards de locataires, départ envisagé sans retour sur la terre.</F>
+		<E>Planet for rent, by eight billion residents, departure envisioned without return to Earth.</E>
+		<F>Adieu toi sommet du mont Blanc, futur iceberg de l'air fragile, on sera loin surement avant, des trente-huit degrés en avril.</F>
+		<E>Farewell to you summit of Mont Blanc, future iceberg looking fragile, we'll surely be far away before, it's thirty-eight degrees in April.</E>
+		<F>La nature n'a rien pardonné, plus rien ne pousse aux alentours, plus rien n'existe à volonté, mission humanitaire en cours.</F>
+		<E>Nature hasn't forgiven anything, nothing grows anymore nearby, nothing exists at will anymore, humanitarian mission ongoing.</E>
+		<F>Recherche planète à louer de l'autre côté du soleil, oxygène exigé, ici c'est plus pareil.</F>
+		<E>Looking for planet for rent on the other side of the sun, oxygen required, here it's no longer the same.</E>
+		<F>Planète à louer, par huit milliards de locataires, période sollicitée d'au moins deux millenaires.</F>
+		<E>Planet for rent, by eight billion residents, period requested of at least two millenniums.</E>
+		<F>Planète à louer de l'autre côté du soleil, pour nos fleurs implantées, retrouver les abeilles.</F>
+		<E>Planet for rent on the other side of the sun, for our implanted flowers, look for the bees.</E>
+		<F>Planète à louer, libre dans trente années-lumière, le temps d'arriver dans nos vaisseaux de verres.</F>
+		<E>Planet for rent, free in thirty light years, the time of arrival in our glass vessels.</E>
+		<F>Dans nos vaisseaux de verres.</F>
+		<E>In our glass vessels.</E>
+		<F>Planète à louer.</F>
+		<E>Planet for rent.</E>
+	</song>
+	<song title="Mon amour" title2="My love" link="yt:1i8vs9JKk8w" time="[12, 25, 37.5, 50, 63, 75.5, 88, 100.5, 113, 126, 138.5, 151, 163.5]">
+		<F>C'est vrai qu'on a beaucoup parlé, le jour, la nuit jusqu'à tomber, le cœur lourd, en amour.</F>
+		<E>It is true that we have talked a lot, day, night until falling, the heavy heart, in love.</E>
+		<F>Et puis à l'heure de se quitter, on en a ri jusqu'à pleurer, nos parcours, mais mon amour.</F>
+		<E>And then at the time of parting, we laughed until we cried, our journeys, but my love.</E>
+		<F>Je ferme les yeux, je te vois encore, je te cherche à l'ouest, je te perds au nord, au long cours, mon amour.</F>
+		<E>I close my eyes, I see you again, I look for you in the west, I lose you in the north, long-distance, my love.</E>
+		<F>Je me prends au jeu, je t'appelle encore, je navigue à l'est, naufrage au corps, sans retours, oh mon amour.</F>
+		<E>I get caught up, I call you again, I sail to the east, shipwreck to the body, without return, oh my love.</E>
+		<F>Bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa.</F>
+		<E>Bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa.</E>
+		<F>D'accord, j'ai peur de me l'avouer, en vrai je me traine jusqu'à tes pieds, le cœur sourd, sans detours.</F>
+		<E>All right, I'm afraid to admit it to myself, in reality I drag myself to your feet, the deaf heart, without detours.</E>
+		<F>D'accord, je veux bien tout delaisser, si toi, t'es sûr d'être à côté, pour toujours, mais mon amour.</F>
+		<E>All right, I'm happy to leave everything behind, if you, you're sure of being by my side, forever, but my love.</E>
+		<F>Je ferme les yeux, je te vois encore, je te cherche à l'ouest, je te perds au nord, au long cours, mon amour.</F>
+		<E>I close my eyes, I see you again, I look for you in the west, I lose you in the north, long-distance, my love.</E>
+		<F>Je me prends au jeu, je t'appelle encore, je navigue à l'est, naufrage au corps, sans retours, oh mon amour.</F>
+		<E>I get caught up, I call you again, I sail to the east, shipwreck to the body, without return, oh my love.</E>
+		<F>Bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa.</F>
+		<E>Bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa.</E>
+		<F>Bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa.</F>
+		<E>Bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa, bah bala bala papa la pa.</E>
+		<F>Je ferme les yeux, je te vois encore, je te cherche à l'ouest, je te perds au nord, au long cours, mon amour.</F>
+		<E>I close my eyes, I see you again, I look for you in the west, I lose you in the north, long-distance, my love.</E>
+		<F>Je me prends au jeu, je t'appelle encore, je navigue à l'est, naufrage au corps, sans retours, oh mon amour.</F>
+		<E>I get caught up, I call you again, I sail to the east, shipwreck to the body, without return, oh my love.</E>
+	</song>
+	<song title="Avant" title2="Before" link="yt:RBhEjqYEZC4" time="[11, 22.5, 34, 45, 73.5, 85, 96, 107.5, 130, 140.5, 153]">
+		<F>Parait que t'as trouvé quelqu'un, et qu'il est tout fait pour toi.</F>
+		<E>It seems that you have found someone, and that she's everything for you.</E>
+		<F>Ses yeux sont moins beaux que les miens, mais eux te donnent ce que j'ai pas.</F>
+		<E>Her eyes are less beautiful than mine, but they give you what I don't have.</E>
+		<F>Oh, c'est ma faute, je sais pas trop me jeter à l'eau, oh, je suis désolée.</F>
+		<E>Oh, it's my fault, I don't really know how to take the plunge, oh, I'm sorry.</E>
+		<F>Oh, c'était mieux avant, oh, avant d'être avant, je m'en fous, je m'en vais, on se reverra jamais, oh, c'était mieux avant.</F>
+		<E>Oh, it was better before, oh, before being before, I don't care, I'm leaving, we'll never meet again, oh, it was better before.</E>
+		<F>C'est peut-être un mal pour un bien, qu'on soit laissé comme ça.</F>
+		<E>Maybe it's a blessing in disguise, that we are left like this.</E>
+		<F>Tu n'aurais pas dû te presser pour rien, et aller trop vite pour moi, ouh.</F>
+		<E>You shouldn't have to rush for nothing, and go too fast for me, ooh.</E>
+		<F>Oh, c'est ma faute, je sais pas trop me jeter à l'eau, oh, je suis désolée.</F>
+		<E>Oh, it's my fault, I don't really know how to take the plunge, oh, I'm sorry.</E>
+		<F>Oh, c'était mieux avant, oh, avant d'être avant, je m'en fous, je m'en vais, on se reverra jamais, oh, c'était mieux avant.</F>
+		<E>Oh, it was better before, oh, before being before, I don't care, I'm leaving, we'll never meet again, oh, it was better before.</E>
+		<F>Alors maintenant je suis seule, et je pleure ma douleur, c'est trop tard, c'est trop tard.</F>
+		<E>So now I'm alone, and I'm crying my pain, it's too late, it's too late.</E>
+		<F>J'avais pas le courage, j'avais peur de notre âge, on était trop beau, il était trop tôt.</F>
+		<E>I didn't have the courage, I was afraid of our age, we were too pretty, it was too early.</E>
+		<F>Oh, c'était mieux avant, oh, avant d'être avant, je m'en fous, je m'en vais, on se reverra jamais, oh, c'était mieux avant.</F>
+		<E>Oh, it was better before, oh, before being before, I don't care, I'm leaving, we'll never meet again, oh, it was better before.</E>
+	</song>
+	<song title="Je sais pas" title2="I don't know" link="yt:cptKdZ6oNzw" time="[12, 24, 36, 48, 59, 72, 84, 96, 107, 120, 131.5, 144, 156]">
+		<F>Je sais pas, je sais pas, je sais pas, je sais pas, j'ai beau remuer tout ça, je sais pas, je sais pas, je sais pas, je sais pas.</F>
+		<E>I don't know, I don't know, I don't know, I don't know, no matter how I stir it all up, I don't know, I don't know, I don't know, I don't know.</E>
+		<F>Ils voudraient que je dise tout le feu qui m'attise, ils voudraient que je sois déjà prête au combat, mais je suis prête à quoi, je sais pas.</F>
+		<E>They would like me to say all the fire that fires me up, they would like me to be already ready to fight, but I'm ready for what, I don't know.</E>
+		<F>Ils voudraient que je sache ce qui se trame, qui se cache, derrière mon cœur de presque grande, derrière mes heures qui tremblent, mais moi, je me demande.</F>
+		<E>They would like me to know what's going on, what is hiding, behind my almost big heart, behind my trembling hours, but I wonder.</E>
+		<F>Je sais pas, je sais pas, je sais pas, je sais pas, j'ai beau remuer tout ça, je sais pas, je sais pas, je sais pas, je sais pas, j'ai beau reculer, crois-moi.</F>
+		<E>I don't know, I don't know, I don't know, I don't know, no matter how I stir it all up, I don't know, I don't know, I don't know, I don't know, no matter how far I go back, trust me.</E>
+		<F>Je saute pas le pas, je comprends rien à moi, aide-moi, je sais pas, je sais pas, je sais pas, je sais pas.</F>
+		<E>I'm not making the jump, I understand nothing about myself, help me, I don't know, I don't know, I don't know, I don't know.</E>
+		<F>Ils voudraient que je raconte ceux qui crient, ceux qui grondent, ils voudraient que j'invente les remous et les pentes, j'en ai pas.</F>
+		<E>They would like me to tell those who scream, those who scold, they would like me to invent swirls and slopes, I don't have any.</E>
+		<F>Ils aimeraient peut-être que j'en aie plein la tête, des secrets, des histoires à revendre, juste pour pouvoir me vendre, et moi, je me demande.</F>
+		<E>They would maybe like my head to be full of, secrets, stories to spare, just so I can sell myself, and I wonder.</E>
+		<F>Je sais pas, je sais pas, je sais pas, je sais pas, j'ai beau remuer tout ça, je sais pas, je sais pas, je sais pas, je sais pas, j'ai beau reculer, crois-moi.</F>
+		<E>I don't know, I don't know, I don't know, I don't know, no matter how I stir it all up, I don't know, I don't know, I don't know, I don't know, no matter how far I go back, trust me.</E>
+		<F>Je saute pas le pas, je comprends rien à moi, aide-moi, je sais pas, je sais pas, je sais pas, je sais pas.</F>
+		<E>I'm not making the jump, I understand nothing about myself, help me, I don't know, I don't know, I don't know, I don't know.</E>
+		<F>Je sais pas, je sais pas, je sais pas, je sais pas, je sais pas, je sais pas, je sais pas, je sais pas.</F>
+		<E>I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know, I don't know.</E>
+		<F>Je saute pas le pas, je comprends rien à moi, je sais pas, je sais pas, je sais pas, je sais pas.</F>
+		<E>I'm not making the jump, I understand nothing about myself, I don't know, I don't know, I don't know, I don't know.</E>
+		<F>Je sais pas, je sais pas, je sais pas, je sais pas, j'ai beau remuer tout ça, je sais pas, je sais pas, je sais pas, je sais pas.</F>
+		<E>I don't know, I don't know, I don't know, I don't know, no matter how I stir it all up, I don't know, I don't know, I don't know, I don't know.</E>
+		<F>Je sais pas.</F>
+		<E>I don't know.</E>
+	</song>
+	<song title="On verra plus tard" title2="We'll see later" link="yt:AuBPZ9raO-w" time="[9, 19.5, 30, 40.5, 51, 61.5, 71.5, 82, 92.5, 103, 114, 124.5, 136, 145, 155.5]">
+		<F>Je le vois dans les films, dans toutes ces histoires, c'est sur chaque bout de lèvre, ça commence toujours par bonsoir.</F>
+		<E>I see it in the movies, in all these stories, it's on the tip of every lip, it always begins with good evening.</E>
+		<F>Je le vois dans les yeux, d'inconnus face à face, je trouve ça merveilleux, et tout ça, ça me depasse.</F>
+		<E>I see it in the eyes, of strangers face to face, I find it wonderful, and all that, it's beyond me.</E>
+		<F>Je sais on verra plus tard, mais au moins j'aimerais savoir, je sais on verra plus tard, mais maintenant j'aimerais savoir.</F>
+		<E>I know we'll see later, but at least I'd like to know, I know we'll see later, but right now I'd like to know.</E>
+		<F>Qu'est-ce que ça peut bien faire au cœur, comme un coup de tonnerre en douceur, parait que ça eclaire, les jours, que c'est comme un aller sans retour.</F>
+		<E>What can it really do to the heart, like a soft thunderstrike, it seems that it lights up, the days, that it's like a one-way ride.</E>
+		<F>Je sais c'est pas mes affaires mais un jour, viendra mon tour, qu'est-ce que ça peut bien faire, qu'est-ce que ça peut bien faire, l'amour?</F>
+		<E>I know it's none of my business but one day, my turn will come, what can it really do, what can it really do, love?</E>
+		<F>On verra plus tard, la-la-la, on verra plus tard, la-la-la, on verra plus tard, la-la-la, on verra plus tard, la-la-la.</F>
+		<E>We'll see later, la-la-la, we'll see later, la-la-la, we'll see later, la-la-la, we'll see later, la-la-la.</E>
+		<F>C'est comme dans les chansons, dans lesquelles je m'egare, qui parlent de ce garçon et cette fille sur le depart.</F>
+		<E>It's like in the songs, in which I lose myself, that talk about this boy and this girl at the start.</E>
+		<F>Ça a l'air d'être si bon, ça a l'air d'être si rare, est-ce que moi aussi j'aurai les papillons qui sortent de nulle part?</F>
+		<E>It looks to be so good, it looks to be so rare, will I too have butterflies that come out of nowhere?</E>
+		<F>Je sais on verra plus tard, mais au moins j'aimerais savoir, je sais on verra plus tard, mais maintenant j'aimerais savoir.</F>
+		<E>I know we'll see later, but at least I'd like to know, I know we'll see later, but right now I'd like to know.</E>
+		<F>Qu'est-ce que ça peut bien faire au cœur, comme un coup de tonnerre en douceur, parait que ça eclaire, les jours, que c'est comme un aller sans retour.</F>
+		<E>What can it really do to the heart, like a soft thunderstrike, it seems that it lights up, the days, that it's like a one-way ride.</E>
+		<F>Je sais c'est pas mes affaires mais un jour, viendra mon tour, qu'est-ce que ça peut bien faire, qu'est-ce que ça peut bien faire, l'amour?</F>
+		<E>I know it's none of my business but one day, my turn will come, what can it really do, what can it really do, love?</E>
+		<F>On verra plus tard, la-la-la, on verra plus tard, la-la-la, on verra plus tard, la-la-la, on verra plus tard, la-la-la.</F>
+		<E>We'll see later, la-la-la, we'll see later, la-la-la, we'll see later, la-la-la, we'll see later, la-la-la.</E>
+		<F>La-la-la, la-la-la, la-la-la.</F>
+		<E>La-la-la, la-la-la, la-la-la.</E>
+		<F>Qu'est-ce que ça peut bien faire au cœur, comme un coup de tonnerre en douceur, parait que ça eclaire, les jours, que c'est comme un aller sans retour.</F>
+		<E>What can it really do to the heart, like a soft thunderstrike, it seems that it lights up, the days, that it's like a one-way ride.</E>
+		<F>Je sais c'est pas mes affaires mais un jour, viendra mon tour, qu'est-ce que ça peut bien faire, qu'est-ce que ça peut bien faire, l'amour?</F>
+		<E>I know it's none of my business but one day, my turn will come, what can it really do, what can it really do, love?</E>
+	</song>
+	<song title="Laissez passer l'espoir" title2="Let go of the hope" link="yt:khtKDH_9OVI" time="[9, 18, 27, 44, 53.5, 64, 77, 86, 95.5, 112.5, 122, 132, 140, 149.5, 160]">
+		<F>Je marchais dans les pas de l'ogre, sans trop me demander pourquoi, ça fait désordre, quand ça ne va pas droit.</F>
+		<E>I was walking in the footsteps of the ogre, without asking myself too much why, it's not very nice, when things don't go right.</E>
+		<F>Quand apparut au son d'un orgue, une fille aux yeux de chat, une de ces filles de l'horreur, qui réveillerait les morts.</F>
+		<E>When there appeared to the sound of an organ, a girl with the eyes of a cat, one of those girls of horror, who would wake up the dead.</E>
+		<F>Elle m'a dit « suis-moi, c'est par ici, ne lâche pas ma main, je t'en prie, frappons trois fois, entrons dans la vie, et chantons toute la nuit ».</F>
+		<E>She said to me, come with me, it's this way, don't let go of my hand, please, let's knock three times, let's come to life, and let's sing the night away.</E>
+		<F>« Laissez passer, l'espoir, laissez la chance au hasard, laissez-nous les vivre, nos belles histoires ».</F>
+		<E>Let go, of the hope, leave the chance to fate, let us live them, our beautiful tales.</E>
+		<F>« Laissez passer, l'espoir, laissez la chance au hasard, si tout est écrit, nous n'irons, nulle part la-la-la ».</F>
+		<E>Let go, of the hope, leave the chance to fate, if everything is written, we won't go, nowhere la-la-la.</E>
+		<F>« Laissez, laissez, laissez, laissez, laissez, laissez passer l'espoir la-la-la ».</F>
+		<E>Let go, let go, let go, let go, let go, let go of the hope la-la-la.</E>
+		<F>Dans la chaleur de cette fête, on s'enivrait de liberté, chaque visage, m'était familier.</F>
+		<E>In the heat of this party, we got drunk on liberty, every face, was familiar to me.</E>
+		<F>Je connaissais ces silhouettes, mais je les avais bien cachées, dans un coin de ma tête, j'avais tout oublié.</F>
+		<E>I knew these silhouettes, but I had hidden them well, in a corner of my head, I had forgotten everything.</E>
+		<F>Quand cette fille, m'a dit « c'est par ici, regarde dans ton cœur endormi, frappe trois fois, reviens à la vie, reviens chanter ceci ».</F>
+		<E>When this girl, said to me, it's this way, look inside your heart that's asleep, knock three times, come back to live, come back to sing this.</E>
+		<F>« Laissez passer, l'espoir, laissez la chance au hasard, laissez-nous les vivre, nos belles histoires ».</F>
+		<E>Let go, of the hope, leave the chance to fate, let us live them, our beautiful tales.</E>
+		<F>« Laissez passer, l'espoir, laissez la chance au hasard, si tout est écrit, nous n'irons, nulle part la-la-la ».</F>
+		<E>Let go, of the hope, leave the chance to fate, if everything is written, we won't go, nowhere la-la-la.</E>
+		<F>« Laissez, laissez, laissez, laissez, laissez, laissez une chance au hasard ».</F>
+		<E>Leave, leave, leave, leave, leave, leave a chance to fate.</E>
+		<F>« Laissez passer, l'espoir, laissez la chance au hasard, laissez-nous les vivre, nos belles histoires ».</F>
+		<E>Let go, of the hope, leave the chance to fate, let us live them, our beautiful tales.</E>
+		<F>« Laissez passer, l'espoir, laissez la chance au hasard, si tout est écrit, nous n'irons nulle part la-la-la ».</F>
+		<E>Let go, of the hope, leave the chance to fate, if everything is written, we won't go, nowhere la-la-la.</E>
+		<F>« Laissez, laissez, laissez, laissez, laissez, laissez passer l'espoir la-la-la ».</F>
+		<E>Let go, let go, let go, let go, let go, let go of the hope la-la-la.</E>
+	</song>
+	<song title="Merci la vie" title2="Thank you life" link="yt:BByQQFqr_ac" time="[2, 18, 22, 38, 46, 60, 68, 84, 88, 104, 112, 126, 134, 142, 150, 158, 172, 180]">
+		<F>Faut voir tout ce qu'on nous fait voir, c'est pas joli, joli, tous ces océans à boire, j'ai perdu l'appétit.</F>
+		<E>You have to see everything we are shown, it's not pretty, pretty, all these oceans to drink, I've lost my appetite.</E>
+		<F>Oui mais moi, je dis, oui mais moi, je dis.</F>
+		<E>Yes but I say, yes but I say.</E>
+		<F>J'ai plein de rêves à revoir, au loin c'est tout petit, qui peut dire ce qu'il va pleuvoir, au-dessus de nos parapluies?</F>
+		<E>I have lots of dreams to see again, in the distance it's very small, who can say what it's going to rain, above our umbrellas?</E>
+		<F>Je connais personne de normal sur ce dance floor, sans les temps fous je perds les temps forts.</F>
+		<E>I know nobody normal on this dance floor, without the mad times I lose the highlights.</E>
+		<F>Mais je dis merci, merci la vie, mi amor, je suis pas toujours d'accord, mais je dis merci, c'est toi la vie, que j'adore.</F>
+		<E>But I say thank you, thank you life, mi amor, I don't always agree, but I say thank you, it's you life, that I adore.</E>
+		<F>Même si tout n'est pas raccord, merci mi amor.</F>
+		<E>Even if everything isn't in harmony, thank you mi amor.</E>
+		<F>On a de drôles d'histoires, des ratés, des folies, mal-être et petits à voir, et le temps qui s'enfuit.</F>
+		<E>We have funny stories, failures, follies, discomfort and little things to see, and the time that flies.</E>
+		<F>Oui mais moi, je dis, oui mais moi, je dis.</F>
+		<E>Yes but I say, yes but I say.</E>
+		<F>Pour les plaisirs dérisoires, on joue « pas vu, pas pris », l'amour, bonjour au revoir, je sais bien, toi aussi.</F>
+		<E>For ridiculous pleasures, we play 'not seen, not caught', love hello and goodbye, I'm well aware, you as well.</E>
+		<F>Vraiment personne de normal sur ce dance floor, tous ces temps fous sans ces temps forts.</F>
+		<E>Really nobody normal on this dance floor, all these mad times without those highlights.</E>
+		<F>Mais je dis merci, merci la vie, mi amor, je suis pas toujours d'accord, mais je dis merci, c'est toi la vie, que j'adore.</F>
+		<E>But I say thank you, thank you life, mi amor, I don't always agree, but I say thank you, it's you life, that I adore.</E>
+		<F>Pour le reste je fais le mort, et je dis merci, j'en veux toujours et encore.</F>
+		<E>For the rest I'm playing dead, and I say thank you, I want to again and again.</E>
+		<F>Même si tout n'est pas raccord, merci mi amor.</F>
+		<E>Even if everything isn't in harmony, thank you mi amor.</E>
+		<F>Je connais personne de normal sur ce dance floor, sans les temps fous je perds les temps forts.</F>
+		<E>I know nobody normal on this dance floor, without the mad times I lose the highlights.</E>
+		<F>Vraiment personne de normal sur ce dance floor, tous ces temps fous sans ces temps forts.</F>
+		<E>Really nobody normal on this dance floor, all these mad times without those highlights.</E>
+		<F>Mais je dis merci, merci la vie, mi amor, je suis pas toujours d'accord, mais je dis merci, c'est toi la vie, que j'adore.</F>
+		<E>But I say thank you, thank you life, mi amor, I don't always agree, but I say thank you, it's you life, that I adore.</E>
+		<F>Pour le reste je fais le mort, et je dis merci, j'en veux toujours et encore.</F>
+		<E>For the rest I'm playing dead, and I say thank you, I want to again and again.</E>
+		<F>Même si tout n'est pas raccord, merci mi amor.</F>
+		<E>Even if everything isn't in harmony, thank you mi amor.</E>
+	</song>
+</album>
+<album id="lamdx" artist="Carla" title="L'autre moi (Deluxe)" title2="The Other Me (Deluxe)" year="2020" cover="i.scdn.co/image/ab67616d00001e02607a2474e2b05d4a5e07dc76" colour="737">
+	<song title="Cœur sur toi" title2="Heart on you" link="yt:AhI98oUYU_s" time="[10.5, 30.5, 49.5, 60, 70, 80, 90, 109, 120, 130, 139.5, 149.5, 162.5, 167.5, 172.5]">
+		<F>Et si on fermait les yeux, juste pour voir un peu mieux, ce qui se passe là-dedans, à l'intérieur évidemment.</F>
+		<E>What if we closed our eyes, just to see a little more, what is happening in there, on the inside of course.</E>
+		<F>Si on attendait un peu, que l'impatience mène le jeu, parait qu'on peut s'aimer de trop, et tout gâcher, vrai ou faux?</F>
+		<E>If we waited a while, for impatience to be in charge, it seems we can love each other too much, and ruin it all, true or false?</E>
+		<F>Après le flash on se détache, comme deux aimants avec le temps.</F>
+		<E>After the spark we break apart, like two magnets over time.</E>
+		<F>Je ferai le premier pas, si toi, tu ne le fais pas, j'ai pas peur de me jeter à l'eau.</F>
+		<E>I will take the first step, if you, you don't take it, I'm not afraid of taking the plunge.</E>
+		<F>Je ferai le premier pas, si toi, tu es comme moi, j'ai pas peur de me jeter à l'eau.</F>
+		<E>I will take the first step, if you, you are like me, I'm not afraid of taking the plunge.</E>
+		<F>J'mets des cœurs, j'mets des cœurs, ouh, ouh, ouh, sur toi et sur moi, j'mets des cœurs, j'mets des cœurs, sur toi et sur moi.</F>
+		<E>I'm putting hearts, I'm putting hearts, ooh, ooh, ooh, on you and me, I'm putting hearts, I'm putting hearts, on you and me.</E>
+		<F>Si on n'écoutait que nous, après tout que vaut l'avis des fous, à moins qu'ils ne soient fous d'amour, je veux cette folie à mon tour.</F>
+		<E>If we only listened to ourselves, after all what good are the thoughts of fools, unless they are foolishly in love, I want to have this folly too.</E>
+		<F>Et lire des pages de tes messages, et tous les posts que tu partages.</F>
+		<E>And read pages of your texts, and all the posts that you share.</E>
+		<F>Je ferai le premier pas, si toi, tu ne le fais pas, j'ai pas peur de me jeter à l'eau.</F>
+		<E>I will take the first step, if you, you don't take it, I'm not afraid of taking the plunge.</E>
+		<F>Je ferai le premier pas, si toi, tu es comme moi, j'ai pas peur de me jeter à l'eau.</F>
+		<E>I will take the first step, if you, you are like me, I'm not afraid of taking the plunge.</E>
+		<F>J'mets des cœurs, j'mets des cœurs, ouh, ouh, ouh, sur toi et sur moi, j'mets des cœurs, j'mets des cœurs, sur toi et sur moi.</F>
+		<E>I'm putting hearts, I'm putting hearts, ooh, ooh, ooh, on you and me, I'm putting hearts, I'm putting hearts, on you and me.</E>
+		<F>J'mets des cœurs, j'mets des cœurs, ouh, ouh, ouh, sur toi et sur moi, j'mets des cœurs, j'mets des cœurs, sur toi et sur moi.</F>
+		<E>I'm putting hearts, I'm putting hearts, ooh, ooh, ooh, on you and me, I'm putting hearts, I'm putting hearts, on you and me.</E>
+		<F>Sur toi et sur moi.</F>
+		<E>On you and me.</E>
+		<F>Sur toi et sur moi.</F>
+		<E>On you and me.</E>
+		<F>Sur toi et sur moi.</F>
+		<E>On you and me.</E>
+	</song>
+	<song title="Et je danse" title2="And I dance" link="yt:_Rw1lOsojgQ" time="[6, 20, 31, 37.5, 44, 51, 57.5, 71, 82, 89, 95.5, 102, 109, 115.5, 122, 128.5, 135, 142, 148.5, 155, 162]">
+		<F>Tu me vois comme une poupée douce, composée qui reste là, faite en tissu et en mousse, jolie dans une robe de soie.</F>
+		<E>You see me as a soft doll, compound that remains here, made of fabric and foam, pretty in a silk dress.</E>
+		<F>Mais quand je vois la lumière, je relève la tête et là, doucement je quitte la terre, et j'oublie tout tu vois.</F>
+		<E>But when I see the light, I raise my head and there, slowly I leave the earth, and I forget everything you see.</E>
+		<F>Et moi, je danse, danse, danse, je danse et tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</F>
+		<E>And I dance, dance, dance, I dance and you see, the night, the day, I run, I do whatever.</E>
+		<F>Et puis je danse, danse, danse et ça n'en finit pas, et les gens tournent, tournent, tournent tout autour de moi.</F>
+		<E>And then I dance, dance, dance and it doesn't end, and the people turn, turn, turn all around me.</E>
+		<F>Et moi, je danse, danse, danse, je danse et tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</F>
+		<E>And I dance, dance, dance, I dance and you see, the night, the day, I run, I do whatever.</E>
+		<F>Et puis je danse, danse, danse et ça n'en finit pas, et les gens tournent, tournent, tournent tout autour de moi.</F>
+		<E>And then I dance, dance, dance and it doesn't end, and the people turn, turn, turn all around me.</E>
+		<F>Mais l'obscurité me pousse, à m'assagir pas à pas, plus de poupée qui trémousse, sa plus jolie robe de soie.</F>
+		<E>But the darkness pushes me, to settle down step by step, no more doll that trembles, her prettiest silk dress.</E>
+		<F>Mais quand revient la lumière, j'entends dans ma tête une voix, qui me dit « on quitte la terre, oublie tout on s'en va ».</F>
+		<E>But when the light returns, I hear in my head a voice, that tells me we leave the earth, forget everything we're going.</E>
+		<F>Et moi, je danse, danse, danse, je danse et tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</F>
+		<E>And I dance, dance, dance, I dance and you see, the night, the day, I run, I do whatever.</E>
+		<F>Et puis je danse, danse, danse et ça n'en finit pas, et les gens tournent, tournent, tournent tout autour de moi.</F>
+		<E>And then I dance, dance, dance and it doesn't end, and the people turn, turn, turn all around me.</E>
+		<F>Et moi, je danse, danse, danse, je danse et tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</F>
+		<E>And I dance, dance, dance, I dance and you see, the night, the day, I run, I do whatever.</E>
+		<F>Et puis je danse, danse, danse et ça n'en finit pas, et les gens tournent, tournent, tournent tout autour de moi.</F>
+		<E>And then I dance, dance, dance and it doesn't end, and the people turn, turn, turn all around me.</E>
+		<F>Et moi, je danse, danse, danse.</F>
+		<E>And I dance, dance, dance.</E>
+		<F>Et moi, je danse, danse, danse.</F>
+		<E>And I dance, dance, dance.</E>
+		<F>Et moi, je danse, danse, danse.</F>
+		<E>And I dance, dance, dance.</E>
+		<F>Et moi, je danse, danse, danse.</F>
+		<E>And I dance, dance, dance.</E>
+		<F>Et moi, je danse, danse, danse, je danse et tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</F>
+		<E>And I dance, dance, dance, I dance and you see, the night, the day, I run, I do whatever.</E>
+		<F>Et puis je danse, danse, danse et ça n'en finit pas, et les gens tournent, tournent, tournent tout autour de moi.</F>
+		<E>And then I dance, dance, dance and it doesn't end, and the people turn, turn, turn all around me.</E>
+		<F>Et moi, je danse, danse, danse, je danse et tu vois, la nuit, le jour, je cours, je fais n'importe quoi.</F>
+		<E>And I dance, dance, dance, I dance and you see, the night, the day, I run, I do whatever.</E>
+		<F>Et puis je danse, danse, danse et ça n'en finit pas, et les gens tournent, tournent, tournent tout autour de moi.</F>
+		<E>And then I dance, dance, dance and it doesn't end, and the people turn, turn, turn all around me.</E>
+		<F>Et moi, je danse.</F>
+		<E>And I dance.</E>
+	</song>
+	<song title="Pas folle" title2="Not crazy" link="yt:EkIanU26Nyg" time="[6, 12.5, 18.5, 25, 31.5, 44.5, 51, 57.5, 64, 73, 79.5, 86, 92, 98.5, 112, 118, 124.5, 131, 140.5, 143.5, 147]">
+		<F>Vous pensez qu'on n'sait faire que des Snaps, qu'on ... sur nos écrans à faire « swipe up ».</F>
+		<E>You think that we only know how to make Snaps, that we ... on our screens to do 'swipe up'.</E>
+		<F>Qu'on fait des « clap clap » devant TikTok, que ce monde réseaux nous rend loufoques.</F>
+		<E>That we do 'clap clap' for TikTok, that this world of networks makes us wacky.</E>
+		<F>Moi, j'connais mes leçons sur le Big Bang, le courant électrique, l'effet boomerang.</F>
+		<E>Me, I know my lessons on the Big Bang, the electrical current, the boomerang effect.</E>
+		<F>Je crée des centaines d'applications, qui répondront aux toutes nos questions.</F>
+		<E>I create hundreds of applications, which will answer all of our questions.</E>
+		<F>Images, visages, tout et cetera, je prends, j'attrape tout ce que je vois, images, visages, tout et cetera, je jette, j'efface si je n'aime pas.</F>
+		<E>Pictures, faces, everything et cetera, I take, I catch everything I see, pictures, faces, everything et cetera, I throw out, I erase if I don't like it.</E>
+		<F>J'invente et je chante et je m'évade, dans ma tête il y a des vagues et des cascades.</F>
+		<E>I invent and I sing and I escape, in my head there are waves and waterfalls.</E>
+		<F>Des notes de musique qui se baladent, des ballons qui volent, je vous jure je ne suis pas folle!</F>
+		<E>Musical notes that walk around, balloons that fly, I swear I'm not crazy!</E>
+		<F>J'invente et je chante et je m'évade, dans ma tête il y a des vagues et des cascades.</F>
+		<E>I invent and I sing and I escape, in my head there are waves and waterfalls.</E>
+		<F>Des notes de musique qui se baladent, des ballons qui volent, je vous jure je ne suis pas folle!</F>
+		<E>Musical notes that walk around, balloons that fly, I swear I'm not crazy!</E>
+		<F>Le compteur de la terre qui fait « tic-tac », les ours polaires qui bronzent sur l'Antarctique.</F>
+		<E>The clock of the earth that goes 'tick-tock', the polar bears that sunbathe on Antarctica.</E>
+		<F>C'est pas ma faute à moi, c'est bien pratique, va la chanter à d'autres, cette musique.</F>
+		<E>It's not my own fault, it's really convenient, go sing it to others, this song.</E>
+		<F>S'il faut vous réveiller vous faire « ding dong », je suis prête à faire sonner le gong.</F>
+		<E>If you have to wake yourself up you do 'ding dong', I'm ready to sound the gong.</E>
+		<F>Chez moi la lune est carrée, elle n'est pas ronde, viens voir à quoi ressemble mon monde.</F>
+		<E>At my home the moon is square, it's not round, come see what my world is like.</E>
+		<F>Images, visages, tout et cetera, je prends, j'attrape tout ce que je vois, images, visages, tout et cetera, je jette, j'efface si je n'aime pas.</F>
+		<E>Pictures, faces, everything et cetera, I take, I catch everything I see, pictures, faces, everything et cetera, I throw out, I erase if I don't like it.</E>
+		<F>J'invente et je chante et je m'évade, dans ma tête il y a des vagues et des cascades.</F>
+		<E>I invent and I sing and I escape, in my head there are waves and waterfalls.</E>
+		<F>Des notes de musique qui se baladent, des ballons qui volent, je vous jure je ne suis pas folle!</F>
+		<E>Musical notes that walk around, balloons that fly, I swear I'm not crazy!</E>
+		<F>J'invente et je chante et je m'évade, dans ma tête il y a des vagues et des cascades.</F>
+		<E>I invent and I sing and I escape, in my head there are waves and waterfalls.</E>
+		<F>Des notes de musique qui se baladent, les ballons qui volent, je vous jure je ne suis pas folle!</F>
+		<E>Musical notes that walk around, the balloons that fly, I swear I'm not crazy!</E>
+		<F>Je vous jure que, je vous jure que, na na na.</F>
+		<E>I swear that, I swear that, na na na.</E>
+		<F>Je vous jure que, je vous jure que, na na na.</F>
+		<E>I swear that, I swear that, na na na.</E>
+		<F>Je vous jure que, je vous jure que, je vous jure je ne suis pas folle!</F>
+		<E>I swear that, I swear that, I swear I'm not crazy!</E>
+	</song>
+	<song title="Aujourd'hui j'arrête" title2="Today I stop" link="yt:9_OfckVuxZI" time="[9, 17.5, 25.5, 42, 50, 60, 68, 77, 93, 101, 110, 118, 127, 135, 144, 152]">
+		<F>Chloe parle à d'un de la classe, elle aide tout le monde pour les devoirs, certains derrière font des grimaces, et la bouscule même dans les couloirs.</F>
+		<E>Chloe talks to one from the class, she helps everyone with their homework, some behind make faces, and even push her around in the hallways.</E>
+		<F>Enzo, toujours la pour les copains, il fait des blagues, il fait le bête, il dit moi ça va toujours bien, mais à la maison c'est pas la fête.</F>
+		<E>Enzo, always there for his friends, he makes jokes, he plays dumb, he tells me it always goes well, but at home it's not a party.</E>
+		<F>C'est important de penser aux autres, personne ne dira le contraire, parfois je suis à côté d'mes bottes, sur un autre fuseau horaire.</F>
+		<E>It's important to think of others, no one would say the opposite, sometimes I'm standing beside my boots, on a different time zone.</E>
+		<F>Aujourd'hui j'arrête de dire oui quand je pense non, aujourd'hui j'arrête et je dis non.</F>
+		<E>Today I stop saying yes when I'm thinking no, today I stop and I say no.</E>
+		<F>Aujourd'hui j'arrête de me chercher des raisons, aujourd'hui j'arrête et je dis non.</F>
+		<E>Today I stop looking for reasons, today I stop and I say no.</E>
+		<F>Mathis fait des cadeaux à Lea, mais son compte en banque est dans le rouge, il pense qu'elle l'aimera mieux comme ça, avec des bijoux et du velours.</F>
+		<E>Mathis gives presents to Lea, but his bank account is in the red, he thinks that she will like him more like that, with jewelry and velvet.</E>
+		<F>Ilona n'a pas dit à Theo, qu'elle l'aime depuis le premier jour, ils sont amis, elle le conseille, pour trouver l'amour.</F>
+		<E>Ilona didn't tell Theo, that she loves him since day one, they are friends, she advices him, how to find love.</E>
+		<F>C'est important de penser aux autres, personne ne dira le contraire, parfois je suis à côté d'mes bottes, sur un autre fuseau horaire.</F>
+		<E>It's important to think of others, no one would say the opposite, sometimes I'm standing beside my boots, on a different time zone.</E>
+		<F>Aujourd'hui j'arrête de dire oui quand je pense non, aujourd'hui j'arrête et je dis non.</F>
+		<E>Today I stop saying yes when I'm thinking no, today I stop and I say no.</E>
+		<F>Aujourd'hui j'arrête de me chercher des raisons, aujourd'hui j'arrête et je dis non.</F>
+		<E>Today I stop looking for reasons, today I stop and I say no.</E>
+		<F>Accepter, accepter, je veux rendre service de bon cœur, accepter, accepter, pas parce qu'on m'a dit de me taire.</F>
+		<E>Accept, accept, I want to help out willingly, accept, accept, not because I have been told to be quiet.</E>
+		<F>Accepter, accepter, je suis pas le mieux ni la meilleure, accepter, accepter, avec le cœur.</F>
+		<E>Accept, accept, I am not the best nor the best, accept, accept, with the heart.</E>
+		<F>Aujourd'hui j'arrête de dire oui quand je pense non, aujourd'hui j'arrête et je dis non.</F>
+		<E>Today I stop saying yes when I'm thinking no, today I stop and I say no.</E>
+		<F>Aujourd'hui j'arrête de me chercher des raisons, aujourd'hui j'arrête et je dis non.</F>
+		<E>Today I stop looking for reasons, today I stop and I say no.</E>
+		<F>Aujourd'hui j'arrête de dire oui quand je pense non, aujourd'hui j'arrête et je dis non.</F>
+		<E>Today I stop saying yes when I'm thinking no, today I stop and I say no.</E>
+		<F>Aujourd'hui j'arrête de me chercher des raisons, aujourd'hui j'arrête et je dis non.</F>
+		<E>Today I stop looking for reasons, today I stop and I say no.</E>
+	</song>
+	<song title="Ça va trop vite" title2="It goes too fast" link="yt:9G7zBhHLrTY" time="[7.5, 15, 22, 29, 36.5, 44, 51, 52, 60, 67, 74, 81.5, 89, 96.5, 104, 112, 119, 126.5, 134, 141.5, 149]">
+		<F>Lundi, réveil à l'aube, p'tit déj' dans le taxi, photos, télé, radio et c'est déjà la nuit.</F>
+		<E>Monday, wake up at dawn, breakfast in the cab, photos, TV, radio and it's already night.</E>
+		<F>Mardi, ça continue, de retour dans le taxi, chorés à répéter et ça jusqu'à minuit.</F>
+		<E>Tuesday, it continues, back again in the cab, choreo to rehearse and that until midnight.</E>
+		<F>Et ça se bouscule dans ma tête, je n'y vois plus très net, pas le temps pour moi de réaliser.</F>
+		<E>And it races in my head, I don't see it very clearly anymore, no time for me to realise.</E>
+		<F>Et ça se bouscule dans ma tête, je n'ai pas trop fait la fête, les jours, les heures, je ne les vois pas passer.</F>
+		<E>And it races in my head, I didn't really celebrate, the days, the hours, I don't see them go by.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Jeudi, il était temps, studio, il y avait longtemps, découvrir des chansons, c'est tellement kiffant.</F>
+		<E>Thursday, it's about time, studio, it's been a long time, discovering songs, it's so much fun.</E>
+		<F>Samedi, non vendredi, ça s'passe, bah comme un lundi, photos, télé, radio et c'est déjà la nuit.</F>
+		<E>Saturday, no Friday, it goes, well just like a Monday, photos, TV, radio and it's already night.</E>
+		<F>Et ça se bouscule dans ma tête, je n'y vois plus très net, pas le temps pour moi de réaliser.</F>
+		<E>And it races in my head, I don't see it very clearly anymore, no time for me to realise.</E>
+		<F>Et ça se bouscule dans ma tête, je n'ai pas trop fait la fête, les jours, les heures, je ne les vois pas passer.</F>
+		<E>And it races in my head, I didn't really celebrate, the days, the hours, I don't see them go by.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Et ça se bouscule dans ma tête, je n'y vois plus très net, pas le temps pour moi de réaliser.</F>
+		<E>And it races in my head, I don't see it very clearly anymore, no time for me to realise.</E>
+		<F>Et ça se bouscule dans ma tête, je n'ai pas trop fait la fête, les jours, les heures, je ne les vois pas passer.</F>
+		<E>And it races in my head, I didn't really celebrate, the days, the hours, I don't see them go by.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+		<F>Ça va trop vite.</F>
+		<E>It goes too fast.</E>
+	</song>
+	<song title="Noël blanc" title2="White Christmas" link="yt:Ty53Nji0aHw" time="[0, 16, 35.5, 50.5, 66.5, 81, 127, 142]">
+		<F>Oh quand j'entends chanter Noël, j'aime revoir mes joies d'enfant.</F>
+		<E>Oh when I hear the Christmas carols, I like to look back at my childhood joys.</E>
+		<F>Le sapin scintillant, la neige d'argent, Noël mon beau rêve blanc.</F>
+		<E>The fir tree shining, the snow silver, Christmas my lovely white dream.</E>
+		<F>Oh quand j'entends sonner au ciel, l'heure où le bon vieillard descend.</F>
+		<E>Oh when I hear the ringing in the sky, the hour when the good old man descends.</E>
+		<F>Je revois tes yeux clairs, maman, et je songe à d'autres Noëls blancs.</F>
+		<E>I see your bright eyes again, mom, and I think of the other white Christmases.</E>
+		<F>Oh quand j'entends chanter Noël, j'aime revoir mes joies d'enfant.</F>
+		<E>Oh when I hear the Christmas carols, I like to look back at my childhood joys.</E>
+		<F>Le sapin scintillant, la neige d'argent, Noël mon beau rêve blanc.</F>
+		<E>The fir tree shining, the snow silver, Christmas my lovely white dream.</E>
+		<F>Oh quand j'entends sonner au ciel, l'heure où le bon vieillard descend.</F>
+		<E>Oh when I hear the ringing in the sky, the hour when the good old man descends.</E>
+		<F>Je revois tes yeux clairs, maman, et je songe à d'autres Noëls blancs.</F>
+		<E>I see your bright eyes again, mom, and I think of the other white Christmases.</E>
+	</song>
+</album>
+<album id="sf" artist="Carla" title="Sans filtre" title2="Without Filter" year="2021" cover="images.genius.com/fc86cf4e4f86bdcd4c6939188e468a75.526x526x1.jpg" colour="3CC">
+	<song title="Summer Summer" link="yt:j8sUZODD7us" time="[10.5, 20, 28.5, 39.5, 49, 60, 68, 78, 86, 97, 106.5, 116, 127]">
+		<F>Summer, summer, allez mets-toi sur ma page, summer, summer, et rejoins-moi à la nage.</F>
+		<E>Summer, summer, come on put yourself on my page, summer, summer, and join me for a swim.</E>
+		<F>Summer, summer, allez plonge, n'aie pas peur, summer, summer, y'a que le bleu, la douceur...</F>
+		<E>Summer, summer, come on dive, don't be afraid, summer, summer, there's only the blue, the softness...</E>
+		<F>Et les frissons qui nous aillent du love and co en corail, de l'indigo dans ma paille, tropical paradise.</F>
+		<E>And the chills that suit us of coral love and company, indigo in my straw, tropical paradise.</E>
+		<F>La mer, le rivage, nos corps en voyages, des coups de sun, des coups de cœur et le summer, summer, summer.</F>
+		<E>The sea, the shore, our bodies on a trip, strokes of sun, hearts' desires and the summer, summer, summer.</E>
+		<F>Le ciel est sauvage, je ne serai plus sage, si tu te penches, si tu m'effleures tout le summer, summer, summer, summertime.</F>
+		<E>The sky is fierce, I won't know any better, if you lean over, if you touch me the whole summer, summer, summer, summertime.</E>
+		<F>Summertime, oh summertime.</F>
+		<E>Summertime, oh summertime.</E>
+		<F>Summer, summer, des baisers volent sur la plage, summer, summer, je balance mes coquillages.</F>
+		<E>Summer, summer, kisses are flying over the beach, summer, summer, I'm throwing my seashells.</E>
+		<F>Summer, summer, pour ce moment qu'on partage, summer, summer, sans jamais craindre l'orage.</F>
+		<E>Summer, summer, for this moment that we share, summer, summer, without ever fearing a storm.</E>
+		<F>Je mets dans mon paysage, ce love and co en corail, de l'indigo dans ma paille, tropical paradise.</F>
+		<E>I'm putting in my scenery, this coral love and company, indigo in my straw, tropical paradise.</E>
+		<F>La mer, le rivage, nos corps en voyages, des coups de sun, des coups de cœur et le summer, summer, summer.</F>
+		<E>The sea, the shore, our bodies on a trip, strokes of sun, hearts' desires and the summer, summer, summer.</E>
+		<F>La mer, le rivage, nos corps en voyages, des coups de sun, des coups de cœur et le summer, summer, summer.</F>
+		<E>The sea, the shore, our bodies on a trip, strokes of sun, hearts' desires and the summer, summer, summer.</E>
+		<F>Le ciel est sauvage, je ne serai plus sage, si tu te penches, si tu m'effleures tout le summer, summer, summer, summertime.</F>
+		<E>The sky is fierce, I won't know any better, if you lean over, if you touch me the whole summer, summer, summer, summertime.</E>
+		<F>Summertime, oh summertime, summer, summertime.</F>
+		<E>Summertime, oh summertime, summer, summertime.</E>
+	</song>
+	<song title="Alors chut" title2="So shut up" link="yt:0EmaZ5Xv9sc" time="[4, 12, 20, 28, 36.5, 40.5, 44.5, 48.5, 53, 61.5, 69.5, 77.5, 85.5, 89.5, 94, 98, 102, 106.5, 110.5, 118.5, 122.5, 126.5, 130.5, 135]">
+		<F>J'entends des mots mais tout est flou, ici et là, des mots partout, partout.</F>
+		<E>I'm hearing words but everything is vague, here and there, words everywhere, everywhere.</E>
+		<F>Arrêtez de me dire qui je pourrais être, je n'ai pas besoin de vous dans ma tête.</F>
+		<E>Stop telling me who I could be, I don't need to have you in my head.</E>
+		<F>Moins de bruit, moins de mots, qui ici a besoin d'air, ça siffle dans mes oreilles mais personne ne veut se taire.</F>
+		<E>Less noise, less words, who here needs some air, it's whistling in my ears but nobody wants to be quiet.</E>
+		<F>C'est trop facile de faire pareil que tous les autres aussi, je le sens au bout de mes cils, je n'veux plus être gentille.</F>
+		<E>It's too easy to do the same as everyone else, I feel it at the end of my lashes, I don't want to be nice anymore.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Encore quelqu'un qui parle pour ne rien dire, moi, je dis « chut » car je n'ai plus le temps d'en rire.</F>
+		<E>Again somebody who talks to say nothing, me, I say 'shut up' because I no longer have time to laugh about it.</E>
+		<F>Non, non, je n'veux plus de paroles vides de sens, je m'imagine devenir immense.</F>
+		<E>No, no, I don't want empty words anymore, I imagine myself becoming huge.</E>
+		<F>Et je regarde de là-haut vos promesses, je m'amuse de toutes vos maladresses, oh la la.</F>
+		<E>And I look down on your promises, I laugh at all your blunders, ooh la la.</E>
+		<F>Moi, je me sens grandir de jour en jour, je regarde l'avenir, je n'veux plus de détours.</F>
+		<E>Me, I feel myself growing day by day, I'm looking to the future, I don't want any more detours.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Chut, alors chut.</F>
+		<E>Shut up, so shut up.</E>
+		<F>Chut, alors chut.</F>
+		<E>Shut up, so shut up.</E>
+		<F>Shh, chut.</F>
+		<E>Shh, shut up.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Alors chut, ah, encore, trop de mots.</F>
+		<E>So shut up, ah, still, too many words.</E>
+		<F>Chut.</F>
+		<E>Shut up.</E>
+	</song>
+	<song title="Made in maintenant" title2="Made in the Now" link=""/>
+	<song title="Avec toi" title2="With You" link=""/>
+	<song title="Les gens qui s'aiment" title2="People Who Love Each Other" link=""/>
+	<song artist="Carla &amp; Augustin Galiana" title="Loca" link=""/>
+	<song title="Tout recommencer" title2="Start All Over" link=""/>
+	<song title="L'autre bout du monde" title2="The Other End of the World" link=""/>
+	<song title="Comblée" title2="Fulfilled" link=""/>
+	<song title="À la folie" title2="To Madness" link=""/>
+	<song title="Plus jamais" title2="Never Again" link=""/>
+	<song title="Cœur avec les mains" title2="Heart with My Hands" link=""/>
+	<song title="On se retrouvera" title2="We'll Meet Again" link=""/>
+	<song title="Bim Bam toi (Remix)" title2="Bim Bam You (Remix)" link=""/>
+</album>
+<album id="gt" artist="Various Artists" title="Green Team" year="2020" cover="i.scdn.co/image/ab67616d00001e02af46fcda3c5ee11e9ca910e3" colour="482">
+	<song artist="Carla, Lou, Yun &amp; Kids United (Valentina, Ilyana, Gloria, Dylan &amp; Nathan)" title="Trois petits pas" title2="Three small steps" link="yt:f7kdKHQ4H-g" time="[14, 20.5, 28, 41.5, 48, 54, 61, 68.5, 82, 89, 95, 101.5, 109, 122, 128.5, 135.5, 142]">
+		<F>Il y a tant, il y a tant, il y a tant, tant à faire, tant à faire, tant à faire.</F>
+		<E>There's a lot, there's a lot, there's a lot, lot to do to make, lot to do to make, lot to do to make.</E>
+		<F>Faire un monde, faire un monde, faire un monde, monde meilleur, monde meilleur, monde meilleur.</F>
+		<E>Make a world, make a world, make a world, world that's better, world that's better, world that's better.</E>
+		<F>Pourquoi on change pas, pourquoi on va pas jusqu'au bout, pourquoi je ne comprends pas, je crois ce monde est fou.</F>
+		<E>Why don't we change, why don't we go until the end, why I don't understand, I think this world is mad.</E>
+		<F>Dis-moi que fais-tu toi, moi qu'est-ce que je peux faire, toi pour aider ce monde, toi qu'est-ce que tu veux faire?</F>
+		<E>Tell me what are you doing, me what can I do, to help this world, what do you want to do?</E>
+		<F>Ce monde est ton chez toi, toi et moi on espère, il nous reste quelques secondes.</F>
+		<E>This world is your home, you and I we hope, we have a few seconds left.</E>
+		<F>Trois petits pas, trois petits pas, trois petits pas, pas le choix, pas le choix, pas le choix.</F>
+		<E>Three small steps, three small steps, three small steps, no choice, no choice, no choice.</E>
+		<F>Trois petits pas, trois petits pas, trois petits pas, pas le choix, pas le choix, pas le choix.</F>
+		<E>Three small steps, three small steps, three small steps, no choice, no choice, no choice.</E>
+		<F>Pourquoi on change pas, pourquoi on va pas jusqu'au bout, pourquoi je ne comprends pas, je crois ce monde est fou.</F>
+		<E>Why don't we change, why don't we go until the end, why I don't understand, I think this world is mad.</E>
+		<F>Dis-moi qui fais-tu toi, moi qu'est-ce que je peux faire, toi pour aider ce monde, toi qu'est-ce que tu veux faire?</F>
+		<E>Tell me what are you doing, me what can I do, to help this world, what do you want to do?</E>
+		<F>Ce monde est ton chez toi, toi et moi on espère, il nous reste quelques secondes.</F>
+		<E>This world is your home, you and I we hope, we have a few seconds left.</E>
+		<F>C'est si beau, c'est si beau, c'est si beau, beau comme tout, beau comme tout, beau comme tout.</F>
+		<E>It's so beautiful, it's so beautiful, it's so beautiful, beautiful as everything, beautiful as everything, beautiful as everything.</E>
+		<F>Tout est la, tout est la, tout est la, la pour nous, la pour nous, la pour nous.</F>
+		<E>Everything is here, everything is here, everything is here, here for us, here for us, here for us.</E>
+		<F>Pourquoi on change pas, pourquoi on va pas jusqu'au bout, pourquoi je ne comprends pas, je crois ce monde est fou.</F>
+		<E>Why don't we change, why don't we go until the end, why I don't understand, I think this world is mad.</E>
+		<F>Trois petits pas, trois petits pas, trois petits pas, pas le choix, pas le choix, pas le choix.</F>
+		<E>Three small steps, three small steps, three small steps, no choice, no choice, no choice.</E>
+		<F>Trois petits pas, trois petits pas, trois petits pas, pas le choix, pas le choix, pas le choix.</F>
+		<E>Three small steps, three small steps, three small steps, no choice, no choice, no choice.</E>
+		<F>Trois petits pas, trois petits pas, trois petits pas, pas le choix, pas le choix, pas le choix.</F>
+		<E>Three small steps, three small steps, three small steps, no choice, no choice, no choice.</E>
+		<F>Trois petits pas, trois petits pas, trois petits pas, pas le choix, pas le choix, pas le choix.</F>
+		<E>Three small steps, three small steps, three small steps, no choice, no choice, no choice.</E>
+	</song>
+	<song artist="Philippine &amp; Tibz" title="Ça fait longtemps" title2="It's been a long time" link="yt:Wam6dX3eG7w" time="[7.5, 15.5, 23, 31, 40.5, 48.5, 56, 63.5, 71.5, 79, 87, 94.5, 104, 112, 120, 127.5, 135, 151, 158.5, 167.5, 174]">
+		<F>Ça fait longtemps que j'ai pas pu me reposer, que j'ai pas su me distraire.</F>
+		<E>It's been a long time since I was able to rest, that I didn't know how to distract myself.</E>
+		<F>Ça fait longtemps que j'ai pas posé sous mes pieds, le calme des rivières.</F>
+		<E>It's been a long time since I put under my feet, the calm of the rivers.</E>
+		<F>Ça fait longtemps que je sens le vent se lever, et moi, je prends la poussière, et moi, je prends la poussière.</F>
+		<E>It's been a long time since I felt the wind pick up, and me, I'm gathering dust, I'm gathering dust.</E>
+		<F>Pas vu le temps qui pourtant, passait sous mon nez, qu'est-ce qu'on a tant à faire?</F>
+		<E>Not considering the time that was passing under my nose, what do we have so much to do?</E>
+		<F>Pourquoi la terre tourne sans s'arrêter, et pourquoi je cours derrière?</F>
+		<E>Why does the earth turn without stopping, and why do I run behind?</E>
+		<F>Dans les herbes hautes, j'irai m'allonger, et changer d'atmosphère.</F>
+		<E>In the tall grass, I'll lie down, and change the atmosphere.</E>
+		<F>Pourquoi la terre ne fait que se répéter, et l'on ne sait plus se taire?</F>
+		<E>Why is the earth only repeating itself, and we no longer know how to be quiet?</E>
+		<F>Dans les herbes hautes, allons s'allonger, et changer d'atmosphère, changer d'atmosphère.</F>
+		<E>In the tall grass, let's lie down, and change the atmosphere, change the atmosphere.</E>
+		<F>Ça fait longtemps que je traine, même pas fatigué, j'garde les yeux en l'air, j'garde les yeux en l'air.</F>
+		<E>It's been a long time that I'm hanging around, not even tired, I keep my eyes up, I keep my eyes up.</E>
+		<F>À chercher du sens au silence, au ciel étoilé, juste un peu de lumière.</F>
+		<E>Looking for meaning in the silence, in the starry sky, just a little light.</E>
+		<F>Ça fait longtemps que le temps veut nous rassembler, et quand l'amour nous resserre, et quand l'amour nous resserre.</F>
+		<E>It's been a long time since time wants to bring us together, and when love tightens us, and when love tightens us.</E>
+		<F>On oublie nos peurs, nos erreurs, on commence à chanter, partout dans l'univers, oooooh.</F>
+		<E>We forget our fears, our mistakes, we start to sing, everywhere in the universe, oooooh.</E>
+		<F>Pourquoi la terre tourne sans s'arrêter, et pourquoi je cours derrière?</F>
+		<E>Why does the earth turn without stopping, and why do I run behind?</E>
+		<F>Dans les herbes hautes, j'irai m'allonger, et changer d'atmosphère, changer d'atmosphère.</F>
+		<E>In the tall grass, I'll lie down, and change the atmosphere, change the atmosphere.</E>
+		<F>Pourquoi la terre ne fait que se répéter, et l'on ne sait plus se taire?</F>
+		<E>Why is the earth only repeating itself, and we no longer know how to be quiet?</E>
+		<F>Dans les herbes hautes, allons s'allonger, et changer d'atmosphère.</F>
+		<E>In the tall grass, let's lie down, and change the atmosphere.</E>
+		<F>La-la la-la la-la la-la la-la-la-la la-la-la-la-la-la, la-la la-la la-la la-la la-la-la-la la-la-la-la-la-la.</F>
+		<E>La-la la-la la-la la-la la-la-la-la la-la-la-la-la-la, la-la la-la la-la la-la la-la-la-la la-la-la-la-la-la.</E>
+		<F>Pourquoi la terre tourne sans s'arrêter, et pourquoi je cours derrière, et pourquoi je cours derrière?</F>
+		<E>Why does the earth turn without stopping, and why do I run behind, and why do I run behind?</E>
+		<F>Dans les herbes hautes, j'irai m'allonger, et changer d'atmosphère, changer d'atmosphère.</F>
+		<E>In the tall grass, I'll lie down, and change the atmosphere, and change the atmosphere.</E>
+		<F>Pourquoi la terre ne fait que se répéter, et l'on ne sait plus se taire, et l'on ne sait plus se taire?</F>
+		<E>Why is the earth only repeating itself, and we no longer know how to be quiet, and we no longer know how to be quiet?</E>
+		<F>Dans les herbes hautes, allons s'allonger, et changer d'atmosphère.</F>
+		<E>In the tall grass, let's lie down, and change the atmosphere.</E>
+	</song>
+	<song artist="Erza Muqoli" title="Les enfants du monde" title2="The children of the world" link="yt:7_BFtSPOKPM" time="[7.5, 22, 36, 50, 64.5, 80, 94, 108, 122, 136.5, 152, 166, 180, 194.5, 209]">
+		<F>Maman m'a dit de faire attention, j'ai pas compris mais j'ai monté le son, j'ai vu la terre mourir à petit feu, comme dit mon père on aurait pu faire mieux.</F>
+		<E>Mom told me to pay attention, I didn't understand but turned up the volume, I saw the earth die slowly, as my father said we could have done better.</E>
+		<F>J'ai pas compris j'ai posé des questions, dites-moi les grands n'ont-ils pas de raison, ça serait dommage qu'on puisse plus vivre ici, ou même pire qu'on meure de leurs conneries.</F>
+		<E>I didn't understand I asked questions, tell me don't the grown-ups have reason, it would be a shame that we could no longer live here, or even worse that we died of their mistakes.</E>
+		<F>Et ça danse, danse, danse dans ce monde, mais ça ne pense pas, et ça danse, danse, danse dans la ronde, mais nos vieux ne pensent pas.</F>
+		<E>And it dances, dances, dances in this world, but it doesn't think, and it dances, dances, dances around, but our old folks don't think.</E>
+		<F>Nous sommes les enfants du monde, nous sommes les enfants du monde, et si nos parents se trompent, que vont-ils nous laisser dans ce monde?</F>
+		<E>We are the children of the world, we are the children of the world, and if our parents are mistaken, what will they leave us in this world?</E>
+		<F>Nous sommes les enfants du monde, nous sommes les enfants du monde, et si nos parents se trompent, que vont-ils nous laisser dans ce monde?</F>
+		<E>We are the children of the world, we are the children of the world, and if our parents are mistaken, what will they leave us in this world?</E>
+		<F>Tonton m'a dit je fais attention, et tu devrais faire pareil mon garçon, dans quelques temps ce sera déjà trop tard, on ne peut plus laisser ça au hasard.</F>
+		<E>Uncle told me I pay attention, and you should do the same my boy, in some time it will already be too late, we can no longer leave this to chance.</E>
+		<F>J'ai pris ma feuille et fait quelques brouillons, avant de vous écrire cette chanson, la vérité sort de la bouche des enfants, donnez-nous le droit de devenir grands.</F>
+		<E>I took my sheet and made a few drafts, before writing this song to you, the truth comes from the mouths of children, give us the right to grow up.</E>
+		<F>Et ça danse, danse, danse dans ce monde, mais ça ne pense pas, et ça danse, danse, danse dans la ronde, mais nos vieux ne pensent pas.</F>
+		<E>And it dances, dances, dances in this world, but it doesn't think, and it dances, dances, dances around, but our old folks don't think.</E>
+		<F>Nous sommes les enfants du monde, nous sommes les enfants du monde, et si nos parents se trompent, que vont-ils nous laisser dans ce monde?</F>
+		<E>We are the children of the world, we are the children of the world, and if our parents are mistaken, what will they leave us in this world?</E>
+		<F>Nous sommes les enfants du monde, nous sommes les enfants du monde, et si nos parents se trompent, que vont-ils nous laisser dans ce monde?</F>
+		<E>We are the children of the world, we are the children of the world, and if our parents are mistaken, what will they leave us in this world?</E>
+		<F>Ouh, ouh ouh ouh ouh ouh, ouh, ouh ouh ouh ouh ouh, ouh, ouh ouh ouh ouh ouh, que vont-ils nous laisser dans ce monde?</F>
+		<E>Ooh, ooh ooh ooh ooh ooh, ooh, ooh ooh ooh ooh ooh, ooh, ooh ooh ooh ooh ooh, what will they leave us in this world?</E>
+		<F>Et ça danse, danse, danse dans ce monde, mais ça ne pense pas, et ça danse, danse, danse dans la ronde, mais nos vieux ne pensent pas.</F>
+		<E>And it dances, dances, dances in this world, but it doesn't think, and it dances, dances, dances around, but our old folks don't think.</E>
+		<F>Nous sommes les enfants du monde, nous sommes les enfants du monde, et si nos parents se trompent, que vont-ils nous laisser dans ce monde?</F>
+		<E>We are the children of the world, we are the children of the world, and if our parents are mistaken, what will they leave us in this world?</E>
+		<F>Nous sommes les enfants du monde, nous sommes les enfants du monde, et si nos parents se trompent, que vont-ils nous laisser dans ce monde?</F>
+		<E>We are the children of the world, we are the children of the world, and if our parents are mistaken, what will they leave us in this world?</E>
+		<F>Nous sommes les enfants du monde, nous sommes les enfants du monde, et si nos parents se trompent, que vont-ils nous laisser dans ce monde?</F>
+		<E>We are the children of the world, we are the children of the world, and if our parents are mistaken, what will they leave us in this world?</E>
+	</song>
+	<song artist="Carla &amp; Kids United (Valentina, Ilyana &amp; Gloria)" title="Le chant sauvage" title2="The wild song" link="yt:RXdhEw8CcKA" time="[11, 21, 32, 42.5, 53, 64.5, 74, 85, 96, 106.5, 118, 128.5, 138.5, 149, 160, 170.5]">
+		<F>Viens sur la route on trace, un chemin pour demain, tu sais le monde est beau, si tu regardes plus haut.</F>
+		<E>Come on the road we trace, a path for tomorrow, you know the world is beautiful, if you look from higher up.</E>
+		<F>Viens on prend la route bien en face, on a besoin de rien, tout le monde dans le même bateau, tous ensemble vers un nouveau...</F>
+		<E>Come we take the road right in front, we need nothing, everyone in the same boat, all together towards a new...</E>
+		<F>Rêve d'exister sans jamais abandonner ni renoncer, exister, retrouver un monde en couleurs.</F>
+		<E>Dream of existing without ever giving up or giving in, existing, finding a colourful world.</E>
+		<F>Entends-tu le chant sauvage, venu de loin du fond des âges, il nous raconte quand vient le soir, un peu de nous dans son histoire.</F>
+		<E>Do you hear the wild song, coming far from the depths of time, it tells us when the evening comes, a little of us in it's story.</E>
+		<F>Entends-tu le chant sauvage, toujours vivant toujours plus sage, comme une lueur, un bout d'espoir, un peu de nous, de notre histoire.</F>
+		<E>Do you hear the wild song, still alive always wiser, like a glimmer, a bit of hope, a little of us, of our story.</E>
+		<F>Oublie tes doutes, efface, les lignes de ta main, et le futur sera, ce qu'ensemble on écrira.</F>
+		<E>Forget your doubts, erase, the lines of your hand, and the future will be, what we will write together.</E>
+		<F>Coute que coute on court et on passe, on va toujours plus loin, on a besoin au fond, besoin de toi, accroche-toi à ton...</F>
+		<E>No matter what we run and we pass, we always go further, we need deep down, need you, hold on to your...</E>
+		<F>Rêve d'exister sans jamais abandonner ni renoncer, exister, retrouver un monde en couleurs.</F>
+		<E>Dream of existing without ever giving up or giving in, existing, finding a colourful world.</E>
+		<F>Entends-tu le chant sauvage, venu de loin du fond des âges, il nous raconte quand vient le soir, un peu de nous dans son histoire.</F>
+		<E>Do you hear the wild song, coming far from the depths of time, it tells us when the evening comes, a little of us in it's story.</E>
+		<F>Entends-tu le chant sauvage, toujours vivant toujours plus sage, comme une lueur, un bout d'espoir, un peu de nous, de notre histoire.</F>
+		<E>Do you hear the wild song, still alive always wiser, like a glimmer, a bit of hope, a little of us, of our story.</E>
+		<F>Je veux encore essayer, je veux encore espérer, qu'il nous reste le temps de faire du bien sans être faux.</F>
+		<E>I still want to try, I still want to hope, that we have the time to do good without being wrong.</E>
+		<F>Encore une fois se lever, encore une fois essayer, de faire de demain un renouveau oh, nouveau oh.</F>
+		<E>Once again get up, try again, to make tomorrow a revival oh, new oh.</E>
+		<F>Entends-tu le chant sauvage, venu de loin du fond des âges, il nous raconte quand vient le soir, un peu de nous dans son histoire.</F>
+		<E>Do you hear the wild song, coming far from the depths of time, it tells us when the evening comes, a little of us in it's story.</E>
+		<F>Entends-tu le chant sauvage, toujours vivant toujours plus sage, comme une lueur, un bout d'espoir, un peu de nous, de notre histoire.</F>
+		<E>Do you hear the wild song, still alive always wiser, like a glimmer, a bit of hope, a little of us, of our story.</E>
+		<F>Entends-tu le chant sauvage, venu de loin du fond des âges, il nous raconte quand vient le soir, un peu de nous dans son histoire.</F>
+		<E>Do you hear the wild song, coming far from the depths of time, it tells us when the evening comes, a little of us in it's story.</E>
+		<F>Entends-tu le chant sauvage, toujours vivant toujours plus sage, comme une lueur, un bout d'espoir, un peu de nous, de notre histoire.</F>
+		<E>Do you hear the wild song, still alive always wiser, like a glimmer, a bit of hope, a little of us, of our story.</E>
+	</song>
+	<song artist="Lou &amp; Sundy Jules" title="Tout pour elle" title2="Everything for her" link="yt:Q8PLxkKg6hU" time="[8, 23, 31, 38.5, 46.5, 55, 71.5, 78.5, 85.5, 93.5, 103, 118, 125.5, 133, 141, 150]">
+		<F>Elle est ma vie, elle est ma terre, c'est elle qui m'a tout donné, elle est le sol sous chaque pierre, qu'au fil des jours j'ai posées.</F>
+		<E>She's my life, she's my earth, she's the one who gave me everything, she is the ground under every stone, that over the days I have laid.</E>
+		<F>Oh mama, oh mama, oh mama, si tu veux bien de moi, je serai là pour toi (oh mama, oh mama, oh mama).</F>
+		<E>Oh mama, oh mama, oh mama, if you want me, I'll be there for you (oh mama, oh mama, oh mama).</E>
+		<F>Oh mama, oh mama, oh mama, si je t'ouvre mes bras, est-ce que tu me pardonneras?</F>
+		<E>Oh mama, oh mama, oh mama, if I open my arms to you, will you forgive me?</E>
+		<F>J'ferais tout pour elle, oui j'ferais tout pour elle, j'ferais tout pour celle qui m'a tout donné (qui m'a tout donné).</F>
+		<E>I would do anything for her, yes I would do anything for her, I would do anything for the one who gave me everything (who gave me everything).</E>
+		<F>J'ferais tout pour elle, oui j'ferais tout pour elle, j'ferais tout pour qu'elle puisse me pardonner (me pardonner).</F>
+		<E>I would do anything for her, yes I would do anything for her, I would do anything so that she can forgive me (forgive me).</E>
+		<F>J'ai pas écouté ses prières (ses prières), j'ai avancé les yeux fermés, aujourd'hui, il pleut sur ses rêves (sur ses rêves), les larmes de tout mes regrets.</F>
+		<E>I didn't listen to his prayers (his prayers), I walked forward with my eyes closed, today it is raining on his dreams (on his dreams), the tears of all my regrets.</E>
+		<F>Oh mama, oh mama, oh mama, si tu veux bien de moi, je serai là pour toi (là pour toi).</F>
+		<E>Oh mama, oh mama, oh mama, if you want me to, I will be there for you, there for you.</E>
+		<F>Oh mama, oh mama, oh mama, si je t'ouvre mes bras, est-ce que tu me pardonneras?</F>
+		<E>Oh mama, oh mama, oh mama, if I open my arms to you, will you forgive me?</E>
+		<F>J'ferais tout pour elle, oui j'ferais tout pour elle, j'ferais tout pour celle qui m'a tout donné (qui m'a tout donné).</F>
+		<E>I would do anything for her, yes I would do anything for her, I would do anything for the one who gave me everything (who gave me everything).</E>
+		<F>J'ferais tout pour elle, oui j'ferais tout pour elle, j'ferais tout pour qu'elle puisse me pardonner (me pardonner).</F>
+		<E>I would do anything for her, yes I would do anything for her, I would do anything so that she can forgive me (forgive me).</E>
+		<F>Oh ma-ma-ma-ma, oh ma-ma-ma-ma, oh ma-ma-ma-ma, oh ma-ma-ma-ma.</F>
+		<E>Oh ma-ma-ma-ma, oh ma-ma-ma-ma, oh ma-ma-ma-ma, oh ma-ma-ma-ma.</E>
+		<F>Il m'a fallu du temps, mais j'ai compris, qu'elle est celle qui donne un sens à votre vie, et si rien ne change, qu'on reste endormis, à courir les yeux fermés, comme des zombies.</F>
+		<E>It took me a long time, but I understood, that she is the one who gives meaning to your life, and if nothing changes, that we stay asleep, running with our eyes closed, like zombies.</E>
+		<F>À s'en effrayer de la vie qui coule dans ses veines, on pourra plus faire demi-tour, non c'est pas la peine, alors il faut se réveiller, la prendre dans nos bras et puis chanter.</F>
+		<E>To be afraid of the life that runs through her veins, you won't be able to turn around anymore, no it's not worth it, so you have to wake up, take her in our arms and then sing.</E>
+		<F>J'ferais tout pour elle, oui j'ferais tout pour elle, j'ferais tout pour celle qui m'a tout donné (qui m'a tout donné).</F>
+		<E>I would do anything for her, yes I would do anything for her, I would do anything for the one who gave me everything (who gave me everything).</E>
+		<F>J'ferais tout pour elle, oui j'ferais tout pour elle, j'ferais tout pour qu'elle puisse me pardonner (me pardonner).</F>
+		<E>I would do anything for her, yes I would do anything for her, I would do anything so that she can forgive me (forgive me).</E>
+		<F>Oh ma-ma-ma-ma, oh ma-ma-ma-ma, oh ma-ma-ma-ma, oh ma-ma-ma-ma.</F>
+		<E>Oh ma-ma-ma-ma, oh ma-ma-ma-ma, oh ma-ma-ma-ma, oh ma-ma-ma-ma.</E>
+	</song>
+	<song artist="Trois Cafés Gourmands &amp; Lola Dubini" title="Si demain" title2="If tomorrow" link="yt:udZGWXa_MAs" time="[0, 7, 14.5, 22, 30, 37.5, 46.5, 53, 60.5, 68, 76, 83.5, 92.5, 100, 107, 114.5, 122.5, 130, 137.5, 145]">
+		<F>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</F>
+		<E>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</E>
+		<F>Ils te traitent de fou, de naïf, grand enfant, dis leur merci beaucoup, c'est comme des compliments.</F>
+		<E>They call you crazy, naive, big child, say thank you to them very much, it's like compliments.</E>
+		<F>Ils disent « à quoi tu joues », ils n'y voient que du vent, montre leur que chaque jour, donne un nouvel élan.</F>
+		<E>They say 'what are you doing', they see nothing but wind, show them that every day gives new impetus.</E>
+		<F>J'entends encore chanter l'espérance, elle me dit « bientôt tout commence ».</F>
+		<E></E>
+		<F>Si demain, on tente, le futur, on l'enchante, et si demain, on donne, la planète nous pardonne.</F>
+		<E>If tomorrow, we try, the future, we enchant it, and if tomorrow, we give, the planet forgives us.</E>
+		<F>Ouais, si demain, on rêve, alors nos voix s'élèvent, pour dire « hier c'était bien, mais ce sera mieux demain ».</F>
+		<E>Yeah, if tomorrow we dream, then our voices are raised, to say "yesterday it was good, but it will be better tomorrow".</E>
+		<F>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</F>
+		<E>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</E>
+		<F>Regarde comme il fait beau, quand s'en vont les nuages, Dessine d'autres tableaux, peins d'autres paysages.</F>
+		<E></E>
+		<F>Il est venu le temps, de changer de profil, voir le monde en plus grand, tout est encore possible.</F>
+		<E></E>
+		<F>J'ai entendu chanter le printemps, il m'a dit « demain c'est maintenant ».</F>
+		<E></E>
+		<F>Si demain, on tente, le futur, on l'enchante, et si demain, on donne, la planète nous pardonne.</F>
+		<E>If tomorrow, we try, the future, we enchant it, and if tomorrow, we give, the planet forgives us.</E>
+		<F>Ouais, si demain, on rêve, alors nos voix s'élèvent, pour dire « hier c'était bien, mais ce sera mieux demain ».</F>
+		<E>Yeah, if tomorrow we dream, then our voices are raised, to say "yesterday it was good, but it will be better tomorrow".</E>
+		<F>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</F>
+		<E>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</E>
+		<F>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</F>
+		<E>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</E>
+		<F>Si demain, on tente, le futur, on l'enchante, et si demain, on donne, la planète nous pardonne.</F>
+		<E>If tomorrow, we try, the future, we enchant it, and if tomorrow, we give, the planet forgives us.</E>
+		<F>Ouais, si demain, on rêve, alors nos voix s'élèvent, pour dire « hier c'était bien, mais ce sera mieux demain ».</F>
+		<E>Yeah, if tomorrow we dream, then our voices are raised, to say, yesterday was good, but it will be better tomorrow.</E>
+		<F>Si demain, on tente, le futur, on l'enchante, et si demain, on donne, la planète nous pardonne.</F>
+		<E>If tomorrow, we try, the future, we enchant it, and if tomorrow, we give, the planet forgives us.</E>
+		<F>Ouais, si demain, on rêve, alors nos voix s'élèvent, pour dire « hier c'était bien, mais ce sera mieux demain ».</F>
+		<E>Yeah, if tomorrow we dream, then our voices are raised, to say "yesterday it was good, but it will be better tomorrow".</E>
+		<F>Si demain, on tente (palapapa, palapa)(palapapa, palapa) si demain, on donne (palapapa, palapa, pa, pa, pa).</F>
+		<E>If tomorrow, we try ...</E>
+		<F>Si demain, on rêve (palapapa, palapa)(palapapa, palapa) pour dire « hier c'était bien » (palapapa, palapa) « mais ce sera mieux demain ».</F>
+		<E>If tomorrow, we dream ... "but it will be better tomorrow".</E>
+	</song>
+	<song artist="Carla &amp; Samuel" title="Nous serons là" title2="We'll be there" link="yt:qffyCKtkOec" time="[11.5, 22.5, 33, 43.5, 54.5, 69, 79.5, 90.5, 101, 112, 123, 134, 145, 155.5, 168]">
+		<F>Cela se cogne en nous, la jeunesse qui nous rend fou, fou, fou, fou, fou.</F>
+		<E>This hits within us, the youthfulness that drives us mad, mad, mad, mad, mad.</E>
+		<F>L'espoir, on en est fait, c'est dans notre sang dans nos veines, veines, veines, veines, veines.</F>
+		<E>Hope, we're made of it, it's in our blood in our veins, veins, veins, veins, veins.</E>
+		<F>Pourquoi ne pas nous écouter, pour demain on a des idées, pas la peine de nous amoindrir, on n'est pas prêt de partir.</F>
+		<E>Why not listen to us, for tomorrow we have ideas, no need to diminish us, we're not ready to leave.</E>
+		<F>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, nous serons là.</F>
+		<E>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, we'll be there.</E>
+		<F>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, oui toujours là.</F>
+		<E>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, yes still there.</E>
+		<F>C'est à nous, c'est maintenant, on met en marche le mouvement-ment-ment-ment-ment.</F>
+		<E>It's up to us, it's right now, we're starting the movement-ment-ment-ment-ment.</E>
+		<F>C'est à nous de sauver cette terre, on en a du boulot à faire, faire, faire.</F>
+		<E>It's up to us to save this earth, we have some work to do, do, do.</E>
+		<F>Pourquoi ne pas nous écouter, pour demain on a des idées, pas la peine de nous faire taire, notre révolte est sincère.</F>
+		<E>Why not listen to us, for tomorrow we have ideas, no need to silence us, our revolt is sincere.</E>
+		<F>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, nous serons là.</F>
+		<E>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, we'll be there.</E>
+		<F>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, oui toujours là.</F>
+		<E>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, yes still there.</E>
+		<F>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, nous serons là.</F>
+		<E>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, we'll be there.</E>
+		<F>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, oui toujours là.</F>
+		<E>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, yes still there.</E>
+		<F>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, nous serons là, nous serons là.</F>
+		<E>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, we'll be there.</E>
+		<F>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, oui toujours là.</F>
+		<E>Oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, yes still there.</E>
+		<F>Serons là, nous serons là.</F>
+		<E>Be there, we'll be there.</E>
+	</song>
+	<song artist="Philippine &amp; Céphaz" title="Dis-leur d'essayer" title2="Tell them to try" link="yt:4gIVKRFyCn8" time="[0, 8, 16, 23.5, 31, 38.5, 46.5, 54.5, 62, 70, 77.5, 85, 93, 100.5, 108.5, 116.5, 124, 131.5, 139.5, 147, 155, 162.5, 170]">
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try.</E>
+		<F>En retentant encore longtemps c'est devenu presque impossible maintenant.</F>
+		<E>...</E>
+		<F>Une génération pour changer c'est l'avenir qui s'adresse au passé.</F>
+		<E>A generation to change, it's the future that caters to the past.</E>
+		<F>Chacun pourra aider, suffit de se parler, passe le mot à celui d'à côté.</F>
+		<E>Everyone can help, just talk to each other, spread the word to the one next door.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try.</E>
+		<F>On pourrait croire qu'il est trop tard, on pourrait dire qu'il n'y a d'espoir nulle part.</F>
+		<E>We could think it is too late, we could say that there is no hope anywhere.</E>
+		<F>Une génération pour changer c'est l'avenir qui s'adresse au passé.</F>
+		<E>A generation to change, it's the future that caters to the past.</E>
+		<F>Chacun pourra aider, suffit de se parler, passe le mot à celui d'à côté.</F>
+		<E>Everyone can help, just talk to each other, spread the word to the one next door.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try, tell them to try.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try.</E>
+		<F>Oh-oh-oh, sur cette terre, sur cette étoile, dis-leur d'essayer, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, on this earth, on this star, tell them to try, tell them to try.</E>
+		<F>Oh-oh-oh, sur cette terre, sur cette étoile, dis-leur d'essayer, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, on this earth, on this star, tell them to try, tell them to try.</E>
+		<F>Avec silence, intelligence et la conscience de n'être qu'invite.</F>
+		<E>With silence, intelligence and the awareness of only being invited.</E>
+		<F>Sur cette terre, sur cette étoile c'est l'avenir qui s'adresse au passé.</F>
+		<E>On this earth, on this star, it's the future that caters to the past.</E>
+		<F>Chacun pourra aider, suffit de se parler, passe le mot à celui d'à côté.</F>
+		<E>Everyone can help, just talk to each other, spread the word to the one next door.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try.</E>
+		<F>Oh-oh-oh, oh-oh-oh, dis-leur d'essayer, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, oh-oh-oh, tell them to try, tell them to try.</E>
+		<F>Oh-oh-oh, sur cette terre, sur cette étoile, dis-leur d'essayer, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, on this earth, on this star, tell them to try, tell them to try.</E>
+		<F>Oh-oh-oh, sur cette terre, sur cette étoile, dis-leur d'essayer, dis-leur d'essayer.</F>
+		<E>Oh-oh-oh, on this earth, on this star, tell them to try, tell them to try.</E>
+	</song>
+	<song artist="Hopen" title="Dans 100 ans" title2="In 100 years" link="yt:mxjh6c_5wb0" time="">
+		<F>Dans cent ans toi et moi, dans cent ans toi et moi, dans cent ans ... pas.</F>
+		<F>Nos enfants vivront ici, nos enfants vivront ici, nos enfants et leurs enfants aussi.</F>
+		<F>Dans cent ans ... dans cent ans ... dans cent ans comment sera le monde?</F>
+		<F>...-ils sous les yeux, ...-ils sous les yeux, diront-ils « ... faire au mieux »?</F>
+		<F>Dans cent ans le temps remportera, ... plus, ... pas.</F>
+		<F>Dans cent ans c'est toi, c'est moi, c'est ...</F>
+		<F>Dans cent ans ... aujourd'hui comme ça, dans cent ans c'est des idées pour ...</F>
+		<F>Dans cent ans tout changera, ou nous entendra, ou nous entendra, ou nous entendra.</F>
+		<F>Dans cent ans quelle image, dans cent ans quelle image, dans cent ans ... la page.</F>
+		<F>... qu'il faut.</F>
+		<F>Dans cent ans l'écologie, dans cent ans l'écologie, j'espère que ...</F>
+		<F>... qui nous dit « on ... ».</F>
+		<F>Dans cent ans le temps remportera, ... plus, ... pas.</F>
+		<F>Dans cent ans c'est toi, c'est moi, c'est ...</F>
+		<F>Dans cent ans ... aujourd'hui comme ça, dans cent ans c'est des idées pour ...</F>
+		<F>Dans cent ans tout changera, ou nous entendra, ou nous entendra, ou nous entendra.</F>
+		<F>Dans cent ans ..., dans cent ans ...</F>
+		<F>Après ... notre histoire, après ... notre histoire, ...</F>
+		<F>Ah-ah-ah, ah-ah-ah, ah-ah-ah, ah-ah-ah, ah-ah-ah, ah.</F>
+		<F>Dans cent ans le temps remportera, ... plus, ... pas.</F>
+		<F>Dans cent ans c'est toi, c'est moi, c'est ...</F>
+		<F>Dans cent ans ... aujourd'hui comme ça, dans cent ans c'est des idées pour ...</F>
+		<F>Dans cent ans tout changera, ou nous entendra.</F>
+		<F>Dans cent ans le temps remportera, ... plus ... pas.</F>
+		<F>Dans cent ans c'est toi, c'est moi, c'est ...</F>
+		<F>Dans cent ans ... aujourd'hui comme ça, dans cent ans c'est des idées pour ...</F>
+		<F>Dans cent ans tout changera, ou nous entendra, ou nous entendra, ou nous entendra.</F>
+	</song>
+	<song artist="Navii &amp; Gwendal (Gu'Live)" title="Entends crier la terre" title2="Hear the earth scream" link="yt:bCnx3WLLFw4" time="[10.5, 20, 29, 48.5, 58.5, 69, 79, 87.5, 107, 117.5, 127.5, 137, 149, 159, 168.5]">
+		<F>Tout autour de toi regarde bien et dis-moi, ce qui est nécessaire et ce qui est secondaire.</F>
+		<E>All around you take a good look and tell me, what is necessary and what is secondary.</E>
+		<F>Tout autour de toi regarde bien et dis-moi, ce qu'on pourrait pas faire d'une autre manière.</F>
+		<E>All around you take a good look and tell me, what we couldn't do any other way.</E>
+		<F>« Défends-moi » nous dit la terre, entends-la, qui espère, n'oublie pas, cette chance c'est la dernière, défends-moi, de laisser faire.</F>
+		<E>"Defend me" says the earth to us, hear her, who hopes, don't forget, this chance is the last, defend me, to let it be.</E>
+		<F>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, entends crier la terre.</F>
+		<E>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, hear the earth scream.</E>
+		<F>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, entends crier la terre.</F>
+		<E>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, hear the earth scream.</E>
+		<F>Parfois ça m'obsède et parfois j'y pense même pas, parfois ça m'excède quand je baisse les bras.</F>
+		<E>Sometimes it obsesses me and sometimes I don't even think about it, sometimes it exceeds me when I give up.</E>
+		<F>On dit c'est foutu certains ne savent dire que ça, c'est déjà perdu seulement pour cela.</F>
+		<E>We say it's fucked up, some only know how to say that, it's already lost just for that.</E>
+		<F>« Défends-moi » nous dit la terre, entends-la, qui espère, n'oublie pas, cette chance c'est la dernière, défends-moi, de laisser faire.</F>
+		<E>"Defend me" says the earth to us, hear her, who hopes, don't forget, this chance is the last, defend me, to let it be.</E>
+		<F>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, entends crier la terre.</F>
+		<E>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, hear the earth scream.</E>
+		<F>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, entends crier la terre.</F>
+		<E>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, hear the earth scream.</E>
+		<F>Entends-tu son cri d'alarme, silencieux qui nous désarme, comme elle attend qu'on se batte pour elle.</F>
+		<E>Do you hear her cry of alarm, silently that disarms us, as she waits for us to fight for her.</E>
+		<F>Elle nous donne bien plus que tout, entends-tu comme elle espère que nous, entends crier la terre.</F>
+		<E>She gives us more than anything, do you hear how she hopes that we hear the earth scream.</E>
+		<F>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, entends crier la terre.</F>
+		<E>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, hear the earth scream.</E>
+		<F>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, entends crier la terre.</F>
+		<E>Hey, oh-oh oh-oh oh-oh, oh-oh oh-oh oh-oh, hear the earth scream.</E>
+		<F>Hey, entends crier la terre, entends crier la terre, entends crier la terre ...</F>
+		<E>Hey, hear the earth scream, hear the earth scream, hear the earth scream ...</E>
+	</song>
+	<song artist="Carla &amp; Raffi Arto" title="L'amour écolo" title2="Ecological love" link="yt:Uldzc-G4naY" time="[1.5, 16, 30.5, 45, 60, 74, 89, 103, 118, 132.5, 147, 161.5]">
+		<F>Je la vois faire des trucs, je suis pas sûr, je le vois perdu, caricature, je voudrais faire bien mais je m'emmêle les pinceaux, t'en fais trop.</F>
+		<E>I see her doing stuff, I'm not sure, I see him lost, caricature, I would like to do well but I get confused, you're doing too much.</E>
+		<F>Il me demande toujours comment faire, est-ce qu'on met les piles dans du vert, moi, ça me fait rire et ça le rend un peu plus beau, j'en fais trop.</F>
+		<E>He always asks me how to do it, do we put the batteries in green, it makes me laugh and it makes him a little more beautiful, I'm doing too much.</E>
+		<F>Un amour écolo, on trie nos sentiments, nos défauts, chacun dans son credo, écolo en duo.</F>
+		<E>An ecological love, we sort out our feelings, our flaws, each in their own credo, ecological in duo.</E>
+		<F>Un peu de graine et d'eau, un côté vert et un côté bio, c'est l'amour écolo.</F>
+		<E>A little seed and water, a green side and an organic side, it's ecological love.</E>
+		<F>Elle met du parfum à l'air pur, j'ai mis des plantes, ça sent la nature, y'a du vert même jusque dans mon frigo, t'en fais trop.</F>
+		<E>She puts on perfume of fresh air, I put down plants, it smells of nature, there's green even up to inside my fridge, you're doing too much.</E>
+		<F>C'est comme un retour à la terre, dans du plastique alimentaire, ça nous fait voir le monde en un peu plus beau, en plus bio.</F>
+		<E>It's like a return to Earth, in plastic for food, it makes us see the world a little more beautiful, in addition to organic.</E>
+		<F>Un amour écolo, on trie nos sentiments, nos défauts, chacun dans son credo, écolo en duo.</F>
+		<E>An ecological love, we sort out our feelings, our flaws, each in their own credo, ecological in duo.</E>
+		<F>Un peu de graine et d'eau, un côté vert et un côté bio, c'est l'amour écolo.</F>
+		<E>A little seed and water, a green side and an organic side, it's ecological love.</E>
+		<F>Un amour écolo, on trie nos sentiments, nos défauts, chacun dans son credo, écolo en duo.</F>
+		<E>An ecological love, we sort out our feelings, our flaws, each in their own credo, ecological in duo.</E>
+		<F>Un peu de graine et d'eau, un côté vert et un côté bio, c'est l'amour écolo.</F>
+		<E>A little seed and water, a green side and an organic side, it's ecological love.</E>
+		<F>Un amour écolo, on trie nos sentiments, nos défauts, chacun dans son credo, écolo en duo.</F>
+		<E>An ecological love, we sort out our feelings, our flaws, each in their own credo, ecological in duo.</E>
+		<F>Un peu de graine et d'eau, un côté vert et un côté bio, c'est l'amour écolo.</F>
+		<E>A little seed and water, a green side and an organic side, it's ecological love.</E>
+	</song>
+	<song artist="Les Frangines &amp; Saam" title="Sous quel ciel" title2="Under what sky" link="yt:ictVuAdauhE" time="">
+		<F>Est-ce qu'on avait de la poussière dans les yeux, ou le cœur sourd de ceux qui ne voient qu'eux?</F>
+		<E>Did we have dust in our eyes, or the deaf heart of those who see only themselves?</E>
+		<F>Est-ce qu'on avait l'esprit trop embrumé, pour ne pas voir la terre pleurer?</F>
+		<E>Did we have our minds too cloudy, to not to see the earth cry?</E>
+		<F>J'ai vu tomber les larmes du soleil, je l'ai entendu faire ses plus belles prières.</F>
+		<E>I saw the tears of the sun fall, I heard him say his most beautiful prayers.</E>
+		<F>Nous suppliant d'écouter la misère, des lacs, des forêts et des mers.</F>
+		<E>Begging us to listen to misery, lakes, forests and seas.</E>
+		<F>Oh-oh-oh-oh, sous quel ciel danseront-ils, oh-oh-oh-oh, quelles rivières franchiront-ils, nos enfants?</F>
+		<E>Oh-oh-oh-oh, under what sky will they dance, oh-oh-oh-oh, what rivers will they cross, our children?</E>
+		<F>Si l'on se fait la belle, nos enfants, si l'on ne s'émerveille.</F>
+		<E>If we get away, our children, if we don't marvel.</E>
+		<F>J'entends dire que la beauté sauve le monde, que malgré tout les mots qui sévissent et qui grondent.</F>
+		<E>I hear it said that beauty saves the world, that despite all the words that are rife and scold.</E>
+		<F>Il reste un espoir tapi là dans l'ombre, une lueur chez l'homme plus forte que les bombes.</F>
+		<E>There remains a hope lurking there in the shadows, a glimmer in man stronger than the bombs.</E>
+		<F>J'ai entendu que la beauté sauverait le monde, et qu'elle se cache dans nos entailles les plus profondes.</F>
+		<E>I've heard that beauty will save the world, and that it's hiding in our deepest gashes.</E>
+		<F>Si l'homme a fait le pire en abimant la terre, il peut aussi bâtir de ses mains des merveilles.</F>
+		<E>If man has done the worst by damaging the earth, he can also build wonders with his hands.</E>
+		<F>Oh-oh-oh-oh, sous quel ciel danseront-ils, oh-oh-oh-oh, quelles rivières franchiront-ils, nos enfants, oh-oh-oh?</F>
+		<E>Oh-oh-oh-oh, under what sky will they dance, oh-oh-oh-oh, what rivers will they cross, our children, oh-oh-oh?</E>
+		<F>Si l'on se fait la belle, nos enfants, oh-oh-oh, si l'on ne s'émerveille.</F>
+		<E>If we get away, our children, oh-oh-oh, if we don't marvel.</E>
+		<F>Sous quel ciel danseront-ils, quelles rivières franchiront-ils?</F>
+		<E>Under what sky will they dance, what rivers will they cross?</E>
+		<F>Si l'on se fait la belle, si l'on ne s'émerveille.</F>
+		<E>If we get away, if we don't marvel.</E>
+		<F>Oh-oh-oh-oh, sous quel ciel, danseront-ils, oh-oh-oh-oh, quelles rivières franchiront-ils, nos enfants, oh-oh-oh?</F>
+		<E>Oh-oh-oh-oh, under what sky will they dance, oh-oh-oh-oh, what rivers will they cross, our children, oh-oh-oh?</E>
+		<F>Si l'on se fait la belle, nos enfants, oh-oh-oh, si l'on ne s'émerveille.</F>
+		<E>If we get away, our children, oh-oh-oh, if we don't marvel.</E>
+	</song>
+	<song title="Et demain?" title2="And tomorrow?" link="yt:IsHa99wyGKQ" time="[10, 20.5, 31, 41.5, 52.5, 62.5, 73.5, 84, 94.5, 105, 115.5, 126, 136.5, 147, 158]">
+		<F>Il a fallu en arriver là pour nous rassembler, prendre conscience de l'importance, de l'humanité.</F>
+		<E>It took getting to here for us to come together, to realize the importance of humanity.</E>
+		<F>Ce combat, c'est le monde entier qui doit le mener, car y'a pas de couleur ni de religion pour être confinés.</F>
+		<E>This fight, it is the entire world who must lead it, because there is no color nor religion to be confined.</E>
+		<F>Il a fallu en arriver là pour les remercier, ces héros du quotidien qui sans compter.</F>
+		<E>It took getting to here to thank them, these everyday heroes who don't count.</E>
+		<F>Sacrifient leur vie au nom de notre santé, ces mêmes qui criaient dans la rue « venez nous aider ».</F>
+		<E>Sacrifice their lives in the name of our health, these same people who shouted in the street 'come help us'.</E>
+		<F>Et demain on fera quoi, on recommencera, l'homme est comme ça, et demain, ça sera nous les maitres du jeu un point, c'est tout.</F>
+		<E>And tomorrow we'll do what, we'll start again, man is like that, and tomorrow, we'll be the masters of the game, that's all.</E>
+		<F>S'aimer encore, danser encore, sourire encore, s'embrasser plus fort, pleurer encore, souffrir encore et tenir encore mais chanter plus fort.</F>
+		<E>Love each other again, dance again, smile again, kiss harder, cry more, suffer more, and hold on but sing louder.</E>
+		<F>Lalalalalalala, lalalalala, ça fait du bien, lalalalalalala, lalalalala.</F>
+		<E>Lalalalalalala, lalalalala, that feels good, lalalalalalala, lalalalala.</E>
+		<F>Il a fallu en arriver là pour qu'on se parle, qu'on recommence à s'amuser avec que dalle.</F>
+		<E>It took getting to here for us to talk to each other, to start having fun with not much.</E>
+		<F>Pour qu'on s'appelle, qu'on se dise « je t'aime, est-ce que t'as mal », avec le temps, on retrouve un temps et la morale.</F>
+		<E>So that we call each other, that we say to each other "I love you, do you have pain", over time, we find a time and morality.</E>
+		<F>Et demain on fera quoi, on recommencera, l'homme est comme ça, et demain, ça sera nous les maitres du jeu, un point, c'est tout.</F>
+		<E>And tomorrow we'll do what, we'll start again, man is like that, and tomorrow, we'll be the masters of the game, that's all.</E>
+		<F>S'aimer encore, danser encore, sourire encore, s'embrasser plus fort, pleurer encore, souffrir encore, et tenir encore mais chanter plus fort.</F>
+		<E>Love each other again, dance again, smile again, kiss harder, cry more, suffer more, and hold on but sing louder.</E>
+		<F>Lalalalalalala lalalalala, ça fait du bien, lalalalalalala, lalalalala.</F>
+		<E>Lalalalalalala lalalalala, that feels good, lalalalalalala, lalalalala.</E>
+		<F>S'aimer encore, danser encore, sourire encore, s'embrasser plus fort, pleurer encore, souffrir encore, et tenir encore mais chanter plus fort.</F>
+		<E>Love each other again, dance again, smile again, kiss harder, cry more, suffer more, and hold on but sing louder.</E>
+		<F>S'aimer encore, danser encore, sourire encore, s'embrasser plus fort, pleurer encore, souffrir encore, et tenir encore mais chanter plus fort.</F>
+		<E>Love each other again, dance again, smile again, kiss harder, cry more, suffer more, and hold on but sing louder.</E>
+		<F>Lalalalalalala lalalalala, ça fait du bien, lalalalalalala, lalalalala.</F>
+		<E>Lalalalalalala lalalalala, that feels good, lalalalalalala, lalalalala.</E>
+	</song>
+</album>
+<album id="at" artist="Various Artists" title="À Toi, Joe Dassin" year="2020" cover="i.scdn.co/image/ab67616d00001e02c257797aa51992e9c459243a" colour="925">
+	<song artist="Carla &amp; Jonathan Dassin" title="Siffler sur la colline" title2="Whistle on the hill" link="yt:aZfo68TPag0" time="[0, 9, 18, 30, 39, 47, 56.5, 65.5, 77.5, 86.5, 94.5, 104.5, 113.5, 122.5, 131, 140.5]">
+		<F>Oh-oh, oh-oh, oh-oh, oh-oh.</F>
+		<E>Oh-oh, oh-oh, oh-oh, oh-oh.</E>
+		<F>Je l'ai vu près d'un laurier, elle gardait ses blanches brebis, quand t'as demandé d'où venait ma peau fraiche, je t'ai dit.</F>
+		<E>I saw her near a laurel, she was hearding her white sheep, when you asked where my fresh skin came from, I told you.</E>
+		<F>« C'est de rouler dans la rosée qui rend les bergères jolies », mais quand j'lui ai dit qu'avec elle je voudrais y rouler aussi, elle m'a dit.</F>
+		<E>"It's rolling in the dew that makes the shepherdesses pretty", but when I told her that with her I would like to roll there too, she told me.</E>
+		<F>Elle m'a dit d'aller siffler là-haut sur la colline, de l'attendre avec un petit bouquet d'églantines.</F>
+		<E>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</E>
+		<F>J'ai cueilli les fleurs et j'ai sifflé tant que j'ai pu, j'ai attendu, attendu, elle n'est jamais venue.</F>
+		<E>I picked the flowers and I whistled as long as I could, I waited, waited, she never came.</E>
+		<F>Zaï zaï zaï zaï, zaï zaï zaï zaï, zaï zaï zaï zaï, zaï zaï zaï zaï.</F>
+		<E>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</E>
+		<F>À la foire du village un jour je lui ai soupiré, que je voudrais être une pomme suspendue à un pommier.</F>
+		<E>At the village fair one day I sighed to her, that I would like to be an apple hanging from an apple tree.</E>
+		<F>Et qu'à chaque fois que je passe je vienne te mordre dedans, mais je suis passée tout en te montrant mes jolies dents, elle m'a dit.</F>
+		<E>And that every time I pass I come to bite in you, but I walked by while showing you my pretty teeth, she told me.</E>
+		<F>Elle m'a dit d'aller siffler là-haut sur la colline, de l'attendre avec un petit bouquet d'églantines.</F>
+		<E>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</E>
+		<F>J'ai cueilli les fleurs et j'ai sifflé tant que j'ai pu, j'ai attendu, attendu, elle n'est jamais venue.</F>
+		<E>I picked the flowers and I whistled as long as I could, I waited, waited, she never came.</E>
+		<F>Zaï zaï zaï zaï, zaï zaï zaï zaï, zaï zaï zaï zaï, zaï zaï zaï zaï.</F>
+		<E>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</E>
+		<F>Oh-oh, oh-oh, oh-oh, oh-oh.</F>
+		<E>Oh-oh, oh-oh, oh-oh, oh-oh.</E>
+		<F>Elle m'a dit d'aller siffler là-haut sur la colline, de l'attendre avec un petit bouquet d'églantines.</F>
+		<E>She told me to go whistle up there on the hill, to wait for her with a small bunch of wild roses.</E>
+		<F>J'ai cueilli les fleurs et j'ai sifflé tant que j'ai pu, j'ai attendu, attendu, elle n'est jamais venue.</F>
+		<E>I picked the flowers and I whistled as long as I could, I waited, waited, she never came.</E>
+		<F>Zaï zaï zaï zaï, zaï zaï zaï zaï, zaï zaï zaï zaï, zaï zaï zaï zaï.</F>
+		<E>Zai zai zai zai, zai zai zai zai, zai zai zai zai, zai zai zai zai.</E>
+		<F>Oh-oh, oh-oh, oh-oh, oh-oh.</F>
+		<E>Oh-oh, oh-oh, oh-oh, oh-oh.</E>
+	</song>
+</album>
+<album id="cbn" artist="Keen'V &amp; Carla" title="C'est bientôt Noël" cover="i.scdn.co/image/ab67616d00001e02e1ec2732d284c4151a10be62" colour="474">
+	<song title="C'est bientôt Noël" title2="It's almost Christmas" link="yt:jBrrb5WqjvY" time="[5, 20.5, 40, 53, 66, 77.5, 90, 104.5, 117, 129, 142, 155.5, 167.5]">
+		<F>Décembre vient de commencer, le compte à rebours est lancé, maintenant plus que vingt-quatre jours avant la veille de Noël.</F>
+		<E>December has just begun, the countdown has started, now only twenty-four days before Christmas Eve.</E>
+		<F>C'est bientôt Noël, c'est bientôt Noël, là où le visage des enfants s'émerveille, c'est bientôt Noël.</F>
+		<E>It's almost Christmas, it's almost Christmas, when the children's faces marvel, it's almost Christmas.</E>
+		<F>Les rues, les magasins sont remplis de déco, et ça fait du bien car la nuit tombe tôt.</F>
+		<E>The streets, the shops are full of decoration, and it feels good because night falls early.</E>
+		<F>On érige le sapin le dimanche à huis clos, on ne manque de rien tant on rêve si tôt.</F>
+		<E>We erect the fir tree Sunday behind closed doors, we don't miss anything as we dream so early.</E>
+		<F>La nature a revêtu son manteau de blanc, Noël reste le plus beau jour pour les enfants, tout le monde est heureux le temps d'un instant.</F>
+		<E>Nature has put on her white coat, Christmas remains the best day for children, everyone is happy for a moment.</E>
+		<F>C'est bientôt Noël, c'est bientôt Noël, là où le visage des enfants s'émerveille.</F>
+		<E>It's almost Christmas, it's almost Christmas, when the children's faces marvel.</E>
+		<F>C'est bientôt Noël, c'est bientôt Noël, là où la famille se réunit la veille, c'est bientôt Noël.</F>
+		<E>It's almost Christmas, it's almost Christmas, when the family gets together the night before, it's almost Christmas.</E>
+		<F>No-no-no-no-no-no-no-noël, No-no-no-no-no-no-no-noël, No-no-no-no-no-no-no-noël.</F>
+		<E>Christ-christ-christ-christ-christ-christ-christ-christmas, Christ-christ-christ-christ-christ-christ-christ-christmas, Christ-christ-christ-christ-christ-christ-christ-christmas.</E>
+		<F>C'est le moment où toute la famille se réunit, on laisse de côté nos différents, nos soucis, si seulement toute l'année pouvait être un brin a cette magie.</F>
+		<E>This is the moment when the whole family gets together, we put aside our differences, our worries, if only the whole year could have a bit of this magic.</E>
+		<F>C'est bientôt Noël, c'est bientôt Noël, là où le visage des enfants s'émerveille.</F>
+		<E>It's almost Christmas, it's almost Christmas, when the children's faces marvel.</E>
+		<F>C'est bientôt Noël, c'est bientôt Noël, là où la famille se réunit la veille.</F>
+		<E>It's almost Christmas, it's almost Christmas, when the family gets together the night before.</E>
+		<F>C'est bientôt Noël, c'est bientôt Noël, là où le visage des enfants s'émerveille.</F>
+		<E>It's almost Christmas, it's almost Christmas, when the children's faces marvel.</E>
+		<F>C'est bientôt Noël, c'est bientôt Noël, là où la famille se réunit la veille, c'est bientôt Noël.</F>
+		<E>It's almost Christmas, it's almost Christmas, when the family gets together the night before, it's almost Christmas.</E>
+	</song>
+</album>
+<album id="nv" artist="Various Artists" title="Nos vallées" title2="Our valleys" year="2020" cover="i.scdn.co/image/ab67616d00001e022622c99f876fbaf3099f81f3" colour="09C">
+	<song title="Nos vallées" title2="Our valleys" link="yt:j-IcHH6qjGM" time="[10.5, 18.5, 30.5, 48, 66.5, 75.5, 87.5, 105, 141.5, 153, 170.5, 188]">
+		<F>Le ciel a débordé, du lit noir des nuages, nos vallées ont pleuré, jusque sur nos rivages.</F>
+		<E>The sky overflowed, from the black bed of the clouds, our valleys cried, up to our shores.</E>
+		<F>Un torrent s'est noyé, au cœur de nos villages, et les larmes ont coulé, sur nos visages.</F>
+		<E>A torrent has drowned, in the heart of our villages, and the tears have flowed, on our faces.</E>
+		<F>Du bleu des rivages, au blanc des sommets, on va chanter, pour les villages de nos vallées.</F>
+		<E>From the blue of the shores, to the white of the summits, we're going to sing, for the villages of our valleys.</E>
+		<F>Du bleu des rivages, au blanc des sommets, après l'orage, fraternité pour nos vallées.</F>
+		<E>From the blue of the shores, to the white of the summits, after the storm, fraternity for our valleys.</E>
+		<F>Voir tous nos souvenirs, emportés par la boue, ensemble reconstruire, orphelins mais debout.</F>
+		<E>See all our memories, carried away by the mud, rebuilding together, orphans but standing.</E>
+		<F>Il n'y a plus d'arrière, il y a juste un pays, il nous reste une terre, qui nous unit.</F>
+		<E>There's no more back, there's just one country, we have one land left, which unites us.</E>
+		<F>Du bleu des rivages, au blanc des sommets, on va chanter, pour les villages de nos vallées.</F>
+		<E>From the blue of the shores, to the white of the summits, we're going to sing, for the villages of our valleys.</E>
+		<F>Du bleu des rivages (du bleu des rivages), au blanc des sommets (des sommets), après l'orage, fraternité pour nos vallées.</F>
+		<E>From the blue of the shores, to the white of the summits, after the storm, fraternity for our valleys.</E>
+		<F>La Roya, la Tinée, la Vésubie, tous ces noms qui resonnent, dans nos vies.</F>
+		<E>The Roya, the Tinée, the Vésubie, all these names that resonate, in our lives.</E>
+		<F>Du bleu des rivages, (du bleu des rivages), au blanc des sommets, (des sommets), on va chanter, pour les villages de nos vallées.</F>
+		<E>From the blue of the shores, to the white of the summits, we're going to sing, for the villages of our valleys.</E>
+		<F>Du bleu des rivages, au blanc des sommets, après l'orage, fraternité pour nos vallées.</F>
+		<E>From the blue of the shores, to the white of the summits, after the storm, fraternity for our valleys.</E>
+		<F>On va chanter, pour les villages de nos vallées.</F>
+		<E>We're going to sing, for the villages of our valleys.</E>
+	</song>
+</album>
+<album id="pbc" artist="Various Artists" title="Les plus belles comptines d'Okoo - Volume 2" year="2021" cover="i.scdn.co/image/ab67616d00001e02ee4936776a4cd0d0d66bb781">
+	<song artist="Carla" title="...">
+	
+	</song>
+</album>
+<album id="extra">
+	<song artist="Angelina" title="Jamais sans toi" title2="Never without you" link="yt:0UWkyoEm8Vk" time="[0, 9, 18, 27, 37, 52, 61, 64, 72, 81, 91, 100, 115, 124, 126.5, 135.5, 145, 154.5, 169.5, 178.5]">
+		<F>Des souvenirs plein la tête, mais pas un seul que je regrette.</F>
+		<E>Head full of memories, but not a single one that I regret.</E>
+		<F>Des fous-rires chaque fois que se croisent nos regards, des journees a se raconter toutes nos histoires.</F>
+		<E>Laughter each time our eyes meet, days of telling each other all our stories.</E>
+		<F>Et même si le temps passe, tu n'es jamais loin de moi, ça passe ou ça casse, nous deux, c'est bien plus que ça.</F>
+		<E>And even when time passes, you're never far from me, all or nothing, for us two, it's a lot more than that.</E>
+		<F>Jamais sans toi, I'm happy to have you in my life, te serrer, dans mes bras ou te donner le smile.</F>
+		<E>Never without you, I'm happy to have you in my life, to hold you, in my arms or give you a smile.</E>
+		<F>Désolée, always been so hard for me to find the words to say, un peu, beaucoup, no way without you.</F>
+		<E>Sorry, always been so hard for me to find the words to say, a little, a lot, no way without you.</E>
+		<F>J'aime tellement te compter dans ma life.</F>
+		<E>I love so much to count you in my life.</E>
+		<F>Un peu, beaucoup, jamais sans toi.</F>
+		<E>A little, a lot, never without you.</E>
+		<F>Des années indélébiles, avec toi tout est plus facile.</F>
+		<E>Years that can't be erased, with you everything is easier.</E>
+		<F>Y'a des hauts, y'a des bas, mais surtout il y a toi, quoi qu'on dise, quoi qu'on fasse, tu seras toujours là.</F>
+		<E>There are ups, there are downs, but above all there is you, whatever we say, whatever we do, you will always be there.</E>
+		<F>Et même si le temps passe, tu n'es jamais loin de moi, ça passe ou ça casse, nous deux, c'est bien plus que ça.</F>
+		<E>And even when time passes, you're never far from me, all or nothing, for us two, it's a lot more than that.</E>
+		<F>Jamais sans toi, I'm happy to have you in my life, te serrer, dans mes bras ou te donner le smile.</F>
+		<E>Never without you, I'm happy to have you in my life, to hold you, in my arms or give you a smile.</E>
+		<F>Désolée, always been so hard for me to find the words to say, un peu, beaucoup, no way without you.</F>
+		<E>Sorry, always been so hard for me to find the words to say, a little, a lot, no way without you.</E>
+		<F>J'aime tellement te compter dans ma life.</F>
+		<E>I love so much to count you in my life.</E>
+		<F>Un peu, beaucoup, jamais sans toi.</F>
+		<E>A little, a lot, never without you.</E>
+		<F>Notre aventure est si belle, un peu, beaucoup, no way without you, tu es le vent qui porte mes ailes, un peu, beaucoup, no way without you.</F>
+		<E>Our adventure is so beautiful, a little, a lot, no way without you, you are the wind that carries my wings, a litte, a lot, no way without you.</E>
+		<F>Une flamme intemporelle, un peu, beaucoup, no way without you, qui n'a rien d'artificiel, un peu, beaucoup, no way without you.</F>
+		<E>A timeless flame, a little, a lot, no way without you, which has nothing artificial, a little, a lot, no way without you.</E>
+		<F>Jamais sans toi, I'm happy to have you in my life, te serrer, dans mes bras ou te donner le smile.</F>
+		<E>Never without you, I'm happy to have you in my life, to hold you, in my arms or give you a smile.</E>
+		<F>Désolée, always been so hard for me to find the words to say, un peu, beaucoup, no way without you.</F>
+		<E>Sorry, always been so hard for me to find the words to say, a little, a lot, no way without you.</E>
+		<F>J'aime tellement te compter dans ma life.</F>
+		<E>I love so much to count you in my life.</E>
+		<F>Un peu, beaucoup, jamais sans toi.</F>
+		<E>A little, a lot, never without you.</E>
+	</song>
+	<song artist="Angelina" title="Maman me dit" title2="Mom tells me" link="yt:F1iAy8xck-o" time="[9, 17.5, 25.5, 34.5, 42.5, 54, 59, 67, 75, 83.5, 91.5, 102.5, 107.5, 124, 132, 140, 148, 156]">
+		<F>Maman me dit « dis merci », maman me dit « fais attention », maman me dit « reste ici », maman me dit « dis pardon ».</F>
+		<E>Mom tells me 'say thank you', mom tells me 'pay attention', mom tells me 'stay here', mom tells me 'say pardon'.</E>
+		<F>Et quand maman me dit oui, je dis non pour faire comme si, et quand maman me dit non, je dis oui et je monte le son.</F>
+		<E>And when mom tells me yes, I say no to act as if, and when mom tells me no, I say yes and turn up the volume.</E>
+		<F>Maman me dit toutes ces choses que je dois faire ou pas, je voudrais tant que tu sois fiere de moi.</F>
+		<E>Mom tells me all these things that I have to do or not, I only wish that you are proud of me.</E>
+		<F>Maman me dit, fais ça, fais ci, maman me dit, que me dit maman, que me dit maman?</F>
+		<E>Mom tells me, do that, do this, mom tells me, what does mom tell me, what does mom tell me?</E>
+		<F>Maman me dit, fais ça, fais ci, maman me dit, que me dit maman, que me dit maman?</F>
+		<E>Mom tells me, do that, do this, mom tells me, what does mom tell me, what does mom tell me?</E>
+		<F>Que me dit maman?</F>
+		<E>What does mom tell me?</E>
+		<F>Maman me dit « sois polie », maman me dit « gare aux garçons », maman me dit « sors du lit », maman me dit « change de ton ».</F>
+		<E>Mom tells me 'be polite', mom tells me 'watch out for boys', mom tells me 'get out of bed', mom tells me 'change your tone'.</E>
+		<F>Et quand maman me dit oui, je dis non pour faire comme si, et quand maman me dit non, je dis oui et je monte le son.</F>
+		<E>And when mom tells me yes, I say no to act as if, and when mom tells me no, I say yes and turn up the volume.</E>
+		<F>Maman me dit toutes ces choses que je dois faire ou pas, je voudrais tant que tu sois fiere de moi.</F>
+		<E>Mom tells me all these things that I have to do or not, I only wish that you are proud of me.</E>
+		<F>Maman me dit, fais ça, fais ci, maman me dit, que me dit maman, que me dit maman?</F>
+		<E>Mom tells me, do that, do this, mom tells me, what does mom tell me, what does mom tell me?</E>
+		<F>Maman me dit, fais ça, fais ci, maman me dit, que me dit maman, que me dit maman?</F>
+		<E>Mom tells me, do that, do this, mom tells me, what does mom tell me, what does mom tell me?</E>
+		<F>Que me dit maman?</F>
+		<E>What does mom tell me?</E>
+		<F>Maman tu sais, je t'écoute, même quand je fais semblant, tu sais par moment je doute, que dirait maman?</F>
+		<E>Mom you know I listen to you, even when I act as if, you know at times I have doubts, what would mom say?</E>
+		<F>Maman me dit, fais ça, fais ci, maman me dit, que me dit maman?</F>
+		<E>Mom tells me, do that, do this, mom tells me, what does mom tell me?</E>
+		<F>Maman me dit, fais ça, fais ci, maman me dit, que me dit maman, que me dit maman?</F>
+		<E>Mom tells me, do that, do this, mom tells me, what does mom tell me, what does mom tell me?</E>
+		<F>Maman me dit, fais ça, fais ci, maman me dit, que me dit maman, que me dit maman?</F>
+		<E>Mom tells me, do that, do this, mom tells me, what does mom tell me, what does mom tell me?</E>
+		<F>Oh oh oh oh oh, que me dit maman, oh oh oh oh yeah, que me dit maman?</F>
+		<E>Oh oh oh oh oh, what does mom tell me, oh oh oh oh yeah, what does mom tell me?</E>
+		<F>Oh oh oh oh oh, oh oh oh oh oh.</F>
+		<E>Oh oh oh oh oh, oh oh oh oh oh.</E>
+	</song>
+	<song artist="Valentina" title="J'imagine" title2="I imagine" link="yt:AgrMvbpdNB4" time="[0, 8.5, 17, 25.5, 34, 42, 50.5, 59, 67.5, 76, 84, 92.5, 101, 109.5, 118, 127, 143, 151.5, 159]">
+		<F>Na-na-na-na-na-na, na-na-na-na-na-na, na-na-na-na-na-na, na-na-na-na-na.</F>
+		<E>Na-na-na-na-na-na, na-na-na-na-na-na, na-na-na-na-na-na, na-na-na-na-na.</E>
+		<F>Oups, y'a plus de fleurs au balcon, flute, elles ont fané sous mes doigts, oups, c'était pas la bonne saison, mais le printemps reviendra.</F>
+		<E>Oops, there are no more flowers on the balcony, drat, they wilted in my fingers, oops, it wasn't the right season, but spring will return.</E>
+		<F>Oups, j'ai reve qu'on était plein, a repeindre les murs de nos villes, et laisser l'empreinte de nos mains, pas que sur nos écrans tactiles.</F>
+		<E>Oops, I dreamt that there were a lot of us, repainting our towns' walls, and leaving our hand marks, not only on our touchscreens.</E>
+		<F>J'y peux rien je suis comme ça, c'est plus fort que moi j'y crois, les « n'y crois plus », les « n'y crois pas », c'est pas pour moi.</F>
+		<E>I can't help it that's how I am, it's stronger than me I believe, the 'believe no more', the 'don't believe', it's not for me.</E>
+		<F>Tout commence par un « j'imagine », dans un coin de la tête, un rêve qui soudain se dessine, que plus rien n'arrête.</F>
+		<E>Everything begins with an 'I imagine', in a corner of your head, a dream that takes shape, that nothing can stop.</E>
+		<F>Dis-moi toi ce que t'imagine, chante-le à tue-tête, passe le message à ta voisine, hé, moi, je suis prête!</F>
+		<E>Tell me that which you imagine, sing it loudly, pass the message to your neighbour, hey, I'm ready!</E>
+		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, la-la-la, la-la-la, la-la-la-la, j'imagine.</F>
+		<E>La-la-la, la-la-la, la-la-la-la, I imagine, la-la-la, la-la-la, la-la-la-la, I imagine.</E>
+		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, j'imagine, la-la-la, la-la-la, la-la-la-la, moi demain j'imagine.</F>
+		<E>La-la-la, la-la-la, la-la-la-la, I imagine, I imagine, la-la-la, la-la-la, la-la-la-la, tomorrow I imagine.</E>
+		<F>Oups, j'ai imagine un monde, ou on se serrait dans les bras, pour faire la plus belle des rondes, une danse entre vous et moi.</F>
+		<E>Oops, I imagined a world, where we held each other in our arms, to make the most beautiful rounds, a dance between you and me.</E>
+		<F>Go, y'a toujours quelque chose à faire, même en plein milieu du salon, sur nos écrans les mains en l'air, pour faire la révolution.</F>
+		<E>Go, there is always something to do, even in the middle of the living room, on our screens with our hands in the air, to make the revolution.</E>
+		<F>J'y peux rien je suis comme ça, c'est plus fort que moi j'y crois, les « n'y crois plus », les « n'y crois pas », c'est pas pour moi.</F>
+		<E>I can't help it that's how I am, it's stronger than me I believe, the 'believe no more', the 'don't believe', it's not for me.</E>
+		<F>Tout commence par un « j'imagine », dans un coin de la tête, un rêve qui soudain se dessine, que plus rien n'arrête.</F>
+		<E>Everything begins with an 'I imagine', in a corner of your head, a dream that takes shape, that nothing can stop.</E>
+		<F>Dis-moi toi ce que t'imagines, chante-le à tue-tête, passe le message à ta voisine, hé, moi, je suis prête!</F>
+		<E>Tell me that which you imagine, sing it loudly, pass the message to your neighbour, hey, I'm ready!</E>
+		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, la-la-la, la-la-la, la-la-la-la, j'imagine.</F>
+		<E>La-la-la, la-la-la, la-la-la-la, I imagine, la-la-la, la-la-la, la-la-la-la, I imagine.</E>
+		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, j'imagine, la-la-la, la-la-la, la-la-la-la, moi demain j'imagine.</F>
+		<E>La-la-la, la-la-la, la-la-la-la, I imagine, I imagine, la-la-la, la-la-la, la-la-la-la, tomorrow I imagine.</E>
+		<F>Alors c'est vrai c'est pas toujours la joie, dans nos cœurs c'est, un peu comme un combat, et toi demain, toi tu fais quoi, imagine avec moi.</F>
+		<E>So it's true it's not always joy, in our hearts it's, a bit like a fight, and you tomorrow, what are you going to do, imagine with me.</E>
+		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, la-la-la, la-la-la, la-la-la-la, j'imagine.</F>
+		<E>La-la-la, la-la-la, la-la-la-la, I imagine, la-la-la, la-la-la, la-la-la-la, I imagine.</E>
+		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, la-la-la, la-la-la, la-la-la-la, j'imagine.</F>
+		<E>La-la-la, la-la-la, la-la-la-la, I imagine, la-la-la, la-la-la, la-la-la-la, I imagine.</E>
+		<F>Oh, moi demain j'imagine, oh, moi demain j'imagine, oh, moi demain j'imagine, oh, moi demain j'imagine, hé!</F>
+		<E>Oh, tomorrow I imagine, oh, tomorrow I imagine, oh, tomorrow I imagine, oh, tomorrow I imagine, hey!</E>
+	</song>
+	<song artist="Barbara Pravi" title="Voilà" title2="Here it is" link="yt:qjvB3dAsUC0" time="[0, 13, 27, 40.5, 53.5, 67.5, 81.5, 99, 111.5, 125.5, 139.5, 152.5]">
+		<F>Écoutez-moi, moi la chanteuse à demi, parlez de moi, à vos amours, à vos amis.</F>
+		<E>Listen to me, me the halfway singer, talk about me, to your loved ones, to your friends.</E>
+		<F>Parlez-leur de cette fille aux yeux noirs et de son rêve fou, moi, c'que j'veux c'est écrire des histoires qui arrivent jusqu'à vous, c'est tout.</F>
+		<E>Tell them of this girl with black eyes and of her crazy dream, me, what I want is to write stories that come to you, that's all.</E>
+		<F>Voilà, voilà, voilà, voilà qui je suis, me voilà même si, mise à nue j'ai peur, oui me voilà dans le bruit et dans le silence.</F>
+		<E>Here it is, here it is, here it is, here's who I am, here's me even if stripped naked I'm scared, yes here's me in the noise and in the silence.</E>
+		<F>Regardez-moi, ou du moins ce qu'il en reste, regardez-moi, avant que je me déteste.</F>
+		<E>Look at me, or at least what's left of it, look at me, before I detest myself.</E>
+		<F>Quoi vous dire que les lèvres d'une autre ne vous diront pas, c'est peu de chose mais moi, tout ce que j'ai, je le dépose la, voilà.</F>
+		<E>What to tell you that the lips of another won't tell you, it's not much but me, all that I have, I'm putting it here, here it is.</E>
+		<F>Voilà, voilà, voilà, voilà qui je suis, me voilà même si, mise à nue c'est fini, c'est ma gueule, c'est mon cri, me voilà, tant pis.</F>
+		<E>Here it is, here it is, here it is, here's who I am, here's me even if stripped naked it's over, this is my mug, this is my cry, here's me, too bad.</E>
+		<F>Voilà, voilà, voilà, voilà juste ici, moi, mon rêve, mon envie, comme j'en crève, comme j'en ris, me voilà dans le bruit et dans le silence.</F>
+		<E>Here it is, here it is, here it is, here it is right here, me, my dream, my desire, as I'm dying of it, as I'm laughing at it, here's me in the noise and in the silence.</E>
+		<F>Ne partez pas, j'vous en supplie restez longtemps, ça m'sauvera peut-être pas, non, mais faire sans vous, j'sais pas comment.</F>
+		<E>Don't leave, I'm begging you stay a long time, maybe it won't save me, no, but to do without you, I don't know how.</E>
+		<F>Aimez-moi comme on aime un ami qui s'en va pour toujours, j'veux qu'on m'aime parce que moi, je sais pas bien aimer mes contours.</F>
+		<E>Love me like you love a friend who's leaving forever, I want you to love me because me, I don't really know how to love my contours.</E>
+		<F>Voilà, voilà, voilà, voilà qui je suis, me voilà même si, mise à nue c'est fini, me voilà dans le bruit et dans la fureur aussi.</F>
+		<E>Here it is, here it is, here it is, here's who I am, here's me even if stripped naked it's over, here's me in the noise and in the fury as well.</E>
+		<F>Regardez-moi enfin et mes yeux et mes mains, tout c'que j'ai est ici, c'est ma gueule, c'est mon cri, me voilà, me voilà, me voilà.</F>
+		<E>Look at me at last and my eyes and my hands, everything I have is here, this is my mug, this is my cry, here's me, here's me, here's me.</E>
+		<F>Voilà, voilà, voilà, voilà.</F>
+		<E>Here it is, here it is, here it is, here it is.</E>
+		<F>Da da da da da, da da da da da, da da, da da, da da, da da da da da ...</F>
+		<E> ...</E>
+		<F>Voilà.</F>
+		<E>Here it is.</E>
+	</song>
+</album>
+
+<xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
+	<xsl:template match="xsl:stylesheet"/>
+	<xsl:template match="text()"/>
+	<xsl:template match="xml">
+		<html>
+			<head>
+				<meta name="robots" content="noindex, nofollow"/>
+				<meta name="referrer" content="no-referrer"/>
+				<meta name="theme-color" content="#{@colour}"/>
+				<title><xsl:value-of select="@title"/></title>
+				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20style=%27border:30vw%20solid%20%23FFF%3Bborder-radius:50%25%3Bbackground:%23{@colour}%3B%27/%3E"/>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
+				<script>window.history.scrollRestoration = 'manual';</script>
+				<script>console.log(String.raw`<xsl:value-of select="comment()[1]"/>`);</script>
+				<style><xsl:value-of select="style"/></style>
+			</head>
+			<body style="--colour: #{@colour}">
+				<header>
+					<nav><iframe src="i.html#music"></iframe></nav>
+					<h1><xsl:value-of select="@title"/></h1>
+				</header>
+				<form id="_search_" action="#search">
+					<input name="q" type="search" placeholder="Search {count(//song)} songs" list="list"/>
+					<datalist id="list">
+						<xsl:for-each select="album">
+							<xsl:for-each select="song">
+								<option value="{position()}. {(../@artist|@artist)[last()]} - {@title}" data-href="#{../@id}{position()}"/>
+							</xsl:for-each>
+						</xsl:for-each>
+					</datalist>
+					<button title="Search text">Search</button>
+				</form>
+				<ul id="menu">
+					<xsl:for-each select="album">
+						<li class="album{substring(' empty', 1 div not(.//@link))}" style="{substring(concat('--c: #', @colour, ';'), 1 div boolean(@colour))}">
+							<a href="#{@id}">
+								<xsl:if test="@cover"><img src="https://{@cover}" width="300" height="300" alt="{@artist} - {@title}" title="{@artist} - {@title}"/></xsl:if>
+								<xsl:if test="not(@cover)"><img src="data:," width="300" alt=""/></xsl:if>
+							</a>
+							<ol>
+								<xsl:for-each select="song">
+									<li><a href="#{../@id}{position()}" title="{(../@artist|@artist)[last()]}&#13;&#10;{@title} / {@title2}&#13;&#10;XX:XX"><xsl:value-of select="@title"/></a></li>
+								</xsl:for-each>
+							</ol>
+						</li>
+					</xsl:for-each>
+				</ul>
+				<ul id="pages">
+					<xsl:apply-templates select="album" mode="page"/>
+					<xsl:call-template name="search"/>
+				</ul>
+				<iframe id="iframe" src="about:blank" sandbox="allow-presentation allow-same-origin allow-scripts" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
+				<template>
+					<meta name="referrer" content="origin"/>
+					<title>X</title>
+					<style>*{margin:0;}#p{display:block;width:100vw;height:100vh;}</style>
+					<p id="p"></p>
+					<script><![CDATA[
+						'use strict';
+						((w=window,d=document,s,m,p)=>{
+							d.body.append((s=d.createElement('script'),s.src='//youtube.com/iframe_api',s));
+							w.onYouTubeIframeAPIReady=e=>{
+								m=e=>w.top.postMessage(e,'*');
+								p=new YT.Player('p',{
+									host:w.location.protocol+'//www.youtube-nocookie.com',
+									playerVars:{
+										controls:0,
+										widget_referrer:'youtu.be'
+									},
+									events:{
+										onReady:e=>m('READY'),
+										onStateChange:e=>m(Object.entries(YT.PlayerState).find(_=>_[1]==e.data)[0]),
+										onError:e=>m('ERROR')
+									}
+								});
+							};
+							w.onmessage=({data:{video:v}})=>v&&p.loadVideoById(v);
+						})();
+					]]></script>
+				</template>
+				<xsl:call-template name="templates"/>
+				<script type="module"><xsl:value-of select="script"/></script>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="album" mode="page">
+		<li id="{@id}" class="album page" data-title="{@artist} - {@title}">
+			<xsl:if test="@colour">
+				<xsl:attribute name="style">--colour: #<xsl:value-of select="@colour"/>;</xsl:attribute>
+			</xsl:if>
+			<a class="close" href="#-" title="Close"><svg display="none"><use href="#cross"/></svg></a>
+			<div class="content">
+				<div class="half">
+					<img src="https://{@cover}" alt="{@title}"/>
+					<h2><xsl:value-of select="@title"/></h2>
+				</div>
+				<table class="half songs">
+					<tr>
+						<th></th>
+						<th>#</th>
+						<th>Artist</th>
+						<th>Title</th>
+						<th></th>
+						<th>Lyrics</th>
+						<th>Time</th>
+						<th></th>
+					</tr>
+					<xsl:for-each select="song">
+						<tr>
+							<td><xsl:if test="string(@link)"><a class="play" href="http://youtu.be/{substring-after(@link, ':')}"><svg><use href="#triangle"/></svg></a></xsl:if></td>
+							<td><xsl:value-of select="position()"/></td>
+							<td><xsl:value-of select="(../@artist|@artist)[last()]"/></td>
+							<td><a href="#{../@id}{position()}"><xsl:value-of select="@title"/></a></td>
+							<td><a href="#{../@id}{position()}"><xsl:value-of select="@title2"/></a></td>
+							<td><xsl:if test="F|E">X</xsl:if></td>
+							<td><xsl:if test="string(@time)">X</xsl:if></td>
+							<td><a href="#{../@id}{position()}"><svg><use href="#arrow"/></svg></a></td>
+						</tr>
+					</xsl:for-each>
+				</table>
+			</div>
+		</li>
+		<xsl:apply-templates select="song" mode="page"/>
+	</xsl:template>
+	<xsl:template match="song" mode="page">
+		<li id="{../@id}{position()}" class="song page" data-title="{(../@artist|@artist)[last()]} - {@title}">
+			<a class="close" href="#-" title="Close"><svg display="none"><use href="#cross"/></svg></a>
+			<xsl:if test="preceding-sibling::song[1]">
+				<a class="previous" href="#{../@id}{position()-1}" title="{preceding-sibling::song[1]/@title}"><svg display="none"><use href="#arrow"/></svg></a>
+			</xsl:if>
+			<xsl:if test="following-sibling::song[1]">
+				<a class="next" href="#{../@id}{position()+1}" title="{following-sibling::song[1]/@title}"><svg display="none"><use href="#arrow"/></svg></a>
+			</xsl:if>
+			<div class="content">
+				<xsl:if test="../@colour">
+					<xsl:attribute name="style">--colour: #<xsl:value-of select="../@colour"/>;</xsl:attribute>
+				</xsl:if>
+				<a class="play" href="http://youtu.be/{substring-after(@link, ':')}">
+					<h2>
+						<xsl:if test="../@cover"><img class="cover" src="https://images.weserv.nl/?w=45&amp;url={../@cover}" width="45" height="45" alt="" loading="lazy"/></xsl:if>
+						<svg display="none"><use href="#triangle"/></svg><xsl:value-of select="(../@artist|@artist)[last()]"/> - <xsl:value-of select="@title"/>
+					</h2>
+				</a>
+				<ol class="lyrics" data-time="{@time}">
+					<xsl:for-each select="*[position() mod 2 = 1]">
+						<li><xsl:apply-templates select=".|following-sibling::*[1]"/></li>
+					</xsl:for-each>
+				</ol>
+			</div>
+		</li>
+	</xsl:template>
+	<xsl:template name="search">
+		<li id="search" class="page">
+			<a class="close" href="#-" title="Close"><svg display="none"><use href="#cross"/></svg></a>
+			<div class="content">
+				<form>
+					<input name="q" type="search" placeholder="Search" required="required" minlength="2"/>
+					<input type="submit" value="Search"/>
+					<label><input name="accents" type="checkbox"/>Ignore accents</label>
+				</form>
+				<span>Results:</span>
+				<ol>
+					<template>
+						<li class="song">
+							<a href="#"></a>
+							<ul>
+								<template>
+									<li class="line"></li>
+								</template>
+							</ul>
+						</li>
+					</template>
+				</ol>
+			</div>
+		</li>
+	</xsl:template>
+	<xsl:template match="F">
+		<b lang="fr"><xsl:value-of select="."/></b>
+	</xsl:template>
+	<xsl:template match="E">
+		<i lang="en"><xsl:value-of select="."/></i>
+	</xsl:template>
+	<xsl:template name="templates">
+		<svg display="none">
+			<symbol id="triangle" viewBox="0 0 14 14" fill="currentcolor">
+				<polygon points="2,0 14,7 2,14"/>
+			</symbol>
+			<symbol id="cross" viewBox="0 0 1 1" stroke="currentcolor" stroke-width="0.1">
+				<line x1="0" y1="1" x2="1" y2="0"/>
+				<line x1="0" y1="0" x2="1" y2="1"/>
+			</symbol>
+			<symbol id="arrow" viewBox="0 0 1 2" stroke="currentcolor" fill="none" stroke-width="0.2">
+				<polyline points="0,0 1,1 0,2"/>
+			</symbol>
+		</svg>
+	</xsl:template>
+</xsl:stylesheet>
+<style><![CDATA[
+	@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: #FFF; background: var(--colour) linear-gradient(45deg, transparent, #FFF8) fixed;}
+	h1, h2 {margin: 0px; font-size: 30px;}
+	h1 {display: none;}
+	a {color: inherit; text-decoration: none;}
+	a:not([id]):hover {text-decoration: underline;}
+	input, select, button {font: inherit;}
+	::placeholder {text-align: center;}
+	img, svg {vertical-align: middle;}
+	.page {display: block; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;}
+	.page:not(:target) {display: none;}
+	.page svg {display: inline-block; width: 100%; height: 100%;}
+	.page>.close {display: block; position: absolute; width: 100%; height: 100%; background-color: #0008; z-index: -1; backdrop-filter: blur(5px);}
+	.page>.close svg {display: block; position: absolute; top: 10px; left: 10px; width: 40px; height: 40px; padding: 10px; border-radius: 50%; color: #000; background-color: #FFF6;}
+	.page>.close:hover svg {background-color: #FFF;}
+	.page>.content {width: 80%; height: calc(100% - 20px); margin: 10px auto; padding: 10px; border-radius: 20px; background-color: var(--colour, #AAA); box-shadow: 0px 0px 10px #000A; box-sizing: border-box;}
+	.page .previous>svg, .page .next>svg {display: inline-block; position: absolute; top: 50%; right: 30px; height: 50px; width: 50px; border-radius: 10px; background-color: #0007;}
+	.page .previous>svg {left: 30px; transform: rotate(180deg);}
+	.page .content>.half {display: inline-block; width: 38%; height: 100%; vertical-align: top;}
+	.page .content>.half:last-child {width: 58%;}
+	.album.page .songs {background: #333 linear-gradient(transparent, #FFF3); overflow-y: auto;}
+	.album.page .songs tr {height: 30px;}
+	.album.page .songs svg {display: inline-block; width: 20px; height: 20px;}
+	.album.page .play {border-radius: 50%; background-color: #444;}
+	.song.page .play {display: block; height: 50px; line-height: 50px; border-radius: 20px; transition: background-color 1s, box-shadow 1s; overflow: hidden; white-space: nowrap;}
+	.song.page .play:not(.active) svg {display: inline-block; width: 40px; height: 40px; padding: 10px; border-radius: 50%; background-color: #0005;}
+	.song.page .play:hover {background-color: #F00; box-shadow: 0px 0px 10px #FFF; transition: initial;}
+	.song.page .play:hover>h2::before {color: #F00;}
+	.song.page .play.active {background-image: linear-gradient(90deg, #FFF, #F00, #FFF); background-size: 200%; animation: 3s a1 linear infinite; pointer-events: none;}
+	@keyframes a1 {0% {background-position: 0%;} 100% {background-position: 200%;}}
+	.loading>a[id] {opacity: 0.5; pointer-events: none;}
+	.song.page .lyrics {height: calc(100% - 50px); margin: 0px; font-size: 19px; overflow-y: auto; background-color: #222;}
+	.song.page .lyrics::after {content: ''; display: block; height: 50%;}
+	.song.page .lyrics:target {display: block !important; position: fixed; width: 100%; height: 100%; margin: 0px; border-radius: 0px; box-sizing: border-box;}
+	b, i {display: block;}
+	.lyrics.active>* {display: none; font-size: 60px; text-shadow: 0px 0px 10px yellow;}
+	.lyrics.active>li.active {display: block; animation: a2 3s forwards;}
+	@keyframes a2 {0% {} 100% {text-shadow: none;}}
+	.lyrics li:not(:first-child):not(.active) {border-top: 1px solid #FFF6;}
+	i {margin-bottom: 5px; color: #CCC;}
+	.lyrics.active>li.active b::after {content: ''; display: block; width: 75%; height: 10px; margin: 20px auto; border-radius: 10px; background-color: #FFF4;}
+	#menu {display: block; margin: 0px; padding: 0px;}
+	#menu::after {content: ''; display: block; height: 200px; background-image: linear-gradient(transparent, #FFF5);}
+	#menu>li {display: inline-block; max-width: 300px; margin: 5px; box-shadow: 0px 0px 5px #000; background-color: var(--c, #555); vertical-align: top;}
+	#menu img {display: block; max-width: 100%; height: auto;}
+	#menu ol {padding: 5px 5px 5px 40px; text-align: initial; background-image: linear-gradient(45deg, transparent, #FFF6);}
+	#menu .album.empty {opacity: 0.5;}
+	iframe {display: block; width: 100%; height: 100%; border-style: none;}
+	#iframe {position: fixed; top: 0px; padding: 15vh 15vw; background-color: #000A; box-sizing: border-box;}
+	#iframe:not(.active) {visibility: hidden; z-index: -1;}
+	header {}
+	nav {height: 100px;}
+	nav>iframe {height: inherit;}
+]]></style>
+<script><![CDATA[
+	'use strict';
+	$(($, w = window, d = document, c = console, _ = {'title': d.title})=>{
+		_.icon = $('[rel="icon"]')[0].href;
+		$(w).on('hashchange', function(e){
+			d.title = $(':target')[0]?.dataset.title ? $(':target')[0].dataset.title + ' | ' + _.title : _.title;
+			$('[rel="icon"]')[0].href = $(':target').find('.cover')[0]?.src || _.icon;
+		}).trigger('hashchange').on('message', function({'originalEvent': {'data': d}}){
+			c.log(d);
+			if(d == 'READY') $('body').removeClass('loading').find('a.active').click();
+			if(d == 'UNSTARTED' && _.temp == 'BUFFERING') $('#iframe').addClass('active'), c.log('!!!');
+			if(d == 'ENDED' || d == 'ERROR') $('.active').removeClass('active');
+			if(d == 'PLAYING'){
+				$('#iframe').removeClass('active');
+				let $p = $('.lyrics.active');
+				let t = $p.data('time')||[];
+				(function line(i = 0){
+					if(i > 0){
+						$p.find('.active').removeClass('active');
+						$p.find('li').eq(i-1).addClass('active');
+					}
+					if(i < t.length) w.setTimeout(line, (t[i]-(t[i-1]||0))*1000, i+1);
+				})();
+			}
+			_.temp = d;
+		});
+		$('#_search_').on('submit', function(e){
+			e.preventDefault();
+			w.location.assign(this.action);
+			$(this.getAttribute('action')).find('input')[0].value = this.q.value;
+			this.q.value = '';
+		}).find('input').on('keyup', function(e){
+			if(typeof(e.code) != 'undefined') return;
+			w.location.assign($(this.list).find('option')[this.value.split('.')[0]-1].dataset.href);
+			this.value = '';
+		});
+		$('.page').find('.play').on('click', function(e){
+			e.preventDefault();
+			$('.active').removeClass('active');
+			$(this).addClass('active');
+			if($('#iframe')[0].src == 'about:blank'){
+				$('body').addClass('loading');
+				let x = $('#iframe').next()[0].innerHTML.trim().replace(/\s\/\/.*/g, '').replace(/\s+/g, ' ');
+				$('#iframe')[0].src = 'https://urlecho.appspot.com/echo?X-XSS-Protection=0&body=' + encodeURIComponent('<!DOCTYPE html>' + x);
+			} else {
+				c.log('%c' + this.textContent, 'font-weight: bold;');
+				$('#iframe')[0].contentWindow.postMessage({'video': this.href.split('/').pop()}, '*');
+				if($(this).next().data('time')?.length) $(this).next().addClass('active');
+			}
+		});
+		$('#search').find('form').on('submit', function(e){
+			e.preventDefault();
+			if(this.q.value.length < this.q.minLength) return;
+			this.q.value = this.q.value.toLowerCase();
+			$(this).parent().find('ol').empty();
+			let xpath = '';
+			if(this.accents.checked){
+				let accents = 'çéëïàèùâêîôû';
+				let normal = accents.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+				this.q.value = this.q.value.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+				xpath = `//*[@lang="fr"][contains(translate(translate(., "${accents.toUpperCase() + accents}", "${normal + normal}"), "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
+			} else {
+				xpath = `//*[@lang="fr"][contains(translate(., "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
+			}
+			try {
+				let node = null;
+				let nodes = [];
+				let result = d.evaluate(xpath, d.body, null, XPathResult.ANY_TYPE, null);
+				while(node = result.iterateNext()){
+					nodes.push(node);
+				}
+				$(this).parent().find('span')[0].textContent = nodes.length + ' results:';
+				nodes.forEach(node=>{
+					$(this).parent().find('ol').append('<li><b>' + node.closest('.page').dataset.title + '</b>' + node.textContent + '</li>');
+				});
+			} catch(error) {
+				$(this).parent().find('ol').append('<li>' + error + '</li>');
+			}
+		});
+	});
+]]></script>
+</xml>
