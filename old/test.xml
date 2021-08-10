@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="#xsl"?>
 <xml>
-  <meta name="robots" content="none"/>
-  <test>TEST</test>
+	<xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+		<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
+		<xsl:template match="xsl:stylesheet"/>
+		<xsl:template match="xml">
+			<meta name="robots" content="noindex, nofollow"/>
+			<meta name="referrer" content="no-referrer"/>
+			<title>TEST</title>
+			<style>
+				body {background-color: silver;}
+			</style>
+			<h1>TEST</h1>
+			<iframe src="//example.com" sandbox=""></iframe>
+		</xsl:template>
+	</xsl:stylesheet>
 </xml>
