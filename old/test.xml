@@ -5,14 +5,17 @@
 		<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
 		<xsl:template match="xsl:stylesheet"/>
 		<xsl:template match="xml">
-			<meta name="robots" content="noindex, nofollow"/>
-			<meta name="referrer" content="no-referrer"/>
-			<title>TEST</title>
-			<style>
-				body {background-color: silver;}
-			</style>
-			<h1>TEST</h1>
-			<iframe src="//example.com" sandbox=""></iframe>
+			<html>
+				<head>
+					<meta name="robots" content="noindex, nofollow"/>
+					<title>TEST</title>
+					<style>body {background-color: lightgreen;}</style>
+				</head>
+				<body>
+					<h1 id="h1">TEST</h1>
+					<script>h1.textContent = document.compatMode;</script>
+				</body>
+			</html>
 		</xsl:template>
 	</xsl:stylesheet>
 </xml>
