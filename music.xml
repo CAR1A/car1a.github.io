@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="#stylesheet"?>
 <!DOCTYPE xml [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
 <xml title="CARLA Music" colour="E8E">
+<html:meta xmlns:html="http://www.w3.org/1999/xhtml" name="robots" content="noindex, nofollow"/>
 <!--
   ___        ____  _          _____
  / __|  /\  |  _ \| |   /\   |     |_ _ ___ _ ___
@@ -412,7 +413,7 @@
 		<F>Et je cours, cours, faire la fête, je veux des mélodies qui font des bonds, que ça tourne, tourne et m'entête, jusqu'à l'autre moi qui tourne en rond.</F>
 		<E>And I run, run, celebrate, I want melodies that jump around, how it turns, turns and bothers me, up until the other me who runs around.</E>
 	</song>
-	<song title="Bim Bam toi" title2="Bim bam you" link="yt:fH5X07xBNOs" time="[7, 21.5, 29, 36.5, 44.5, 52.5, 60, 69, 84, 91.5, 99.5, 107, 114.5, 124, 138, 146, 154, 161.5]">
+	<song title="Bim Bam toi" title2="Bim Bam you" link="yt:fH5X07xBNOs" time="[7, 21.5, 29, 36.5, 44.5, 52.5, 60, 69, 84, 91.5, 99.5, 107, 114.5, 124, 138, 146, 154, 161.5]">
 		<F>Les mots me manquent, pourtant j'aimerais crier, muette saltimbanque, à la gorge nouée.</F>
 		<E>I don't have the words, yet I'd like to scream, a mute acrobat, with a lump in her throat.</E>
 		<F>Et ça monte, ça monte, ça monte, jusqu'à c'que mon petit cœur disjoncte.</F>
@@ -985,7 +986,7 @@
 		<E>I see your bright eyes again, mom, and I think of the other white Christmases.</E>
 	</song>
 </album>
-<album id="sf" artist="Carla" title="Sans filtre" title2="Without Filter" year="2021" cover="images.genius.com/fc86cf4e4f86bdcd4c6939188e468a75.526x526x1.jpg" colour="3CC">
+<album id="sf" artist="Carla" title="Sans filtre" title2="Without filter" year="2021" cover="images.genius.com/fc86cf4e4f86bdcd4c6939188e468a75.526x526x1.jpg" colour="3CC">
 	<song title="Summer Summer" link="yt:j8sUZODD7us" time="[10.5, 20, 28.5, 39.5, 49, 60, 68, 78, 86, 97, 106.5, 116, 127]">
 		<F>Summer, summer, allez mets-toi sur ma page, summer, summer, et rejoins-moi à la nage.</F>
 		<E>Summer, summer, come on put yourself on my page, summer, summer, and join me for a swim.</E>
@@ -1064,18 +1065,18 @@
 		<F>Chut.</F>
 		<E>Shut up.</E>
 	</song>
-	<song title="Made in maintenant" title2="Made in the Now" link=""/>
-	<song title="Avec toi" title2="With You" link=""/>
-	<song title="Les gens qui s'aiment" title2="People Who Love Each Other" link=""/>
+	<song title="Made in maintenant" title2="Made in the now" link=""/>
+	<song title="Avec toi" title2="With you" link=""/>
+	<song title="Les gens qui s'aiment" title2="People who love each other" link=""/>
 	<song artist="Carla &amp; Augustin Galiana" title="Loca" link=""/>
-	<song title="Tout recommencer" title2="Start All Over" link=""/>
-	<song title="L'autre bout du monde" title2="The Other End of the World" link=""/>
+	<song title="Tout recommencer" title2="Start all over" link=""/>
+	<song title="L'autre bout du monde" title2="The other end of the world" link=""/>
 	<song title="Comblée" title2="Fulfilled" link=""/>
-	<song title="À la folie" title2="To Madness" link=""/>
-	<song title="Plus jamais" title2="Never Again" link=""/>
-	<song title="Cœur avec les mains" title2="Heart with My Hands" link=""/>
-	<song title="On se retrouvera" title2="We'll Meet Again" link=""/>
-	<song title="Bim Bam toi (Remix)" title2="Bim Bam You (Remix)" link=""/>
+	<song title="À la folie" title2="To madness" link=""/>
+	<song title="Plus jamais" title2="Never again" link=""/>
+	<song title="Cœur avec les mains" title2="Heart with my hands" link=""/>
+	<song title="On se retrouvera" title2="We'll meet again" link=""/>
+	<song title="Bim Bam toi (Remix)" title2="Bim Bam you (Remix)" link=""/>
 </album>
 <album id="gt" artist="Various Artists" title="Green Team" year="2020" cover="i.scdn.co/image/ab67616d00001e02af46fcda3c5ee11e9ca910e3" colour="482">
 	<song artist="Carla, Lou, Yun &amp; Kids United (Valentina, Ilyana, Gloria, Dylan &amp; Nathan)" title="Trois petits pas" title2="Three small steps" link="yt:f7kdKHQ4H-g" time="[14, 20.5, 28, 41.5, 48, 54, 61, 68.5, 82, 89, 95, 101.5, 109, 122, 128.5, 135.5, 142]">
@@ -1266,7 +1267,7 @@
 		<F>Ils disent « à quoi tu joues », ils n'y voient que du vent, montre leur que chaque jour, donne un nouvel élan.</F>
 		<E>They say 'what are you doing', they see nothing but wind, show them that every day gives new impetus.</E>
 		<F>J'entends encore chanter l'espérance, elle me dit « bientôt tout commence ».</F>
-		<E></E>
+		<E>...</E>
 		<F>Si demain, on tente, le futur, on l'enchante, et si demain, on donne, la planète nous pardonne.</F>
 		<E>If tomorrow, we try, the future, we enchant it, and if tomorrow, we give, the planet forgives us.</E>
 		<F>Ouais, si demain, on rêve, alors nos voix s'élèvent, pour dire « hier c'était bien, mais ce sera mieux demain ».</F>
@@ -1274,11 +1275,11 @@
 		<F>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</F>
 		<E>Palapapa, palapa, palapapa, palapa, palapapa, palapa, pa, pa, pa.</E>
 		<F>Regarde comme il fait beau, quand s'en vont les nuages, Dessine d'autres tableaux, peins d'autres paysages.</F>
-		<E></E>
+		<E>...</E>
 		<F>Il est venu le temps, de changer de profil, voir le monde en plus grand, tout est encore possible.</F>
-		<E></E>
+		<E>...</E>
 		<F>J'ai entendu chanter le printemps, il m'a dit « demain c'est maintenant ».</F>
-		<E></E>
+		<E>...</E>
 		<F>Si demain, on tente, le futur, on l'enchante, et si demain, on donne, la planète nous pardonne.</F>
 		<E>If tomorrow, we try, the future, we enchant it, and if tomorrow, we give, the planet forgives us.</E>
 		<F>Ouais, si demain, on rêve, alors nos voix s'élèvent, pour dire « hier c'était bien, mais ce sera mieux demain ».</F>
@@ -1380,11 +1381,11 @@
 		<F>Oh-oh-oh, sur cette terre, sur cette étoile, dis-leur d'essayer, dis-leur d'essayer.</F>
 		<E>Oh-oh-oh, on this earth, on this star, tell them to try, tell them to try.</E>
 	</song>
-	<song artist="Hopen" title="Dans 100 ans" title2="In 100 years" link="yt:mxjh6c_5wb0" time="">
+	<song artist="Hopen" title="Dans 100 ans" title2="In 100 years" link="yt:mxjh6c_5wb0" time="[5.5, ]">
 		<F>Dans cent ans toi et moi, dans cent ans toi et moi, dans cent ans ... pas.</F>
 		<F>Nos enfants vivront ici, nos enfants vivront ici, nos enfants et leurs enfants aussi.</F>
-		<F>Dans cent ans ... dans cent ans ... dans cent ans comment sera le monde?</F>
-		<F>...-ils sous les yeux, ...-ils sous les yeux, diront-ils « ... faire au mieux »?</F>
+		<F>Dans cent ans ..., dans cent ans ..., dans cent ans comment sera le monde?</F>
+		<F>... auront-ils sous les yeux, ... auront-ils sous les yeux, diront-ils « ... faire au mieux »?</F>
 		<F>Dans cent ans le temps remportera, ... plus, ... pas.</F>
 		<F>Dans cent ans c'est toi, c'est moi, c'est ...</F>
 		<F>Dans cent ans ... aujourd'hui comme ça, dans cent ans c'est des idées pour ...</F>
@@ -1397,14 +1398,14 @@
 		<F>Dans cent ans c'est toi, c'est moi, c'est ...</F>
 		<F>Dans cent ans ... aujourd'hui comme ça, dans cent ans c'est des idées pour ...</F>
 		<F>Dans cent ans tout changera, ou nous entendra, ou nous entendra, ou nous entendra.</F>
-		<F>Dans cent ans ..., dans cent ans ...</F>
-		<F>Après ... notre histoire, après ... notre histoire, ...</F>
+		<F>Dans cent ans ..., dans cent ans ..., vivront-ils ...?</F>
+		<F>Après ... notre histoire, après ... notre histoire, ... ce qu'on ...</F>
 		<F>Ah-ah-ah, ah-ah-ah, ah-ah-ah, ah-ah-ah, ah-ah-ah, ah.</F>
 		<F>Dans cent ans le temps remportera, ... plus, ... pas.</F>
 		<F>Dans cent ans c'est toi, c'est moi, c'est ...</F>
 		<F>Dans cent ans ... aujourd'hui comme ça, dans cent ans c'est des idées pour ...</F>
 		<F>Dans cent ans tout changera, ou nous entendra.</F>
-		<F>Dans cent ans le temps remportera, ... plus ... pas.</F>
+		<F>Dans cent ans le temps remportera, ... plus, ... pas.</F>
 		<F>Dans cent ans c'est toi, c'est moi, c'est ...</F>
 		<F>Dans cent ans ... aujourd'hui comme ça, dans cent ans c'est des idées pour ...</F>
 		<F>Dans cent ans tout changera, ou nous entendra, ou nous entendra, ou nous entendra.</F>
@@ -1467,7 +1468,7 @@
 		<F>Un peu de graine et d'eau, un côté vert et un côté bio, c'est l'amour écolo.</F>
 		<E>A little seed and water, a green side and an organic side, it's ecological love.</E>
 	</song>
-	<song artist="Les Frangines &amp; Saam" title="Sous quel ciel" title2="Under what sky" link="yt:ictVuAdauhE" time="">
+	<song artist="Les Frangines &amp; Saam" title="Sous quel ciel" title2="Under what sky" link="yt:ictVuAdauhE" time="[6, 12.5, 18.5, 25, 32, 44, 51.5, 58, 64.5, 70.5, 76.5, 87.5, 101.5, 112, 119, 130]">
 		<F>Est-ce qu'on avait de la poussière dans les yeux, ou le cœur sourd de ceux qui ne voient qu'eux?</F>
 		<E>Did we have dust in our eyes, or the deaf heart of those who see only themselves?</E>
 		<F>Est-ce qu'on avait l'esprit trop embrumé, pour ne pas voir la terre pleurer?</F>
@@ -1488,18 +1489,18 @@
 		<E>I've heard that beauty will save the world, and that it's hiding in our deepest gashes.</E>
 		<F>Si l'homme a fait le pire en abimant la terre, il peut aussi bâtir de ses mains des merveilles.</F>
 		<E>If man has done the worst by damaging the earth, he can also build wonders with his hands.</E>
-		<F>Oh-oh-oh-oh, sous quel ciel danseront-ils, oh-oh-oh-oh, quelles rivières franchiront-ils, nos enfants, oh-oh-oh?</F>
-		<E>Oh-oh-oh-oh, under what sky will they dance, oh-oh-oh-oh, what rivers will they cross, our children, oh-oh-oh?</E>
-		<F>Si l'on se fait la belle, nos enfants, oh-oh-oh, si l'on ne s'émerveille.</F>
-		<E>If we get away, our children, oh-oh-oh, if we don't marvel.</E>
+		<F>Oh-oh-oh-oh, sous quel ciel danseront-ils, oh-oh-oh-oh, quelles rivières franchiront-ils, nos enfants?</F>
+		<E>Oh-oh-oh-oh, under what sky will they dance, oh-oh-oh-oh, what rivers will they cross, our children?</E>
+		<F>Oh-oh-oh, si l'on se fait la belle, nos enfants, oh-oh-oh, si l'on ne s'émerveille.</F>
+		<E>Oh-oh-oh, if we get away, our children, oh-oh-oh, if we don't marvel.</E>
 		<F>Sous quel ciel danseront-ils, quelles rivières franchiront-ils?</F>
 		<E>Under what sky will they dance, what rivers will they cross?</E>
 		<F>Si l'on se fait la belle, si l'on ne s'émerveille.</F>
 		<E>If we get away, if we don't marvel.</E>
-		<F>Oh-oh-oh-oh, sous quel ciel, danseront-ils, oh-oh-oh-oh, quelles rivières franchiront-ils, nos enfants, oh-oh-oh?</F>
-		<E>Oh-oh-oh-oh, under what sky will they dance, oh-oh-oh-oh, what rivers will they cross, our children, oh-oh-oh?</E>
-		<F>Si l'on se fait la belle, nos enfants, oh-oh-oh, si l'on ne s'émerveille.</F>
-		<E>If we get away, our children, oh-oh-oh, if we don't marvel.</E>
+		<F>Oh-oh-oh-oh, sous quel ciel, danseront-ils, oh-oh-oh-oh, quelles rivières franchiront-ils, nos enfants?</F>
+		<E>Oh-oh-oh-oh, under what sky will they dance, oh-oh-oh-oh, what rivers will they cross, our children?</E>
+		<F>Oh-oh-oh, si l'on se fait la belle, nos enfants, oh-oh-oh, si l'on ne s'émerveille.</F>
+		<E>Oh-oh-oh, if we get away, our children, oh-oh-oh, if we don't marvel.</E>
 	</song>
 	<song title="Et demain?" title2="And tomorrow?" link="yt:IsHa99wyGKQ" time="[10, 20.5, 31, 41.5, 52.5, 62.5, 73.5, 84, 94.5, 105, 115.5, 126, 136.5, 147, 158]">
 		<F>Il a fallu en arriver là pour nous rassembler, prendre conscience de l'importance, de l'humanité.</F>
