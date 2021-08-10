@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="#xsl"?>
+<xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
+	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
+	<xsl:template match="xsl:stylesheet">
+		<html>
+			<head>
+				<meta name="robots" content="noindex, nofollow"/>
+				<title>TEST</title>
+				<style>body {background-color: lightgreen;}</style>
+			</head>
+			<body>
+				<h1 id="h1">TEST</h1>
+				<script>h1.textContent = document.compatMode;</script>
+			</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>
