@@ -4,6 +4,7 @@
 <meta name="theme-color" content="#F00"/>
 <title>404 | CARLA</title>
 <base target="_top"/>
+<link rel="canonical" href="./"/>
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20style=%27border:30vw%20solid%20%23FFF%3Bborder-radius:50%25%3Bbackground:%23F00%3B%27/%3E"/>
 <style>
 	@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
@@ -16,11 +17,11 @@
 	nav:hover {opacity: initial;}
 	nav iframe {width: 100%; height: 100%;}
 	main {position: absolute; top: 50%; width: 100%; transform: translateY(-50%);}
-	#deezer {margin: 5px auto; padding: 0px 46px; border: 10px solid #222; border-radius: 100px; background-color: #222; box-shadow: 0px 0px 10px #FFF9;}
+	main iframe {margin: 5px auto; padding: 0px 46px; border: 10px solid #222; border-radius: 100px; background-color: #222; box-shadow: 0px 0px 10px #FFF9;}
 </style>
-<nav><iframe src="i.html#404" referrerpolicy="same-origin"></iframe></nav>
+<nav><iframe src="i.html#404" title="Menu" referrerpolicy="same-origin"></iframe></nav>
 <main>
 	<h1>🗿 <span lang="en">Not Found</span> / <span lang="fr">Introuvable</span></h1>
 	<a href="./">Go back to homepage</a> or listen to a random CARLA song:
-	<iframe id="deezer" src="about:blank" data-src="https://deezer.com/plugins/player?type=radio&amp;layout=dark&amp;id=artist-78960852" width="350" height="92" sandbox="allow-presentation allow-same-origin allow-scripts" allow="encrypted-media *; fullscreen *" loading="lazy" onload="!this.contentDocument || (this.src = this.dataset.src + '&amp;' + (Math.random()*100).toFixed());"></iframe>
+	<iframe src="about:blank" data-src="https://deezer.com/plugins/player?type=radio&amp;layout=dark&amp;id=artist-78960852" width="350" height="92" title="Deezer" sandbox="allow-presentation allow-same-origin allow-scripts" allow="encrypted-media *; fullscreen *" loading="lazy" onload="!this.contentDocument || (this.src = this.dataset.src + '&amp;' + (Math.random()*100).toFixed());"></iframe>
 </main>
