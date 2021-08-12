@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="#stylesheet"?>
-<!DOCTYPE xml [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+<?xml-stylesheet type="text/xsl" href="#xsl"?>
 <xml title="CARLA Media" colour="FA0">
 <!--
   ___        ____  _          _____       _
@@ -17,7 +16,7 @@
 - github.com/heiseonline/embetty for fb thumbs?
 - event categories? (tv, concert)
 - google translate null origin?
--->
+==================================================-->
 <event title="Célia Larry Show - Spectacle du 1er Mars" date="01-03-2014">
 	<video title="Show (Part 1)" link="yt:CS7gxC5Hxho" length="1:05:50">
 		<_ title="Carla &amp; les Eleves - Attention au Depart" time="29:30"/>
@@ -3066,7 +3065,7 @@
 	<video title="" link="yt:ObwSCaBZrQI" length="1:52"/>
 </event>
 
-<xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:_="http://exslt.org/common" extension-element-prefixes="_">
+<xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:_="http://exslt.org/common" extension-element-prefixes="_">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
 	<xsl:variable name="icon" select="'s2.googleusercontent.com/s2/favicons?domain='"/>
 	<xsl:variable name="icon64" select="'s2.googleusercontent.com/s2/favicons?sz=64&amp;domain='"/>
@@ -3075,7 +3074,7 @@
 	<xsl:template match="xsl:stylesheet"/>
 	<xsl:template match="text()"/>
 	<xsl:template match="xml">
-		<html>
+		<html lang="">
 			<head>
 				<meta name="robots" content="noindex, nofollow"/>
 				<meta name="referrer" content="no-referrer"/>
@@ -3151,7 +3150,7 @@
 	</xsl:template>
 	<xsl:template match="video">
 		<xsl:variable name="video"><xsl:call-template name="video"/></xsl:variable>
-		<xsl:variable name="_" select="_:node-set($video)/_"/>
+		<xsl:variable name="_" select="_:node-set($video)/*"/>
 		<li class="video">
 			<a href="#{@link}" title="{@title}">
 				<span class="video-image" data-length="{@length}" style=" --i: url(https://{$icon64}{substring-before(concat($_/@url, '/'), '/')});">
@@ -3165,7 +3164,7 @@
 	</xsl:template>
 	<xsl:template match="video" mode="page">
 		<xsl:variable name="video"><xsl:call-template name="video"/></xsl:variable>
-		<xsl:variable name="_" select="_:node-set($video)/_"/>
+		<xsl:variable name="_" select="_:node-set($video)/*"/>
 		<li id="{@link}" class="p-page">
 			<a class="p-page-close" href="#-" title="Close"><svg class="close" display="none"><use href="#cross"/></svg></a>
 			<xsl:for-each select="preceding-sibling::video[1]">
@@ -3257,7 +3256,7 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<xsl:variable name="_" select="_:node-set($link)/_"/>
+		<xsl:variable name="_" select="_:node-set($link)/*"/>
 		<li class="link">
 			<a href="http://{$_/@url}" title="{$_/@title}">
 				<span><img src="https://{$icon64}{substring-before(concat($_/@url, '/'), '/')}" alt="" loading="lazy"/></span>
