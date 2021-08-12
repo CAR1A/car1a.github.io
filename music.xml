@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="#xsl"?>
-<!DOCTYPE xml>
-<xml title="CARLA Music" colour="E8E"><meta name="robots" content="noindex, nofollow" xmlns="http://www.w3.org/1999/xhtml"/>
+<xml title="CARLA Music" colour="E8E"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/>
 <!--
   ___        ____  _          _____
  / __|  /\  |  _ \| |   /\   |     |_ _ ___ _ ___
