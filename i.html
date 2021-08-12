@@ -108,13 +108,16 @@
 		<a href="http://twitter.com/carlamusicoff_" title="Twitter"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=twitter.com" width="32" height="32" alt="Twitter"/></a>
 		<a href="http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr" title="Spotify"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=open.spotify.com" width="32" height="32" alt="Spotify"/></a>
 		<a href="http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA" title="YouTube"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&domain=youtu.be" width="32" height="32" alt="YouTube"/></a>
-		<img src="//hits.seeyoufarm.com/api/count/incr/badge.svg?url=carla3.com" width="0" height="0" alt=""/>
-		<!--<img src="//hitcounter.pythonanywhere.com/count/tag.svg?url=carla3.com" width="0" height="0" alt=""/>-->
+		<noscript id="noscript">
+			<img src="//hits.seeyoufarm.com/api/count/incr/badge.svg?url=carla3.com" width="0" height="0" alt=""/>
+			<img src="//hitcounter.pythonanywhere.com/count/tag.svg?url=carla3.com" width="0" height="0" alt=""/>
+		</noscript>
 	</span>
 </nav>
 <script>
 	'use strict';
-	window.fetch('//cloudflare.com/cdn-cgi/trace').then(response=>{
+	window.onload =e=> noscript.outerHTML = noscript.innerHTML;
+	window.fetch('//cloudflare.com/cdn-cgi/trace', {'cache': 'force-cache'}).then(response=>{
 		return response.text();
 	}).then(text=>{
 		return Promise.reject(Object.fromEntries(text.split('\n').map(_=>_.trim().split('='))));
@@ -128,6 +131,8 @@
 				'origin': document.referrer ? document.referrer + ' / ' + window.origin : window.origin,
 			}),
 		};
-		window.fetch('https://script.googleusercontent.com/macros/s/AKfycbzIuDBDuuAVlKBaVEUl_OLGnRG1kqTn5dNTo7p_TRNNORXQYiaE/exec', options);
+		window.fetch('//script.google.com/macros/s/AKfycbzIuDBDuuAVlKBaVEUl_OLGnRG1kqTn5dNTo7p_TRNNORXQYiaE/exec', options).catch(error=>{
+			//fallback
+		});
 	});
 </script>
