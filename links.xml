@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="#stylesheet"?>
-<!DOCTYPE xml [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+<?xml-stylesheet type="text/xsl" href="#xsl"?>
 <xml title="CARLA Links" colour="5FA">
 <!--
   ___        ____  _          _         _
@@ -13,7 +12,7 @@
 - pushstate with #?
 - https://www.pressreader.com/france/20-minutes-nice/20200605/281500753477855
 - overlay zoom toggle
--->
+================================================-->
 <links title="Carla">
 	<link type="tiktok" id="carlamusicoff"/>
 	<link type="instagram" id="carlamusicoff"/>
@@ -157,6 +156,7 @@
 	<link>amomama.fr/177717-carla-la-participante-francaise-a-leurov.html</link>
 	<link>tvmag.lefigaro.fr/programme-tv/eurovision-junior-2019-carla-finaliste-de-the-voice-representera-la-france_e57df2bc-ec29-11e9-92d3-e5ed71345a1f/</link>
 	<link>tvmag.lefigaro.fr/programme-tv/carla-l-eurovision-junior-un-reve_8aa65a74-0c3f-11ea-8939-fa5603f66842/</link>
+	<link>programme-tv.net/news/musique/281106-exclu-carla-eurovision-junior-devient-la-premiere-chanteuse-francaise-a-integrer-fortnite-mon-avatar-va-danser-sur-bim-bam-toi</link>
 	<link domain="media.universalmusic.pl">
 		<link id="94317"/>
 		<link id="96859"/>
@@ -486,7 +486,11 @@
 	<photo>static1.purepeople.com/articles/8/44/16/28/@/6347962-exclusif-carla-enregistrement-de-l-e-0x0-3.jpg</photo>
 </photos>
 
-<photos title="... (Joran Vallecchia / akypic)">
+<photos title="Monaco (Joran Vallecchia / akypic)">
+
+</photos>
+
+<photos title="Cap d'Antibes (Joran Vallecchia / akypic)">
 
 </photos>
 
@@ -656,6 +660,7 @@
 </archive>
 
 <archive type="instagram" id="carlamusicoff">
+	<p id="CScZYOYAm-P"/>
 	<p id="CSCoN_8sHrA"/>
 	<p id="CR4VC_VL9P9"/>
 	<p id="CR1ox9VLsOn"/>
@@ -925,12 +930,12 @@
 	<_ id="BmfhvHDDH_r"/>
 </archive>
 
-<xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
 	<xsl:template match="xsl:stylesheet"/>
 	<xsl:template match="text()"/>
 	<xsl:template match="xml">
-		<html>
+		<html lang="">
 			<head>
 				<meta name="robots" content="noindex, nofollow"/>
 				<meta name="referrer" content="no-referrer"/>
