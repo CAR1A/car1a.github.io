@@ -1,8 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="#stylesheet"?>
-<!DOCTYPE xml [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+<?xml-stylesheet type="text/xsl" href="#xsl"?>
 <xml title="CARLA Music" colour="E8E">
-<html:meta xmlns:html="http://www.w3.org/1999/xhtml" name="robots" content="noindex, nofollow"/>
 <!--
   ___        ____  _          _____
  / __|  /\  |  _ \| |   /\   |     |_ _ ___ _ ___
@@ -13,7 +11,7 @@
 - replace quotes with "
 - now playing bar
 - fix search shortcuts
--->
+==================================================-->
 <album id="slc" artist="Les Petites Canailles" title="Chantent Salut les Copains" year="2019" cover="i.scdn.co/image/ab67616d00001e02ab9ff477291bd36b93fb0de1" colour="D75">
 	<song title="Fais pas ci, fais pas ça" title2="Don't do this, don't do that" link="yt:d3PaKd9kazo" time="[6, 11.5, 17, 21, 26.5, 32, 36, 41.5, 47, 51, 56.5, 62, 66, 71.5, 77, 81, 88, 95]">
 		<F>Fais pas ci, fais pas ça, viens ici, mets-toi là, attention prends pas froid, ou sinon gare à toi.</F>
@@ -1787,12 +1785,12 @@
 	</song>
 </album>
 
-<xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
 	<xsl:template match="xsl:stylesheet"/>
 	<xsl:template match="text()"/>
 	<xsl:template match="xml">
-		<html>
+		<html lang="">
 			<head>
 				<meta name="robots" content="noindex, nofollow"/>
 				<meta name="referrer" content="no-referrer"/>
