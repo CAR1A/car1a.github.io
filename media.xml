@@ -2068,6 +2068,7 @@
 <event title="Radio Air Show - Que faire des mômes #199" date="20-06-2020">
 	<video title="Show" link="yt:yyXHMf26kxE" length="35:00"/>
 	<video title="Show" link="player.ausha.co?podcastId=ow0qAsvV3OKR" length="35:47"/>
+	<video title="Show" link="open.spotify.com/embed-podcast/episode/7AkswxOXbU35YoSp9g3k0t" length="34:59"/>
 	<link>quefairedesmomes.fr/podcast-que-faire-des-momes-n199</link>
 	<link>podcast.ausha.co/quefairedesmomes/podcast-que-faire-des-momes-n0-199</link>
 </event>
@@ -3025,7 +3026,7 @@
 	<link type="francetv" id="2498173"/>
 </event>
 <event title="Eurovision Song Contest - Grand Final (Jury)" date="21-05-2021">
-	<x link="noodlemagazine.com/player/-151014016_456240394?m=31d7547d1ee30db950afbb9c270bb2fb"/>
+	<video title="Voting rehearsal" link="noodlemagazine.com/player/-151014016_456240394?m=31d7547d1ee30db950afbb9c270bb2fb" length=""/>
 </event>
 <event title="Eurovision Song Contest - Grand Final" date="22-05-2021">
 	<video title="Show" link="yt:msfdz_aksY8" length="3:56:45">
@@ -3055,6 +3056,9 @@
 <event title="Carla - Summer Summer" date="">
 	<video title="Lyric Video" link="yt:Ujm0YlG66QI" length=""/>
 </event>
+<event title="M6 Gulli - Gu'Live - Carla &amp; Valentina" date="21-08-2021">
+
+</event>
 <event title="(Other)">
 	<video title="Les Petites Canailles - ..." link="yt:GMrtexlbOxo" length=""/>
 	<video title="..." link="yt:CouEUWRRF6o" length=""/>
@@ -3065,6 +3069,7 @@
 	<video title="" link="yt:ObwSCaBZrQI" length="1:52"/>
 </event>
 
+<html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/>
 <xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:_="http://exslt.org/common" extension-element-prefixes="_">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
 	<xsl:variable name="icon" select="'s2.googleusercontent.com/s2/favicons?domain='"/>
@@ -3084,7 +3089,7 @@
 				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20style=%27border:30vw%20solid%20%23FFF%3Bborder-radius:50%25%3Bbackground:%23{@colour}%3B%27/%3E"/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
 				<script>window.history.scrollRestoration = 'auto';</script>
-				<script>console.log(String.raw`<xsl:value-of select="comment()[1]"/>`);</script>
+				<script>console.log(String.raw`<xsl:value-of select="comment()"/>`);</script>
 				<style><xsl:value-of select="style"/></style>
 				<style>
 					<xsl:for-each select="$years">
