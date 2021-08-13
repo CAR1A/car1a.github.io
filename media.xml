@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="#xsl"?>
-<xml title="CARLA Media" colour="FA0">
+<xml title="CARLA Media" colour="FA0"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/>
 <!--
   ___        ____  _          _____       _
  / __|  /\  |  _ \| |   /\   |     |___ _| |_ ___
@@ -3069,7 +3069,6 @@
 	<video title="" link="yt:ObwSCaBZrQI" length="1:52"/>
 </event>
 
-<html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/>
 <xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:_="http://exslt.org/common" extension-element-prefixes="_">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
 	<xsl:variable name="icon" select="'s2.googleusercontent.com/s2/favicons?domain='"/>
