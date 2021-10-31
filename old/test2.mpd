@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<MPD
+  type="static"
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  xmlns:xsi="http://www.w3.org/2011/XMLSchema-instance"
+  xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd"
+  profiles="urn:mpeg:dash:profile:isoff-on-demand:2011"
+  availabilityStartTime="2021-10-31T10:21:29-07:00"
+  availabilityEndTime="2021-10-31T10:29:29-07:00"
+  timeShiftBufferDepth="PT19S"
+  suggestedPresentationDelay="PT2S"
+  minBufferTime="PT1S"
+  publishTime="2021-10-31T10:21:29-07:00"
+  minimumUpdatePeriod="PT0S"
+  currentServerTimeMs="0"
+  firstAvTimeMs="1635699814640"
+  lastVideoFrameTs="0"
+  loapStreamId="17970312769459916"
+  mediaPresentationDuration="PT12M53S"
+  publishFrameTime="939">
+  <Period id="dash-abr" start="PT0S">
+    <AdaptationSet
+      segmentAlignment="true"
+      maxWidth="720"
+      maxHeight="1278"
+      maxFrameRate="30">
+      <Representation
+        id="live-md-v"
+        mimeType="video/mp4"
+        codecs="avc1.4d401e"
+        width="360"
+        height="638"
+        frameRate="30"
+        startWithSAP="1"
+        bandwidth="249804"
+        FBMaxBandwidth="347000"
+        FBPlaybackResolutionMos="432:52.61,720:33.54,216:36.62"
+        FBQualityClass="sd"
+        FBQualityLabel="360p">
+        <SegmentTemplate
+          presentationTimeOffset="0"
+          timescale="1000"
+          initialization="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-md-v/17970312769459916_0-init.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4"
+          media="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-md-v/17970312769459916_0-$Time$.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4">
+          <SegmentTimeline>
+            <S t="1049283" d="2000"/>
+            <S t="1051283" d="2000"/>
+            <S t="1053283" d="2000"/>
+            <S t="1055283" d="2000"/>
+            <S t="1057283" d="2000"/>
+            <S t="1059283" d="2000"/>
+            <S t="1061283" d="2000"/>
+            <S t="1063283" d="2000"/>
+            <S t="1065283" d="2000"/>
+            <S t="1067283" d="1433"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+        id="live-hd-v"
+        mimeType="video/mp4"
+        codecs="avc1.4d401e"
+        width="432"
+        height="766"
+        frameRate="30"
+        startWithSAP="1"
+        bandwidth="496844"
+        FBMaxBandwidth="686292"
+        FBPlaybackResolutionMos="432:70.20,720:51.33,216:50.26"
+        FBQualityClass="sd"
+        FBQualityLabel="432p">
+        <SegmentTemplate
+          presentationTimeOffset="0"
+          timescale="1000"
+          initialization="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-hd-v/17970312769459916_0-init.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4"
+          media="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-hd-v/17970312769459916_0-$Time$.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4">
+          <SegmentTimeline>
+            <S t="1049283" d="2000"/>
+            <S t="1051283" d="2000"/>
+            <S t="1053283" d="2000"/>
+            <S t="1055283" d="2000"/>
+            <S t="1057283" d="2000"/>
+            <S t="1059283" d="2000"/>
+            <S t="1061283" d="2000"/>
+            <S t="1063283" d="2000"/>
+            <S t="1065283" d="2000"/>
+            <S t="1067283" d="1433"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+        id="live-ld-v"
+        mimeType="video/mp4"
+        codecs="avc1.4d401e"
+        width="216"
+        height="384"
+        frameRate="30"
+        startWithSAP="1"
+        bandwidth="127733"
+        FBMaxBandwidth="176904"
+        FBPlaybackResolutionMos="432:25.58,720:24.24,216:49.72"
+        FBQualityClass="sd"
+        FBQualityLabel="216p">
+        <SegmentTemplate
+          presentationTimeOffset="0"
+          timescale="1000"
+          initialization="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-ld-v/17970312769459916_0-init.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4"
+          media="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-ld-v/17970312769459916_0-$Time$.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4">
+          <SegmentTimeline>
+            <S t="1049283" d="2000"/>
+            <S t="1051283" d="2000"/>
+            <S t="1053283" d="2000"/>
+            <S t="1055283" d="2000"/>
+            <S t="1057283" d="2000"/>
+            <S t="1059283" d="2000"/>
+            <S t="1061283" d="2000"/>
+            <S t="1063283" d="2000"/>
+            <S t="1065283" d="2000"/>
+            <S t="1067283" d="1433"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+        id="live-hd1-v"
+        mimeType="video/mp4"
+        codecs="avc1.4d401e"
+        width="504"
+        height="894"
+        frameRate="30"
+        startWithSAP="1"
+        bandwidth="899377"
+        FBMaxBandwidth="1236324"
+        FBPlaybackResolutionMos="432:78.58,720:65.05,216:59.73"
+        FBQualityClass="sd"
+        FBQualityLabel="480p">
+        <SegmentTemplate
+          presentationTimeOffset="0"
+          timescale="1000"
+          initialization="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-hd1-v/17970312769459916_0-init.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4"
+          media="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-hd1-v/17970312769459916_0-$Time$.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4">
+          <SegmentTimeline>
+            <S t="1049283" d="2000"/>
+            <S t="1051283" d="2000"/>
+            <S t="1053283" d="2000"/>
+            <S t="1055283" d="2000"/>
+            <S t="1057283" d="2000"/>
+            <S t="1059283" d="2000"/>
+            <S t="1061283" d="2000"/>
+            <S t="1063283" d="2000"/>
+            <S t="1065283" d="2000"/>
+            <S t="1067283" d="1433"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+        id="live-hd2-v"
+        mimeType="video/mp4"
+        codecs="avc1.4d401e"
+        width="720"
+        height="1278"
+        frameRate="30"
+        startWithSAP="1"
+        bandwidth="1357374"
+        FBMaxBandwidth="1713924"
+        FBPlaybackResolutionMos="432:73.77,720:76.09,216:73.89"
+        FBQualityClass="hd"
+        FBQualityLabel="720p">
+        <SegmentTemplate
+          presentationTimeOffset="0"
+          timescale="1000"
+          initialization="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-hd2-v/17970312769459916_0-init.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4"
+          media="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-hd2-v/17970312769459916_0-$Time$.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4">
+          <SegmentTimeline>
+            <S t="1049283" d="2000"/>
+            <S t="1051283" d="2000"/>
+            <S t="1053283" d="2000"/>
+            <S t="1055283" d="2000"/>
+            <S t="1057283" d="2000"/>
+            <S t="1059283" d="2000"/>
+            <S t="1061283" d="2000"/>
+            <S t="1063283" d="2000"/>
+            <S t="1065283" d="2000"/>
+            <S t="1067283" d="1433"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation
+        id="live-pst-v"
+        mimeType="video/mp4"
+        codecs="avc1.4d401e"
+        width="504"
+        height="896"
+        frameRate="30"
+        startWithSAP="1"
+        bandwidth="3881909"
+        FBMaxBandwidth="3533040"
+        FBQualityClass="sd"
+        FBQualityLabel="480p (Source)">
+        <SegmentTemplate
+          presentationTimeOffset="0"
+          timescale="1000"
+          initialization="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-pst-v/17970312769459916_0-init.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4"
+          media="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-pst-v/17970312769459916_0-$Time$.m4v?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4">
+          <SegmentTimeline>
+            <S t="1049283" d="2000"/>
+            <S t="1051283" d="2000"/>
+            <S t="1053283" d="2000"/>
+            <S t="1055283" d="2000"/>
+            <S t="1057283" d="2000"/>
+            <S t="1059283" d="2000"/>
+            <S t="1061283" d="2000"/>
+            <S t="1063283" d="2000"/>
+            <S t="1065283" d="2000"/>
+            <S t="1067283" d="1434"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet segmentAlignment="true">
+      <Representation
+        id="live-hd-a"
+        mimeType="audio/mp4"
+        codecs="mp4a.40.2"
+        audioSamplingRate="44100"
+        startWithSAP="1"
+        bandwidth="51725"
+        FBMaxBandwidth="59014">
+        <SegmentTemplate
+          presentationTimeOffset="0"
+          timescale="1000"
+          initialization="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-hd-a/17970312769459916_0-init.m4a?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4"
+          media="https://scontent-amt2-1.cdninstagram.com/hvideo-atn-ftw/_nc_cat-106/v/rksF24UZ9AHA0gz5tw0u6/_nc_ohc-AymoYzRnKIEAX-SjHrc/live-dash/live-hd-a/17970312769459916_0-$Time$.m4a?ms=m_C&amp;cb=bbbba6df-185d8524&amp;ccb=2-4">
+          <SegmentTimeline>
+            <S t="1049283" d="2000"/>
+            <S t="1051283" d="2000"/>
+            <S t="1053283" d="2000"/>
+            <S t="1055283" d="2000"/>
+            <S t="1057283" d="2000"/>
+            <S t="1059283" d="2000"/>
+            <S t="1061283" d="2000"/>
+            <S t="1063283" d="2000"/>
+            <S t="1065283" d="2000"/>
+            <S t="1067283" d="1433"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
