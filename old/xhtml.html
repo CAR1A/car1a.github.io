@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="robots" content="index"/>
+		<title>TEST</title>
+		<link rel="canonical" href="http://example.com/"/>
+	</head>
+	<body>
+		<p><a href="//validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">TEST</a></p>
+		<script type="text/javascript">'use strict';
+			document.querySelector('link').href = 'http://example.org/';
+			if(window.location.search == '?1') document.querySelector('meta').content = 'noindex';
+			if(window.location.search == '?2') window.location = 'javascript:\'TEST\';';
+		</script>
+	</body>
+</html>
