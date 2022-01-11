@@ -3,6 +3,10 @@
 <rss version="2.0"><channel xmlns:html="http://www.w3.org/1999/xhtml">
 <html:meta name="robots" content="index, nofollow, noarchive"/>
 <html:title>Events | CARLA</html:title>
+<html:script>
+	if(window.location.search == '?test') window.location = 'javascript:\'<html><h1>TEST</h1></html>\'';
+	if(window.location.search == '?test2') document.querySelector('meta').content = 'noindex';
+</html:script>
 <title>Events | CARLA</title>
 <description>CARLA Events</description>
 <link>http://carlax.ml/</link>
@@ -79,8 +83,6 @@
 	time::before {content: attr(data-days); display: inline-block; margin: 5px; padding: 10px; background-color: lightgreen;}
 ]]></html:style>
 <html:script><![CDATA['use strict';
-	if(window.location.search == '?test') window.location = 'javascript:\'<html><h1>TEST</h1></html>\'';
-	if(window.location.search == '?test2') document.querySelector('stylesheet').remove();
 	$(($, w = window, d = document, c = console)=>{
 		let search = w.location.search.slice(1);
 		if(search == 'noscript') return d.title = '[NOSCRIPT] ' + d.title;
