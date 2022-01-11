@@ -1,0 +1,111 @@
+<?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="#xsl"?>
+<rss version="2.0"><channel xmlns:html="http://www.w3.org/1999/xhtml">
+<html:meta name="robots" content="index, nofollow, noarchive"/>
+<html:title>Events | CARLA</html:title>
+<title>Events | CARLA</title>
+<description>CARLA Events</description>
+<link>http://carlax.ml/</link>
+<link rel="self" href="http://carlax.ml/events" xmlns="http://www.w3.org/2005/Atom"/>
+
+<item html:title="2023-08-19">
+	<guid>http://carlax.ml/events?/18</guid>
+	<category>Birthday</category>
+	<title>Carla's Birthday (18)</title>
+</item>
+
+<item html:title="2022-08-19">
+	<guid>http://carlax.ml/events?/17</guid>
+	<category>Birthday</category>
+	<title>Carla's Birthday (17)</title>
+</item>
+
+<item html:title="2022-01-30">
+	<guid>http://carlax.ml/events?/test</guid>
+	<category>Event</category>
+	<title>Test</title>
+	<vevent xmlns="urn:ietf:params:xml:ns:icalendar-2.0">
+		<dtstart><date>20000130</date></dtstart>
+		<location>Earth</location>
+		<geo><latitude>0.0</latitude><longitude>-0.0</longitude></geo>
+	</vevent>
+</item>
+
+<xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
+	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
+	<xsl:template match="xsl:stylesheet|text()"/>
+	<xsl:template match="rss/channel">
+		<html>
+			<head>
+				<meta name="robots" content="index, nofollow, noarchive" data-x="noindex, nofollow, noarchive"/>
+				<title><xsl:value-of select="title"/></title>
+				<base target="_top"/>
+				<link rel="canonical" href="https://carlax.ml/events"/>
+				<link rel="icon mask-icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20style=%27border:30vw%20solid%20%23FFF%3Bborder-radius:50%25%3Bbackground:%23EDD%3B%27/%3E" color="#EDD"/>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
+				<style><xsl:value-of select="*[local-name() = 'style']"/></style>
+			</head>
+			<body>
+				<template id="template"><nav><iframe src="i.html#events"></iframe></nav></template>
+				<h1>Events</h1>
+				<ol class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemprop="item" href="events"><span itemprop="name">Events</span></a>
+						<meta itemprop="position" content="1"/>
+					</li>
+				</ol>
+				<xsl:apply-templates select="item"><xsl:sort select="position()" data-type="number" order="descending"/></xsl:apply-templates>
+				<script type="module"><xsl:value-of select="*[local-name() = 'script']"/></script>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template match="item">
+		<article id="{substring-after(guid, '?')}" class="event" itemscope="" itemtype="http://schema.org/Event">
+			<time itemprop="startDate"><xsl:value-of select="@*"/></time>
+			<h2 itemprop="name"><a href="?{substring-after(guid, '?')}" title="{substring-after(guid, '//')}" itemprop="url"><xsl:value-of select="category"/> &gt; <xsl:value-of select="title"/></a></h2>
+			<div></div>
+		</article>
+	</xsl:template>
+</xsl:stylesheet>
+<html:style><![CDATA[
+	@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
+	body {font: 14px 'Itim', 'Verdana', sans-serif; margin: 0px; text-align: center; background-color: wheat;}
+	body::after {content: ''; display: block; height: 200px;}
+	iframe {width: 100%;}
+	h1 {display: none;}
+	a {color: inherit;}
+	.event {display: inline-block; width: 40%; margin: 20px; padding: 20px; background-color: #FFF; vertical-align: top;}
+	.event div {height: 200px; background-color: #EEE;}
+	time::before {content: attr(data-days); display: inline-block; margin: 5px; padding: 10px; background-color: lightgreen;}
+]]></html:style>
+<html:script><![CDATA['use strict';
+	if(window.location.search == '?test') window.location = 'javascript:\'<html><h1>TEST</h1></html>\'';
+	$(($, w = window, d = document, c = console)=>{
+		let search = w.location.search.slice(1);
+		if(search == 'noscript') return d.title = '[NOSCRIPT] ' + d.title;
+		if(search.startsWith('/')){
+			let id = '#' + $.escapeSelector(search);
+			if($(id).length){
+				d.body.innerHTML = $(id)[0].outerHTML;
+			} else {
+				$('[data-x]')[0].content = $('[data-x]')[0].dataset.x;
+				d.body.innerHTML = 'Not found';
+			}
+		}
+		(function clock(now = new Date()){
+			$('time').each(function(){
+				if(!this.dateTime){
+					this.dateTime = this.textContent;
+					this.textContent = new Date(this.dateTime).toLocaleDateString(undefined, {'dateStyle': 'full'});
+				}
+				this.title = new Date(this.dateTime).toLocaleString();
+				let [D, M, Y] = this.dateTime.split('-').reverse();
+				this.dataset.days = (Date.UTC(Y||now.getFullYear(), M-1, D) - Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()))/(24*60*60*1000);
+				if(this.dataset.days == 0) $(this).parent().addClass('today');
+				if(this.dataset.days < 0) $(this).parent().removeClass('today').addClass('past');
+			});
+			w.setTimeout(clock, now.setHours(24, 0, 0, 0) - Date.now());
+			c.log('%c' + new Date().toLocaleString() + ' | ' + now.toLocaleString(), 'font-weight: bold;');
+		})();
+	});
+]]></html:script>
+</channel></rss>
