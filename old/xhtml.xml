@@ -7,7 +7,7 @@
 		<link rel="canonical" href="http://example.com/"/>
 	</head>
 	<body>
-		<a href="//validator.w3.org/check?uri=referer" referrer-policy="unsafe-url">TEST</a>
+		<a href="//validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url">TEST</a>
 		<script type="text/javascript">'use strict';
 			document.querySelector('link').href = 'http://example.org/';
 			if(window.location.search == '?1') document.querySelector('meta').content = 'noindex';
