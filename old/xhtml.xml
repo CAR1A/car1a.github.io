@@ -6,9 +6,10 @@
 		<title>TEST</title>
 	</head>
 	<body>
+		<a href="//validator.w3.org/check?uri=referer">TEST</a>
 		<script type="text/javascript">'use strict';
 			if(window.location.search == '?1') document.querySelector('meta').content = 'noindex';
-			if(window.location.search == '?2') window.location = 'javascript:\'&lt;h1&gt;TEST&lt;/h1&gt;\';';
+			if(window.location.search == '?2') window.location = 'javascript:\'TEST\';';
 		</script>
 	</body>
 </html>
