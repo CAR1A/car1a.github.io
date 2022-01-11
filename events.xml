@@ -80,6 +80,7 @@
 ]]></html:style>
 <html:script><![CDATA['use strict';
 	if(window.location.search == '?test') window.location = 'javascript:\'<html><h1>TEST</h1></html>\'';
+	if(window.location.search == '?test2') document.querySelector('stylesheet').remove();
 	$(($, w = window, d = document, c = console)=>{
 		let search = w.location.search.slice(1);
 		if(search == 'noscript') return d.title = '[NOSCRIPT] ' + d.title;
