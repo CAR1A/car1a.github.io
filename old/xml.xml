@@ -1,0 +1,10 @@
+<xml xmlns:html="http://www.w3.org/1999/xhtml">
+	<html:style>body {background-color: lightgreen;}</html:style>
+	<html:noscript><style>body {background-color: yellow;}</style></html:noscript>
+	<html:script>console.log(1);</html:script>
+	<div xmlns="http://www.w3.org/1999/xhtml">
+		<style>body {background-color: green;}</style>
+		<noscript><style>body {background-color: yellow;}</style></noscript>
+		<script>console.log(2);</script>
+	</div>
+</xml>
