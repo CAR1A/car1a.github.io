@@ -8,61 +8,65 @@
 <item>
 	<guid>https://carlax.ml/events?/carla/18</guid>
 	<link>https://carlax.ml/events?/carla/18</link>
-	<category>Event/Birthday</category>
+	<category>event/birthday</category>
 	<title>Carla's Birthday (18)</title>
 	<gd:when startTime="2023-08-19"/>
 </item>
 <item>
 	<guid>https://carlax.ml/events?/bim-bam-tour/4</guid>
 	<link>https://carlax.ml/events?/bim-bam-tour/4</link>
-	<category>Event/Concert</category>
+	<category>event/concert</category>
 	<title>CARLA - Bim Bam Tour ✨</title>
 	<gd:when startTime="2022-11-27"/>
 	<gd:where valueString="La Cigale"/>
 	<gd:postalAddress>120 Boulevard de Rochechouart, 75018 Paris, France</gd:postalAddress>
 	<gd:geoPt lat="48.88" lon="2.34"/>
 	<atom:link rel="alternate" href="http://lacigale.fr/spectacle/carla"/>
+	<enclosure url="https://pbs.twimg.com/media/FIfhFlSXsAE5Bxw.jpg" type="image/jpeg" length="0"/>
 </item>
 <item>
 	<guid>https://carlax.ml/events?/carla/17</guid>
 	<link>https://carlax.ml/events?/carla/17</link>
-	<category>Event/Birthday</category>
+	<category>event/birthday</category>
 	<title>Carla's Birthday (17)</title>
 	<gd:when startTime="2022-08-19"/>
 </item>
 <item>
 	<guid>https://carlax.ml/events?/bim-bam-tour/3</guid>
 	<link>https://carlax.ml/events?/bim-bam-tour/3</link>
-	<category>Event/Concert</category>
+	<category>event/concert</category>
 	<title>CARLA - Bim Bam Tour ✨</title>
 	<gd:when startTime="2022-02-05"/>
 	<gd:where valueString="Espace Jean Ferrat"/>
 	<gd:postalAddress>41 Avenue Jean Moulin, 06340 Drap, France</gd:postalAddress>
 	<gd:geoPt lat="43.75" lon="7.32"/>
 	<atom:link rel="alternate" href="http://my.weezevent.com/carla-bim-bam-tour"/>
+	<enclosure url="https://cornolti-production.com/files/images/carla-1.jpg" type="image/jpeg" length="0"/>
 </item>
-<item>
+<!--<item>
 	<guid>https://carlax.ml/events?/bim-bam-tour/2</guid>
 	<link>https://carlax.ml/events?/bim-bam-tour/2</link>
-	<category>Event/Concert</category>
+	<category>event/concert</category>
 	<title>CARLA - Bim Bam Tour ✨</title>
 	<gd:when startTime="2022-01-22"/>
 	<gd:where valueString="Théâtre de Puteaux"/>
 	<gd:postalAddress>5 Rue Henri Martin, 92800 Puteaux, France</gd:postalAddress>
 	<gd:geoPt lat="48.88" lon="2.24"/>
 	<atom:link rel="alternate" href="http://culture.puteaux.fr/saison-2021-2022/carla-bim-bam-tour"/>
-</item>
+	<enclosure url="https://cornolti-production.com/files/images/carla-1.jpg" type="image/jpeg" length="0"/>
+</item>-->
 <!--<item>
 	<guid>https://carlax.ml/events?/bim-bam-tour/1</guid>
 	<link>https://carlax.ml/events?/bim-bam-tour/1</link>
-	<category>Event/Concert</category>
-	<title>(CANCELLED) CARLA - Bim Bam Tour ✨</title>
+	<category>event/concert</category>
+	<title>&lt;i&gt;(CANCELLED)&lt;/i&gt; CARLA - Bim Bam Tour ✨</title>
 	<gd:eventStatus value="http://schemas.google.com/g/2005#event.canceled"/>
 	<gd:when startTime="2021-12-12"/>
 	<gd:where valueString="Le Chaudron"/>
 	<gd:postalAddress>42 Rue Charles Lamarre, 62480 Le Portel, France</gd:postalAddress>
 	<gd:geoPt lat="50.72" lon="1.58"/>
 	<atom:link rel="alternate" href="http://ticketmaster.fr/en/manifestation/idmanif/502133"/>
+	<enclosure url="https://cornolti-production.com/files/images/carla-1.jpg" type="image/jpeg" length="0"/>
 </item>-->
 <xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gd="http://schemas.google.com/g/2005" exclude-result-prefixes="atom gd">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
@@ -75,7 +79,7 @@
 		<html>
 			<head>
 				<meta name="robots" content="{substring('no', 1 div boolean($q and not($item)))}index, nofollow, noarchive"/>
-				<meta name="googlebot" content="noimageindex, notranslate, nopagereadaloud"/>
+				<meta name="googlebot" content="indexifembedded, noimageindex, notranslate"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1"/>
 				<meta name="theme-color" content="#{$colour}"/>
@@ -88,27 +92,44 @@
 				<style onload="window.history.scrollRestoration = 'manual';"><![CDATA[
 					@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
 					body {font: 15px 'Itim', 'Calibri', sans-serif; margin: 0px; text-align: center; background-color: var(--colour);}
-					body::after {content: ''; display: block; height: 200px;}
-					img {vertical-align: middle;}
+					img {max-width: 100%; max-height: 100%; vertical-align: middle;}
 					iframe {display: block; width: 100%; height: 100%; border-style: none;}
 					h1 {display: none;}
 					a {color: inherit;}
 					a:not(:hover) {text-decoration: none;}
 					nav {height: 100px;}
+					hr {width: 90%; height: 5px; margin: 20px auto; border-style: none; border-radius: 50%; background-color: #FFF;}
 					#breadcrumb {margin: 0px; padding: 10px; background-color: #0002;}
 					#breadcrumb li {display: inline-block; position: relative; min-width: 150px; margin: 0px 15px; padding: 5px; background-color: #0001; vertical-align: top;}
 					#breadcrumb li::after {content: ''; position: absolute; top: 0px; left: 100%; border: 14px solid transparent; border-left: 18px solid #0004;}
-					.event {display: inline-block; width: 40%; margin: 20px; padding: 20px; background-color: #FFF; vertical-align: top;}
-					.event.cancelled {opacity: 0.5;}
-					.event div {height: 200px; background-color: #EEE;}
-					time::before {content: attr(data-days); display: inline-block; margin: 0px 10px; padding: 5px 10px; border: 2px solid #000; background-color: #FFF;}
+					.event {display: inline-block; width: 40%; margin: 10px; padding: 20px; background-color: #FFF; vertical-align: top;}
+					.event.cancelled:not(:hover) {opacity: 0.5;}
+					.event div {height: 150px; background-color: #EEE;}
+					.event .map {height: 100px; background-color: #9CE; object-fit: none;}
+					.event time {display: block; background-color: #0001;}
+					.event .link {display: block; margin: 5px; padding: 5px; background-color: #0002; text-align: initial; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+					.event .link:hover {background-color: #FFA;}
+					.event .link img {margin-right: 5px;}
+					.event.birthday {background-image: linear-gradient(45deg, #FDC, #FAC);}
+					time::before {content: attr(data-days); display: inline-block; margin: 5px; padding: 5px 10px; border: 2px solid #000; color: #000; background-color: #FFF;}
+					footer::after {content: ''; display: block; height: 150px; background-image: linear-gradient(transparent, #0006);}
+					footer #time {color: #0001; font: bold 50px 'Verdana', sans-serif;}
+					.embed {background-color: transparent;}
+					.embed .event {display: block; width: 100%; margin: 0px 0px 10px 0px; padding: 0px;}
+					.embed .event.past {display: none;}
+					.embed .event h2 {margin: 0px; padding: 5px; font-size: inherit;}
+					.embed .event div {height: auto;}
+					.embed .event time {color: #FFF; background-color: #000;}
+					.embed .event time::before {float: left;}
 				]]></style>
 			</head>
 			<body style="--colour: #{$colour}">
-				<h1><xsl:value-of select="(title|$item/title)[last()]"/></h1>
+				<xsl:if test="$q = '?embed'"><xsl:attribute name="class">embed</xsl:attribute></xsl:if>
+				<h1 id="top"><xsl:value-of select="(title|$item/title)[last()]"/></h1>
 				<xsl:if test="not($q = '?embed')">
 					<nav><iframe src="i.html#events"></iframe></nav>
-					<ol id="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<ol id="breadcrumb" itemprop="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+						<meta itemprop="name" content="Navigation"/>
 						<li>
 							<a href="./" title="Homepage">Homepage</a>
 						</li>
@@ -127,22 +148,26 @@
 				<xsl:choose>
 					<xsl:when test="$item">
 						<xsl:apply-templates select="$item"/>
+						<hr/>
+						<a href="events">Back to Events</a>
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:apply-templates select="item"><xsl:sort select="position()" data-type="number" order="descending"/></xsl:apply-templates>
-						<div id="updated">Last updated: <time>2022</time></div>
 					</xsl:otherwise>
 				</xsl:choose>
+				<footer>
+					<div id="updated">Last updated: <time>2022</time></div>
+					<div id="time"></div>
+				</footer>
 				<xsl:element name="script"><![CDATA[
 					'use strict';
 					document.querySelectorAll('#updated time').forEach(time=>time.dateTime = new Date(document.lastModified).toISOString().slice(0, 10));
 					(function clock(now = new Date()){
+						document.querySelectorAll('#time').forEach(time=>time.textContent = now.toLocaleDateString());
 						document.querySelectorAll('time').forEach(time=>{
-							if(!time.dateTime){
-								time.dateTime = time.textContent;
-								time.textContent = new Date(time.dateTime).toLocaleDateString(undefined, {'dateStyle': 'full'});
-							}
-							time.title = new Date(time.dateTime).toLocaleString();
+							if(!time.dateTime) time.dateTime = time.textContent;
+							time.textContent = new Date(time.dateTime).toLocaleDateString(undefined, {'dateStyle': 'full', 'timeZone': 'UTC'});
+							time.title = new Date(time.dateTime).toLocaleString(undefined, {'timeZone': 'UTC'});
 							let [D, M, Y] = time.dateTime.split('-').reverse();
 							time.dataset.days = (Date.UTC(Y||now.getFullYear(), M-1, D) - Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()))/(24*60*60*1000);
 							if(time.dataset.days == 0) time.parentElement.classList.add('today');
@@ -156,32 +181,57 @@
 		</html>
 	</xsl:template>
 	<xsl:template match="item">
-		<article id="{substring-after(guid, '?/')}" class="event" itemscope="" itemtype="http://schema.org/{substring('Music', 1 div boolean(category = 'Event/Concert'))}Event">
-			<xsl:if test="gd:eventStatus">
-				<xsl:attribute name="class">cancelled event</xsl:attribute>
-				<link itemprop="eventStatus" href="http://schema.org/EventCancelled"/>
-			</xsl:if>
-			<time itemprop="startDate"><xsl:value-of select="gd:when/@startTime"/></time>
-			<h2 itemprop="name"><a href="?{substring-after(guid, '?')}" title="{substring-after(guid, '//')}" itemprop="url"><xsl:value-of select="title"/></a></h2>
-			<xsl:if test="gd:where">
-				<span itemprop="location" itemscope="" itemtype="http://schema.org/MusicVenue">
-					<meta itemprop="name" content="{gd:where/@valueString}"/>
-					<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-						<meta itemprop="name" content="{gd:postalAddress}"/>
-					</span>
+		<article class="{translate(category, '/', ' ')}" itemscope="" itemtype="http://schema.org/{substring('Music', 1 div boolean(category = 'Event/Concert'))}Event">
+			<xsl:choose>
+				<xsl:when test="gd:eventStatus">
+					<xsl:attribute name="class">cancelled event</xsl:attribute>
+					<link itemprop="eventStatus" href="http://schema.org/EventCancelled"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<link itemprop="eventStatus" href="http://schema.org/EventScheduled"/>
+				</xsl:otherwise>
+			</xsl:choose>
+			<xsl:if test="$item">
+				<span class="image">
+					<xsl:if test="enclosure">
+						<img src="{enclosure/@url}" alt="" itemprop="image"/>
+					</xsl:if>
 				</span>
 			</xsl:if>
-			<!--<link itemprop="performer" href="#carla"/>-->
+			<time itemprop="startDate"><xsl:value-of select="gd:when/@startTime"/></time>
+			<meta itemprop="endDate" content="{(gd:when/@startTime|gd:when/@endTime)[last()]}"/>
+			<h2 id="{substring-after(guid, '?')}" itemprop="name"><a href="?{substring-after(guid, '?')}" title="{substring-after(guid, '//')}" itemprop="url"><xsl:value-of select="title"/></a></h2>
+			<xsl:choose>
+				<xsl:when test="gd:where">
+					<link itemprop="eventAttendanceMode" href="http://schema.org/OfflineEventAttendanceMode"/>
+					<span itemprop="location" itemscope="" itemtype="http://schema.org/MusicVenue">
+						<meta itemprop="name" content="{gd:where/@valueString}"/>
+						<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+							<meta itemprop="name" content="{gd:postalAddress}"/>
+						</span>
+					</span>
+				</xsl:when>
+				<xsl:otherwise>
+					<link itemprop="eventAttendanceMode" href="http://schema.org/OnlineEventAttendanceMode"/>
+					<span itemprop="location" itemscope="" itemtype="http://schema.org/VirtualLocation">
+						<link itemprop="url" href="{(guid|atom:link)[last()]}"/>
+					</span>
+				</xsl:otherwise>
+			</xsl:choose>
+			<meta itemprop="description" content="{gd:when/@startTime} | {title} | {gd:where/@valueString}"/>
+			<link itemprop="performer" href="./#carla"/>
+			<link itemprop="organizer" href="./#carla"/>
 			<div>
+				<xsl:for-each select="gd:geoPt">
+					<xsl:variable name="x" select="concat(../gd:where/@valueString, '&#10;', ../gd:postalAddress, '&#10;', @lat, ' ', @lon)"/>
+					<a href="http://maps.google.com/maps?q={translate(../gd:postalAddress, ' ', '+')}"><img class="map" src="https://images.weserv.nl/?output=webp&amp;url=static-maps.yandex.ru/1.x/?l=map%26lang=fr%26size=300,160%26z=6%26pt={@lon},{@lat},round" width="300" height="160" alt="{$x}" title="{$x}" loading="lazy"/></a>
+				</xsl:for-each>
 				<xsl:apply-templates/>
 			</div>
 		</article>
 	</xsl:template>
-	<xsl:template match="gd:geoPt">
-		<img src="https://images.weserv.nl/?output=webp&amp;url=static-maps.yandex.ru/1.x/?l=map%26lang=fr%26size=300,160%26z=6%26pt={@lon},{@lat},round" alt=""/>
-	</xsl:template>
 	<xsl:template match="atom:link">
-		<a href="{@href}"><img src="https://s2.googleusercontent.com/s2/favicons?sz=32&amp;domain={substring-before(concat(substring-after(@href, '//'), '/'), '/')}" width="32" height="32" alt=""/><xsl:value-of select="@href"/></a>
+		<a class="link" href="{@href}" title="{substring-after(@href, '//')}"><img src="https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;size=32&amp;fallback_opts=SIZE&amp;url=http://{substring-before(concat(substring-after(@href, '//'), '/'), '/')}" width="20" height="20" alt=""/><xsl:value-of select="substring-after(@href, '//')"/></a>
 	</xsl:template>
 </xsl:stylesheet>
 </channel>
