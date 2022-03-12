@@ -1,27 +1,354 @@
 <!DOCTYPE html>
 <meta name="robots" content="noindex, nofollow"/>
 <meta name="referrer" content="no-referrer"/>
-<meta name="theme-color" content="#F00"/>
 <title>404 | CARLA</title>
 <base target="_top"/>
-<link rel="canonical" href="./"/>
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20style=%27border:30vw%20solid%20%23FFF%3Bborder-radius:50%25%3Bbackground:%23F00%3B%27/%3E"/>
-<style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23F00;'/%3E"/>
+<script>'use strict';
+	let _ = window.location, [q, ...p] = (_.search.startsWith('?/') ? _.search.split('?')[1] : _.pathname).toLowerCase().split('/').slice(1);
+	let paths = {
+		'http:': 'http:',
+		'https:': 'http:',
+		'tt': 'http://tiktok.com/@carlamusicoff',
+		'ig': 'http://instagr.am/carlamusicoff',
+		'fb': 'http://fb.com/carlamusicoff',
+		'tw': 'http://twitter.com/carlamusicoff_',
+		'yt': 'http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA',
+		'sp': 'http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr',
+		'events': 'events?',
+		'music': 'music#',
+		'media': 'media#',
+		'links': 'links#',
+		'evenements': 'events',
+		'musique': 'music',
+		'medias': 'media',
+		'liens': 'links',
+	};
+	let search = _.search.startsWith('?/') ? _.search.split('?').slice(2).map(_=>'?'+_).join('') : _.search;
+	if(q in paths) _.replace(paths[q] + p.map(_=>'/'+_).join('') + search + _.hash);
+</script>
+<template id="todo"><h1>Todo</h1>
+	- rename &lt;xml&gt;?
+	- output ascii art as comment node, access with javascript?
+	- favicon.ico svg file with fragment identifiers?
+	<h2>404.html</h2>
+	- ...
+	<h2>events.html</h2>
+	- last updated manual?
+	- robots unavailable_after?
+	- improve h1/h2 elements?
+	- offers section?
+	- search?
+	<h2>i.html</h2>
+	- ...
+	<h2>index.html</h2>
+	- srcset / media queries for images?
+	- fetch refresh / retry button
+	- fetch change accept-language?
+	- tiktok gif on hover?
+	- <a href="http://microformats.org/wiki/existing-rel-values"></a>
+	<h2>links.xml</h2>
+	- fix fb etc links
+	- overlay hash urls?
+	- https://www.pressreader.com/france/20-minutes-nice/20200605/281500753477855
+	- overlay zoom toggle
+	<h2>media.xml</h2>
+	- tf1 thumbs
+	- seb avec ta star fb / celia larry demifinale? / lyric videos? / official audio? / d06 fb live? / voice kids concert? / petites canailles hebdo de la musique?
+	- europe1 embed
+	- big shows timestamps
+	- lyrics links
+	- github.com/heiseonline/embetty for fb thumbs?
+	- event categories? (tv, concert)
+	- google translate null origin?
+	- je dirais > je dirai? / des gros > de gros?
+	- subheadings (<_ time=""/>) in search list?
+	- vk videos multiple sources? (nm, novids, biqle)
+	- reverse event order?
+	- tiktok / ig embeds archive.org?
+	- twitter/periscope videos?
+	- bestimage?
+	- phototele.com?
+	- m6 video bank?
+	- konbini / brut fb videos?
+	- don't use exslt? use attribute-set? oxygenxml.com/archives/xsl-list/200105/msg00697.html
+	<h2>music.xml</h2>
+	- now playing bar + autoplay/shuffle? + change speed?
+	- loca french translation?
+	- (j)esc songs karaoke versions?
+	- css animation cpu usage
+	<hr/>
+	<h2>info.html? / quiz.html? / trivia.html?</h2>
+	Combine with faq structured data?
+	Carla's pet? - A Chanel le chien / B Gucci le chat / C Remy le lapin / D Dylan le dinosaur
+	Deuxieme single? - A Le droit de dire non / B L'autre moi / C Bim Bam Two / D ...
+	Fort Boyard? - A 0 / B 1 / C 2 / D 3
+	<hr/>
+	<h2>Issues</h2>
+	- Itim font capital i sometimes different?
+		- http://public-firing-range.appspot.com/reflected/parameter/head?q=%3Cstyle%3E@import%20%27//fonts.googleapis.com/css2?family=Itim%27%3Bbody%7Bfont:28vw%20Itim%3Btext-align:center%3B%7D%3C/style%3EIIIIIIIII
+		- github.com/google/fonts/issues
+	Twitter Widget
+		- no document.domain / no data url cache
+		- //abs.twimg.com with file://
+		- img loading lazy? (twittercommunity.com/c/publisher/websites/9)
+	Facebook Widget
+		- https://developers.facebook.com/support/bugs/1337180213092053
+		- https://developers.facebook.com/community/threads/226101445658989
+	Spotify Widget
+		- js source maps 404
+		- artist image smaller size
+</template>
+<template id="about"><h1>About</h1>
+	<span class="description">...</span>
+	<h2>Technology</h2>
+	XML
+	HTML
+	CSS
+	JavaScript
+	<h2>Host</h2>
+	<a href="http://github.com">GitHub</a>
+	<a href="http://cloudflare.com"><img src="https://cloudflare.com/media/images/web-badges/cf-web-badges-a-blue-on.png" alt=""/></a>
+	<a href="http://freenom.com">Freenom</a>
+	<h2>...</h2>
+	<a href="http://jquery.com/">jQuery</a>
+	<a href="http://images.weserv.nl/"></a>
+	<a href="http://developer.wordpress.com/docs/photon">WordPress Photon</a>
+	<a href="http://maps.yandex.ru/"></a>
+</template>
+<template id="search"><h1>Search</h1>
+	<input name="q" type="search" placeholder="Search" form="form" list="list"/>
+	<button name="tbs" value="qdr:d" form="form" formaction="http://google.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Day)</button>
+	<button name="tbs" value="qdr:w" form="form" formaction="http://google.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Week)</button>
+	<button name="tbs" value="qdr:m" form="form" formaction="http://google.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Month)</button>
+	<button name="sp" value="EgIIAg" form="form" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Day)</button>
+	<button name="sp" value="EgIIAw" form="form" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Week)</button>
+	<button name="sp" value="EgIIBA" form="form" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Month)</button>
+	<button name="f" value="live" form="form" formaction="http://twitter.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://twitter.com" alt=""/> Twitter</button>
+	<button disabled="disabled"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://fb.com" alt=""/> Facebook</button>
+	<button form="form" formaction="http://fb.com/watch/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://fb.com" alt=""/> Facebook Watch</button>
+	<button form="form" formaction="http://tiktok.com/search/video"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://tiktok.com" alt=""/> TikTok</button>
+	<button form="form" formaction="http://pinterest.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://pinterest.com" alt=""/> Pinterest</button>
+	<a href="http://fb.com/groups/211836616088662"></a>
+	<a href="http://fb.com/groups/203277401554995"></a>
+	<a href="http://fb.com/groups/354596849103923"></a>
+	<a href="http://fb.com/groups/carlalazzarifr"></a>
+	<a href="http://fb.com/hashtag/bimbamtoi"></a>
+	<a href="http://instagr.am/explore/tags/bimbamtoi"></a>
+	<a href="http://aboriva.com/revue?q=carla"></a>
+	<a href="http://aboriva.com/revue?q=clara"></a>
+	<hr/>
+	<a href="http://wikidata.org/wiki/Q76453224"></a>
+	<a href="http://google.com/search?kgmid=/g/11fnxrskv0"></a>
+	<a href="http://artsandculture.google.com/entity/g11fnxrskv0"></a>
+	<form id="form" hidden="hidden"><datalist id="list">
+		<option value="&quot;Carla&quot;"/>
+		<option value="&quot;Carla Lazzari&quot;"/>
+		<option value="&quot;Carla Officiel&quot;"/>
+		<option value="&quot;CarlaMusicOff&quot;"/>
+		<option value="&quot;Carla Music Off&quot;"/>
+		<option value=" "/>
+		<option value="&quot;Sans Filtre&quot; Carla"/>
+		<option value="&quot;L'Autre Moi&quot;"/>
+		<option value="&quot;Bim Bam Tour&quot;"/>
+		<option value="&quot;Bim Bam Toi&quot;"/>
+		<option value=" "/>
+		<option value="&quot;Carla Artistic&quot;"/>
+		<option value="&quot;Carla The Voice Kids 5&quot;"/>
+		<option value="&quot;Carla Lazarri&quot;"/>
+		<option value="&quot;Clara Lazzari&quot;"/>
+	</datalist></form>
+</template>
+<template id="archive"><h1>Archive</h1>
+	<a href="http://web.archive.org/..."></a>
+</template>
+<template id="other"><h1>Other</h1>
+	<h2>Casagrandes</h2>
+	<a href="http://replay.gulli.fr/dessins-animes/Les-Casagrandes-s01/les-casagrandes-s01-e20-rencontre-avec-une-star-vod69569646433000"></a>
+	<a href="http://lescasagrandesderonnieanne.fandom.com/fr/wiki/La_starlite"></a>
+	<a href="http://pinterest.com/pin/721842646510176090"></a>
+	<h2>...</h2>
+	<a href="http://nintendo.fr/Jeux/Nintendo-Switch/Let-s-Sing-2021-Hits-Francais-et-Internationaux-1874912.html"></a>
+	<a href="http://fan.nafstars.com/#market-catalog/15"></a>
+	<a href="http://bugs.chromium.org/p/chromium/issues/detail?id=961600"></a>
+	<a href="http://bilibili.com/video/BV1hK411K7Gp"></a>
+	<a href="http://video.kiwi/06153FB485"></a>
+	<a href="http://video.kiwi/E83FD2DC64"></a>
+	<a href="http://twitter.com/i/broadcasts/1LyGBdQqaoaxN"></a>
+	<a href="http://qolora.seekat.fr/euroconfpresse"></a>
+	<a href="http://undelete.news"></a>
+	<a href="http://embedftv-a.akamaihd.net/?ue=31477a619401d2083d2d6ca06771af0e"></a>
+	<a href="http://yewtu.be/watch?v=eCLrS399-OY&amp;quality=dash"></a>
+	<a href="http://pinterest.fr/vallee3286"></a>
+	<a href="http://pinterest.fr/pin/687713805596602805/"></a>
+	<a href="http://exolyt.com/user/carlamusicoff/full"></a>
+	<a href="http://youtube.com/channel/UCATnaXycsHBOK22-BzYmrlg/videos"></a>
+	<a href="http://pm1.narvii.com/8155/43695ed5f78823b3c7fcee2d8e79217c35ceb118r1-770-961v2_hq.jpg"></a>
+	<hr/>
+<script style="display: block;">
+/** @OnlyCurrentDoc */'use strict';
+function doGet(e){
+	let request = {
+		'e': e,
+		'HtmlService.getUserAgent': HtmlService.getUserAgent(),
+		'Session.getActiveUserLocale': Session.getActiveUserLocale(),
+	};
+	return ContentService.createTextOutput(JSON.stringify(request)).setMimeType(ContentService.MimeType.JSON);
+}
+function doPost(e){
+	try {
+		let sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
+		let headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+		let row = [];
+		for(let header of headers){
+			switch(header.toLowerCase()){
+				case '#':
+					row.push(sheet.getLastRow());
+					break;
+				case 'time':
+					row.push(new Date());
+					break;
+				case 'user-agent':
+					row.push(HtmlService.getUserAgent());
+					break;
+				case 'accept-language':
+					row.push(Session.getActiveUserLocale());
+					break;
+				case 'debug':
+					row.push(JSON.stringify(e));
+					break;
+				default:
+					row.push(e.parameter[header.toLowerCase()]);
+			}
+		}
+		sheet.appendRow(row);
+		return ContentService.createTextOutput(JSON.stringify({'ok': true})).setMimeType(ContentService.MimeType.JSON);
+	} catch(error){
+		return ContentService.createTextOutput(JSON.stringify(error, Object.getOwnPropertyNames(error))).setMimeType(ContentService.MimeType.JSON);
+	}
+}
+</script>
+</template>
+<template id="validate"><h1>Validate</h1>
+	<h2>Search</h2>
+	<a href="http://carlax.ml"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://carlax.ml" alt=""/>carlax.ml</a>
+	<a href="http://google.com/search?q=site:carlax.ml"></a>
+	<a href="http://google.com/search?q=&quot;carlax.ml&quot;"></a>
+	<a href="http://bing.com/search?q=site:carlax.ml"></a>
+	<a href="http://bing.com/search?q=&quot;carlax.ml&quot;"></a>
+	<a href="http://yandex.com/search?text=site:carlax.ml"></a>
+	<a href="http://yandex.com/search?text=&quot;carlax.ml&quot;"></a>
+	<h2>Domain</h2>
+	<a href="http://intodns.com/carlax.ml"></a>
+	<a href="http://whatsmydns.net/#NS/carlax.ml"></a>
+	<a href="http://whatsmydns.net/#A/carlax.ml"></a>
+	<a href="http://whatsmydns.net/#CNAME/www.carlax.ml"></a>
+	<a href="http://dnschecker.org/#NS/carlax.ml"></a>
+	<a href="http://dnschecker.org/#A/carlax.ml"></a>
+	<a href="http://dnschecker.org/#CNAME/www.carlax.ml"></a>
+	<a href="http://dnssec-analyzer.verisignlabs.com/carlax.ml"></a>
+	<a href="http://dnssec-debugger.verisignlabs.com/carlax.ml"></a>
+	<a href="http://dnsviz.net/d/carlax.ml"></a>
+	<h2>Server</h2>
+	<a href="http://httpstatus.io/?url=carlax.ml"></a>
+	<a href="http://ssllabs.com/ssltest/analyze?d=carlax.ml&amp;hideResults=on"></a>
+	<a href="http://cloudflare.com/diagnostic-center?url=carlax.ml"></a>
+	<a href="http://observatory.mozilla.org/analyze/carlax.ml?third-party=false"></a>
+	<a href="http://idyllum.com/"></a>
+	<h2>Document</h2>
+	<a href="http://validator.w3.org/check?outline=1&amp;uri=carlax.ml"></a>
+	<a href="http://validator.w3.org/unicorn/check?ucn_task=conformance&amp;ucn_uri=carlax.ml#collapsed"></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=carlax.ml"></a>
+	<a href="http://validator.nu/?showoutline&amp;doc=http://carlax.ml"></a>
+	<a href="http://redbot.org/?uri=http://carlax.ml"></a>
+	<a href="http://view.hugo-decoded.be/?url=http://carlax.ml"></a>
+	<h2>Performance/Accessibility</h2>
+	<a href="http://search.google.com/test/mobile-friendly?url=carlax.ml"></a>
+	<a href="http://developers.google.com/speed/pagespeed/insights?url=carlax.ml"></a>
+	<a href="http://pagespeed.web.dev/report?url=carlax.ml"></a>
+	<a href="http://pagespeed.compare/?url=carlax.ml"></a>
+	<a href="http://webpagetest.org/?url=carlax.ml"></a>
+	<a href="http://validator.w3.org/i18n-checker/check?uri=carlax.ml"></a>
+	<a href="http://wave.webaim.org/report#/carlax.ml"></a>
+	<a href="http://gtmetrix.com/"></a>
+	<a href="http://tools.pingdom.com/"></a>
+	<a href="http://validator.w3.org/checklink"></a>
+	<h2>Data</h2>
+	<a href="http://search.google.com/test/rich-results?url=carlax.ml"></a>
+	<a href="http://w3.org/2012/pyrdfa/extract?validate=1&amp;uri=http://carlax.ml"></a>
+	<a href="http://validator.schema.org/#url=carlax.ml"></a>
+	<a href="http://linter.structured-data.org/?url=http://carlax.ml"></a>
+	<a href="http://rdf-translator.appspot.com/"></a>
+	<a href="http://debug.iframely.com/?uri=carlax.ml"></a>
+	<a href="http://opengraph.xyz/url/carlax.ml"></a>
+	<a href="http://webmaster.yandex.com/microtest.xml"></a>
+	<a href="http://developers.facebook.com/tools/debug"></a>
+	<a href="http://cards-dev.twitter.com/validator"></a>
+	<a href="http://linkedin.com/post-inspector"></a>
+	<a href="http://developers.pinterest.com/tools/url-debugger/"></a>
+	<h2>Feed</h2>
+	<a href="http://validator.w3.org/feed/check.cgi?url=carlax.ml/events?feed"></a>
+	<a href="http://rssboard.org/rss-validator/check.cgi?url=carlax.ml/events?feed"></a>
+	<a href="http://google.com/ping?sitemap=https://carlax.ml/events?feed"></a>
+	<h2>Reputation</h2>
+	<a href="http://transparencyreport.google.com/safe-browsing/search?url=carlax.ml"></a>
+	<a href="http://yandex.com/safety?url=carlax.ml"></a>
+	<a href="http://siteadvisor.com/sitereport.html?url=carlax.ml"></a>
+</template>
+<template id="clips"><h1>Clips</h1>
+	<a href="http://youtu.be/pjJ2w1FX_Wg"><img src="https://i.ytimg.com/vi_webp/pjJ2w1FX_Wg/mqdefault.webp" alt="Bim Bam toi"/></a>
+	<a href="http://youtu.be/_aXA1jRXWnk"><img src="https://i.ytimg.com/vi_webp/_aXA1jRXWnk/mqdefault.webp" alt="Les enfants du monde"/></a>
+	<a href="http://youtu.be/6MavJOVeQSo"><img src="https://i.ytimg.com/vi_webp/6MavJOVeQSo/mqdefault.webp" alt="L'autre moi"/></a>
+	<a href="http://youtu.be/A35MFDRa8tY"><img src="https://i.ytimg.com/vi_webp/A35MFDRa8tY/mqdefault.webp" alt="Trois petits pas"/></a>
+	<a href="http://youtu.be/EXa0zHdD4mE"><img src="https://i.ytimg.com/vi_webp/EXa0zHdD4mE/mqdefault.webp" alt="C'est bientôt Noël"/></a>
+	<a href="http://youtu.be/nyAX64Rl4Gk"><img src="https://i.ytimg.com/vi_webp/nyAX64Rl4Gk/mqdefault.webp" alt="Cœur sur toi"/></a>
+	<a href="http://youtu.be/ii5SgzefjHo"><img src="https://i.ytimg.com/vi_webp/ii5SgzefjHo/mqdefault.webp" alt="Alors chut"/></a>
+	<a href="http://youtu.be/hDDv3tGeTBQ"><img src="https://i.ytimg.com/vi_webp/hDDv3tGeTBQ/mqdefault.webp" alt="J'attendrai"/></a>
+	<a href="http://youtu.be/RAbXpTbVeGA"><img src="https://i.ytimg.com/vi_webp/RAbXpTbVeGA/mqdefault.webp" alt="Fais pas ci, fais pas ça"/></a>
+	<a href="http://youtu.be/-EQvIdKpVVc"><img src="https://i.ytimg.com/vi_webp/-EQvIdKpVVc/mqdefault.webp" alt="Les marionnettes"/></a>
+</template>
+<style onload="window.history.scrollRestoration = 'manual';">
 	@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
-	body {margin: 0px; height: 100vh; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: #FFF; background: #A23 linear-gradient(45deg, transparent, #F53 60%);}
-	a {color: inherit; text-decoration: none;}
-	a:hover {text-decoration: underline;}
-	h1 {margin: 30px; font-size: 4vw; font-style: italic; text-transform: uppercase;}
+	html {background-color: #000;}
+	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: #FFF;}
+	body:not([id]) {min-height: 100vh; background: #A23 linear-gradient(45deg, transparent, #F53 60%);}
+	body:not([id]) h1 {display: none;}
+	body[id] {width: 80%; margin: 20px auto; font: 16px monospace; white-space: pre-line; background-color: #FFF3;}
+	body[id]::after {content: ''; display: block; height: 200px;}
+	body[id] h1 {margin: 0px; padding: 10px; background-color: #FFF2; text-transform: uppercase;}
+	body[id] h2 {margin: 0px; border-bottom: 1px dashed #FFF;}
+	body[id] hr {height: 30px; border-style: none; background-color: #000;}
+	a {color: inherit;}
+	a:empty::before {content: attr(href);}
+	img {vertical-align: middle;}
+	main .message {font-size: 40px; font-style: italic; text-shadow: 0px 0px 5px #0008; text-transform: uppercase;}
+	main .message>span:first-child {font-size: 120px; font-weight: bold;}
 	iframe {display: block; border-style: none;}
 	nav {height: 100px; opacity: 0.5; transition: opacity 0.3s;}
 	nav:hover {opacity: initial;}
 	nav iframe {width: 100%; height: 100%;}
-	main {position: absolute; top: 50%; width: 100%; transform: translateY(-50%);}
-	main iframe {margin: 5px auto; padding: 0px 46px; border: 10px solid #222; border-radius: 100px; background-color: #222; box-shadow: 0px 0px 10px #FFF9;}
+	main::after {content: ''; display: inline-block; width: 70%; height: 80px; margin-top: -40px; background-image: radial-gradient(#000D 10%, transparent 70%);}
+	main #deezer {margin: 5px auto; padding: 0px 46px; border: 10px solid #222; border-radius: 100px; background-color: #222; box-shadow: 0px 0px 10px #FFF9;}
 </style>
-<nav><iframe src="i.html#404" title="Menu" referrerpolicy="same-origin"></iframe></nav>
-<main>
-	<h1>🗿 <span lang="en">Not Found</span> / <span lang="fr">Introuvable</span></h1>
-	<a href="./">Go back to homepage</a> or listen to a random CARLA song:
-	<iframe src="about:blank" data-src="https://deezer.com/plugins/player?type=radio&amp;layout=dark&amp;id=artist-78960852" width="350" height="92" title="Deezer" sandbox="allow-presentation allow-same-origin allow-scripts" allow="encrypted-media *; fullscreen *" loading="lazy" onload="!this.contentDocument || (this.src = this.dataset.src + '&amp;' + (Math.random()*100).toFixed());"></iframe>
-</main>
+<h1>404</h1>
+<noscript><main class="error">
+	<nav><iframe src="/i.html#404" title="Menu" referrerpolicy="same-origin"></iframe></nav>
+	<div class="message"><span>404</span> <span lang="en">Not Found</span> / <span lang="fr">Introuvable</span></div>
+	<span lang="en"><a href="/">Go back to the homepage</a> or listen to a random song:</span>
+	<iframe id="deezer" src="about:blank" data-src="https://www.deezer.com/plugins/player?type=radio&amp;layout=dark&amp;id=artist-78960852" width="350" height="92" title="Deezer" allow="encrypted-media *" loading="lazy" onload="!this.contentDocument || (this.src = this.dataset.src + '&amp;' + (Math.random()*100).toFixed());"></iframe>
+</main></noscript>
+<script>'use strict';
+	let path = window.location.search.startsWith('?/') ? window.location.search.slice(1) : window.location.pathname;
+	switch(true){
+		case path == '/x/':
+			document.title = document.body.id = 'WEBSITE';
+			document.body.innerHTML = `<h1>${document.title}</h1>\r\n` + [...document.head.querySelectorAll('[id]')].map(_=>`<a href="${window.location.search.startsWith('?/') ? '?/' : ''}x/${_.id}"></a>`).join('\r\n');
+			break;
+		case path.startsWith('/x/') && !!document.getElementById(path.slice(3)):
+			document.title = document.body.id = path.slice(3).toUpperCase();
+			document.body.innerHTML = document.getElementById(path.slice(3)).innerHTML;
+			break;
+		default:
+			document.querySelectorAll('noscript').forEach(_=>_.outerHTML = _.innerHTML);
+	}
+</script>
