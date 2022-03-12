@@ -1,21 +1,10 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="#xsl"?>
-<xml title="CARLA Media" colour="FA0"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/>
-<!--
+<?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="#xsl"?>
+<xml title="CARLA Media" colour="FA0"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/><meta http-equiv="Refresh" content="0;URL=error" xmlns="http://www.w3.org/1999/xhtml"/><!--
   ___        ____  _          _____       _
  / __|  /\  |  _ \| |   /\   |     |___ _| |_ ___
 / /    /  \ | |/ /| |  /  \  | | | | _ |   |_|   |
 \ \___/ /\ \| |\ \| |_/ /\ \ | | | | __| | | | | |
  \_____/  \___| \______/  \_\|_|_|_|___|___|_|___|
-==================================================
-- tf1 thumbs
-- seb avec ta star fb/celia larry demifinale/lyric videos
-- europe1 embed
-- big shows timestamps
-- lyrics links
-- github.com/heiseonline/embetty for fb thumbs?
-- event categories? (tv, concert)
-- google translate null origin?
 ==================================================-->
 <event title="Célia Larry Show - Spectacle du 1er Mars" date="01-03-2014">
 	<video title="Show (Part 1)" link="yt:CS7gxC5Hxho" length="1:05:50">
@@ -72,9 +61,9 @@
 <event title="Célia Larry Show - Les étoiles en scène - Finale" date="20-01-2018">
 	<video title="Carla - Comme toi" link="yt:O_XS7mV7VwQ" length="4:05"/>
 </event>
-<!--<event title="(Carla Cover)" date="07-02-2018">
+<event title="(Carla Cover)" date="07-02-2018">
 	<video title="Carla - Skyfall" link="fb:562352097461667" length="1:49"/>
-</event>-->
+</event>
 <event title="(Carla Cover)" date="11-02-2018">
 	<video title="Carla - Si t'étais là" link="yt:UladpEZjHXE" length="2:35"/>
 </event>
@@ -99,6 +88,14 @@
 </event>
 <event title="Peillon - ..." date="XX-XX-2018">
 	<video title="Carla - Comme Toi" link="fb:240053386858143" length=""/>
+</event>
+<event title="Contes - ..." date="02-08-2018">
+	<video title="..." link="fb:683443728685836" length="0:51"/>
+</event>
+<event title="Radio émotion - ..." date="11-08-2018">
+	<video title="..." link="fb:693348104362065" length="0:09"/>
+	<link>ogcnice.com/fr/article/31112/-.html</link>
+	<link>ogcnice.com/fr/article/31117/-.html</link>
 </event>
 <event title="(Carla Cover)" date="24-09-2018">
 	<video title="Carla - Never Enough" link="fb:2143818242335133" length="1:01"/>
@@ -137,6 +134,7 @@
 	<video title="Carla, Lena &amp; Alexandre - Un Homme Debout" link="yt:xFa64AyaAxk" length="3:05"/>
 	<video title="Carla, Lena &amp; Alexandre - Un Homme Debout" link="dm:x7oghit" length="3:05"/>
 	<video title="Carla, Lena &amp; Alexandre - Un Homme Debout" link="" length=""/>
+	<video title="..." link="fb:2164605637138449" length=""/>
 	<link>tf1.fr/tf1/the-voice-kids/videos/carla-lena-alexandre-un-homme-debout-claudio-capeo-equipe-patrick-fiori.html</link>
 </event>
 <event title="Azur TV - La Grande Emission" date="11-11-2018">
@@ -146,6 +144,7 @@
 </event>
 <event title="Departement des Alpes-Maritimes - ..." date="XX-11-2018">
 	<video title="..." link="yt:p0mXVaErXro" length=""/>
+	<video title="..." link="yt:lvFUiFsLroQ" length=""/>
 	<video title="..." link="fb:262509044434770" length=""/>
 	<link>ginesy.com/soutien-thevoicekids-lazzari-2018.html</link>
 </event>
@@ -165,6 +164,8 @@
 	<video title="Carla - It's Oh So Quiet" link="dm:x7on1uz" length="5:05"/>
 	<video title="Carla - It's Oh So Quiet" link="tf1.fr/embedplayer/13601859" length="4:52"/>
 	<video title="Carla - It's Oh So Quiet" link="" length=""/>
+	<video title="Carla - It's Oh So Quiet" link="fb:857554714635922" length=""/>
+	<video title="..." link="fb:379449262817562" length=""/>
 	<video title="Coaches &amp; Finalists - Oh Happy Day" link="tf1.fr/embedplayer/13601866" length=""/>
 	<link>tf1.fr/tf1/the-voice-kids/videos/carla-it-s-oh-so-quiet-bjoerk.html</link>
 	<link>tf1.fr/tf1/the-voice-kids/videos/exclu-petillante-carla-bluffe-coachs-reprise-de-bjoerk.html</link>
@@ -287,6 +288,7 @@
 	<video title="..." link="fb:828964970772714" length="2:15:10">
 		<_ time="32:30"/>
 	</video>
+	<video title="..." link="fb:10218692512892756" length=""/>
 </event>
 <event title="Les Petites Canailles - Fais Pas Ci, Fais Pas Ca" date="15-03-2019">
 	<video title="Music Video" link="yt:RAbXpTbVeGA" length="1:47">
@@ -298,10 +300,11 @@
 	<video title="..." link="yt:TXWI74dqA6s" length="3:53"/>
 </event>
 <event title="France 3 - 300 Choeurs Chantent les Plus Belles Chansons de Michel Sardou" date="29-03-2019">
+	<video title="Show" link="yt:UvbyrWhruf4" length="2:07:26"/>
 	<video title="Show" link="noodlemagazine.com/player/88444335_456239399?m=ec5d9869a179628d0a7c06718061ebed" length="2:08:20"/>
 	<video title="Show" link="noodlemagazine.com/player/-23729576_456239883?m=a51205e777dd735b090666dc318843c4" length="2:08:20"/>
 	<video title="Les Petites Canailles - En Chantant" link="yt:uLLe1hvyKuc" length="3:46"/>
-	<video title="Les Petites Canailles - En Chantant" link="yt:dhhZY0GoVE8" length=""/>
+	<video title="Les Petites Canailles - En Chantant" link="yt:I0YEaeWApgE" length="4:03"/>
 	<link type="francetv" id="937567"/>
 	<link type="francetv" id="1265219"/>
 </event>
@@ -380,11 +383,14 @@
 </event>
 <event title="Sainte-Maxime Soiree Gala - Patrick Fiori Concert" date="17-07-2019">
 	<video title="Carla - Shallow" link="yt:-DXLQWKgc6Q" length="5:15"/>
+	<video title="Carla - Shallow" link="fb:10217126769455814" length=""/>
+	<video title="Carla - Shallow" link="fb:679350345876038" length="1:00"/>
 	<link>nicematin.com/a/398880</link>
 </event>
 <event title="Europetanque des Alpes-Maritimes - Finale" date="22-07-2019">
 	<video title="Carla - La Grenade" link="yt:3Rd86zuiESY" length="5:20"/>
 	<video title="..." link="fb:2337047996533224" length="27:29"/>
+	<video title="..." link="fb:10217163819822050" length=""/>
 	<link>yesicannes.com/europetanque-des-alpes-maritimes-sport-amitie-57508</link>
 </event>
 <event title="Les Petites Canailles - J'Attendrai" date="26-07-2019">
@@ -398,19 +404,23 @@
 </event>
 <event title="Eze - Fetes Patronales" date="17-08-2019">
 	<video title="Carla - La Grenade" link="yt:_j8_RQXhonc" length="3:08"/>
-	<video title="Carla - What a Feeling" link="yt:xR1g-pmk2a0" length="3:12"/>
+	<video title="Carla - Flashdance... What a Feeling" link="yt:xR1g-pmk2a0" length="3:12"/>
 	<link>ville-eze.fr/evenements/fetes-patronales-4</link>
 </event>
 <event title="France 2 - Basique, l'Essentiel de la Musique" date="26-08-2019">
 	<video title="Interview" link="yt:8aFOMPRA6V0" length="2:06"/>
 	<video title="Interview" link="yt:rMv0744swkw" length="1:36"/>
+	<video title="Interview" link="fb:924216294606804" length=""/>
+	<video title="Interview" link="fb:2887022444701708" length=""/>
+	<video title="Interview" link="fb:10220131398824005" length=""/>
 	<link type="francetv" id="1050109"/>
 	<link type="francetv" id="1061275"/>
 </event>
 <event title="..." date="XX-08-2019">
-	<video title="Carla &amp; Hindy - Comment Te Dire Adieu" link="fb:2377136559241615" length="">
+	<video title="Carla &amp; Hindy - Comment te dire adieu" link="fb:2377136559241615" length="1:03">
 		<link type="lyrics" id="13"/>
 	</video>
+	<video title="Carla &amp; Hindy - Comment te dire adieu" link="fb:657360098007403" length="1:04"/>
 </event>
 <event title="Cafe de la Danse - Les Petites Canailles Showcase" date="11-09-2019">
 	<video title="Interview" link="yt:LS8rrrMBAhM" length="10:03"/>
@@ -491,6 +501,7 @@
 	<video title="Junior Eurovision Questions - What Is Your Dream Job Besides Singing?" link="yt:ZHK2jLHL0L0" length="2:19"/>
 	<video title="Junior Eurovision Questions - Which Songs Do You Play on Repeat?" link="yt:g3OOHp1no7A" length="2:23"/>
 	<link type="francetv" id="1088935"/>
+	<link>naimamerzoukestmkz.com/draw-my-life-carla-eurovision-junior</link>
 </event>
 <event title="Junior Eurovision Song Contest - Press Conference" date="23-10-2019">
 	<video title="Live" link="fb:969859040024750" length="38:05"/>
@@ -522,11 +533,15 @@
 	<video title="Carla - Bim Bam Toi" link="fb:2500054490080195" length="3:04">
 		<link type="lyrics" id="16"/>
 	</video>
-	<link>eurovision-france.fr/eurovision-junior-2019-la-france-sur-la-route-de-la-victoire/</link>
+	<link>eurovision-france.fr/eurovision-junior-2019-la-france-sur-la-route-de-la-victoire</link>
+	<link>eurovision-quotidien.com/france-junior-2019-conference-de-presse</link>
+	<link>fb.com/media/set?set=a.2653545081375190</link>
 </event>
 <event title="France 2 - Basique, l'Essentiel de la Musique" date="11-10-2019">
 	<video title="Interview" link="yt:J5Hi5E87fE4" length="2:00"/>
 	<video title="Portrait Chinois (Si Tu Etais)" link="yt:dwfD7XYaxoo" length="1:01"/>
+	<video title="Interview" link="fb:2366199550102525" length=""/>
+	<video title="Portrait Chinois (Si Tu Etais)" link="fb:2584780895100829" length=""/>
 	<link type="francetv" id="1076511"/>
 </event>
 <event title="Departement des Alpes-Maritimes - ..." date="15-11-2019">
@@ -540,7 +555,7 @@
 <event title="BFMTV - Bonsoir Bruce" date="21-10-2019">
 	<video title="..." link="fb:2827154753974739" length="8:10"/>
 	<video title="..." link="fb:2827137653976449" length="8:10"/>
-	<link>bfmtv.com/people/-201910210108.html</link>
+	<link>bfmtv.com/-/-201910210108.html</link>
 </event>
 <event title="France Bleu Azur" date="22-10-2019">
 	<video title="Interview" link="dm:x7mxtz4" length="1:07">
@@ -562,13 +577,16 @@
 	<video title="Interview" link="dm:x7o1cem" length="1:07"/>
 	<video title="Interview" link="fb:3009244859104447" length=""/>
 </event>
+<event title="Non Stop People - Le Débrief de Non Stop" date="24-10-2019">
+	<video title="..." link="ig:B4Cc4i1h-s8" length=""/>
+</event>
 <event title="TF1 - The Voice Kids - La Finale" date="25-10-2019">
 	<video title="Show (Part 1)" link="noodlemagazine.com/player/-23729576_456240347?m=2acabb8ad2369ee7741531991b6a2e7f" length="1:50:11" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg"/>
 	<video title="Show (Part 2)" link="noodlemagazine.com/player/-23729576_456240349?m=69a4218913ccddff2d7a87dc5a558df4" length="44:26" thumb="www.tmsimg.com/assets/p10804142_b_v6_ac.jpg"/>
 	<video title="Les Petites Canailles - J'Attendrai" link="tf1.fr/embedplayer/13670776" length="3:24">
 		<link type="lyrics" id="3"/>
 	</video>
-	<video title="Behind the Scenes" link="yt:RkPScQrUVps" length="10:51"/>
+	<video title="Angelina - Behind the Scenes" link="yt:RkPScQrUVps" length="10:51"/>
 </event>
 <event title="Europe 1 - Ca Fait du Bien" date="29-10-2019">
 	<video title="..." link="api.europe1.fr/podcast/mp3/itunes-329164519/3932264/podcast.mp3" length="32:43"/>
@@ -576,11 +594,11 @@
 </event>
 <event title="..." date="01-11-2019">
 	<video title="France 2 - ..." link="fb:1113724665487482" length=""/>
-	<video title="France 2 - ..." link="ig:B4VSqbVof02" length=""/>
 </event>
 <event title="France 2 - Vivement Dimanche" date="10-11-2019">
 	<video title="..." link="yt:yax4Xax2Jmw" length="3:05"/>
 	<link type="francetv" id="1098395"/>
+	<link>purepeople.com/article/-_a359762</link>
 </event>
 <event title="EFR12 - EFR League Junior" date="12-11-2019">
 	<video title="Interview" link="efr12.com/radio/wp-content/uploads/2019/12/Carla-sur-EFR12-Radio.mp3" length="4:48">
@@ -991,8 +1009,8 @@
 	<link type="francetv" id="1104077"/>
 	<link type="francetv" id="1104079"/>
 </event>
-<event title="France Bleu Azur - On Passe le Week-End avec une Star" date="17-11-2019">
-	<video title="..." link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-0.mp3" length="3:09">
+<event title="France Bleu Azur - On passe le week-end avec une star" date="17-11-2019">
+	<video title="Part 1" link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-0.mp3" length="3:09">
 		<Q>... C'est aven un plaisir immense que nous ... dans le grand studio France Bleu Azur Carla, Carla Lazzari, bonjour.</Q>
 		<A>Bonjour!</A>
 		<Q>Bienvenue, bon retour, ... souvenir ... d'etre ici dans ce studio.</Q>
@@ -1002,8 +1020,8 @@
 		<Q>... aujourd'hui c'est parce que ... Bim Bam Toi ...</Q>
 		<A>Et ca fait 'bim bam boum', ca fait 'pshht' et ca fait 'vroum' ...</A>
 	</video>
-	<video title="..." link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-1.mp3" length="3:46"/>
-	<video title="..." link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-2.mp3" length="5:50"/>
+	<video title="Part 2" link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-1.mp3" length="3:46"/>
+	<video title="Part 3" link="media.radiofrance-podcast.net/podcast09/16761-17.11.2019-ITEMA_22205101-2.mp3" length="5:50"/>
 	<link>francebleu.fr/emissions/passe-le-week-end-avec-une-star-partie-1/azur/la-jeune-azureenne-carla-reperee-dans-voice-kids-representera-la-france-a-l-eurovision-junior</link>
 	<link>francebleu.fr/emissions/passe-le-week-end-avec-une-star-partie-2/azur/la-jeune-azureenne-carla-reperee-dans-voice-kids-representera-la-france-a-l-eurovision-junior</link>
 	<link>francebleu.fr/emissions/passe-le-week-end-avec-une-star-partie-3/azur/la-jeune-azureenne-carla-reperee-dans-voice-kids-representera-la-france-a-l-eurovision-junior</link>
@@ -1024,10 +1042,14 @@
 	<video title="Interview" link="yt:e1P6PO6IEI8" length="2:45"/>
 	<video title="Interview" link="fb:1172055226518120" length="2:45"/>
 	<video title="Interview" link="fb:1172126123177697" length="2:45"/>
+	<video title="Interview" link="fb:10218528201229731" length=""/>
 	<link>nicematin.com/a/432590</link>
 </event>
 <event title="Junior Eurovision Song Contest (Day 0)" date="17-11-2019">
-	<video title="Vlog" link="ig:B4-lLd-IPuf" length="1:40"/>
+	<video title="..." link="fb:1513255808826130" length=""/>
+	<video title="..." link="fb:557338265081027" length=""/>
+	<video title="..." link="fb:2553924404684464" length=""/>
+	<video title="..." link="fb:10218086633411813" length=""/>
 </event>
 <event title="Junior Eurovision Song Contest (Day 1)" date="18-11-2019">
 	<video title="Opening Ceremony" link="yt:gkHqH452RVA" length="1:08:28">
@@ -1140,7 +1162,7 @@
 	<video title="Junior Eurovision Stars React to Eurovision" link="yt:jewgPclzLo8" length="2:21"/>
 	<video title="Junior Eurovision Stars React to Eurovision" link="yt:3awYyVHSDAg" length="2:17"/>
 	<video title="Sabrina Lonis - Vlog" link="fb:2588913217855964" length=""/>
-	<video title="BFMTV - Premiere Edition - ..." link="dm:x7o6bzg" length="11:15"/>
+	<video title="BFMTV - Première édition" link="dm:x7o6bzg" length="11:15"/>
 	<link>junioreurovision.tv/gallery/france-brings-the-energy-with-bim-bam-toi</link>
 </event>
 <event title="M6 Gulli - Gu'Live - Carla &amp; Angelina" date="20-11-2019">
@@ -1219,6 +1241,14 @@
 	<video title="Toutelatele - ..." link="dm:x7of4oc" length="1:12"/>
 	<video title="Toutelatele - ..." link="dm:x7of4rp" length="1:33"/>
 	<video title="Toutelatele - ..." link="dm:x7of4qd" length="1:04"/>
+	<video title="Toutelatele - ..." link="fb:1021447214867035" length="1:11"/>
+	<video title="Toutelatele - ..." link="fb:469094840396745" length="0:28"/>
+	<video title="Toutelatele - ..." link="fb:439629763271489" length="1:32"/>
+	<video title="Toutelatele - ..." link="fb:2919717744716869" length="1:04"/>
+	<video title="Wiwibloggs - ..." link="fb:2502376213373172" length=""/>
+	<link>rtve.es/v/5451824</link>
+	<link>akpa.pl/imprezy.php?id=54696</link>
+	<link>akpa.pl/imprezy.php?id=54705</link>
 </event>
 <event title="Junior Eurovision Song Contest (Day 7)" date="24-11-2019">
 	<video title="Final" link="yt:JLX6gos1_6k" length="2:27:55">
@@ -1255,17 +1285,22 @@
 		<_ title="Viki Gabor - Superhero" time="2:23:05"/>
 	</video>
 	<video title="Final (Watch Party)" link="yt:_sIxh5SYP2M" length="2:27:55"/>
-	<video title="Carla - Bim Bam Toi" link="yt:BYQFqHGAdto" length="3:08">
-		<link type="lyrics" id="16"/>
+	<video title="Carla - Bim Bam toi" link="yt:BYQFqHGAdto" length="3:08">
+		<link type="lyrics" id="lam3"/>
+	</video>
+	<video title="Carla - Bim Bam toi" link="fb:780205222424446" length="">
+		<link type="lyrics" id="lam3"/>
 	</video>
 	<video title="Backstage during the Final" link="yt:vyJn3nmuBmE" length="3:42"/>
 	<video title="In the Greenroom" link="yt:vESVQkbk-Rg" length=""/>
 	<video title="Los Replicantes - ..." link="yt:XhwJOCI9XIc" length=""/>
 	<video title="..." link="fb:783768468764256" length="0:16"/>
+	<video title="Efi Gjika - Vlog" link="yt:tm7UUZuLIoQ" length=""/>
 	<video title="Junior Songfestival - ..." link="yt:_OMbrQC0Vxw" length="8:24">
 		<_ time="1:31"/>
 	</video>
 	<link type="francetv" id="1108413"/>
+	<link>akpa.pl/imprezy.php?id=54707</link>
 </event>
 <event title="Canal+ C8 - Touche Pas a Mon Poste!" date="25-11-2019">
 	<video title="Carla - Bim Bam Toi" link="yt:b2hM90LzP44" length="4:01">
@@ -1604,11 +1639,10 @@
 	<video title="Interview - Part 3" link="yt:lYRSCE_i0Qg" length="3:55"/>
 	<video title="Interview - Part 4" link="yt:DPqVIKJq1Bo" length="5:07"/>
 </event>
-<event title="(Carla Cover)" date="28-03-2020">
-	<video title="Carla - Jealous" link="ig:B-SXcRGoLaY" length="1:31"/>
-</event>
-<event title="Departement des Alpes-Maritimes - ..." date="30-03-2020">
+<event title="..." date="30-03-2020">
 	<video title="Carla - L'Effet de Masse" link="fb:219804265932156" length=""/>
+	<video title="50'inside - ..." link="fb:278601293163973" length=""/>
+	<video title="50'inside - ..." link="ig:B-fFjRfqEa-" length=""/>
 </event>
 <event title="Telepro - ..." date="30-03-2020">
 	<video title="Carla - Dance Monkey, L'Effet de Masse &amp; Bim Bam Toi" link="fb:270068463984176" length="">
@@ -1639,6 +1673,10 @@
 	<video title="..." link="fb:158374275458080" length="18:19"/>
 	<video title="..." link="fb:158374998791341" length="18:19"/>
 </event>
+<event title="RTS - Live à la maison" date="11-04-2020">
+	<video title="..." link="yt:91kv6Rpx4Rc" length="5:23:01"/>
+	<link>rtsfm.com/news/concert-rts-live-a-la-maison-edition-1-22066</link>
+</event>
 <event title="M6 Gulli - Gu'Live - Carla" date="13-04-2020">
 	<video title="Confine'Live" link="yt:sIEcc7Hjsak" length="1:12:25"/>
 	<video title="..." link="yt:xSAZaE-0XVk" length="3:02"/>
@@ -1646,11 +1684,9 @@
 </event>
 <event title="(Carla Cover)" date="16-04-2020">
 	<video title="Carla - Ain't No Sunshine" link="yt:7S6kGvNooc0" length="2:16"/>
-	<video title="Carla - Ain't No Sunshine" link="ig:B_AWMKzIexF" length="2:14"/>
 </event>
 <event title="(Carla Cover)" date="17-04-2020">
 	<video title="Carla - Les Mots Bleus" link="fb:1528005134046940" length="3:22"/>
-	<video title="Carla - Les Mots Bleus" link="ig:B_FxzeuIB6J" length="3:21"/>
 </event>
 <event title="Sebastien Serrano - Carla" date="20-04-2020">
 	<video title="Live" link="ig:B_NoVHjo6J6" length="8:16"/>
@@ -1670,6 +1706,10 @@
 	</video>
 	<link>media.universalmusic.pl/94317</link>
 </event>
+<event title="RTS - Live à la maison 2" date="02-05-2020">
+	<video title="..." link="yt:BTe4VDh9o5w" length=""/>
+	<video title="..." link="fb:599744354231257" length=""/>
+</event>
 <event title="TheDouzePointe - Carla" date="30-05-2020">
 	<video title="Live" link="ig:CA0a-7vpDHJ" length="39:42"/>
 </event>
@@ -1683,6 +1723,11 @@
 <event title="TF1 LCI - LE 13H" date="10-06-2020">
 	<video title="..." link="tf1.fr/embedplayer/13717222" length="1:59"/>
 	<link>lci.fr/-2156146.html</link>
+</event>
+<event title="..." date="11-06-2020">
+	<video title="Non Stop People - Le Debrief de Non Stop" link="ig:CBWIWCnpxwh" length="4:29"/>
+	<video title="M6 W9 - L'hebdo de la musique - Carla" link="yt:L5gO3Gu4eAk" length=""/>
+	<video title="M6 W9 - L'hebdo de la musique - Carla" link="fb:586671988719579" length=""/>
 </event>
 <event title="L'Autre Moi Webserie" date="12-06-2020">
 	<video title="Episode 1 - Mes Debuts" link="yt:k1p0WT_aXkk" length="2:55"/>
@@ -1937,6 +1982,7 @@
 		<A>...</A>
 	</video>
 	<video title="RIFFX - À la maison - Carla" link="fb:560650927953417" length="4:00"/>
+	<video title="..." link="fb:10159064073034665" length=""/>
 	<link>riffx.fr/a-la-maison-carla-raconte-son-confinement</link>
 </event>
 <event title="M6 Gulli - Gu'Live - Carla" date="12-06-2020">
@@ -2045,34 +2091,37 @@
 		<link type="lyrics" id="15"/>
 	</video>
 </event>
-<event title="Non Stop People - Le Debrief de Non Stop" date="12-06-2020">
-	<video title="..." link="ig:CBWIWCnpxwh" length="4:29"/>
-</event>
-<event title="TF1 - La Chanson de l'Annee" date="12-06-2020">
+<event title="TF1 - La chanson de l'année" date="12-06-2020">
 	<video title="Show (Part 1)" link="ok.ru/videoembed/1768296024778" length="1:45:50"/>
 	<video title="Show (Part 2)" link="ok.ru/videoembed/1768800848586" length="1:12:14"/>
+	<video title="..." link="fb:1328498790689593" length=""/>
+	<link>nicematin.com/a/523846</link>
 </event>
-<event title="EHFR" date="13-06-2020">
-	<video title="Interview" link="yt:3vkez5xjvdQ" length="10:02">
-		<Q>How old were you when you start singing?</Q>
-		<A>Uh, my mother is a singing teacher and my father is ...</A>
+<event title="DJ Max Okhuijsen - EHFR" date="13-06-2020">
+	<video title="Show" link="mixcloud.com/widget/iframe/?feed=%2F_DjMax_%2Fthe-hitshow-with-djmax-on-ehfr-interview-with-carla%2F" length="">
+		<!--<Q>How old were you when you start singing?</Q>
+		<A>Uh, my mother is a singing teacher and my father is ...</A>-->
 	</video>
+	<link>mixcloud.com/_DjMax_/the-hitshow-with-djmax-on-ehfr-interview-with-carla/</link>
 </event>
-<event title="France 2 - Fete de la Musique - Tous Ensemble pour la Musique" date="19-06-2020">
+<event title="..." date="15-06-2020">
+	<link>onecoutelatele.com/voici-nos-emissions-de-ce-lundi-15-juin-en-podcast-avec-carla-yvon-back-marion-christmann-sandra-perrin-et-jean-marie-bigard</link>
+</event>
+<event title="France 2 - Fête de la musique - Tous ensemble pour la musique" date="19-06-2020">
 	<video title="Show" link="ok.ru/videoembed/1779880954570" length="3:34:11"/>
-	<video title="France 2 - La Chanson de l'Ete - Carla" link="fb:279142706635963" length=""/>
+	<video title="France 2 - La chanson de l'été - Carla" link="fb:279142706635963" length=""/>
 	<link type="francetv" id="1750603"/>
 	<link type="francetv" id="1804251"/>
 	<link type="francetv" id="1790839"/>
 </event>
 <event title="Radio Air Show - Que faire des mômes #199" date="20-06-2020">
 	<video title="Show" link="yt:yyXHMf26kxE" length="35:00"/>
-	<video title="Show" link="player.ausha.co?podcastId=ow0qAsvV3OKR" length="35:47"/>
+	<video title="Show" link="player.ausha.co/?podcastId=ow0qAsvV3OKR" length="35:47"/>
 	<video title="Show" link="open.spotify.com/embed-podcast/episode/7AkswxOXbU35YoSp9g3k0t" length="34:59"/>
 	<link>quefairedesmomes.fr/podcast-que-faire-des-momes-n199</link>
 	<link>podcast.ausha.co/quefairedesmomes/podcast-que-faire-des-momes-n0-199</link>
 </event>
-<event title="Green Team - Les Enfants du Monde" date="24-06-2020">
+<event title="Green Team - Les enfants du monde" date="24-06-2020">
 	<video title="Music Video" link="yt:_aXA1jRXWnk" length="3:55">
 		<link type="lyrics" id="34"/>
 	</video>
@@ -2089,8 +2138,9 @@
 	<video title="Behind the Scenes" link="yt:FoYSvFTztRc" length="2:11"/>
 	<link>journaldemickey.com/actus/carla-lautre-moi</link>
 </event>
-<event title="BFMTV - Premiere Edition" date="25-06-2020">
+<event title="BFMTV - Première édition" date="25-06-2020">
 	<video title="..." link="dm:x7unfh6" length="1:30"/>
+	<link>bfmtv.com/-/-202006250134.html</link>
 </event>
 <event title="France 2 - 100 Ans des Comedies Musicales - Les Stars Chantent pour le Sidaction" date="25-06-2020">
 	<video title="Show" link="ok.ru/videoembed/1790034578122" length="2:26:04"/>
@@ -2118,14 +2168,16 @@
 		<Q>Quel est ton talent cache?</Q>
 		<A>... des gros bisous.</A>
 	</video>
+	<video title="Interview" link="fb:1430774473790938" length="2:37"/>
 	<video title="Interview" link="ig:CCJNr6tID3t" length="2:37"/>
+	<link>aficia.info/interview/carla/197557</link>
 </event>
 <event title="France 2 - Les Enfants de la Tele" date="05-07-2020">
 	<video title="..." link="fb:621951978438449" length=""/>
 	<link type="francetv" id="1797633"/>
 	<link type="francetv" id="1797619"/>
 </event>
-<event title="BFMTV - Premiere Edition" date="07-08-2020">
+<event title="BFMTV - Première édition" date="07-08-2020">
 	<video title="..." link="dm:x7vfuep" length="1:30"/>
 </event>
 <event title="Green Team - Trois Petits Pas" date="10-07-2020">
@@ -2133,6 +2185,7 @@
 		<link type="lyrics" id="33"/>
 	</video>
 	<video title="TF1 - La Minute Musique" link="fb:304802857533291" length="0:56"/>
+	<video title="TF1 LCI - LE 13H - ..." link="fb:327126668466838" length=""/>
 	<video title="TF1 LCI - LE 13H - ..." link="tf1.fr/embedplayer/13728306" length="2:12"/>
 	<link>lci.fr/-2161379.html</link>
 </event>
@@ -2256,7 +2309,6 @@
 		<Q>Decris-nous ton aventure avec la Green Team.</Q>
 		<A>...</A>
 	</video>
-	<video title="..." link="ig:CFpXdYioiYJ" length="3:26"/>
 </event>
 <event title="France 3 - Les Enfants de la Musique Chantent les Annees Twist et Disco" date="02-10-2020">
 	<video title="Show" link="noodlemagazine.com/player/-23729576_456241435?m=cd2426ded2c6c263ee12382dd2c5c186" length="2:26:38"/>
@@ -2265,10 +2317,12 @@
 	<link type="francetv" id="1967229"/>
 </event>
 <event title="France 3 - 300 Choeurs Chantent les Plus Belles Chansons de Joe Dassin" date="16-10-2020">
+	<video title="Show" link="yt:egTGNT9WXn0" length="2:14:40"/>
 	<video title="Show" link="ok.ru/videoembed/2005462223562" length="2:14:36"/>
-	<video title="Carla &amp; Jonathan Dassin - Siffler sur la Colline" link="yt:vI7NtKIW3xU" length="3:26">
+	<video title="Carla &amp; Jonathan Dassin - Siffler sur la colline" link="yt:vI7NtKIW3xU" length="3:26">
 		<link type="lyrics" id="38"/>
 	</video>
+	<video title="Carla &amp; Jonathan Dassin - Siffler sur la colline" link="yt:1o5OmknQKt0" length="3:26"/>
 	<link type="francetv" id="2026013"/>
 	<link type="francetv" id="2028119"/>
 	<link>purepeople.com/article/-_a405011</link>
@@ -2679,6 +2733,7 @@
 		<Q>Kids-Matin!</Q>
 		<A>Des gros bisous.</A>
 	</video>
+	<link>nicematin.com/a/591473</link>
 </event>
 <event title="Keen'V &amp; Carla - C'est bientôt Noël" date="XX-11-2020">
 	<video title="Teaser" link="yt:BgOAT4JDwY4" length="0:34"/>
@@ -2760,8 +2815,8 @@
 </event>
 <event title="Radio Emotion - Le Grand Reveil" date="13-11-2020">
 	<video title="..." link="radioemotion.fr/wp-content/uploads/2020/11/Podcast-Carla.mp3" length="20:13"/>
-	<video title="" link="fb:692610328356817" length=""/>
-	<video title="" link="fb:376450993796967" length=""/>
+	<video title="" link="fb:692610328356817" length="0:10"/>
+	<video title="" link="fb:376450993796967" length="0:09"/>
 	<link>radioemotion.fr/carla-lazzari-dans-le-grand-reveil-de-la-cote-dazur</link>
 </event>
 <event title="TV Pitchoun - Le Club des Pitchouns - Carla" date="18-11-2020">
@@ -2779,7 +2834,7 @@
 	<video title="Live" link="ig:CH3IIQSnkkL" length="31:12"/>
 </event>
 <event title="Junior Eurovision Song Contest" date="29-11-2020">
-	<video title="Final" link="yt:XVjDr88nnrQ" length="1:58:35">
+	<video title="Show" link="yt:XVjDr88nnrQ" length="1:58:35">
 		<_ title="Viki Gabor - Superhero" time="2:19"/>
 		<_ title="Susan - Stronger with You" time="15:02"/>
 		<_ title="Karakat Bashanova - Forever" time="19:03"/>
@@ -2801,12 +2856,13 @@
 		<_ title="(Carla enters the screen)" time="1:56:14"/>
 		<_ title="(Carla hugs Valentina)" time="1:56:35"/>
 	</video>
+	<video title="Show (Watch Party)" link="yt:U_B9s_ChN7Y" length=""/>
 	<video title="Winner Interview" link="dm:k7rwRoFImVfhsbwu8LR" length="4:14"/>
 	<video title="Winner Interview" link="yt:0oGo3J6bWyU" length="1:37"/>
 	<video title="Winner Press Conference" link="yt:it6jnk8qzbI" length="14:46"/>
 	<link type="francetv" id="2091623"/>
 </event>
-<event title="Course Anna - Carla" date="05-12-2020">
+<event title="Cours Anna - Carla" date="05-12-2020">
 	<video title="Live" link="ig:CIbMYGFq3oY" length="27:13">
 		<!--<Q>... alors, alors, alors ... quand meme. Oh la la la la. Qui nous ... dans quelques secondes, oh la. J'ai ... comment ca va bien? Salut Julia. J'espere ... Carla Music fan. Attendez, attendez ... alors, Carla, je vais accepter ... On attend de Carla, on attend de Carla.</Q>
 		<A>Hello!</A>
@@ -2844,7 +2900,8 @@
 <event title="TV Pitchoun - Pitchoun Party" date="16-12-2020">
 	<video title="Trailer" link="ig:CJbwT1fKpEn" length="1:08"/>
 	<video title="Loric - Carnavalera" link="yt:r7TY8KPUlQc" length="4:49"/>
-	<video title="Lina - Les Bavards" link="yt:svl0F-SeIE4" length="5:06"/>
+	<video title="Loric - Carnavalera" link="fb:3857954117584816" length=""/>
+	<video title="Lina - Les bavards" link="yt:svl0F-SeIE4" length="5:06"/>
 	<link>nicematin.com/a/619250</link>
 </event>
 <event title="Vallee de la Roya - ..." date="17-12-2020">
@@ -2883,7 +2940,10 @@
 		<A>Ensemble pour nos vallees.😘</A>
 	</video>
 	<video title="Music Video" link="yt:oIWeXWUvtbY" length="3:30"/>
+	<video title="Music Video" link="fb:173641717820944" length=""/>
 	<video title="Press Conference" link="yt:nea64QoQJvE" length="43:22"/>
+	<video title="..." link="yt:oC_5PohTdmw" length=""/>
+	<video title="..." link="fb:418756399560005" length=""/>
 	<video title="Azur TV - ..." link="yt:ib1EncjisTw" length="3:26">
 		<!--<Q>
 			Un morceau de musique pour aider les vallees, c'est le pari du departement des Alpes-Maritimes avec l'aide de dizaines d'artistes et de personnalites Azureenne, comme les joueurs de l'OGC Nice ou de l'AS Monaco, Didier Deschamps ou encore Guillaume ...
@@ -2902,8 +2962,11 @@
 	<link>europe1.fr/emissions/anne-roumanoff-ca-fait-du-bien/anne-roumanoff-avec-pierre-perret-carla-et-stephane-bern-4014596</link>
 </event>
 <event title="TF1 LCI - LE 13H" date="31-12-2020">
+	<video title="..." link="yt:SyARKPqojxk" length=""/>
 	<video title="..." link="fb:157637992777088" length=""/>
 	<video title="..." link="tf1.fr/embedplayer/13758743" length="2:09"/>
+	<video title="..." link="fb:215199373416308" length=""/>
+	<video title="..." link="fb:2763817627266625" length=""/>
 	<link>lci.fr/-2174343.html</link>
 </event>
 <event title="France 2 - Boyard Land - S02E05" date="02-01-2021">
@@ -3004,9 +3067,10 @@
 		<_ title="Valentina - J'Imagine" time="1:12:18"/>-->
 	</video>
 	<video title="Show" link="fb:261830228712108" length=""/>
+	<video title="..." link="fb:475657516796557" length="0:55"/>
 </event>
-<event title="M6 Gulli - ..." date="15-04-2021">
-
+<event title="M6 Gulli - La Grande Video Party S01E02" date="15-04-2021">
+	<link>gulli.fr/programme-tv/la-grande-video-party/christophe-licata-gus-carla-vaimalama-chaves</link>
 </event>
 <event title="Carla - Alors chut" date="06-05-2021">
 	<video title="Music Video" link="yt:ii5SgzefjHo" length="2:30"/>
@@ -3032,7 +3096,9 @@
 	<video title="Show" link="yt:msfdz_aksY8" length="3:56:45">
 		<_ time="3:25:20"/>
 	</video>
-	<video title="Points from France" link="fb:344086433804298" length=""/>
+	<video title="Points from France" link="fb:344086433804298" length="0:47"/>
+	<video title="Points from France" link="fb:10222449893330584" length="0:46"/>
+	<video title="Points from France" link="fb:10225803981515027" length="0:46"/>
 	<link type="francetv" id="2460999"/>
 </event>
 <event title="France 2 - Fort Boyard S32E03" date="XX-XX-2021">
@@ -3048,48 +3114,162 @@
 </event>
 <event title="France 2 - Fete de la Musique - Les 40 Ans des Annees 80" date="21-06-2021">
 	<video title="Show" link="noodlemagazine.com/player/-23729576_456242988?m=959f46f172ce947f5306684f583b97ef" length="3:32:38"/>
+	<video title="Carla &amp; Valentina - ..." link="fb:10226019113373189" length=""/>
 	<video title="..." link="fb:196977508981566" length="2:22"/>
 	<video title="..." link="ig:CQbcCqRIDED" length="2:21"/>
 	<link type="francetv" id="2532745"/>
 	<link type="francetv" id="2572465"/>
 </event>
-<event title="Carla - Summer Summer" date="">
-	<video title="Lyric Video" link="yt:Ujm0YlG66QI" length=""/>
+<event title="Carla - Summer Summer" date="XX-07-2021">
+	<video title="Lyric Video" link="yt:Ujm0YlG66QI" length="2:21"/>
 </event>
-<event title="M6 Gulli - Gu'Live - Carla &amp; Valentina" date="21-08-2021">
+<event title="Département des Alpes-Maritimes - Soirées estivales - Nos vallées tournée - Saint-Martin-Vésubie" date="31-07-2021">
+	<video title="..." link="fb:576087693511337" length=""/>
+	<link>soirees-estivales.departement06.fr/concerts/tournee-nos-vallees-41505/tournee-nos-vallees-saint-martin-vesubie-44638.html</link>
+</event>
+<event title="Département des Alpes-Maritimes - Soirées estivales - Nos vallées tournée - Puget-Théniers" date="21-08-2021">
+	<video title="..." link="yt:xYJJST8RKJI" length="1:45"/>
+	<video title="..." link="fb:389594419199041" length="1:45"/>
+	<link>soirees-estivales.departement06.fr/concerts/tournee-nos-vallees-41505/tournee-nos-vallees-puget-theniers-44641.html</link>
+</event>
+<event title="France Bleu Azur - On passe le week-end avec une star" date="25-08-2021">
+	<video title="Part 1" link="media.radiofrance-podcast.net/podcast09/16761-05.09.2021-ITEMA_22763735-2021B26732S0248.mp3" length=""/>
+	<video title="Part 2" link="media.radiofrance-podcast.net/podcast09/16761-05.09.2021-ITEMA_22763735-2021B26733S0248.mp3" length=""/>
+	<video title="Part 3" link="media.radiofrance-podcast.net/podcast09/16761-05.09.2021-ITEMA_22763735-2021B29876S0248.mp3" length=""/>
+</event>
+<event title="M6 Gulli - Gu'Live - Carla" date="04-09-2021">
+	<video title="Live" link="yt:LkTgtIwOCFE" length="19:58">
+		<!--<Q>Salut tout le monde ...</Q>
+		<A></A>-->
+	</video>
+	<video title="Carla - Alors chut" link="yt:G0VDqi6X7dQ" length="5:08">
+		<link type="lyrics" id="sf2"/>
+	</video>
+</event>
+<event title="(Promo)" date="13-09-2021">
+	<missing title="M6 W9 - L'hebdo de la musique - Carla"/>
+	<video title="Live Actu - Carla - Interview" link="yt:Nv4DQofAXbU" length="7:16"/>
+</event>
+<event title="France 3 - 300 chœurs chantent les plus belles chansons des comédies musicales" date="13-09-2021">
+	<video title="Show" link="noodlemagazine.com/player/88444335_456240119?m=420c65e43c0358392085633bc8e5bd34" length="2:03:36"/>
+	<link type="francetv" id="2777699"/>
+</event>
+<event title="Seb Avec Ta Star - Carla" date="14-09-2021">
+	<video title="..." link="yt:42CMpGZPB0w" length="13:39"/>
+	<video title="..." link="yt:6GOhoZ1kD9Q" length="0:22"/>
+</event>
+<event title="Top solidaire" date="03-10-2021">
+	<video title="..." link="fb:191852886295441" length=""/>
+	<link>weezevent.com/top-solidaire</link>
+</event>
+<event title="France 3 Provence-Alpes-Côte d'Azur - Vous êtes formidables" date="06-10-2021">
+	<link type="francetv" id="2835661"/>
+	<link type="francetv" id="2835707"/>
+	<link>embedftv-a.akamaihd.net/8f91edfbc239642b9464728e0617a4c0</link>
+</event>
+<event title="France 2 - Dans les secrets de l'Eurovision Junior" date="08-10-2021">
+	<video title="..." link="yt:VYJkkHIvMaE" length="0:59"/>
+	<video title="..." link="fb:633691461148382" length=""/>
+	<link type="francetv" id="2828577"/>
+	<link type="francetv" id="2907039"/>
+</event>
+<event title="Oxygène Music Live" date="04-11-2021">
+	<video title="..." link="fb:418398359668894" length="0:59"/>
+	<video title="..." link="fb:575911227016295" length="1:56"/>
+	<link>oxygeneradio.com/oxygenemusiclive2021</link>
+</event>
+<event title="Junior Eurovision Song Contest - Press Conference" date="17-11-2021">
+	<link>qolora.seekat.fr/eurovisionjunior</link>
+</event>
+<event title="France 2 - La grande soirée du 31 à Chantilly" date="22-11-2021">
+	<video title="Show" link="yt:PJp_ISEYX0E" length=""/>
+	<link type="francetv" id="2978751"/>
+	<link>purepeople.com/article/-_a469756</link>
+</event>
+<event title="..." date="29-11-2021">
+	<video title="..." link="player.ausha.co/?podcastId=ykKxeckJKdE1" length=""/>
+	<video title="..." link="open.spotify.com/embed-podcast/episode/7l1b4R6srmxeSSbsr9OVUc" length=""/>
+	<link>podcast.ausha.co/12-points/eurovision-junior</link>
+</event>
+<event title="Junior Eurovision Song Contest - Day 1" date="13-12-2021">
+	<video title="Opening Ceremony" link="yt:rqhCircd3IM" length="23:32"/>
+	<link>junioreurovision.tv/story/jesc-running-order-revealed</link>
+</event>
+<event title="Junior Eurovision Song Contest - Day 2" date="14-12-2021">
 
+</event>
+<event title="Junior Eurovision Song Contest - Day 3" date="15-12-2021">
+
+</event>
+<event title="Junior Eurovision Song Contest - Day 4" date="16-12-2021">
+
+</event>
+<event title="Junior Eurovision Song Contest - Day 5" date="17-12-2021">
+	<video title="Eurovision France - Live" link="ig:CXl2vlDopCJ" length=""/>
+	<video title="..." link="fb:283256523755917" length="0:11"/>
+	<video title="..." link="ig:CXlikinoq-9" length="0:11"/>
+	<link>europe1.fr/emissions/Le-journal-des-medias/leurovision-junior-france-televisions-et-brut-en-partenariat-avec-le-festival-de-cannes-et-les-20-ans-dharry-potter-diffuses-sur-salto-4083122</link>
+	<link>europe1.fr/medias-tele/on-a-un-vrai-defi-de-securite-sanitaire-leurovision-junior-se-tient-dimanche-a-paris-4083124</link>
+	<link>pytanienasniadanie.tvp.pl/57513306/eurowizja-junior-cz1</link>
+	<link>eurowizja.tvp.pl/57526997/polskie-tancerki-i-carla-lazzari-za-kulisami-eurowizji-junior-2021</link>
+</event>
+<event title="Junior Eurovision Song Contest - Day 6" date="18-12-2021">
+	<video title="Hosts Press Conference" link="yt:KgtBWCkY0es" length=""/>
+	<link>rtve.es/television/20211218/levi-reir-jury-rehearsal-ensayo-jurado-eurovision-junior/2240860.shtml</link>
+	<link>pytanienasniadanie.tvp.pl/57525573/eurowizja-junior-cz2</link>
+	<link>eurowizja.tvp.pl/57527015/djs-ofenbach-i-olivier-minne-final-eurowizji-to-wielkie-wydarzenie</link>
+	<link>junioreurovision.tv/story/introducing-our-hosts</link>
+</event>
+<event title="Junior Eurovision Song Contest - Day 7" date="19-12-2021">
+	<video title="Show" link="yt:FqoGEtQU3hc" length=""/>
+	<link type="francetv" id="2956793"/>
+	<link>junioreurovision.tv/gallery/this-was-the-final-of-junior-eurovision-2021</link>
+	<link>junioreurovision.tv/gallery/malena-wins-junior-eurovision-2021-for-armenia</link>
+</event>
+<event title="Bim Bam Tour" date="22-01-2022">
+	<link>culture.puteaux.fr/saison-2021-2022/carla-bim-bam-tour</link>
+</event>
+<event title="France Bleu Azur - ..." date="26-01-2022">
+
+</event>
+<event title="Nice-Matin Kids-Matin - ..." date="02-02-2022">
+	<link>nicematin.com/a/743719</link>
 </event>
 <event title="(Other)">
 	<video title="Les Petites Canailles - ..." link="yt:GMrtexlbOxo" length=""/>
 	<video title="..." link="yt:CouEUWRRF6o" length=""/>
+	<video title="..." link="fb:550188162127841" length=""/>
+	<video title="..." link="fb:587847845353888" length=""/>
 	<video title="Les Petites Canailles - ..." link="fb:2338495176193539" length=""/>
 	<video title="Les Petites Canailles - ..." link="fb:1573283316141415" length=""/>
-	<video title="" link="fb:948149772183605" length=""/>
-	<video title="" link="yt:-3TGPpdNw64" length="20:20"/>
-	<video title="" link="yt:ObwSCaBZrQI" length="1:52"/>
+	<video title="..." link="fb:948149772183605" length=""/>
+	<video title="..." link="yt:-3TGPpdNw64" length="20:20"/>
+	<video title="..." link="yt:ObwSCaBZrQI" length="1:52"/>
+	<video title="..." link="fb:10214123725435925" length=""/>
+	<video title="..." link="fb:10214123762796859" length=""/>
+	<video title="..." link="fb:10214123783837385" length=""/>
+	<video title="..." link="fb:10214123872679606" length=""/>
 </event>
 
 <xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:_="http://exslt.org/common" extension-element-prefixes="_">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
-	<xsl:variable name="icon" select="'s2.googleusercontent.com/s2/favicons?domain='"/>
-	<xsl:variable name="icon64" select="'s2.googleusercontent.com/s2/favicons?sz=64&amp;domain='"/>
+	<xsl:variable name="icon" select="'https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;url=https://'"/>
+	<xsl:variable name="icon64" select="'https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;fallback_opts=SIZE&amp;size=64&amp;url=https://'"/>
 	<xsl:key name="event-year" match="event" use="substring(@date, string-length(@date)-3)"/>
 	<xsl:variable name="years" select="//event[count(.|key('event-year', substring(@date, string-length(@date)-3))[1]) = 1]/@date"/>
-	<xsl:template match="xsl:stylesheet"/>
-	<xsl:template match="text()"/>
+	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="xml">
-		<html lang="">
+		<html>
 			<head>
-				<meta name="robots" content="noindex, nofollow"/>
+				<meta name="robots" content="{*/@content}"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="color-scheme" content="light dark"/>
 				<meta name="theme-color" content="#{@colour}"/>
 				<title><xsl:value-of select="@title"/></title>
-				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20style=%27border:30vw%20solid%20%23FFF%3Bborder-radius:50%25%3Bbackground:%23{@colour}%3B%27/%3E"/>
+				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23{@colour};'/%3E"/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
-				<script>window.history.scrollRestoration = 'auto';</script>
 				<script>console.log(String.raw`<xsl:value-of select="comment()"/>`);</script>
-				<style><xsl:value-of select="style"/></style>
+				<style onload="window.history.scrollRestoration = 'auto';"><xsl:value-of select="style"/></style>
 				<style>
 					<xsl:for-each select="$years">
 						<xsl:variable name="year" select="substring(., string-length(.)-3)"/>
@@ -3112,9 +3292,9 @@
 		</html>
 	</xsl:template>
 	<xsl:template name="header">
-		<div id="xtest"><a href="#"><h1><xsl:value-of select="@title"/></h1><svg display="none"><use href="#triangle"/></svg></a></div>
+		<div id="xtest"><a href="#"><h1 id="media"><xsl:value-of select="@title"/></h1><svg display="none"><use href="#triangle"/></svg></a></div>
 		<header id="header" class="h">
-			<nav><iframe src="i.html#media"></iframe></nav>
+			<nav><iframe src="i.html#media" title="Menu"></iframe></nav>
 		</header>
 		<input id="yearall" name="year" type="radio" checked="checked"/>
 		<xsl:for-each select="$years">
@@ -3127,21 +3307,21 @@
 				<label for="year{$year}"><xsl:value-of select="$year"/> (<xsl:value-of select="count(key('event-year', $year))"/>)</label>
 			</xsl:for-each>
 			<form id="_search_" action="#search">
-				<input name="q" type="search" placeholder="Search {count(event/video)} videos" list="_list_"/>
+				<input name="q" type="search" placeholder="Search {count(event/video)} videos" list="_list_" disabled="disabled"/>
 				<datalist id="_list_">
 					<xsl:for-each select="//video">
 						<xsl:sort select="concat(../@title, @title)"/>
 						<option value="{position()}. {../@title} • {@title} ({@length})" data-href="#{@link}"/>
 					</xsl:for-each>
 				</datalist>
-				<button title="Search text">Search</button>
+				<button><span lang="en">Search</span> / <span lang="fr">Rechercher</span></button>
 			</form>
-			<div id="_theme_" class="h-theme">
-				Theme:
+			<fieldset id="_theme_" class="h-theme" disabled="disabled">
+				<legend>Theme</legend>
 				<label><input name="r" type="radio" value="" checked="checked"/>Auto</label>
 				<label><input name="r" type="radio" value="light"/>Light</label>
 				<label><input name="r" type="radio" value="dark"/>Dark</label>
-			</div>
+			</fieldset>
 		</div>
 	</xsl:template>
 	<xsl:template match="event">
@@ -3157,7 +3337,7 @@
 		<xsl:variable name="_" select="_:node-set($video)/*"/>
 		<li class="video">
 			<a href="#{@link}" title="{@title}">
-				<span class="video-image" data-length="{@length}" style=" --i: url(https://{$icon64}{substring-before(concat($_/@url, '/'), '/')});">
+				<span class="video-image" data-length="{@length}" style=" --i: url({$icon64}{substring-before(concat($_/@url, '/'), '/')});">
 					<xsl:if test="$_/@thumb">
 						<img class="{$_/@type}" src="https://{$_/@thumb}" width="120" height="68" alt="" loading="lazy"/>
 					</xsl:if>
@@ -3181,7 +3361,7 @@
 				<div class="p-page-content-top" style="--i: url(https://{$_/@thumb});{substring(concat(' --i2: url(https://', $_/@thumb2, ');'), 1 div boolean($_/@thumb2))}">
 					<a href="http://{$_/@url}" data-embed="https://{$_/@embed}">
 						<h2><xsl:value-of select="../@title"/><br/><xsl:value-of select="@title"/></h2>
-						<span class="info" data-title="{$_/@title}" style=" --i: url(https://{$icon64}{substring-before(concat($_/@url, '/'), '/')});"></span>
+						<span class="info" data-title="{$_/@title}" style=" --i: url({$icon64}{substring-before(concat($_/@url, '/'), '/')});"></span>
 						<span class="length" data-length="{@length}"></span>
 						<svg class="play" display="none"><use href="#triangle"/></svg>
 					</a>
@@ -3215,7 +3395,7 @@
 				<_ type="dailymotion" title="Dailymotion" url="dai.ly/{$id}" embed="dailymotion.com/embed/video/{$id}?autoplay=1&amp;ui-logo=0&amp;ui-start-screen-info=0&amp;queue-enable=0&amp;sharing-enable=0&amp;api=postMessage" thumb="dailymotion.com/thumbnail/video/{$id}"/>
 			</xsl:when>
 			<xsl:when test="starts-with(@link, 'ig:')">
-				<_ type="instagram" title="IGTV" url="instagr.am/tv/{$id}" embed="instagr.am/tv/{$id}/embed" thumb="thum.io/get/noanimate/width/170/http://instagr.am/tv/{$id}/embed"/>
+				<_ type="instagram" title="IGTV" url="instagr.am/tv/{$id}" embed="instagr.am/tv/{$id}/embed" thumb="images.weserv.nl/?url=instagr.am/p/{$id}/media?size=t" xthumb="thum.io/get/noanimate/width/170/http://instagr.am/p/{$id}/embed"/>
 			</xsl:when>
 			<xsl:otherwise>
 				<_ title="{substring-before(concat(@link, '/'), '/')}" url="{@link}" embed="{@link}">
@@ -3263,7 +3443,7 @@
 		<xsl:variable name="_" select="_:node-set($link)/*"/>
 		<li class="link">
 			<a href="http://{$_/@url}" title="{$_/@title}">
-				<span><img src="https://{$icon64}{substring-before(concat($_/@url, '/'), '/')}" alt="" loading="lazy"/></span>
+				<span><img src="{$icon64}{substring-before(concat($_/@url, '/'), '/')}" alt="" loading="lazy"/></span>
 				<span><xsl:value-of select="$_/@title"/></span>
 			</a>
 		</li>
@@ -3371,7 +3551,7 @@
 <style><![CDATA[
 	@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
 	:root {color-scheme: light dark;}
-	:root, .light {--text: #FFF; --back: #EEE; --head: #FFFD; --high: #FFF; --low: #000;}
+	:root, .light {--text: #FFF; --back: #FFF; --head: #FFFD; --high: #FFF; --low: #000;}
 	.dark {--text: #EEE; --back: #222; --head: #333D; --high: #000; --low: #FFF;}
 	@media (prefers-color-scheme: dark) {:root {--text: #EEE; --back: #222; --head: #333D; --foot: #000;}}
 	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: var(--text); background: var(--back);}
@@ -3379,27 +3559,28 @@
 	a {color: inherit; text-decoration: none;}
 	a:hover {text-decoration: underline;}
 	img {display: block; position: relative; max-width: 100%; max-height: 100%;}
-	img::before {display: block; position: absolute; width: 100%; height: 100%; background-color: #E00;}
+	img::before {display: block; position: absolute; width: 100%; height: 100%; color: #FFF; background-color: #E00;}
 	input, button, select {font: inherit; border: 1px solid #0005; background-color: transparent;}
-	::placeholder {text-align: center;}
+	::placeholder {width: 100%; text-align: center;}
 	ul, ol {margin: 0px; padding: 0px; list-style: none;}
 	iframe {display: block; width: 100%; height: 100%; border-style: none;}
 	.hidden {display: none !important;}
 	#xtest {position: sticky; top: 0px; z-index: 1;}
-	#xtest::before {content: ''; display: block; position: absolute; width: 100%; height: 30px; background-color: var(--colour);}
+	#xtest::before {content: ''; display: block; position: absolute; width: 100%; height: 50px; background-color: var(--colour);}
 	#xtest>a {position: absolute; left: 0px;}
 	#xtest svg {display: block; height: 25px; transform: rotate(-90deg);}
 	#header.h {position: relative; color: var(--low); background-color: var(--colour); z-index: 1; backdrop-filter: blur(10px);}
 	.h nav {height: 100px;}
 	.h h1 {display: none;}
 	.h-search input, .h-search button {line-height: 20px; padding: 5px;}
-	#bar {position: sticky; top: 0px; height: 30px; z-index: 1;}
-	#bar>* {display: inline-block;}
+	#bar {position: sticky; top: 0px; height: 50px; color: var(--low); z-index: 1;}
+	#bar>* {display: inline-block; vertical-align: top;}
+	#bar label {width: 50px; margin: 5px;}
 	#menu.m {}
 	.m-event {display: inline-block; position: relative; width: 300px; margin: 10px; vertical-align: top;}
 	.m-event.missing:not(:hover) {opacity: 0.5;}
-	.m-event-title {display: block; font-weight: bold; padding: 10px 5px; border-radius: 15px 15px 0px 0px; background-color: hsl(calc(var(--seed) * 50), 40%, 60%); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-	.m-event>ol {height: 220px; padding: 0px; text-align: initial; background-color: hsla(calc(var(--seed) * 50), 25%, 25%, 50%); overflow-y: auto;}
+	.m-event-title {display: block; font-weight: bold; padding: 5px; background-color: hsl(calc(var(--seed) * 50), 40%, 60%); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+	.m-event>ol {height: 220px; padding: 0px; text-align: initial; background-color: hsla(calc(var(--seed) * 50), 25%, 75%, 50%); overflow-y: auto;}
 	.m-event::before {content: var(--date); position: absolute; top: -20px; left: 0px; padding: 5px 10px; border-radius: 5px; font-size: 90%; color: #000;}
 	.m-event a {display: table; width: 100%; height: 68px; background-color: #0003;}
 	.m-event a:hover {background-color: #FFF9;}
@@ -3409,8 +3590,7 @@
 	.m-event .video {}
 	.m-event .video-image {position: relative; width: 120px; height: 68px; text-align: center; background: #000 var(--i) center no-repeat;}
 	.m-event .video-image img {width: 100%; height: 100%; object-fit: cover;}
-	.m-event .video-image img::before {content: 'Image not found. File may be deleted.'; color: #FFF;}
-	.m-event .video-image img.instagram {object-fit: none; object-position: 50% 78%;}
+	.m-event .video-image img::before {content: 'Image not found. Video may be deleted.';}
 	.m-event .video-image::after {content: attr(data-length); display: block; position: absolute; bottom: 0px; right: 0px; margin: 2px; padding: 1px 5px; font-size: 12px; font-weight: bold; background-color: #0009;}
 	.m-event .video-title {padding: 0px 5px;}
 	.m-event .link {margin: 10px; font-style: italic;}
@@ -3478,8 +3658,7 @@
 	#search form {display: inline-block; width: 50%; margin: 10px; padding: 20px; border-radius: 20px; background-color: #0006;}
 	#search ol {height: 80%; background-color: #FFF;}
 ]]></style>
-<script><![CDATA[
-	'use strict';
+<script><![CDATA['use strict';
 	$(($, w = window, d = document, c = console, _ = {'title': d.title})=>{
 		$(w).on('hashchange', function(e){
 			d.title = $(':target').find('h2')[0]?.textContent || _.title;
@@ -3490,16 +3669,16 @@
 			w.location.assign(this.action);
 			$(this.getAttribute('action')).find('input')[0].value = this.q.value;
 			this.q.value = '';
-		}).find('input').on('keyup', function(e){
+		}).find('input').removeAttr('disabled').on('keyup', function(e){
 			if(typeof(e.code) != 'undefined') return;
 			w.location.assign($(this.list).find('option')[this.value.split('.')[0]-1].dataset.href);
 			this.value = '';
 		});
-		$('#_theme_').find('input').on('click', function(e){
+		$('#_theme_').removeAttr('disabled').find('input').on('click', function(e){
 			d.body.classList = this.value;
 		});
 		if('setResourceTimingBufferSize' in w.performance){
-			w.performance.setResourceTimingBufferSize(500);
+			w.performance.setResourceTimingBufferSize(d.images.length);
 			$('img.youtube').one('load', function(e){
 				if(w.performance.getEntriesByName(this.src)[0]?.decodedBodySize == 1097) this.src = 'data:,';
 			}).each(function(){
