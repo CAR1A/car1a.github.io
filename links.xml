@@ -1,17 +1,10 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="#xsl"?>
-<xml title="CARLA Links" colour="5FA"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/>
-<!--
+<?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="#xsl"?>
+<xml title="CARLA Links" colour="5FA"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/><meta http-equiv="Refresh" content="0;URL=error" xmlns="http://www.w3.org/1999/xhtml"/><!--
   ___        ____  _          _         _
  / __|  /\  |  _ \| |   /\   | |  _ ___| |_ ___
 / /    /  \ | |/ /| |  /  \  | | |_|   | | | __|
 \ \___/ /\ \| |\ \| |_/ /\ \ | |_| | | |   |__ |
  \_____/  \___| \______/  \_\|___|_|_|_|_|_|___|
-================================================
-- fix fb etc links
-- pushstate with #?
-- https://www.pressreader.com/france/20-minutes-nice/20200605/281500753477855
-- overlay zoom toggle
 ================================================-->
 <links title="Carla">
 	<link type="tiktok" id="carlamusicoff"/>
@@ -27,38 +20,45 @@
 		<link title="Topic" id="UCz_BaR4ypNGm_wcK7kuwhHQ"/>
 	</link>
 	<link title="Spotify" domain="open.spotify.com/artist" id="7dgCfYEmAX7OxaYWgCGxAr">
-		<link title="L'Autre Moi" id="3VS0hGZFfzmumGobmcUlLP" thumb="i.scdn.co/image/ab67616d000048514fb83efbb5201137677c7575"/>
-		<link title="L'Autre Moi (Deluxe)" id="4E0TN3ALzRFmkpDw7UuECY" thumb="i.scdn.co/image/ab67616d00004851607a2474e2b05d4a5e07dc76"/>
-		<link title="Bim Bam Toi" id="7AvOontpgfp5rWjYLzN8hY" thumb="i.scdn.co/image/ab67616d000048511b954cf6c547088c2c9766fa"/>
+		<link title="L'autre moi" id="3VS0hGZFfzmumGobmcUlLP" thumb="i.scdn.co/image/ab67616d000048514fb83efbb5201137677c7575"/>
+		<link title="L'autre moi (Deluxe)" id="4E0TN3ALzRFmkpDw7UuECY" thumb="i.scdn.co/image/ab67616d00004851607a2474e2b05d4a5e07dc76"/>
+		<link title="Sans filtre" id="1HHWmpBnuUm7tTFaSKvc3S" thumb="i.scdn.co/image/ab67616d00004851706be6dbe9a30fa8abb8597d"/>
+		<link title="Bim Bam toi" id="7AvOontpgfp5rWjYLzN8hY" thumb="i.scdn.co/image/ab67616d000048511b954cf6c547088c2c9766fa"/>
 	</link>
 	<link title="Wikipedia">wikipedia.org/wiki/Carla_Lazzari</link>
 	<link title="IMDb" domain="imdb.me" id="nm11575504"/>
 	<link title="Deezer" domain="deezer.com/artist" id="78960852"/>
 	<link title="Amazon Music" domain="music.amazon.com/artists" id="B000QKNPYM"/>
-	<link title="Apple Music" domain="music.apple.com/artist" id="77991219"/>
-	<link title="Apple Music" domain="music.apple.com/artist" id="1168132808"/>
-	<link title="Shazam" domain="shazam.com/artist" id="40011570"/>
+	<link title="Apple Music" domain="music.apple.com/artist" id="1168132808">
+		<link title="Apple Music" domain="music.apple.com/artist" id="77991219"/>
+		<link title="Shazam" domain="shazam.com/artist" id="40011570"/>
+	</link>
 	<link title="SoundCloud" domain="soundcloud.com" id="carla86924"/>
 	<link title="Tidal" domain="tidal.com/artist" id="3888675"/>
 	<link title="Tidal" domain="tidal.com/artist" id="17050821"/>
 	<link title="Dailymotion" domain="dailymotion.com" id="carla"/>
 	<link title="Genius">genius.com/artists/Carla-Lazzari</link>
+	<link>musicme.com/carla</link>
 	<link title="Universal Music France" domain="universalmusic.fr/artistes" id="33139942980"/>
-	<link title="Junior Eurovision Song Contest">junioreurovision.tv/participant/carla</link>
-	<link title="TF1 - The Voice Kids">tf1.fr/dossier/carla-tvk5</link>
+	<link title="Junior Eurovision Song Contest" domain="junioreurovision.tv/participant" id="carla"/>
+	<link title="TF1 - The Voice Kids" domain="tf1.fr/dossier" id="carla-tvk5"/>
 	<link title="Difymusic">difymusic.com/carla-store</link>
 	<link title="Difymusic">official.shop/carla-store</link>
 	<link title="MJF Productions">mjfproductions.fr/artiste-carla.html</link>
 	<link title="Cornolti Production">cornolti-production.com/-/1758</link>
 	<link>impresario-presse.com/detail-actu/168-carla</link>
 	<link>dhmanagement.me/dates/categories/artistes/carla</link>
+	<link>label2scene.com/booking/carla</link>
+	<link>famousbirthdays.com/people/carla.html</link>
 	<links title="Linkfire" domain="carla.lnk.to">
 		<link title="L'autre moi" id="lautremoi"/>
 		<link title="L'autre moi (Deluxe)" id="lautremoideluxe"/>
 		<link title="Alors chut" id="alorschut"/>
-		<link id="summersummer"/>
-		<link id="summersummercarla"/>
-		<link id="sansfiltrepreco"/>
+		<link title="Summer Summer" id="summersummer"/>
+		<link title="Summer Summer" id="summersummercarla"/>
+		<link title="Sans filtre (Precommande)" id="sansfiltrepreco"/>
+		<link title="Sans filtre" id="sansfiltre"/>
+		<link title="Bim Bam toi (Remix)" id="bimbamremix"/>
 	</links>
 </links>
 
@@ -81,6 +81,7 @@
 	<link title="Apple Music" domain="music.apple.com/artist" id="1455374642"/>
 	<link title="Shazam" domain="shazam.com/artist" id="205554514"/>
 	<link title="SoundCloud" domain="soundcloud.com" id="lespetitescanailles"/>
+	<link title="Tidal" domain="tidal.com/artist" id="15228260"/>
 	<link title="Dailymotion" domain="dailymotion.com" id="lespetitescanailles"/>
 	<link title="Universal Music France" domain="universalmusic.fr/artistes" id="32775346824"/>
 	<links title="Linkfire" domain="lespetitescanailles.lnk.to">
@@ -108,7 +109,7 @@
 	<link title="Apple Music" domain="music.apple.com/artist" id="1516616147"/>
 	<links title="Linkfire" domain="greenteam.lnk.to">
 		<link title="Green Team" id="albumgreenteam"/>
-		<link title="Green Team Precommande" id="greenteamprecommande"/>
+		<link title="Green Team (Precommande)" id="greenteamprecommande"/>
 		<link title="Les Enfants du Monde" id="lesenfantsdumonde"/>
 		<link title="Trois Petits Pas" id="troispetitspas"/>
 	</links>
@@ -137,16 +138,22 @@
 	<link>lesoir.be/348665/article/2021-01-17/carla-finaliste-de-voice-kidson-ne-peut-pas-plaire-tout-le-monde</link>
 	<link>lejde.be/cnt/dmf20200123_01434093</link>
 	<link>lejde.be/cnt/dmf20200609_01481531</link>
+	<link>lejdc.fr/paris-75000/loisirs/_13884439</link>
 	<link>20minutes.fr/2389579-20181207</link>
 	<link>20minutes.fr/2656667-20191122</link>
 	<link>20minutes.fr/2659103-20191124</link>
 	<link>20minutes.fr/2793143-20200605</link>
+	<link>20minutes.fr/3128471-20210920</link>
 	<link>programme.tv/news/actu/211308-carla-commente-leurovision-junior-2020-sur-france-2-jai-donne-quelques-conseils-a-valentina/</link>
+	<link>programme-tv.net/news/musique/281715-carla-the-voice-kids-ma-grand-mere-etait-la-prunelle-de-mes-yeux/</link>
 	<link>lemondedesados.fr/musique-3-questions-a-carla</link>
+	<link>nicematin.com/a/710577</link>
+	<link>eurovision-fr.net/news/lire.php?id=6133</link>
 </links>
 
 <links title="Articles/Reviews">
 	<link>nicematin.com/a/424436</link>
+	<link>nicematin.com/a/731819</link>
 	<link>musique.krinein.com/carla-autre-moi/</link>
 	<link>topito.com/top-preuve-bim-bam-carla-meilleur-chanson</link>
 	<link>eska.pl/news/--aa-Ausx-4M6u-Rto9.html</link>
@@ -157,6 +164,7 @@
 	<link>tvmag.lefigaro.fr/programme-tv/eurovision-junior-2019-carla-finaliste-de-the-voice-representera-la-france_e57df2bc-ec29-11e9-92d3-e5ed71345a1f/</link>
 	<link>tvmag.lefigaro.fr/programme-tv/carla-l-eurovision-junior-un-reve_8aa65a74-0c3f-11ea-8939-fa5603f66842/</link>
 	<link>programme-tv.net/news/musique/281106-exclu-carla-eurovision-junior-devient-la-premiere-chanteuse-francaise-a-integrer-fortnite-mon-avatar-va-danser-sur-bim-bam-toi</link>
+	<link>symanews.com/2021/09/02/carla-se-livre-sans-filtre-au-rythme-de-sa-vie-dado-chronique-musicale/</link>
 	<link domain="media.universalmusic.pl">
 		<link id="94317"/>
 		<link id="96859"/>
@@ -174,106 +182,142 @@
 </links>
 
 <magazines>
-	<x title="Disney Girl #83">
+	<magazine title="Disney Girl #83">
 		<cover>disneygirl.fr/wp-content/uploads/2020/09/feuilleteur-couverture-disney-girl-83.jpg</cover>
 		<link>disneygirl.fr/wp-content/uploads/2020/09/interview-carla-disney-girl-83.jpg</link>
-	</x>
-	<x title="Dream'Up #109">
+	</magazine>
+	<magazine title="Dream'Up #109">
 		<cover>aboriva.com/img/couv/66/dream-up-num109-marsavril-2020_2179.jpg</cover>
-	</x>
-	<x title="Dream'Up #111">
+	</magazine>
+	<magazine title="Dream'Up #111">
 		<cover>aboriva.com/img/couv/66/dream-up-num111-juillet-aout-2020_2357.jpg</cover>
-	</x>
-	<x title="Dream'Up #117">
+	</magazine>
+	<magazine title="Dream'Up #117">
 		<cover>aboriva.com/img/couv/66/dream-up-num117-juillet-aout-2021_2845.jpg</cover>
-	</x>
-	<x title="Hello Girls - Hors-Série #4">
+		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3268692.jpg</cover>
+	</magazine>
+	<magazine title="Dream'Up #118">
+		<cover>aboriva.com/img/couv/66/dream-up-num118-septembre-octobre-2021_2971.jpg</cover>
+		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3432442.jpg</cover>
+		<link>pbs.twimg.com/media/FArJpkGXMAApzVd.jpg:orig</link>
+	</magazine>
+	<magazine title="Dream'Up #120">
+		<cover>aboriva.com/img/couv/66/dream-up-num120-novembre-decembre-2021_3057.jpg</cover>
+		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3769906.jpg</cover>
+	</magazine>
+	<magazine title="Entracte #78">
+		<cover>image.isu.pub/211013144955-771d5c9659c344c7f0e44a722d53dfa9/jpg/page_1_thumb_large.jpg</cover>
+		<link>issuu.com/entracte/docs/entracte_octobre_2021</link>
+	</magazine>
+	<magazine title="Hello Girls - Hors-Série #4">
 		<cover>aboweb.com/aboweb/downloadservice/aboshop/turbulencespresse/products/599/covers/1.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2857818.jpg</cover>
 		<link>calameo.com/read/00618814533c27b3438f7</link>
 		<link>aboweb.com/aboweb/downloadservice/aboshop/turbulencespresse/products/599/pdfs/1.pdf</link>
-	</x>
-	<x title="Jeunes Stars #11">
+	</magazine>
+	<magazine title="Jeunes Stars #11">
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2809562.jpg</cover>
-	</x>
-	<x title="Jeunes Stars #12">
+	</magazine>
+	<magazine title="Jeunes Stars #12">
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2876485.jpg</cover>
-	</x>
-	<x title="Le Journal de Mickey #3535">
+	</magazine>
+	<magazine title="Le Journal de Mickey #3535">
 		<cover>izneo.com/images/album/9791036849688.jpg</cover>
 		<link>izneo.com/fr/bd/magazine/-11358/-70641/read</link>
-	</x>
-	<x title="Shalom Pratique #21">
+	</magazine>
+	<magazine title="Le Journal de Mickey #3611">
+		<cover>izneo.com/images/album/9791036892462.jpg</cover>
+	</magazine>
+	<magazine title="Shalom Pratique #21">
 		<link>shalom-pratique.com/wp-content/uploads/2019/07/Shalom-Pratique-n21-V7.2-Chemin-de-fer-final30-1.jpg</link>
-	</x>
-	<x title="Shalom Pratique #23">
-		<cover>shalom-pratique.com/wp-content/uploads/2020/07/Shalom-Pratique-couv-n233.jpg</cover>
+	</magazine>
+	<magazine title="Shalom Pratique #23">
 		<link>shalom-pratique.com/wp-content/uploads/2020/07/Shalom-Pratique-n2359-1.jpg</link>
-	</x>
-	<x title="Star Collector #22">
+	</magazine>
+	<magazine title="Star Collector #22">
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2946461.jpg</cover>
-	</x>
-	<x title="Star Tutos #17">
+	</magazine>
+	<magazine title="Star Tutos #17">
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2926637.jpg</cover>
-	</x>
-	<x title="Starlight #37">
+	</magazine>
+	<magazine title="Starlight #37">
 		<cover>aboriva.com/img/couv/47/starlight-num37-marsavril-2020_2233.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2796274.jpg</cover>
-	</x>
-	<x title="Starlight #39">
+	</magazine>
+	<magazine title="Starlight #39">
 		<cover>aboriva.com/img/couv/47/starlight-num39-juilletaout-2020_2378.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2857641.jpg</cover>
-	</x>
-	<x title="Starlight #42">
+	</magazine>
+	<magazine title="Starlight #42">
 		<cover>aboriva.com/img/couv/47/starlight-num42-fevrier-mars-2021_2618.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3079678.jpg</cover>
-	</x>
-	<x title="Starlight #44">
+	</magazine>
+	<magazine title="Starlight #44">
 		<cover>aboriva.com/img/couv/47/starlight-num44-juin-juillet-2021_2798.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3206824.jpg</cover>
-	</x>
-	<x title="Starlight - Hors-Série #9">
+	</magazine>
+	<magazine title="Starlight #45">
+		<cover>aboriva.com/img/couv/47/starlight-num45-aout-septembre-2021_2893.jpg</cover>
+		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3335285.jpg</cover>
+	</magazine>
+	<magazine title="Starlight #46">
+		<cover>aboriva.com/img/couv/47/starlight-num46-octobrenovembre-2021_3003.jpg</cover>
+		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3504919.jpg</cover>
+	</magazine>
+	<magazine title="Starlight - Hors-Série #9">
 		<cover>aboriva.com/img/couv/47/starlight-hor9-ete-2020_2359.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2849816.jpg</cover>
-	</x>
-	<x title="Starlight - Hors-Série #10">
+	</magazine>
+	<magazine title="Starlight - Hors-Série #10">
 		<cover>aboriva.com/img/couv/47/starlight-hor10-ete-2021_2818.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3254349.jpg</cover>
-	</x>
-	<x title="YouStar #36">
+	</magazine>
+	<magazine title="YouStar #36">
 		<cover>aboriva.com/img/couv/48/youstar-num36-fevriermars-2020_2168.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2791659.jpg</cover>
 		<link>calameo.com/read/0065795620cc6e7f0c462</link>
-	</x>
-	<x title="YouStar #37">
+	</magazine>
+	<magazine title="YouStar #37">
 		<cover>aboriva.com/img/couv/48/youstar-num37-avril-mai-2020_2274.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2805343.jpg</cover>
 		<link>calameo.com/read/006579562276d11940a02</link>
-	</x>
-	<x title="YouStar #39">
+	</magazine>
+	<magazine title="YouStar #39">
 		<cover>aboriva.com/img/couv/48/youstar-num39-aout-septembre-2020_2451.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2882853.jpg</cover>
 		<link>calameo.com/read/006579562478406c9a638</link>
-	</x>
-	<x title="YouStar #42">
+	</magazine>
+	<magazine title="YouStar #42">
 		<cover>aboriva.com/img/couv/48/youstar-num42-fevrier-mars-2021_2619.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3082504.jpg</cover>
 		<link>calameo.com/read/006610692d4465e3c0d06</link>
-	</x>
-	<x title="YouStar - Hors-Série #5">
+	</magazine>
+	<magazine title="YouStar #45">
+		<cover>aboriva.com/img/couv/48/youstar-num45-septembre-octobre-2021_2896.jpg</cover>
+		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3368600.jpg</cover>
+	</magazine>
+	<magazine title="YouStar #46">
+		<cover>aboriva.com/img/couv/48/youstar-num46-novembre-decembre-2021_3004.jpg</cover>
+		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3533719.jpg</cover>
+	</magazine>
+	<magazine title="YouStar #48">
+		<cover>aboriva.com/img/couv/48/youstar-num48-mars-avril-2022_3084.jpg</cover>
+		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/3794571.jpg</cover>
+	</magazine>
+	<magazine title="YouStar - Hors-Série #5">
 		<cover>aboriva.com/img/couv/48/youstar-hor5-ete-2020_2384.jpg</cover>
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2860554.jpg</cover>
-	</x>
+	</magazine>
 </magazines>
 
 <photos title="Le Parisien (Guillaume Georges)">
-	<photo>s1.lprs1.fr/images/2018/12/07/1df04b2e-f9e9-11e8-8c9c-db186668b4ee_1.jpg</photo>
-	<photo>s1.lprs1.fr/images/2018/12/07/66a3258e-f9ea-11e8-8c9c-db186668b4ee_1.jpg</photo>
-	<photo>s1.lprs1.fr/images/2018/12/07/7962786_c1f1b260-f9e6-11e8-8c9c-db186668b4ee-1.jpg</photo>
+	<photo>arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/WH2GQUE2Q4PFJYR5ZNJSGSVPOE.jpg</photo>
+	<photo>arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/ZI4KVITNQKIFS6XMCBZHHQLLZQ.jpg</photo>
+	<photo>arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/CPDUPZWG5VHAJD2KFL53K32UR4.jpg</photo>
 </photos>
 
 <photos title="Villefranche-sur-Mer (Johanna Oakes)">
-	<!--<link>johannaoakesphotography.com/blog-edit/carla-the-voice-france</link>-->
+	<!--<link>johannaoakesphotography.com/blog-edit/carla-the-voice-france</link>
 	<photo>images.squarespace-cdn.com/content/5c62dd08f4755a29db83017b/1569190119978-PA8QGJHURZE17ZS9V0L1</photo>
 	<photo>images.squarespace-cdn.com/content/5c62dd08f4755a29db83017b/1569190122737-SPB147IIMOFVY363LUIW</photo>
 	<photo>images.squarespace-cdn.com/content/5c62dd08f4755a29db83017b/1569190139266-N6Q9ME0I25I4GSQ4DOQJ</photo>
@@ -306,7 +350,13 @@
 	<photo>images.squarespace-cdn.com/content/5c62dd08f4755a29db83017b/1569190611070-S36QP76N3YJ0OJWKPMMB</photo>
 	<photo>images.squarespace-cdn.com/content/5c62dd08f4755a29db83017b/1569190618093-G8693LM5IN1TXIIHRWRB</photo>
 	<photo>images.squarespace-cdn.com/content/5c62dd08f4755a29db83017b/1569190640778-ODN95XP9PZWBGNK25VZJ</photo>
-	<photo>images.squarespace-cdn.com/content/5c62dd08f4755a29db83017b/1569191336293-E2KWQGCLKIT8T340NTCH</photo>
+	<photo>images.squarespace-cdn.com/content/5c62dd08f4755a29db83017b/1569191336293-E2KWQGCLKIT8T340NTCH</photo>-->
+	<photo>i-h1.pinimg.com/originals/23/b9/fd/23b9fd4f45329e97283729821cd00470.jpg</photo>
+	<photo>i-h1.pinimg.com/originals/5b/0e/15/5b0e1593dfa414cf236cb88e77a37a96.jpg</photo>
+	<photo>i-h1.pinimg.com/originals/83/a1/98/83a1989b16fb2c0c5b51421cd9524f62.jpg</photo>
+	<photo>i-h1.pinimg.com/originals/a7/cb/e0/a7cbe0edc4568e9a9f4c909d4563e0ac.jpg</photo>
+	<photo>i-h1.pinimg.com/originals/cf/28/c6/cf28c69def3f91a16b0726b3765597b7.jpg</photo>
+	<photo>i-h1.pinimg.com/originals/f0/50/80/f050808ed42bb5cec953521783adefb4.jpg</photo>
 </photos>
 
 <photos title="... (François-Xavier Antonini)">
@@ -403,14 +453,14 @@
 </photos>
 
 <photos title="L'autre moi (Sylvie Bessou / DIE FRAU)">
-	<!--<link>diefrau.cargo.site/CARLA-MCA-UNIVERSAL</link>-->
-	<photo>freight.cargo.site/i/f005faaeb06cfe53d95c381b4d25b02474245167d7bc2541ecbcb76ab329e5fe/Carla1183.jpg</photo>
-	<!--<photo>freight.cargo.site/i/3fe1838d0dbfe9c592d737dfb253563fc3e3832aa19fdc3500f3ba74e0fa629f/Carla1183.jpg</photo>
+	<!--<link>diefrau.cargo.site/CARLA-MCA-UNIVERSAL</link>
+	<photo>freight.cargo.site/i/3fe1838d0dbfe9c592d737dfb253563fc3e3832aa19fdc3500f3ba74e0fa629f/Carla1183.jpg</photo>
 	<photo>freight.cargo.site/i/d65667a87d9737b287492fe5ef11fbc26f7c5ff5b20f986797f70d1b1700718b/CROP-CARLA-1.jpg</photo>
 	<photo>freight.cargo.site/i/4f4757e67dbbbe6621d40b5193d3956e0617800e0e3c4f254f757bee678a82f0/Carla0490.jpg</photo>
 	<photo>freight.cargo.site/i/33d4b4087353bb917c19aa86ec4e0688b6fb99efc1ebd0f905b5a665c38f9d3f/Carla0717.jpg</photo>
 	<photo>freight.cargo.site/i/410f90e52966a226211b771441c7f5ba69e0ba1ba55fd89bc593875a31bbb983/Carla1404.jpg</photo>
 	<photo>freight.cargo.site/i/6e7ff03d14225e4d8528a4396b103548e0316453978625b8231e6d907b6abb15/Carla1207-V1.jpg</photo>-->
+	<photo>freight.cargo.site/i/f005faaeb06cfe53d95c381b4d25b02474245167d7bc2541ecbcb76ab329e5fe/Carla1183.jpg</photo>
 	<photo>mjfproductions.fr/images/galerie/gal-carla-1.jpg</photo>
 	<photo>mjfproductions.fr/images/galerie/gal-carla-2.jpg</photo>
 	<photo>mjfproductions.fr/images/galerie/gal-carla-3.jpg</photo>
@@ -418,7 +468,7 @@
 	<photo>mjfproductions.fr/images/galerie/gal-carla-5.jpg</photo>
 	<photo>mjfproductions.fr/images/galerie/gal-carla-6.jpg</photo>
 	<photo>dhmanagement.me/wp-content/uploads/2021/05/Carla-2.jpg</photo>
-	<photo>lemondedesados.fr/app/uploads/2021/01/Carla0490-V1.jpg</photo>
+	<photo>lemondedesados.fr/wp-content/uploads/2021/01/Carla0490-V1.jpg</photo>
 </photos>
 
 <photos title="Fort Boyard (Laurent Vu)">
@@ -454,7 +504,7 @@
 </photos>
 
 <photos title="Alors chut / Sans filtre (FIFOU)">
-
+	<photo>api.nafstars.com/images/large/1642159968_148_08%20CARLA%20OR%202020%20%20(2).png</photo>
 </photos>
 
 <photos title="Fête de la musique 2020 (Cyril Moreau &amp; Veeren Ramsamy)">
@@ -487,118 +537,239 @@
 </photos>
 
 <photos title="Monaco (Joran Vallecchia / akypic)">
-
+	<!--<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/6ce194cd-1ac8-4460-889d-b63e79aea21f.jpg</photo>
+	<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/7232243c-b114-4c37-9ab2-9d369dec00fe.jpg</photo>
+	<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/aabc2035-9735-4a27-83f3-656015d328d2.jpg</photo>-->
 </photos>
 
 <photos title="Cap d'Antibes (Joran Vallecchia / akypic)">
 
 </photos>
 
+<photos title="300 chœurs (Giancarlo Gorassini)">
+	<photo>static1.purepeople.com/articles/3/45/61/03/@/6563545-exclusif-la-chanteuse-carla-enregist-0x0-2.jpg</photo>
+	<photo>static1.purepeople.com/articles/3/45/61/03/@/6563548-exclusif-la-chanteuse-carla-enregist-0x0-2.jpg</photo>
+</photos>
+
+<photos title="Hôtel Aston La Scala Nice (Joran Vallecchia / akypic)">
+	<!--<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/5c556705-008c-4824-938f-8a5f7c613c2c.jpg</photo>
+	<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/0f26f3ea-d829-4912-9ed7-ab0539ee9696.jpg</photo>
+	<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/e853e7e0-9e53-4c62-b314-8d5849cbf3b7.jpg</photo>
+	<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/39c2f226-7a86-4b83-a0fe-30e4c0bf8731.jpg</photo>
+	<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/9aca8e20-3ab6-45ea-ac0e-35f4bb216d91.jpg</photo>
+	<photo>cdn.myportfolio.com/351a5c0a-843f-4aae-8a17-a4983a0feba6/6b860b96-0f9c-4221-953b-1ecc919852be.jpg</photo>-->
+	<photo>api.nafstars.com/images/large/1636398882_141_01%20CARLA%20OR%202020%20.png</photo>
+	<photo>api.nafstars.com/images/large/1636398885_142_02%20CARLA%20OR%202020%20.png</photo>
+	<photo>api.nafstars.com/images/large/1636398892_143_03%20CARLA%20OR%202020%20.png</photo>
+	<photo>api.nafstars.com/images/large/1636398892_144_04%20CARLA%20OR%202020%20.png</photo>
+	<photo>api.nafstars.com/images/large/1640266125_145_05%20CARLA%20OR%202020%20.png</photo>
+	<photo>api.nafstars.com/images/large/1642159964_147_07%20CARLA%20OR%202020%20%20(2).png</photo>
+</photos>
+
+<photos title="La grande soirée du 31 à Chantilly (Tiziano da Silva-Cyril Moreau)">
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6766786-exclusif-la-chanteuse-carla-backstag-0x0-2.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6766789-exclusif-la-chanteuse-carla-backstag-0x0-2.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6766792-exclusif-la-chanteuse-carla-backstag-0x0-2.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6766795-exclusif-la-chanteuse-carla-backstag-0x0-2.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767005-exclusif-le-chanteur-enzo-cephaz-la-c-0x0-1.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767026-exclusif-la-chanteuse-carla-enregist-0x0-1.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767029-exclusif-la-chanteuse-carla-enregis-0x0-1.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767032-exclusif-la-chanteuse-carla-enregist-0x0-1.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767140-exclusif-la-chanteuse-carla-single-d-0x0-1.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767143-exclusif-la-chanteuse-carla-single-d-0x0-1.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767146-exclusif-cephaz-la-chanteuse-valentin-0x0-1.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767155-exclusif-la-chanteuse-valentina-le-ch-0x0-1.jpg</photo>
+	<photo>static1.purepeople.com/articles/6/46/97/56/@/6767158-exclusif-la-chanteuse-valentina-la-ch-0x0-1.jpg</photo>
+</photos>
+
+<photos title="Noël 2021 (uxncolor)">
+	<photo>api.nafstars.com/images/large/1642159959_146_06%20CARLA%20OR%202020%20%20(2).png</photo>
+</photos>
+
+<photos title="Hôtel Aston La Scala Nice (Joran Vallecchia / akypic)">
+
+</photos>
+
 <photos title="(Various)">
 	<photo>symanews.com/wp-content/uploads/2019/08/les-petites-canailles.jpg</photo>
-	<photo>europetanque-departement06.fr/images/phocagallery/dsc_0161.jpg</photo>
-	<photo>europetanque-departement06.fr/images/phocagallery/dsc_0175.jpg</photo>
-	<photo>europetanque-departement06.fr/images/phocagallery/dsc_0177.jpg</photo>
-	<photo>europetanque-departement06.fr/images/phocagallery/dsc_0221.jpg</photo>
-	<photo>europetanque-departement06.fr/images/phocagallery/dsc_0246.jpg</photo>
+	<photo>europetanque-departement06.fr/media/original_images/dsc_0161.jpg</photo>
+	<photo>europetanque-departement06.fr/media/original_images/dsc_0175.jpg</photo>
+	<photo>europetanque-departement06.fr/media/original_images/dsc_0177.jpg</photo>
+	<photo>europetanque-departement06.fr/media/original_images/dsc_0221.jpg</photo>
+	<photo>europetanque-departement06.fr/media/original_images/dsc_0246.jpg</photo>
 	<photo>departement06.fr/documents/Photos/galeries/2019-europetanque/dpt06-galerie_europetanque2019__09.jpg</photo>
 	<photo>departement06.fr/documents/Photos/galeries/2020-chanson-solidaire/dept06_CP_Chanson_Nos_Vallees_Carla.jpg</photo>
 	<photo>departement06.fr/documents/Photos/galeries/2020-chanson-solidaire/dept06_CP_Chanson_Nos_Vallees_Rebecca_-Baby-J_-Carla_-Stephanie-Pareja_-Priscilla-Betti.jpg</photo>
 	<photo>departement06.fr/documents/Photos/galeries/2020-chanson-solidaire/dept06_CP_Chanson_Nos_Vallees_groupe.jpg</photo>
+	<photo>departement06.fr/documents/Usine/soirees-estivales/galeries/nos-vallees-puget-theniers/dept06-nosvallees-pugettheniers-galerie06.jpg</photo>
 	<photo>static1.purepeople.com/articles/0/41/22/50/@/5929388-exclusif-sheila-et-carla-georges-enr-0x0-2.jpg</photo>
 	<link>fyooyzbm.filerobot.com/v7/Image+CANXXQ362_PL_PITCHOUN+TELE.jpg?ci_seal=d0ab3c22ce&amp;func=proxy</link>
 </photos>
 
 <archive type="tiktok" id="carlamusicoff">
-	<v>6989282388203277573</v>
+	<_>7068326641537223941</_>
+	<v>7066080759815130373</v>
+	<v>7066072917510999302</v>
+	<v>7063159173852318982</v>
+	<_>7058697127660129541</_>
+	<v>7057932778997812486</v>
+	<_>7057148291934375174</_>
+	<v>7056850303873780998</v>
+	<v>7054978024785120517</v>
+	<v>7054252548953345285</v>
+	<v>7053851345807248645</v>
+	<v>7053097455935589637</v>
+	<v>7052021437284093189</v>
+	<v>7052003799531048198</v>
+	<v>7051637094011129094</v>
+	<v>7050147796522913030</v>
+	<_>7050122130486299909</_>
+	<_>7048648075052731653</_>
+	<_>7047545987547581701</_>
+	<v>7046781274920357126</v>
+	<v>7046409253833264390</v>
+	<v>7046057491406261509</v>
+	<v>7046020439990144261</v>
+	<_>7045657557377043718</_>
+	<v>7045312510030793989</v>
+	<_>7044909652479315205</_>
+	<v>7044612250342116613</v>
+	<v>7044134528574590213</v>
+	<v>7043739851040034053</v>
+	<v>7042726819434351877</v>
+	<v>7041998733516606725</v>
+	<v>7041253474809482502</v>
+	<v>7041171342334414086</v>
+	<v>7040056729127750917</v>
+	<v>7039012527065386246</v>
+	<_>7038650156056694021</_>
+	<v>7036771893290077445</v>
+	<v>7035637034458877190</v>
+	<_>7034565242310905093</_>
+	<v>7034561155490155781</v>
+	<v>7032285122107919622</v>
+	<_>7031911071292198149</_>
+	<v>7031588440349199621</v>
+	<_>7027427733797965061</_>
+	<_>7027155394292124933</_>
+	<_>7023019277947063557</_>
+	<_>7023014515113544965</_>
+	<v>7020796305295363334</v>
+	<_>7017879418106432773</_>
+	<_>7017497579407641861</_>
+	<_>7013028276725746950</_>
+	<_>7011921207603776774</_>
+	<v>7011177870785662213</v>
+	<v>7008946719429840134</v>
+	<_>7008180105012989189</_>
+	<_>7002160676701474054</_>
+	<v>6998511576919608582</v>
 	<v>6988511676819672326</v>
 	<_>6985185477267574022</_>
-	<v>6984888388797156613</v>
+	<_>6984888388797156613</_>
 	<v>6984829803916512518</v>
 	<_>6983221584060304646</_>
 	<v>6981792064707054853</v>
-	<v>6980728257092242693</v>
+	<_>6980728257092242693</_>
 	<v>6978502721775193350</v>
 	<v>6976327012189342982</v>
-	<v>6970695251132468485</v>
+	<_>6970695251132468485</_>
 	<_>6976631625153121541</_>
-	<v>6955519174164696326</v>
+	<_>6955519174164696326</_>
 	<_>6952121287393201414</_>
-	<v>6950274903383854341</v>
+	<_>6950274903383854341</_>
 	<_>6949877780993543429</_>
 	<_>6949211422156999942</_>
-	<v>6946561608998980869</v>
+	<_>6946561608998980869</_>
 	<_>6945131391478729990</_>
-	<v>6943997732310863109</v>
+	<_>6943997732310863109</_>
 	<_>6935496804846849286</_>
-	<v>6933898583011757317</v>
-	<v>6933616648230276357</v>
-	<v>6923632908653661445</v>
+	<_>6933898583011757317</_>
+	<_>6933616648230276357</_>
+	<_>6923632908653661445</_>
 	<_>6922852923525434629</_>
-	<v>6921361930875587842</v>
+	<_>6921361930875587842</_>
 	<_>6919552698245238017</_>
-	<v>6917291838349020417</v>
+	<_>6917291838349020417</_>
 	<_>6915312617699544321</_>
 	<_>6909041182848945409</_>
-	<v>6908751611657456897</v>
+	<_>6908751611657456897</_>
 	<v>6906913562569035010</v>
-	<v>6904679311417019650</v>
-	<v>6904295886910704897</v>
-	<v>6901311284755647745</v>
-	<v>6899865103768849665</v>
-	<v>6890548715656940802</v>
-	<v>6887925677673204994</v>
-	<v>6887226030747061505</v>
-	<v>6886392334150274305</v>
+	<_>6904679311417019650</_>
+	<_>6904295886910704897</_>
+	<_>6901311284755647745</_>
+	<_>6899865103768849665</_>
+	<_>6890548715656940802</_>
+	<_>6887925677673204994</_>
+	<_>6887226030747061505</_>
+	<_>6886392334150274305</_>
 	<v>6885672168793984258</v>
-	<v>6883876609489734914</v>
-	<v>6875714658838318338</v>
-	<v>6866765433005985030</v>
+	<_>6883876609489734914</_>
+	<_>6875714658838318338</_>
+	<_>6866765433005985030</_>
 	<v>6865702779898367237</v>
-	<v>6864993850029542661</v>
-	<v>6864834702012976389</v>
-	<v>6860795449662590214</v>
+	<_>6864993850029542661</_>
+	<_>6864834702012976389</_>
+	<_>6860795449662590214</_>
 	<_>6855567345969040645</_>
-	<v>6854864509308259589</v>
-	<v>6853493393704619270</v>
+	<_>6854864509308259589</_>
+	<_>6853493393704619270</_>
 	<v>6846769280374017285</v>
-	<v>6846078810966756613</v>
+	<_>6846078810966756613</_>
 	<_>6845306440727530757</_>
-	<v>6844181799212567813</v>
-	<v>6843688965262855429</v>
-	<v>6843453466212355334</v>
-	<v>6843004424420347141</v>
-	<v>6842730265048042758</v>
-	<v>6841552637272395013</v>
-	<v>6839958316752440582</v>
-	<v>6838979793023700230</v>
+	<_>6844181799212567813</_>
+	<_>6843688965262855429</_>
+	<_>6843453466212355334</_>
+	<_>6843004424420347141</_>
+	<_>6842730265048042758</_>
+	<_>6841552637272395013</_>
+	<_>6839958316752440582</_>
+	<_>6838979793023700230</_>
 	<_>6838617824068521222</_>
-	<v>6837748505818303750</v>
-	<v>6836773912316038406</v>
-	<v>6834910265583144197</v>
+	<_>6837748505818303750</_>
+	<_>6836773912316038406</_>
+	<_>6834910265583144197</_>
 	<_>6833312480962333958</_>
-	<v>6833022994336484614</v>
-	<v>6830778569287879941</v>
-	<v>6828498540562631942</v>
-	<v>6824808362677456133</v>
-	<v>6823012735861755141</v>
-	<v>6822988962940865797</v>
+	<_>6833022994336484614</_>
+	<_>6830778569287879941</_>
+	<_>6828498540562631942</_>
+	<_>6824808362677456133</_>
+	<_>6823012735861755141</_>
+	<_>6822988962940865797</_>
 	<_>6822267925378993413</_>
-	<v>6816755927744613637</v>
+	<_>6816755927744613637</_>
 	<_>6815246181363485958</_>
-	<v>6813391183730003205</v>
-	<v>6813311618236058886</v>
-	<v>6810052296202931462</v>
-	<v>6809936712735689990</v>
-	<v>6808129724489944325</v>
-	<v>6804017403756842246</v>
-	<v>6803280737047973125</v>
+	<_>6813391183730003205</_>
+	<_>6813311618236058886</_>
+	<_>6810052296202931462</_>
+	<_>6809936712735689990</_>
+	<_>6808129724489944325</_>
+	<_>6804017403756842246</_>
+	<_>6803280737047973125</_>
 	<_>6801526042105285894</_>
-	<v>6799644252319108358</v>
-	<v>6797708115472092422</v>
-	<v>6797116551154699525</v>
+	<_>6799644252319108358</_>
+	<_>6797708115472092422</_>
+	<_>6797116551154699525</_>
 	<v>6753289992228867333</v>
 	<tagged>
+		<v>7069812467265768710</v>
+		<v>7056852554688302341</v>
+		<v>7053856750277053701</v>
+		<v>7053123325425470726</v>
+		<v>7052289075121835270</v>
+		<v>7051999228037532933</v>
+		<v>7051632199518424325</v>
+		<v>7043066606838156549</v>
+		<v>7038393562450382085</v>
+		<v>7036710317375753478</v>
+		<v>7025249195082681605</v>
+		<v>7018572042026994949</v>
+		<v>7011529651545836805</v>
+		<v>7011510040867687685</v>
+		<v>7011484095481957637</v>
+		<v>7010398759792184582</v>
+		<v>7008977787251936518</v>
+		<v>7004021629080603909</v>
 		<v>6991636376823385349</v>
 		<v>6988844047024655622</v>
 		<v>6984899847652379909</v>
@@ -613,6 +784,7 @@
 		<v>6917345864671431938</v>
 		<v>6909088275210849537</v>
 		<v>6908775065110957313</v>
+		<v>6904658334033382657</v>
 		<v>6900609570989673729</v>
 		<v>6896888070184963330</v>
 		<v>6896463691445767425</v>
@@ -645,6 +817,7 @@
 		<v id="6834901024403229957"/>
 		<v id="6834843570214571270"/>
 		<v id="6831192614147067141"/>
+		<v id="6817830528561974534"/>
 		<v id="6811140834201799941"/>
 		<v id="6804017356591910150"/>
 		<v id="6802996044293590278"/>
@@ -652,247 +825,315 @@
 		<v id="6797763162612436229"/>
 		<v id="6795122997775666438"/>
 		<v id="6794727106501807366"/>
+		<v id="6781099847501106437"/>
+		<v id="6779264976143142149"/>
 		<v id="6778125651443485957"/>
+		<v id="6774060782570196229"/>
+		<v id="6773699974476729606"/>
 		<v id="6769217943906635013"/>
 		<v id="6762170266161401093"/>
 		<v id="6760281668373761285"/>
+		<v id="6703054978153450757"/>
 	</tagged>
 </archive>
 
 <archive type="instagram" id="carlamusicoff">
-	<p id="CScZYOYAm-P"/>
-	<p id="CSCoN_8sHrA"/>
-	<p id="CR4VC_VL9P9"/>
-	<p id="CR1ox9VLsOn"/>
-	<p id="CRy-CfVrdEb"/>
-	<p id="CRwdv0kLoH1"/>
+	<p id="Ca5SxQyLU3E"/>
+	<p id="CakgWJNLxXf"/>
+	<p id="CaNTstyL7iI"/>
+	<_ id="CaDD0O2rpJd"/>
+	<p id="CZw6gZ6rd-v"/>
+	<p id="CZr3NqPrgjK"/>
+	<p id="CZaEz6wraCd"/>
+	<p id="CZSOKJaLhsY"/>
+	<p id="CZNEpuzLOJq"/>
+	<p id="CZC2QYnLKxa"/>
+	<p id="CY9gJjKsBOc"/>
+	<p id="CY4gCi5LLTw"/>
+	<p id="CYwyfyRrfzn"/>
+	<p id="CYrkXbkLVcd"/>
+	<p id="CYov_rXsn3B"/>
+	<p id="CYZd8-VrR1u"/>
+	<p id="CYO973ms4iE"/>
+	<p id="CYKMfZ8LXx9"/>
+	<p id="CYHTgNrM6H1"/>
+	<reel id="CX9Ax63hw4S"/>
+	<p id="CX6OHKJMU84"/>
+	<p id="CXyvBjrs9YG"/>
+	<p id="CXqV066L1EN"/>
+	<p id="CXjkSyVrJiM"/>
+	<p id="CXbzLqPrNGB"/>
+	<_ id="CXOzQBoAcxU"/>
+	<_ id="CXJsJwarMH8"/>
+	<_ id="CXCUnforU4G"/>
+	<p id="CW6LBFNsHRK"/>
+	<p id="CW35Znnrdjx"/>
+	<p id="CWvvDNwsNim"/>
+	<p id="CWtONiksDgP"/>
+	<_ id="CWqotyxMTWt"/>
+	<p id="CWlQ0BTMcFH"/>
+	<p id="CWeHCrmLNqr"/>
+	<p id="CWY3eyzrqJW"/>
+	<_ id="CWJKVM6rbKJ"/>
+	<p id="CWGqXCJLh1S"/>
+	<_ id="CV8itDxL6ta"/>
+	<reel id="CV54-vBAIIe"/>
+	<p id="CVu_OrfsCe0"/>
+	<_ id="CVnwgqqrr1I"/>
+	<p id="CVk5RSSs9-B"/>
+	<_ id="CVbKbLKgPHc"/>
+	<p id="CVTKSTOMoj0"/>
+	<p id="CVLQcb6sUcn"/>
+	<_ id="CU-jN3sAnqg"/>
+	<p id="CU-hsEvsU_Q"/>
+	<p id="CU5mZwyALOZ"/>
+	<p id="CUvOh-_go6r"/>
+	<_ id="CUf3dS8gQm5"/>
+	<_ id="CUHu4cigjoe"/>
+	<_ id="CUDRCIrgdB1"/>
+	<p id="CTzx9YdAjkT"/>
+	<_ id="CTxQYqkA35C"/>
+	<_ id="CTkd4iysflu"/>
+	<_ id="CTNFcLkD_JW"/>
+	<p id="CTKnncqsdHV"/>
+	<_ id="CTE0RNxDYEA"/>
+	<p id="CTCsUyRDyQH"/>
+	<_ id="CTAUusOsh4E"/>
+	<_ id="CSzVPOys66D"/>
+	<p id="CSmtWxHgQGG"/>
+	<_ id="CScZYOYAm-P"/>
+	<_ id="CSCoN_8sHrA"/>
+	<_ id="CR4VC_VL9P9"/>
+	<_ id="CR1ox9VLsOn"/>
+	<_ id="CRy-CfVrdEb"/>
+	<_ id="CRwdv0kLoH1"/>
 	<p id="CRt1bhZr8uw"/>
-	<reel id="CRrP-tlIXrJ"/>
-	<p id="CRo0zg6L3UE"/>
-	<reel id="CRmL51ko7o2"/>
-	<p id="CRjkVROAp3M"/>
-	<p id="CRhDPHdoMJv"/>
-	<p id="CRes48QLr-I"/>
-	<p id="CRW_VUULa7n"/>
+	<_ id="CRrP-tlIXrJ"/>
+	<_ id="CRo0zg6L3UE"/>
+	<_ id="CRmL51ko7o2"/>
+	<_ id="CRjkVROAp3M"/>
+	<_ id="CRhDPHdoMJv"/>
+	<_ id="CRes48QLr-I"/>
+	<_ id="CRW_VUULa7n"/>
 	<p id="CQl3LClL2gf"/>
-	<p id="CQi-OrErCx5"/>
+	<_ id="CQi-OrErCx5"/>
 	<p id="CQigDr7LGu2"/>
-	<p id="CQZPPZCLeBi"/>
+	<_ id="CQZPPZCLeBi"/>
 	<_ id="CQWkM13LUk_"/>
 	<p id="CQL-9Jzrrbw"/>
 	<p id="CP-_g-WLnDg"/>
 	<p id="CP5vT5LohIf"/>
 	<p id="CPyUGrKrRLf"/>
-	<p id="CPqsRNvL-fU"/>
+	<_ id="CPqsRNvL-fU"/>
 	<p id="CPlcz2crkwA"/>
 	<p id="CPcyPchrmMh"/>
-	<p id="CPRD76JLmWv"/>
-	<p id="CO-4CwHLNVT"/>
-	<p id="COYBWs1rRaH"/>
-	<p id="CODj5UIrBR1"/>
+	<_ id="CPRD76JLmWv"/>
+	<_ id="CO-4CwHLNVT"/>
+	<_ id="COYBWs1rRaH"/>
+	<_ id="CODj5UIrBR1"/>
 	<p id="CN71JIgAvpJ"/>
-	<p id="CN0JCTegiSd"/>
-	<p id="CNuynxfrq3a"/>
-	<p id="CNsPR88gW4a"/>
-	<reel id="CNki7VYIjmg"/>
-	<p id="CNKqN72AFBd"/>
+	<_ id="CN0JCTegiSd"/>
+	<_ id="CNuynxfrq3a"/>
+	<_ id="CNsPR88gW4a"/>
+	<_ id="CNki7VYIjmg"/>
+	<_ id="CNKqN72AFBd"/>
 	<_ id="CNF_v74L9g4"/>
-	<p id="CMpOMgcA6BO"/>
-	<p id="CMWq7t8AFGa"/>
-	<p id="CL2J4GDApfx"/>
+	<_ id="CMpOMgcA6BO"/>
+	<_ id="CMWq7t8AFGa"/>
+	<_ id="CL2J4GDApfx"/>
 	<p id="CLrit5lgd72"/>
-	<p id="CLpGbj-ARuq"/>
-	<p id="CLZYAKhA7In"/>
-	<p><reel id="CKrhx4TIj8O"/></p>
+	<_ id="CLpGbj-ARuq"/>
+	<_ id="CLZYAKhA7In"/>
+	<_ id="CKrhx4TIj8O"/>
 	<_ id="CKhFd6lAqeU"/>
-	<p id="CJ_vTWmALWy"/>
-	<p id="CJilRjiA_vY"/>
+	<_ id="CJ_vTWmALWy"/>
+	<_ id="CJilRjiA_vY"/>
 	<_ id="CJgVnCdAg2S"/>
 	<p id="CJdvatpAy7w"/>
-	<p id="CJNte3Fg46I"/>
-	<p id="CJMD4FyAUbv"/>
+	<_ id="CJNte3Fg46I"/>
+	<_ id="CJMD4FyAUbv"/>
 	<p id="CJJfpx-gaca"/>
 	<p id="CI_HdH1gqGE"/>
-	<p id="CI8kYZrgIkk"/>
+	<_ id="CI8kYZrgIkk"/>
 	<_ id="CI71cQsAohP"/>
-	<p id="CIyLyV0A09x"/>
-	<p id="CIn9FFngh-o"/>
+	<_ id="CIyLyV0A09x"/>
+	<_ id="CIn9FFngh-o"/>
 	<p id="CIlJqU5q7E_"/>
 	<p id="CIi1zXHH7II"/>
-	<p id="CId2S4jggvu"/>
-	<p id="CIYryGlo8oS"/>
-	<p id="CIQ9NsbAAAB"/>
-	<p id="CILgmvnA7S8"/>
-	<p id="CILP3vUooMJ"/>
-	<p id="CIJPgcZA2mN"/>
-	<p id="CIGpHTMAr3O"/>
-	<tv id="CH-16imIU8O"/>
+	<_ id="CId2S4jggvu"/>
+	<_ id="CIYryGlo8oS"/>
+	<_ id="CIQ9NsbAAAB"/>
+	<_ id="CILgmvnA7S8"/>
+	<_ id="CILP3vUooMJ"/>
+	<_ id="CIJPgcZA2mN"/>
+	<_ id="CIGpHTMAr3O"/>
+	<_ id="CH-16imIU8O"/>
 	<_ id="CHyB3-YgATF"/>
 	<_ id="CHtTHAIovHk"/>
-	<p id="CHlWxCIgIjF"/>
+	<_ id="CHlWxCIgIjF"/>
 	<p id="CHgPd5KHXRS"/>
-	<p id="CHdpXttoXc8"/>
-	<p id="CHa7O2TgPRQ"/>
-	<p id="CHTLovhAeK9"/>
-	<p id="CHGDSWbA3tu"/>
-	<p id="CHAzGEior9X"/>
-	<p id="CG-Re4fAFcZ"/>
-	<p id="CG7miDfIYeU"/>
-	<reel id="CG5U4mLol_Q"/>
+	<_ id="CHdpXttoXc8"/>
+	<_ id="CHa7O2TgPRQ"/>
+	<_ id="CHTLovhAeK9"/>
+	<_ id="CHGDSWbA3tu"/>
+	<_ id="CHAzGEior9X"/>
+	<_ id="CG-Re4fAFcZ"/>
+	<_ id="CG7miDfIYeU"/>
+	<_ id="CG5U4mLol_Q"/>
 	<_ id="CGnHt3OIqMd"/>
-	<p id="CGiEo6mAPvc"/>
-	<p id="CGaKxd0AvEt"/>
+	<_ id="CGiEo6mAPvc"/>
+	<_ id="CGaKxd0AvEt"/>
 	<_ id="CGX4w6Wn0Hl"/>
-	<p id="CGNRp__gWc4"/>
-	<tv id="CFpXdYioiYJ"/>
-	<p><reel id="CFfESnEo5q0"/></p>
+	<_ id="CGNRp__gWc4"/>
+	<_ id="CFpXdYioiYJ"/>
+	<_ id="CFfESnEo5q0"/>
 	<_ id="CFPzPceApfh"/>
-	<p id="CErkiQIg-Ri"/>
-	<p id="CD68ZQ6gZf-"/>
-	<p id="CDoDO3fgMDf"/>
-	<_ id="CDlrcuJgDX3"/>
-	<p id="CDen0ukAmxp"/>
-	<p id="CDEeIAPA1Sg"/>
-	<p><tv id="CC8nvaoIZF_"/></p>
-	<p id="CCBFu0oALFZ"/>
+	<_ id="CErkiQIg-Ri"/>
+	<_ id="CD68ZQ6gZf-"/>
+	<_ id="CDoDO3fgMDf"/>
+	<p id="CDlrcuJgDX3"/>
+	<_ id="CDen0ukAmxp"/>
+	<_ id="CDEeIAPA1Sg"/>
+	<_ id="CC8nvaoIZF_"/>
+	<_ id="CCBFu0oALFZ"/>
 	<p id="CB2ph9ror69"/>
-	<p id="CB0D-P9IKh0"/>
-	<p id="CByWELtoY1x"/>
+	<_ id="CB0D-P9IKh0"/>
+	<_ id="CByWELtoY1x"/>
 	<_ id="CBtAPlwIXI9"/>
 	<_ id="CBgKgJIgQl-"/>
-	<p id="CBdhplegkrf"/>
-	<p id="CBbBnxxgWAD"/>
+	<_ id="CBdhplegkrf"/>
+	<_ id="CBbBnxxgWAD"/>
 	<p id="CBYZl9DgigC"/>
-	<p id="CBToUHdAKR2"/>
-	<p id="CBNj9R5g-ro"/>
-	<p id="CBKrflfAWDH"/>
-	<p id="CBJAjHzg3n9"/>
+	<_ id="CBToUHdAKR2"/>
+	<_ id="CBNj9R5g-ro"/>
+	<_ id="CBKrflfAWDH"/>
+	<_ id="CBJAjHzg3n9"/>
 	<_ id="CBEGkPIAtHk"/>
-	<tv id="CBA_leuAvLR"/>
-	<p id="CA-p4qBgK3D"/>
-	<p id="CA99ZmogXZB"/>
+	<_ id="CBA_leuAvLR"/>
+	<_ id="CA-p4qBgK3D"/>
+	<_ id="CA99ZmogXZB"/>
 	<_ id="CAXa92ZoOuq"/>
-	<p id="CAVPhHQA8Zl"/>
-	<p id="CANEpr6ou7i"/>
-	<p id="CALKc26Aque"/>
-	<p id="B_7iUrhILRq"/>
-	<p id="B_4e6jfg8G-"/>
-	<p id="B_157gbga0o"/>
+	<_ id="CAVPhHQA8Zl"/>
+	<_ id="CANEpr6ou7i"/>
+	<_ id="CALKc26Aque"/>
+	<_ id="B_7iUrhILRq"/>
+	<_ id="B_4e6jfg8G-"/>
+	<_ id="B_157gbga0o"/>
 	<_ id="B_j3LppA3fU"/>
 	<_ id="B_SFH6YgMRq"/>
-	<tv id="B_FxzeuIB6J"/>
-	<p><tv id="B_CVrbxo-SV"/></p>
-	<tv id="B_AWMKzIexF"/>
-	<p id="B-2CQFSIHvJ"/>
-	<p id="B-zNkLdodk3"/>
+	<_ id="B_FxzeuIB6J"/>
+	<_ id="B_CVrbxo-SV"/>
+	<_ id="B_AWMKzIexF"/>
+	<_ id="B-2CQFSIHvJ"/>
+	<_ id="B-zNkLdodk3"/>
 	<_ id="B-tzpN6IM7R"/>
 	<_ id="B-sPvIjIemg"/>
-	<p id="B-sFsYrIM0U"/>
+	<_ id="B-sFsYrIM0U"/>
 	<_ id="B-rwbLUorlu"/>
-	<tv id="B-fZ1OLoSFV"/>
+	<_ id="B-fZ1OLoSFV"/>
 	<_ id="B-Z_SjqI36g"/>
-	<tv id="B-SXcRGoLaY"/>
-	<tv id="B-NbnfbIjZs"/>
+	<_ id="B-SXcRGoLaY"/>
+	<_ id="B-NbnfbIjZs"/>
 	<_ id="B-Ewqm5o3HS"/>
-	<tv id="B-AMa5iIpYp"/>
-	<p id="B99fLe6I9ek"/>
+	<_ id="B-AMa5iIpYp"/>
+	<_ id="B99fLe6I9ek"/>
 	<_ id="B96ny1soTUq"/>
 	<_ id="B9wSXt3oL8N"/>
-	<p id="B9mE8jeIyQY"/>
-	<p id="B9Y9LS5IOP9"/>
-	<p id="B9HYH7DI6mg"/>
+	<_ id="B9mE8jeIyQY"/>
+	<_ id="B9Y9LS5IOP9"/>
+	<_ id="B9HYH7DI6mg"/>
 	<_ id="B9C0urYoNIf"/>
 	<_ id="B859s_7oOGr"/>
 	<_ id="B8zMxkro3cN"/>
 	<_ id="B8wx1y6IjJo"/>
 	<p id="B8tQaBjIzr1"/>
 	<_ id="B8lXIRKIniZ"/>
-	<p id="B8j_ARGI_8J"/>
-	<p id="B8jabVZIYYP"/>
+	<_ id="B8j_ARGI_8J"/>
+	<_ id="B8jabVZIYYP"/>
 	<_ id="B8CP3zpIiuz"/>
-	<p id="B7ve6OXIzhN"/>
+	<_ id="B7ve6OXIzhN"/>
 	<_ id="B7lv6_NoV1G"/>
-	<p id="B7g-KgzoXnS"/>
-	<p id="B7CGqJ5IBhN"/>
+	<_ id="B7g-KgzoXnS"/>
+	<_ id="B7CGqJ5IBhN"/>
 	<_ id="B68eO7_ov_Z"/>
-	<p id="B655ubBozZI"/>
-	<tv id="B6wSGCtok-6"/>
-	<p id="B6vqRJYI03V"/>
-	<p id="B6skbU5oG2t"/>
-	<p id="B6lv3t7olnx"/>
+	<_ id="B655ubBozZI"/>
+	<_ id="B6wSGCtok-6"/>
+	<_ id="B6vqRJYI03V"/>
+	<_ id="B6skbU5oG2t"/>
+	<_ id="B6lv3t7olnx"/>
 	<_ id="B6fj-iXIyDq"/>
 	<_ id="B6doBqko0KP"/>
 	<_ id="B6YG9kXI7YX"/>
-	<p id="B6WVJdMoiq7"/>
-	<p id="B6V8GfAIx2Y"/>
-	<p id="B6OInj9opA_"/>
-	<p id="B6JWhjrI-Qv"/>
-	<p id="B6BtRBmokB_"/>
-	<p id="B6Bh8TWIT0I"/>
-	<p id="B5z73PQIwRP"/>
+	<_ id="B6WVJdMoiq7"/>
+	<_ id="B6V8GfAIx2Y"/>
+	<_ id="B6OInj9opA_"/>
+	<_ id="B6JWhjrI-Qv"/>
+	<_ id="B6BtRBmokB_"/>
+	<_ id="B6Bh8TWIT0I"/>
+	<_ id="B5z73PQIwRP"/>
 	<_ id="B5wA1eqIs9x"/>
 	<p id="B5uU9jXoDxt"/>
-	<p id="B5h6Zvtop8-"/>
+	<_ id="B5h6Zvtop8-"/>
 	<p id="B5dcAVCopwH"/>
-	<p id="B5X_LlhIGVv"/>
-	<p><tv id="B5TezUkoIzu"/></p>
-	<p id="B5TOtJVoQW-"/>
-	<p id="B5SRFMFoVbJ"/>
-	<p><tv id="B5RYa9Oo9sS"/></p>
-	<p id="B5RpAs3I-0v"/>
+	<_ id="B5X_LlhIGVv"/>
+	<tv id="B5TezUkoIzu"/>
+	<_ id="B5TOtJVoQW-"/>
+	<_ id="B5SRFMFoVbJ"/>
+	<tv id="B5RYa9Oo9sS"/>
+	<_ id="B5RpAs3I-0v"/>
 	<_ id="B5P9-7Xo4NU"/>
 	<_ id="B5PjhsXoKyg"/>
-	<p id="B5LfRfVI4ed"/>
-	<p id="B5Kue-PIEVk"/>
-	<p id="B5KMFc5IRtu"/>
-	<p id="B5Db682IFRp"/>
+	<_ id="B5LfRfVI4ed"/>
+	<_ id="B5Kue-PIEVk"/>
+	<_ id="B5KMFc5IRtu"/>
+	<_ id="B5Db682IFRp"/>
 	<p id="B5BGrAEIe39"/>
 	<_ id="B5BEA99IOf1"/>
 	<_ id="B5AS2VVIkgI"/>
-	<p><tv id="B4-lLd-IPuf"/></p>
+	<_ id="B4-lLd-IPuf"/>
 	<_ id="B49XEV9IaUZ"/>
 	<_ id="B44rlRwILx6"/>
 	<_ id="B42jlR6IPuP"/>
-	<tv id="B4xiVJ9oack"/>
+	<_ id="B4xiVJ9oack"/>
 	<_ id="B4w12yNIM00"/>
 	<_ id="B4rcj86I_S1"/>
 	<_ id="B4nZO-WoMOH"/>
-	<p id="B4fEzxaI5oM"/>
-	<p id="B4dETitILon"/>
-	<p id="B4akMK8InRG"/>
-	<p id="B4W9t7-oVsI"/>
-	<p><tv id="B4VSqbVof02"/></p>
+	<_ id="B4fEzxaI5oM"/>
+	<_ id="B4dETitILon"/>
+	<_ id="B4akMK8InRG"/>
+	<_ id="B4W9t7-oVsI"/>
+	<_ id="B4VSqbVof02"/>
 	<_ id="B4SVzWFIMQP"/>
 	<_ id="B4Nh34PIaaL"/>
 	<_ id="B4LLdS9IAHc"/>
-	<p id="B4IMSujIc8h"/>
-	<p id="B4FuWbUIztl"/>
-	<tv id="B4DB15hhfbT"/>
+	<_ id="B4IMSujIc8h"/>
+	<_ id="B4FuWbUIztl"/>
+	<_ id="B4DB15hhfbT"/>
 	<_ id="B3_wpgSImJS"/>
 	<_ id="B39pMMKoeQS"/>
-	<tv id="B35DLPNhbwb"/>
+	<_ id="B35DLPNhbwb"/>
 	<_ id="B34LiGRoXz5"/>
-	<tv id="B3xVUpcgiDB"/>
+	<_ id="B3xVUpcgiDB"/>
 	<_ id="B3y2akNIRAW"/>
-	<p id="B3ooMjpoBg4"/>
-	<p id="B3mjEIgIqWO"/>
-	<p id="B3gsuUFojmj"/>
+	<_ id="B3ooMjpoBg4"/>
+	<_ id="B3mjEIgIqWO"/>
+	<_ id="B3gsuUFojmj"/>
 	<p id="B3eHfZCoDeM"/>
-	<p id="B3bVPrRoG2p"/>
+	<_ id="B3bVPrRoG2p"/>
 	<_ id="B3WKP6gI8-_"/>
-	<p id="B3RO4eMgCpz"/>
+	<_ id="B3RO4eMgCpz"/>
 	<_ id="B3KWcPJIf1D"/>
 	<_ id="B29iFOaoSGU"/>
-	<p id="B2zcysqI2Eg"/>
-	<p id="B2wvQ5GoiCi"/>
+	<_ id="B2zcysqI2Eg"/>
+	<_ id="B2wvQ5GoiCi"/>
 	<_ id="B2mii35In_4"/>
 	<_ id="B2bwzr7IyN-"/>
 	<_ id="B2ZeXG2ImPw"/>
-	<p id="B2XCQ-eoIpU"/>
+	<_ id="B2XCQ-eoIpU"/>
 	<_ id="B1rUEtqhHM3"/>
 	<_ id="B1eCBE2I7uU"/>
 	<_ id="B1ZI03II5TO"/>
-	<p id="B1W0eT9IPKM"/>
+	<_ id="B1W0eT9IPKM"/>
 	<_ id="B1G6PZSo7Qn"/>
 	<_ id="B06fYCEA_3D"/>
 	<_ id="B0yuyLkgBUG"/>
@@ -918,50 +1159,52 @@
 	<_ id="Buwcm4rgrc9"/>
 	<_ id="ButymzRA5BK"/>
 	<_ id="BsqVNY5nhG9"/>
-	<p id="Br02cyWhfXf"/>
+	<_ id="Br02cyWhfXf"/>
 	<_ id="BrxFJTPhn51"/>
-	<p id="BrYRFxABK6i"/>
+	<_ id="BrYRFxABK6i"/>
 	<_ id="BrNFvIfhkYd"/>
-	<p id="BrG4KzFD63B"/>
+	<_ id="BrG4KzFD63B"/>
 	<_ id="Bq1pXUZBQBi"/>
-	<p id="BqjvFhWh7Ux"/>
+	<_ id="BqjvFhWh7Ux"/>
 	<_ id="Bp_93QvBjcN"/>
 	<_ id="BpbcL_eBGNi"/>
 	<_ id="BmfhvHDDH_r"/>
+	<p/>
+	<p/>
 </archive>
 
 <xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
-	<xsl:template match="xsl:stylesheet"/>
-	<xsl:template match="text()"/>
+	<xsl:variable name="icon" select="'https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;url=https://'"/>
+	<xsl:variable name="icon32" select="'https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;fallback_opts=SIZE&amp;size=32&amp;url=https://'"/>
+	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="xml">
-		<html lang="">
+		<html>
 			<head>
-				<meta name="robots" content="noindex, nofollow"/>
+				<meta name="robots" content="{*/@content}"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="theme-color" content="#{@colour}"/>
 				<title><xsl:value-of select="@title"/></title>
-				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20style=%27border:30vw%20solid%20%23FFF%3Bborder-radius:50%25%3Bbackground:%23{@colour}%3B%27/%3E"/>
+				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23{@colour};'/%3E"/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
-				<script>window.history.scrollRestoration = 'auto';</script>
-				<script>console.log(String.raw`<xsl:value-of select="comment()[1]"/>`);</script>
-				<style><xsl:value-of select="style"/></style>
+				<script>console.log(String.raw`<xsl:value-of select="comment()"/>`);</script>
+				<style onload="window.history.scrollRestoration = 'auto';"><xsl:value-of select="style"/></style>
 			</head>
 			<body style="--colour: #{@colour};">
 				<header>
-					<nav><iframe src="i.html#links"></iframe></nav>
-					<h1><xsl:value-of select="@title"/></h1>
+					<nav><iframe src="i.html#links" title="Menu"></iframe></nav>
+					<h1 id="links"><xsl:value-of select="@title"/></h1>
 				</header>
-				<section id="links">
-					<h2>Links</h2>
-					<ul id="x">
+				<section id="various">
+					<h2>Various</h2>
+					<ul>
 						<xsl:apply-templates select="links"/>
 					</ul>
 				</section>
 				<section id="magazines" style="--colour: #FCE;">
 					<h2>Magazines</h2>
 					<ul>
-						<xsl:for-each select="magazines/x">
+						<xsl:for-each select="magazines/magazine">
 							<li class="magazine">
 								<h3 class="title"><xsl:value-of select="@title"/></h3>
 								<div class="cover"><xsl:apply-templates select="cover[1]"/></div>
@@ -1015,18 +1258,10 @@
 	</xsl:template>
 	<xsl:template match="link[@id]" mode="li">
 		<xsl:variable name="domain" select="(../@domain|@domain)[1]"/>
-		<xsl:variable name="xxx" select="concat(@thumb, substring(substring-before(concat($domain, '/'), '/'), 1 div not(@thumb)))"/>
-		<xsl:variable name="x" select="concat('s2.googleusercontent.com/s2/favicons?sz=32&amp;domain=', substring-before(concat(@domain|../@domain, '/'), '/'))"/>
-		<xsl:variable name="i" select="concat('images.weserv.nl/?w=1&amp;h=1&amp;url=s2.googleusercontent.com/s2/favicons?domain%3D', substring-before(concat(@domain|../@domain, '/'), '/'))"/>
-		<a href="http://{$domain}/{@id}" x="{$xxx}" title="{$domain}/{@id}" style="--i2: url(https://s2.googleusercontent.com/s2/favicons?sz=32&amp;domain={$xxx}); --i: url(https://{$i});">
-			<xsl:choose>
-				<xsl:when test="@thumb">
-					<xsl:attribute name="style">--i2: url(https://<xsl:value-of select="@thumb"/>); --i: url(https://images.weserv.nl/?w=1&amp;h=1&amp;url=<xsl:value-of select="@thumb"/>);</xsl:attribute>
-				</xsl:when>
-				<xsl:otherwise>
-					<xsl:attribute name="style">--i2: url(https://s2.googleusercontent.com/s2/favicons?sz=32&amp;domain=<xsl:value-of select="substring-before(concat($domain, '/'), '/')"/>); --i: url(https://images.weserv.nl/?w=1&amp;h=1&amp;url=s2.googleusercontent.com/s2/favicons?domain%3D<xsl:value-of select="substring-before(concat($domain, '/'), '/')"/>);</xsl:attribute>
-				</xsl:otherwise>
-			</xsl:choose>
+		<a href="http://{$domain}/{@id}" title="{$domain}/{@id}" style="--i2: url({$icon32}{substring-before(concat($domain, '/'), '/')}); --i: url(https://images.weserv.nl/?w=1&amp;h=1&amp;url=t0.gstatic.com/favicon?client=afs%26nfrp=1%26url=https://{substring-before(concat($domain, '/'), '/')});">
+			<xsl:if test="@thumb">
+				<xsl:attribute name="style">--i2: url(https://<xsl:value-of select="@thumb"/>); --i: url(https://images.weserv.nl/?w=1&amp;h=1&amp;url=<xsl:value-of select="@thumb"/>);</xsl:attribute>
+			</xsl:if>
 			<xsl:value-of select="(.|@title)[last()]"/>
 			<xsl:if test="@id">
 				<xsl:text> </xsl:text>
@@ -1035,7 +1270,7 @@
 		</a>
 	</xsl:template>
 	<xsl:template match="link" mode="li">
-		<a href="http://{.}" title="{.}" style="--i2: url(https://s2.googleusercontent.com/s2/favicons?sz=32&amp;domain={substring-before(concat(., '/'), '/')}); --i: url(https://images.weserv.nl/?w=1&amp;h=1&amp;url=s2.googleusercontent.com/s2/favicons?domain%3D{substring-before(concat(., '/'), '/')});">
+		<a href="http://{.}" title="{.}" style="--i2: url({$icon32}{substring-before(concat(., '/'), '/')}); --i: url(https://images.weserv.nl/?w=1&amp;h=1&amp;url=t0.gstatic.com/favicon?client=afs%26nfrp=1%26url=https://{substring-before(concat(., '/'), '/')});">
 			<xsl:value-of select="(@title|text())[1]"/>
 		</a>
 	</xsl:template>
@@ -1046,15 +1281,15 @@
 	</xsl:template>
 	<xsl:template match="link[@type='facebook']">
 		<li class="link">
-			<a href="">
-				<img src="https://s2.googleusercontent.com/s2/favicons?sz=32&amp;domain=fb.com" width="32" height="32" alt=""/>
+			<a href="http://fb.com/{@id}">
+				<img src="{$icon32}fb.com" width="32" height="32" alt=""/>
 				<span>Facebook</span>
 				<span class="id"><xsl:value-of select="@id"/></span>
 			</a>
 			<ul>
 				<li class="link">
 					<a href="">
-						<img src="https://s2.googleusercontent.com/s2/favicons?sz=32&amp;domain=messenger.com" width="32" height="32" alt=""/>
+						<img src="{$icon32}messenger.com" width="32" height="32" alt=""/>
 						<span>Messenger</span>
 						<span class="id"><xsl:value-of select="@id"/></span>
 					</a>
@@ -1074,23 +1309,20 @@
 		</li>
 	</xsl:template>
 	<xsl:template match="cover">
-		<a class="cover" href="http://i0.wp.com/{.}"><img src="https://i0.wp.com/{.}?resize=120,170" width="120" height="170" alt="" loading="lazy"/></a>
+		<a class="cover" href="http://i0.wp.com/{.}"><img src="https://i0.wp.com/{.}?strip=all&amp;resize=120,170" width="120" height="170" alt="" loading="lazy"/></a>
 	</xsl:template>
 	<xsl:template match="photos">
-		<div class="photos">
+		<div class="photos{substring(' empty', 1 div not(photo))}">
 			<h3><xsl:value-of select="@title"/></h3>
-			<ul>
-				<xsl:if test="not(photo)"><li>Empty</li></xsl:if>
-				<xsl:apply-templates/>
-			</ul>
+			<ul><xsl:apply-templates/></ul>
 		</div>
 	</xsl:template>
 	<xsl:template match="photo">
-		<li class="photo"><a href="http://i1.wp.com/{.}" title="{.}"><img src="https://i1.wp.com/{.}?resize=100,100" width="100" height="100" alt="" loading="lazy"/></a></li>
+		<li class="photo"><a href="http://i0.wp.com/{.}" title="{.}"><img src="https://i0.wp.com/{.}?strip=all&amp;resize=100,100" width="100" height="100" alt="" loading="lazy"/></a></li>
 	</xsl:template>
 	<xsl:template match="archive[@type='tiktok']">
 		<div id="tiktok">
-			<h3><a href="http://tiktok.com/@{@id}" title="{@id}"><img src="https://s2.googleusercontent.com/s2/favicons?sz=64&amp;domain=tiktok.com" alt=""/>TikTok</a></h3>
+			<h3><a href="http://tiktok.com/@{@id}" title="{@id}"><img src="{$icon32}tiktok.com" width="32" height="32" alt=""/>TikTok</a></h3>
 			<input id="tt1" type="radio" name="tt" checked="checked"/>
 			<input id="tt2" type="radio" name="tt"/>
 			<input id="tt3" type="radio" name="tt"/>
@@ -1108,12 +1340,12 @@
 	</xsl:template>
 	<xsl:template match="archive[@type='instagram']">
 		<div id="instagram">
-			<h3><a href="http://instagr.am/{@id}" title="{@id}"><img src="https://s2.googleusercontent.com/s2/favicons?sz=64&amp;domain=instagr.am" alt=""/>Instagram</a></h3>
+			<h3><a href="http://instagr.am/{@id}" title="{@id}"><img src="{$icon32}instagr.am" width="32" height="32" alt=""/>Instagram</a></h3>
 			<input id="ig1" type="radio" name="ig" checked="checked"/>
 			<input id="ig2" type="radio" name="ig"/>
 			<input id="ig3" type="radio" name="ig"/>
 			<div class="l1">
-				<label for="ig1">Posts (<xsl:value-of select="count(p)+4"/>)</label>
+				<label for="ig1">Posts (<xsl:value-of select="count(p)"/>)</label>
 				<label for="ig2">Reels/IGTV</label>
 				<label for="ig3">🗑️</label>
 			</div>
@@ -1142,7 +1374,7 @@
 	<xsl:template match="v">
 		<li class="tiktok photo">
 			<a href="http://m.tiktok.com/v/{.}" title="{.}" data-embed="tiktok.com/embed/v2/{.}">
-				<img src="https://images.weserv.nl/?output=webp&amp;w=100&amp;url=https://t.tiktok.com/api/img/?location=0%26itemId={.}" width="100" height="133" alt="" loading="lazy"/>
+				<img src="https://images.weserv.nl/?output=webp&amp;w=100&amp;url=//t.tiktok.com/api/img/?location=0%26itemId={.}" width="100" height="133" alt="" loading="lazy"/>
 			</a>
 		</li>
 	</xsl:template>
@@ -1186,15 +1418,15 @@
 	section {margin: 30px auto; width: 90%; box-shadow: 0px 0px 20px #0002;}
 	section>h2 {margin: 0px; font-size: 50px; color: #FFF; background: linear-gradient(90deg, var(--colour), lightblue); text-transform: uppercase;}
 	section:target>h2 {text-decoration: underline;}
-	#links {}
-	#links li {list-style: none;}
-	#links>ul {padding: 0px;}
-	#links .links {display: inline-block; width: 300px; margin: 10px; vertical-align: top;}
-	#links .title {margin-bottom: 10px; padding: 10px; color: #FFF; background-color: pink;}
-	#links .link a::before {content: ''; display: inline-block; width: 30px; height: 30px; margin-right: 10px; background: var(--i2, none) center/75% no-repeat, var(--i, none); vertical-align: middle; object-fit: scale-down;}
-	#links .link a {display: block; text-align: initial; background: linear-gradient(#FFF9, #FFFA), #EEE var(--i, none); overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
-	#links .id {font-size: 80%; font-style: italic; color: #777;}
-	#links .link ul {padding-left: 30px;}
+	#various {}
+	#various li {list-style: none;}
+	#various>ul {padding: 0px;}
+	#various .links {display: inline-block; width: 300px; margin: 10px; padding: 10px; background-color: #000A; vertical-align: top;}
+	#various .title {margin-bottom: 10px; color: #FFF; text-transform: uppercase;}
+	#various .link a::before {content: ''; display: inline-block; width: 30px; height: 30px; margin-right: 10px; background: var(--i2, none) center/75% no-repeat, var(--i, none); vertical-align: middle; object-fit: scale-down;}
+	#various .link a {display: block; text-align: initial; background: linear-gradient(#FFF9, #FFFA), #EEE var(--i, none); overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+	#various .id {font-size: 80%; font-style: italic; color: #777;}
+	#various .link ul {padding-left: 30px;}
 	#magazines {}
 	#magazines>ul {background-image: repeating-linear-gradient(#0009, #0003 200px, #FFF 200px, transparent 224px);}
 	#magazines .magazine {display: inline-block; width: 144px; height: 204px; margin: 10px; border-radius: 5px; background-color: #FFC; box-shadow: 0px 0px 5px #0003; vertical-align: top;}
@@ -1202,7 +1434,8 @@
 	#magazines .magazine .cover {display: inline-block; width: 120px; height: 170px; background-color: #000;}
 	#magazines .link {width: 100%; border-radius: 5px; color: #FFF; background-color: #333; overflow: hidden; white-space: nowrap;}
 	#photoshoots {}
-	#photoshoots>.photos {padding: 10px;}
+	#photoshoots>.photos {margin: 10px; padding: 10px; background-color: #0002;}
+	#photoshoots>.photos.empty {opacity: 0.5;}
 	#photoshoots>.photos:not(:last-of-type)::after {content: ''; display: inline-block; width: 50%; height: 5px; border-radius: 5px; background-color: #BBB;}
 	#photoshoots .photo {margin: 5px;}
 	#archive {}
@@ -1235,13 +1468,12 @@
 	.photo a, .photo img {display: block; object-fit: cover;}
 	.photo a:hover {box-shadow: 0px 0px 10px #FFF; filter: brightness(1.25);}
 ]]></style>
-<script><![CDATA[
-	'use strict';
+<script><![CDATA['use strict';
 	$(($, w = window, d = document, c = console)=>{
-		$('.photo').find('a').on('click', function(e){
-			e.preventDefault();
-			$('#overlay').show().addClass('image').find('img')[0].src = this.href;
-		});
+		//$('.photo').find('a').on('click', function(e){
+		//	e.preventDefault();
+		//	$('#overlay').show().addClass('image').find('img')[0].src = this.href;
+		//});
 		$('[data-embed]').on('click', function(e){
 			e.preventDefault();
 			$('#overlay').show().addClass('embed');
@@ -1255,6 +1487,14 @@
 		$('#overlay').on('click', function(e){
 			if(e.target != this) return;
 			$(this).hide().find('iframe').remove();
+		});
+		$('#tiktok').find('.tiktok').find('a').each(function(){
+			this.title = new Date(Number(BigInt(this.title) >> 32n) * 1000).toLocaleString();
+		});
+		$('#instagram').find('.instagram').find('a').each(function(){
+			let abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
+			let id = [...this.title].reduce((a, b)=>a*64n+BigInt(abc.indexOf(b)), 0n);
+			this.title = new Date(1314220021721 + Number(id >> 23n)).toLocaleString();
 		});
 	});
 ]]></script>
