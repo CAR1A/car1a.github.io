@@ -3083,7 +3083,7 @@
 <event title="Safir - ..." date="13-05-2021">
 	<video title="..." link="yt:5nnswNwkzbg" length="12:42"/>
 </event>
-<event title="Eurovision France - ..." date="">
+<event title="Eurovision France - ..." date="XX-XX-2021">
 	<video title="" link="yt:6ib6372c0q8" length=""/>
 	<video title="" link="fb:956438461562915" length=""/>
 	<video title="" link="ig:CO-v1EuoF2o" length="4:39"/>
@@ -3259,8 +3259,9 @@
 	<xsl:variable name="years" select="//event[count(.|key('event-year', substring(@date, string-length(@date)-3))[1]) = 1]/@date"/>
 	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="xml">
+		<xsl:copy-of select="comment()"/>
 		<html>
-			<head>
+			<head title="{@title}">
 				<meta name="robots" content="{*/@content}"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="color-scheme" content="light dark"/>
@@ -3268,13 +3269,13 @@
 				<title><xsl:value-of select="@title"/></title>
 				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23{@colour};'/%3E"/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
-				<script>console.log(String.raw`<xsl:value-of select="comment()"/>`);</script>
+				<script>console.log('%c' + document.childNodes[1].data, 'color: #<xsl:value-of select="@colour"/>;');</script>
 				<style onload="window.history.scrollRestoration = 'auto';"><xsl:value-of select="style"/></style>
 				<style>
 					<xsl:for-each select="$years">
 						<xsl:variable name="year" select="substring(., string-length(.)-3)"/>
 						#yearall:checked~#bar label[for='yearall'], #year<xsl:value-of select="$year"/>:checked~#bar label[for='year<xsl:value-of select="$year"/>'] {color: #000; background-color: #FFF;}
-						input[name='year'], #year<xsl:value-of select="$year"/>:checked~#menu .m-event:not(.year<xsl:value-of select="$year"/>) {display: none;}
+						#year<xsl:value-of select="$year"/>:checked~#menu .m-event:not(.year<xsl:value-of select="$year"/>) {display: none;}
 					</xsl:for-each>
 				</style>
 			</head>
@@ -3296,9 +3297,9 @@
 		<header id="header" class="h">
 			<nav><iframe src="i.html#media" title="Menu"></iframe></nav>
 		</header>
-		<input id="yearall" name="year" type="radio" checked="checked"/>
+		<input id="yearall" name="year" type="radio" hidden="hidden" checked="checked"/>
 		<xsl:for-each select="$years">
-			<input id="year{substring(., string-length(.)-3)}" name="year" type="radio"/>
+			<input id="year{substring(., string-length(.)-3)}" name="year" type="radio" hidden="hidden"/>
 		</xsl:for-each>
 		<div id="bar">
 			<label for="yearall">All (<xsl:value-of select="count(event)"/>)</label>
@@ -3306,12 +3307,15 @@
 				<xsl:variable name="year" select="substring(., string-length(.)-3)"/>
 				<label for="year{$year}"><xsl:value-of select="$year"/> (<xsl:value-of select="count(key('event-year', $year))"/>)</label>
 			</xsl:for-each>
-			<form id="_search_" action="#search">
+			<form id="_search_" action="#search" rel="search">
 				<input name="q" type="search" placeholder="Search {count(event/video)} videos" list="_list_" disabled="disabled"/>
 				<datalist id="_list_">
 					<xsl:for-each select="//video">
 						<xsl:sort select="concat(../@title, @title)"/>
-						<option value="{position()}. {../@title} • {@title} ({@length})" data-href="#{@link}"/>
+						<option value="{position()}. {../@title} • {@title} ({@length})" data-href="#{@link}"></option>
+						<!--<xsl:for-each select="_[@title]">
+							<option value="=== {@title}"></option>
+						</xsl:for-each>-->
 					</xsl:for-each>
 				</datalist>
 				<button><span lang="en">Search</span> / <span lang="fr">Rechercher</span></button>
@@ -3350,12 +3354,12 @@
 		<xsl:variable name="video"><xsl:call-template name="video"/></xsl:variable>
 		<xsl:variable name="_" select="_:node-set($video)/*"/>
 		<li id="{@link}" class="p-page">
-			<a class="p-page-close" href="#-" title="Close"><svg class="close" display="none"><use href="#cross"/></svg></a>
+			<a class="p-page-close" href="#-" title="Close / Fermer"><svg display="none"><use href="#cross"/></svg></a>
 			<xsl:for-each select="preceding-sibling::video[1]">
-				<a class="p-page-previous" href="#{@link}" title="{@title}"><svg class="close" display="none"><use href="#triangle"/></svg></a>
+				<a class="p-page-previous" href="#{@link}" title="{@title}"><svg display="none"><use href="#arrow"/></svg></a>
 			</xsl:for-each>
 			<xsl:for-each select="following-sibling::video[1]">
-				<a class="p-page-next" href="#{@link}" title="{@title}"><svg class="close" display="none"><use href="#triangle"/></svg></a>
+				<a class="p-page-next" href="#{@link}" title="{@title}"><svg display="none"><use href="#arrow"/></svg></a>
 			</xsl:for-each>
 			<div class="p-page-content">
 				<div class="p-page-content-top" style="--i: url(https://{$_/@thumb});{substring(concat(' --i2: url(https://', $_/@thumb2, ');'), 1 div boolean($_/@thumb2))}">
@@ -3448,21 +3452,26 @@
 			</a>
 		</li>
 	</xsl:template>
-	<xsl:template match="link[@type='lyrics']">
+	<!--<xsl:template match="link[@type='lyrics']">
 		<li class="link lyrics">
 			<input id="{generate-id()}" type="checkbox"/>
 			<label for="{generate-id()}">🎵 Lyrics / Paroles"</label>
 			<div><a href="lyrics.html#{@id}" data-embed="lyrics.html#{@id}+">Show lyrics</a></div>
 		</li>
-	</xsl:template>
+	</xsl:template>-->
 	<xsl:template name="search">
 		<li id="search" class="p-page">
-			<a class="p-page-close" href="#-" title="Close"><svg display="none"><use href="#cross"/></svg></a>
+			<a class="p-page-close" href="#-" title="Close / Fermer"><svg display="none"><use href="#cross"/></svg></a>
 			<div class="p-page-content">
+				<h2><span lang="en">Search</span> / <span lang="fr">Rechercher</span></h2>
 				<form>
 					<input name="q" type="search" placeholder="Search" required="required" minlength="2"/>
-					<input type="submit" value="Search"/>
-					<label><input name="accents" type="checkbox"/>Ignore accents</label>
+					<button><span lang="en">Search</span> / <span lang="fr">Rechercher</span></button>
+					<fieldset>
+						<legend>Options</legend>
+						<label><input name="accents" type="checkbox"/>Ignore accents</label>
+						<label><input name="ligatures" type="checkbox" disabled="disabled"/>Ignore ligatures</label>
+					</fieldset>
 				</form>
 				<span>Results:</span>
 				<ol>
@@ -3546,6 +3555,21 @@
 			</style>
 			<video src="about:blank" poster="data:," autoplay="autoplay" controls="controls"></video>
 		</template>
+		<iframe id="translate" name="translate" width="0" height="0" sandbox="allow-scripts" hidden="hidden">
+			<xsl:attribute name="srcdoc"><![CDATA[<script>'use strict';
+				window.onmessage = ({data, ports})=>{
+					if(!data || !ports.length) return;
+					//https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=en&tl=fr&dt=t&q=father
+					window.fetch('https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&ie=utf-8&oe=utf-8&sl=fr&tl=en&q=' + encodeURIComponent(data), {'cache': 'force-cache'}).then(response=>{
+						return response.json();
+					}).then(json=>{
+						ports[0].postMessage(json[0].map(_=>_[0]).join(''));
+					}).catch(error=>{
+						ports[0].postMessage(error);
+					});
+				};
+			</script>]]></xsl:attribute>
+		</iframe>
 	</xsl:template>
 </xsl:stylesheet>
 <style><![CDATA[
@@ -3561,7 +3585,7 @@
 	img {display: block; position: relative; max-width: 100%; max-height: 100%;}
 	img::before {display: block; position: absolute; width: 100%; height: 100%; color: #FFF; background-color: #E00;}
 	input, button, select {font: inherit; border: 1px solid #0005; background-color: transparent;}
-	::placeholder {width: 100%; text-align: center;}
+	[placeholder]::placeholder {width: 100%; text-align: center;}
 	ul, ol {margin: 0px; padding: 0px; list-style: none;}
 	iframe {display: block; width: 100%; height: 100%; border-style: none;}
 	.hidden {display: none !important;}
@@ -3603,8 +3627,8 @@
 	:target .p-page-content-top::after {background: linear-gradient(#FFFC, transparent), var(--i2, none) center/cover, var(--i, none) center/cover;}
 	.p-page-content-top::after {content: ''; display: block; position: absolute; width: 100%; height: 100%; opacity: 0.5; transform: scaleY(-1);}
 	.p-page-close {display: block; position: absolute; width: 100%; height: 100%; background-color: #0009; z-index: -1; backdrop-filter: blur(5px);}
-	.p-page-close>.close {display: block; position: absolute; top: 0px; left: 0px; width: 40px; height: 40px; margin: 20px; padding: 10px; border-radius: 50%; background-color: #FFF5;}
-	.p-page-close:hover>.close {color: #000; background-color: #FFF;}
+	.p-page-close>svg {display: block; position: absolute; top: 0px; left: 0px; width: 40px; height: 40px; margin: 20px; padding: 10px; border-radius: 50%; background-color: #FFF5;}
+	.p-page-close:hover>svg {color: #000; background-color: #FFF;}
 	.p-page-previous>svg, .p-page-next>svg {display: block; position: absolute; top: 50%; width: 40px; height: 40px; padding: 5px 20px; border-radius: 5px; background-color: #FFFA;}
 	.p-page-previous>svg {left: 30px; transform: rotate(180deg);}
 	.p-page-next>svg {right: 30px;}
@@ -3635,9 +3659,9 @@
 	.p-page-content-bottom .dialog>li:hover::before {opacity: 1;}
 	.p-page-content-bottom .lyrics>a {display: block; padding: 30px; border-radius: 20px; font-size: 30px; background-color: #0007;}
 	.p-page-content-bottom ol>li:hover {background-color: #0005;}
-	.p-page-content-bottom i:not([data-text]):hover, .page b:not([data-text]):hover {position: relative; cursor: pointer;}
-	.p-page-content-bottom i:not([data-text]):hover::after, .page b:not([data-text]):hover::after {content: 'Click to translate'; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border-radius: inherit; color: white; background-color: #0009;}
-	.p-page-content-bottom i, b {display: inline-block; max-width: 90%; padding: 5px 30px; border-radius: 20px; font-weight: normal; border: 1px solid #0005; color: #000; background-color: #FFF; box-shadow: inset 0px 0px 5px #0003;}
+	.p-page-content-bottom i:not([data-text]):hover, .p-page-content-bottom b:not([data-text]):hover {position: relative; cursor: pointer;}
+	.p-page-content-bottom i:not([data-text]):hover::after, .p-page-content-bottom b:not([data-text]):hover::after {content: 'Click to translate'; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border-radius: inherit; color: white; background-color: #0009;}
+	.p-page-content-bottom i, .p-page-content-bottom b {display: inline-block; max-width: 90%; padding: 5px 30px; border-radius: 20px; font-weight: normal; border: 1px solid #0005; color: #000; background-color: #FFF; box-shadow: inset 0px 0px 5px #0003;}
 	.p-page-content-bottom b {background-color: #FCF;}
 	.p-page-content-bottom .dialog:empty {display: none;}
 	.p-page-content-bottom .dialog .time label {display: block; padding: 5px; font-weight: bold; text-decoration: none; cursor: pointer;}
@@ -3710,13 +3734,12 @@
 		$('#pages').find('b, i').on('click', function(e){
 			if(this.hasAttribute('data-text')) return;
 			this.dataset.text = '⌛';
-			w.fetch('https://translate.googleapis.com/translate_a/single?client=gtx&dt=t&ie=utf-8&oe=utf-8&sl=fr&tl=en&q=' + encodeURIComponent(this.textContent)).then((response)=>{
-				return response.json();
-			}).then((json)=>{
-				this.dataset.text = json[0].map(_=>_[0]).join('');
-			}).catch((error)=>{
-				this.dataset.text = error;
-			});
+			let {port1, port2} = new MessageChannel();
+			port1.onmessage = ({data})=>{
+				port1.close();
+				this.dataset.text = data;
+			};
+			$('#translate')[0].contentWindow.postMessage(this.textContent, '*', [port2]);
 		});
 		$('[data-time]').on('click', function(e){
 			let i = $(this).parent().parent().find('iframe')[0];
@@ -3744,9 +3767,9 @@
 				let accents = 'çéëïàèùâêîôû';
 				let normal = accents.normalize('NFD').replace(/\p{Diacritic}/gu, '');
 				this.q.value = this.q.value.normalize('NFD').replace(/\p{Diacritic}/gu, '');
-				xpath = `//*[@lang="fr"][contains(translate(translate(., "${accents.toUpperCase() + accents}", "${normal + normal}"), "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
+				xpath = `//*[@class="text"][contains(translate(translate(., "${accents.toUpperCase() + accents}", "${normal + normal}"), "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
 			} else {
-				xpath = `//*[@lang="fr"][contains(translate(., "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
+				xpath = `//*[@class="text"][contains(translate(., "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
 			}
 			try {
 				let node = null;
