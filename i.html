@@ -67,8 +67,6 @@
 			'mode': 'no-cors',
 			'keepalive': true,
 			'body': new URLSearchParams(body),
-		}).catch(error=>{
-			console.log(body);
-		}); //navigator.sendBeacon
+		}).catch(_=>console.log(body));
 	});
 </script>
