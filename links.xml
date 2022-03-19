@@ -221,6 +221,10 @@
 	<magazine title="Jeunes Stars #12">
 		<cover>catalogueproduits.mlp.fr/images/grande_couvertures/2876485.jpg</cover>
 	</magazine>
+	<magazine title="Kids-Matin #1">
+		<cover>online.anyflip.com/gcuy/gavo/files/shot.jpg</cover>
+		<link>anyflip.com/gcuy/gavo</link>
+	</magazine>
 	<magazine title="Le Journal de Mickey #3535">
 		<cover>izneo.com/images/album/9791036849688.jpg</cover>
 		<link>izneo.com/fr/bd/magazine/-11358/-70641/read</link>
@@ -607,6 +611,9 @@
 </photos>
 
 <archive type="tiktok" id="carlamusicoff">
+	<v>7075673939866914053</v>
+	<_>7075273196685053190</_>
+	<v>7074589286959451398</v>
 	<_>7068326641537223941</_>
 	<v>7066080759815130373</v>
 	<v>7066072917510999302</v>
@@ -1179,15 +1186,16 @@
 	<xsl:variable name="icon32" select="'https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;fallback_opts=SIZE&amp;size=32&amp;url=https://'"/>
 	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="xml">
+		<xsl:copy-of select="comment()"/>
 		<html>
-			<head>
+			<head title="{@title}">
 				<meta name="robots" content="{*/@content}"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="theme-color" content="#{@colour}"/>
 				<title><xsl:value-of select="@title"/></title>
 				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23{@colour};'/%3E"/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
-				<script>console.log(String.raw`<xsl:value-of select="comment()"/>`);</script>
+				<script>console.log('%c' + document.childNodes[1].data, 'color: #<xsl:value-of select="@colour"/>;');</script>
 				<style onload="window.history.scrollRestoration = 'auto';"><xsl:value-of select="style"/></style>
 			</head>
 			<body style="--colour: #{@colour};">
