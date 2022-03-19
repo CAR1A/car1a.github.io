@@ -29,16 +29,14 @@
 </script>
 <template id="todo"><h1>Todo</h1>
 	- rename &lt;xml&gt;?
-	- output ascii art as comment node, access with javascript?
 	- favicon.ico svg file with fragment identifiers?
 	<h2>404.html</h2>
 	- ...
 	<h2>events.html</h2>
-	- last updated manual?
-	- robots unavailable_after?
+	- last updated manual atom:updated?
 	- improve h1/h2 elements?
 	- offers section?
-	- search?
+	- google maps embed
 	<h2>i.html</h2>
 	- ...
 	<h2>index.html</h2>
@@ -46,7 +44,6 @@
 	- fetch refresh / retry button
 	- fetch change accept-language?
 	- tiktok gif on hover?
-	- <a href="http://microformats.org/wiki/existing-rel-values"></a>
 	<h2>links.xml</h2>
 	- fix fb etc links
 	- overlay hash urls?
@@ -56,13 +53,8 @@
 	- tf1 thumbs
 	- seb avec ta star fb / celia larry demifinale? / lyric videos? / official audio? / d06 fb live? / voice kids concert? / petites canailles hebdo de la musique?
 	- europe1 embed
-	- big shows timestamps
-	- lyrics links
-	- github.com/heiseonline/embetty for fb thumbs?
-	- event categories? (tv, concert)
-	- google translate null origin?
+	- dates tolocalestring?
 	- je dirais > je dirai? / des gros > de gros?
-	- subheadings (<_ time=""/>) in search list?
 	- vk videos multiple sources? (nm, novids, biqle)
 	- reverse event order?
 	- tiktok / ig embeds archive.org?
@@ -100,21 +92,24 @@
 		- artist image smaller size
 </template>
 <template id="about"><h1>About</h1>
-	<span class="description">...</span>
+	<span class="description" lang="en">Website about artist Carla Lazzari.</span>
 	<h2>Technology</h2>
-	XML
-	HTML
+	SGML / HTML
+	XML / XSLT / SVG / RSS
 	CSS
-	JavaScript
+	JavaScript / <a href="http://jquery.com/">jQuery</a>
 	<h2>Host</h2>
-	<a href="http://github.com">GitHub</a>
-	<a href="http://cloudflare.com"><img src="https://cloudflare.com/media/images/web-badges/cf-web-badges-a-blue-on.png" alt=""/></a>
-	<a href="http://freenom.com">Freenom</a>
-	<h2>...</h2>
-	<a href="http://jquery.com/">jQuery</a>
+	<a href="http://github.com/">GitHub</a>
+	<a href="http://cloudflare.com/">Cloudflare</a>
+	<a href="http://freenom.com/">Freenom</a>
+	<h2>Services</h2>
 	<a href="http://images.weserv.nl/"></a>
 	<a href="http://developer.wordpress.com/docs/photon">WordPress Photon</a>
+	<a href="http://thum.io/"></a>
 	<a href="http://maps.yandex.ru/"></a>
+	<a href="http://cloudinary.com/"></a>
+	<a href="http://microlink.io/"></a>
+	<s><a href="http://urlecho.appspot.com/echo"></a></s> / <a href="http://public-firing-range.appspot.com/"></a>
 </template>
 <template id="search"><h1>Search</h1>
 	<input name="q" type="search" placeholder="Search" form="form" list="list"/>
@@ -137,26 +132,22 @@
 	<a href="http://instagr.am/explore/tags/bimbamtoi"></a>
 	<a href="http://aboriva.com/revue?q=carla"></a>
 	<a href="http://aboriva.com/revue?q=clara"></a>
-	<hr/>
-	<a href="http://wikidata.org/wiki/Q76453224"></a>
-	<a href="http://google.com/search?kgmid=/g/11fnxrskv0"></a>
-	<a href="http://artsandculture.google.com/entity/g11fnxrskv0"></a>
 	<form id="form" hidden="hidden"><datalist id="list">
-		<option value="&quot;Carla&quot;"/>
-		<option value="&quot;Carla Lazzari&quot;"/>
-		<option value="&quot;Carla Officiel&quot;"/>
-		<option value="&quot;CarlaMusicOff&quot;"/>
-		<option value="&quot;Carla Music Off&quot;"/>
-		<option value=" "/>
-		<option value="&quot;Sans Filtre&quot; Carla"/>
-		<option value="&quot;L'Autre Moi&quot;"/>
-		<option value="&quot;Bim Bam Tour&quot;"/>
-		<option value="&quot;Bim Bam Toi&quot;"/>
-		<option value=" "/>
-		<option value="&quot;Carla Artistic&quot;"/>
-		<option value="&quot;Carla The Voice Kids 5&quot;"/>
-		<option value="&quot;Carla Lazarri&quot;"/>
-		<option value="&quot;Clara Lazzari&quot;"/>
+		<option>"Carla"</option>
+		<option>"Carla Lazzari"</option>
+		<option>"Carla Officiel"</option>
+		<option>"CarlaMusicOff"</option>
+		<option>"Carla Music Off"</option>
+		<option value=" "></option>
+		<option>"Sans Filtre"</option>
+		<option>"L'Autre Moi"</option>
+		<option>"Bim Bam Tour"</option>
+		<option>"Bim Bam Toi"</option>
+		<option value=" "></option>
+		<option>"Carla Artistic"</option>
+		<option>"Carla The Voice Kids 5"</option>
+		<option>"Carla Lazarri"</option>
+		<option>"Clara Lazzari"</option>
 	</datalist></form>
 </template>
 <template id="archive"><h1>Archive</h1>
@@ -185,7 +176,7 @@
 	<a href="http://youtube.com/channel/UCATnaXycsHBOK22-BzYmrlg/videos"></a>
 	<a href="http://pm1.narvii.com/8155/43695ed5f78823b3c7fcee2d8e79217c35ceb118r1-770-961v2_hq.jpg"></a>
 	<hr/>
-<script style="display: block;">
+	<script style="display: block; font-size: 12px; text-align: initial; white-space: pre;">
 /** @OnlyCurrentDoc */'use strict';
 function doGet(e){
 	let request = {
@@ -227,7 +218,7 @@ function doPost(e){
 		return ContentService.createTextOutput(JSON.stringify(error, Object.getOwnPropertyNames(error))).setMimeType(ContentService.MimeType.JSON);
 	}
 }
-</script>
+	</script>
 </template>
 <template id="validate"><h1>Validate</h1>
 	<h2>Search</h2>
@@ -321,31 +312,34 @@ function doPost(e){
 	a {color: inherit;}
 	a:empty::before {content: attr(href);}
 	img {vertical-align: middle;}
-	main .message {font-size: 40px; font-style: italic; text-shadow: 0px 0px 5px #0008; text-transform: uppercase;}
-	main .message>span:first-child {font-size: 120px; font-weight: bold;}
+	input, button, select {font: inherit;}
+	[placeholder]::placeholder {width: 100%; text-align: center;}
+	#error .message {font-size: 40px; font-style: italic; text-shadow: 0px 0px 5px #0008; text-transform: uppercase;}
+	#error .message>span:first-child {font-size: 120px; font-weight: bold;}
 	iframe {display: block; border-style: none;}
 	nav {height: 100px; opacity: 0.5; transition: opacity 0.3s;}
 	nav:hover {opacity: initial;}
 	nav iframe {width: 100%; height: 100%;}
-	main::after {content: ''; display: inline-block; width: 70%; height: 80px; margin-top: -40px; background-image: radial-gradient(#000D 10%, transparent 70%);}
-	main #deezer {margin: 5px auto; padding: 0px 46px; border: 10px solid #222; border-radius: 100px; background-color: #222; box-shadow: 0px 0px 10px #FFF9;}
+	#error::after {content: ''; display: inline-block; width: 70%; height: 80px; margin-top: -40px; background-image: radial-gradient(#000D 10%, transparent 70%);}
+	#deezer {margin: 5px auto; padding: 0px 46px; border: 10px solid #222; border-radius: 100px; background-color: #222; box-shadow: 0px 0px 10px #FFF9;}
+	#website a {display: inline-block; width: 200px; line-height: 200px; margin: 10px; background-color: #FFF1;}
 </style>
 <h1>404</h1>
-<noscript><main class="error">
+<noscript><div id="error">
 	<nav><iframe src="/i.html#404" title="Menu" referrerpolicy="same-origin"></iframe></nav>
 	<div class="message"><span>404</span> <span lang="en">Not Found</span> / <span lang="fr">Introuvable</span></div>
 	<span lang="en"><a href="/">Go back to the homepage</a> or listen to a random song:</span>
 	<iframe id="deezer" src="about:blank" data-src="https://www.deezer.com/plugins/player?type=radio&amp;layout=dark&amp;id=artist-78960852" width="350" height="92" title="Deezer" allow="encrypted-media *" loading="lazy" onload="!this.contentDocument || (this.src = this.dataset.src + '&amp;' + (Math.random()*100).toFixed());"></iframe>
-</main></noscript>
+</div></noscript>
 <script>'use strict';
 	let path = window.location.search.startsWith('?/') ? window.location.search.slice(1) : window.location.pathname;
 	switch(true){
 		case path == '/x/':
-			document.title = document.body.id = 'WEBSITE';
-			document.body.innerHTML = `<h1>${document.title}</h1>\r\n` + [...document.head.querySelectorAll('[id]')].map(_=>`<a href="${window.location.search.startsWith('?/') ? '?/' : ''}x/${_.id}"></a>`).join('\r\n');
+			document.title = (document.body.id = 'website').toUpperCase();
+			document.body.innerHTML = `<h1>Website</h1>\r\n` + [...document.head.querySelectorAll('[id]')].map(_=>`<a href="${window.location.search.startsWith('?/') ? '?/x/' : ''}${_.id}"></a>`).join('\r\n');
 			break;
 		case path.startsWith('/x/') && !!document.getElementById(path.slice(3)):
-			document.title = document.body.id = path.slice(3).toUpperCase();
+			document.title = (document.body.id = path.slice(3)).toUpperCase();
 			document.body.innerHTML = document.getElementById(path.slice(3)).innerHTML;
 			break;
 		default:
