@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="#xsl"?><!DOCTYPE html>
 <rss version="2.0"><script id="xml" type="text/xml" xmlns="http://www.w3.org/1999/xhtml"/><channel xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gd="http://schemas.google.com/g/2005">
-<title>Events | CARLA</title>
-<description xml:lang="en">CARLA (Carla Lazzari / Junior Eurovision / Bim Bam Toi) events (concerts, Bim Bam Tour).</description>
+<title>CARLA Events</title>
+<description xml:lang="en">❤ All CARLA (Lazzari) from Junior Eurovision / Bim Bam Toi events. TV shows, concerts (Bim Bam Tour 2022/2023), birthdays and more!</description>
 <link>https://carlax.ml/events</link>
 <atom:id>https://carlax.ml/events</atom:id>
 <atom:link rel="self" href="https://carlax.ml/events?feed" type="application/rss+xml"/>
@@ -112,9 +112,10 @@
 	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="channel">
 		<html>
-			<head>
+			<head title="{title}">
 				<meta name="robots" content="{substring('no', 1 div boolean($q and not($item)))}index, follow, noarchive"/>
 				<meta name="googlebot" content="indexifembedded, noimageindex, notranslate, max-snippet:-1, max-image-preview:large, max-video-preview:0"/>
+				<xsl:if test="$item"><meta name="googlebot" content="unavailable_after:{substring-before(concat(($item/gd:when/@startTime|$item/gd:when/@endTime)[last()], 'T'), 'T')}"/></xsl:if>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1"/>
 				<meta name="theme-color" content="#{$colour}"/>
@@ -155,22 +156,23 @@
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:apply-templates select="item"><xsl:sort select="position()" data-type="number" order="descending"/></xsl:apply-templates>
+						<hr/>
+						<a id="updated" href="events"><span lang="en">Last updated</span>: <time>2022</time></a>
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:if test="not($q = '?embed')">
 					<hr/>
-					<xsl:choose>
-						<xsl:when test="$item">
-							<a class="back" href="events">Back to Events</a>
-						</xsl:when>
-						<xsl:otherwise>
-							<a class="back" href="./">Back to Homepage</a>
-						</xsl:otherwise>
-					</xsl:choose>
+					<footer>
+						<xsl:choose>
+							<xsl:when test="$item">
+								<a class="back" href="events"><span lang="en">Back to Events</span></a>
+							</xsl:when>
+							<xsl:otherwise>
+								<a class="back" href="./"><span lang="en">Back to Homepage</span></a>
+							</xsl:otherwise>
+						</xsl:choose>
+					</footer>
 				</xsl:if>
-				<footer>
-					<div id="updated">Last updated: <time>2022</time></div>
-				</footer>
 				<xsl:element name="script"><xsl:call-template name="script"/></xsl:element>
 			</body>
 		</html>
@@ -208,7 +210,7 @@
 			</span>
 			<time itemprop="startDate"><xsl:value-of select="gd:when/@startTime"/></time>
 			<meta itemprop="endDate" content="{(gd:when/@startTime|gd:when/@endTime)[last()]}"/>
-			<h2 id="{substring-after(guid, '?')}" itemprop="name"><a href="?{substring-after(guid, '?')}" title="{substring-after(guid, '//')}" itemprop="url"><xsl:value-of select="title"/></a></h2>
+			<h2 id="{substring-after(guid, '?')}" itemprop="name"><a href="{substring('events', 1 div ($q = '?embed'))}?{substring-after(guid, '?')}" title="{substring-after(guid, '//')}" itemprop="url"><xsl:value-of select="title"/></a></h2>
 			<xsl:choose>
 				<xsl:when test="gd:where">
 					<link itemprop="eventAttendanceMode" href="http://schema.org/OfflineEventAttendanceMode"/>
@@ -269,7 +271,7 @@
 		.event {display: inline-block; width: 40%; min-width: 300px; margin: 10px; padding: 10px; background-color: #FFF; vertical-align: top; overflow: hidden;}
 		.event.cancelled:not(:hover) {opacity: 0.5;}
 		.event div {height: 150px; background-color: #EEE;}
-		.event table {margin: 10px; background-color: #AAA;}
+		.event table {width: 100%; background-color: #AAA;}
 		.event table caption {color: #FFF; background-color: #000;}
 		.event .map {height: 100px; background-color: #9CE; object-fit: none;}
 		.event time {display: block; background-color: #0001;}
@@ -278,12 +280,12 @@
 		.event h2 a::after {content: ''; position: absolute; right: 0px; border: 14px solid transparent; border-left: 40px solid #0006;}
 		.event .link {display: block; margin: 5px; padding: 5px; background-color: #0002; text-align: initial; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 		.event .link img {margin-right: 5px;}
-		.event.birthday {background-image: linear-gradient(45deg, #FDC, #FAC);}
+		.event.birthday {background-image: linear-gradient(45deg, #FC8, #FAC);}
 		[data-days]::before {content: attr(data-days); display: inline-block; margin: 5px; padding: 5px 10px; border: 2px solid #000; color: #000; background-color: #FFF;}
 		.back {display: inline-block; margin: 10px; padding: 10px 20px; background-color: #0001;}
 		footer::after {content: ''; display: block; height: 150px; background-image: linear-gradient(transparent, #0004);}
 		.embed {background-color: transparent;}
-		.embed .event {display: block; width: 100%; margin: 0px 0px 10px 0px; padding: 0px; border-radius: 5px; box-shadow: 0px 2px 2px #000A;}
+		.embed .event {display: block; width: 100%; margin: 0px 0px 10px 0px; padding: 0px;}
 		.embed .event.past {display: none;}
 		.embed .event h2 {margin: 0px; padding: 5px; font-size: inherit;}
 		.embed .event h2 a::after {display: none;}
@@ -298,6 +300,7 @@
 				if(!time.dateTime) time.dateTime = time.textContent;
 				time.textContent = new Date(time.dateTime).toLocaleDateString(undefined, {'dateStyle': 'full', 'timeZone': 'UTC'});
 				time.title = new Date(time.dateTime).toLocaleString(undefined, {'timeZone': 'UTC'});
+				time.lang = navigator.language||'';
 				let [D, M, Y] = time.dateTime.slice(0, 10).split('-').reverse();
 				time.dataset.days = (Date.UTC(Y||now.getFullYear(), M-1, D) - Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()))/(24*60*60*1000);
 				if(time.dataset.days == 0) time.parentElement.classList.add('today');
@@ -322,5 +325,5 @@
 			document.close();
 		}, {'capture': true, 'once': true});
 	} catch(e) {window.location.replace('error?message=' + encodeURIComponent(e.message));}
-</script>-->
+</script><br data-->
 </rss>
