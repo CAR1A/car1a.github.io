@@ -38,8 +38,8 @@
 		<E>You're just a good-for-nothing, I'm saying it for your own good, if you don't do anything better, you'll be a sweeper.</E>
 		<F>Fais pas ci, fais pas ça, à dada prout prout cadet, à cheval sur mon bidet.</F>
 		<E>Don't do this, don't do that, piggyback toot toot cadet, horseback on my bidet.</E>
-		<F>Vous en faites pas les gars, vous en faites pas les gars, moi aussi on m'a dit ça, fais pas ci, fais pas ça, fais pas ci, fais pas ça.</F>
-		<E>Don't you worry guys, don't you worry guys, I was told that too, don't do this, don't do that, don't do this, don't do that.</E>
+		<F>Vous en faites pas les gars, vous en faites pas les gars, moi aussi on m'a dit ça, « fais pas ci, fais pas ça, fais pas ci, fais pas ça ».</F>
+		<E>Don't you worry guys, don't you worry guys, I was told that too, "don't do this, don't do that, don't do this, don't do that".</E>
 		<F>Et j'en suis arrive là, et j'en suis arrive là, et j'en suis arrive là, la-la-la, la-la-la.</F>
 		<E>And I arrived here, and I arrived here, and I arrived here, la-la-la, la-la-la.</E>
 		<F>La-la-la-la-la, la-la-la-la-la, la-la-la, la-la-la, la-la-la oh-oh-oh-oh.</F>
@@ -887,7 +887,7 @@
 		<F>Enzo, toujours la pour les copains, il fait des blagues, il fait le bête, il dit moi ça va toujours bien, mais à la maison c'est pas la fête.</F>
 		<E>Enzo, always there for his friends, he makes jokes, he plays dumb, he tells me it always goes well, but at home it's not a party.</E>
 		<F>C'est important de penser aux autres, personne ne dira le contraire, parfois je suis à côté d'mes bottes, sur un autre fuseau horaire.</F>
-		<E>It's important to think of others, no one would say the opposite, sometimes I'm standing beside my boots, on a different time zone.</E>
+		<E>It's important to think of others, no one would say the opposite, sometimes I'm standing beside my boots, on another time zone.</E>
 		<F>Aujourd'hui j'arrête de dire oui quand je pense non, aujourd'hui j'arrête et je dis non.</F>
 		<E>Today I stop saying yes when I'm thinking no, today I stop and I say no.</E>
 		<F>Aujourd'hui j'arrête de me chercher des raisons, aujourd'hui j'arrête et je dis non.</F>
@@ -897,7 +897,7 @@
 		<F>Ilona n'a pas dit à Theo, qu'elle l'aime depuis le premier jour, ils sont amis, elle le conseille, pour trouver l'amour.</F>
 		<E>Ilona didn't tell Theo, that she loves him since day one, they are friends, she advices him, how to find love.</E>
 		<F>C'est important de penser aux autres, personne ne dira le contraire, parfois je suis à côté d'mes bottes, sur un autre fuseau horaire.</F>
-		<E>It's important to think of others, no one would say the opposite, sometimes I'm standing beside my boots, on a different time zone.</E>
+		<E>It's important to think of others, no one would say the opposite, sometimes I'm standing beside my boots, on another time zone.</E>
 		<F>Aujourd'hui j'arrête de dire oui quand je pense non, aujourd'hui j'arrête et je dis non.</F>
 		<E>Today I stop saying yes when I'm thinking no, today I stop and I say no.</E>
 		<F>Aujourd'hui j'arrête de me chercher des raisons, aujourd'hui j'arrête et je dis non.</F>
@@ -917,9 +917,9 @@
 	</song>
 	<song title="Ça va trop vite" title2="It goes too fast" link="yt:9G7zBhHLrTY" time="[7.5, 15, 22, 29, 36.5, 44, 51, 52, 60, 67, 74, 81.5, 89, 96.5, 104, 112, 119, 126.5, 134, 141.5, 149]">
 		<F>Lundi, réveil à l'aube, p'tit déj' dans le taxi, photos, télé, radio et c'est déjà la nuit.</F>
-		<E>Monday, wake up at dawn, breakfast in the cab, photos, TV, radio and it's already night.</E>
+		<E>Monday, wake up at dawn, breakfast in the taxi, photos, TV, radio and it's already night.</E>
 		<F>Mardi, ça continue, de retour dans le taxi, chorés à répéter et ça jusqu'à minuit.</F>
-		<E>Tuesday, it continues, back again in the cab, choreo to rehearse and that until midnight.</E>
+		<E>Tuesday, it continues, back again in the taxi, choreo to rehearse and that until midnight.</E>
 		<F>Et ça se bouscule dans ma tête, je n'y vois plus très net, pas le temps pour moi de réaliser.</F>
 		<E>And it races in my head, I don't see it very clearly anymore, no time for me to realise.</E>
 		<F>Et ça se bouscule dans ma tête, je n'ai pas trop fait la fête, les jours, les heures, je ne les vois pas passer.</F>
@@ -1317,7 +1317,7 @@
 		<F>Moi, j'ai pas peur de leur dire, si la joie se respire, je veux vivre, vivre, j'ai pas peur de grandir, mais je laisse voir venir, je veux vivre, vivre.</F>
 		<E>Me, I'm not afraid to tell them, if joy is in the air, I want to live, live, I'm not afraid to grow up, but I'm letting see what happens, I want to live, live.</E>
 		<F>À la folie, à la folie, dès ce soir, je veux vivre, à la folie, à la folie, et plus tard, je veux rire.</F>
-		<E>To madness, to madness, from this night on, I want to live, to madness, to madness, and later, I want to laugh.</E>
+		<E>To madness, to madness, from this night on, I want to live, to madness, to madness, and later on, I want to laugh.</E>
 		<F>De nos folies, de nos folies, à la folie, à la folie.</F>
 		<E>At our madness, at our madness, to madness, to madness.</E>
 		<F>Me racontez pas, ces belles histoires de princes charmants et de belles au bois dormant, j'en veux pas.</F>
@@ -1327,15 +1327,15 @@
 		<F>Moi, j'ai pas peur de leur dire, si la joie se respire, je veux vivre, vivre, j'ai pas peur de grandir, mais je laisse voir venir, je veux vivre, vivre.</F>
 		<E>Me, I'm not afraid to tell them, if joy is in the air, I want to live, live, I'm not afraid to grow up, but I'm letting see what happens, I want to live, live.</E>
 		<F>À la folie, à la folie, dès ce soir, je veux vivre, à la folie, à la folie, et plus tard, je veux rire.</F>
-		<E>To madness, to madness, from this night on, I want to live, to madness, to madness, and later, I want to laugh.</E>
+		<E>To madness, to madness, from this night on, I want to live, to madness, to madness, and later on, I want to laugh.</E>
 		<F>De nos folies, de nos folies, à la folie, à la folie.</F>
 		<E>At our madness, at our madness, to madness, to madness.</E>
 		<F>Si un jour on me demande, si j'ai toujours mes rêves d'enfant, je dirai « je vis encore, un peu, beaucoup, passionnément ».</F>
 		<E>If one day they ask me, if I still have my childhood dreams, I will say "I'm still living, a little, a lot, passionately".</E>
 		<F>À la folie, à la folie, et plus tard, je veux rire.</F>
-		<E>To madness, to madness, and later, I want to laugh.</E>
+		<E>To madness, to madness, and later on, I want to laugh.</E>
 		<F>À la folie, à la folie, à la folie, dès ce soir, je veux vivre, à la folie, à la folie, à la folie, et plus tard, je veux rire.</F>
-		<E>To madness, to madness, to madness, from this night on, I want to live, to madness, to madness, to madness, and later, I want to laugh.</E>
+		<E>To madness, to madness, to madness, from this night on, I want to live, to madness, to madness, to madness, and later on, I want to laugh.</E>
 		<F>À la folie, à la folie, à la folie, à la folie, à la folie.</F>
 		<E>To madness, to madness, to madness, to madness, to madness.</E>
 	</song>
@@ -2195,11 +2195,11 @@
 		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, la-la-la, la-la-la, la-la-la-la, j'imagine.</F>
 		<E>La-la-la, la-la-la, la-la-la-la, I imagine, la-la-la, la-la-la, la-la-la-la, I imagine.</E>
 		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, j'imagine, la-la-la, la-la-la, la-la-la-la, moi demain j'imagine.</F>
-		<E>La-la-la, la-la-la, la-la-la-la, I imagine, I imagine, la-la-la, la-la-la, la-la-la-la, tomorrow I imagine.</E>
+		<E>La-la-la, la-la-la, la-la-la-la, I imagine, I imagine, la-la-la, la-la-la, la-la-la-la, me tomorrow I imagine.</E>
 		<F>Oups, j'ai imaginé un monde, où on se serrait dans les bras, pour faire la plus belle des rondes, une danse entre vous et moi.</F>
 		<E>Oops, I imagined a world, where we held each other in our arms, to make the most beautiful of rounds, a dance between you and me.</E>
 		<F>Go, y'a toujours quelque chose à faire, même en plein milieu du salon, sur nos écrans les mains en l'air, pour faire la révolution.</F>
-		<E>Go, there is always something to do, even in the middle of the living room, on our screens with our hands in the air, to make the revolution.</E>
+		<E>Go, there's always something to do, even in the middle of the living room, on our screens with our hands in the air, to make the revolution.</E>
 		<F>J'y peux rien je suis comme ça, c'est plus fort que moi, j'y crois, les « n'y crois plus », les « n'y crois pas », c'est pas pour moi.</F>
 		<E>I can't help it I am like that, it's stronger than me, I believe in it, the "believe no more", the "don't believe", it's not for me.</E>
 		<F>Tout commence par un « j'imagine », dans un coin de la tête, un rêve qui soudain se dessine, que plus rien n'arrête.</F>
@@ -2209,7 +2209,7 @@
 		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, la-la-la, la-la-la, la-la-la-la, j'imagine.</F>
 		<E>La-la-la, la-la-la, la-la-la-la, I imagine, la-la-la, la-la-la, la-la-la-la, I imagine.</E>
 		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, j'imagine, la-la-la, la-la-la, la-la-la-la, moi demain j'imagine.</F>
-		<E>La-la-la, la-la-la, la-la-la-la, I imagine, I imagine, la-la-la, la-la-la, la-la-la-la, tomorrow I imagine.</E>
+		<E>La-la-la, la-la-la, la-la-la-la, I imagine, I imagine, la-la-la, la-la-la, la-la-la-la, me tomorrow I imagine.</E>
 		<F>Alors c'est vrai c'est pas toujours la joie, dans nos cœurs c'est, un peu comme un combat, et toi demain, toi tu fais quoi, imagine avec moi!</F>
 		<E>So it's true it's not always joy, in our hearts it's, a bit like a fight, and you tomorrow, what are you going to do, imagine with me!</E>
 		<F>La-la-la, la-la-la, la-la-la-la, j'imagine, la-la-la, la-la-la, la-la-la-la, j'imagine.</F>
@@ -2301,15 +2301,16 @@
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
 	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="xml">
+		<xsl:copy-of select="comment()"/>
 		<html>
-			<head>
+			<head title="{@title}">
 				<meta name="robots" content="{*/@content}"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="theme-color" content="#{@colour}"/>
 				<title><xsl:value-of select="@title"/></title>
 				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23{@colour};'/%3E"/>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
-				<script>console.log(String.raw`<xsl:value-of select="comment()"/>`);</script>
+				<script>console.log('%c' + document.childNodes[1].data, 'color: #<xsl:value-of select="@colour"/>;');</script>
 				<style onload="window.history.scrollRestoration = 'manual';"><xsl:value-of select="style"/></style>
 			</head>
 			<body style="--colour: #{@colour}">
@@ -2317,13 +2318,13 @@
 					<nav><iframe src="i.html#music" title="Menu"></iframe></nav>
 					<h1 id="music"><xsl:value-of select="@title"/></h1>
 				</header>
-				<form id="_search_" action="#search">
+				<form id="_search_" action="#search" rel="search">
 					<input name="q" type="search" placeholder="{count(//song)} Songs / Chansons" list="list" disabled="disabled"/>
 					<datalist id="list">
 						<xsl:for-each select="album">
-							<option value="{@artist} - {@title} ({@year})" data-href="#{@id}"/>
+							<option value="{@artist} - {@title} ({@year})" data-href="#{@id}"></option>
 							<xsl:for-each select="song">
-								<option value="{position()}. {(../@artist|@artist)[last()]} - {@title}" data-href="#{../@id}{position()}"/>
+								<option value="{position()}. {(../@artist|@artist)[last()]} - {@title}" data-href="#{../@id}{position()}"></option>
 							</xsl:for-each>
 						</xsl:for-each>
 					</datalist>
@@ -2459,7 +2460,7 @@
 					<fieldset>
 						<legend>Options</legend>
 						<label><input name="accents" type="checkbox"/>Ignore accents</label>
-						<label><input type="checkbox" disabled="disabled"/>Ignore ligatures</label>
+						<label><input name="ligatures" type="checkbox" disabled="disabled"/>Ignore ligatures</label>
 					</fieldset>
 				</form>
 				<span>Results:</span>
@@ -2507,7 +2508,7 @@
 	a {color: inherit; text-decoration: none;}
 	a:not([id]):hover {text-decoration: underline;}
 	input, select, button {font: inherit;}
-	::placeholder {width: 100%; text-align: center;}
+	[placeholder]::placeholder {width: 100%; text-align: center;}
 	img, svg {vertical-align: middle;}
 	.page {display: block; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;}
 	.page:not(:target) {display: none;}
@@ -2618,9 +2619,9 @@
 				let accents = 'çéëïàèùâêîôû';
 				let normal = accents.normalize('NFD').replace(/\p{Diacritic}/gu, '');
 				this.q.value = this.q.value.normalize('NFD').replace(/\p{Diacritic}/gu, '');
-				xpath = `//*[@lang="fr"][contains(translate(translate(., "${accents.toUpperCase() + accents}", "${normal + normal}"), "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
+				xpath = `//*[@class="lyrics"]//*[@lang="fr"][contains(translate(translate(., "${accents.toUpperCase() + accents}", "${normal + normal}"), "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
 			} else {
-				xpath = `//*[@lang="fr"][contains(translate(., "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
+				xpath = `//*[@class="lyrics"]//*[@lang="fr"][contains(translate(., "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
 			}
 			try {
 				let node = null;
