@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="utf-8"/>
 <meta name="robots" content="noindex, nofollow"/>
 <meta name="referrer" content="no-referrer"/>
 <title>404 | CARLA</title>
@@ -31,19 +32,13 @@
 	- rename &lt;xml&gt;?
 	- favicon.ico svg file with fragment identifiers?
 	<h2>404.html</h2>
-	- ...
 	<h2>events.html</h2>
-	- last updated manual atom:updated?
-	- improve h1/h2 elements?
-	- offers section?
-	- google maps embed
 	<h2>i.html</h2>
-	- ...
 	<h2>index.html</h2>
 	- srcset / media queries for images?
-	- fetch refresh / retry button
-	- fetch change accept-language?
+	- fetch refresh / retry button?
 	- tiktok gif on hover?
+	- ig and tt urls inside srcdoc? (problem with window.name?)
 	<h2>links.xml</h2>
 	- fix fb etc links
 	- overlay hash urls?
@@ -68,7 +63,6 @@
 	- now playing bar + autoplay/shuffle? + change speed?
 	- loca french translation?
 	- (j)esc songs karaoke versions?
-	- css animation cpu usage
 	<hr/>
 	<h2>info.html? / quiz.html? / trivia.html?</h2>
 	Combine with faq structured data?
@@ -285,6 +279,8 @@ function doPost(e){
 	<a href="http://transparencyreport.google.com/safe-browsing/search?url=carlax.ml"></a>
 	<a href="http://yandex.com/safety?url=carlax.ml"></a>
 	<a href="http://siteadvisor.com/sitereport.html?url=carlax.ml"></a>
+	<h2>Other</h2>
+	<a href="http://web.archive.org/*/carlax.ml*"></a>
 </template>
 <template id="clips"><h1>Clips</h1>
 	<a href="http://youtu.be/pjJ2w1FX_Wg"><img src="https://i.ytimg.com/vi_webp/pjJ2w1FX_Wg/mqdefault.webp" alt="Bim Bam toi"/></a>
@@ -343,6 +339,6 @@ function doPost(e){
 			document.body.innerHTML = document.getElementById(path.slice(3)).innerHTML;
 			break;
 		default:
-			document.querySelectorAll('noscript').forEach(_=>_.outerHTML = _.innerHTML);
+			document.querySelectorAll('noscript').forEach(_=>_.outerHTML = _.textContent);
 	}
 </script>
