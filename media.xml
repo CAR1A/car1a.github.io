@@ -3288,7 +3288,7 @@
 				</ul>
 				<footer id="footer" class="f"></footer>
 				<xsl:call-template name="templates"/>
-				<script type="module"><xsl:value-of select="script"/></script>
+				<script><xsl:value-of select="script"/></script>
 			</body>
 		</html>
 	</xsl:template>
@@ -3683,9 +3683,11 @@
 	#search ol {height: 80%; background-color: #FFF;}
 ]]></style>
 <script><![CDATA['use strict';
-	$(($, w = window, d = document, c = console, _ = {'title': d.title})=>{
+	(function load($ = window.jQuery, w = window, d = document, c = console){
+		if(!$) return Object.defineProperty(window, 'jQuery', {'set': _=>load(_)});
+		if(w.location.search == '?NOSCRIPT') return d.title = '[NOSCRIPT] ' + d.title;
 		$(w).on('hashchange', function(e){
-			d.title = $(':target').find('h2')[0]?.textContent || _.title;
+			d.title = $(':target').find('h2')[0]?.textContent || d.head.title;
 			w.requestAnimationFrame(_=>w.setTimeout(_=>$('#pages').find('iframe').remove()));
 		}).trigger('hashchange');
 		$('#_search_').on('submit', function(e){
@@ -3786,6 +3788,6 @@
 				$(this).parent().find('ol').append('<li>' + error + '</li>');
 			}
 		});
-	});
+	})();
 ]]></script>
 </xml>
