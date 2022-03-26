@@ -611,6 +611,17 @@
 </photos>
 
 <archive type="tiktok" id="carlamusicoff">
+	<v>7078737503431232773</v>
+	<_>7078358699730865414</_>
+	<v>7078323277021646085</v>
+	<_>7077957020296432902</_>
+	<v>7077615498308979974</v>
+	<_>7077610300136033542</_>
+	<_>7077580456417430789</_>
+	<_>7077570568643562758</_>
+	<v>7077533868521180421</v>
+	<_>7076875506037132550</_>
+	<_>7076850274010254598</_>
 	<v>7075673939866914053</v>
 	<_>7075273196685053190</_>
 	<v>7074589286959451398</v>
@@ -845,6 +856,8 @@
 </archive>
 
 <archive type="instagram" id="carlamusicoff">
+	<p id="CbiXO69r_NV"/>
+	<p id="CbX5NVxDk1s"/>
 	<p id="Ca5SxQyLU3E"/>
 	<p id="CakgWJNLxXf"/>
 	<p id="CaNTstyL7iI"/>
@@ -912,7 +925,7 @@
 	<_ id="CSCoN_8sHrA"/>
 	<_ id="CR4VC_VL9P9"/>
 	<_ id="CR1ox9VLsOn"/>
-	<_ id="CRy-CfVrdEb"/>
+	<p id="CRy-CfVrdEb"/>
 	<_ id="CRwdv0kLoH1"/>
 	<p id="CRt1bhZr8uw"/>
 	<_ id="CRrP-tlIXrJ"/>
@@ -1058,7 +1071,7 @@
 	<_ id="B8j_ARGI_8J"/>
 	<_ id="B8jabVZIYYP"/>
 	<_ id="B8CP3zpIiuz"/>
-	<_ id="B7ve6OXIzhN"/>
+	<p id="B7ve6OXIzhN"/>
 	<_ id="B7lv6_NoV1G"/>
 	<_ id="B7g-KgzoXnS"/>
 	<_ id="B7CGqJ5IBhN"/>
@@ -1091,7 +1104,7 @@
 	<_ id="B5P9-7Xo4NU"/>
 	<_ id="B5PjhsXoKyg"/>
 	<_ id="B5LfRfVI4ed"/>
-	<_ id="B5Kue-PIEVk"/>
+	<p id="B5Kue-PIEVk"/>
 	<_ id="B5KMFc5IRtu"/>
 	<_ id="B5Db682IFRp"/>
 	<p id="B5BGrAEIe39"/>
@@ -1244,7 +1257,7 @@
 					<a class="open">Open</a>
 				</div>
 				<xsl:call-template name="templates"/>
-				<script type="module"><xsl:value-of select="script"/></script>
+				<script><xsl:value-of select="script"/></script>
 			</body>
 		</html>
 	</xsl:template>
@@ -1477,7 +1490,9 @@
 	.photo a:hover {box-shadow: 0px 0px 10px #FFF; filter: brightness(1.25);}
 ]]></style>
 <script><![CDATA['use strict';
-	$(($, w = window, d = document, c = console)=>{
+	(function load($ = window.jQuery, w = window, d = document, c = console){
+		if(!$) return Object.defineProperty(window, 'jQuery', {'set': _=>load(_)});
+		if(w.location.search == '?NOSCRIPT') return d.title = '[NOSCRIPT] ' + d.title;
 		//$('.photo').find('a').on('click', function(e){
 		//	e.preventDefault();
 		//	$('#overlay').show().addClass('image').find('img')[0].src = this.href;
@@ -1504,6 +1519,6 @@
 			let id = [...this.title].reduce((a, b)=>a*64n+BigInt(abc.indexOf(b)), 0n);
 			this.title = new Date(1314220021721 + Number(id >> 23n)).toLocaleString();
 		});
-	});
+	})();
 ]]></script>
 </xml>
