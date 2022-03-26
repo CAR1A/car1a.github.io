@@ -2335,7 +2335,7 @@
 						<li class="album{substring(' empty', 1 div not(.//@link))}" style="{substring(concat('--c: #', @colour, ';'), 1 div boolean(@colour))}">
 							<a href="#{@id}">
 								<xsl:if test="@cover"><img src="https://{@cover}" width="300" height="300" alt="{@artist} - {@title} ({@year})" title="{@artist} - {@title} ({@year})"/></xsl:if>
-								<xsl:if test="not(@cover)"><img src="data:," width="300" alt=""/></xsl:if>
+								<xsl:if test="not(@cover)"><img src="data:," width="300" height="0" alt=""/></xsl:if>
 							</a>
 							<ol>
 								<xsl:for-each select="song">
@@ -2379,7 +2379,7 @@
 					]]></script>
 				</template>
 				<xsl:call-template name="templates"/>
-				<script type="module"><xsl:value-of select="script"/></script>
+				<script><xsl:value-of select="script"/></script>
 			</body>
 		</html>
 	</xsl:template>
@@ -2480,10 +2480,10 @@
 		</li>
 	</xsl:template>
 	<xsl:template match="F">
-		<b lang="fr"><xsl:value-of select="."/></b>
+		<b title="{.}" lang="fr"><xsl:value-of select="."/></b>
 	</xsl:template>
 	<xsl:template match="E">
-		<i lang="en"><xsl:value-of select="."/></i>
+		<i title="{.}" lang="en"><xsl:value-of select="."/></i>
 	</xsl:template>
 	<xsl:template name="templates">
 		<svg display="none">
@@ -2530,16 +2530,17 @@
 	.song.page .play:hover {background-color: #F00; box-shadow: 0px 0px 10px #FFF; transition: initial;}
 	.song.page .play:hover>h2::before {color: #F00;}
 	.song.page .play.active {pointer-events: none;}
-	.song.page .play.active::before {content: ''; display: block; width: 400%; height: 100%; background-image: linear-gradient(90deg, #FFF, #F00, #FFF); background-size: 50%; animation: 3s a1 linear infinite; transform: rotateZ(360deg); backface-visibility: hidden;}
+	.song.page .play.active::before {content: ''; display: block; width: 400%; height: 100%; background-image: linear-gradient(90deg, #FFF, #F00, #FFF); background-size: 50%; animation: 3s a1 linear infinite;}
 	@keyframes a1 {0% {transform: translateX(0%);} 100% {transform: translateX(-50%);}}
 	.loading>a[id] {opacity: 0.5; pointer-events: none;}
 	.song.page .lyrics {height: calc(100% - 50px); margin: 0px; font-size: 19px; overflow-y: auto; background-color: #222;}
 	.song.page .lyrics::after {content: ''; display: block; height: 50%;}
 	.song.page .lyrics:target {display: block !important; position: fixed; width: 100%; height: 100%; margin: 0px; border-radius: 0px; box-sizing: border-box;}
-	b, i {display: block;}
-	.lyrics.active>* {display: none; font-size: 60px; text-shadow: 0px 0px 10px yellow;}
-	.lyrics.active>li.active {display: block; animation: a2 3s forwards;}
-	@keyframes a2 {0% {} 100% {text-shadow: none;}}
+	b, i {display: block; position: relative;}
+	.lyrics.active>* {display: none; font-size: 60px;}
+	.lyrics.active>li.active {display: block;}
+	.lyrics.active>li.active b::before, .lyrics.active>li.active i::before {content: attr(title); position: absolute; left: 0px; width: 100%; text-shadow: 0px 0px 10px #FFA; opacity: 0; animation: a2 3s;}
+	@keyframes a2 {0% {opacity: 1;} 100% {opacity: 0;}}
 	.lyrics li:not(:first-child):not(.active) {border-top: 1px solid #FFF6;}
 	i {margin-bottom: 5px; color: #CCC;}
 	.lyrics.active>li.active b::after {content: ''; display: block; width: 75%; height: 10px; margin: 20px auto; border-radius: 10px; background-color: #FFF4;}
@@ -2559,31 +2560,51 @@
 	.search.page .results>li {margin: 5px; background-color: #0001;}
 ]]></style>
 <script><![CDATA['use strict';
-	$(($, w = window, d = document, c = console, _ = {'title': d.title})=>{
-		_.icon = $('link')[0].href;
+	(function load($ = window.jQuery, w = window, d = document, c = console){
+		if(!$) return Object.defineProperty(window, 'jQuery', {'set': _=>load(_)});
+		if(w.location.search == '?NOSCRIPT') return d.title = '[NOSCRIPT] ' + d.title;
+		let icon = $('link')[0].href;
 		$(w).on('hashchange', function(e){
-			d.title = $(':target')[0]?.dataset.title ? $(':target')[0].dataset.title + ' | ' + _.title : _.title;
-			$('link')[0].href = $(':target').find('.cover')[0]?.src || _.icon;
-		}).trigger('hashchange').on('message', function({'originalEvent': {'data': d}}){
-			c.log(d);
-			if(d == 'READY') $('body').removeClass('loading').find('a.active').click();
-			if(d == 'UNSTARTED' && _.temp == 'BUFFERING') $('#iframe').addClass('active'), c.log('!!!');
-			if(d == 'ENDED' || d == 'ERROR') $('.active').removeClass('active');
-			if(d == 'PLAYING'){
-				$('#iframe').removeClass('active');
-				let $p = $('.lyrics.active');
-				let t = $p.data('time')||[];
-				(function line(i = 0){
-					c.log(i);
-					if(i > 0){
-						$p.find('.active').removeClass('active');
-						$p.find('li').eq(i-1).addClass('active');
-					}
-					if(i < t.length) w.setTimeout(line, (t[i]-(t[i-1]||0))*1000, i+1);
-				})();
-			}
-			_.temp = d;
-		});
+			d.title = $(':target')[0]?.dataset.title ? $(':target')[0].dataset.title + ' | ' + d.head.title : d.head.title;
+			$('link')[0].href = $(':target').find('.cover')[0]?.src || icon;
+		}).trigger('hashchange');
+		(function player(temp){
+			$(w).on('message', function({'originalEvent': {'data': d}}){
+				c.log(d);
+				if(d == 'READY') $('body').removeClass('loading').find('a.active').click();
+				if(d == 'UNSTARTED' && temp == 'BUFFERING') $('#iframe').addClass('active'), c.log('!!!');
+				if(d == 'ENDED' || d == 'ERROR') $('.active').removeClass('active'), c.groupEnd();
+				if(d == 'PLAYING'){
+					$('#iframe').removeClass('active');
+					let $p = $('.lyrics.active');
+					let t = $p.data('time')||[];
+					(function line(i = 0){
+						c.log(i);
+						if(i > 0){
+							$p.find('.active').removeClass('active');
+							$p.find('li').eq(i-1).addClass('active');
+						}
+						if(i < t.length) w.setTimeout(line, (t[i]-(t[i-1]||0))*1000, i+1);
+					})();
+				}
+				temp = d;
+			});
+			$('.page').find('.play').on('click', function(e){
+				e.preventDefault();
+				$('.active').removeClass('active');
+				$(this).addClass('active');
+				if($('#iframe')[0].src == 'about:blank'){
+					$('body').addClass('loading');
+					let x = $('#iframe').next()[0].innerHTML.trim().replace(/\s\/\/.*/g, '').replace(/\s+/g, ' ');
+					let xx = ['https://urlecho.appspot.com/echo?X-XSS-Protection=0&body=', 'https://public-firing-range.appspot.com/reflected/parameter/head?q='][1];
+					$('#iframe')[0].src = xx + encodeURIComponent('<!DOCTYPE html>' + x);
+				} else {
+					c.groupEnd(), c.groupCollapsed('%c' + this.textContent, 'font-weight: bold;');
+					$('#iframe')[0].contentWindow.postMessage({'video': this.href.split('/').pop()}, '*');
+					if($(this).next().data('time')?.length) $(this).next().addClass('active');
+				}
+			});
+		})();
 		$('#_search_').on('submit', function(e){
 			e.preventDefault();
 			w.location.assign(this.action);
@@ -2593,21 +2614,6 @@
 			if(typeof(e.code) != 'undefined') return;
 			w.location.assign($(this.list).find('option[value="' + this.value + '"]')[0].dataset.href);
 			this.value = '';
-		});
-		$('.page').find('.play').on('click', function(e){
-			e.preventDefault();
-			$('.active').removeClass('active');
-			$(this).addClass('active');
-			if($('#iframe')[0].src == 'about:blank'){
-				$('body').addClass('loading');
-				let x = $('#iframe').next()[0].innerHTML.trim().replace(/\s\/\/.*/g, '').replace(/\s+/g, ' ');
-				let xx = ['https://urlecho.appspot.com/echo?X-XSS-Protection=0&body=', 'https://public-firing-range.appspot.com/reflected/parameter/head?q='][1];
-				$('#iframe')[0].src = xx + encodeURIComponent('<!DOCTYPE html>' + x);
-			} else {
-				c.log('%c' + this.textContent, 'font-weight: bold;');
-				$('#iframe')[0].contentWindow.postMessage({'video': this.href.split('/').pop()}, '*');
-				if($(this).next().data('time')?.length) $(this).next().addClass('active');
-			}
 		});
 		$('#search').find('form').on('submit', function(e){
 			e.preventDefault();
@@ -2638,6 +2644,6 @@
 				$(this).parent().find('ol').append('<li>' + error + '</li>');
 			}
 		});
-	});
+	})();
 ]]></script>
 </xml>
