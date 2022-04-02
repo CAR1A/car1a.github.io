@@ -25,8 +25,11 @@
 		'medias': 'media',
 		'liens': 'links',
 	};
-	let search = _.search.startsWith('?/') ? _.search.split('?').slice(2).map(_=>'?'+_).join('') : _.search;
-	if(q in paths) _.replace(paths[q] + p.map(_=>'/'+_).join('') + search + _.hash);
+	if(q in paths){
+		document.title = '...';
+		let search = _.search.startsWith('?/') ? _.search.split('?').slice(2).map(_=>'?'+_).join('') : _.search;
+		_.replace(paths[q] + p.map(_=>'/'+_).join('') + search + _.hash);
+	}
 </script>
 <template id="todo"><h1>Todo</h1>
 	- rename &lt;xml&gt;?
@@ -37,8 +40,7 @@
 	<h2>index.html</h2>
 	- srcset / media queries for images?
 	- fetch refresh / retry button?
-	- tiktok gif on hover?
-	- ig and tt urls inside srcdoc? (problem with window.name?)
+	- ig and tt urls inside srcdoc? (set iframe.name to {'time': 0, 'url': 'http://...'}?)
 	<h2>links.xml</h2>
 	- fix fb etc links
 	- overlay hash urls?
