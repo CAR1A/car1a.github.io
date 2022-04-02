@@ -1,7 +1,7 @@
-<!DOCTYPE rss>
+<?xml version="1.0"?><!DOCTYPE html>
 <rss version="2.0"><script id="xml" type="text/xml" xmlns="http://www.w3.org/1999/xhtml"/><channel xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gd="http://schemas.google.com/g/2005">
 <title>CARLA Events</title>
-<description xml:lang="en">❤ All CARLA (Lazzari) from Junior Eurovision / Bim Bam Toi events. TV shows, concerts (Bim Bam Tour 2022/2023), birthdays and more!</description>
+<description xml:lang="en">CARLA❤: All Carla Lazzari from Junior Eurovision / Bim Bam Toi events. TV shows, concerts (Bim Bam Tour 2022/2023), birthdays etc.</description>
 <link>https://carlax.ml/events</link>
 <atom:id>https://carlax.ml/events</atom:id>
 <atom:icon>data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23EDD;'/%3E</atom:icon>
@@ -139,13 +139,13 @@
 	<xsl:variable name="item" select="key('items', substring-after($q, '?/'))"/>
 	<xsl:variable name="description">
 		<xsl:choose>
-			<xsl:when test="$item">❤ CARLA Event: <xsl:value-of select="concat($item/title, ' (', $item/gd:when/@startTime, ' | ', $item/gd:where/@valueString, ')')"/></xsl:when>
+			<xsl:when test="$item">CARLA❤: <xsl:if test="$item/category[not(@domain)] = 'event/concert'">Music </xsl:if>Event | <xsl:value-of select="concat($item/title, ' | ', $item/gd:when/@startTime, ' | ', $item/gd:where/@valueString)"/></xsl:when>
 			<xsl:otherwise><xsl:value-of select="channel/description"/></xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
 	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="channel">
-		<html>
+		<html lang="">
 			<head title="{title}">
 				<meta name="robots" content="{substring('no', 1 div boolean($q and not($item)))}index, follow, noarchive"/>
 				<meta name="googlebot" content="indexifembedded, noimageindex, notranslate, max-snippet:-1, max-image-preview:large, max-video-preview:0"/>
@@ -184,10 +184,9 @@
 						</ol>
 					</nav>
 				</xsl:if>
-				<main>
-					<xsl:choose>
-						<xsl:when test="not($item)">
-							<xsl:attribute name="class">list</xsl:attribute>
+				<xsl:choose>
+					<xsl:when test="not($item)">
+						<main class="list">
 							<xsl:if test="not($embed)">
 								<h2 id="upcoming">Upcoming</h2>
 							</xsl:if>
@@ -206,9 +205,10 @@
 							<span id="online" itemprop="eventAttendanceMode" content="http://schema.org/OnlineEventAttendanceMode"></span>
 							<hr/>
 							<a id="updated" href="events"><span lang="en">Last updated</span>: <time><xsl:value-of select="substring-before(atom:updated, 'T')"/></time></a>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:attribute name="class">item <xsl:value-of select="translate($item/category[not(@domain)], '/', ' ')"/></xsl:attribute>
+						</main>
+					</xsl:when>
+					<xsl:otherwise>
+						<main class="item {translate($item/category[not(@domain)], '/', ' ')}" itemscope="" itemtype="http://schema.org/Event">
 							<link itemprop="url" href="{$item/guid}"/>
 							<link itemprop="eventStatus" href="http://schema.org/EventScheduled"/>
 							<div class="image">
@@ -277,9 +277,9 @@
 								<tr><th scope="row"><span lang="en">Organizer</span></th><td itemid="./#carla" itemprop="organizer" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">CARLA</span></td></tr>
 								<tr><th scope="row"><span lang="en">Language</span></th><td itemprop="inLanguage">French</td></tr>
 							</table>
-						</xsl:otherwise>
-					</xsl:choose>
-				</main>
+						</main>
+					</xsl:otherwise>
+				</xsl:choose>
 				<xsl:if test="not($embed)">
 					<hr/>
 					<footer>
@@ -337,7 +337,7 @@
 		</article>
 	</xsl:template>
 	<xsl:template match="atom:link">
-		<a class="link" href="{@href}" title="{substring-after(@href, '//')}"><img src="https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;fallback_opts=SIZE&amp;size=32&amp;url=https://{substring-before(concat(substring-after(@href, '//'), '/'), '/')}" width="20" height="20" alt=""/><xsl:value-of select="substring-after(@href, '//')"/></a>
+		<a class="link" href="{@href}" title="{substring-after(@href, '//')}"><img src="https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;fallback_opts=SIZE&amp;size=32&amp;url=https://{substring-before(concat(substring-after(@href, '//'), '/'), '/')}" width="20" height="20" alt="" loading="lazy"/><xsl:value-of select="substring-after(@href, '//')"/></a>
 	</xsl:template>
 	<xsl:template name="style"><![CDATA[
 		@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
@@ -395,6 +395,7 @@
 		let modified = new Date(document.lastModified);
 		document.querySelectorAll('#updated>time').forEach(_=>_.dateTime = new Date(modified - modified.getTimezoneOffset()*60*1000).toISOString().split('T')[0]);
 		(function clock(now = new Date()){
+			if(window.location.search == '?NOSCRIPT') return document.title = '[NOSCRIPT] ' + document.title;
 			document.querySelectorAll('time').forEach(time=>{
 				if(time.className == 'now') time.dateTime = new Date(now - now.getTimezoneOffset()*60*1000).toISOString().split('.')[0];
 				if(time.dataset.days === undefined){
@@ -417,14 +418,15 @@
 <noscript><meta http-equiv="Refresh" content="0;URL=error?message=This+page+requires+javascript"/></noscript>
 <script>'use strict';
 	try {
+		if(window.location.search == '?TEST') throw '';
 		let xml = new DOMParser().parseFromString(document.getElementById('xml').text.slice(0, -4), 'text/xml');
 		xml.querySelectorAll('parsererror>div').forEach(_=>console.warn(_.textContent.trim()));
 		let xsl = new XSLTProcessor();
 		xsl.importStylesheet(xml.getElementById('xsl'));
 		xsl.setParameter(null, 'q', window.location.search);
-		let html = xsl.transformToDocument(xml);
-		window.addEventListener('load', function(e){
-			document.write(new XMLSerializer().serializeToString(html.doctype) + html.documentElement.outerHTML);
+		let html = '<!DOCTYPE html>' + xsl.transformToDocument(xml).documentElement.outerHTML;
+		window.addEventListener('load', e=>{
+			document.open().write(html);
 			document.close();
 		}, {'capture': true, 'once': true});
 	} catch(e) {window.location.replace('error?message=' + encodeURIComponent(e.message));}
