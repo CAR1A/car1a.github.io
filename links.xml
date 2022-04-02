@@ -1,7 +1,7 @@
 <?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="#xsl"?>
 <xml title="CARLA Links" colour="5FA"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/><meta http-equiv="Refresh" content="0;URL=error" xmlns="http://www.w3.org/1999/xhtml"/><!--
-  ___        ____  _          _         _
- / __|  /\  |  _ \| |   /\   | |  _ ___| |_ ___
+  ___        ____  _          _         _       
+ / __|  /\  |  _ \| |   /\   | |  _ ___| |_ ___ 
 / /    /  \ | |/ /| |  /  \  | | |_|   | | | __|
 \ \___/ /\ \| |\ \| |_/ /\ \ | |_| | | |   |__ |
  \_____/  \___| \______/  \_\|___|_|_|_|_|_|___|
@@ -611,7 +611,9 @@
 </photos>
 
 <archive type="tiktok" id="carlamusicoff">
-	<v>7078737503431232773</v>
+	<_>7081308821657980165</_>
+	<_>7080913642119597318</_>
+	<_>7078737503431232773</_>
 	<_>7078358699730865414</_>
 	<v>7078323277021646085</v>
 	<_>7077957020296432902</_>
@@ -856,6 +858,7 @@
 </archive>
 
 <archive type="instagram" id="carlamusicoff">
+	<p><reel id="CbxqgY5gww6"/></p>
 	<p id="CbiXO69r_NV"/>
 	<p id="CbX5NVxDk1s"/>
 	<p id="Ca5SxQyLU3E"/>
@@ -1200,22 +1203,26 @@
 	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="xml">
 		<xsl:copy-of select="comment()"/>
-		<html>
+		<html lang="">
 			<head title="{@title}">
 				<meta name="robots" content="{*/@content}"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="theme-color" content="#{@colour}"/>
 				<title><xsl:value-of select="@title"/></title>
+				<base target="_top"/>
 				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23{@colour};'/%3E"/>
+				<script>'use strict';
+					console.log('%c' + document.childNodes[1].data, 'color: #<xsl:value-of select="@colour"/>;');
+					var errors = {'textContent': document.childNodes[1].data};
+					window.addEventListener('error', function(e){(window.log||errors).textContent += '\r\n' + (e.message ? e.message : e.target.nodeName + ' | ' + e.target.src);}, true);
+					window.addEventListener('load', function(e){window.log.textContent += errors.textContent;});
+				</script>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
-				<script>console.log('%c' + document.childNodes[1].data, 'color: #<xsl:value-of select="@colour"/>;');</script>
 				<style onload="window.history.scrollRestoration = 'auto';"><xsl:value-of select="style"/></style>
 			</head>
 			<body style="--colour: #{@colour};">
-				<header>
-					<nav><iframe src="i.html#links" title="Menu"></iframe></nav>
-					<h1 id="links"><xsl:value-of select="@title"/></h1>
-				</header>
+				<h1 id="links"><xsl:value-of select="@title"/></h1>
+				<nav><iframe src="i.html#links" title="Menu"></iframe></nav>
 				<section id="various">
 					<h2>Various</h2>
 					<ul>
@@ -1244,6 +1251,7 @@
 					<h2>Archive</h2>
 					<xsl:apply-templates select="archive"/>
 				</section>
+				<details><summary>Log</summary><pre id="log"></pre></details>
 				<div id="overlay">
 					<a class="close"><svg display="none"><use href="#cross"/></svg></a>
 					<a class="previous"><svg display="none"><use href="#arrow"/></svg></a>
@@ -1402,7 +1410,7 @@
 	<xsl:template match="p[@id]|reel|tv">
 		<li class="instagram photo">
 			<a href="http://instagr.am/p/{@id}" title="{@id}" data-embed="instagr.am/p/{@id}/embed/captioned">
-				<img src="https://thum.io/get/noanimate/width/105/http://instagr.am/p/{@id}/embed" width="100" height="100" alt="" loading="lazy"/>
+				<img src="https://thum.io/get/noanimate/width/105/http://instagr.am/p/{@id}/embed" width="100" height="100" alt="" loading="lazy" onerror="this.onerror = null; this.src = 'https://ddg.gg/iu?u=' + this.src;"/>
 			</a>
 		</li>
 	</xsl:template>
@@ -1431,11 +1439,11 @@
 	h1, h2, h3 {margin: 0px auto;}
 	h1 {display: none;}
 	a {color: inherit; text-decoration: none;}
-	a:hover {text-decoration: underline;}
+	a:hover, summary:hover {text-decoration: underline; cursor: pointer;}
 	ul, ol {margin: 0px; padding: 0px;}
 	iframe {display: block; border-style: none;}
-	header>nav {height: 100px; background-color: var(--colour); background-image: linear-gradient(90deg, transparent, #5FF);}
-	header>nav iframe {width: 100%; height: 100%;}
+	nav {height: 100px; background-color: var(--colour); background-image: linear-gradient(90deg, transparent, #5FF);}
+	nav>iframe {width: 100%; height: 100%;}
 	section {margin: 30px auto; width: 90%; box-shadow: 0px 0px 20px #0002;}
 	section>h2 {margin: 0px; font-size: 50px; color: #FFF; background: linear-gradient(90deg, var(--colour), lightblue); text-transform: uppercase;}
 	section:target>h2 {text-decoration: underline;}
@@ -1488,6 +1496,7 @@
 	.photo img {position: relative;}
 	.photo a, .photo img {display: block; object-fit: cover;}
 	.photo a:hover {box-shadow: 0px 0px 10px #FFF; filter: brightness(1.25);}
+	#log {display: inline-block; padding: 10px; color: #000; border: 1px dashed #000;}
 ]]></style>
 <script><![CDATA['use strict';
 	(function load($ = window.jQuery, w = window, d = document, c = console){
