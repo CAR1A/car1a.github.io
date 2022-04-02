@@ -9,14 +9,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="color-scheme" content="normal"/>
 <meta name="theme-color" content="#EDD"/>
-<meta name="description" property="og:description" lang="en" content="❤ All about CARLA (Lazzari) from Junior Eurovision / Bim Bam Toi. News, social media, upcoming events, song lyrics with translations, interviews and more!"/>
+<meta name="description" property="og:description" lang="en" content="CARLA❤&#65039;: All about Carla Lazzari from Junior Eurovision / Bim Bam Toi. News, social media (TikTok, Instagram), concerts, events, song lyrics, interviews etc."/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta property="og:type" content="website"/>
 <meta property="og:image" content="https://thum.io/get/noanimate/ogImage/http://public-firing-range.appspot.com/reflected/parameter/head?q=%3Cstyle%3E@import%20'//evolventa.github.io/webfonts/evolventa.css';body%7Bmargin:0;font:28vw%20Evolventa;text-align:center;color:%23FFF;height:52.5vw;line-height:56vw;background:linear-gradient(%23D7F,%2388F);%7D%3C/style%3ECARLA"/>
 <meta property="og:image" content="https://thum.io/get/noanimate/ogImage/http://urlecho.appspot.com/echo?X-XXS-Protection=0&amp;body=%3C!DOCTYPE%20html%3E%3Cstyle%3E@import%20'//evolventa.github.io/webfonts/evolventa.css';body%7Bmargin:0;font:28vw%20Evolventa;text-align:center;color:%23FFF;height:52.5vw;line-height:56vw;background:linear-gradient(%23D7F,%2388F);%7D%3C/style%3ECARLA"/>
 <meta property="og:url" content="https://carlax.ml/"/>
 <meta property="og:title og:site_name" content="CARLA"/>
-<title translate="no">CARLA – Carla Lazzari | CarlaMusicOff | Bim Bam Toi</title>
+<title translate="no">CARLA – Carla Lazzari | CarlaMusicOff | Bim Bam Toi ❤&#65038;</title>
 <base target="_top"/>
 <link rel="canonical" href="https://carlax.ml/"/>
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23EDD;'/%3E"/>
@@ -25,7 +25,7 @@
 <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Itim&amp;display=swap" onload="this.onload = null; this.rel = 'stylesheet';"/>
 <link rel="preload" as="image" href="https://i0.wp.com/lemondedesados.fr/wp-content/uploads/2021/01/Carla0490-V1.jpg?w=1600" onload="document.documentElement.style = `--bg: url('${this.href}')`;"/> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" data-src="//code.jquery.com/jquery-3.6.0.slim.min.js" onerror="this.removeAttribute('onerror'); this.src = this.dataset.src; this.replaceWith(new Range().createContextualFragment(this.outerHTML));"></script>
 <style title="Default" onload="window.history.scrollRestoration = 'manual';">
 	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: #111; background: #EDD var(--bg, url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1036"/>')) top/cover fixed; transition: background 3s;}
 	h1, h2, h3 {margin: 0px; font-weight: normal;}
@@ -42,12 +42,14 @@
 	article>h2 {position: relative; line-height: 25px; margin-bottom: 10px; border-radius: 10px; background-color: #FFF; box-shadow: 0px 0px 2px #000C; text-transform: uppercase;}
 	article>h2:target {background-color: #FF6;}
 	article>h2 a {display: block;}
-	article>h2 img {position: absolute; left: 0px; height: 100%; padding: 2px 10px; box-sizing: border-box;}
+	article>h2 img {position: absolute; left: 0px; height: 100%; padding: 2px 0px; box-sizing: border-box; object-fit: contain;}
 	nav {height: 100px;}
 	nav>iframe {width: 100%; height: 100%;}
 	[lang="fr"] {font-style: italic;}
 	[hidden] {display: none !important;}
 	.info {height: 28px; line-height: 28px; margin: 1px 6px; border-radius: 15px; background-color: #0001;}
+	.info.error {background-color: #F006;}
+	.info.error::before {content: attr(title);}
 	.info iframe {display: inline;}
 	.links {display: inline-block; margin: 0px; padding: 0px; height: 20px; line-height: 20px; text-align: center; vertical-align: middle; list-style: none;}
 	.links a {display: block;}
@@ -73,9 +75,11 @@
 	#in .about {position: relative; margin-top: -90px;}
 	#ig .stories {width: 50px; border-radius: 5px; background-image: linear-gradient(45deg, #FE4, #F7A);}
 	#ig .item {display: block; margin: 10px auto;}
+	#ig .item>img[style] {background-size: 105%; background-position: 50% 100%;}
 	#ig .overlay iframe {height: 630px; margin-top: -50px;}
 	#tt .item {display: inline-block; position: relative; margin: 5px;}
 	#tt .item span {position: absolute; left: 0px; bottom: 0px; padding: 0px 4px; color: #FFF; text-shadow: 0px 0px 5px #000;}
+	#tt .item:hover>img[style] {content: var(--c);}
 	#yt .content>span {display: block; padding: 5px;}
 	#sp iframe {transition: filter 1s 1s;}
 	#sp iframe:not(:hover) {filter: invert(1);}
@@ -88,9 +92,10 @@
 	#yt2 input:not(:checked)+div {height: 60px; line-height: 60px;}
 	#yt2 div a, #yt2 div iframe {display: block; width: 100%; height: auto; background: #000 var(--i, none) center/cover; aspect-ratio: 16 / 9;}
 	#yt2 div a>span {display: inline-block; font-size: 150%; padding: 0px 20px; background-color: #0009;}
+	#yt2 div a>span::before {content: var(--icon, none);}
 	#yt2 div a:hover>span {background-color: #F00; box-shadow: 0px 0px 20px #FFF8;}
 	#fo {color: #FFF; background-color: #0005;}
-	#fo::before {content: ''; display: block; height: 20px;}
+	#fo::before {content: ''; display: block; height: 20px; background-color: #0004;}
 	#fo::after {content: ''; display: block; height: 150px; background-image: linear-gradient(transparent, #0008);}
 	#fo>div {display: inline-block; width: 200px; margin: 10px; padding: 10px; background-color: #0008; text-align: initial; vertical-align: top;}
 	#fo>div>a:first-child {display: block; padding: 10px; border-bottom: 2px solid currentcolor; font-size: 1.5em; text-align: center; background-color: #FFF1; text-transform: uppercase;}
@@ -106,34 +111,30 @@
 <link rel="dns-prefetch" href="//cors.eu.org"/>
 <link rel="dns-prefetch" href="//cors-get-proxy.sirjosh.workers.dev"/>
 <iframe id="fetch" name="fetch" srcdoc="<script>'use strict';
+	let cors = [[
+		'cors.eu.org/', 'seep.eu.org/', 'thingproxy.freeboard.io/fetch/', 'jsonp.afeld.me/?url=', 'netnr-proxy.azurewebsites.net/', 'netnr-proxy.cloudno.de/', 'cors.deno.dev/', 'netnr-proxy.herokuapp.com/', 'cors-suzuki-app.herokuapp.com/', 'arjs-cors-proxy.herokuapp.com/', 'fierce-spire-09192.herokuapp.com/', 'lit-beach-8985.herokuapp.com/?raw=1&amp;url=',
+		'cors-anywhere.azm.workers.dev/', 'cors.ogk.workers.dev/?', 'cors.chitly.workers.dev/?', 'add-cors.nsb.workers.dev/?', 'pardot-cors.tjmpromos.workers.dev/?', 'cors.weboasis.workers.dev/corsproxy/?apiurl=', 'cors.kylekarpack.workers.dev/corsproxy/?apiurl=', 'jolly-queen-9814.kensapps.workers.dev/?url=',
+	], [
+		'cors-get-proxy.sirjosh.workers.dev/?url=', 'cors42.herokuapp.com/?', 'api.allorigins.win/raw?url=', 'hexlet-allorigins.herokuapp.com/raw?url=', 'pika-secret-ocean-49799.herokuapp.com/', 'api.codetabs.com/v1/proxy/?quest=', 'urlreq.appspot.com/req?method=GET&amp;url=', 'urlreq.appspot-preview.com/req?method=GET&amp;url=',
+		'validator.w3.org/nu/?showsource&amp;useragent&amp;out=json&amp;doc=', 'validator.nu/?showsource&amp;useragent&amp;out=json&amp;doc=', 'html5.validator.nu/?showsource&amp;useragent&amp;out=json&amp;doc=', 'validator.unl.edu/?showsource&amp;useragent&amp;out=json&amp;doc=',
+	]];
 	window.onmessage = ({data, ports, source})=>{
-		if(!data || !ports.length || source != window.parent) return console.log(source);
+		if(!data || !ports.length || source != window.parent) return console.warn(source);
 		if(window.origin != 'null') return ports[0].postMessage(new Error(window.origin));
 		(data[0].startsWith('proxy:') ? corsfetch : window.fetch)(...data).then(response=>{
-			return response.ok ? response.text() : Promise.reject(new Error(response.status + ' ' + response.statusText));
-		}).then(text=>{
-			return Promise.reject(text);
+			return response.ok ? response.text().then(text=>Promise.reject({'text': text, 'headers': Object.fromEntries(response.headers)})) : Promise.reject(new Error(response.status + ' ' + response.statusText));
 		}).catch(result=>{
 			ports[0].postMessage(result);
 		});
 	};
 	function corsfetch(url, ...a){
-		url = url.replace('proxy:', '');
-		let cors = [
-			...(!url.includes('instagr') ? [
-				...['cors.eu.org/', 'jsonp.afeld.me/?url=', 'netnr-proxy.azurewebsites.net/', 'nr-proxy.cloudno.de/', 'cors.deno.dev/'],
-				...['netnr-proxy.herokuapp.com/', 'cors-suzuki-app.herokuapp.com/', 'arjs-cors-proxy.herokuapp.com/', 'fierce-spire-09192.herokuapp.com/', 'lit-beach-8985.herokuapp.com/?raw=1&amp;url='],
-				...['cors.netnr.workers.dev/', 'cors-anywhere.azm.workers.dev/', 'cors.ogk.workers.dev/?', 'cors.chitly.workers.dev/?', 'add-cors.nsb.workers.dev/?', 'pardot-cors.tjmpromos.workers.dev/?', 'cors.weboasis.workers.dev/corsproxy/?apiurl=', 'cors.kylekarpack.workers.dev/corsproxy/?apiurl=', 'jolly-queen-9814.kensapps.workers.dev/?url='],
-			] : []),
-			...['cors-get-proxy.sirjosh.workers.dev/?url=', 'cors42.herokuapp.com/?', 'api.allorigins.win/raw?url=', 'hexlet-allorigins.herokuapp.com/raw?url=', 'pika-secret-ocean-49799.herokuapp.com/', 'api.codetabs.com/v1/proxy/?quest='],
-			...['validator.w3.org/nu/?showsource&amp;out=json&amp;doc=', 'validator.nu/?showsource&amp;out=json&amp;doc='],
-			...['urlreq.appspot.com/req?method=GET&amp;url=', 'urlreq.appspot-preview.com/req?method=GET&amp;url='],
-		];
-		return (function retry(proxy = cors.shift()){
+		url = new URL(url.replace('proxy:', ''));
+		let proxies = cors[+(url.hostname == 'www.instagram.com')];
+		return (function retry(proxy = proxies.shift()){
 			return window.fetch('https://' + proxy + (proxy.endsWith('=') ? encodeURIComponent(url) : encodeURI(url)), ...a).then(response=>{
-				return proxy.startsWith('validator') ? response.json().then(json=>new Response(json.source.code||JSON.stringify(json), response)) : response;
+				return proxy.endsWith('doc=') ? response.json().then(json=>new Response(json.source.code||JSON.stringify(json), response)) : response;
 			}).catch(error=>{
-				return cors.length ? retry() : Promise.reject(error);
+				return proxies.length ? retry() : Promise.reject(error);
 			});
 		})();
 	}
@@ -145,8 +146,8 @@
 		a[0] = a[0] instanceof Request ? a[0].url : String(a[0]);
 		let {port1, port2} = new MessageChannel();
 		port1.onmessage = ({data})=>{
-			port1.close();
 			data instanceof Error ? reject(data) : resolve(data);
+			port1.close();
 		};
 		iframe.contentWindow.postMessage(a, '*', [port2]);
 	})());
@@ -154,8 +155,8 @@
 		'cache': Date.now() - window.name < 2*60*1000 ? 'force-cache' : (window.name = Date.now(), 'no-cache'),
 		'headers': {'Accept-Language': 'en-US,en;q=0.9'},
 	};
-	window._instagram = window.fetch('proxy:https://www.instagram.com/p/B3eHfZCoDeM/embed/', options); //6431287765
-	window._tiktok = window.fetch('proxy:https://www.tiktok.com/@carlamusicoff', options); //https://www.tiktok.com/share/user/25864385
+	window._instagram = window.fetch('proxy:https://www.instagram.com/p/B3eHfZCoDeM/embed/?hl=en', options); //6431287765 https://www.instagram.com/p//embed_shadow/ https://www.instagram.com/p//embed_shadow_rich/
+	window._tiktok = window.fetch('proxy:https://www.tiktok.com/@carlamusicoff?lang=en', options); //https://www.tiktok.com/share/user/25864385
 </script>
 
 <nav><iframe src="i.html#index" title="Menu"></iframe></nav>
@@ -165,7 +166,7 @@
 <article id="in">
 	<h2 id="info"><a href="http://wikipedia.org/wiki/Carla_Lazzari" title="info">Info</a></h2>
 	<div id="carla" class="content" itemid="#carla" itemprop="mainEntity" itemscope="" itemtype="http://schema.org/Person">
-		<img src="https://images.weserv.nl/?url=graph.fb.me/carlamusicoff/picture?width=300%26height=300" width="300" height="300" alt="Carla" itemprop="image" style="--i: url('https://images.weserv.nl/?output=webp&amp;blur=20&amp;url=graph.fb.me/carlamusicoff/picture?width=300%26height=300');"/>
+		<img src="https://images.weserv.nl/?url=graph.fb.me/carlamusicoff/picture?width=300%26height=300" width="300" height="300" alt="Carla" itemprop="image" decoding="async" style="--i: url('https://images.weserv.nl/?output=webp&amp;blur=20&amp;url=graph.fb.me/carlamusicoff/picture?width=300%26height=300');"/>
 		<table class="about">
 			<caption><h3><span lang="en">About</span> / <span lang="fr">À propos</span></h3></caption>
 			<tr><th scope="row"><span lang="en">Name</span></th><td><a href="http://wikipedia.org/wiki/Carla_Lazzari" itemProp="sameAs"><b itemprop="name"><span itemprop="givenName">Carla</span> <span itemprop="familyName">Lazzari</span></b></a> (<span itemprop="alternateName">CarlaMusicOff</span>)</td></tr>
@@ -197,6 +198,7 @@
 		<link itemprop="sameAs" href="http://google.com/search?kgmid=/g/11fnxrskv0"/>
 		<link itemprop="sameAs" href="http://artsandculture.google.com/entity/g11fnxrskv0"/>
 		<link itemprop="gender" href="http://schema.org/Female"/>
+		<link itemprop="url" href="./"/>
 	</div>
 </article>
 
@@ -206,13 +208,13 @@
 </article>
 
 <article id="tt">
-	<h2 id="tiktok"><a href="http://tiktok.com/@carlamusicoff" title="tiktok.com/@carlamusicoff"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://tiktok.com" alt=""/>TikTok</a></h2>
+	<h2 id="tiktok"><a href="http://tiktok.com/@carlamusicoff" title="tiktok.com/@carlamusicoff"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://tiktok.com" width="32" height="32" alt="" decoding="async"/>TikTok</a></h2>
 	<div class="info"><span class="loading" lang="en">Loading...</span></div>
 	<div class="content">
-		<a class="item" href="http://tiktok.com/@carlamusicoff"><img src="data:," width="135" height="240" alt="1"/></a>
-		<a class="item" href="http://tiktok.com/@carlamusicoff"><img src="data:," width="135" height="240" alt="2"/></a>
-		<a class="item" href="http://tiktok.com/@carlamusicoff"><img src="data:," width="135" height="240" alt="3"/></a>
-		<a class="item" href="http://tiktok.com/@carlamusicoff"><img src="data:," width="135" height="240" alt="4"/></a>
+		<a class="item" href="http://tiktok.com/@carlamusicoff"><img src="data:," width="135" height="240" alt="1" decoding="sync"/></a>
+		<a class="item" href="http://tiktok.com/@carlamusicoff"><img src="data:," width="135" height="240" alt="2" decoding="sync"/></a>
+		<a class="item" href="http://tiktok.com/@carlamusicoff"><img src="data:," width="135" height="240" alt="3" decoding="sync"/></a>
+		<a class="item" href="http://tiktok.com/@carlamusicoff"><img src="data:," width="135" height="240" alt="4" decoding="sync"/></a>
 	</div>
 	<template>
 		<div class="overlay">
@@ -234,19 +236,19 @@
 </article>
 
 <article id="ig">
-	<h2 id="instagram"><a href="http://instagr.am/carlamusicoff" title="instagr.am/carlamusicoff"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://instagr.am" alt=""/>Instagram</a></h2>
+	<h2 id="instagram"><a href="http://instagr.am/carlamusicoff" title="instagr.am/carlamusicoff"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://instagr.am" width="32" height="32" alt="" decoding="async"/>Instagram</a></h2>
 	<div class="info">
 		<ul class="stories links" title="View latest stories" hidden="hidden">
-			<li><a href="http://anon-instastories.online/carlamusicoff">Stories<br/><span title="">1</span></a></li>
-			<li><a href="http://insta-stories.online/carlamusicoff" title="">2</a></li>
-			<li><a href="http://insta-stories.ru/carlamusicoff" title="">3</a></li>
-			<li><a href="http://mystalk.net/profile/carlamusicoff" title="">4</a></li>
+			<li><a href="http://anon-instastories.online/carlamusicoff">Stories<br/><span title="anon-instastories.online">1</span></a></li>
+			<li><a href="http://insta-stories.online/carlamusicoff" title="insta-stories.online">2</a></li>
+			<li><a href="http://insta-stories.ru/carlamusicoff" title="insta-stories.ru">3</a></li>
+			<li><a href="http://mystalk.net/profile/carlamusicoff" title="mystalk.net">4</a></li>
 		</ul>
 		<span class="loading" lang="en">Loading...</span>
 	</div>
 	<div class="content">
-		<a class="item" href="http://instagr.am/carlamusicoff"><img src="data:," width="240" height="240" alt="1"/></a>
-		<a class="item" href="http://instagr.am/carlamusicoff"><img src="data:," width="240" height="240" alt="2"/></a>
+		<a class="item" href="http://instagr.am/carlamusicoff"><img src="data:," width="240" height="240" alt="1" decoding="sync"/></a>
+		<a class="item" href="http://instagr.am/carlamusicoff"><img src="data:," width="240" height="240" alt="2" decoding="sync"/></a>
 	</div>
 	<template>
 		<div class="overlay">
@@ -263,25 +265,31 @@
 </article>
 
 <article id="fb">
-	<h2 id="facebook"><a href="http://fb.com/carlamusicoff" title="fb.com/carlamusicoff"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://fb.com" alt=""/>Facebook</a></h2>
-	<iframe srcdoc="" src="https://www.facebook.com/plugins/page?href=carlamusicoff&amp;tabs=timeline&amp;small_header=1&amp;hide_cover=1&amp;show_facepile=0&amp;width=300&amp;height=530" width="300" height="530" title="Facebook" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
+	<h2 id="facebook"><a href="http://fb.com/carlamusicoff" title="fb.com/carlamusicoff"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://fb.com" width="32" height="32" alt="" decoding="async"/>Facebook</a></h2>
+	<iframe name="facebook" srcdoc="" src="https://www.facebook.com/plugins/page?href=carlamusicoff&amp;tabs=timeline&amp;small_header=1&amp;hide_cover=1&amp;show_facepile=0&amp;width=300&amp;height=530" width="300" height="530" title="Facebook" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
 </article>
 
 <article id="tw">
-	<h2 id="twitter"><a href="http://twitter.com/carlamusicoff_" title="twitter.com/carlamusicoff_"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://twitter.com" alt=""/>Twitter</a></h2>
-	<div class="info"><iframe srcdoc="" src="https://platform.twitter.com/widgets/follow_button.html?dnt=true&amp;show_screen_name=false&amp;size=l&amp;screen_name=carlamusicoff_" width="182" height="37" title="Twitter" loading="lazy" style="margin-bottom: -9px;"></iframe></div>
-	<iframe srcdoc="<script>frameElement.src = 'data:text/html,' + encodeURIComponent(name);</script>" src="javascript:name" width="300" height="500" title="Twitter" allow="encrypted-media *; fullscreen *" loading="lazy" name="
+	<h2 id="twitter"><a href="http://twitter.com/carlamusicoff_" title="twitter.com/carlamusicoff_"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://twitter.com" width="32" height="32" alt="" decoding="async"/>Twitter</a></h2>
+	<div class="info"><iframe name="twitter" srcdoc="" src="https://platform.twitter.com/widgets/follow_button.html?dnt=true&amp;show_screen_name=false&amp;size=l&amp;screen_name=carlamusicoff_" width="182" height="37" title="Twitter" loading="lazy" style="margin-bottom: -9px;"></iframe></div>
+	<iframe srcdoc="<script>if(!window.frameElement) document.write(window.name);</script>" src="javascript:window.frameElement.dataset.src" width="300" height="500" title="Twitter" allow="encrypted-media *; fullscreen *" loading="lazy" data-src="
 		<!DOCTYPE html>
+		<script>!window.frameElement ? document.write(window.name) : window.location.replace('data:text/html,' + encodeURIComponent('<!DOCTYPE html>' + window.name));</script>
+	" name="
+		<meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;img-src data: https://abs.twimg.com https://pbs.twimg.com https://ton.twimg.com/tfw/assets/&quot;/>
+		<meta name=&quot;robots&quot; content=&quot;index, nofollow&quot;/>
+		<meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/>
 		<title>Twitter</title>
-		<script src=&quot;https://platform.twitter.com/widgets.js&quot; async=&quot;async&quot;></script>
-		<style>body {margin: 0px;} iframe {display: block; border-style: none;}</style>
+		<base href=&quot;https://platform.twitter.com/&quot; target=&quot;_top&quot;/>
+		<script src=&quot;widgets.js&quot; async=&quot;async&quot;></script>
+		<style>body {margin: 0px;}</style>
 		<a class=&quot;twitter-timeline&quot; href=&quot;http://twitter.com/carlamusicoff_&quot; data-chrome=&quot;transparent noheader nofooter&quot; data-dnt=&quot;true&quot; data-show-replies=&quot;true&quot;></a>
 	"></iframe>
 </article>
 
 <article id="yt">
-	<h2 id="youtube"><a href="http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA" title="youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://youtube.com" alt=""/>YouTube</a></h2>
-	<div class="info"><iframe srcdoc="" src="https://www.youtube.com/subscribe_embed?channelid=UCOU6K1QqlJJKUKWsK2dKcFA" width="156" height="24" title="YouTube" loading="lazy" style="margin-top: 2px;"></iframe></div>
+	<h2 id="youtube"><a href="http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA" title="youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://youtube.com" width="32" height="32" alt="" decoding="async"/>YouTube</a></h2>
+	<div class="info"><iframe name="youtube" srcdoc="" src="https://www.youtube.com/subscribe_embed?channelid=UCOU6K1QqlJJKUKWsK2dKcFA" width="156" height="24" title="YouTube" loading="lazy" style="margin-top: 2px;"></iframe></div>
 	<div class="content">
 		<span>
 			<a href="http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA" title="youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA">Carla Officiel ♪</a>
@@ -302,21 +310,21 @@
 </article>
 
 <article id="sp">
-	<h2 id="spotify"><a href="http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr" title="open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://open.spotify.com" alt=""/>Spotify</a></h2>
-	<iframe srcdoc="" src="https://open.spotify.com/embed/artist/7dgCfYEmAX7OxaYWgCGxAr?theme=0" width="300" height="530" title="Spotify" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
+	<h2 id="spotify"><a href="http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr" title="open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://open.spotify.com" width="32" height="32" alt="" decoding="async"/>Spotify</a></h2>
+	<iframe name="spotify" srcdoc="" src="https://open.spotify.com/embed/artist/7dgCfYEmAX7OxaYWgCGxAr?theme=0" width="300" height="530" title="Spotify" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
 </article>
 
 <span id="test" class="test" hidden="hidden"><!--<article id="x1">
 	<h2 id="deezer"><a href="http://deezer.com/artist/78960852" title="deezer.com/artist/78960852"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://deezer.com" alt=""/>Deezer</a></h2>
-	<iframe srcdoc="" src="https://widget.deezer.com/widget/auto/artist/78960852/top_tracks" width="300" height="530" title="Deezer" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
+	<iframe name="deezer" srcdoc="" src="https://widget.deezer.com/widget/auto/artist/78960852/top_tracks" width="300" height="530" title="Deezer" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
 </article>
 <article id="x2">
 	<h2 id="amazon"><a href="http://music.amazon.com/artists/B000QKNPYM" title="music.amazon.com/artists/B000QKNPYM"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://music.amazon.com" alt=""/>Amazon Music</a></h2>
-	<iframe srcdoc="" src="https://music.amazon.com/embed/B000QKNPYM" width="300" height="530" title="Amazon Music" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
+	<iframe name="amazon" srcdoc="" src="https://music.amazon.com/embed/B000QKNPYM" width="300" height="530" title="Amazon Music" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
 </article>
 <article id="x3">
 	<h2 id="soundcloud"><a href="http://soundcloud.com/carla86924" title="soundcloud.com/carla86924"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://soundcloud.com" alt=""/>SoundCloud</a></h2>
-	<iframe srcdoc="" src="https://w.soundcloud.com/player/?url=api.soundcloud.com/users/264222020" width="300" height="530" title="SoundCloud" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
+	<iframe name="soundcloud" srcdoc="" src="https://w.soundcloud.com/player/?url=api.soundcloud.com/users/264222020" width="300" height="530" title="SoundCloud" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
 </article>
 <article id="x4">
 	<h2 id="apple"><a href="http://music.apple.com/artist/1168132808" title="music.apple.com/artist/1168132808"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://music.apple.com" alt=""/>Apple Music</a></h2>
@@ -344,7 +352,7 @@
 </article>
 <article id="x7">
 	<h2 id="wikipedia"><a href="http://wikipedia.org/wiki/Carla_Lazzari" title="wikipedia.org/wiki/Carla_Lazzari"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://wikipedia.org" alt=""/>Wikipedia</a></h2>
-	<iframe srcdoc="" src="https://en-wp.org/wiki/Carla_Lazzari?useskin=apioutput" data-x="https://en-wp.org/api/rest_v1/page/mobile-html/Carla_Lazzari" width="300" height="530" title="Wikipedia" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
+	<iframe name="wikipedia" srcdoc="" src="https://en-wp.org/wiki/Carla_Lazzari?useskin=apioutput" data-x="https://en-wp.org/api/rest_v1/page/mobile-html/Carla_Lazzari" width="300" height="530" title="Wikipedia" allow="encrypted-media *; fullscreen *" loading="lazy"></iframe>
 </article>
 <article id="x8">
 	<h2 id="sponsors">(Sponsors)</h2>
@@ -358,35 +366,23 @@
 
 <hr/>
 
-<form id="yt2" autocomplete="off">
+<form id="yt2" autocomplete="off" style="--icon: url('https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://youtube.com');">
 	<input id="i1" name="radio" type="radio" hidden="hidden"/>
-	<div style="--i: url('https://i.ytimg.com/vi_webp/pjJ2w1FX_Wg/maxresdefault.webp');">
-		<label for="i1"></label>
-		<a href="http://youtu.be/pjJ2w1FX_Wg" data-src="https://www.youtube-nocookie.com/embed/pjJ2w1FX_Wg?rel=0&amp;widget_referrer=youtu.be"><span>Carla - Bim Bam toi</span></a>
-	</div>
+	<div style="--i: url('https://i.ytimg.com/vi_webp/pjJ2w1FX_Wg/maxresdefault.webp');"><label for="i1"></label><a href="http://youtu.be/pjJ2w1FX_Wg"><span>Carla - Bim Bam toi</span></a></div>
 	<input id="i2" name="radio" type="radio" hidden="hidden"/>
-	<div>
-		<label for="i2"></label>
-		<a href="http://youtube.com/playlist?list=UUOU6K1QqlJJKUKWsK2dKcFA" data-src="https://www.youtube-nocookie.com/embed?list=UUOU6K1QqlJJKUKWsK2dKcFA&amp;rel=0&amp;widget_referrer=youtu.be"><span>Carla Officiel ♪</span></a>
-	</div>
+	<div><label for="i2"></label><a href="http://youtube.com/playlist?list=UUOU6K1QqlJJKUKWsK2dKcFA"><span>Carla Officiel ♪</span></a></div>
 	<input id="i3" name="radio" type="radio" hidden="hidden"/>
-	<div>
-		<label for="i3"></label>
-		<a href="http://youtube.com/playlist?list=UUpdUhnKOw5FcNNeThLR3WfQ" data-src="https://www.youtube-nocookie.com/embed?list=UUpdUhnKOw5FcNNeThLR3WfQ&amp;rel=0&amp;widget_referrer=youtu.be"><span>CarlamusicoffVEVO</span></a>
-	</div>
+	<div><label for="i3"></label><a href="http://youtube.com/playlist?list=UUpdUhnKOw5FcNNeThLR3WfQ"><span>CarlamusicoffVEVO</span></a></div>
 	<input id="i4" name="radio" type="radio" hidden="hidden"/>
-	<div>
-		<label for="i4"></label>
-		<a href="http://youtube.com/playlist?list=UUm9M-Gb7mOaEqI_HXGszaIw" data-src="https://www.youtube-nocookie.com/embed?list=UUm9M-Gb7mOaEqI_HXGszaIw&amp;rel=0&amp;widget_referrer=youtu.be"><span>Carla - Topic</span></a>
-	</div>
+	<div><label for="i4"></label><a href="http://youtube.com/playlist?list=UUm9M-Gb7mOaEqI_HXGszaIw"><span>Carla - Topic</span></a></div>
 	<input id="i0" name="radio" type="radio" hidden="hidden" checked="checked"/>
-	<div>
-		<label for="i0"></label>
-	</div>
-	<template><iframe src="about:blank" width="640" height="360" title="YouTube" allow="autoplay *; encrypted-media *; fullscreen *" referrerpolicy="origin" loading="lazy"></iframe></template>
-	<template id="origin">
+	<div><label for="i0"></label></div>
+	<template data-src="https://www.youtube-nocookie.com/embed" data-params="rel=0&amp;widget_referrer=youtu.be" data-origin="https://public-firing-range.appspot-preview.com/reflected/parameter/head?q=" data-frame="
+		<!DOCTYPE html>
+		<title>YouTube</title>
 		<style>body {margin: 0px;} iframe {display: block; width: 100vw; height: 100vh; border-style: none;}</style>
-		<iframe src="about:blank" allow="autoplay *; encrypted-media *; fullscreen *" referrerpolicy="origin"></iframe>
+	">
+		<iframe src="about:blank" width="640" height="360" title="YouTube" allow="autoplay *; encrypted-media *; fullscreen *" referrerpolicy="origin" loading="lazy"></iframe>
 	</template>
 </form>
 
@@ -434,11 +430,12 @@
 		</ul>
 		<div class="description" lang="en">Various other links.</div>
 	</div>
-	<span itemprop="isPartOf" itemscope="" itemtype="http://schema.org/WebSite" itemref="carla">
+	<span itemscope="" itemtype="http://schema.org/WebSite" itemref="carla">
 		<span itemprop="author creator producer publisher" itemscope="" itemtype="http://schema.org/Organization">
 			<a href="./" itemprop="url"><img id="logo" src="data:," width="240" height="126" alt="" loading="lazy"/></a>
 		</span>
-		<small>🄯 <time itemprop="copyrightYear">2020</time>-<time>2022</time></small>
+		<a href="./" itemprop="url"><small>🄯 <time itemprop="copyrightYear">2020</time>-<time>2022</time></small></a>
+		<link itemprop="isAccessibleForFree isFamilyFriendly" href="http://schema.org/True"/>
 	</span>
 </footer>
 
@@ -453,19 +450,21 @@
 			});
 		}
 		(function tiktok($this = $('#tt')){
-			w._tiktok.then(text=>{
+			w._tiktok.then(({text})=>{
 				let $html = $(new DOMParser().parseFromString(text, 'text/html'));
 				let v = (data=>{switch(true){
-						case !!(data = $html.find('#__NEXT_DATA__').text()):
-							return JSON.parse(data).props.pageProps.items;
-						case !!(data = $html.find('#sigi-persisted-data').text()):
-							return Object.values(JSON.parse(data.slice(data.indexOf('{'), data.indexOf('};')+1)).ItemModule);
-						default:
-							c.log(text);
+					case !!(data = $html.find('#__NEXT_DATA__').text()):
+						return JSON.parse(data).props.pageProps.items;
+					case !!(data = $html.find('#sigi-persisted-data').text()):
+						return Object.values(JSON.parse(data.slice(data.indexOf('{'), data.indexOf('};')+1)).ItemModule);
+					case !!$html.find('[data-chunk="csr"]').length:
+						c.warn('CSR');
+					default:
+						c.log(text);
 				}})();
 				let _ = x => x < 1e4 ? x : x.toLocaleString('en', {'notation': 'compact', 'maximumSignificantDigits': 4});
 				$this.find('.item').each(function(i){
-					$(this).find('img').attr({'src': 'https://images.weserv.nl/?output=webp&w=100&url=//t.tiktok.com/api/img/?location=0%26itemId=' + v[i].id, 'style': '--c: url(' + v[i].video.dynamicCover + ');', 'alt': v[i].id});
+					$(this).find('img').attr({'style': '--i: url(https://images.weserv.nl/?output=webp&w=100&url=//t.tiktok.com/api/img/?location=0%26itemId=' + v[i].id + '); --c: url(' + v[i].video.dynamicCover + ');', 'alt': v[i].id});
 					w.requestAnimationFrame(_=>w.setTimeout(_=>$(this).find('img')[0].src = 'https://images.weserv.nl/?w=300&url=' + encodeURIComponent(v[i].video.cover) + '&default=' + encodeURIComponent(v[i].video.cover)));
 					$(this).attr({'href': 'http://m.tiktok.com/v/' + v[i].id, 'title': `${new Date(v[i].createTime*1000).toLocaleString()}\r\n${v[i].desc}\r\n🎵 ${v[i].music.title + ' - ' + v[i].music.authorName}\r\n▷ ${_(v[i].stats.playCount)} · ❤️ ${_(v[i].stats.diggCount)} · 💬 ${_(v[i].stats.commentCount)}\r\n${v[i].video.width}x${v[i].video.height} · ${v[i].video.duration}s`}).on('click', function(e){
 						e.preventDefault();
@@ -477,7 +476,7 @@
 							$this.find('.embed').empty();
 							let url = 'https://godownloader.com/api/tiktok-no-watermark-free?key=godownloader.com&url=' + encodeURIComponent('http://m.tiktok.com/v/' + v[i].id);
 							(function refresh(cache = true){
-								return window.fetch('proxy:' + url, {'cache': cache ? 'force-cache' : 'no-cache'}).then(text=>{
+								return window.fetch('proxy:' + url, {'cache': cache ? 'force-cache' : 'no-cache'}).then(({text})=>{
 									let json = JSON.parse(text);
 									if(cache && (json.desc.startsWith('#CapCut') || new Date(parseInt(new URL(json.video_no_watermark).pathname.split('/')[2], 16)*1000) - Date.now() < 5*60*1000)) return refresh(false);
 									if(json.desc.startsWith('#CapCut')) return Promise.reject();
@@ -498,24 +497,24 @@
 							$(this).closest('.overlay').remove();
 						});
 					});
-					$(this).append(`<span>▷${_(v[i].stats.playCount)}</span>`);
+					if(v[i].stats.playCount) $(this).append(`<span>▷${_(v[i].stats.playCount)}</span>`);
 				});
 				$this.find('.info').attr('title', new Date(+w.name).toLocaleTimeString()).find('.loading').text(v[0].authorStats.videoCount + ' videos · ' + _(v[0].authorStats.followerCount) + ' followers');
 			}).catch(error=>{
-				$this.find('.info').attr('title', error).text(error);
+				$this.find('.info').addClass('error').attr('title', error);
 				w.name = '';
 			});
 		})();
-		(function instagram($this = $('#ig')){
-			w._instagram.then(text=>{
+		(function instagram($this = $('#ig'), img = 'https://images.weserv.nl/?url='){
+			w._instagram.then(({text})=>{
 				let $html = $(new DOMParser().parseFromString(text, 'text/html'));
 				((data = $html.find('script').eq(-2).text())=>{switch(true){
 					case !!(data = data.slice(data.indexOf('{"shortcode_media":'), data.indexOf('});')+1)):
 						let p = JSON.parse(data).shortcode_media.owner.edge_owner_to_timeline_media.edges.map(_=>_.node);
 						$this.find('.item').each(function(i){
 							let x = p[i].shortcode||encode(p[i].id);
-							$(this).find('img').attr({'src': 'https://thum.io/get/noanimate/width/105/http://instagr.am/p/' + x + '/embed', 'style': '--c: url(' + p[i].thumbnail_src + ');', 'alt': x});
-							w.requestAnimationFrame(_=>w.setTimeout(_=>$(this).find('img')[0].src = 'https://images.weserv.nl/?url=instagr.am/p/' + x + '/media'));
+							$(this).find('img').attr({'style': '--i: url(https://thum.io/get/noanimate/width/105/http://instagr.am/p/' + x + '/embed);', 'data-src': img + encodeURIComponent(p[i].thumbnail_src), 'alt': x});
+							w.requestAnimationFrame(_=>w.setTimeout(_=>$(this).find('img')[0].src = img + 'instagr.am/p/' + x + '/media'));
 							$(this).attr({'href': 'http://instagr.am/p/' + x, 'title': `${new Date(1314220021721 + Number(BigInt(p[i].id) >> 23n)).toLocaleString()}`}).on('click', function(e){
 								e.preventDefault();
 								let y = $this.find('template').contents().clone();
@@ -533,16 +532,18 @@
 						break;
 					case !!$html.find('.HoverCardPhotos').length:
 						$this.find('.item').each(function(i){
-							$(this).find('img')[0].src = 'https://images.weserv.nl/?url=' + encodeURIComponent($html.find('.HoverCardPhotos').find('img')[i].src.replaceAll('&amp;', '&'));
+							$(this).find('img')[0].src = img + encodeURIComponent($html.find('.HoverCardPhotos').find('img')[i].src.replaceAll('&amp;', '&'));
 						});
 						break;
+					case !!$html.find('#react-root').length:
+						c.warn('React');
 					default:
 						c.log(text);
 				}})();
 				if($html.find('.StoryRing').length) $this.find('.stories').removeAttr('hidden');
 				$this.find('.info').attr('title', new Date(+w.name).toLocaleTimeString()).find('.loading').text($html.find('.HoverCardStatus').find('span')[0].textContent);
 			}).catch(error=>{
-				$this.find('.info').attr('title', error).text(error);
+				$this.find('.info').addClass('error').attr('title', error);
 				w.name = '';
 			});
 			let abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
@@ -560,58 +561,81 @@
 		})();
 		(function load(){
 			if(d.readyState != 'complete') return w.addEventListener('load', e=>w.setTimeout(load));
-			(function youtube(reload, $this = $('#yt')){
-				//let cache = {'cache': reload ? 'default' : 'force-cache'};
-				//return window.fetch('https://api.factmaven.com/xml-to-json/', cache).then(text=>{
-					//return !reload && (Date.now() - new Date(JSON.parse(text).error.timestamp) > 60*60*1000) ? youtube(true) : Promise.reject();
-				//}).catch(error=>{
-					let $yt2 = $('#yt2').find('div:not([style])');
+			(function youtube($this = $('#yt')){
+				(function reload(cache = true){
+					return w.fetch('https://api.factmaven.com/xml-to-json/', {'cache': cache ? 'force-cache' : 'no-cache'}).then(({text})=>{
+						return cache && (Date.now() - Date.parse(JSON.parse(text).error.timestamp.replace(' EST', '-16:00')) > 24*60*60*1000) ? reload(false) : Promise.reject(cache);
+					});
+				})().catch(cache=>{
 					$this.find('[data-feed]').each(function(i){
-						rss2(this.dataset.feed).then(videos=>{
+						w.fetch('https://api.factmaven.com/xml-to-json/?xml=' + encodeURIComponent('http://www.' + this.dataset.feed), {'cache': cache ? 'force-cache' : 'default'}).then(({text})=>{
+							return Promise.resolve(JSON.parse(text).feed.entry.map(_=>({'date': _.published, 'id': _.videoId, 'title': _.title.replaceAll('"', '&quot;'), 'description': _.group.description.replaceAll('"', '&quot;'), 'views': _.group.community.statistics.views})));
+						}).catch(_=>w.fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent('http://' + this.dataset.feed), {'cache': 'force-cache'}).then(({text})=>{
+							return Promise.resolve(JSON.parse(text).items.map(_=>({'date': _.pubDate, 'id': _.guid.split(':')[2], 'title': _.title})));
+						})).then(videos=>{
+							let json = JSON.stringify({
+								'@context': 'http://schema.org',
+								'@type': 'ItemList',
+								//'name': this.title,
+								'numberOfItems': videos.length,
+								'itemListElement': videos.map((video, i)=>({
+									'@type': 'ListItem',
+									'position': i+1,
+									'item': {
+										'@type': 'VideoObject',
+										'name': video.title,
+										'description': video.description||'',
+										'uploadDate': video.date,
+										'url': 'http://youtu.be/' + video.id,
+										'thumbnailUrl': 'http://i.ytimg.com/vi_webp/' + video.id + '/mqdefault.webp',
+										'embedUrl': 'http://youtube.com/embed/' + video.id,
+										'potentialAction': {
+											'@type': 'SeekToAction',
+											'target': 'http://youtu.be/' + video.id + '?t={seek_to_second_number}',
+											'startOffset-input': 'required name=seek_to_second_number',
+										},
+										...video.views && {'interactionStatistic': {
+											'@type': 'InteractionCounter',
+											'interactionType': {'@type': 'WatchAction'},
+											'userInteractionCount': video.views,
+										}},
+									},
+								})),
+							});
+							$(this).append(`<script type="application/ld+json">${json}<\/script>`)[0].title = videos.map(_=>_.date + ': ' + _.title).join('\r\n');
 							for(let video of videos.slice(0, 4)){
-								$(this).append(`<a href="http://youtu.be/${video.id}" title="${new Date(video.date).toLocaleString() + '\r\n' + video.title + '\r\n' + video.views + ' views'}"><img src="https://i.ytimg.com/vi_webp/${video.id}/default.webp" width="120" height="68" alt="${video.title}" loading="lazy"/></a>`);
+								$(this).append(`<a href="http://youtu.be/${video.id}" title="${new Date(video.date).toLocaleString() + '\r\n' + video.title + '\r\n' + video.views + ' views\r\n\r\n' + video.description}"><img src="https://i.ytimg.com/vi_webp/${video.id}/default.webp" width="120" height="68" alt="${video.title}" loading="lazy"/></a>`);
 							}
-							$yt2[i].style = '--i: url(https://i.ytimg.com/vi_webp/' + videos[0].id + '/sddefault.webp)';
+							$('#yt2').find('div')[i+1].style = '--i: url(https://i.ytimg.com/vi_webp/' + videos[0].id + '/sddefault.webp)';
 						}).catch(error=>{
-							$this.find('.info').attr('title', error).text(error);
+							$this.find('.info').addClass('error').attr('title', error);
 						});
 					});
-				//});
-				function rss(url){
-					return window.fetch('https://api.factmaven.com/xml-to-json/?xml=' + encodeURIComponent('http://www.' + url), {'cache': 'force-cache'}).then(text=>{
-						return Promise.resolve(JSON.parse(text).feed.entry.map(_=>({'date': _.published, 'id': _.videoId, 'title': _.title, 'views': _.group.community.statistics.views})));
-					});
-				}
-				function rss2(url){
-					return window.fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent('http://' + url), {'cache': 'force-cache'}).then(text=>{
-						return Promise.resolve(JSON.parse(text).items.map(_=>({'date': _.pubDate, 'id': _.guid.split(':')[2], 'title': _.title, 'views': undefined})));
-					});
-				}
+				});
 			})();
-			(function youtube2($this = $('#yt2')){
+			(function youtube2($this = $('#yt2'), template = $this.find('template')[0]){
 				$this.find('a').on('click', function(e){
 					e.preventDefault();
-					let x = ['https://urlecho.appspot-preview.com/echo?X-XXS-Protection=0&body=', 'https://public-firing-range.appspot-preview.com/reflected/parameter/head?q='][1];
-					let src = w.origin == 'null' ? x + encodeURIComponent('<!DOCTYPE html>' + $('#origin')[0].innerHTML.replace('about:blank', this.dataset.src)) : this.dataset.src;
-					w.requestAnimationFrame(_=>this.outerHTML = $this.find('template')[0].innerHTML.replace('about:blank', src));
+					let x = template.dataset.src + (this.pathname == '/playlist' ? this.search + '&' : this.pathname + '?') + template.dataset.params;
+					let src = w.origin == 'null' ? template.dataset.origin + encodeURIComponent(template.dataset.frame.trim() + template.innerHTML.replace('about:blank', x)) : x;
+					w.requestAnimationFrame(_=>this.outerHTML = template.innerHTML.replace('about:blank', src));
 				});
 			})();
 			(function vsco($this = $('#vsco').parent()){
 				if(!$this.length) return;
-				window.fetch('proxy:https://vsco.co/leaalefevre/gallery', {'cache': 'force-cache'}).then(text=>{
+				w.fetch('proxy:https://vsco.co/leaalefevre/gallery', {'cache': 'force-cache'}).then(({text})=>{
 					let $html = $(new DOMParser().parseFromString(text, 'text/html'));
 					let data = $html.find('script').eq(-3).text();
 					let x = Object.values(JSON.parse(data.slice(data.indexOf('{'))).entities.images);
-					//console.log(x);
 					for(let i = 0; i < 6; i++){
 						$this.find('.content').append(`<a href="http://i.vsco.co/${x[i].id}" title="${new Date(x[i].uploadDate).toLocaleString()}"><img src="https://i.vsco.co/${x[i].id}?w=120" width="120" height="160" alt="${x[i].id}"/></a>`);
 					}
 				}).catch(error=>{
-					$this.find('.info').attr('title', error).text(error);
+					$this.find('.info').addClass('error').attr('title', error);
 				});
 			})();
 			$('article').find('noscript').each(function(){
-				this.outerHTML = this.textContent;
+				w.requestAnimationFrame(_=>this.outerHTML = this.textContent);
 			});
 			$('#logo').attr({'src': $('[property="og:image"]')[0].content, 'alt': w.location.hostname, 'title': w.origin + '\r\n' + $('title')[0].textContent + '\r\n' + $('[name="description"]')[0].content + ' (' + $('[name="description"]')[0].content.length + ')', 'itemprop': 'logo image'});
 			if(w.location.search == '?NOEMBED') return d.title = '[NOEMBED] ' + d.title;
