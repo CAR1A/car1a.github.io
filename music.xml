@@ -1,9 +1,9 @@
 <?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="#xsl"?>
 <xml title="CARLA Music" colour="E8E"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/><meta http-equiv="Refresh" content="0;URL=error" xmlns="http://www.w3.org/1999/xhtml"/><!--
-  ___        ____  _          _____
- / __|  /\  |  _ \| |   /\   |     |_ _ ___ _ ___
+  ___        ____  _          _____               
+ / __|  /\  |  _ \| |   /\   |     |_ _ ___ _ ___ 
 / /    /  \ | |/ /| |  /  \  | | | | | | __|_|  _|
-\ \___/ /\ \| |\ \| |_/ /\ \ | | | | | |__ | | |_
+\ \___/ /\ \| |\ \| |_/ /\ \ | | | | | |__ | | |_ 
  \_____/  \___| \______/  \_\|_|_|_|___|___|_|___|
 ==================================================-->
 <album id="slc" artist="Les Petites Canailles" title="Chantent Salut les Copains" year="2019" cover="i.scdn.co/image/ab67616d00001e02ab9ff477291bd36b93fb0de1" colour="D75">
@@ -2302,22 +2302,26 @@
 	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="xml">
 		<xsl:copy-of select="comment()"/>
-		<html>
+		<html lang="">
 			<head title="{@title}">
 				<meta name="robots" content="{*/@content}"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="theme-color" content="#{@colour}"/>
 				<title><xsl:value-of select="@title"/></title>
+				<base target="_top"/>
 				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23{@colour};'/%3E"/>
+				<script>'use strict';
+					console.log('%c' + document.childNodes[1].data, 'color: #<xsl:value-of select="@colour"/>;');
+					var errors = {'textContent': document.childNodes[1].data};
+					window.addEventListener('error', function(e){(window.log||errors).textContent += '\r\n' + (e.message ? e.message : e.target.nodeName + ' | ' + e.target.src)}, true);
+					window.addEventListener('load', function(e){window.log.textContent += errors.textContent;});
+				</script>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
-				<script>console.log('%c' + document.childNodes[1].data, 'color: #<xsl:value-of select="@colour"/>;');</script>
 				<style onload="window.history.scrollRestoration = 'manual';"><xsl:value-of select="style"/></style>
 			</head>
 			<body style="--colour: #{@colour}">
-				<header>
-					<nav><iframe src="i.html#music" title="Menu"></iframe></nav>
-					<h1 id="music"><xsl:value-of select="@title"/></h1>
-				</header>
+				<h1 id="music"><xsl:value-of select="@title"/></h1>
+				<nav><iframe src="i.html#music" title="Menu"></iframe></nav>
 				<form id="_search_" action="#search" rel="search">
 					<input name="q" type="search" placeholder="{count(//song)} Songs / Chansons" list="list" disabled="disabled"/>
 					<datalist id="list">
@@ -2349,35 +2353,8 @@
 					<xsl:apply-templates select="album" mode="page"/>
 					<xsl:call-template name="search"/>
 				</ul>
-				<iframe id="iframe" src="about:blank" sandbox="allow-presentation allow-same-origin allow-scripts" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
-				<template>
-					<meta name="referrer" content="origin"/>
-					<title>-</title>
-					<style>*{margin:0;}#p{display:block;width:100vw;height:100vh;}</style>
-					<p id="p"></p>
-					<script><![CDATA[
-						'use strict';
-						((w=window,d=document,s,m,p)=>{
-							d.body.append((s=d.createElement('script'),s.src='//youtube.com/iframe_api',s));
-							w.onYouTubeIframeAPIReady=e=>{
-								m=_=>w.parent.postMessage(_,'*');
-								p=new YT.Player('p',{
-									host:w.location.protocol+'//www.youtube-nocookie.com',
-									playerVars:{
-										controls:0,
-										widget_referrer:'youtu.be'
-									},
-									events:{
-										onReady:e=>m('READY'),
-										onStateChange:e=>m(Object.entries(YT.PlayerState).find(_=>_[1]==e.data)[0]),
-										onError:e=>m('ERROR')
-									}
-								});
-							};
-							w.onmessage=({data:{video:v}})=>v&&p.loadVideoById(v);
-						})();
-					]]></script>
-				</template>
+				<hr/>
+				<details><summary>Log</summary><pre id="log"></pre></details>
 				<xsl:call-template name="templates"/>
 				<script><xsl:value-of select="script"/></script>
 			</body>
@@ -2486,6 +2463,36 @@
 		<i title="{.}" lang="en"><xsl:value-of select="."/></i>
 	</xsl:template>
 	<xsl:template name="templates">
+		<iframe id="iframe" src="about:blank" sandbox="allow-presentation allow-same-origin allow-scripts" allow="autoplay *; encrypted-media *; fullscreen *">
+			<xsl:attribute name="name"><![CDATA[
+				<!DOCTYPE html>
+				<meta name="referrer" content="origin"/>
+				<title>-</title>
+				<style>*{margin:0;}#p{display:block;width:100vw;height:100vh;}</style>
+				<p id="p"></p>
+				<script>'use strict';
+					((w=window,d=document,s,m,p)=>{
+						d.body.append((s=d.createElement('script'),s.src='//youtube.com/iframe_api',s));
+						w.onYouTubeIframeAPIReady=e=>{
+							m=_=>w.parent.postMessage(_,'*');
+							p=new YT.Player('p',{
+								host:w.location.protocol+'//www.youtube-nocookie.com',
+								playerVars:{
+									controls:0,
+									widget_referrer:'youtu.be'
+								},
+								events:{
+									onReady:e=>m('READY'),
+									onStateChange:e=>m(Object.entries(YT.PlayerState).find(_=>_[1]==e.data)[0]),
+									onError:e=>m('ERROR')
+								}
+							});
+						};
+						w.onmessage=({data:{video:v}})=>v&&p.loadVideoById(v);
+					})();
+				</script>
+			]]></xsl:attribute>
+		</iframe>
 		<svg display="none">
 			<symbol id="triangle" viewBox="0 0 14 14" fill="currentcolor">
 				<polygon points="2,0 14,7 2,14"/>
@@ -2503,13 +2510,15 @@
 <style><![CDATA[
 	@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: #FFF; background: var(--colour) linear-gradient(45deg, transparent, #FFF8) fixed;}
+	body::after {content: '🌟'; display: block; line-height: 300px; font-size: 40px; background-image: linear-gradient(transparent, #FFF5);}
 	h1, h2 {margin: 0px; font-size: 30px;}
 	h1 {display: none;}
 	a {color: inherit; text-decoration: none;}
-	a:not([id]):hover {text-decoration: underline;}
+	a:hover, summary:hover {text-decoration: underline; cursor: pointer;}
 	input, select, button {font: inherit;}
 	[placeholder]::placeholder {width: 100%; text-align: center;}
 	img, svg {vertical-align: middle;}
+	hr {width: 75%; height: 5px; margin: 20px auto; border-style: none; border-radius: 50%; background-color: white;}
 	.page {display: block; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;}
 	.page:not(:target) {display: none;}
 	.page svg {display: inline-block; width: 100%; height: 100%;}
@@ -2532,7 +2541,7 @@
 	.song.page .play.active {pointer-events: none;}
 	.song.page .play.active::before {content: ''; display: block; width: 400%; height: 100%; background-image: linear-gradient(90deg, #FFF, #F00, #FFF); background-size: 50%; animation: 3s a1 linear infinite;}
 	@keyframes a1 {0% {transform: translateX(0%);} 100% {transform: translateX(-50%);}}
-	.loading>a[id] {opacity: 0.5; pointer-events: none;}
+	.loading a.play {opacity: 0.5; pointer-events: none;}
 	.song.page .lyrics {height: calc(100% - 50px); margin: 0px; font-size: 19px; overflow-y: auto; background-color: #222;}
 	.song.page .lyrics::after {content: ''; display: block; height: 50%;}
 	.song.page .lyrics:target {display: block !important; position: fixed; width: 100%; height: 100%; margin: 0px; border-radius: 0px; box-sizing: border-box;}
@@ -2545,19 +2554,17 @@
 	i {margin-bottom: 5px; color: #CCC;}
 	.lyrics.active>li.active b::after {content: ''; display: block; width: 75%; height: 10px; margin: 20px auto; border-radius: 10px; background-color: #FFF4;}
 	#menu, #pages {display: block; margin: 0px; padding: 0px;}
-	#menu::after {content: ''; display: block; height: 300px; background-image: linear-gradient(transparent, #FFF5);}
 	#menu>li {display: inline-block; max-width: 300px; margin: 5px; box-shadow: 0px 0px 5px #000; background-color: var(--c, #555); vertical-align: top;}
-	#menu img {display: block; max-width: 100%; height: auto;}
 	#menu ol {padding: 5px 5px 5px 40px; text-align: initial; background-image: linear-gradient(45deg, transparent, #FFF6);}
 	#menu .album.empty {opacity: 0.5;}
 	iframe {display: block; width: 100%; height: 100%; border-style: none;}
 	#iframe {position: fixed; top: 0px; padding: 15vh 15vw; background-color: #000A; box-sizing: border-box;}
 	#iframe:not(.active) {visibility: hidden; z-index: -1;}
-	header {}
 	nav {height: 100px;}
 	nav>iframe {height: inherit;}
 	.search.page .results {height: 70%; color: #000; background-color: #FFF; overflow: scroll;}
 	.search.page .results>li {margin: 5px; background-color: #0001;}
+	#log {display: inline-block; padding: 10px; border: 1px dashed #FFF;}
 ]]></style>
 <script><![CDATA['use strict';
 	(function load($ = window.jQuery, w = window, d = document, c = console){
@@ -2571,21 +2578,31 @@
 		(function player(temp){
 			$(w).on('message', function({'originalEvent': {'data': d}}){
 				c.log(d);
-				if(d == 'READY') $('body').removeClass('loading').find('a.active').click();
-				if(d == 'UNSTARTED' && temp == 'BUFFERING') $('#iframe').addClass('active'), c.log('!!!');
-				if(d == 'ENDED' || d == 'ERROR') $('.active').removeClass('active'), c.groupEnd();
-				if(d == 'PLAYING'){
-					$('#iframe').removeClass('active');
-					let $p = $('.lyrics.active');
-					let t = $p.data('time')||[];
-					(function line(i = 0){
-						c.log(i);
-						if(i > 0){
-							$p.find('.active').removeClass('active');
-							$p.find('li').eq(i-1).addClass('active');
-						}
-						if(i < t.length) w.setTimeout(line, (t[i]-(t[i-1]||0))*1000, i+1);
-					})();
+				$('#log')[0].textContent += ' | ' + d;
+				switch(true){
+					case d == 'READY':
+						$('body').removeClass('loading').find('a.active').click();
+						break;
+					case d == 'UNSTARTED' && temp == 'BUFFERING':
+						$('#iframe').addClass('active'), c.log('!!!');
+						break;
+					case d == 'ENDED' || d == 'ERROR':
+						$('.active').removeClass('active'), c.groupEnd();
+						break;
+					case d == 'PLAYING':
+						$('#iframe').removeClass('active');
+						let $p = $('.lyrics.active');
+						let t = $p.data('time')||[];
+						(function line(i = 0){
+							c.log(i);
+							$('#log')[0].textContent += i + '>';
+							if(i > 0){
+								$p.find('.active').removeClass('active');
+								$p.find('li').eq(i-1).addClass('active');
+							}
+							if(i < t.length) w.setTimeout(line, (t[i]-(t[i-1]||0))*1000, i+1);
+						})();
+						break;
 				}
 				temp = d;
 			});
@@ -2593,13 +2610,13 @@
 				e.preventDefault();
 				$('.active').removeClass('active');
 				$(this).addClass('active');
-				if($('#iframe')[0].src == 'about:blank'){
+				if(!!$('#iframe')[0].contentDocument){
 					$('body').addClass('loading');
-					let x = $('#iframe').next()[0].innerHTML.trim().replace(/\s\/\/.*/g, '').replace(/\s+/g, ' ');
 					let xx = ['https://urlecho.appspot.com/echo?X-XSS-Protection=0&body=', 'https://public-firing-range.appspot.com/reflected/parameter/head?q='][1];
-					$('#iframe')[0].src = xx + encodeURIComponent('<!DOCTYPE html>' + x);
+					$('#iframe')[0].src = xx + encodeURIComponent($('#iframe')[0].name.trim().replace(/\s\/\/.*/g, '').replace(/\s+/g, ' '));
 				} else {
 					c.groupEnd(), c.groupCollapsed('%c' + this.textContent, 'font-weight: bold;');
+					$('#log')[0].textContent += '\r\n' + this.textContent;
 					$('#iframe')[0].contentWindow.postMessage({'video': this.href.split('/').pop()}, '*');
 					if($(this).next().data('time')?.length) $(this).next().addClass('active');
 				}
