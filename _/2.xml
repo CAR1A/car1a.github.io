@@ -1,2 +1,8 @@
 <?xml version="1.0"?>
-<xxxx><meta name="robots" content="noindex" xmlns="̈http://www.w3.org/1999/xhtml"/></xxxx>
+<_><meta name="robots" content="noindex" xmlns="̈http://www.w3.org/1999/xhtml"/>
+Debugging noindex issues
+We have to crawl your page in order to see meta tags and HTTP headers. If a page is still appearing in results, it's probably because we haven't crawled the page since you added the noindex rule. Depending on the importance of the page on the internet, it may take months for Googlebot to revisit a page. You can request that Google recrawl a page using the URL Inspection tool.
+If you need to remove a page of your site quickly from Google's search results, see our documentation about removals.
+Another reason could also be that the robots.txt file is blocking the URL from Google web crawlers, so they can't see the tag. To unblock your page from Google, you must edit your robots.txt file. You can edit and test your robots.txt using the robots.txt Tester tool.
+Finally, make sure that the noindex rule is visible to Googlebot. To test if your noindex implementation is correct, use the URL Inspection tool to see the HTML that Googlebot received while crawling the page. You can also use the Index Coverage report in Search Console to monitor the pages on your site from which Googlebot extracted a noindex rule.
+</_>
