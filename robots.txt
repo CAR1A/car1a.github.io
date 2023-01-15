@@ -1,3 +1,2 @@
 User-agent: *
 Disallow: /robots.txt
-Disallow: /favicon.ico
