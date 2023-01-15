@@ -1,6 +1,2 @@
 defaults:
--
-	scope:
-		path: /
-	values:
-		permalink: /:basename
+- {scope: {path: /}, values: {permalink: /:basename}}
