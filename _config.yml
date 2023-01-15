@@ -1,4 +1,3 @@
 defaults:
-- {scope: {path: ''}, values: {test: 1}}
-- {scope: {path: '.'}, values: {test: 2, permalink: /:basename}}
-- {scope: {path: '*/'}, values: {test: 3}}
+- {scope: {path: ''}, values: {test: 'test'}}
+- {scope: {path: '*'}, values: {permalink: '/:basename'}}
