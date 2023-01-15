@@ -1,1 +1,6 @@
-
+defaults:
+-
+	scope:
+		path: /
+	values:
+		permalink: /:basename
