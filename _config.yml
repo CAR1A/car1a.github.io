@@ -1,4 +1,3 @@
 defaults:
 - {scope: {path: ''}, values: {test: 'test'}}
-- {scope: {path: '//*'}, values: {permalink: '/:basename'}}
-- {scope: {path: 'favicon.ico.svg'}, values: {permalink: '/favicon.ico'}}
+- {scope: {path: '/*'}, values: {permalink: '/:basename'}}
