@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<_><html xmlns="http://www.w3.org/1999/xhtml"><meta name="robots" content="noindex"/></html>
+<_><html><meta name="robots" content="noindex"/></html>
 Debugging noindex issues
 We have to crawl your page in order to see meta tags and HTTP headers. If a page is still appearing in results, it's probably because we haven't crawled the page since you added the noindex rule. Depending on the importance of the page on the internet, it may take months for Googlebot to revisit a page. You can request that Google recrawl a page using the URL Inspection tool.
 If you need to remove a page of your site quickly from Google's search results, see our documentation about removals.
