@@ -1,12 +1,12 @@
 <?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="#xsl"?>
-<xml title="CARLA Media" colour="FA0"><html:meta name="robots" content="noindex, nofollow" xmlns:html="http://www.w3.org/1999/xhtml"/><meta http-equiv="Refresh" content="0;URL=error" xmlns="http://www.w3.org/1999/xhtml"/><!--
+<media.xml title="CARLA Media" colour="EEA"><html xmlns="http://www.w3.org/1999/xhtml"><meta name="robots" content="noindex, nofollow"/><meta http-equiv="Refresh" content="0;URL=error?url=media"/></html><!--
   ___        ____  _          _____       _       
  / __|  /\  |  _ \| |   /\   |     |___ _| |_ ___ 
 / /    /  \ | |/ /| |  /  \  | | | | _ |   |_|   |
 \ \___/ /\ \| |\ \| |_/ /\ \ | | | | __| | | | | |
  \_____/  \___| \______/  \_\|_|_|_|___|___|_|___|
 ==================================================-->
-<!--2014-->
+<?_ 2014?>
 <event title="Célia Larry Show - Spectacle du 1er Mars" date="01-03-2014">
 	<video title="Show (Part 1)" link="yt:CS7gxC5Hxho" length="1:05:50">
 		<_ title="Carla &amp; les Eleves - Attention au Depart" time="29:30"/>
@@ -48,21 +48,21 @@
 	</video>
 	<link>recreanice.fr/pere-noel-disparu-spectacle-chant-danse</link>
 </event>
-<!--2015-->
+<?_ 2015?>
 <event title="Célia Larry Show - Les étoiles en scène - Finale" date="05-12-2015">
 	<video title="Carla - Wrecking Ball" link="fb:480694972114194" length=""/>
 	<link>nicematin.com/a/6743</link>
 </event>
-<!--2016-->
+<?_ 2016?>
 <event title="Célia Larry Show - Les étoiles en scène - Finale" date="10-12-2016">
 
 </event>
-<!--2017-->
+<?_ 2017?>
 <event title="Drap - Soiree Fiesta" date="23-06-2017">
 	<video title="Carla - À fleur de toi" link="fb:731095097074179" length=""/>
 	<link>ville-drap.fr/soiree-fiesta-a-drap-a-tenu-toutes-promesses</link>
 </event>
-<!--2018-->
+<?_ 2018?>
 <event title="Célia Larry Show - Les étoiles en scène - Finale" date="20-01-2018">
 	<video title="Carla - Comme toi" link="yt:O_XS7mV7VwQ" length="4:05"/>
 </event>
@@ -117,7 +117,7 @@
 	<link>tf1.fr/tf1/the-voice-kids/videos/carla-take-me-to-church-hozier-v-sofia-kalberg.html</link>
 </event>
 <event title="France Bleu Azur - ..." date="28-10-2018">
-	<video title="Interview" link="media.radiofrance-podcast.net/podcast09/15217-28.10.2018-ITEMA_21870811-1.mp3" length="7:26">
+	<video title="Interview" link="media.radiofrance-podcast.net/podcast09/15217-28.10.2018-ITEMA_21870811-1.mp3" length="7:26" xml:lang="fr">
 		<Q>France Bleu Azur matin week-end ... Nice, Cannes, Monaco et partout dans les Alpes-Maritimes. Cette heur quinze France Bleu Azur Matin ... chaque jour nouveaux ... qui se passe dans le departement et ... peut-être vu à la télé, dans The Voice Kids vendredi soir sur TF1 cette niçoise de talente, douze ans Carla Lazzari.</Q>
 		<A>Take me to church ...</A>
 		<Q>... membres de jury ... Carla Lazzari a été, uh, choisi par Soprano et Patrick Fiori. Elle continuera l'aventure justement avec Patrick Fiori. Nous avons retrouver sa tout première interview, uh, Carla ...</Q>
@@ -180,7 +180,7 @@
 	<video title="Interview" link="fb:570850680025220" length="1:04"/>
 </event>
 <event title="France Bleu Azur - Azur en scène" date="05-12-2018">
-	<video title="Interview" link="fb:2138461459803710" length="1:24">
+	<video title="Interview" link="fb:2138461459803710" length="1:24" xml:lang="fr">
 		<Q>Bonjour et bienvenue dans Azur en scène, émission live de France Bleu Azur avec un rendez-vous un peu particulier puisque ... l'immense plaisir et le fierté d'avoir ... Carla, uh, qui ... de la finale de The Voic Kids. Carla, bonjour.</Q>
 		<A>Bonjour à vous.</A>
 		<Q>Mais quel plaisir de vous ... mademoiselle.</Q>
@@ -192,7 +192,7 @@
 		<Q>Votez Carla dans The Voice Kids pour cette finale. On t'écoute chanter, merci.</Q>
 		<A>I close my eyes so I can be with you, oh baby ... for me, baby belong to me ... you.</A>
 	</video>
-	<video title="Interview" link="fb:305813953597698" length="0:54">
+	<video title="Interview" link="fb:305813953597698" length="0:54" xml:lang="fr">
 		<Q>Hello, nous sommes très, très, très fier d'avoir Carla, finaliste de The Voice Kids, avec nous, hello Carla.</Q>
 		<A>Bonjour!</A>
 		<Q>... alors.</Q>
@@ -241,7 +241,7 @@
 	<video title="Carla - Pour Oublier" link="fb:318190198821480" length="2:50"/>
 	<video title="..." link="fb:2219200685002457" length="1:36"/>
 </event>
-<!--2019-->
+<?_ 2019?>
 <event title="Saint-Laurent-du-Var - Voeux" date="11-01-2019">
 	<video title="Carla - Shallow" link="fb:274513803241595" length="2:26"/>
 </event>
@@ -1334,7 +1334,7 @@
 	</video>
 	<link type="francetv" id="1134283"/>
 </event>
-<!--2020-->
+<?_ 2020?>
 <event title="Femme Actuelle" date="21-01-2020">
 	<video title="Interview" link="fb:608493653272257" length="3:11"/>
 	<link>video.femmeactuelle.fr/le-mag/_17231</link>
@@ -2976,7 +2976,7 @@
 	<video title="..." link="fb:2763817627266625" length=""/>
 	<link>lci.fr/-2174343.html</link>
 </event>
-<!--2021-->
+<?_ 2021?>
 <event title="France 2 - Boyard Land - S02E05" date="02-01-2021">
 	<video title="Show" link="noodlemagazine.com/player/-78353_456239870?m=1ca4406c4114b3e4e6c669b29ec93f5b" length="2:08:00"/>
 	<link type="francetv" id="2170725"/>
@@ -3234,7 +3234,7 @@
 	<link>junioreurovision.tv/gallery/this-was-the-final-of-junior-eurovision-2021</link>
 	<link>junioreurovision.tv/gallery/malena-wins-junior-eurovision-2021-for-armenia</link>
 </event>
-<!--2022-->
+<?_ 2022?>
 <event title="Carla - Bim Bam Tour" date="22-01-2022">
 	<link>culture.puteaux.fr/saison-2021-2022/carla-bim-bam-tour</link>
 </event>
@@ -3247,7 +3247,10 @@
 <event title="Carla - Bim Bam Tour" date="05-02-2022">
 
 </event>
-<!---->
+<event title="NEON Festival - Mosimann &amp; Carla" date="24-07-2022">
+
+</event>
+<?_?>
 <event title="(Other)">
 	<video title="Les Petites Canailles - ..." link="yt:GMrtexlbOxo" length=""/>
 	<video title="..." link="yt:CouEUWRRF6o" length=""/>
@@ -3268,31 +3271,31 @@
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
 	<xsl:variable name="icon" select="'https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;url=https://'"/>
 	<xsl:variable name="icon64" select="'https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;fallback_opts=SIZE&amp;size=64&amp;url=https://'"/>
-	<xsl:key name="event-year" match="event" use="substring(@date, string-length(@date)-3)"/>
-	<xsl:variable name="years" select="//event[count(.|key('event-year', substring(@date, string-length(@date)-3))[1]) = 1]/@date"/>
+	<xsl:key name="event-year" match="event" use="preceding-sibling::processing-instruction()[1]"/>
+	<!--<xsl:variable name="years" select="//event[count(.|key('event-year', substring(@date, string-length(@date)-3))[1]) = 1]/@date"/>-->
 	<xsl:template match="xsl:stylesheet|text()"/>
-	<xsl:template match="xml">
+	<xsl:template match="/*">
 		<xsl:copy-of select="comment()"/>
 		<html lang="">
 			<head title="{@title}">
-				<meta name="robots" content="{*/@content}"/>
+				<meta name="robots" content="{//@content}"/>
 				<meta name="referrer" content="no-referrer"/>
 				<meta name="color-scheme" content="light dark"/>
 				<meta name="theme-color" content="#{@colour}"/>
 				<title><xsl:value-of select="@title"/></title>
 				<base target="_top"/>
-				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23{@colour};'/%3E"/>
+				<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='background:radial-gradient(%23FFF%2025vmin,%23{@colour}%200);'/%3E"/>
 				<script>'use strict';
-					console.log('%c' + document.childNodes[1].data, 'color: #<xsl:value-of select="@colour"/>;');
-					var errors = {'textContent': document.childNodes[1].data};
-					window.addEventListener('error', function(e){(window.log||errors).textContent += '\r\n' + (e.message ? e.message : e.target.nodeName + ' | ' + e.target.src);}, true);
-					window.addEventListener('load', function(e){window.log.textContent += errors.textContent;});
+					var log = {'textContent': document.childNodes[1].data};
+					console.log('%c' + log.textContent, 'color: #<xsl:value-of select="@colour"/>;');
+					window.addEventListener('error', function(e){(document.getElementById('log')||log).textContent += '\r\n' + (e.message ? e.message : e.target.nodeName + ' | ' + e.target.src);}, true);
+					window.addEventListener('load', function(e){document.getElementById('log').textContent += log.textContent;});
 				</script>
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.slim.min.js" defer="defer" crossorigin="anonymous" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="></script>
 				<style onload="window.history.scrollRestoration = 'auto';"><xsl:value-of select="style"/></style>
 				<style>
-					<xsl:for-each select="$years">
-						<xsl:variable name="year" select="substring(., string-length(.)-3)"/>
+					<xsl:for-each select="processing-instruction('_')">
+						<xsl:variable name="year" select="."/>
 						#yearall:checked~#bar label[for='yearall'], #year<xsl:value-of select="$year"/>:checked~#bar label[for='year<xsl:value-of select="$year"/>'] {color: #000; background-color: #FFF;}
 						#year<xsl:value-of select="$year"/>:checked~#menu .m-event:not(.year<xsl:value-of select="$year"/>) {display: none;}
 					</xsl:for-each>
@@ -3300,7 +3303,7 @@
 			</head>
 			<body style="--colour: #{@colour};">
 				<h1 id="media"><xsl:value-of select="@title"/></h1>
-				<nav><iframe src="i.html#media" title="Menu"></iframe></nav>
+				<header><iframe src="i.html#media" title="Menu"></iframe></header>
 				<xsl:call-template name="header"/>
 				<ul id="menu" class="m">
 					<xsl:apply-templates><xsl:sort select="position()" data-type="number" order="descending"/></xsl:apply-templates>
@@ -3309,7 +3312,7 @@
 					<xsl:apply-templates select="event/video" mode="page"/>
 					<xsl:call-template name="search"/>
 				</ul>
-				<details><summary>Log</summary><pre id="log"></pre></details>
+				<footer><details><summary>Log</summary><pre id="log"></pre></details></footer>
 				<xsl:call-template name="templates"/>
 				<script><xsl:value-of select="script"/></script>
 			</body>
@@ -3317,30 +3320,36 @@
 	</xsl:template>
 	<xsl:template name="header">
 		<input id="yearall" name="year" type="radio" hidden="hidden" checked="checked"/>
-		<xsl:for-each select="$years">
+		<xsl:for-each select="processing-instruction('_')">
 			<input id="year{substring(., string-length(.)-3)}" name="year" type="radio" hidden="hidden"/>
 		</xsl:for-each>
 		<div id="bar">
-			<label for="yearall">All (<xsl:value-of select="count(event)"/>)</label>
-			<xsl:for-each select="$years">
-				<xsl:variable name="year" select="substring(., string-length(.)-3)"/>
-				<label for="year{$year}"><xsl:value-of select="$year"/> (<xsl:value-of select="count(key('event-year', $year))"/>)</label>
-			</xsl:for-each>
-			<form id="_search_" action="#search" rel="search">
-				<input name="q" type="search" placeholder="Search {count(event/video)} videos" list="_list_" disabled="disabled"/>
-				<datalist id="_list_">
-					<xsl:for-each select="//video">
-						<xsl:sort select="concat(../@title, @title)"/>
-						<option value="{position()}. {../@title} • {@title} ({@length})" data-href="#{@link}"></option>
-						<!--<xsl:for-each select="_[@title]">
-							<option value="=== {@title}"></option>
-						</xsl:for-each>-->
-					</xsl:for-each>
-				</datalist>
-				<button><span lang="en">Search</span> / <span lang="fr">Rechercher</span></button>
+			<fieldset>
+				<legend><span lang="en">Filter</span></legend>
+				<label for="yearall" title="({count(event)})">All</label>
+				<xsl:for-each select="processing-instruction('_')">
+					<xsl:variable name="year" select="substring(., string-length(.)-3)"/>
+					<label for="year{$year}" title="({count(key('event-year', $year))})"><xsl:value-of select="$year"/></label>
+				</xsl:for-each>
+			</fieldset>
+			<form id="_search_" action="#/search" rel="search" role="search">
+				<fieldset>
+					<legend><span lang="en">Search</span></legend>
+					<input name="q" type="search" placeholder="Search {count(event/video)} videos" list="_list_" disabled="disabled"/>
+					<datalist id="_list_">
+						<xsl:for-each select="//video">
+							<xsl:sort select="concat(../@title, @title)"/>
+							<option value="{position()}. {../@title} • {@title} ({@length})" data-href="#/{@link}"></option>
+							<!--<xsl:for-each select="_[@title]">
+								<option value="=== {@title}"></option>
+							</xsl:for-each>-->
+						</xsl:for-each>
+					</datalist>
+					<button><span lang="en">Search</span> / <span lang="fr">Rechercher</span></button>
+				</fieldset>
 			</form>
 			<fieldset id="_theme_" class="h-theme" disabled="disabled">
-				<legend>Theme</legend>
+				<legend><span lang="en">Theme</span></legend>
 				<label><input name="r" type="radio" value="" checked="checked"/>Auto</label>
 				<label><input name="r" type="radio" value="light"/>Light</label>
 				<label><input name="r" type="radio" value="dark"/>Dark</label>
@@ -3359,7 +3368,7 @@
 		<xsl:variable name="video"><xsl:call-template name="video"/></xsl:variable>
 		<xsl:variable name="_" select="_:node-set($video)/*"/>
 		<li class="video">
-			<a href="#{@link}" title="{@title}">
+			<a href="#/{@link}" title="{@title}">
 				<span class="video-image" data-length="{@length}" style=" --i: url({$icon64}{substring-before(concat($_/@url, '/'), '/')});">
 					<xsl:if test="$_/@thumb">
 						<img class="{$_/@type}" src="https://{$_/@thumb}" width="120" height="68" alt="" loading="lazy"/>
@@ -3369,18 +3378,18 @@
 			</a>
 		</li>
 	</xsl:template>
-	<xsl:template match="video" mode="page">
+	<xsl:template match="video[string(@link)]" mode="page">
 		<xsl:variable name="video"><xsl:call-template name="video"/></xsl:variable>
 		<xsl:variable name="_" select="_:node-set($video)/*"/>
-		<li id="{@link}" class="p-page">
-			<a class="p-page-close" href="#-" title="Close / Fermer"><svg display="none"><use href="#cross"/></svg></a>
+		<li id="/{@link}" class="p-page" title="{../@title} - {@title}">
+			<a class="p-page-close" href="#/" title="Close / Fermer"><svg display="none"><use href="#cross"/></svg></a>
 			<xsl:for-each select="preceding-sibling::video[1]">
-				<a class="p-page-previous" href="#{@link}" title="{@title}"><svg display="none"><use href="#arrow"/></svg></a>
+				<a class="p-page-previous" href="#/{@link}" title="{@title}"><svg display="none"><use href="#arrow"/></svg></a>
 			</xsl:for-each>
 			<xsl:for-each select="following-sibling::video[1]">
-				<a class="p-page-next" href="#{@link}" title="{@title}"><svg display="none"><use href="#arrow"/></svg></a>
+				<a class="p-page-next" href="#/{@link}" title="{@title}"><svg display="none"><use href="#arrow"/></svg></a>
 			</xsl:for-each>
-			<div class="p-page-content">
+			<div class="p-page-content" title="">
 				<div class="p-page-content-top" style="--i: url(https://{$_/@thumb});{substring(concat(' --i2: url(https://', $_/@thumb2, ');'), 1 div boolean($_/@thumb2))}">
 					<a href="http://{$_/@url}" data-embed="https://{$_/@embed}">
 						<h2><xsl:value-of select="../@title"/><br/><xsl:value-of select="@title"/></h2>
@@ -3479,9 +3488,9 @@
 		</li>
 	</xsl:template>-->
 	<xsl:template name="search">
-		<li id="search" class="p-page">
-			<a class="p-page-close" href="#-" title="Close / Fermer"><svg display="none"><use href="#cross"/></svg></a>
-			<div class="p-page-content">
+		<li id="/search" class="p-page" title="Search / Rechercher">
+			<a class="p-page-close" href="#/" title="Close / Fermer"><svg display="none"><use href="#cross"/></svg></a>
+			<div class="p-page-content" title="">
 				<h2><span lang="en">Search</span> / <span lang="fr">Rechercher</span></h2>
 				<form>
 					<input name="q" type="search" placeholder="Search" required="required" minlength="2"/>
@@ -3533,7 +3542,7 @@
 		<template id="_igcontainer_">
 			<title>IG Container</title>
 			<style>
-				body {margin: 0px; background-image: linear-gradient(90deg, transparent, #FFF, #FFF, transparent);}
+				body {margin: 0px; background-image: linear-gradient(90deg, #FFF0, #FFF, #FFF, #FFF0);}
 				iframe {display: block; width: 81vh; height: calc(100vh + 54px); margin: -54px auto; border-style: none; background-color: #000;}
 			</style>
 			<iframe src="about:blank" allow="autoplay *; encrypted-media *; fullscreen *"></iframe>
@@ -3594,35 +3603,40 @@
 <style><![CDATA[
 	@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
 	:root {color-scheme: light dark;}
-	:root, .light {--text: #FFF; --back: #FFF; --head: #FFFD; --high: #FFF; --low: #000;}
-	.dark {--text: #EEE; --back: #222; --head: #333D; --high: #000; --low: #FFF;}
-	@media (prefers-color-scheme: dark) {:root {--text: #EEE; --back: #222; --head: #333D; --foot: #000;}}
-	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: var(--text); background: var(--back);}
-	body::after {content: '🐍'; display: block; height: 100px; margin-top: 200px; font-size: 50px; background-image: linear-gradient(transparent, var(--high));}
+	:root, .light {--text: #FFF; --back: #FFF; --high: #FFF; --low: #000; --trans: #FFF9;}
+	.dark {--text: #EEE; --back: #222; --high: #000; --low: #FFF; --trans: #0007;}
+	@media (prefers-color-scheme: dark) {
+		:root {--text: #EEE; --back: #222; --high: #000; --low: #FFF; --trans: #0007;}
+		iframe {color-scheme: none;}
+	}
+	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: var(--text); background-color: var(--colour);}
+	body::after {content: '🐍'; display: block; line-height: 200px; font-size: 50px; background-image: linear-gradient(transparent, var(--high));}
 	h1, h2 {display: inline; margin: 0px; font-size: 100%;}
 	h1 {display: none;}
 	a {color: inherit; text-decoration: none;}
 	a:hover, summary:hover {text-decoration: underline; cursor: pointer;}
 	img {display: block; position: relative; max-width: 100%; max-height: 100%;}
 	img::before {display: block; position: absolute; width: 100%; height: 100%; color: #FFF; background-color: #E00;}
-	input, button, select {font: inherit; border: 1px solid #0005; background-color: transparent;}
-	fieldset {border: 1px dashed #000; border-radius: 10px;}
+	input, button, select {font: inherit; border: 1px solid #0005; color: inherit; background-color: transparent;}
 	[hidden] {display: none !important;}
 	[placeholder]::placeholder {width: 100%; text-align: center;}
 	ul, ol {margin: 0px; padding: 0px; list-style: none;}
 	iframe {display: block; width: 100%; height: 100%; border-style: none;}
-	nav {height: 100px; background-color: var(--colour);}
+	header {height: 100px;}
 	.hidden {display: none !important;}
 	.h-search input, .h-search button {line-height: 20px; padding: 5px;}
-	#bar {position: sticky; top: 0px; color: var(--low); z-index: 1; background-color: #FA05; backdrop-filter: blur(10px);}
+	#bar {position: sticky; top: 0px; color: var(--low); z-index: 1; background-color: var(--trans); backdrop-filter: blur(10px);}
 	#bar>* {display: inline-block; vertical-align: top;}
 	#bar label {width: 50px; margin: 5px;}
-	#menu.m::before {content: ''; display: block; height: 20px; background-image: linear-gradient(#0003, transparent);}
+	#bar fieldset {padding-top: 0px; border: 1px solid currentcolor; border-radius: 10px;}
+	#menu.m {background: var(--back);}
+	#menu.m::before, .menu.m::after {content: ''; display: block; height: 10px;}
+	#menu.m::after {margin-top: 200px;}
 	.m-event {display: inline-block; position: relative; width: 300px; margin: 10px; vertical-align: top;}
 	.m-event.missing:not(:hover) {opacity: 0.5;}
-	.m-event-title {display: block; font-weight: bold; padding: 5px; background-color: hsl(calc(var(--seed) * 50), 40%, 60%); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-	.m-event>ol {height: 220px; padding: 0px; text-align: initial; background-color: hsla(calc(var(--seed) * 50), 25%, 75%, 50%); overflow-y: auto;}
-	.m-event::before {content: var(--date); position: absolute; top: -20px; left: 0px; padding: 5px 10px; border-radius: 5px; font-size: 90%; color: #000;}
+	.m-event-title {display: block; font-weight: bold; line-height: 30px; background-color: hsl(calc(var(--seed) * 50), 40%, 60%); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+	.m-event>ol {height: 170px; padding: 0px; text-align: initial; background-color: hsla(calc(var(--seed) * 50), 25%, 75%, 50%); overflow-y: auto;}
+	.m-event::before {content: var(--date); position: absolute; top: -15px; left: 0px; font-size: 90%; color: var(--low);}
 	.m-event a {display: table; width: 100%; height: 68px; background-color: #0003;}
 	.m-event a:hover {background-color: #FFF9;}
 	.m-event a:hover>span:first-child {filter: brightness(1.25);}
@@ -3641,7 +3655,7 @@
 	.p-page {display: block; position: fixed; top: 0px; width: 100vw; height: 100vh; z-index: 1;}
 	.p-page:not(:target) {display: none;}
 	:target .p-page-content-top {background: var(--i2, none) center/cover, #000 var(--i, none) center/cover;}
-	:target .p-page-content-top::after {background: linear-gradient(#FFFC, transparent), var(--i2, none) center/cover, var(--i, none) center/cover;}
+	:target .p-page-content-top::after {background: linear-gradient(#FFFC, #FFF0), var(--i2, none) center/cover, var(--i, none) center/cover;}
 	.p-page-content-top::after {content: ''; display: block; position: absolute; width: 100%; height: 100%; opacity: 0.5; transform: scaleY(-1);}
 	.p-page-close {display: block; position: absolute; width: 100%; height: 100%; background-color: #0009; z-index: -1; backdrop-filter: blur(5px);}
 	.p-page-close>svg {display: block; position: absolute; top: 0px; left: 0px; width: 40px; height: 40px; margin: 20px; padding: 10px; border-radius: 50%; background-color: #FFF5;}
@@ -3670,7 +3684,7 @@
 	.p-page-content-top button:hover {background-color: yellow;}
 	.p-page-content-bottom {position: relative; overflow-y: auto; overscroll-behavior: contain;}
 	.p-page-content-bottom .dialog {position: relative; padding: 0px; font-size: 16px; background-color: #FFFA;}
-	.p-page-content-bottom .dialog::before {content: ''; display: block; height: 25px; background-image: linear-gradient(#0007, transparent);}
+	.p-page-content-bottom .dialog::before {content: ''; display: block; height: 25px; background-image: linear-gradient(#0007, #0000);}
 	.p-page-content-bottom .dialog::after {content: ''; display: block; height: 200px;}
 	.p-page-content-bottom .dialog>li::before {content: counter(list-item); margin: 5px; padding: 0px 10px; color: #000; background-color: #FFFA; float: left; opacity: 0.2;}
 	.p-page-content-bottom .dialog>li:hover::before {opacity: 1;}
@@ -3696,7 +3710,7 @@
 	#search {color: #000;}
 	#search form {display: inline-block; width: 50%; margin: 10px; padding: 20px; border-radius: 20px; background-color: #0006;}
 	#search ol {height: 80%; background-color: #FFF;}
-	#log {display: inline-block; padding: 10px; border: 1px dashed currentcolor; color: #000;}
+	#log {margin: 0px; padding: 0px 1em 1em 10%; color: #FFF; background-color: #000; text-align: initial; white-space: pre-wrap; word-break: break-all;}
 	.year {display: none !important;}
 ]]></style>
 <script><![CDATA['use strict';
@@ -3704,13 +3718,14 @@
 		if(!$) return Object.defineProperty(window, 'jQuery', {'set': _=>load(_)});
 		if(w.location.search == '?NOSCRIPT') return d.title = '[NOSCRIPT] ' + d.title;
 		$(w).on('hashchange', function(e){
-			d.title = $(':target').find('h2')[0]?.textContent || d.head.title;
+			let page = d.getElementById(w.location.hash.slice(1));
+			d.title = $(page).hasClass('p-page') ? page.title + ' | ' + d.head.title : d.head.title;
 			w.requestAnimationFrame(_=>w.setTimeout(_=>$('#pages').find('iframe').remove()));
 		}).trigger('hashchange');
 		$('#_search_').on('submit', function(e){
 			e.preventDefault();
 			w.location.assign(this.action);
-			$(this.getAttribute('action')).find('input')[0].value = this.q.value;
+			$(d.getElementById(this.action.split('#')[1])).find('input')[0].value = this.q.value;
 			this.q.value = '';
 		}).find('input').removeAttr('disabled').on('keyup', function(e){
 			if(typeof(e.code) != 'undefined') return;
@@ -3723,7 +3738,7 @@
 		if('setResourceTimingBufferSize' in w.performance){
 			w.performance.setResourceTimingBufferSize(d.images.length);
 			$('img.youtube').one('load', function(e){
-				if(w.performance.getEntriesByName(this.src)[0]?.decodedBodySize == 1097) this.src = 'data:,';
+				w.performance.getEntriesByName(this.src, 'resource').forEach(_=>{if(_.decodedBodySize == 1097) this.src = 'data:,';});
 			}).each(function(){
 				if(this.complete) $(this).trigger('load');
 			});
@@ -3776,35 +3791,32 @@
 					break;
 			}
 		});
-		$('#search').find('form').on('submit', function(e){
+		$(d.getElementById('/search')).find('form').on('submit', function(e){
 			e.preventDefault();
 			if(this.q.value.length < this.q.minLength) return;
 			this.q.value = this.q.value.toLowerCase();
 			$(this).parent().find('ol').empty();
 			let xpath = '';
 			if(this.accents.checked){
-				let accents = 'çéëïàèùâêîôû';
-				let normal = accents.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+				let accents = 'çéëïàèùâêîôû', normal = accents.normalize('NFD').replace(/\p{Diacritic}/gu, '');
 				this.q.value = this.q.value.normalize('NFD').replace(/\p{Diacritic}/gu, '');
 				xpath = `//*[@class="text"][contains(translate(translate(., "${accents.toUpperCase() + accents}", "${normal + normal}"), "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
 			} else {
 				xpath = `//*[@class="text"][contains(translate(., "${this.q.value.toUpperCase()}", "${this.q.value}"), "${this.q.value}")]`;
 			}
 			try {
-				let node = null;
-				let nodes = [];
-				let result = d.evaluate(xpath, d.body, null, XPathResult.ANY_TYPE, null);
+				let node, nodes = [], result = d.evaluate(xpath, d.body, null, XPathResult.ANY_TYPE, null);
 				while(node = result.iterateNext()){
 					nodes.push(node);
 				}
 				$(this).parent().find('span')[0].textContent = nodes.length + ' results:';
 				nodes.forEach(node=>{
-					$(this).parent().find('ol').append('<li>' + node.textContent + '</li>');
+					$(this).parent().find('ol').append(`<li>${node.textContent}</li>`);
 				});
 			} catch(error) {
-				$(this).parent().find('ol').append('<li>' + error + '</li>');
+				$(this).parent().find('ol').append(`<li>${error}</li>`);
 			}
 		});
 	})();
 ]]></script>
-</xml>
+</media.xml>
