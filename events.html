@@ -1,22 +1,54 @@
-<?xml version="1.0"?><!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE html><!--'use strict'; let w = window, $ = String.raw`
+  ___        ____  _          ___             _       
+ / __|  /\  |  _ \| |   /\   | __|_ _ ___ ___| |_ ___ 
+/ /    /  \ | |/ /| |  /  \  | \ | | | _ |   |  _| __|
+\ \___/ /\ \| |\ \| |_/ /\ \ | /_| | | __| | | |_|__ |
+ \_____/  \___| \______/  \_\|___|\_/|___|_|_|\__|___|
+======================================================`;
+if(w.location.search == '?TEST') throw document.title = 'TEST';
+if(w.location.search != '?embed') console.log('%c' + $, document.body.style = 'color: #000; background-color: #EDD;');
+let xml = new DOMParser().parseFromString(document.getElementById('xml').text.slice(0, -4), 'text/xml'), xsl = new XSLTProcessor();
+xml.querySelectorAll('parsererror>div').forEach(_=>console.warn(_.textContent.trim()));
+xsl.importStylesheet(xml.getElementById('xsl')), xsl.setParameter(null, 'q', w.location.search);
+let html = '<!DOCTYPE html><!-\-' + $ + '-\->' + xsl.transformToDocument(xml).documentElement.outerHTML;
+w.addEventListener('load', e=>(document.open().write(html), document.close()), {'capture': true, 'once': true});-->
 <rss version="2.0"><script id="xml" type="text/xml" xmlns="http://www.w3.org/1999/xhtml"/><channel xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gd="http://schemas.google.com/g/2005">
 <title>CARLA Events</title>
-<description xml:lang="en">CARLA❤: All Carla Lazzari from Junior Eurovision / Bim Bam Toi events. TV shows, concerts (Bim Bam Tour 2022/2023), birthdays etc.</description>
+<description xml:lang="en">ᴄᴀʀʟᴀ❤ | All events with Carla Lazzari (Bim Bam Toi, JESC, DALS) ✴ TV Shows ✴ Concerts (Bim Bam Tour) ✴ Birthdays ✴ etc.</description>
 <link>https://carlax.ml/events</link>
 <atom:id>https://carlax.ml/events</atom:id>
-<atom:icon>data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23EDD;'/%3E</atom:icon>
+<atom:icon>https://carlax.ml/favicon.ico.svg#events</atom:icon>
 <atom:link rel="self" href="https://carlax.ml/events?feed" type="application/rss+xml"/>
-<!--<atom:updated>2022-01-01T00:00:00Z</atom:updated>-->
 <item>
-	<guid>https://carlax.ml/events?/carla-18</guid>
-	<link>https://carlax.ml/events?/carla-18</link>
+	<guid>https://carlax.ml/events#/carla-20</guid>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/birthday</category>
+	<title>🎂 Birthday / Anniversaire (20)</title>
+	<gd:when startTime="2025-08-19"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/carla-19</guid>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/birthday</category>
+	<title>🎂 Birthday / Anniversaire (19)</title>
+	<gd:when startTime="2024-08-19"/>
+</item>
+<!--<item>
+	<guid>https://carlax.ml/events#/jesc-2023</guid>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<title>Junior Eurovision Song Contest</title>
+	<gd:when startTime="2023-12-00"/>
+</item>-->
+<item>
+	<guid>https://carlax.ml/events#/carla-18</guid>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
 	<category>event/birthday</category>
 	<title>🎂 Birthday / Anniversaire (18)</title>
 	<gd:when startTime="2023-08-19"/>
 </item>
 <item>
-	<guid>https://carlax.ml/events?/bim-bam-tour/la-cigale</guid>
+	<guid>https://carlax.ml/events#/bim-bam-tour/la-cigale</guid>
 	<link>https://carlax.ml/events?/bim-bam-tour/la-cigale</link>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
 	<category>event/concert</category>
@@ -32,117 +64,336 @@
 		Carla débute sa tournée en janvier 2022, accompagnée de ses musiciennes.
 		L’occasion d’interpréter les chansons qui ont jalonné son magnifique début de parcours, dans un spectacle taillé sur mesure : « Bim Bam Tour » !
 	]]></description>
-	<gd:when startTime="2022-11-27T16:00" endTime="2022-11-27T17:30"/>
+	<gd:when startTime="2023-04-16T16:00" endTime="2023-04-16T17:30"/>
 	<gd:where valueString="La Cigale">
 		<gd:postalAddress>120 Boulevard de Rochechouart, 75018 Paris, France</gd:postalAddress>
-		<gd:geoPt lat="48.88" lon="2.34"/>
+		<gd:geoPt lat="48.88" lon="02.34"/>
 	</gd:where>
-	<atom:link rel="related" href="http://lacigale.fr/spectacle/carla"/>
-	<atom:link rel="http://schema.org/Offer#29.00" href="http://lacigale.fnacspectacles.com/place-spectacle/ticket-evenement/one-man-woman-show-carla-mancicbt-lt.htm" title="Fnac Spectacles"/>
+	<atom:link rel="related" href="http://lacigale.fr/spectacle/18640" title="La Cigale"/>
+	<atom:link rel="related" href="http://lacigale.fr/spectacle/carla" title="La Cigale"/>
+	<atom:link rel="http://schema.org/Offer#29.00" href="http://lacigale.fnacspectacles.com/place-spectacle/ticket-evenement/--mancicbt-lt.htm" title="Fnac Spectacles"/>
+	<atom:link rel="http://schema.org/Offer#29.00" href="http://francebillet.com/billet-sortie/acheter/--mancicbt-lt.htm" title="Francebillet"/>
 	<enclosure url="https://pbs.twimg.com/media/FIfhFlSXsAE5Bxw.jpg" type="image/jpeg" length="0"/>
 </item>
-<!--<item>
-	<guid>https://carlax.ml/events#/jesc2022</guid>
+<item>
+	<guid>https://carlax.ml/events#/bim-bam-tour/tinqueux</guid>
+	<link>https://carlax.ml/events?/bim-bam-tour/tinqueux</link>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/concert</category>
+	<title>CARLA - Bim Bam Tour ✨</title>
+	<gd:when startTime="2023-04-02"/>
+	<gd:where valueString="Le Kabaret Champagne Music-Hall">
+		<gd:postalAddress>18 Rue Nicolas Appert, 51430 Tinqueux, France</gd:postalAddress>
+		<gd:geoPt lat="49.24" lon="03.99"/>
+	</gd:where>
+	<atom:link rel="http://schema.org/Offer#29.00" href="http://fnacspectacles.com/event/16363628"/>
+	<atom:link rel="http://schema.org/Offer#29.00" href="http://ticketmaster.fr/manifestation/idmanif/542536"/>
+	<!--<enclosure url="" type="image/jpeg" length="0"/>-->
+</item>
+<?_?>
+<item>
+	<guid>https://carlax.ml/events#/masterclass-dance</guid>
+	<link>https://carlax.ml/events?/masterclass-dance</link>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/cancelled</category>
+	<title>(CANCELLED) Masterclass Dance</title>
+	<gd:when startTime="2023-01-08"/>
+	<gd:where valueString="Spotlight Dance Studio">
+		<gd:postalAddress>62 Boulevard Virgile Barel, 06300 Nice, France</gd:postalAddress>
+		<gd:geoPt lat="43.71" lon="07.29"/>
+	</gd:where>
+	<atom:link rel="related" href="http://my.weezevent.com/masterclass-carla-adrien"/>
+	<atom:link rel="http://schema.org/Offer#99.00" href="http://my.weezevent.com/masterclass-carla-adrien#gemino-buy"/>
+	<enclosure url="https://gallery.weezevent.com/384068/sites/WhatsApp%20Image%202022-12-07%20at%209.44.12%20AM.jpeg" type="image/jpeg" length="0"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/bim-bam-tour/saint-marcel</guid>
+	<link>https://carlax.ml/events?/bim-bam-tour/saint-marcel</link>
+	<title>CARLA - Bim Bam Tour ✨</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/concert</category>
+	<gd:when startTime="2023-01-07"/>
+	<gd:where valueString="Centre Culturel Guy Gambu">
+		<gd:postalAddress>1 Rue Jules Ferry, 27950 Saint Marcel, France</gd:postalAddress>
+		<gd:geoPt lat="49.10" lon="01.45"/>
+	</gd:where>
+	<atom:link rel="related" href="http://centreculturelguygambu.fr/spectacle/carla-bim-bam-tour" title="Centre Culturel Guy Gambu"/>
+	<atom:link rel="related" href="http://sna27.fr/evenement/carla-bim-bam-tour"/>
+	<atom:link rel="http://schema.org/Offer#16.00" href="http://ardei-soft.com/snac-theatre/manif.html?refManif=35"/>
+	<atom:link rel="http://schema.org/Offer#17.00" href="http://francebillet.com/billet-sortie/acheter/--manstmca-lt.htm" title="Francebillet"/>
+	<enclosure url="https://centreculturelguygambu.fr/wp-content/uploads/2022/06/22-Carla-2.jpg" type="image/jpeg" length="0"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/jesc-2022</guid>
 	<title>🤍 Junior Eurovision Song Contest</title>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
-	<category>event</category>
-	<gd:when startTime="2022-11-"/>
+	<category>event/tv</category>
+	<gd:when startTime="2022-12-11"/>
 	<atom:link rel="related" href="http://junioreurovision.tv/"/>
-</item>-->
+</item>
 <item>
-	<guid>https://carlax.ml/events?/carla-17</guid>
-	<link>https://carlax.ml/events?/carla-17</link>
+	<guid>https://carlax.ml/events#/noel-a-royan-2022</guid>
+	<title>Un Noël à Royan</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event</category>
+	<gd:when startTime="2022-12-02"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/10+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-11-11T23:05" endTime="2022-11-12T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/10</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-11-11T21:10" endTime="2022-11-11T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/9+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-11-04T23:05" endTime="2022-11-05T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/9</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-11-04T21:10" endTime="2022-11-04T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/8+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-10-28T23:05" endTime="2022-10-29T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/8</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-10-28T21:10" endTime="2022-10-28T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/7+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-10-21T23:05" endTime="2022-10-22T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/7</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-10-21T21:10" endTime="2022-10-21T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/6+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-10-14T23:05" endTime="2022-10-15T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/6</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-10-14T21:10" endTime="2022-10-14T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/5+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-10-07T23:05" endTime="2022-10-08T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/5</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-10-07T21:10" endTime="2022-10-07T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/4+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-30T23:05" endTime="2022-10-01T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/4</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-30T21:10" endTime="2022-09-30T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/3+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-23T23:05" endTime="2022-09-24T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/3</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-23T21:10" endTime="2022-09-23T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/the-voice-kids</guid>
+	<title>TF1 - The Voice Kids - Les Battles</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-17T21:10" endTime="2022-09-17"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/2+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-16T23:05" endTime="2022-09-17T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/2</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-16T21:10" endTime="2022-09-16T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/1+</guid>
+	<title>TF1 - Danse avec les stars, la suite</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-09T23:05" endTime="2022-09-10T00:15"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/dals-2022/1</guid>
+	<title>TF1 - Danse avec les stars</title>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/tv</category>
+	<gd:when startTime="2022-09-09T21:10" endTime="2022-09-09T23:05"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/carla-17</guid>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
 	<category>event/birthday</category>
 	<title>🎂 Birthday / Anniversaire (17)</title>
 	<gd:when startTime="2022-08-19"/>
 </item>
 <item>
-	<guid>https://carlax.ml/events#/esc2022-3</guid>
-	<title>🤍 Eurovision Song Contest</title>
+	<guid>https://carlax.ml/events#/festin-day-festival</guid>
+	<title>(CANCELLED) Fest'in Day Festival - Fest'in Kids</title>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
-	<category>event</category>
-	<gd:when startTime="2022-05-14"/>
+	<category>event/concert/cancelled</category>
+	<gd:when startTime="2022-08-12T16:00" endTime="2022-08-12T23:00"/>
+	<gd:where valueString="Château de la Buzine">
+		<gd:postalAddress>56 Traverse de la Buzine, 13011 Marseille, France</gd:postalAddress>
+		<gd:geoPt lat="43.30" lon="05.50"/>
+	</gd:where>
+	<atom:link rel="related" href="http://festindayfestival.com/festin-kids"/>
+	<atom:link rel="http://schema.org/Offer#20.00" href="http://labuzine.com/details--568.html"/>
+	<enclosure url="https://festindayfestival.com/wp-content/uploads/2022/07/FESTIN-KIDS-FESTIVALok-Large.jpeg" type="image/jpeg" length="0"/>
 </item>
 <item>
-	<guid>https://carlax.ml/events#/esc2022-2</guid>
-	<title>🤍 Eurovision Song Contest</title>
+	<guid>https://carlax.ml/events#/festival-longuenesse</guid>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
-	<category>event</category>
-	<gd:when startTime="2022-05-12"/>
+	<category>event/concert</category>
+	<title>Festival de l'été en fête</title>
+	<gd:when startTime="2022-07-03T21:00" endTime="2022-07-03"/>
+	<gd:where valueString="Parc de l'Hôtel-de-ville">
+		<gd:postalAddress>13 Rue Joliot-Curie, 62219 Longuenesse, France</gd:postalAddress>
+		<gd:geoPt lat="50.74" lon="02.24"/>
+	</gd:where>
+	<atom:link rel="related" href="http://fb.com/1378157992692354"/>
 </item>
 <item>
-	<guid>https://carlax.ml/events#/esc2022-1</guid>
-	<title>🤍 Eurovision Song Contest</title>
-	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
-	<category>event</category>
-	<gd:when startTime="2022-05-10"/>
-</item>
-<!---->
-<item>
-	<guid>https://carlax.ml/events?/bim-bam-tour/drap</guid>
-	<!--<link>https://carlax.ml/events?/bim-bam-tour/drap</link>-->
+	<guid>https://carlax.ml/events#/bim-bam-tour/drap</guid>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
 	<category>event/concert</category>
 	<title>CARLA - Bim Bam Tour ✨</title>
 	<gd:when startTime="2022-02-05"/>
 	<gd:where valueString="Espace Jean Ferrat">
 		<gd:postalAddress>41 Avenue Jean Moulin, 06340 Drap, France</gd:postalAddress>
-		<gd:geoPt lat="43.75" lon="7.32"/>
+		<gd:geoPt lat="43.75" lon="07.32"/>
 	</gd:where>
 	<atom:link rel="related" href="http://my.weezevent.com/carla-bim-bam-tour"/>
 </item>
 <item>
-	<guid>https://carlax.ml/events?/dedicaces-auchan</guid>
-	<!--<link>https://carlax.ml/events?/dedicaces-auchan</link>-->
+	<guid>https://carlax.ml/events#/dedicaces-auchan</guid>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
 	<category>event</category>
 	<title>Auchan - Séance de dédicaces</title>
 	<gd:when startTime="2022-02-02T14:30" endTime="2022-02-02T16:00"/>
 	<gd:where valueString="Auchan La Trinité">
 		<gd:postalAddress>Route de Laghet, 06340 La Trinité, France</gd:postalAddress>
-		<gd:geoPt lat="43.74" lon="7.32"/>
+		<gd:geoPt lat="43.74" lon="07.32"/>
 	</gd:where>
 </item>
 <item>
-	<guid>https://carlax.ml/events?/bim-bam-tour/puteaux</guid>
-	<!--<link>https://carlax.ml/events?/bim-bam-tour/puteaux</link>-->
+	<guid>https://carlax.ml/events#/bim-bam-tour/puteaux</guid>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
 	<category>event/concert</category>
 	<title>CARLA - Bim Bam Tour ✨</title>
 	<gd:when startTime="2022-01-22"/>
 	<gd:where valueString="Théâtre de Puteaux">
 		<gd:postalAddress>5 Rue Henri Martin, 92800 Puteaux, France</gd:postalAddress>
-		<gd:geoPt lat="48.88" lon="2.24"/>
+		<gd:geoPt lat="48.88" lon="02.24"/>
 	</gd:where>
 	<atom:link rel="related" href="http://culture.puteaux.fr/saison-2021-2022/carla-bim-bam-tour"/>
 </item>
 <item>
-	<guid>https://carlax.ml/events?/bim-bam-tour/le-portel</guid>
-	<!--<link>https://carlax.ml/events?/bim-bam-tour/le-portel</link>-->
+	<guid>https://carlax.ml/events#/bim-bam-tour/le-portel</guid>
 	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
 	<category>event/concert/cancelled</category>
 	<title>(CANCELLED) CARLA - Bim Bam Tour ✨</title>
 	<gd:when startTime="2021-12-12"/>
 	<gd:where valueString="Le Chaudron">
 		<gd:postalAddress>42 Rue Charles Lamarre, 62480 Le Portel, France</gd:postalAddress>
-		<gd:geoPt lat="50.72" lon="1.58"/>
+		<gd:geoPt lat="50.72" lon="01.58"/>
 	</gd:where>
-	<atom:link rel="related" href="http://ticketmaster.fr/en/manifestation/idmanif/502133"/>
+	<atom:link rel="related" href="http://ticketmaster.fr/manifestation/idmanif/502133"/>
+</item>
+<item>
+	<guid>https://carlax.ml/events#/carla-16</guid>
+	<category domain="http://schemas.google.com/g/2005#kind">http://schemas.google.com/g/2005#event</category>
+	<category>event/birthday</category>
+	<title>🎂 Birthday / Anniversaire (16)</title>
+	<gd:when startTime="2021-08-19"/>
 </item>
 <xsl:stylesheet id="xsl" xml:id="xsl" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gd="http://schemas.google.com/g/2005" exclude-result-prefixes="atom gd">
 	<xsl:output method="html" doctype-system="about:legacy-compat" indent="no"/>
-	<xsl:param name="q" select="'?/test'"/>
-	<xsl:param name="embed" select="$q = '?embed'"/>
 	<xsl:param name="colour" select="'EDD'"/>
-	<xsl:key name="items" match="item[link]" use="substring-after(guid, '?/')"/>
+	<xsl:param name="q" select="'?/test'"/>
+	<xsl:key name="items" match="item[string(link)]" use="substring-after(link, '?/')"/>
 	<xsl:variable name="item" select="key('items', substring-after($q, '?/'))"/>
+	<xsl:variable name="embed" select="$q = '?embed'"/>
+	<xsl:variable name="p" select="substring-after(substring-after(channel/link, '//'), '/')"/>
 	<xsl:variable name="description">
 		<xsl:choose>
-			<xsl:when test="$item">CARLA❤: <xsl:if test="$item/category[not(@domain)] = 'event/concert'">Music </xsl:if>Event | <xsl:value-of select="concat($item/title, ' | ', $item/gd:when/@startTime, ' | ', $item/gd:where/@valueString)"/></xsl:when>
+			<xsl:when test="$item"><xsl:value-of select="concat($item/gd:when/@startTime, ' | ', substring('🎵 Music ', 1 div ($item/category[not(@domain)] = 'event/concert')), 'Event: ', $item/title, ' (', $item/gd:where/@valueString, ')')"/></xsl:when>
 			<xsl:otherwise><xsl:value-of select="channel/description"/></xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
+	<xsl:variable name="title"><xsl:if test="$item"><xsl:value-of select="$item/title"/> | </xsl:if><xsl:value-of select="channel/title"/></xsl:variable>
+	<xsl:variable name="icon">
+		<xsl:choose>
+			<xsl:when test="$item/enclosure[starts-with(@type, 'image/')]">https://i0.wp.com/<xsl:value-of select="substring-after($item/enclosure[starts-with(@type, 'image/')]/@url, '//')"/>?resize=48,48</xsl:when>
+			<xsl:otherwise><xsl:value-of select="substring-after(substring-after(channel/atom:icon, '//'), '/')"/></xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+	<xsl:variable name="favicon" select="'https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;fallback_opts=SIZE&amp;size=32&amp;url=http://'"/>
 	<xsl:template match="xsl:stylesheet|text()"/>
 	<xsl:template match="channel">
 		<html lang="">
@@ -154,130 +405,198 @@
 				<meta name="viewport" content="width=device-width, initial-scale=1"/>
 				<meta name="theme-color" content="#{$colour}"/>
 				<meta name="description" lang="{description/@xml:lang}" content="{$description}"/>
-				<title><xsl:if test="$item"><xsl:value-of select="$item/title"/> | </xsl:if><xsl:value-of select="title"/></title>
+				<title><xsl:value-of select="$title"/></title>
 				<base target="_top"/>
 				<link rel="canonical" href="{link}{substring($q, 1 div boolean($item))}"/>
-				<link rel="icon" href="{atom:icon}"/>
-				<link rel="alternate" href="?feed" type="application/rss+xml" title="{title}"/>
+				<link rel="icon" href="{$icon}"/>
+				<link rel="alternate" href="?{substring-after(atom:link/@href, '?')}" type="application/rss+xml" title="{title}"/>
 				<style onload="window.history.scrollRestoration = 'manual';"><xsl:call-template name="style"/></style>
 			</head>
 			<body style="--colour: #{$colour}">
 				<xsl:if test="$embed"><xsl:attribute name="class">embed</xsl:attribute></xsl:if>
 				<xsl:if test="not($embed)">
-					<h1 id="events"><xsl:value-of select="(title|$item/title)[last()]"/></h1>
-					<nav>
-						<iframe src="i.html#events" title="Menu">
-							<xsl:if test="$q"><xsl:attribute name="referrerpolicy">same-origin</xsl:attribute></xsl:if>
-						</iframe>
-						<ol id="breadcrumb" itemprop="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-							<li itemprop="name"><a href="./" title="CARLA">CARLA</a></li>
+					<h1 id="{$p}"><xsl:value-of select="(title|$item/title)[last()]"/></h1>
+					<header><iframe src="i.html#{$p}" title="Menu"><xsl:if test="$q"><xsl:attribute name="referrerpolicy">same-origin</xsl:attribute></xsl:if></iframe></header>
+					<nav class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList" aria-label="Breadcrumb">
+						<ol>
+							<li itemprop="name"><a href="." title="CARLA">CARLA</a></li>
 							<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-								<a href="events" title="Events" itemprop="item"><span itemprop="name">Events</span></a>
+								<span itemprop="name">
+									<span itemid="{$p}" itemprop="item" itemscope="" itemtype="http://schema.org/CollectionPage">
+										<a href="{$p}" title="❤ Events" itemprop="url">
+											<xsl:if test="not($item)"><xsl:attribute name="aria-current">page</xsl:attribute></xsl:if>
+											<span itemprop="name">❤ Events</span>
+										</a>
+									</span>
+								</span>
 								<meta itemprop="position" content="1"/>
 							</li>
-							<xsl:if test="$item">
-								<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-									<a href="" title="{$item/title}" itemprop="item"><span itemprop="name"><xsl:value-of select="$item/title"/></span></a>
+							<li>
+								<xsl:if test="$item">
+									<xsl:attribute name="itemprop">itemListElement</xsl:attribute>
+									<xsl:attribute name="itemscope"/>
+									<xsl:attribute name="itemtype">http://schema.org/ListItem</xsl:attribute>
+									<span itemprop="name">
+										<span itemid="{$q}" itemprop="item" itemscope="" itemtype="http://schema.org/ItemPage">
+											<a href="{$q}" title="{$item/title}" itemprop="url" aria-current="page"><span itemprop="name"><xsl:value-of select="$item/title"/></span></a>
+											<link itemprop="isPartOf" href="{$p}"/>
+										</span>
+									</span>
 									<meta itemprop="position" content="2"/>
-								</li>
-							</xsl:if>
+								</xsl:if>
+								<ul class="menu" itemid="{$p}" itemscope="" itemtype="http://schema.org/CollectionPage">
+									<xsl:for-each select="item[link]">
+										<xsl:sort select="position()" data-type="number" order="descending"/>
+										<li itemid="?{substring-after(link, '?')}" itemprop="hasPart" itemscope="" itemtype="http://schema.org/ItemPage">
+											<a href="?{substring-after(link, '?')}" title="{title}" itemprop="url"><span itemprop="name"><xsl:value-of select="title"/></span></a>
+										</li>
+									</xsl:for-each>
+								</ul>
+							</li>
 						</ol>
+						<link itemprop="itemListOrder" href="http://schema.org/ItemListOrderAscending"/>
+						<meta itemprop="numberOfItems" content="{1 + count($item)}"/>
+						<!--<input id="search" type="search" placeholder="Search / Rechercher" list="list" disabled="disabled"/>
+						<datalist id="list">
+							<xsl:for-each select="item">
+								<option value="{substring('X ', 1 div boolean(link))}{title}" label="{gd:when/@startTime}" title="{substring-after(guid, '#')}"></option>
+							</xsl:for-each>
+						</datalist>-->
 					</nav>
 				</xsl:if>
 				<xsl:choose>
 					<xsl:when test="not($item)">
-						<main class="list">
-							<xsl:if test="not($embed)">
-								<h2 id="upcoming">Upcoming</h2>
-							</xsl:if>
-							<time class="now" datetime="00:00">Loading...</time>
-							<xsl:apply-templates select="item[not(preceding-sibling::comment()[. = ''])]"><xsl:sort select="position()" data-type="number" order="descending"/></xsl:apply-templates>
-							<xsl:if test="not($embed)">
+						<time class="now" datetime="00:00">Loading...</time>
+						<xsl:choose>
+							<xsl:when test="$embed">
+								<ol><xsl:apply-templates select="item[not(preceding-sibling::processing-instruction())]"><xsl:sort select="position()" data-type="number" order="descending"/></xsl:apply-templates></ol>
+								<a id="TEST" href="?TEST" hidden="hidden" itemscope="" itemtype="http://schema.org/Thing"><meta itemprop="name" content="TEST"/><link itemprop="url" href="#TEST"/><template>TEST</template></a>
+							</xsl:when>
+							<xsl:otherwise>
+								<main class="list">
+									<h2 id="upcoming"><a href="#upcoming"><span lang="en">Upcoming</span> / <span lang="fr">À venir</span></a></h2>
+									<ol><xsl:apply-templates select="item[not(preceding-sibling::processing-instruction())]"><xsl:sort select="position()" data-type="number" order="descending"/></xsl:apply-templates></ol>
+								</main>
 								<hr/>
-								<h2 id="previous">Previous</h2>
-								<xsl:apply-templates select="item[preceding-sibling::comment()[. = '']]"/>
-							</xsl:if>
-							<span id="event">
+								<aside class="list">
+									<h2 id="past"><a href="#past"><span lang="en">Past</span> / <span lang="fr">Passé</span></a></h2>
+									<ol reversed="reversed"><xsl:apply-templates select="item[preceding-sibling::processing-instruction()]"/></ol>
+								</aside>
+							</xsl:otherwise>
+						</xsl:choose>
+						<xsl:if test="item[string(link)]">
+							<span id="event" hidden="hidden">
 								<span itemprop="eventStatus" content="http://schema.org/EventScheduled"></span>
-								<span id="carla" itemid="./#carla" itemprop="performer organizer" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name" content="CARLA"></span></span>
+								<span itemid=".#carla" itemprop="attendee performer" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name" content="CARLA"></span></span>
 							</span>
-							<span id="offline" itemprop="eventAttendanceMode" content="http://schema.org/OfflineEventAttendanceMode"></span>
-							<span id="online" itemprop="eventAttendanceMode" content="http://schema.org/OnlineEventAttendanceMode"></span>
-							<hr/>
-							<a id="updated" href="events"><span lang="en">Last updated</span>: <time><xsl:value-of select="substring-before(atom:updated, 'T')"/></time></a>
-						</main>
+						</xsl:if>
+						<hr/>
+						<a id="updated" href="{$p}"><dl><dt><span lang="en">Last updated</span></dt><dd><time>00:00</time></dd></dl></a>
 					</xsl:when>
 					<xsl:otherwise>
-						<main class="item {translate($item/category[not(@domain)], '/', ' ')}" itemscope="" itemtype="http://schema.org/Event">
-							<link itemprop="url" href="{$item/guid}"/>
-							<link itemprop="eventStatus" href="http://schema.org/EventScheduled"/>
-							<div class="image">
-								<xsl:if test="$item/enclosure">
-									<xsl:attribute name="style">--i: url('<xsl:value-of select="$item/enclosure/@url"/>');</xsl:attribute>
-									<img src="{$item/enclosure/@url}" alt="{$item/title}" title="{$item/title}" loading="lazy" itemprop="image"/>
-								</xsl:if>
-								<div class="title">
-									<time><xsl:value-of select="$item/gd:when/@startTime"/></time>
-									<b><xsl:value-of select="$item/title"/></b>
-								</div>
+						<main id="event" class="item {translate($item/category[not(@domain)], '/', ' ')}" itemid="{$item/guid}" itemscope="" itemtype="http://schema.org/{substring('Music', 1 div ($item/category[not(@domain)] = 'event/concert'))}Event">
+							<xsl:for-each select="$item/enclosure[starts-with(@type, 'image/')][1]/@url"><xsl:attribute name="style">--i: url('https://images.weserv.nl/?w=1&amp;h=1&amp;url=<xsl:value-of select="."/>');</xsl:attribute></xsl:for-each>
+							<div class="image" title="{$item/title}">
+								<xsl:for-each select="$item/enclosure[starts-with(@type, 'image/')][1]">
+									<xsl:attribute name="style">--i: url('<xsl:value-of select="@url"/>');</xsl:attribute>
+									<img src="{@url}" alt="{../title}" loading="lazy" itemprop="image"/>
+								</xsl:for-each>
+								<time><xsl:value-of select="$item/gd:when/@startTime"/></time>
 							</div>
-							<div class="description">
-								<h2 id="description">Description</h2>
+							<section class="description">
+								<h2 id="description"><a href="#description"><span lang="en">Description</span></a></h2>
 								<blockquote itemprop="description" lang="{(description|$item/description)[last()]/@xml:lang}">
 									<xsl:choose>
 										<xsl:when test="$item/description"><xsl:value-of select="normalize-space($item/description)"/></xsl:when>
 										<xsl:otherwise><xsl:value-of select="$description"/></xsl:otherwise>
 									</xsl:choose>
 								</blockquote>
-								<xsl:apply-templates select="$item/atom:link[@rel='related']"/>
-								<xsl:if test="$item/atom:link[starts-with(@rel, 'http://schema.org/Offer')]">
-									<table class="offers">
-										<caption><h3>Tickets</h3></caption>
-										<xsl:for-each select="$item/atom:link[starts-with(@rel, 'http://schema.org/Offer')]">
-											<tr itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-												<link itemprop="availability" href="http://schema.org/InStock"/>
-												<th itemprop="name"><xsl:value-of select="@title"/></th>
-												<td><a href="{@href}" itemprop="url">
-													From 
-													<span itemprop="priceCurrency" content="EUR" title="Euro">€</span>
-													<data value="{substring-after(@rel, '#')}" itemprop="price"><xsl:value-of select="translate(substring-after(@rel, '#'), '.', ',')"/></data>
-												</a></td>
-											</tr>
+								<xsl:if test="$item/atom:link[@rel='related']">
+									<ul>
+										<xsl:for-each select="$item/atom:link[@rel='related']">
+											<li><xsl:apply-templates select="."/></li>
 										</xsl:for-each>
-									</table>
+									</ul>
 								</xsl:if>
-							</div>
+							</section>
+							<xsl:choose>
+								<xsl:when test="$item/atom:link[starts-with(@rel, 'http://schema.org/Offer')]">
+									<section class="offers">
+										<table>
+											<caption><h2 id="tickets"><a href="#tickets"><span lang="en">Tickets</span></a></h2></caption>
+											<tr>
+												<th scope="col"><span lang="en">Tickets</span></th>
+												<th scope="col"><span lang="en">Site</span></th>
+												<th scope="col"><span lang="en">Price</span></th>
+											</tr>
+											<xsl:for-each select="$item/atom:link[starts-with(@rel, 'http://schema.org/Offer')]">
+												<xsl:variable name="domain" select="substring-before(substring-after(@href, '//'), '/')"/>
+												<tr title="{substring-after(@href, '//')}" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" itemref="offer">
+													<td><a href="{@href}" rel="nofollow" itemprop="url"><span>1</span></a></td>
+													<td><a href="{@href}" rel="nofollow"><span itemprop="name"><img src="{$favicon}{$domain}" width="32" height="32" alt=""/><xsl:value-of select="concat(@title, substring($domain, 1 div not(@title)))"/></span></a></td>
+													<td><a href="{@href}" rel="nofollow"><data itemprop="price" content="{substring-after(@rel, '#')}" value="{substring-after(@rel, '#')}" title="{substring-after(@rel, '#')}"><abbr>€</abbr><xsl:value-of select="translate(substring-after(@rel, '#'), '.', ',')"/></data></a></td>
+												</tr>
+											</xsl:for-each>
+										</table>
+										<link itemprop="isAccessibleForFree" href="http://schema.org/False"/>
+									</section>
+								</xsl:when>
+								<xsl:otherwise>
+									<template itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" itemref="offer">
+										<meta itemprop="name description" content="Free / Gratuit"/>
+										<meta itemprop="price" content="0"/>
+									</template>
+									<link itemprop="isAccessibleForFree" href="http://schema.org/True"/>
+								</xsl:otherwise>
+							</xsl:choose>
 							<xsl:choose>
 								<xsl:when test="$item/gd:where">
-									<link itemprop="eventAttendanceMode" href="http://schema.org/OfflineEventAttendanceMode"/>
-									<div class="location" itemprop="location" itemscope="" itemtype="http://schema.org/MusicVenue">
-										<h2 id="location">Location</h2>
-										<iframe src="https://maps.google.com/maps?output=embed&amp;q={translate(concat($item/gd:where/@valueString, ', ', $item/gd:where/gd:postalAddress), ' ', '+')}" title="Google Maps"></iframe>
+									<section class="location" itemprop="location" itemscope="" itemtype="http://schema.org/MusicVenue">
+										<h2 id="location"><a href="#location"><span lang="en">Location</span></a></h2>
+										<iframe src="https://maps.google.com/maps?output=embed&amp;q={translate(concat($item/gd:where/@valueString, ', ', $item/gd:where/gd:postalAddress), ' ', '+')}" title="Google Maps" loading="lazy"></iframe>
 										<meta itemprop="name" content="{$item/gd:where/@valueString}"/>
 										<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
 											<meta itemprop="name" content="{$item/gd:where/gd:postalAddress}"/>
 										</span>
-									</div>
+										<link itemprop="hasMap" href="http://maps.google.com/maps?q={translate(concat($item/gd:where/@valueString, ', ', $item/gd:where/gd:postalAddress), ' ', '+')}"/>
+									</section>
+									<link itemprop="eventAttendanceMode" href="http://schema.org/OfflineEventAttendanceMode"/>
 								</xsl:when>
 								<xsl:otherwise>
+									<template itemprop="location" itemscope="" itemtype="http://schema.org/VirtualLocation">
+										<link itemprop="url" href="{($item/link|$item/atom:link)[last()]}"/>
+									</template>
 									<link itemprop="eventAttendanceMode" href="http://schema.org/OnlineEventAttendanceMode"/>
-									<span itemprop="location" itemscope="" itemtype="http://schema.org/VirtualLocation">
-										<link itemprop="url" href="{($item/guid|$item/atom:link)[last()]}"/>
-									</span>
 								</xsl:otherwise>
 							</xsl:choose>
-							<table>
-								<caption><h2 id="event"><xsl:if test="$item/category[not(@domain)] = 'event/concert'">Music </xsl:if>Event</h2></caption>
-								<tr><th scope="row"><span lang="en">Title</span></th><td itemprop="name"><xsl:value-of select="$item/title"/></td></tr>
-								<tr><th scope="row"><span lang="en">Start</span></th><td><time itemprop="startDate"><xsl:value-of select="$item/gd:when/@startTime"/></time></td></tr>
-								<tr><th scope="row"><span lang="en">End</span></th><td><time itemprop="endDate"><xsl:value-of select="($item/gd:when/@startTime|$item/gd:when/@endTime)[last()]"/></time></td></tr>
-								<tr><th scope="row"><span lang="en">Location</span></th><td><xsl:value-of select="$item/gd:where/@valueString"/></td></tr>
-								<tr><th scope="row"><span lang="en">Address</span></th><td><xsl:value-of select="$item/gd:where/gd:postalAddress"/></td></tr>
-								<tr><th scope="row"><span lang="en">Performer</span></th><td itemid="./#carla" itemprop="performer" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">CARLA</span></td></tr>
-								<tr><th scope="row"><span lang="en">Organizer</span></th><td itemid="./#carla" itemprop="organizer" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">CARLA</span></td></tr>
-								<tr><th scope="row"><span lang="en">Language</span></th><td itemprop="inLanguage">French</td></tr>
-							</table>
+							<section class="info">
+								<table>
+									<caption><h2 id="info"><a href="#info"><span lang="en"><xsl:if test="$item/category[not(@domain)] = 'event/concert'">Music </xsl:if>Event</span></a></h2></caption>
+									<tr><th scope="row"><span lang="en">Title</span></th><td itemprop="name"><xsl:value-of select="$item/title"/></td></tr>
+									<tr><th scope="row"><span lang="en">Start</span></th><td><time itemprop="startDate"><xsl:value-of select="$item/gd:when/@startTime"/></time></td></tr>
+									<tr><th scope="row"><span lang="en">End</span></th><td><time itemprop="endDate"><xsl:value-of select="($item/gd:when/@startTime|$item/gd:when/@endTime)[last()]"/></time></td></tr>
+									<tr><th scope="row"><span lang="en">Location</span></th><td><xsl:value-of select="$item/gd:where/@valueString"/></td></tr>
+									<tr><th scope="row"><span lang="en">Address</span></th><td><xsl:value-of select="$item/gd:where/gd:postalAddress"/></td></tr>
+									<tr><th scope="row"><span lang="en">Performer</span></th><td itemid=".#carla" itemprop="attendee performer" itemscope="" itemtype="http://schema.org/Person"><a href="." itemprop="url"><span itemprop="name">CARLA</span></a></td></tr>
+									<tr><th scope="row"><span lang="en">Organiser</span></th><td itemprop="organizer" itemscope="" itemtype="http://schema.org/Person"><span itemprop="name">CARLA</span></td></tr>
+									<tr><th scope="row"><span lang="en">Language</span></th><td itemprop="inLanguage" itemscope="" itemtype="http://schema.org/Language"><data itemprop="alternateName" value="fr" content="fr" title="fr"><span lang="en" itemprop="name">French</span> / <span lang="fr" itemprop="name">Français</span></data></td></tr>
+								</table>
+							</section>
+							<link itemprop="eventStatus" href="http://schema.org/EventScheduled"/>
+							<link itemprop="url subjectOf mainEntityOfPage" href="{$q}"/>
 						</main>
+						<template id="offer">
+							<link itemprop="availability" href="http://schema.org/InStock"/>
+							<link itemprop="isFamilyFriendly" href="http://schema.org/True"/>
+							<meta itemprop="priceCurrency" content="EUR"/>
+							<meta itemprop="availabilityEnds priceValidUntil validThrough" content="{substring-before(concat($item/gd:when/@startTime, 'T'), 'T')}"/>
+						</template>
+						<xsl:for-each select="$item/following-sibling::item[string(link)][1]">
+							<a class="previous" rel="prev" href="?{substring-after(link, '?')}" title="{title}">&lt;</a>
+						</xsl:for-each>
+						<xsl:for-each select="$item/preceding-sibling::item[string(link)][1]">
+							<a class="next" rel="next" href="?{substring-after(link, '?')}" title="{title}">&gt;</a>
+						</xsl:for-each>
 					</xsl:otherwise>
 				</xsl:choose>
 				<xsl:if test="not($embed)">
@@ -285,12 +604,17 @@
 					<footer>
 						<xsl:choose>
 							<xsl:when test="$item">
-								<a class="back" href="events"><span lang="en">Back to Events</span></a>
+								<a class="back" href="{$p}"><span lang="en">Back to Events</span></a>
 							</xsl:when>
 							<xsl:otherwise>
-								<a class="back" href="./"><span lang="en">Back to Homepage</span></a>
+								<a class="back" href="."><span lang="en">Back to Homepage</span></a>
 							</xsl:otherwise>
 						</xsl:choose>
+						<form id="validate" method="post" action="https://validator.w3.org/check?outline=1" enctype="multipart/form-data" onsubmit="this.fragment.value += document.documentElement.outerHTML;">
+							<button name="fragment" value="&lt;!DOCTYPE html>" title="{link}{substring(concat(' › ', $q), 1 div boolean($item))}&#10;{$title}&#10;{$description} ({string-length($description)})">
+								<img src="{$icon}" width="16" height="16" alt="{substring-before(substring-after(link, '//'), '/')}" loading="lazy"/>
+							</button>
+						</form>
 					</footer>
 				</xsl:if>
 				<xsl:element name="script"><xsl:call-template name="script"/></xsl:element>
@@ -298,137 +622,177 @@
 		</html>
 	</xsl:template>
 	<xsl:template match="item">
-		<article class="{translate(category[not(@domain)], '/', ' ')}">
+		<li id="{substring-after(guid, '#')}" class="{translate(category[not(@domain)], '/', ' ')}">
+			<xsl:for-each select="enclosure[starts-with(@type, 'image/')][1]/@url"><xsl:attribute name="style">--i: url('https://images.weserv.nl/?w=1&amp;h=1&amp;url=<xsl:value-of select="."/>');</xsl:attribute></xsl:for-each>
 			<xsl:choose>
-				<xsl:when test="link">
+				<xsl:when test="string(link)">
+					<xsl:attribute name="itemid"><xsl:value-of select="guid"/></xsl:attribute>
 					<xsl:attribute name="itemscope"/>
 					<xsl:attribute name="itemtype">http://schema.org/<xsl:if test="category[not(@domain)] = 'event/concert'">Music</xsl:if>Event</xsl:attribute>
-					<xsl:choose>
-						<xsl:when test="gd:where">
-							<xsl:attribute name="itemref">offline event</xsl:attribute>
-							<span itemprop="location" itemscope="" itemtype="http://schema.org/MusicVenue">
-								<span itemprop="name" content="{gd:where/@valueString}"></span>
-								<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-									<span itemprop="name" content="{gd:where/gd:postalAddress}"></span>
+					<xsl:attribute name="itemref">event</xsl:attribute>
+					<div class="time">
+						<time itemprop="startDate"><xsl:value-of select="gd:when/@startTime"/></time>
+						<time itemprop="endDate" hidden="hidden"><xsl:value-of select="(gd:when/@startTime|gd:when/@endTime)[last()]"/></time>
+					</div>
+					<div class="info">
+						<a href="{substring($p, 1 div $embed)}?{substring-after(link, '?')}" title="{title}" itemprop="url subjectOf mainEntityOfPage">
+							<xsl:if test="not($embed)">
+								<span class="image">
+									<xsl:for-each select="enclosure[starts-with(@type, 'image/')]">
+										<img src="https://i0.wp.com/{substring-after(@url, '//')}?resize=100,100" width="100" height="100" alt="" loading="lazy"/>
+										<link itemprop="image" href="{@url}"/>
+									</xsl:for-each>
 								</span>
-							</span>
-						</xsl:when>
-						<xsl:otherwise>
-							<xsl:attribute name="itemref">online event</xsl:attribute>
-							<span itemprop="location" itemscope="" itemtype="http://schema.org/VirtualLocation">
-								<a itemprop="url" href="{(guid|atom:link)[last()]}"></a>
-							</span>
-						</xsl:otherwise>
-					</xsl:choose>
-					<time itemprop="startDate"><xsl:value-of select="gd:when/@startTime"/></time>
-					<time itemprop="endDate" hidden="hidden"><xsl:value-of select="(gd:when/@startTime|gd:when/@endTime)[last()]"/></time>
-					<h3 id="{substring-after(guid, '?')}" itemprop="name"><a href="{substring('events', 1 div $embed)}?{substring-after(guid, '?')}" title="{substring-after(guid, '//')}" itemprop="url"><xsl:value-of select="title"/></a></h3>
+							</xsl:if>
+							<h3 itemprop="name"><xsl:value-of select="title"/></h3>
+						</a>
+						<xsl:apply-templates select="atom:link[1]"/>
+					</div>
+					<div class="map">
+						<xsl:choose>
+							<xsl:when test="gd:where">
+								<span itemprop="location" itemscope="" itemtype="http://schema.org/MusicVenue">
+									<xsl:for-each select="gd:where/gd:geoPt[@lat and @lon]">
+										<xsl:variable name="x" select="concat(../@valueString, '&#10;', ../gd:postalAddress, '&#10;(', @lat, ', ', @lon, ')')"/>
+										<a href="http://maps.google.com/maps?q={translate(concat(../@valueString, ', ', ../gd:postalAddress), ' ', '+')}" itemprop="hasMap">
+											<picture>
+												<source srcset="https://images.weserv.nl/?output=webp&amp;url=static-maps.yandex.ru/1.x/?l=map%26lang=fr%26size=300,160%26z=6%26pt={@lon},{@lat},round" type="image/webp"/>
+												<img src="https://images.weserv.nl/?url=static-maps.yandex.ru/1.x/?l=map%26lang=fr%26size=300,160%26z=6%26pt={@lon},{@lat},round" width="300" height="160" alt="{$x}" title="{$x}" loading="lazy"/>
+											</picture>
+										</a>
+									</xsl:for-each>
+									<span hidden="hidden" itemprop="name" content="{gd:where/@valueString}"></span>
+									<span hidden="hidden" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+										<span itemprop="name" content="{gd:where/gd:postalAddress}"></span>
+									</span>
+								</span>
+								<span hidden="hidden" itemprop="eventAttendanceMode" content="http://schema.org/OfflineAttendanceMode"></span>
+							</xsl:when>
+							<xsl:otherwise>
+								<span itemprop="location" itemscope="" itemtype="http://schema.org/VirtualLocation">
+									<a itemprop="url" href="{(link|atom:link[1])[last()]}">...</a>
+								</span>
+								<span hidden="hidden" itemprop="eventAttendanceMode" content="http://schema.org/OnlineAttendanceMode"></span>
+							</xsl:otherwise>
+						</xsl:choose>
+					</div>
 				</xsl:when>
 				<xsl:otherwise>
-					<time><xsl:value-of select="gd:when/@startTime"/></time>
-					<h3 id="{substring-after(guid, '#')}" title="{title}"><xsl:value-of select="title"/></h3>
+					<time class="time"><xsl:value-of select="gd:when/@startTime"/></time>
+					<h3 class="info" title="{title}"><xsl:value-of select="title"/></h3>
+					<div class="map"></div>
 				</xsl:otherwise>
 			</xsl:choose>
-			<xsl:for-each select="gd:where/gd:geoPt">
-				<xsl:variable name="x" select="concat(../@valueString, '&#10;', ../gd:postalAddress, '&#10;', @lat, ' ', @lon)"/>
-				<a href="http://maps.google.com/maps?q={translate(concat(../@valueString, ', ', ../gd:postalAddress), ' ', '+')}"><img class="map" src="https://images.weserv.nl/?output=webp&amp;url=static-maps.yandex.ru/1.x/?l=map%26lang=fr%26size=300,160%26z=6%26pt={@lon},{@lat},round" width="300" height="160" alt="{$x}" title="{$x}" loading="lazy"/></a>
-			</xsl:for-each>
-			<xsl:apply-templates select="atom:link[1]"/>
-		</article>
+		</li>
 	</xsl:template>
 	<xsl:template match="atom:link">
-		<a class="link" href="{@href}" title="{substring-after(@href, '//')}"><img src="https://t0.gstatic.com/favicon?client=afs&amp;nfrp=1&amp;fallback_opts=SIZE&amp;size=32&amp;url=https://{substring-before(concat(substring-after(@href, '//'), '/'), '/')}" width="20" height="20" alt="" loading="lazy"/><xsl:value-of select="substring-after(@href, '//')"/></a>
+		<xsl:variable name="url" select="substring-after(@href, '//')"/>
+		<a class="link" rel="nofollow" href="{@href}" title="{$url}" itemprop="sameAs"><img src="{$favicon}{substring-before(concat($url, '/'), '/')}" width="20" height="20" alt="" loading="lazy"/><xsl:value-of select="concat(@title, substring($url, 1 div not(@title)))"/></a>
 	</xsl:template>
 	<xsl:template name="style"><![CDATA[
 		@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
 		body {font: 15px 'Itim', 'Calibri', sans-serif; margin: 0px; text-align: center; background-color: var(--colour);}
-		img {max-width: 100%; max-height: 100%; vertical-align: middle;}
+		img {display: inline-block; max-width: 100%; max-height: 100%; vertical-align: middle;}
 		iframe {display: block; width: 100%; height: 100%; border-style: none;}
 		h1 {display: none;}
-		h2 {margin: 0px;}
+		h1, h2, h3 {margin: 0px;}
 		a {color: inherit;}
 		a:not(:hover) {text-decoration: none;}
-		nav>iframe {height: 100px;}
+		table {width: 100%; border-collapse: collapse;}
+		dl, dt, dd {display: inline; margin: 0px;}
+		header {height: 100px;}
 		hr {width: 90%; height: 5px; margin: 20px auto; border-style: none; border-radius: 50%; background-color: #FFF;}
 		[hidden] {display: none !important;}
-		#breadcrumb {margin: 0px; padding: 5px; background-color: #0001;}
-		#breadcrumb li {display: inline-block; position: relative; margin: 0px 15px; background-color: #0001; vertical-align: top;}
-		#breadcrumb li::after {content: ''; position: absolute; top: 0px; left: 100%; border: 14px solid transparent; border-left: 18px solid #0004;}
-		#breadcrumb a {display: block; min-width: 150px; padding: 5px;}
-		#breadcrumb a:hover {background-color: #FFF;}
-		.list h2 {color: #FFF; text-transform: uppercase;}
-		.list .event {display: inline-block; width: 40%; min-width: 300px; margin: 10px; padding: 10px; background-color: #FFF; vertical-align: top; overflow: hidden;}
-		.list .event.past:not(:hover), .event.cancelled:not(:hover) {opacity: 0.5;}
-		.list .event .map {height: 100px; background-color: #9CE; object-fit: none;}
-		.list .event time {display: block; background-color: #0001;}
-		.list .event h3 {line-height: 30px; margin: 0px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-		.list .event h3 a {display: block; position: relative;}
-		.list .event h3 a::after {content: ''; position: absolute; right: 0px; border: 14px solid transparent; border-left: 40px solid #0006;}
-		.list .event .link {display: block; margin: 5px; padding: 5px; background-color: #0002; text-align: initial; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+		.breadcrumb ol {margin: 0px; padding: 5px; text-align: initial; list-style-type: none;}
+		.breadcrumb ol>li {display: inline-block; position: relative; margin: 0px 15px; background-color: #0001; vertical-align: top; text-align: center;}
+		.breadcrumb ol>li::after {content: ''; position: absolute; top: 0px; left: 100%; border: 14px solid transparent; border-left: 18px solid #0004;}
+		.breadcrumb a {display: block; min-width: 150px; padding: 5px;}
+		.breadcrumb a:hover {background-color: #FFF;}
+		.breadcrumb .menu {position: absolute; padding: 0px; background-color: #FFF5; backdrop-filter: blur(10px); list-style-type: none; z-index: 1;}
+		.breadcrumb li:not(:hover)>.menu {display: none;}
+		.list {width: 80%; margin: 0px auto;}
+		.list>ol {margin: 0px; padding: 0px;}
+		.list h2 {font-size: 20px; border-bottom: 1px solid #000; text-align: initial; text-transform: uppercase;}
+		.list .event {display: flex; position: relative; min-width: 300px; margin: 10px auto; padding: 10px; border-radius: 20px 0px 0px 20px; background: linear-gradient(#FFFC, #FFF0), #FFF var(--i, none);}
+		body:not(.embed) .list .event:hover {outline: 10px solid #0001;}
+		main.list .event.past:not(:hover), aside.list .event.cancelled:not(:hover) {opacity: 0.5;}
+		aside.list .event:not(:hover) {filter: grayscale(1);}
+		.list .event .time {width: 300px; text-align: initial;}
+		.list .event .info {min-width: 300px; flex: 1;}
+		.list .event .info .image {width: 100px; height: 100px; border-radius: 50%; background-color: #000; overflow: hidden; float: left;}
+		.list .event .map {width: 300px; border-radius: 5px; background-color: #0001; overflow: hidden;}
+		.list .event .map img {height: 100px; background-color: #9CE; object-fit: none;}
+		.list .event h3 {font-size: 20px; line-height: 30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+		.list .event a h3::after {content: ''; position: absolute; top: 0px; left: 100%; border: 60px solid transparent; border-left: 70px solid #0001;}
+		.list .event a:hover h3::after {border-left-color: #FFF;}
+		.list .event .link {display: inline-block; margin: 5px; padding: 5px 10px; border-radius: 10px; background-color: #0002; text-align: initial; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 		.list .event .link img {margin-right: 5px;}
-		.event.birthday {background-image: linear-gradient(45deg, #FC8, #FAC);}
-		[data-days]::before {content: attr(data-days); display: inline-block; margin: 5px; padding: 5px 10px; border: 2px solid #000; color: #000; background-color: #FFF;}
-		.item {width: 80%; margin: 10px auto; padding: 10px; background-color: #FFF; box-shadow: 0px 0px 10px #0005;}
-		.item h2 {border-bottom: 1px dotted #000;}
-		.item .title {position: absolute; top: 0px; left: 0px; color: #FFF;}
-		.item .title b {font-size: 30px; font-weight: bold; text-shadow: 0px 0px 10px #000;}
+		.event.birthday {background-color: #FAF;}
+		[data-days]::before {content: attr(data-days); display: inline-block; margin: 0px 5px; padding: 5px 10px; border: 2px solid #000; color: #000; background-color: #FFF;}
+		[data-days="0"]::before {color: #FFF; background-color: #555;}
+		.item {width: 80%; margin: 10px auto; padding: 10px; background: linear-gradient(#FFF0, #FFF5), #FFF var(--i, none);}
+		.item h2 {color: #FFF; background-color: #0003;}
+		.item .image time {position: absolute; top: 0px; left: 0px; color: #FFF;}
+		.item .image::before {content: attr(title); display: block; position: absolute; bottom: 0px; width: 100%; line-height: 70px; font-size: 30px; color: #FFF; background-color: #0004; text-shadow: 0px 0px 10px #000;}
 		.item .image {position: relative; height: 400px; background: linear-gradient(#0004, #0006), #0002 var(--i, none) center/cover;}
-		.item .description {min-height: 150px; margin: 20px; background: linear-gradient(#FFF, #EEE);}
-		.item .offers {margin: 20px; padding: 20px; background-color: gold;}
+		.item .image img {position: relative; height: 100%; object-fit: cover;}
+		.item .description blockquote {background-color: #FFF; text-align: justify;}
+		.item .description ul {padding: 0px; list-style-type: none;}
+		.item .description ul>li {display: inline-block; margin: 0px 5px;}
+		.item .description ul>li a {padding: 5px 10px; border-radius: 5px; background-color: #FFF3;}
+		.item .offers tr a {display: block; line-height: 40px; margin: 5px; font-size: 1.5em; border-radius: 10px; background-color: #FD0;}
+		.item .offers tr a span {padding: 0px 10px; border-radius: 20px; background-color: #FFF9;}
 		.item .location iframe {background-color: #E5E3DF;}
-		.item table {width: 100%; border-collapse: collapse;}
-		.item table caption {color: #FFF; background-color: #0005;}
-		.item table tr:nth-child(even) {background-color: #0001;}
+		.item .info table {background-color: #FFF;}
+		.item .info tr:nth-child(even) {background-color: #0001;}
 		.now {display: block;}
-		.back {display: inline-block; margin: 10px; padding: 10px 20px; background-color: #0001;}
-		footer::after {content: ''; display: block; height: 150px; background-image: linear-gradient(transparent, #0004);}
+		.back {display: inline-block; padding: 10px 20px; background-color: #0001;}
+		footer {position: relative;}
+		footer::after {content: ''; display: block; height: 200px; background-image: linear-gradient(#0000, #0004);}
+		footer #validate {position: absolute; bottom: 5px; left: 5px;}
+		footer #validate:not(:hover) {opacity: 0.5;}
 		.embed {background-color: transparent;}
-		.embed .event {display: block; width: 100%; margin: 0px 0px 10px 0px; padding: 0px;}
+		.embed>ol {margin: 0px; padding: 0px; list-style-type: none;}
+		.embed .now {height: 28px; line-height: 28px; margin: 0px 6px 6px 6px; border-radius: 15px; background-color: #0001;}
+		.embed .event {margin: 0px 0px 10px 0px; background-image: linear-gradient(45deg, #FFFA, #FFF3), var(--i, none);}
 		.embed .event.past {display: none;}
 		.embed .event h3 {font-size: inherit;}
-		.embed .event h3 a::after {display: none;}
-		.embed .event time {color: #FFF; background-color: #0005;}
+		.embed .event time {display: block; color: #FFF; background-color: #0005;}
 		.embed .event time::before {float: left;}
-		.embed .now {height: 28px; line-height: 28px; margin: 0px 6px 6px 6px; border-radius: 15px; background-color: #0001;}
+		.embed .event .link {display: block; background-color: #FFF5; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+		.embed .event .map a {display: block;}
+		.embed .event .map img {height: 100px; object-fit: none;}
 	]]></xsl:template>
 	<xsl:template name="script"><![CDATA['use strict';
-		let modified = new Date(document.lastModified);
-		document.querySelectorAll('#updated>time').forEach(_=>_.dateTime = new Date(modified - modified.getTimezoneOffset()*60*1000).toISOString().split('T')[0]);
+		let w = window, d = document, $ = d.querySelector.bind(d), $$ = d.querySelectorAll.bind(d), q = new URLSearchParams(w.location.search);
+		if(q.has('NOSTYLE')) $('style').disabled = d.title = '(NOSTYLE) ' + d.title;
+		if(q.has('NOSCRIPT')) throw d.title = '(NOSCRIPT) ' + d.title;
+		let modified = new Date(d.lastModified);
+		$$('#updated time').forEach(_=>_.dateTime = new Date(modified - modified.getTimezoneOffset()*60*1000).toISOString().split('T')[0]);
 		(function clock(now = new Date()){
-			if(window.location.search == '?NOSCRIPT') return document.title = '[NOSCRIPT] ' + document.title;
-			document.querySelectorAll('time').forEach(time=>{
-				if(time.className == 'now') time.dateTime = new Date(now - now.getTimezoneOffset()*60*1000).toISOString().split('.')[0];
-				if(time.dataset.days === undefined){
-					if(!time.dateTime) time.dateTime = time.textContent;
-					let x = new Date(time.dateTime.includes('T') && !time.dateTime.endsWith('Z') ? time.dateTime + 'Z' : time.dateTime);
-					time.textContent = x.toLocaleDateString(undefined, {'dateStyle': 'full', 'timeZone': 'UTC'});
-					time.title = x.toLocaleString(undefined, {'timeZone': 'UTC'});
-					time.lang = navigator.language||'';
+			$$('time').forEach(_=>{
+				if(_.className == 'now') _.dateTime = new Date(now - now.getTimezoneOffset()*60*1000).toISOString().split('.')[0];
+				if(_.dataset.days === undefined){
+					if(!_.dateTime) _.dateTime = _.textContent;
+					let x = new Date(_.dateTime.includes('T') && !_.dateTime.endsWith('Z') ? _.dateTime + 'Z' : _.dateTime);
+					_.textContent = x.toLocaleDateString(undefined, {'dateStyle': 'full', 'timeZone': 'UTC'});
+					_.title = x.toLocaleString(undefined, {'timeZone': 'UTC'});
+					_.lang = navigator.language||'';
 				}
-				if(time.className == 'now') return;
-				time.dataset.days = (Date.parse(time.dateTime.split('T')[0]) - Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()))/(24*60*60*1000);
-				if(time.dataset.days == 0) time.parentElement.classList.add('today');
-				if(time.dataset.days < 0) time.parentElement.classList.add('past');
+				if(_.className != 'now') _.dataset.days = (Date.parse(_.dateTime.split('T')[0]) - Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()))/(24*60*60*1000);
+				if(_.dataset.days < 0) _.closest('.event, #updated').classList.add('past');
 			});
-			window.setTimeout(clock, now.setHours(24, 0, 0, 0) - Date.now());
+			w.setTimeout(clock, now.setHours(24, 0, 0, 0) - Date.now());
 		})();
+		/*$('#search').disabled = false;
+		$('#search').onkeyup = e=>{
+			if(typeof(e.code) != 'undefined') return;
+			w.location.hash = e.target.list.querySelector('option[value="' + e.target.value + '"]').title;
+			e.target.value = '';
+		};*/
 	]]></xsl:template>
 </xsl:stylesheet>
 </channel><!--</script>
-<noscript><meta http-equiv="Refresh" content="0;URL=error?message=This+page+requires+javascript"/></noscript>
-<script>'use strict';
-	try {
-		if(window.location.search == '?TEST') throw '';
-		let xml = new DOMParser().parseFromString(document.getElementById('xml').text.slice(0, -4), 'text/xml');
-		xml.querySelectorAll('parsererror>div').forEach(_=>console.warn(_.textContent.trim()));
-		let xsl = new XSLTProcessor();
-		xsl.importStylesheet(xml.getElementById('xsl'));
-		xsl.setParameter(null, 'q', window.location.search);
-		let html = '<!DOCTYPE html>' + xsl.transformToDocument(xml).documentElement.outerHTML;
-		window.addEventListener('load', e=>{
-			document.open().write(html);
-			document.close();
-		}, {'capture': true, 'once': true});
-	} catch(e) {window.location.replace('error?message=' + encodeURIComponent(e.message));}
-</script><br data-->
-</rss>
+<noscript><meta http-equiv="Refresh" content="0;URL=error?url=events"/></noscript>
+<script>try {Function(document.childNodes[2].data)();} catch(e) {window.location.replace('error?' + new URLSearchParams({'message': e.message||e, 'url': 'events' + window.location.search}));}</script>
+<wbr data--></rss>
