@@ -2,20 +2,20 @@
 <meta charset="utf-8"/>
 <meta name="robots" content="noindex, nofollow"/>
 <meta name="referrer" content="no-referrer"/>
-<title>404 | CARLA</title>
+<title>Error / Erreur | CARLA</title>
 <base target="_top"/>
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='border:30vw%20solid%20%23FFF;border-radius:50%25;background:%23F00;'/%3E"/>
+<link id="icon" rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20style='background:radial-gradient(%23FFF%2025vmin,%23F00%200);'/%3E"/>
 <script>'use strict';
-	let _ = window.location, [q, ...p] = (_.search.startsWith('?/') ? _.search.split('?')[1] : _.pathname).toLowerCase().split('/').slice(1);
-	let paths = {
-		'http:': 'http:',
-		'https:': 'http:',
+	let w = window, d = document, path = w.location.search.startsWith('?/') ? w.location.search.split('?')[1] : w.location.pathname, paths = {
+		//'http:': 'http:',
+		//'https:': 'http:',
 		'tt': 'http://tiktok.com/@carlamusicoff',
 		'ig': 'http://instagr.am/carlamusicoff',
 		'fb': 'http://fb.com/carlamusicoff',
 		'tw': 'http://twitter.com/carlamusicoff_',
 		'yt': 'http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA',
 		'sp': 'http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr',
+		'index': 'index#',
 		'events': 'events?',
 		'music': 'music#',
 		'media': 'media#',
@@ -24,36 +24,53 @@
 		'musique': 'music',
 		'medias': 'media',
 		'liens': 'links',
-	};
-	if(q in paths){
-		document.title = '...';
-		let search = _.search.startsWith('?/') ? _.search.split('?').slice(2).map(_=>'?'+_).join('') : _.search;
-		_.replace(paths[q] + p.map(_=>'/'+_).join('') + search + _.hash);
-	}
+		'index.xml': 'index.html',
+		'events.xml': 'events.html',
+		'music.html': 'music.xml',
+		'media.html': 'media.xml',
+		'links.html': 'links.xml',
+		'favicon.ico': 'favicon.ico.svg',
+	}, [q, ...p] = path.toLowerCase().split('/').slice(1), params = new URLSearchParams(w.location.search.startsWith('?/') ? w.location.search.split('?').slice(2).map(_=>'?'+_).join('') : w.location.search);
+	if(q in paths) d.title = '...', d.getElementById('icon').href = 'data:,', w.location.replace(paths[q] + p.map(_=>'/'+_).join('') + (params.keys().next().done ? '' : '?' + params) + w.location.hash);
 </script>
-<template id="todo"><h1>Todo</h1>
-	- rename &lt;xml&gt;?
-	- favicon.ico svg file with fragment identifiers?
+<template id="todo">
+	add ?NOSTYLE (style.disabled = true), check with searchParams instead of ==?
 	<h2>404.html</h2>
+	- show error message from query / split path
 	<h2>events.html</h2>
+	- search function
+	- set status for cancelled events
+	- link rel="http://schema.org/organizer"?
+	- set og:image?
+	<h2>favicon.ico.svg</h2>
+	- 
 	<h2>i.html</h2>
+	- 
 	<h2>index.html</h2>
-	- srcset / media queries for images?
 	- fetch refresh / retry button?
 	- ig and tt urls inside srcdoc? (set iframe.name to {'time': 0, 'url': 'http://...'}?)
+	- fetch timeout doesn't retry? / test without connection
+	- tiktok stories? / tiktok live
+	- create Response() after fetch? / extract options from Request
+	- remove cors url from list when failed?
+	- iframes in noscript instead of srcdoc?
+	- tt/ig profile pictures?
+	- yt get first vevo video from feed and set image for playlist
 	<h2>links.xml</h2>
-	- fix fb etc links
-	- overlay hash urls?
-	- https://www.pressreader.com/france/20-minutes-nice/20200605/281500753477855
-	- overlay zoom toggle
+	- overlay hash urls? / overlay zoom toggle
+	- pressreader.com/france/20-minutes-nice/20200605/281500753477855
+	- photoshoots reverse order?
+	- rename photo elements to link?
+	- tt/ig download links on hover / #ig:XXXX urls for overlay?
 	<h2>media.xml</h2>
+	- replace year checkbox hide with links to #2019, #2020 etc? (~:target?)
 	- tf1 thumbs
 	- seb avec ta star fb / celia larry demifinale? / lyric videos? / official audio? / d06 fb live? / voice kids concert? / petites canailles hebdo de la musique?
 	- europe1 embed
-	- dates tolocalestring?
 	- je dirais > je dirai? / des gros > de gros?
 	- vk videos multiple sources? (nm, novids, biqle)
 	- reverse event order?
+	- reverse date format, use time elements, tolocalestring
 	- tiktok / ig embeds archive.org?
 	- twitter/periscope videos?
 	- bestimage?
@@ -61,96 +78,113 @@
 	- m6 video bank?
 	- konbini / brut fb videos?
 	- don't use exslt? use attribute-set? oxygenxml.com/archives/xsl-list/200105/msg00697.html
+	- give ids to events, expand with position fixed on :target?
+	- change favicon to color of event?
+	- add other events without media/milestones (birthdays, showcase in turin)?
 	<h2>music.xml</h2>
+	- show message when lyrics not available
+	- improve favicon images
 	- now playing bar + autoplay/shuffle? + change speed?
-	- loca french translation?
-	- (j)esc songs karaoke versions?
+	- progress bar while playing (-1:11, 2:11)?
+	- add xml:lang="fr" to song and replace F with &gt;_ t="000000000">, E with &gt;_ xml:lang="en">?
+	- add album release date/label?
+	- mark covers + add original artist?
+	- remy jay - bella rosa?
+	- dans ma bulle: mots > maux? / merci la vie: mais > même? / noel blanc: tes joies?
 	<hr/>
-	<h2>info.html? / quiz.html? / trivia.html?</h2>
-	Combine with faq structured data?
-	Carla's pet? - A Chanel le chien / B Gucci le chat / C Remy le lapin / D Dylan le dinosaur
-	Deuxieme single? - A Le droit de dire non / B L'autre moi / C Bim Bam Two / D ...
-	Fort Boyard? - A 0 / B 1 / C 2 / D 3
+	<h2>news.html/articles.html/news.xml/articles.xml?</h2>
+	- rss/atom feed with articles?
+	- include google news/reddit feeds?
+	<h2>info.html/faq.html/quiz.html/trivia.html?</h2>
+	- Combine with faq structured data?
+	- Carla's pet? - A Chanel la chienne / B Gucci le chat / C Remy/Tom le lapin / D Dylan le dinosaur
+	- Deuxieme single? - A Le droit de dire non / B L'autre moi / C Bim Bam Two / D ...
+	- Fort Boyard? - A 0 / B 1 / C 2 / D 3
 	<hr/>
 	<h2>Issues</h2>
+	- mlp.fr non ssl
 	- Itim font capital i sometimes different?
-		- http://public-firing-range.appspot.com/reflected/parameter/head?q=%3Cstyle%3E@import%20%27//fonts.googleapis.com/css2?family=Itim%27%3Bbody%7Bfont:28vw%20Itim%3Btext-align:center%3B%7D%3C/style%3EIIIIIIIII
+		- public-firing-range.appspot.com/reflected/parameter/head?q=%3Cstyle%3E@import%20%27//fonts.googleapis.com/css2?family=Itim%27%3Bbody%7Bfont:28vw%20Itim%3Btext-align:center%3B%7D%3C/style%3EIIIIIIIII
 		- github.com/google/fonts/issues
-	Twitter Widget
-		- no document.domain / no data url cache
-		- //abs.twimg.com with file://
-		- img loading lazy? (twittercommunity.com/c/publisher/websites/9)
-	Facebook Widget
-		- https://developers.facebook.com/support/bugs/1337180213092053
-		- https://developers.facebook.com/community/threads/226101445658989
-	Spotify Widget
+	- Facebook widget
+		- developers.facebook.com/support/bugs/1337180213092053
+		- developers.facebook.com/community/threads/226101445658989
+	- Spotify widget
 		- js source maps 404
 		- artist image smaller size
 </template>
-<template id="about"><h1>About</h1>
-	<span class="description" lang="en">Website about artist Carla Lazzari.</span>
+<template id="about">
 	<h2>Technology</h2>
-	SGML / HTML
-	XML / XSLT / SVG / RSS
-	CSS
-	JavaScript / <a href="http://jquery.com/">jQuery</a>
+	HTML + CSS
+	XML / XSL(T) / SVG / RSS / Atom
+	JavaScript + <a href="http://jquery.com/">jQuery</a>
 	<h2>Host</h2>
-	<a href="http://github.com/">GitHub</a>
-	<a href="http://cloudflare.com/">Cloudflare</a>
 	<a href="http://freenom.com/">Freenom</a>
+	<a href="http://cloudflare.com/">Cloudflare</a>
+	<a href="http://github.com/">GitHub</a>
 	<h2>Services</h2>
-	<a href="http://images.weserv.nl/"></a>
-	<a href="http://developer.wordpress.com/docs/photon">WordPress Photon</a>
-	<a href="http://thum.io/"></a>
-	<a href="http://maps.yandex.ru/"></a>
-	<a href="http://cloudinary.com/"></a>
-	<a href="http://microlink.io/"></a>
+	<a href="http://images.weserv.nl/"></a> / <a href="http://developer.wordpress.com/docs/photon">WordPress Photon</a>
+	<a href="http://cloudinary.com/"></a> + <a href="http://microlink.io/"></a>
+	<a href="http://thum.io/"></a> / <a href="http://aprc.it/"></a> (<a href="http://aprc.it/statistics">Statistics</a>)
+	<a href="http://maps.google.com/">Google Maps</a> / <a href="http://maps.yandex.com/">Yandex Maps</a> (<a href="http://yandex.com/dev/maps/staticapi">Static</a>)
 	<s><a href="http://urlecho.appspot.com/echo"></a></s> / <a href="http://public-firing-range.appspot.com/"></a>
+	<a href="http://script.google.com/">Google Apps Script</a>
 </template>
-<template id="search"><h1>Search</h1>
-	<input name="q" type="search" placeholder="Search" form="form" list="list"/>
-	<button name="tbs" value="qdr:d" form="form" formaction="http://google.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Day)</button>
-	<button name="tbs" value="qdr:w" form="form" formaction="http://google.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Week)</button>
-	<button name="tbs" value="qdr:m" form="form" formaction="http://google.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Month)</button>
-	<button name="sp" value="EgIIAg" form="form" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Day)</button>
-	<button name="sp" value="EgIIAw" form="form" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Week)</button>
-	<button name="sp" value="EgIIBA" form="form" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Month)</button>
-	<button name="f" value="live" form="form" formaction="http://twitter.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://twitter.com" alt=""/> Twitter</button>
-	<button disabled="disabled"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://fb.com" alt=""/> Facebook</button>
-	<button form="form" formaction="http://fb.com/watch/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://fb.com" alt=""/> Facebook Watch</button>
-	<button form="form" formaction="http://tiktok.com/search/video"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://tiktok.com" alt=""/> TikTok</button>
-	<button form="form" formaction="http://pinterest.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://pinterest.com" alt=""/> Pinterest</button>
+<template id="search">
+	<form action="http://google.com/search">
+		<datalist id="list">
+			<option>Carla</option>
+			<option>"Carla Lazzari"</option>
+			<option>"Carla Officiel"</option>
+			<option>CarlaMusicOff</option>
+			<option>"Carla Music Off"</option>
+			<option value=" "></option>
+			<option>"Bim Bam Toi"</option>
+			<option>"Bim Bam Tour"</option>
+			<option value=" "></option>
+			<option>"Carla Artistic"</option>
+			<option>"Carla The Voice Kids 5"</option>
+			<option>"Carla Lazarri"</option>
+			<option>"Clara Lazzari"</option>
+		</datalist>
+		<input name="q" type="search" value="Carla" list="list"/>
+		<button><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google</button>
+		<button name="tbs" value="qdr:d"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Day)</button>
+		<button name="tbs" value="qdr:w"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Week)</button>
+		<button name="tbs" value="qdr:m"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://google.com" alt=""/> Google (Month)</button>
+		<button formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube</button>
+		<button name="sp" value="EgIIAg" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Day)</button>
+		<button name="sp" value="EgIIAw" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Week)</button>
+		<button name="sp" value="EgIIBA" formaction="http://youtube.com/results"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://youtube.com" alt=""/> YouTube (Month)</button>
+		<button name="f" value="live" formaction="http://twitter.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://twitter.com" alt=""/> Twitter</button>
+		<button disabled="disabled"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://fb.com" alt=""/> Facebook</button>
+		<button formaction="http://fb.com/watch/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://fb.com" alt=""/> Facebook Watch</button>
+		<button formaction="http://tiktok.com/search/video"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://tiktok.com" alt=""/> TikTok</button>
+		<button formaction="http://pinterest.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://pinterest.com" alt=""/> Pinterest</button>
+		<button name="sort" value="new" formaction="http://old.reddit.com/search"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://reddit.com" alt=""/> Reddit</button>
+	</form>
 	<a href="http://fb.com/groups/211836616088662"></a>
 	<a href="http://fb.com/groups/203277401554995"></a>
 	<a href="http://fb.com/groups/354596849103923"></a>
 	<a href="http://fb.com/groups/carlalazzarifr"></a>
-	<a href="http://fb.com/hashtag/bimbamtoi"></a>
-	<a href="http://instagr.am/explore/tags/bimbamtoi"></a>
-	<a href="http://aboriva.com/revue?q=carla"></a>
-	<a href="http://aboriva.com/revue?q=clara"></a>
-	<form id="form" hidden="hidden"><datalist id="list">
-		<option>"Carla"</option>
-		<option>"Carla Lazzari"</option>
-		<option>"Carla Officiel"</option>
-		<option>"CarlaMusicOff"</option>
-		<option>"Carla Music Off"</option>
-		<option value=" "></option>
-		<option>"Sans Filtre"</option>
-		<option>"L'Autre Moi"</option>
-		<option>"Bim Bam Tour"</option>
-		<option>"Bim Bam Toi"</option>
-		<option value=" "></option>
-		<option>"Carla Artistic"</option>
-		<option>"Carla The Voice Kids 5"</option>
-		<option>"Carla Lazarri"</option>
-		<option>"Clara Lazzari"</option>
-	</datalist></form>
+	
+	<a href="http://fb.com/hashtag/carlamusicoff"></a>
+	<a href="http://fb.com/hashtag/carlalazzari"></a>
+	
+	<a href="http://instagr.am/explore/tags/carlamusicoff"></a>
+	<a href="http://instagr.am/explore/tags/carlalazzari"></a>
+	
+	<a href="http://tiktok.com/tag/carlamusicoff"></a>
+	<a href="http://tiktok.com/tag/carlalazzari"></a>
+	
+	<a href="http://www.aboriva.com/common/search/carla/nofilter"></a>
+	<a href="http://jvarchive.com/topic/recherche?searchType=titre_topic&search=carla"></a>
 </template>
-<template id="archive"><h1>Archive</h1>
+<template id="archive">
 	<a href="http://web.archive.org/..."></a>
 </template>
-<template id="other"><h1>Other</h1>
-	<h2>Casagrandes</h2>
+<template id="other">
+	<h2>Casagrandes?</h2>
 	<a href="http://replay.gulli.fr/dessins-animes/Les-Casagrandes-s01/les-casagrandes-s01-e20-rencontre-avec-une-star-vod69569646433000"></a>
 	<a href="http://lescasagrandesderonnieanne.fandom.com/fr/wiki/La_starlite"></a>
 	<a href="http://pinterest.com/pin/721842646510176090"></a>
@@ -163,7 +197,6 @@
 	<a href="http://video.kiwi/E83FD2DC64"></a>
 	<a href="http://twitter.com/i/broadcasts/1LyGBdQqaoaxN"></a>
 	<a href="http://qolora.seekat.fr/euroconfpresse"></a>
-	<a href="http://undelete.news"></a>
 	<a href="http://embedftv-a.akamaihd.net/?ue=31477a619401d2083d2d6ca06771af0e"></a>
 	<a href="http://yewtu.be/watch?v=eCLrS399-OY&amp;quality=dash"></a>
 	<a href="http://pinterest.fr/vallee3286"></a>
@@ -171,16 +204,30 @@
 	<a href="http://exolyt.com/user/carlamusicoff/full"></a>
 	<a href="http://youtube.com/channel/UCATnaXycsHBOK22-BzYmrlg/videos"></a>
 	<a href="http://pm1.narvii.com/8155/43695ed5f78823b3c7fcee2d8e79217c35ceb118r1-770-961v2_hq.jpg"></a>
+	<a href="http://browserling.com/browse/android/7.1/https%3A%2F%2Fcarlax.ml%2Fold%2Ftest2.xml"></a>
+	<a href="http://digital.playbacpresse.fr/article/carla"></a>
+	<a href="http://api.playbacpresse.fr/uploads/media/pdf_actu/2020/08/thumb_87075_pdf_actu_big.jpeg"></a>
+	<a href="http://api.playbacpresse.fr/download?media=87076&entity=newspaperPdf&newspaperSubname=actu&newspaperPdfDate=2020-8-9"></a>
 	<hr/>
-	<script style="display: block; font-size: 12px; text-align: initial; white-space: pre;">
+	<h2>Script</h2>
+	<script style="display: block; font-size: 10px; color: #000; background-color: #FFF; text-align: initial; white-space: pre;">
 /** @OnlyCurrentDoc */'use strict';
 function doGet(e){
-	let request = {
-		'e': e,
-		'HtmlService.getUserAgent': HtmlService.getUserAgent(),
-		'Session.getActiveUserLocale': Session.getActiveUserLocale(),
-	};
-	return ContentService.createTextOutput(JSON.stringify(request)).setMimeType(ContentService.MimeType.JSON);
+	switch(true){
+		case 'TEST' in e.parameter:
+			return ContentService.createTextOutput(JSON.stringify({
+				'e': e,
+				'Date': new Date().toISOString();
+				'HtmlService.getUserAgent': HtmlService.getUserAgent(),
+				'Session.getActiveUserLocale': Session.getActiveUserLocale(),
+			}, null, '\t')).setMimeType(ContentService.MimeType.JSON);
+		case 'HTML' in e.parameter:
+			return HtmlService.createHtmlOutput('<h1>TEST</h1>');
+		case 'NONE' in e.parameter:
+			return undefined;
+		default:
+			return ContentService.createTextOutput();
+	}
 }
 function doPost(e){
 	try {
@@ -202,21 +249,21 @@ function doPost(e){
 					row.push(Session.getActiveUserLocale());
 					break;
 				case 'debug':
-					row.push(JSON.stringify(e));
+					row.push(JSON.stringify(e, null, '\t'));
 					break;
 				default:
 					row.push(e.parameter[header.toLowerCase()]);
 			}
 		}
 		sheet.appendRow(row);
-		return ContentService.createTextOutput(JSON.stringify({'ok': true})).setMimeType(ContentService.MimeType.JSON);
+		return ContentService.createTextOutput('{"ok":true}').setMimeType(ContentService.MimeType.JSON);
 	} catch(error){
-		return ContentService.createTextOutput(JSON.stringify(error, Object.getOwnPropertyNames(error))).setMimeType(ContentService.MimeType.JSON);
+		return ContentService.createTextOutput(JSON.stringify(error, Object.getOwnPropertyNames(error), '\t')).setMimeType(ContentService.MimeType.JSON);
 	}
 }
 	</script>
 </template>
-<template id="validate"><h1>Validate</h1>
+<template id="validate">
 	<h2>Search</h2>
 	<a href="http://carlax.ml"><img src="https://t0.gstatic.com/favicon?client=afs&amp;url=http://carlax.ml" alt=""/>carlax.ml</a>
 	<a href="http://google.com/search?q=site:carlax.ml"></a>
@@ -277,70 +324,101 @@ function doPost(e){
 	<a href="http://validator.w3.org/feed/check.cgi?url=carlax.ml/events?feed"></a>
 	<a href="http://rssboard.org/rss-validator/check.cgi?url=carlax.ml/events?feed"></a>
 	<a href="http://google.com/ping?sitemap=https://carlax.ml/events?feed"></a>
-	<h2>Reputation</h2>
+	<h2>Safety</h2>
 	<a href="http://transparencyreport.google.com/safe-browsing/search?url=carlax.ml"></a>
 	<a href="http://yandex.com/safety?url=carlax.ml"></a>
 	<a href="http://siteadvisor.com/sitereport.html?url=carlax.ml"></a>
-	<h2>Other</h2>
+	<h2>Archive</h2>
 	<a href="http://web.archive.org/*/carlax.ml*"></a>
-</template>
-<template id="clips"><h1>Clips</h1>
-	<a href="http://youtu.be/pjJ2w1FX_Wg"><img src="https://i.ytimg.com/vi_webp/pjJ2w1FX_Wg/mqdefault.webp" alt="Bim Bam toi"/></a>
-	<a href="http://youtu.be/_aXA1jRXWnk"><img src="https://i.ytimg.com/vi_webp/_aXA1jRXWnk/mqdefault.webp" alt="Les enfants du monde"/></a>
-	<a href="http://youtu.be/6MavJOVeQSo"><img src="https://i.ytimg.com/vi_webp/6MavJOVeQSo/mqdefault.webp" alt="L'autre moi"/></a>
-	<a href="http://youtu.be/A35MFDRa8tY"><img src="https://i.ytimg.com/vi_webp/A35MFDRa8tY/mqdefault.webp" alt="Trois petits pas"/></a>
-	<a href="http://youtu.be/EXa0zHdD4mE"><img src="https://i.ytimg.com/vi_webp/EXa0zHdD4mE/mqdefault.webp" alt="C'est bientôt Noël"/></a>
-	<a href="http://youtu.be/nyAX64Rl4Gk"><img src="https://i.ytimg.com/vi_webp/nyAX64Rl4Gk/mqdefault.webp" alt="Cœur sur toi"/></a>
-	<a href="http://youtu.be/ii5SgzefjHo"><img src="https://i.ytimg.com/vi_webp/ii5SgzefjHo/mqdefault.webp" alt="Alors chut"/></a>
-	<a href="http://youtu.be/hDDv3tGeTBQ"><img src="https://i.ytimg.com/vi_webp/hDDv3tGeTBQ/mqdefault.webp" alt="J'attendrai"/></a>
-	<a href="http://youtu.be/RAbXpTbVeGA"><img src="https://i.ytimg.com/vi_webp/RAbXpTbVeGA/mqdefault.webp" alt="Fais pas ci, fais pas ça"/></a>
-	<a href="http://youtu.be/-EQvIdKpVVc"><img src="https://i.ytimg.com/vi_webp/-EQvIdKpVVc/mqdefault.webp" alt="Les marionnettes"/></a>
 </template>
 <style onload="window.history.scrollRestoration = 'manual';">
 	@import 'https://fonts.googleapis.com/css2?family=Itim&display=swap';
 	html {background-color: #000;}
 	body {margin: 0px; font: 15px 'Itim', 'Calibri', sans-serif; text-align: center; color: #FFF;}
-	body:not([id]) {min-height: 100vh; background: #A23 linear-gradient(45deg, transparent, #F53 60%);}
+	body:not([id]) {min-height: 100vh; background: #A23 linear-gradient(45deg, #F530, #F53 60%);}
 	body:not([id]) h1 {display: none;}
-	body[id] {width: 80%; margin: 20px auto; font: 16px monospace; white-space: pre-line; background-color: #FFF3;}
-	body[id]::after {content: ''; display: block; height: 200px;}
-	body[id] h1 {margin: 0px; padding: 10px; background-color: #FFF2; text-transform: uppercase;}
-	body[id] h2 {margin: 0px; border-bottom: 1px dashed #FFF;}
-	body[id] hr {height: 30px; border-style: none; background-color: #000;}
+	body[id] {width: 60%; margin: 20px auto; font-family: monospace; text-align: initial; background-color: #FFF1; white-space: pre-line;}
+	body[id] h1 {margin: 0px; padding: 10px; border: 1px solid currentcolor; text-align: center; text-transform: uppercase;}
+	body[id] h2 {margin: 0px; border-bottom: 1px dashed #FFF; text-align: initial; text-transform: uppercase;}
+	body[id] hr {height: 20px; border-style: none; background-color: #000;}
+	body[id] form {white-space: initial;}
 	a {color: inherit;}
-	a:empty::before {content: attr(href);}
+	a:not(:hover) {text-decoration: none;}
+	a:empty::before {content: attr(href); overflow-wrap: anywhere;}
+	dl, dt, dd {display: inline; margin: 0px;}
 	img {vertical-align: middle;}
-	input, button, select {font: inherit;}
+	input, button, select {padding: 5px; font: inherit; color: inherit; border: 1px solid currentcolor; background-color: transparent;}
+	[disabled]:disabled {opacity: 0.5;}
 	[placeholder]::placeholder {width: 100%; text-align: center;}
-	#error .message {font-size: 40px; font-style: italic; text-shadow: 0px 0px 5px #0008; text-transform: uppercase;}
-	#error .message>span:first-child {font-size: 120px; font-weight: bold;}
+	[hidden] {display: none !important;}
 	iframe {display: block; border-style: none;}
-	nav {height: 100px; opacity: 0.5; transition: opacity 0.3s;}
-	nav:hover {opacity: initial;}
-	nav iframe {width: 100%; height: 100%;}
-	#error::after {content: ''; display: inline-block; width: 70%; height: 80px; margin-top: -40px; background-image: radial-gradient(#000D 10%, transparent 70%);}
-	#deezer {margin: 5px auto; padding: 0px 46px; border: 10px solid #222; border-radius: 100px; background-color: #222; box-shadow: 0px 0px 10px #FFF9;}
-	#website a {display: inline-block; width: 200px; line-height: 200px; margin: 10px; background-color: #FFF1;}
+	header {height: 100px; opacity: 0.5; transition: opacity 0.3s;}
+	header:hover {opacity: initial;}
+	header>iframe {width: 100%; height: 100%;}
+	.error {display: block; margin: 50px; border-radius: 50px; background-color: #FFF1; font-size: 40px; text-shadow: 0px 0px 5px #0008; overflow: hidden;}
+	.error .link {font-style: italic; background-color: #FFF6;}
+	.error .message {font-size: 125%; font-weight: bold; text-transform: uppercase;}
+	.error .message abbr {display: inline-block; position: relative; font-size: 150px; font-weight: bold; text-decoration: none; vertical-align: middle;}
+	.error .message abbr::before {content: ''; display: block; position: absolute; bottom: -20%; width: 100%; height: 50%; background-image: radial-gradient(#0005 20%, #0000 60%); z-index: -1;}
+	.error .message abbr:not(:hover) {color: transparent; filter: grayscale(1);}
+	.back {display: inline-block; position: relative; line-height: 40px; padding-right: 10px; border-radius: 0px 5px 5px 0px; color: #000; background-color: #FFF;}
+	.back::before {content: ''; display: block; position: absolute; top: -20px; left: -60px; border: 40px solid transparent; border-left-width: 0px; border-right: 60px solid #FFF;}
+	#index a {display: block; line-height: 50px; background-color: #FFF1; text-align: center;}
+	#index a:hover {color: #000; background-color: #FFF;}
 </style>
-<h1>404</h1>
-<noscript><div id="error">
-	<nav><iframe src="/i.html#404" title="Menu" referrerpolicy="same-origin"></iframe></nav>
-	<div class="message"><span>404</span> <span lang="en">Not Found</span> / <span lang="fr">Introuvable</span></div>
-	<span lang="en"><a href="/">Go back to the homepage</a> or listen to a random song:</span>
-	<iframe id="deezer" src="about:blank" data-src="https://www.deezer.com/plugins/player?type=radio&amp;layout=dark&amp;id=artist-78960852" width="350" height="92" title="Deezer" allow="encrypted-media *" loading="lazy" onload="!this.contentDocument || (this.src = this.dataset.src + '&amp;' + (Math.random()*100).toFixed());"></iframe>
-</div></noscript>
+<h1 id="404"><span lang="en">Error</span> / <span lang="fr">Erreur</span></h1>
+<noscript id="error">
+	<header><iframe src="/i.html#404" title="Menu" referrerpolicy="same-origin"></iframe></header>
+	<dl class="error">
+		<div class="link">
+			<dt hidden="hidden">URL</dt>
+			<dd><a href=""></a></dd>
+		</div>
+		<div class="message">
+			<dt><abbr title="Error">🦆</abbr></dt>
+			<dd><strong lang="en">Not Found</strong> / <strong lang="fr">Introuvable</strong></dd>
+		</div>
+	</dl>
+	<a class="back" href="/"><span lang="en">Back to homepage</span> / <span lang="fr">Retour à l'accueil</span></a>
+</noscript>
 <script>'use strict';
-	let path = window.location.search.startsWith('?/') ? window.location.search.slice(1) : window.location.pathname;
 	switch(true){
-		case path == '/x/':
-			document.title = (document.body.id = 'website').toUpperCase();
-			document.body.innerHTML = `<h1>Website</h1>\r\n` + [...document.head.querySelectorAll('[id]')].map(_=>`<a href="${window.location.search.startsWith('?/') ? '?/x/' : ''}${_.id}"></a>`).join('\r\n');
+		case path.startsWith('/x/'):
+			d.title = (d.body.id = path.slice(3)||'index').toUpperCase(), d.getElementById('icon').href = encodeURI('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" style="background:black;"/>');
+			d.body.innerHTML = `<h1>${d.title}</h1>`;
+			switch(true){
+				case d.getElementById(path.slice(3)) instanceof HTMLTemplateElement:
+					d.body.innerHTML += d.getElementById(path.slice(3)).innerHTML;
+					break;
+				default:
+					d.body.innerHTML += `
+						<h2>Pages</h2>
+						${[...d.head.querySelectorAll('template[id]')].map(_=>`<a href="${w.location.search.startsWith('?/') ? '?/x/' : ''}${_.id}"></a>`).join('\r\n')}
+						<h2>Paths</h2>
+						${Object.entries(paths).map(_=>`<a href="${w.location.search.startsWith('?/') ? '?' : ''}/${_[0]}">${_[0]} > ${_[1]}</a>`).join('\r\n')}
+					`;
+			}
 			break;
-		case path.startsWith('/x/') && !!document.getElementById(path.slice(3)):
-			document.title = (document.body.id = path.slice(3)).toUpperCase();
-			document.body.innerHTML = document.getElementById(path.slice(3)).innerHTML;
-			break;
+		case path.toLowerCase() == '/error':
+			path = new URL(params.get('url')||'', d.baseURI).pathname;
+			//error = params.get('message')||'Error';
 		default:
-			document.querySelectorAll('noscript').forEach(_=>_.outerHTML = _.textContent);
+			try {
+				let html = new Range().createContextualFragment(d.getElementById('error').textContent);
+				/*let x = path.split('/').map((_, i)=>{
+					let url = (_=>{switch(true){
+						case i >= 2: return '..' + '/..'.repeat(i-2);
+						case i == 1: return '.';
+						default: return '';
+					}})();
+					return `<a href="${url}" title="${url}">${_}</a>`;
+				}).join('/');
+				html.querySelector('dd').innerHTML = x;*/
+				html.querySelector('a').href = html.querySelector('a').title = encodeURI(path);
+				//if(error) html.querySelector('strong').textContent = error;
+				d.getElementById('error').replaceWith(html);
+			} catch(e) {
+				d.getElementById('error').outerHTML = d.getElementById('error').textContent;
+			}
 	}
 </script>
