@@ -1,73 +1,67 @@
 <!DOCTYPE html>
 <meta charset="utf-8"/>
 <meta name="robots" content="noindex, nofollow"/>
-<meta name="googlebot" content="indexifembedded"/>
 <meta name="referrer" content="no-referrer"/>
 <title>CARLA</title>
 <base target="_top"/>
-<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'/%3E"/>
+<link rel="icon" href="favicon.ico.svg"/>
 <link rel="preload" as="font" href="https://fonts.cdnfonts.com/s/425/texgyreadventor-regular.woff2" type="font/woff2" crossorigin="anonymous"/>
-<style onload="window.history.scrollRestoration = 'manual';">
+<style>
 	@font-face {
 		src: local('AvantGarde-Book'), local('URWGothicL-Book'), local('TeXGyreAdventor-Regular'),
 			url('https://fonts.cdnfonts.com/s/425/texgyreadventor-regular.woff2') format('woff2'),
 			url('https://fonts.cdnfonts.com/s/425/texgyreadventor-regular.woff') format('woff'),
 			url('https://fonts.cdnfonts.com/s/425/texgyreadventor-regular.otf') format('opentype');
-		font-family: 'Carla';
+		font-family: 'CARLA';
 		font-display: swap;
 	}
-	body {margin: 0px; font: 5vw 'Carla', 'Gotham', 'Verdana', sans-serif; color: #FFF; text-align: center; transition: color 0.3s, background-color 0.3s;}
+	body {margin: 0px; font: 5vw 'CARLA', 'Gotham', 'Verdana', sans-serif; color: #FFF; text-align: center; transition: color 0.3s, background-color 0.3s;}
 	body:hover {color: #000; background-color: #FFF;}
-	a {color: inherit; text-align: center; text-decoration: none;}
-	a:hover {color: #000; text-decoration: underline var(--colour, currentcolor);}
-	a:active {color: var(--colour, currentcolor);}
-	div {display: flex; height: 100vh; overflow: hidden; text-transform: uppercase; animation: 1s load; align-items: center;}
-	div>* {min-width: 0px; flex: 1;}
-	#index {background-image: radial-gradient(#FFFA 25%, transparent 60%);}
+	a {color: inherit; text-decoration: none;}
+	a:hover {color: #000; text-decoration: underline var(--c, currentcolor);}
+	a:active {color: var(--c, currentcolor);}
+	ul {margin: 0px; padding: 0px; list-style-type: none;}
+	body>ul {display: flex; height: 100vh; overflow: hidden; text-transform: uppercase; animation: 1s load; align-items: center;}
+	body>ul>li {min-width: 0px; flex: 1;}
+	[id]:target>a {text-decoration: underline dashed;}
+	#index {background-image: radial-gradient(#FFFA 25%, #FFF0 60%);}
 	#index>a {color: #F5F; background-image: -webkit-linear-gradient(currentcolor, #C8F); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0px 0px 0px #A27);}
-	.follow {display: inline-block; font-size: initial; border-radius: 10px 0px 0px 10px; background-color: #0003;}
-	.follow a {display: inline-block; vertical-align: top;}
+	.follow {font-size: initial; border-radius: 10px 0px 0px 10px; background-color: #0003;}
+	.follow::before {content: 'Follow Carla:';}
+	.follow li {display: inline;}
 	.follow a:not(:hover) {opacity: 0.5; filter: grayscale(1);}
-	[id]:target a {text-decoration: underline dashed;}
-	@media (max-width: 600px) {
-		div {flex-wrap: wrap;}
-		#index {width: 100%;}
-	}
-	@media (max-width: 1200px) {
-		.follow {display: none;}
-	}
+	@media (min-width: 1600px) {body {font-size: 80px;}}
+	@media (max-width: 1200px) {.follow {display: none;}}
+	@media (min-height: 300px) {body {background: repeating-conic-gradient(#0000 0% 25%, #0001 25% 50%) 50% calc(50% - 50px)/200px 200px;}}
 	@keyframes load {0% {transform: translateY(-100%);} 100% {transform: initial;}}
 </style>
-<div>
-	<span id="index" style="--colour: #EDD;"><a href="./" title="Carla">Carla</a></span>
-	<span id="music" style="--colour: #E8E;"><a href="music" title="Music">Music</a></span>
-	<span id="media" style="--colour: #FA0;"><a href="media" title="Media">Media</a></span>
-	<span id="links" style="--colour: #5FA;"><a href="links" title="Links">Links</a></span>
-	<aside class="follow">
-		Follow Carla:<br/>
-		<a href="http://tiktok.com/@carlamusicoff" title="TikTok"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://tiktok.com" width="32" height="32" alt="TikTok" decoding="async"/></a>
-		<a href="http://instagr.am/carlamusicoff" title="Instagram"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://instagr.am" width="32" height="32" alt="Instagram" decoding="async"/></a>
-		<a href="http://fb.com/carlamusicoff" title="Facebook"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://fb.com" width="32" height="32" alt="Facebook" decoding="async"/></a>
-		<a href="http://twitter.com/carlamusicoff_" title="Twitter"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://twitter.com" width="32" height="32" alt="Twitter" decoding="async"/></a>
-		<a href="http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA" title="YouTube"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://youtube.com" width="32" height="32" alt="YouTube" decoding="async"/></a>
-		<a href="http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr" title="Spotify"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://open.spotify.com" width="32" height="32" alt="Spotify" decoding="async"/></a>
-	</aside>
-</div>
+<ul>
+	<li id="index" style="--c: #EDD;"><a href="." title="Carla">Carla</a></li>
+	<li id="music" style="--c: #EAE;"><a href="music" title="Music">Music</a></li>
+	<li id="media" style="--c: #EEA;"><a href="media" title="Media">Media</a></li>
+	<li id="links" style="--c: #AEE;"><a href="links" title="Links">Links</a></li>
+	<li class="follow">
+		<ul>
+			<li><a href="http://tiktok.com/@carlamusicoff" title="TikTok"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://tiktok.com" width="32" height="32" alt="TikTok" decoding="async"/></a></li>
+			<li><a href="http://instagr.am/carlamusicoff" title="Instagram"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://instagr.am" width="32" height="32" alt="Instagram" decoding="async"/></a></li>
+			<li><a href="http://fb.com/carlamusicoff" title="Facebook"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://fb.com" width="32" height="32" alt="Facebook" decoding="async"/></a></li>
+			<li><a href="http://twitter.com/carlamusicoff_" title="Twitter"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://twitter.com" width="32" height="32" alt="Twitter" decoding="async"/></a></li>
+			<li><a href="http://youtube.com/channel/UCOU6K1QqlJJKUKWsK2dKcFA" title="YouTube"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://youtube.com" width="32" height="32" alt="YouTube" decoding="async"/></a></li>
+			<li><a href="http://open.spotify.com/artist/7dgCfYEmAX7OxaYWgCGxAr" title="Spotify"><img src="https://t0.gstatic.com/favicon?client=afs&amp;size=32&amp;url=http://open.spotify.com" width="32" height="32" alt="Spotify" decoding="async"/></a></li>
+		</ul>
+	</li>
+</ul>
 <script>'use strict';
 	window.fetch('//cloudflare.com/cdn-cgi/trace', {'cache': 'force-cache'}).then(_=>_.text()).then(text=>{
 		return Promise.reject(Object.fromEntries(text.split('\n').map(_=>_.trim().split('='))));
 	}).catch(result=>{
-		let body = {
-			'id': window.location.hash.substring(1) + (document.referrer ? ' (' + document.referrer + ')' : ''),
+		let url = '//script.google.com/macros/s/AKfycbzIuDBDuuAVlKBaVEUl_OLGnRG1kqTn5dNTo7p_TRNNORXQYiaE/exec', body = {
+			'id': window.location.hash.slice(1) + (document.referrer ? ' (' + document.referrer + ')' : ''),
 			'ip': result instanceof Error ? result.message : result.ip + ' (' + result.loc + ')',
-			'screen': window.screen.width + 'x' + window.screen.height + (window.devicePixelRatio != 1 ? ' (' + window.devicePixelRatio.toFixed(2) + ')' : ''),
+			'screen': window.screen.width + '×' + window.screen.height + (window.devicePixelRatio != 1 ? ' (' + window.devicePixelRatio.toFixed(2) + ')' : ''),
 			'history': window.history.length + (!!window.frameElement && window.parent.document.referrer ? ' (' + window.parent.document.referrer + ')' : ''),
 		};
-		window.fetch('//script.google.com/macros/s/AKfycbzIuDBDuuAVlKBaVEUl_OLGnRG1kqTn5dNTo7p_TRNNORXQYiaE/exec', {
-			'method': 'POST',
-			'mode': 'no-cors',
-			'keepalive': true,
-			'body': new URLSearchParams(body),
-		}).catch(_=>console.log(body));
+		window.fetch(url, {'method': 'POST', 'mode': 'no-cors', 'keepalive': true, 'body': new URLSearchParams(body)}).catch(_=>console.log(body));
+		//window.onpagehide = e=>window.navigator.sendBeacon(url, {'ip': body.ip, 'element': (!window.hasFocus() && !!window.frameElement ? window.parent : window).document.activeElement.href});
 	});
 </script>
